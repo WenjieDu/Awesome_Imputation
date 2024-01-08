@@ -1,0 +1,3 @@
+python data_processing/gene_physionet_2012.py
+python data_processing/gene_air_quality.py
+python data_processing/gene_ettm1.py
