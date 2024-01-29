@@ -38,7 +38,7 @@ Contributions to update new resources and articles are very welcome.
 
 ## ❖ Must-Read Papers on Time-Series Imputation
 Papers listed here may be not from top publications, some of them even are not deep-learning methods,
-but are all good papers related to time-series imputation that deserve reading.
+but are all interesting papers related to time-series imputation that deserve reading.
 
 ### Year 2023
 
@@ -57,6 +57,10 @@ but are all good papers related to time-series imputation that deserve reading.
 [TMLR] **Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models**
 [[paper](https://openreview.net/forum?id=hHiIbk7ApW)]
 [[official code](https://github.com/AI4HealthUOL/SSSD)]
+
+[ICML] **Modeling Temporal Data as Continuous Functions with Stochastic Process Diffusion**
+[[paper](https://proceedings.mlr.press/v202/bilos23a.html)]
+[[official code](https://github.com/morganstanley/MSML/tree/main/papers/Stochastic_Process_Diffusion)]
 
 [ICML] **Provably Convergent Schrödinger Bridge with Applications to Probabilistic Time Series Imputation**
 [[paper](https://proceedings.mlr.press/v202/chen23f.html)]
