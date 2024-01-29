@@ -66,25 +66,31 @@ but are all interesting papers related to time-series imputation that deserve re
 [[paper](https://proceedings.mlr.press/v202/chen23f.html)]
 [[official code](https://github.com/morganstanley/MSML/tree/main/papers/Conditional_Schrodinger_Bridge_Imputation)]
 
+[ICML] **Modeling Temporal Data as Continuous Functions with Stochastic Process Diffusion**
+[[paper](https://proceedings.mlr.press/v202/bilos23a)]
+
+[ICML] **Probabilistic Imputation for Time-series Classification with Missing Data**
+[[paper](https://proceedings.mlr.press/v202/kim23m)]
+
 [KDD] **Source-Free Domain Adaptation with Temporal Imputation for Time Series Data**
 [[paper](https://arxiv.org/abs/2307.07542)]
 [[official code](https://github.com/mohamedr002/MAPU_SFDA_TS)]
+
+[KDD] **Networked Time Series Imputation via Position-aware Graph Enhanced Variational Autoencoders**
+[[paper](https://arxiv.org/abs/2305.18612)]
+
+[KDD] **An Observed Value Consistent Diffusion Model for Imputing Missing Values in Multivariate Time Series**
+[[paper](https://dl.acm.org/doi/10.1145/3580305.3599257)]
 
 [TKDE] **Selective Imputation for Multivariate Time Series Datasets With Missing Values**
 [[paper](https://drive.google.com/file/d/1ZLDI5NAn5cQhKbWJ7If4tN_pUrMkLgK9/view)]
 [[official code](https://github.com/ablazquezg/Selective-imputation)]
 
-[KDD] **Networked Time Series Imputation via Position-aware Graph Enhanced Variational Autoencoders**
-[[paper](https://arxiv.org/abs/2305.18612)]
-
-[ICML] **Probabilistic Imputation for Time-series Classification with Missing Data**
-[[paper](https://proceedings.mlr.press/v202/kim23m)]
+[TKDE] **PATNet- Propensity-Adjusted Temporal Network for Joint Imputation and Prediction using Binary EHRs with Observation Bias**
+[[paper](https://ieeexplore.ieee.org/document/10285044/)]
 
 [TKDD] **Multiple Imputation Ensembles for Time Series (MIE-TS)**
 [[paper](https://drive.google.com/file/d/1jFTOW6L2-pOFY5R2ogLMR0_ZtIovQEp-/view)]
-
-[TKDE] **PATNet- Propensity-Adjusted Temporal Network for Joint Imputation and Prediction using Binary EHRs with Observation Bias**
-[[paper](https://ieeexplore.ieee.org/document/10285044/)]
 
 [CIKM] **Density-Aware Temporal Attentive Step-wise Diffusion Model For Medical Time Series Imputation**
 [[paper](https://dl.acm.org/doi/abs/10.1145/3583780.3614840)]
