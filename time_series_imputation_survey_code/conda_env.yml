@@ -20,12 +20,13 @@ dependencies:
   - brotli-python=1.0.9=py311h6a678d5_7
   - bzip2=1.0.8=h7b6447c_0
   - c-ares=1.19.1=h5eee18b_0
-  - ca-certificates=2023.12.12=h06a4308_0
+  - ca-certificates=2023.11.17=hbcca054_0
   - cachetools=5.3.2=pyhd8ed1ab_0
-  - certifi=2023.11.17=py311h06a4308_0
+  - certifi=2023.11.17=pyhd8ed1ab_0
   - cffi=1.16.0=py311h5eee18b_0
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
   - click=8.1.7=unix_pyh707e725_0
+  - colorama=0.4.6=py311h06a4308_0
   - contourpy=1.2.0=py311hdb19cb5_0
   - cryptography=41.0.7=py311hdda0065_0
   - cuda-cudart=12.1.105=0
@@ -149,7 +150,7 @@ dependencies:
   - pyjwt=2.8.0=pyhd8ed1ab_0
   - pyopenssl=23.2.0=py311h06a4308_0
   - pyparsing=3.0.9=pyhd8ed1ab_0
-  - pypots=0.2.1=pyhc1e730c_0
+  - pypots=0.3.1=pyhc1e730c_0
   - pyqt=5.15.10=py311h6a678d5_0
   - pyqt5-sip=12.13.0=py311h5eee18b_0
   - pysocks=1.7.1=py311h06a4308_0
@@ -186,7 +187,8 @@ dependencies:
   - torchtriton=2.1.0=py311
   - torchvision=0.16.2=py311_cu121
   - tornado=6.3.3=py311h5eee18b_0
-  - tsdb=0.2.1=pyhc1e730c_0
+  - tqdm=4.65.0=py311h92b7b1e_0
+  - tsdb=0.3=pyhc1e730c_0
   - typing_extensions=4.7.1=py311h06a4308_0
   - tzdata=2023c=h04d1e81_0
   - urllib3=1.26.18=py311h06a4308_0
@@ -201,7 +203,6 @@ dependencies:
   - pip:
       - astor==0.8.1
       - cloudpickle==3.0.0
-      - colorama==0.4.6
       - contextlib2==21.6.0
       - filelock==3.11.0
       - fsspec==2023.12.2
@@ -215,7 +216,6 @@ dependencies:
       - responses==0.24.1
       - schema==0.7.5
       - simplejson==3.19.2
-      - tqdm==4.66.1
       - typeguard==4.1.2
       - wcwidth==0.2.12
       - websockets==12.0

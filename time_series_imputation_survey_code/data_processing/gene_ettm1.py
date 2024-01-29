@@ -1,5 +1,5 @@
 """
-Generate a fully-prepared ETTm1 dataset and save to into files for PyPOTS to use.
+Generate a fully-prepared ETTm1 dataset and save into files for PyPOTS to use.
 """
 
 # Created by Wenjie Du <wenjay.du@gmail.com>
