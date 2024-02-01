@@ -2,7 +2,7 @@
 The scripts and configurations used in the work are all put here.
 
 
-## ❖ Python environment creation
+## ❖ Python Environment Creation
 A proper Python environment is necessary to reproduce the results. 
 Please ensure that all the below library requirements are satisfied.
 
@@ -16,7 +16,25 @@ For Linux OS, it is able to create the environment with Conda by running `conda 
 For other OS, library version requirements can also be checked out in `conda_env.yml`.
 
 
-## ❖ Data generation
+## ❖ Datasets Introduction and Generation
+### Introduction
+#### Air
+Air (Beijing Multi-Site Air-Quality) is collected from twelve Beijing monitoring sites hourly in forty-eight months. 
+At each site, eleven air pollution variables (e.g. PM2.5, NO, O<sub>3</sub>) are collected. 
+The dataset has 1.6% originally missing data.
+
+#### PhysioNet2012
+PhysioNet2012 (PhysioNet-2012 Mortality Prediction Challenge) includes multivariate clinical time series data 
+collected from 11,988 patients in ICU. Each sample contains thirty-seven measurements (e.g. glucose, heart rate, 
+temperature) recorded in the first forty-eight hours after admission to the ICU. 
+This dataset has 80% values missing.
+
+#### ETTm1
+ETTm1 (Electricity Transformer Temperature) records seven state features, including oil temperature and six power 
+load variables of electricity transformers collected every fifteen minutes for two years. 
+There is no original missingness in this dataset.
+
+### Generation
 The scripts for generating three datasets used in this work are in the directory `data_processing`. 
 To generate the preprocessed datasets, please run the shell script `generate_datasets.sh` or 
 execute the below commands:
@@ -33,7 +51,7 @@ python data_processing/gene_ettm1.py
 ```
 
 
-## ❖ Model training and results reproduction
+## ❖ Model Training and Results Reproduction
 ```shell
 # reproduce the results on the dataset PhysioNet2012
 nohup python train_models_for_physionet2012.py > physionet2012.log&
@@ -52,6 +70,6 @@ Additionally, as claimed in the paper, hyperparameters of all models get optimiz
 If you'd like to explore this feature, please check out the details there.
 
 
-## ❖ Downstream classification
+## ❖ Downstream Classification
 After running `train_models_for_physionet2012.py`, all models' imputation results are persisted under according folders.
 To obtain the simple RNN's classification results on PhysioNet2012, please execute the script `downstream_classification.py`.
