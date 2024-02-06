@@ -189,6 +189,12 @@ but are all interesting papers related to time-series imputation that deserve re
 [[official code](https://www.microsoft.com/en-us/research/uploads/prod/2016/06/STMVL-Release.zip)]
 
 
+## ❖ Other Resource Repos about General Time Series
+[Transformers in Time Series](https://github.com/qingsongedu/time-series-transformers-review)
+
+[LLMs and Foundation Models for Time Series and Spatio-Temporal Data](https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM)
+
+[AI for Time Series (AI4TS) Papers, Tutorials, and Surveys](https://github.com/qingsongedu/awesome-AI-for-time-series-papers)
 
 
 <details>
