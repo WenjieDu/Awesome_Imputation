@@ -16,6 +16,7 @@ Contributions to update new resources and articles are very welcome.
 [**Deep Learning for Multivariate Time Series Imputation: A Survey**](https://arxiv.org/abs/2402.04059) 
 
 #### If you find this repository helpful for your work, please kindly cite our survey paper.
+Jun Wang, [Wenjie Du](https://github.com/WenjieDu), [Wei Cao](https://weicao1990.github.io/), Keli Zhang, [Wenjia Wang](https://www.wenjia-w.com/home), [Yuxuan Liang](https://yuxuanliang.com/), [Qingsong Wen](https://sites.google.com/site/qingsongwen8/)
 
 ```bibtex
 @article{wang2024deep,
