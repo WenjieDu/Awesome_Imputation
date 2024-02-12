@@ -6,12 +6,25 @@
     </a>
 </p>
 
-The open-resource repository for the paper "Deep Learning for Multivariate Time Series Imputation: A Survey" 
-(the preprint will be released on arXiv soon). The code and configurations for reproducing the experimental results 
+The open-resource repository for the paper "Deep Learning for Multivariate Time Series Imputation: A Survey". The code and configurations for reproducing the experimental results 
 in the paper are available under the folder `time_series_imputation_survey_code`.
 
 Contributions to update new resources and articles are very welcome.
 
+## Survey paper
+
+[**Deep Learning for Multivariate Time Series Imputation: A Survey**](https://arxiv.org/abs/2402.04059) 
+
+#### If you find this repository helpful for your work, please kindly cite our survey paper.
+
+```bibtex
+@article{wang2024deep,
+  title={Deep Learning for Multivariate Time Series Imputation: A Survey},
+  author={Wang, Jun and Du, Wenjie and Cao, Wei and Zhang, Keli and Wang, Wenjia and Liang, Yuxuan and Wen, Qingsong},
+  journal={arXiv preprint arXiv:2402.04059},
+  year={2024}
+}
+```
 
 ## ❖ Time-Series Imputation Toolkits
 ### Datasets
