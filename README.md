@@ -6,26 +6,25 @@
     </a>
 </p>
 
-The open-resource repository for the paper "Deep Learning for Multivariate Time Series Imputation: A Survey". The code and configurations for reproducing the experimental results 
-in the paper are available under the folder `time_series_imputation_survey_code`.
+The open-resource repository for the paper [**Deep Learning for Multivariate Time Series Imputation: A Survey**](https://arxiv.org/abs/2402.04059).
+The code and configurations for reproducing the experimental results in the paper are available under 
+the folder `time_series_imputation_survey_code`.
 
-Contributions to update new resources and articles are very welcome.
-
-## Survey paper
-
-[**Deep Learning for Multivariate Time Series Imputation: A Survey**](https://arxiv.org/abs/2402.04059) 
-
-#### If you find this repository helpful for your work, please kindly cite our survey paper.
-Jun Wang, [Wenjie Du](https://github.com/WenjieDu), [Wei Cao](https://weicao1990.github.io/), Keli Zhang, [Wenjia Wang](https://www.wenjia-w.com/home), [Yuxuan Liang](https://yuxuanliang.com/), [Qingsong Wen](https://sites.google.com/site/qingsongwen8/)
+If you find this repository helpful to your work, please kindly star it and cite our survey paper (author list:
+[Jun Wang](https://github.com/AugustJW), [Wenjie Du](https://github.com/WenjieDu), 
+[Wei Cao](https://weicao1990.github.io/), Keli Zhang, [Wenjia Wang](https://www.wenjia-w.com/home), 
+[Yuxuan Liang](https://yuxuanliang.com/), [Qingsong Wen](https://sites.google.com/site/qingsongwen8/)) as follows:
 
 ```bibtex
 @article{wang2024deep,
-  title={Deep Learning for Multivariate Time Series Imputation: A Survey},
-  author={Wang, Jun and Du, Wenjie and Cao, Wei and Zhang, Keli and Wang, Wenjia and Liang, Yuxuan and Wen, Qingsong},
-  journal={arXiv preprint arXiv:2402.04059},
-  year={2024}
+title={Deep Learning for Multivariate Time Series Imputation: A Survey},
+author={Wang, Jun and Du, Wenjie and Cao, Wei and Zhang, Keli and Wang, Wenjia and Liang, Yuxuan and Wen, Qingsong},
+journal={arXiv preprint arXiv:2402.04059},
+year={2024}
 }
 ```
+
+🤗 Contributions to update new resources and articles are very welcome!
 
 ## ❖ Time-Series Imputation Toolkits
 ### Datasets
@@ -203,7 +202,8 @@ but are all interesting papers related to time-series imputation that deserve re
 [[official code](https://www.microsoft.com/en-us/research/uploads/prod/2016/06/STMVL-Release.zip)]
 
 
-## ❖ Other Resource Repos about General Time Series
+## ❖ Other Resources
+### Repos about General Time Series
 [Transformers in Time Series](https://github.com/qingsongedu/time-series-transformers-review)
 
 [LLMs and Foundation Models for Time Series and Spatio-Temporal Data](https://github.com/qingsongedu/Awesome-TimeSeries-SpatioTemporal-LM-LLM)
@@ -213,8 +213,8 @@ but are all interesting papers related to time-series imputation that deserve re
 
 <details>
 <summary>🏠 Visits</summary>
-<a href="https://github.com/WenjieDu/PyPOTS">
-    <img alt="PyPOTS visits" align="left" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FWenjieDu%2FAwesome_Imputation&count_bg=%23009A0A&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visits%20since%20Jan%202023&edge_flat=false">
+<a href="https://github.com/WenjieDu/Awesome_Imputation">
+    <img alt="Awesome_Imputation visits" align="left" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FWenjieDu%2FAwesome_Imputation&count_bg=%23009A0A&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visits%20since%20Jan%202023&edge_flat=false">
 </a>
 </details>
 <br>
