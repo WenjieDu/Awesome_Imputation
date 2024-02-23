@@ -12,7 +12,7 @@ the folder `time_series_imputation_survey_code`.
 
 If you find this repository helpful to your work, please kindly star it and cite our survey paper (author list:
 [Jun Wang](https://github.com/AugustJW), [Wenjie Du](https://github.com/WenjieDu), 
-[Wei Cao](https://weicao1990.github.io/), Keli Zhang, [Wenjia Wang](https://www.wenjia-w.com/home), 
+[Wei Cao](https://weicao1990.github.io/), [Keli Zhang](https://github.com/kelizhang), [Wenjia Wang](https://www.wenjia-w.com/home), 
 [Yuxuan Liang](https://yuxuanliang.com/), [Qingsong Wen](https://sites.google.com/site/qingsongwen8/)) as follows:
 
 ```bibtex
