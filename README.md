@@ -6,11 +6,12 @@
     </a>
 </p>
 
-The open-resource repository for the paper [**Deep Learning for Multivariate Time Series Imputation: A Survey**](https://arxiv.org/abs/2402.04059).
+The open-resource repository for the paper [**Deep Learning for Multivariate Time Series Imputation: A Survey**](https://arxiv.org/abs/2402.04059) 
+from <a href="https://pypots.com" target="_blank"><img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="30px" align="center"/> PyPOTS research</a>.
 The code and configurations for reproducing the experimental results in the paper are available under 
 the folder `time_series_imputation_survey_code`.
 
-If you find this repository helpful to your work, please kindly star it and cite our survey paper (author list:
+If you find this repository helpful to your work, please kindly star it and cite our survey paper (author profile links:
 [Jun Wang](https://github.com/AugustJW), [Wenjie Du](https://github.com/WenjieDu), 
 [Wei Cao](https://weicao1990.github.io/), [Keli Zhang](https://github.com/kelizhang), [Wenjia Wang](https://www.wenjia-w.com/home), 
 [Yuxuan Liang](https://yuxuanliang.com/), [Qingsong Wen](https://sites.google.com/site/qingsongwen8/)) as follows:
@@ -50,8 +51,9 @@ year={2024}
 
 
 ## ❖ Must-Read Papers on Time-Series Imputation
-Papers listed here may be not from top publications, some of them even are not deep-learning methods,
-but are all interesting papers related to time-series imputation that deserve reading.
+The papers listed here may be not from top publications, some of them even are not deep-learning methods,
+but are all interesting papers related to time-series imputation that deserve reading to 
+researchers and practitioners who are interested in this field.
 
 ### Year 2023
 
