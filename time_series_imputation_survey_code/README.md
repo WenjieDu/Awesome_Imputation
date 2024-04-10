@@ -7,7 +7,7 @@ A proper Python environment is necessary to reproduce the results.
 Please ensure that all the below library requirements are satisfied.
 
 ```yaml
-pypots >=0.3.1
+pypots >=0.4
 tsdb >=0.2
 pygrinder >=0.4
 ```

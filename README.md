@@ -7,7 +7,7 @@
 </p>
 
 The open-resource repository for the paper [**Deep Learning for Multivariate Time Series Imputation: A Survey**](https://arxiv.org/abs/2402.04059) 
-from <a href="https://pypots.com" target="_blank"><img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="30px" align="center"/> PyPOTS research</a>.
+from <a href="https://pypots.com" target="_blank"><img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="30px" align="center"/> PyPOTS Research</a>.
 The code and configurations for reproducing the experimental results in the paper are available under 
 the folder `time_series_imputation_survey_code`.
 
