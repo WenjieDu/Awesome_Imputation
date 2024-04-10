@@ -5,7 +5,7 @@
   "patience":  {"_type":"choice","_value":[10]},
   "n_layers":  {"_type":"choice","_value":[1,2,3]},
   "d_model":  {"_type":"choice","_value":[64]},
-  "d_inner":  {"_type":"choice","_value":[64, 128, 256, 512, 1024]},
+  "d_ffn":  {"_type":"choice","_value":[64, 128, 256, 512, 1024]},
   "n_heads":  {"_type":"choice","_value":[1,2,4,8]},
   "d_k":  {"_type":"choice","_value":[32, 64, 128, 256]},
   "d_v":  {"_type":"choice","_value":[32, 64, 128, 256]},
