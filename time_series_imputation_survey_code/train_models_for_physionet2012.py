@@ -173,6 +173,7 @@ def train_models_for_physionet2012(
     # set up the CSDI model
     saving_path = os.path.join(result_saving_path, "CSDI_physionet2012")
     csdi = CSDI(
+        n_steps=n_steps,
         n_features=n_features,
         n_layers=6,
         n_heads=2,
