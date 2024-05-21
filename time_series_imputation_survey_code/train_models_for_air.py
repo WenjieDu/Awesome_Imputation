@@ -146,6 +146,7 @@ def train_models_for_air_quality(
     # set up the CSDI model
     saving_path = os.path.join(result_saving_path, "CSDI_air_quality")
     csdi = CSDI(
+        n_steps=n_steps,
         n_features=n_features,
         n_layers=6,
         n_heads=2,
