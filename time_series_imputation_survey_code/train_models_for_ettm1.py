@@ -145,6 +145,7 @@ def train_models_for_ettm1(
     # set up the CSDI model
     saving_path = os.path.join(result_saving_path, "CSDI_ettm1")
     csdi = CSDI(
+        n_steps=n_steps,
         n_features=n_features,
         n_layers=3,
         n_heads=8,
