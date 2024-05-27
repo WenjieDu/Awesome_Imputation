@@ -1,0 +1,19 @@
+experimentName: Koopa hyper-param searching
+authorName: WenjieDu
+trialConcurrency: 1
+trainingServicePlatform: local
+searchSpacePath: Koopa_PeMS_tuning_space.json
+multiThread: true
+useAnnotation: false
+tuner:
+    builtinTunerName: Random
+
+trial:
+    command:  pypots-cli tuning --model pypots.imputation.Koopa --train_set ../../data/pems_traffic_rate01_step24_point/train.h5 --val_set ../../data/pems_traffic_rate01_step24_point/val.h5
+    codeDir: .
+    gpuNum: 0
+
+localConfig:
+    useActiveGpu: true
+    maxTrialNumPerGpu: 20
+    gpuIndices: 1

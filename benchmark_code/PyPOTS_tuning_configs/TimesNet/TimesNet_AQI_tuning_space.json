@@ -1,0 +1,13 @@
+{
+  "n_steps":  {"_type":"choice","_value":[24]},
+  "n_features":  {"_type":"choice","_value":[132]},
+  "patience":  {"_type":"choice","_value":[10]},
+  "epochs":  {"_type":"choice","_value":[100]},
+  "n_layers":  {"_type":"choice","_value":[1,2,3]},
+  "top_k":  {"_type":"choice","_value":[1,2,3,4,5]},
+  "d_model":   {"_type":"choice","_value":[128, 256, 512, 1024]},
+  "d_ffn":   {"_type":"choice","_value":[128, 256, 512, 1024]},
+  "n_kernels":  {"_type":"choice","_value":[4,5,6]},
+  "dropout":  {"_type":"choice","_value":[0,0.1,0.2,0.3,0.4,0.5]},
+  "lr":{"_type":"loguniform","_value":[0.00005,0.01]}
+}
