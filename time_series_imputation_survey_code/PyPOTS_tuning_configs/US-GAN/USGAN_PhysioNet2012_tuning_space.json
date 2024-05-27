@@ -3,7 +3,12 @@
   "n_features":  {"_type":"choice","_value":[37]},
   "patience":  {"_type":"choice","_value":[10]},
   "epochs":  {"_type":"choice","_value":[200]},
-  "lr":{"_type":"loguniform","_value":[0.00005,0.01]},
-  "rnn_hidden_size":  {"_type":"choice","_value":[32,64,128,256,512,1024]},
   "dropout":  {"_type":"choice","_value":[0,0.1,0.2,0.3,0.4,0.5]},
+  "lr":{"_type":"loguniform","_value":[0.00005,0.01]},
+  "n_layers":  {"_type":"choice","_value":[1,2,3]},
+  "d_model":  {"_type":"choice","_value":[64, 128, 256, 512, 1024]},
+  "n_heads":  {"_type":"choice","_value":[2,4,8]},
+  "d_k":  {"_type":"choice","_value":[32, 64, 128, 256, 512]},
+  "d_v":  {"_type":"choice","_value":[32, 64, 128, 256, 512]},
+  "d_ffn":  {"_type":"choice","_value":[128, 256, 512, 1024, 2048, 4096]}
 }
