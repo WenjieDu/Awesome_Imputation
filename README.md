@@ -55,6 +55,16 @@ The papers listed here may be not from top publications, some of them even are n
 but are all interesting papers related to time-series imputation that deserve reading to 
 researchers and practitioners who are interested in this field.
 
+### Year 2024
+
+[ICML] **BayOTIDE: Bayesian Online Multivariate Time Series Imputation with Functional Decomposition**
+[[paper](https://arxiv.org/abs/2308.14906)]
+
+[ICLR] **Conditional Information Bottleneck Approach for Time Series Imputation**
+[[paper](https://openreview.net/pdf?id=K1mcPiDdOJ)]
+[[official code](https://github.com/Chemgyu/TimeCIB)]
+
+
 ### Year 2023
 
 [ICLR] **Multivariate Time-series Imputation with Disentangled Temporal Representations**
