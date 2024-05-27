@@ -1,0 +1,9 @@
+{
+  "n_steps":  {"_type":"choice","_value":[48]},
+  "n_features":  {"_type":"choice","_value":[7]},
+  "patience":  {"_type":"choice","_value":[10]},
+  "epochs":  {"_type":"choice","_value":[100]},
+  "lr":{"_type":"loguniform","_value":[0.00005,0.01]},
+  "rnn_hidden_size":  {"_type":"choice","_value":[32,64,128,256,512,1024]},
+  "dropout":  {"_type":"choice","_value":[0,0.1,0.2,0.3,0.4,0.5]},
+}

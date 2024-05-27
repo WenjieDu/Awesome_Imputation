@@ -1,0 +1,23 @@
+experimentName: GP-VAE hyper-param searching
+authorName: WenjieDu
+trialConcurrency: 1
+trainingServicePlatform: local
+#searchSpacePath: GPVAE_PhysioNet2012_tuning_space.json
+#searchSpacePath: GPVAE_AQI_tuning_space.json
+searchSpacePath: GPVAE_ETTh1_tuning_space.json
+multiThread: true
+useAnnotation: false
+tuner:
+    builtinTunerName: Random
+
+trial:
+#    command: enable_tuning=1 pypots-cli tuning --model pypots.imputation.GPVAE --train_set ../../data/physionet_2012/train.h5 --val_set ../../data/physionet_2012/val.h5
+#    command: enable_tuning=1 pypots-cli tuning --model pypots.imputation.GPVAE --train_set ../../data/air_quality/train.h5 --val_set ../../data/air_quality/val.h5
+    command: enable_tuning=1 pypots-cli tuning --model pypots.imputation.GPVAE --train_set ../../data/ettm1/train.h5 --val_set ../../data/ettm1/val.h5
+    codeDir: .
+    gpuNum: 1
+
+localConfig:
+    useActiveGpu: true
+    maxTrialNumPerGpu: 20
+    gpuIndices: 2

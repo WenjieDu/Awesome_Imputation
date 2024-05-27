@@ -1,0 +1,13 @@
+{
+  "n_steps": {"_type":"choice","_value":[24]},
+  "n_features":  {"_type":"choice","_value":[132]},
+  "patience":  {"_type":"choice","_value":[10]},
+  "epochs":  {"_type":"choice","_value":[100]},
+  "n_layers":  {"_type":"choice","_value":[1,2,3,4,5,6]},
+  "n_heads":  {"_type":"choice","_value":[1,2,4,8,16]},
+  "n_channels":  {"_type":"choice","_value":[16,32,64,128]},
+  "d_time_embedding":  {"_type":"choice","_value":[32,64,128,256]},
+  "d_feature_embedding":  {"_type":"choice","_value":[8,16,32,64]},
+  "d_diffusion_embedding":  {"_type":"choice","_value":[32,64,128,256]},
+  "lr":{"_type":"loguniform","_value":[0.00005,0.01]}
+}

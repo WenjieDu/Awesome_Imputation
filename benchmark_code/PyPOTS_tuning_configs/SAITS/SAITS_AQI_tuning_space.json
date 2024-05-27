@@ -1,0 +1,15 @@
+{
+  "n_steps": {"_type":"choice","_value":[24]},
+  "n_features":  {"_type":"choice","_value":[132]},
+  "epochs":  {"_type":"choice","_value":[100]},
+  "patience":  {"_type":"choice","_value":[10]},
+  "n_layers":  {"_type":"choice","_value":[1,2,3]},
+  "d_model":  {"_type":"choice","_value":[64]},
+  "d_ffn":  {"_type":"choice","_value":[64, 128, 256, 512, 1024]},
+  "n_heads":  {"_type":"choice","_value":[1,2,4,8]},
+  "d_k":  {"_type":"choice","_value":[32, 64, 128, 256]},
+  "d_v":  {"_type":"choice","_value":[32, 64, 128, 256]},
+  "dropout":  {"_type":"choice","_value":[0,0.1,0.2,0.3,0.4,0.5]},
+  "attn_dropout":  {"_type":"choice","_value":[0,0.1,0.2,0.3,0.4,0.5]},
+  "lr":{"_type":"loguniform","_value":[0.00005,0.01]}
+}
