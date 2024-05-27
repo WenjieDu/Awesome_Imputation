@@ -55,7 +55,7 @@ The papers listed here may be not from top publications, some of them even are n
 but are all interesting papers related to time-series imputation that deserve reading to 
 researchers and practitioners who are interested in this field.
 
-### Year 2024
+### `Year 2024`
 
 [ICML] **BayOTIDE: Bayesian Online Multivariate Time Series Imputation with Functional Decomposition**
 [[paper](https://arxiv.org/abs/2308.14906)]
@@ -65,7 +65,7 @@ researchers and practitioners who are interested in this field.
 [[official code](https://github.com/Chemgyu/TimeCIB)]
 
 
-### Year 2023
+### `Year 2023`
 
 [ICLR] **Multivariate Time-series Imputation with Disentangled Temporal Representations**
 [[paper](https://openreview.net/forum?id=rdjeCNUS6TG)]
@@ -121,7 +121,7 @@ researchers and practitioners who are interested in this field.
 [[paper](https://dl.acm.org/doi/abs/10.1145/3583780.3614840)]
 
 
-### Year 2022
+### `Year 2022`
 
 [ICLR] **Filling the G_ap_s: Multivariate Time Series Imputation by Graph Neural Networks**
 [[paper](https://arxiv.org/abs/2108.00298)]
@@ -138,7 +138,7 @@ researchers and practitioners who are interested in this field.
 [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/21189)]
 
 
-### Year 2021
+### `Year 2021`
 
 [NeurIPS] **CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation**
 [[paper](https://openreview.net/forum?id=VzuIzbRDrum)]
@@ -154,7 +154,7 @@ researchers and practitioners who are interested in this field.
 [[paper](https://arxiv.org/abs/2209.10801)]
 
 
-### Year 2020
+### `Year 2020`
 
 [AISTATS] **GP-VAE: Deep Probabilistic Time Series Imputation**
 [[paper](https://arxiv.org/abs/1907.04155)]
@@ -170,7 +170,7 @@ researchers and practitioners who are interested in this field.
 [[paper](https://drive.google.com/file/d/1AkWlqjYJ1PNgnu5apOx2dow_vgmqViQG/view)]
 
 
-### Year 2019
+### `Year 2019`
 
 [NeurIPS] **NAOMI: Non-Autoregressive Multiresolution Sequence Imputation**
 [[paper](https://arxiv.org/abs/1901.10946)]
@@ -185,7 +185,7 @@ researchers and practitioners who are interested in this field.
 [[official code](https://github.com/tomstream/STI)]
 
 
-### Year 2018
+### `Year 2018`
 
 [NeurIPS] **BRITS: Bidirectional Recurrent Imputation for Time Series**
 [[paper](https://arxiv.org/abs/1805.10572)]
@@ -200,14 +200,14 @@ researchers and practitioners who are interested in this field.
 [[official code](https://github.com/Luoyonghong/Multivariate-Time-Series-Imputation-with-Generative-Adversarial-Networks)]
 
 
-### Year 2017
+### `Year 2017`
 
 [IEEE Transactions on Biomedical Engineering] **Estimating Missing Data in Temporal Data Streams Using Multi-Directional Recurrent Neural Networks**
 [[paper](https://arxiv.org/abs/1711.08742)]
 [[official code](https://github.com/jsyoon0823/MRNN)]
 
 
-### Year 2016
+### `Year 2016`
 
 [IJCAI] **ST-MVL: Filling Missing Values in Geo-sensory Time Series Data**
 [[paper](https://www.ijcai.org/Proceedings/16/Papers/384.pdf)]
