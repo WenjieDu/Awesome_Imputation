@@ -1,19 +1,19 @@
-experimentName: DLinear hyper-param searching
+experimentName: ETSformer hyper-param searching
 authorName: WenjieDu
 trialConcurrency: 1
 trainingServicePlatform: local
-searchSpacePath: DLinear_PeMS_tuning_space.json
+searchSpacePath: ETSformer_PeMS_tuning_space.json
 multiThread: true
 useAnnotation: false
 tuner:
     builtinTunerName: Random
 
 trial:
-    command: enable_tuning=1 pypots-cli tuning --model pypots.imputation.DLinear --train_set ../../data/pems_traffic_rate01_step24_point/train.h5 --val_set ../../data/pems_traffic_rate01_step24_point/val.h5
+    command: enable_tuning=1 pypots-cli tuning --model pypots.imputation.ETSformer --train_set ../../data/pems_traffic_rate01_step24_point/train.h5 --val_set ../../data/pems_traffic_rate01_step24_point/val.h5
     codeDir: .
     gpuNum: 1
 
 localConfig:
     useActiveGpu: true
     maxTrialNumPerGpu: 20
-    gpuIndices: 1
+    gpuIndices: 4
