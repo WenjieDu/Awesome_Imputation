@@ -9,9 +9,9 @@ tuner:
     builtinTunerName: Random
 
 trial:
-    command:  pypots-cli tuning --model pypots.imputation.Informer --train_set ../../data/pems_traffic_rate01_step24_point/train.h5 --val_set ../../data/pems_traffic_rate01_step24_point/val.h5
+    command: enable_tuning=1 pypots-cli tuning --model pypots.imputation.Informer --train_set ../../data/pems_traffic_rate01_step24_point/train.h5 --val_set ../../data/pems_traffic_rate01_step24_point/val.h5
     codeDir: .
-    gpuNum: 0
+    gpuNum: 1
 
 localConfig:
     useActiveGpu: true
