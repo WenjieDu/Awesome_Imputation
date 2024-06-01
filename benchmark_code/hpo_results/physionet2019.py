@@ -43,7 +43,7 @@ PhysioNet2019 = {
         "patience": 10,
         "embed_size": 256,
         "hidden_size": 256,
-        "channel_independence": true,
+        "channel_independence": True,
         "lr": 0.0014930673940111879
     },
     "Koopa": {
