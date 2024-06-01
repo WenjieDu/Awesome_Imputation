@@ -86,6 +86,12 @@ if __name__ == "__main__":
         help="device to run the model, e.g. cuda:0",
         required=True,
     )
+    parser.add_argument(
+        "--n_rounds",
+        type=int,
+        help="the number of rounds running the model to get the final results ",
+        default=5,
+    )
     args = parser.parse_args()
 
     # set the number of threads for pytorch
@@ -103,7 +109,7 @@ if __name__ == "__main__":
     mre_collector = []
 
     result_saving_path = os.path.join(args.saving_path, f"{args.model}_{args.dataset}")
-    for n_round in range(1):
+    for n_round in range(args.n_rounds):
         set_random_seed(RANDOM_SEEDS[n_round])
         round_saving_path = os.path.join(result_saving_path, f"round_{n_round}")
 
