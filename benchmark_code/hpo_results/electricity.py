@@ -150,7 +150,7 @@ Electricity = {
         'dropout': 0, 
         'lr': 0.0019603101862858264,
     },
-    "Nonstationary Tr.": {
+    "NonstationaryTransformer": {
         'n_steps': 96, 
         'n_features': 370, 
         'epochs': 100, 
