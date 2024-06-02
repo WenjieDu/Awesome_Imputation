@@ -21,13 +21,13 @@ PhysioNet2012 = {
         "lr": 0.00011434829294406097
     },
     "BRITS": {
-        "n_steps": 48, 
-        "n_features": 35, 
-        "patience": 10, 
-        "epochs": 100, 
-        "rnn_hidden_size": 512, 
-        "lr": 0.00015291236769318027
-        },
+        "n_steps": 48,
+        "n_features": 35,
+        "patience": 10,
+        "epochs": 100,
+        "rnn_hidden_size": 1024,
+        "lr": 0.0001305576643093417
+    },
     "Crossformer": { 
         "n_steps": 48, 
         "n_features": 35, 
