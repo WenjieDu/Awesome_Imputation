@@ -58,7 +58,21 @@ PhysioNet2019 = {
         "n_blocks": 1,
         "lr": 0.0008272498497234694
     },
-    "Crossformer": { "n_steps": 48, "n_features": 34, "epochs": 100, "patience": 10, "n_layers": 3, "d_model": 64, "d_ffn": 256, "n_heads": 4, "factor": 5, "seg_len": 6, "win_size": 2, "dropout": 0.2, "lr": 0.0031286300233652076 },
+    "Crossformer": { 
+        "n_steps": 48, 
+        "n_features": 34, 
+        "epochs": 100, 
+        "patience": 10, 
+        "n_layers": 3, 
+        "d_model": 64, 
+        "d_ffn": 256, 
+        "n_heads": 4, 
+        "factor": 5, 
+        "seg_len": 6, 
+        "win_size": 2, 
+        "dropout": 0.2, 
+        "lr": 0.0031286300233652076,
+    },
     "TimesNet": {
         "n_steps": 48,
         "n_features": 34,
@@ -89,7 +103,20 @@ PhysioNet2019 = {
         "attn_dropout": 0.1,
         "lr": 0.0004466135652323526
     },
-    "ETSformer": { "n_steps": 48, "n_features": 34, "epochs": 100, "patience": 10, "n_e_layers": 3, "n_d_layers": 2, "d_model": 1024, "d_ffn": 1024, "n_heads": 8, "top_k": 5, "dropout": 0.1, "lr": 0.0004604206499094914 },
+    "ETSformer": { 
+        "n_steps": 48, 
+        "n_features": 34,
+        "epochs": 100, 
+        "patience": 10, 
+        "n_e_layers": 3, 
+        "n_d_layers": 2, 
+        "d_model": 1024, 
+        "d_ffn": 1024,
+        "n_heads": 8, 
+        "top_k": 5, 
+        "dropout": 0.1, 
+        "lr": 0.0004604206499094914,
+    },
     "MICN": {
         "n_steps": 48,
         "n_features": 34,
@@ -97,14 +124,19 @@ PhysioNet2019 = {
         "patience": 10,
         "n_layers": 2,
         "d_model": 512,
-        "conv_kernel": [
-            4,
-            8
-        ],
+        "conv_kernel": [4, 8],
         "dropout": 0.2,
-        "lr": 0.0000852263260132517
+        "lr": 0.0000852263260132517,
     },
-    "DLinear": { "n_steps": 48, "n_features": 34, "epochs": 100, "patience": 10, "moving_avg_window_size": 13, "d_model": 1024, "lr": 0.0001633470877552397 },
+    "DLinear": { 
+        "n_steps": 48, 
+        "n_features": 34, 
+        "epochs": 100, 
+        "patience": 10, 
+        "moving_avg_window_size": 13, 
+        "d_model": 1024, 
+        "lr": 0.0001633470877552397 
+    },
     "SCINet": {
         "n_steps": 48,
         "n_features": 34,
@@ -118,7 +150,7 @@ PhysioNet2019 = {
         "dropout": 0,
         "lr": 0.00018311166986294462
     },
-    "Nonstationary Tr.": {
+    "NonstationaryTransformer": {
         "n_steps": 48,
         "n_features": 34,
         "epochs": 100,
@@ -135,7 +167,19 @@ PhysioNet2019 = {
         "dropout": 0.2,
         "lr": 0.00010519284750234083
     },
-    "FiLM": { "n_steps": 48, "n_features": 34, "epochs": 100, "patience": 10, "window_size": [ 2 ], "multiscale": [ 1, 2 ], "modes1": 32, "dropout": 0.4, "mode_type": 0, "d_model": 64, "lr": 0.008109542467067061 },
+    "FiLM": { 
+        "n_steps": 48, 
+        "n_features": 34, 
+        "epochs": 100, 
+        "patience": 10, 
+        "window_size": [ 2 ], 
+        "multiscale": [ 1, 2 ], 
+        "modes1": 32, 
+        "dropout": 0.4, 
+        "mode_type": 0, 
+        "d_model": 64, 
+        "lr": 0.008109542467067061 
+    },
     "Pyraformer": {
         "n_steps": 48,
         "n_features": 34,
@@ -154,8 +198,33 @@ PhysioNet2019 = {
         "attn_dropout": 0.1,
         "lr": 0.0002148305519207637
     },
-    "Autoformer": { "n_steps": 48, "n_features": 34, "epochs": 100, "patience": 10, "n_layers": 1, "d_model": 128, "d_ffn": 1024, "n_heads": 4, "factor": 3, "moving_avg_window_size": 13, "dropout": 0, "lr": 0.00026656159603612764 },
-    "CSDI": { "n_steps": 48, "n_features": 34, "patience": 10, "epochs": 100, "n_layers": 4, "n_heads": 8, "n_channels": 32, "d_time_embedding": 256, "d_feature_embedding": 16, "d_diffusion_embedding": 256, "lr": 0.0018788258888970985 },
+    "Autoformer": { 
+        "n_steps": 48, 
+        "n_features": 34, 
+        "epochs": 100, 
+        "patience": 10, 
+        "n_layers": 1, 
+        "d_model": 128, 
+        "d_ffn": 1024, 
+        "n_heads": 4, 
+        "factor": 3, 
+        "moving_avg_window_size": 13, 
+        "dropout": 0, 
+        "lr": 0.00026656159603612764 
+    },
+    "CSDI": { 
+        "n_steps": 48, 
+        "n_features": 34,
+        "patience": 10, 
+        "epochs": 100, 
+        "n_layers": 4, 
+        "n_heads": 8, 
+        "n_channels": 32, 
+        "d_time_embedding": 256, 
+        "d_feature_embedding": 16, 
+        "d_diffusion_embedding": 256, 
+        "lr": 0.0018788258888970985 
+    },
     "Informer": {
         "n_steps": 48,
         "n_features": 34,
@@ -169,7 +238,7 @@ PhysioNet2019 = {
         "dropout": 0,
         "lr": 0.00011916009330093557
     },
-    "US-GAN": {
+    "USGAN": {
         "n_steps": 48,
         "n_features": 34,
         "patience": 10,
@@ -189,7 +258,7 @@ PhysioNet2019 = {
         "dropout": 0.4,
         "lr": 0.0009306161201903658
     },
-    "GP-VAE": {
+    "GPVAE": {
         "n_steps": 48,
         "n_features": 34,
         "latent_size": 34,
@@ -209,7 +278,7 @@ PhysioNet2019 = {
         ],
         "window_size": 36
     },
-    "M-RNN": {
+    "MRNN": {
         "n_steps": 48,
         "n_features": 34,
         "patience": 10,
@@ -217,8 +286,15 @@ PhysioNet2019 = {
         "rnn_hidden_size": 512,
         "lr": 0.006155127814415844
     },
-    "BRITS": { "n_steps": 48, "n_features": 34, "patience": 10, "epochs": 100, "rnn_hidden_size": 512, "lr": 0.0005763283506002885 },
-    "GRU-D": {
+    "BRITS": { 
+        "n_steps": 48,
+        "n_features": 34, 
+        "patience": 10, 
+        "epochs": 100, 
+        "rnn_hidden_size": 512, 
+        "lr": 0.0005763283506002885 
+    },
+    "GRUD": {
         "n_steps": 48,
         "n_features": 34,
         "epochs": 100,
