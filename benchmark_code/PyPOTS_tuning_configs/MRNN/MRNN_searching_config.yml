@@ -1,6 +1,6 @@
 experimentName: MRNN hyper-param searching
 authorName: WenjieDu
-trialConcurrency: 1
+trialConcurrency: 5
 trainingServicePlatform: local
 searchSpacePath: MRNN_PhysioNet2012_tuning_space.json
 #searchSpacePath: MRNN_BeijingAir_tuning_space.json
@@ -19,5 +19,5 @@ trial:
 
 localConfig:
     useActiveGpu: true
-    maxTrialNumPerGpu: 20
-    gpuIndices: 1
+    maxTrialNumPerGpu: 100
+    gpuIndices: 0
