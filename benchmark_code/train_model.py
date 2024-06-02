@@ -132,7 +132,8 @@ if __name__ == "__main__":
 
         test_set = {"X": test_X}
         start_time = time.time()
-        if args.model == "CSDI":
+        if args.model in ["CSDI", "GPVAE"]:
+            # CSDI and GPVAE can sample multiple times, then average the results to get the final imputation
             results = model.predict(test_set, n_sampling_times=10)
             imputation = results["imputation"].mean(axis=1)
         else:
@@ -168,7 +169,7 @@ if __name__ == "__main__":
     num_params = sum(p.numel() for p in model.model.parameters() if p.requires_grad)
     logger.info(
         f"Done! Final results:\n"
-        f"Averaged {args.model} (n params: {num_params:,}) on {args.dataset}: "
+        f"Averaged {args.model} ({num_params:,} params) on {args.dataset}: "
         f"MAE={mean_mae:.4f} ± {std_mae}, "
         f"MSE={mean_mse:.4f} ± {std_mse}, "
         f"MRE={mean_mre:.4f} ± {std_mre}, "
