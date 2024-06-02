@@ -194,8 +194,8 @@ PhysioNet2019 = {
         "n_features": 34,
         "latent_size": 34,
         "patience": 10,
-        "epochs": 50,
-        "lr": 0.0007052256910834716,
+        "epochs": 100,
+        "lr": 0.00023661972476622935,
         "beta": 0.2,
         "sigma": 1.005,
         "length_scale": 7,
@@ -207,15 +207,15 @@ PhysioNet2019 = {
             128,
             128
         ],
-        "window_size": 24
+        "window_size": 36
     },
     "M-RNN": {
         "n_steps": 48,
         "n_features": 34,
         "patience": 10,
-        "epochs": 50,
+        "epochs": 100,
         "rnn_hidden_size": 512,
-        "lr": 0.0008505284131235178
+        "lr": 0.006155127814415844
     },
     "BRITS": { "n_steps": 48, "n_features": 34, "patience": 10, "epochs": 100, "rnn_hidden_size": 512, "lr": 0.0005763283506002885 },
     "GRU-D": {
