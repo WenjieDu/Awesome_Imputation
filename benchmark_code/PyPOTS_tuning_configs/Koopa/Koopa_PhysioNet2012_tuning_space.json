@@ -1,0 +1,12 @@
+{
+  "n_steps": {"_type":"choice","_value":[48]},
+  "n_features":  {"_type":"choice","_value":[35]},
+  "epochs":  {"_type":"choice","_value":[100]},
+  "patience":  {"_type":"choice","_value":[10]},
+  "n_seg_steps":  {"_type":"choice","_value":[12,24.48]},
+  "d_dynamic":  {"_type":"choice","_value":[64,128,256,512]},
+  "d_hidden":  {"_type":"choice","_value":[64,128,256,512]},
+  "n_hidden_layers":  {"_type":"choice","_value":[1,2,3]},
+  "n_blocks":  {"_type":"choice","_value":[1,2,3,4]},
+  "lr":{"_type":"loguniform","_value":[0.00005,0.01]}
+}

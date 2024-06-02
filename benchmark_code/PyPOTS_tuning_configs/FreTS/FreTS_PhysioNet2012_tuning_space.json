@@ -1,0 +1,10 @@
+{
+  "n_steps": {"_type":"choice","_value":[48]},
+  "n_features":  {"_type":"choice","_value":[35]},
+  "epochs":  {"_type":"choice","_value":[100]},
+  "patience":  {"_type":"choice","_value":[10]},
+  "embed_size":  {"_type":"choice","_value":[64,128,256]},
+  "hidden_size":  {"_type":"choice","_value":[64,128,256]},
+  "channel_independence":  {"_type":"choice","_value":[true,false]},
+  "lr":{"_type":"loguniform","_value":[0.00005,0.01]}
+}
