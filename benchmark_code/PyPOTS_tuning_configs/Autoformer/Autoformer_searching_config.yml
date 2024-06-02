@@ -2,18 +2,18 @@ experimentName: Autoformer hyper-param searching
 authorName: WenjieDu
 trialConcurrency: 1
 trainingServicePlatform: local
-searchSpacePath: Autoformer_PeMS_tuning_space.json
+searchSpacePath: Autoformer_PhysioNet2012_tuning_space.json
 multiThread: true
 useAnnotation: false
 tuner:
     builtinTunerName: Random
 
 trial:
-    command: enable_tuning=1 pypots-cli tuning --model pypots.imputation.Autoformer --train_set ../../data/pems_traffic_rate01_step24_point/train.h5 --val_set ../../data/pems_traffic_rate01_step24_point/val.h5
+    command: enable_tuning=1 pypots-cli tuning --model pypots.imputation.Autoformer --train_set ../../data/physionet_2012/train.h5 --val_set ../../data/physionet_2012/val.h5
     codeDir: .
     gpuNum: 1
 
 localConfig:
     useActiveGpu: true
-    maxTrialNumPerGpu: 20
-    gpuIndices: 1
+    maxTrialNumPerGpu: 100
+    gpuIndices: 0
