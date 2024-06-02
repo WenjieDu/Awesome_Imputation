@@ -93,6 +93,11 @@ if __name__ == "__main__":
         help="the number of rounds running the model to get the final results ",
         default=5,
     )
+    parser.add_argument(
+        "--impute_all_sets",
+        help="whether to impute all sets or only the test set",
+        action="store_true",
+    )
     args = parser.parse_args()
 
     # set the number of threads for pytorch
@@ -135,21 +140,39 @@ if __name__ == "__main__":
         if args.model in ["CSDI", "GPVAE"]:
             # CSDI and GPVAE can sample multiple times, then average the results to get the final imputation
             results = model.predict(test_set, n_sampling_times=10)
-            imputation = results["imputation"].mean(axis=1)
+            test_set_imputation = results["imputation"].mean(axis=1)
         else:
             results = model.predict(test_set)
-            imputation = results["imputation"]
+            test_set_imputation = results["imputation"]
 
         time_collector.append(time.time() - start_time)
-        mae = calc_mae(imputation, test_X_ori, test_indicating_mask)
-        mse = calc_mse(imputation, test_X_ori, test_indicating_mask)
-        mre = calc_mre(imputation, test_X_ori, test_indicating_mask)
+        mae = calc_mae(test_set_imputation, test_X_ori, test_indicating_mask)
+        mse = calc_mse(test_set_imputation, test_X_ori, test_indicating_mask)
+        mre = calc_mre(test_set_imputation, test_X_ori, test_indicating_mask)
         mae_collector.append(mae)
         mse_collector.append(mse)
         mre_collector.append(mre)
 
+        # if impute_all_sets is True, impute the train and val sets for saving
+        train_set_imputation, val_set_imputation = None, None
+        if args.impute_all_sets:
+            if args.model in ["CSDI", "GPVAE"]:
+                train_set_imputation = model.predict(train_set, n_sampling_times=10)[
+                    "imputation"
+                ].mean(axis=1)
+                val_set_imputation = model.predict(val_set, n_sampling_times=10)[
+                    "imputation"
+                ].mean(axis=1)
+            else:
+                train_set_imputation = model.predict(train_set)["imputation"]
+                val_set_imputation = model.predict(val_set)["imputation"]
+
         pickle_dump(
-            imputation,
+            {
+                "train_set_imputation": train_set_imputation,
+                "val_set_imputation": val_set_imputation,
+                "test_set_imputation": test_set_imputation,
+            },
             os.path.join(round_saving_path, "imputation.pkl"),
         )
         logger.info(
