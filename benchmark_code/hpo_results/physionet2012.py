@@ -152,17 +152,17 @@ PhysioNet2012 = {
         "attn_dropout": 0, 
         "lr": 0.00009675336316905085,
     },
-    "Koopa": { 
-        "n_steps": 48, 
-        "n_features": 35, 
-        "epochs": 100, 
-        "patience": 10, 
-        "n_seg_steps": 12, 
-        "d_dynamic": 128, 
-        "d_hidden": 512, 
-        "n_hidden_layers": 1, 
-        "n_blocks": 2, 
-        "lr": 0.00880848771615334,
+    "Koopa": {
+        "n_steps": 48,
+        "n_features": 35,
+        "epochs": 100,
+        "patience": 10,
+        "n_seg_steps": 12,
+        "d_dynamic": 64,
+        "d_hidden": 128,
+        "n_hidden_layers": 1,
+        "n_blocks": 3,
+        "lr": 0.00403376885361151
     },
     "MICN": {
         "n_steps": 48,
