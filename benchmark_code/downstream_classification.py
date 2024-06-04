@@ -5,19 +5,23 @@ A simple RNN classifier for downstream classification task on imputed Physionet 
 # Created by Wenjie Du <wenjay.du@gmail.com>
 # License: BSD-3-Clause
 
+import argparse
 import os
 
 import h5py
 import numpy as np
 import torch
+import torch.nn as nn
 import torch.nn.functional as F
 from pypots.data.saving import pickle_load
+from pypots.nn.modules.transformer import TransformerEncoder, PositionalEncoding
 from pypots.utils.logging import logger
 from pypots.utils.metrics import calc_binary_classification_metrics
 from pypots.utils.random import set_random_seed
 from torch.utils.data import Dataset, DataLoader
+from xgboost import XGBClassifier
 
-from global_config import RESULTS_SAVING_PATH, MAX_N_EPOCHS, DEVICE, RANDOM_SEEDS
+from global_config import RANDOM_SEEDS
 
 
 class LoadImputedDataAndLabel(Dataset):
@@ -31,19 +35,19 @@ class LoadImputedDataAndLabel(Dataset):
     def __getitem__(self, idx):
         return (
             torch.from_numpy(self.imputed_data[idx]).to(torch.float32),
-            torch.tensor(self.labels[idx]).to(torch.float32),
+            torch.tensor(self.labels[idx]).to(torch.long),
         )
 
 
 class SimpleRNNClassification(torch.nn.Module):
-    def __init__(self, feature_num, rnn_hidden_size, class_num):
+    def __init__(self, n_features, rnn_hidden_size, n_classes):
         super().__init__()
         self.rnn = torch.nn.LSTM(
-            feature_num,
+            n_features,
             hidden_size=rnn_hidden_size,
             batch_first=True,
         )
-        self.fcn = torch.nn.Linear(rnn_hidden_size, class_num)
+        self.fcn = torch.nn.Linear(rnn_hidden_size, n_classes)
 
     def forward(self, data):
         hidden_states, _ = self.rnn(data)
@@ -52,17 +56,57 @@ class SimpleRNNClassification(torch.nn.Module):
         return prediction_probabilities
 
 
-def train(model, train_dataloader, val_dataloader, optimizer):
-    patience = 20
+class TransformerClassification(torch.nn.Module):
+    def __init__(
+        self,
+        n_steps,
+        n_features,
+        n_layers,
+        d_model,
+        n_heads,
+        d_ffn,
+        dropout,
+        attn_dropout,
+        n_classes,
+    ):
+        super().__init__()
+        self.embedding = nn.Linear(n_features, d_model)
+        self.pos_encoding = PositionalEncoding(d_model)
+        self.transformer_encoder = TransformerEncoder(
+            n_layers=n_layers,
+            d_model=d_model,
+            n_heads=n_heads,
+            d_k=int(d_model / n_heads),
+            d_v=int(d_model / n_heads),
+            d_ffn=d_ffn,
+            dropout=dropout,
+            attn_dropout=attn_dropout,
+        )
+        self.output = nn.Linear(d_model * n_steps, n_classes)
+
+    def forward(self, data):
+        bz = data.shape[0]
+        embedding = self.pos_encoding(self.embedding(data))
+        encoding, _ = self.transformer_encoder(embedding)
+        encoding = encoding.reshape(bz, -1)
+        logits = self.output(encoding)
+        prediction_probabilities = torch.sigmoid(logits)
+        return prediction_probabilities
+
+
+def train(model, train_dataloader, val_dataloader):
+    n_epochs = 100
+    patience = 10
+    optimizer = torch.optim.Adam(model.parameters(), 1e-3)
     current_patience = patience
-    best_loss = 1000
-    for epoch in range(MAX_N_EPOCHS):
+    best_loss = float("inf")
+    for epoch in range(n_epochs):
         model.train()
         for idx, data in enumerate(train_dataloader):
-            X, y = map(lambda x: x.to(DEVICE), data)
+            X, y = map(lambda x: x.to(args.device), data)
             optimizer.zero_grad()
             probabilities = model(X)
-            loss = F.binary_cross_entropy(probabilities, y.reshape(-1, 1))
+            loss = F.cross_entropy(probabilities, y.reshape(-1))
             loss.backward()
             optimizer.step()
 
@@ -70,9 +114,9 @@ def train(model, train_dataloader, val_dataloader, optimizer):
         loss_collector = []
         with torch.no_grad():
             for idx, data in enumerate(val_dataloader):
-                X, y = map(lambda x: x.to(DEVICE), data)
+                X, y = map(lambda x: x.to(args.device), data)
                 probabilities = model(X)
-                loss = F.binary_cross_entropy(probabilities, y.reshape(-1, 1))
+                loss = F.cross_entropy(probabilities, y.reshape(-1))
                 loss_collector.append(loss.item())
 
         loss = np.asarray(loss_collector).mean()
@@ -86,7 +130,17 @@ def train(model, train_dataloader, val_dataloader, optimizer):
         if current_patience == 0:
             break
 
-    return best_model
+    model.load_state_dict(best_model)
+    model.eval()
+
+    probability_collector = []
+    for idx, data in enumerate(test_loader):
+        X, y = map(lambda x: x.to(args.device), data)
+        probabilities = model.forward(X)
+        probability_collector += probabilities.cpu().tolist()
+
+    probability_collector = np.asarray(probability_collector)
+    return probability_collector
 
 
 def get_dataloaders(train_X, train_y, val_X, val_y, test_X, test_y, batch_size=128):
@@ -100,97 +154,203 @@ def get_dataloaders(train_X, train_y, val_X, val_y, test_X, test_y, batch_size=1
 
 
 if __name__ == "__main__":
-    saving_dir = "data/physionet_2012"
-    train_set_path = os.path.join(saving_dir, "train.h5")
-    val_set_path = os.path.join(saving_dir, "val.h5")
-    test_set_path = os.path.join(saving_dir, "test.h5")
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--device",
+        type=str,
+        help="device to run the model, e.g. cuda:0",
+        required=True,
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        help="the model name",
+        required=True,
+    )
+    parser.add_argument(
+        "--dataset",
+        type=str,
+        help="the dataset name",
+        required=True,
+    )
+    parser.add_argument(
+        "--dataset_fold_path",
+        type=str,
+        help="the dataset fold path, where should include 3 H5 files train.h5, val.h5 and test.h5",
+        required=True,
+    )
+    parser.add_argument(
+        "--n_classes",
+        type=int,
+        help="the number of classes",
+        required=True,
+    )
+    parser.add_argument(
+        "--model_result_parent_fold",
+        type=str,
+        help="the parent fold of the model results, where should include the folds of 5 rounds",
+        required=True,
+    )
+    args = parser.parse_args()
+
+    train_set_path = os.path.join(args.dataset_fold_path, "train.h5")
+    val_set_path = os.path.join(args.dataset_fold_path, "val.h5")
+    test_set_path = os.path.join(args.dataset_fold_path, "test.h5")
     with h5py.File(train_set_path, "r") as hf:
+        pots_train_X = hf["X"][:]
         train_y = hf["y"][:]
     with h5py.File(val_set_path, "r") as hf:
+        pots_val_X = hf["X"][:]
         val_y = hf["y"][:]
     with h5py.File(test_set_path, "r") as hf:
+        pots_test_X = hf["X"][:]
         test_y = hf["y"][:]
 
-    for method_name in [
-        "Mean",
-        "Median",
-        "LOCF",
-        "MRNN",
-        "GPVAE",
-        "BRITS",
-        "USGAN",
-        "CSDI",
-        "TimesNet",
-        "Transformer",
-        "SAITS",
-    ]:
-        pr_auc_collector = []
-        roc_auc_collector = []
+    if args.dataset == "Pedestrian":
+        # Pedestrian dataset has 10 classes with label from 1 to 10, we need to convert it to 0 to 9
+        train_y, val_y, test_y = train_y - 1, val_y - 1, test_y - 1
 
-        train_X_collector = []
-        val_X_collector = []
-        test_X_collector = []
+    train_X_collector = []
+    val_X_collector = []
+    test_X_collector = []
 
-        for n_round in range(5):
-            imputed_data_path = os.path.join(
-                RESULTS_SAVING_PATH,
-                f"round_{n_round}/{method_name}_physionet2012/imputation.pkl",
-            )
-            [_train_X, _val_X, _test_X] = pickle_load(imputed_data_path)
-            train_X_collector.append(_train_X)
-            val_X_collector.append(_val_X)
-            test_X_collector.append(_test_X)
-        train_X, val_X, test_X = (
-            np.mean(np.stack(train_X_collector), axis=0),
-            np.mean(np.stack(val_X_collector), axis=0),
-            np.mean(np.stack(test_X_collector), axis=0),
+    for n_round in range(5):
+        imputed_data_path = os.path.join(
+            args.model_result_parent_fold,
+            f"round_{n_round}/imputation.pkl",
         )
+        imputed_data = pickle_load(imputed_data_path)
+        _train_X, _val_X, _test_X = (
+            imputed_data["train_set_imputation"],
+            imputed_data["val_set_imputation"],
+            imputed_data["test_set_imputation"],
+        )
+        train_X_collector.append(_train_X)
+        val_X_collector.append(_val_X)
+        test_X_collector.append(_test_X)
+    train_X, val_X, test_X = (
+        np.mean(np.stack(train_X_collector), axis=0),
+        np.mean(np.stack(val_X_collector), axis=0),
+        np.mean(np.stack(test_X_collector), axis=0),
+    )
 
-        for n_round in range(5):
-            set_random_seed(RANDOM_SEEDS[n_round])
-            train_loader, val_loader, test_loader = get_dataloaders(
-                train_X, train_y, val_X, val_y, test_X, test_y
-            )
-            simple_rnn_classifier = SimpleRNNClassification(
-                feature_num=37, rnn_hidden_size=128, class_num=1
-            )
-            optimizer = torch.optim.Adam(simple_rnn_classifier.parameters(), 1e-3)
-            if "cuda" in DEVICE:
-                simple_rnn_classifier = simple_rnn_classifier.cuda()
-            # training and validating
-            best_model = train(
-                simple_rnn_classifier, train_loader, val_loader, optimizer
-            )
-            simple_rnn_classifier.load_state_dict(best_model)
+    xgb_wo_pr_auc_collector = []
+    xgb_wo_roc_auc_collector = []
+    xgb_pr_auc_collector = []
+    xgb_roc_auc_collector = []
+    rnn_pr_auc_collector = []
+    rnn_roc_auc_collector = []
+    transformer_pr_auc_collector = []
+    transformer_roc_auc_collector = []
 
-            # testing stage
-            probability_collector, label_collector = [], []
-            for idx, data in enumerate(test_loader):
-                X, y = map(lambda x: x.to(DEVICE), data)
-                probabilities = simple_rnn_classifier.forward(X)
-                probability_collector += probabilities.cpu().tolist()
-                label_collector += y.cpu().tolist()
-            probability_collector = np.asarray(probability_collector)
-            label_collector = np.asarray(label_collector)
+    train_loader, val_loader, test_loader = get_dataloaders(
+        train_X, train_y, val_X, val_y, test_X, test_y
+    )
+    for n_round in range(5):
+        set_random_seed(RANDOM_SEEDS[n_round])
+        # XGBoost model without imputation
+        n_flatten_features = np.product(train_X.shape[1:])
+        xgb = XGBClassifier()
+        xgb.fit(
+            pots_train_X.reshape(-1, n_flatten_features),
+            train_y,
+            eval_set=[(pots_val_X.reshape(-1, n_flatten_features), val_y)],
+            verbose=False,
+        )
+        proba_predictions = xgb.predict_proba(
+            pots_test_X.reshape(-1, n_flatten_features)
+        )
+        if args.n_classes == 2:
             classification_metrics = calc_binary_classification_metrics(
-                probability_collector, label_collector
+                proba_predictions, test_y
             )
-            pr_auc_collector.append(classification_metrics["pr_auc"])
-            roc_auc_collector.append(classification_metrics["roc_auc"])
+            pr_auc, roc_auc = (
+                classification_metrics["pr_auc"],
+                classification_metrics["roc_auc"],
+            )
+        else:
+            pr_auc, roc_auc = None, None
+        xgb_wo_pr_auc_collector.append(pr_auc)
+        xgb_wo_roc_auc_collector.append(roc_auc)
 
-        logger.info(
-            f"RNN on {method_name} imputation PR_AUC: {np.mean(pr_auc_collector):.4f}±{np.std(pr_auc_collector):.4f}, "
-            f"ROC_AUC: {np.mean(roc_auc_collector):.4f}±{np.std(roc_auc_collector):.4f}"
+        # XGBoost model without imputation
+        xgb = XGBClassifier()
+        xgb.fit(
+            train_X.reshape(-1, n_flatten_features),
+            train_y,
+            eval_set=[(val_X.reshape(-1, n_flatten_features), val_y)],
+            verbose=False,
         )
+        proba_predictions = xgb.predict_proba(test_X.reshape(-1, n_flatten_features))
+        if args.n_classes == 2:
+            classification_metrics = calc_binary_classification_metrics(
+                proba_predictions, test_y
+            )
+            pr_auc, roc_auc = (
+                classification_metrics["pr_auc"],
+                classification_metrics["roc_auc"],
+            )
+        else:
+            pr_auc, roc_auc = None, None
+        xgb_pr_auc_collector.append(pr_auc)
+        xgb_roc_auc_collector.append(roc_auc)
 
-# 2024-01-05 14:51:35 [INFO]: RNN on Mean imputation PR_AUC: 0.4337±0.0158, ROC_AUC: 0.8134±0.0087
-# 2024-01-05 14:52:17 [INFO]: RNN on Median imputation PR_AUC: 0.4338±0.0176, ROC_AUC: 0.8081±0.0142
-# 2024-01-05 14:52:44 [INFO]: RNN on LOCF imputation PR_AUC: 0.4250±0.0151, ROC_AUC: 0.8041±0.0068
-# 2024-01-05 14:53:17 [INFO]: RNN on MRNN imputation PR_AUC: 0.4242±0.0219, ROC_AUC: 0.8069±0.0147
-# 2024-01-05 14:53:46 [INFO]: RNN on GPVAE imputation PR_AUC: 0.3842±0.0180, ROC_AUC: 0.7879±0.0082
-# 2024-01-05 14:54:17 [INFO]: RNN on BRITS imputation PR_AUC: 0.4277±0.0166, ROC_AUC: 0.8211±0.0079
-# 2024-01-05 14:54:47 [INFO]: RNN on USGAN imputation PR_AUC: 0.4313±0.0171, ROC_AUC: 0.8144±0.0099
-# 2024-01-05 14:55:11 [INFO]: RNN on CSDI imputation PR_AUC: 0.4327±0.0084, ROC_AUC: 0.8108±0.0048
-# 2024-01-05 14:55:35 [INFO]: RNN on TimesNet imputation PR_AUC: 0.4058±0.0121, ROC_AUC: 0.7872±0.0128
-# 2024-01-05 14:56:05 [INFO]: RNN on Transformer imputation PR_AUC: 0.4455±0.0314, ROC_AUC: 0.8072±0.0182
-# 2024-01-05 14:56:34 [INFO]: RNN on SAITS imputation PR_AUC: 0.4549±0.0158, ROC_AUC: 0.8222±0.0019
+        # RNN model
+        simple_rnn_classifier = SimpleRNNClassification(
+            n_features=train_X.shape[-1],
+            rnn_hidden_size=128,
+            n_classes=args.n_classes,
+        )
+        simple_rnn_classifier = simple_rnn_classifier.to(args.device)
+        proba_predictions = train(simple_rnn_classifier, train_loader, val_loader)
+        if args.n_classes == 2:
+            classification_metrics = calc_binary_classification_metrics(
+                proba_predictions, test_y
+            )
+            pr_auc, roc_auc = (
+                classification_metrics["pr_auc"],
+                classification_metrics["roc_auc"],
+            )
+        else:
+            pr_auc, roc_auc = None, None
+        rnn_pr_auc_collector.append(pr_auc)
+        rnn_roc_auc_collector.append(roc_auc)
+
+        # Transformer model
+        transformer_classifier = TransformerClassification(
+            n_steps=train_X.shape[1],
+            n_features=train_X.shape[2],
+            n_layers=1,
+            d_model=64,
+            n_heads=2,
+            d_ffn=128,
+            dropout=0.1,
+            attn_dropout=0,
+            n_classes=args.n_classes,
+        )
+        transformer_classifier = transformer_classifier.to(args.device)
+        proba_predictions = train(transformer_classifier, train_loader, val_loader)
+        if args.n_classes == 2:
+            classification_metrics = calc_binary_classification_metrics(
+                proba_predictions, test_y
+            )
+            pr_auc, roc_auc = (
+                classification_metrics["pr_auc"],
+                classification_metrics["roc_auc"],
+            )
+        else:
+            pr_auc, roc_auc = None, None
+        transformer_pr_auc_collector.append(pr_auc)
+        transformer_roc_auc_collector.append(roc_auc)
+
+    logger.info(
+        "\n"
+        f"XGB without imputation PR_AUC: {np.mean(xgb_wo_pr_auc_collector):.4f}±{np.std(xgb_wo_pr_auc_collector):.4f}, "
+        f"ROC_AUC: {np.mean(xgb_wo_roc_auc_collector):.4f}±{np.std(xgb_wo_roc_auc_collector):.4f}\n"
+        f"XGB with {args.model} imputation PR_AUC: {np.mean(xgb_pr_auc_collector):.4f}±{np.std(xgb_pr_auc_collector):.4f}, "
+        f"ROC_AUC: {np.mean(xgb_roc_auc_collector):.4f}±{np.std(xgb_roc_auc_collector):.4f}\n"
+        f"RNN with {args.model} imputation PR_AUC: {np.mean(rnn_pr_auc_collector):.4f}±{np.std(rnn_pr_auc_collector):.4f}, "
+        f"ROC_AUC: {np.mean(rnn_roc_auc_collector):.4f}±{np.std(rnn_roc_auc_collector):.4f}\n"
+        f"Transformer with {args.model} imputation PR_AUC: {np.mean(transformer_pr_auc_collector):.4f}±{np.std(transformer_pr_auc_collector):.4f}, "
+        f"ROC_AUC: {np.mean(transformer_roc_auc_collector):.4f}±{np.std(transformer_roc_auc_collector):.4f}\n"
+    )

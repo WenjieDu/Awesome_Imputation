@@ -1,0 +1,53 @@
+# point_rate01
+python naive_imputation.py --dataset_fold_path data/melbourne_pedestrian_rate01_step24_point
+python naive_imputation.py --dataset_fold_path data/pems_traffic_rate01_step24_point
+
+python naive_imputation.py --dataset_fold_path data/beijing_air_quality_rate01_step24_point
+python naive_imputation.py --dataset_fold_path data/italy_air_quality_rate01_step12_point
+
+python naive_imputation.py --dataset_fold_path data/physionet_2012_rate01_point
+python naive_imputation.py --dataset_fold_path data/physionet_2019_rate01_step48_point
+
+python naive_imputation.py --dataset_fold_path data/ett_rate01_step48_point
+python naive_imputation.py --dataset_fold_path data/electricity_load_diagrams_rate01_step96_point
+
+
+# point_rate05
+python naive_imputation.py --dataset_fold_path data/ett_rate05_step48_point
+python naive_imputation.py --dataset_fold_path data/electricity_load_diagrams_rate05_step96_point
+
+python naive_imputation.py --dataset_fold_path data/beijing_air_quality_rate05_step24_point
+python naive_imputation.py --dataset_fold_path data/italy_air_quality_rate05_step12_point
+
+python naive_imputation.py --dataset_fold_path data/pems_traffic_rate05_step24_point
+python naive_imputation.py --dataset_fold_path data/melbourne_pedestrian_rate05_step24_point
+
+# point_rate09
+python naive_imputation.py --dataset_fold_path data/electricity_load_diagrams_rate09_step96_point
+python naive_imputation.py --dataset_fold_path data/ett_rate09_step48_point
+
+python naive_imputation.py --dataset_fold_path data/pems_traffic_rate09_step24_point
+python naive_imputation.py --dataset_fold_path data/melbourne_pedestrian_rate09_step24_point
+
+python naive_imputation.py --dataset_fold_path data/beijing_air_quality_rate09_step24_point
+python naive_imputation.py --dataset_fold_path data/italy_air_quality_rate09_step12_point
+
+# subseq_rate05
+python naive_imputation.py --dataset_fold_path data/beijing_air_quality_rate05_step24_subseq_seqlen18
+python naive_imputation.py --dataset_fold_path data/italy_air_quality_rate05_step12_subseq_seqlen8
+
+python naive_imputation.py --dataset_fold_path data/electricity_load_diagrams_rate05_step96_subseq_seqlen72
+python naive_imputation.py --dataset_fold_path data/ett_rate05_step48_subseq_seqlen36
+
+python naive_imputation.py --dataset_fold_path data/pems_traffic_rate05_step24_subseq_seqlen18
+python naive_imputation.py --dataset_fold_path data/melbourne_pedestrian_rate05_step24_subseq_seqlen18
+
+
+# block_rate05
+python naive_imputation.py --dataset_fold_path data/pems_traffic_rate05_step24_block_blocklen6
+
+python naive_imputation.py --dataset_fold_path data/beijing_air_quality_rate05_step24_block_blocklen6
+python naive_imputation.py --dataset_fold_path data/italy_air_quality_rate05_step12_block_blocklen4
+
+python naive_imputation.py --dataset_fold_path data/ett_rate05_step48_block_blocklen6
+python naive_imputation.py --dataset_fold_path data/electricity_load_diagrams_rate05_step96_block_blocklen8
