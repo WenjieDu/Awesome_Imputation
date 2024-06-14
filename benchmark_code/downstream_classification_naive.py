@@ -24,6 +24,23 @@ from xgboost import XGBClassifier
 from global_config import RANDOM_SEEDS
 
 
+def calc_multiclass_classification_metrics(proba_predictions, y_true, n_classes):
+    # calc weighted roc auc
+    weighted_roc_auc = 0
+    weighted_pr_auc = 0
+    for i in range(n_classes):
+        result_metrics = calc_binary_classification_metrics(
+            proba_predictions[:, i], y_true == i
+        )
+        pr_auc = result_metrics["pr_auc"]
+        roc_auc = result_metrics["roc_auc"]
+        weighted_pr_auc += pr_auc * (y_true == i).sum()
+        weighted_roc_auc += roc_auc * (y_true == i).sum()
+    weighted_roc_auc /= len(y_true)
+    weighted_pr_auc /= len(y_true)
+    return weighted_pr_auc, weighted_roc_auc
+
+
 class LoadImputedDataAndLabel(Dataset):
     def __init__(self, imputed_data, labels):
         self.imputed_data = imputed_data
@@ -246,7 +263,9 @@ if __name__ == "__main__":
                     classification_metrics["roc_auc"],
                 )
             else:
-                pr_auc, roc_auc = None, None
+                pr_auc, roc_auc = calc_multiclass_classification_metrics(
+                    proba_predictions, test_y, args.n_classes
+                )
             xgb_pr_auc_collector.append(pr_auc)
             xgb_roc_auc_collector.append(roc_auc)
 
@@ -267,7 +286,9 @@ if __name__ == "__main__":
                     classification_metrics["roc_auc"],
                 )
             else:
-                pr_auc, roc_auc = None, None
+                pr_auc, roc_auc = calc_multiclass_classification_metrics(
+                    proba_predictions, test_y, args.n_classes
+                )
             rnn_pr_auc_collector.append(pr_auc)
             rnn_roc_auc_collector.append(roc_auc)
 
@@ -294,7 +315,9 @@ if __name__ == "__main__":
                     classification_metrics["roc_auc"],
                 )
             else:
-                pr_auc, roc_auc = None, None
+                pr_auc, roc_auc = calc_multiclass_classification_metrics(
+                    proba_predictions, test_y, args.n_classes
+                )
             transformer_pr_auc_collector.append(pr_auc)
             transformer_roc_auc_collector.append(roc_auc)
 
