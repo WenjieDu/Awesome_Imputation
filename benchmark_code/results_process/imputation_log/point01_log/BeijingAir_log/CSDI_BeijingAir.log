@@ -2,8 +2,6 @@
 2024-06-04 02:44:45 [INFO]: Using the given device: cuda:0
 2024-06-04 02:44:45 [INFO]: Model files will be saved to new_results_point_rate01/BeijingAir/CSDI_BeijingAir/round_0/20240604_T024445
 2024-06-04 02:44:45 [INFO]: Tensorboard file will be saved to new_results_point_rate01/BeijingAir/CSDI_BeijingAir/round_0/20240604_T024445/tensorboard
-/scratch/users/k1814348/.conda/envs/pypots/lib/python3.10/site-packages/torch/nn/modules/transformer.py:286: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
-  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
 2024-06-04 02:44:45 [INFO]: CSDI initialized with the given hyperparameters, the number of trainable parameters: 244,833
 2024-06-04 02:46:12 [INFO]: Epoch 001 - training loss: 0.5290, validation loss: 0.3566
 2024-06-04 02:47:32 [INFO]: Epoch 002 - training loss: 0.3447, validation loss: 0.3347
@@ -113,8 +111,6 @@
 2024-06-04 05:22:54 [INFO]: Using the given device: cuda:0
 2024-06-04 05:22:54 [INFO]: Model files will be saved to new_results_point_rate01/BeijingAir/CSDI_BeijingAir/round_1/20240604_T052254
 2024-06-04 05:22:54 [INFO]: Tensorboard file will be saved to new_results_point_rate01/BeijingAir/CSDI_BeijingAir/round_1/20240604_T052254/tensorboard
-/scratch/users/k1814348/.conda/envs/pypots/lib/python3.10/site-packages/torch/nn/modules/transformer.py:286: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
-  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
 2024-06-04 05:22:54 [INFO]: CSDI initialized with the given hyperparameters, the number of trainable parameters: 244,833
 2024-06-04 05:23:58 [INFO]: Epoch 001 - training loss: 0.5063, validation loss: 0.3639
 2024-06-04 05:25:03 [INFO]: Epoch 002 - training loss: 0.3345, validation loss: 0.3241
