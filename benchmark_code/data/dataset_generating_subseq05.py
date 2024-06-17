@@ -6,9 +6,7 @@
 # License: BSD-3-Clause
 
 
-from pypots.utils.random import set_random_seed
-
-from benchpots.preprocessing import (
+from benchpots.datasets import (
     preprocess_beijing_air_quality,
     preprocess_italy_air_quality,
     preprocess_electricity_load_diagrams,
@@ -16,7 +14,9 @@ from benchpots.preprocessing import (
     preprocess_pems_traffic,
     preprocess_ucr_uea_datasets,
 )
-from dataset_generating_point01 import organize_and_save
+from pypots.utils.random import set_random_seed
+
+from utils import organize_and_save
 
 if __name__ == "__main__":
     set_random_seed(2024)
@@ -56,7 +56,7 @@ if __name__ == "__main__":
     step = 48
     seq_len = 36
     ett = preprocess_ett(
-        set_name="ETTh1",
+        subset="ETTh1",
         rate=rate,
         n_steps=step,
         pattern=pattern,
@@ -84,7 +84,7 @@ if __name__ == "__main__":
     step = 24
     seq_len = 18
     melbourne_pedestrian = preprocess_ucr_uea_datasets(
-        "ucr_uea_MelbournePedestrian",
+        dataset_name="ucr_uea_MelbournePedestrian",
         rate=rate,
         pattern=pattern,
         **{"seq_len": seq_len},

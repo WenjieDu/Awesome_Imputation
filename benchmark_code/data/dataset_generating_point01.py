@@ -5,10 +5,7 @@
 # Created by Wenjie Du <wenjay.du@gmail.com>
 # License: BSD-3-Clause
 
-from pypots.data.saving import save_dict_into_h5
-from pypots.utils.random import set_random_seed
-
-from benchpots.preprocessing import (
+from benchpots.datasets import (
     preprocess_physionet2012,
     preprocess_physionet2019,
     preprocess_beijing_air_quality,
@@ -18,29 +15,9 @@ from benchpots.preprocessing import (
     preprocess_pems_traffic,
     preprocess_ucr_uea_datasets,
 )
+from pypots.utils.random import set_random_seed
 
-
-def organize_and_save(data_dict, saving_dir):
-    train = {
-        "X": data_dict["train_X"],
-        "X_ori": data_dict["train_X_ori"] if "train_X_ori" in data_dict.keys() else "",
-        "y": data_dict["train_y"] if "train_y" in data_dict.keys() else "",
-    }
-    val = {
-        "X": data_dict["val_X"],
-        "X_ori": data_dict["val_X_ori"],
-        "y": data_dict["val_y"] if "val_y" in data_dict.keys() else "",
-    }
-    test = {
-        "X": data_dict["test_X"],
-        "X_ori": data_dict["test_X_ori"],
-        "y": data_dict["test_y"] if "test_y" in data_dict.keys() else "",
-    }
-    save_dict_into_h5(train, saving_dir, "train.h5")
-    save_dict_into_h5(val, saving_dir, "val.h5")
-    save_dict_into_h5(test, saving_dir, "test.h5")
-    print("\n\n\n")
-
+from utils import organize_and_save
 
 if __name__ == "__main__":
     set_random_seed(2024)
@@ -48,9 +25,9 @@ if __name__ == "__main__":
     pattern = "point"
 
     physionet_2012 = preprocess_physionet2012(
+        subset="set-a",
         rate=rate,
         pattern="point",
-        subset="set-a",
         features=[
             "DiasABP",
             "HR",
@@ -93,7 +70,9 @@ if __name__ == "__main__":
 
     step = 24
     beijing_air_quality = preprocess_beijing_air_quality(
-        rate=rate, n_steps=step, pattern=pattern
+        rate=rate,
+        n_steps=step,
+        pattern=pattern,
     )
     organize_and_save(
         beijing_air_quality,
@@ -102,7 +81,9 @@ if __name__ == "__main__":
 
     step = 12
     italy_air_quality = preprocess_italy_air_quality(
-        rate=rate, n_steps=step, pattern=pattern
+        rate=rate,
+        n_steps=step,
+        pattern=pattern,
     )
     organize_and_save(
         italy_air_quality,
@@ -122,7 +103,7 @@ if __name__ == "__main__":
 
     step = 48
     ett = preprocess_ett(
-        set_name="ETTh1",
+        subset="ETTh1",
         rate=rate,
         n_steps=step,
         pattern=pattern,
@@ -145,7 +126,7 @@ if __name__ == "__main__":
 
     step = 24
     melbourne_pedestrian = preprocess_ucr_uea_datasets(
-        "ucr_uea_MelbournePedestrian",
+        dataset_name="ucr_uea_MelbournePedestrian",
         rate=rate,
     )
     organize_and_save(
@@ -154,7 +135,9 @@ if __name__ == "__main__":
     )
 
     physionet_2019 = preprocess_physionet2019(
-        rate=rate, pattern="point", subset="training_setA"
+        subset="training_setA",
+        rate=rate,
+        pattern="point",
     )
     organize_and_save(
         physionet_2019, "generated_datasets/physionet_2019_rate01_step48_point"
