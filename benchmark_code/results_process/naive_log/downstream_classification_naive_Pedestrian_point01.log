@@ -1,0 +1,39 @@
+2024-06-09 23:50:38 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-09 23:50:43 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-09 23:50:46 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-09 23:50:51 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-09 23:50:54 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-09 23:50:58 [INFO]: 
+XGB with mean imputation PR_AUC: 0.9697±0.0000, ROC_AUC: 0.9954±0.0000
+RNN with mean imputation PR_AUC: 0.4858±0.0498, ROC_AUC: 0.9037±0.0190
+Transformer with mean imputation PR_AUC: 0.9120±0.0176, ROC_AUC: 0.9862±0.0028
+
+2024-06-09 23:50:58 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-09 23:51:01 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-09 23:51:05 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-09 23:51:09 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-09 23:51:12 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-09 23:51:15 [INFO]: 
+XGB with median imputation PR_AUC: 0.9680±0.0017, ROC_AUC: 0.9950±0.0004
+RNN with median imputation PR_AUC: 0.4977±0.0676, ROC_AUC: 0.9062±0.0232
+Transformer with median imputation PR_AUC: 0.8998±0.0192, ROC_AUC: 0.9844±0.0028
+
+2024-06-09 23:51:15 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-09 23:51:19 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-09 23:51:24 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-09 23:51:27 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-09 23:51:31 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-09 23:51:35 [INFO]: 
+XGB with locf imputation PR_AUC: 0.9705±0.0039, ROC_AUC: 0.9955±0.0008
+RNN with locf imputation PR_AUC: 0.4895±0.0626, ROC_AUC: 0.9033±0.0212
+Transformer with locf imputation PR_AUC: 0.9087±0.0226, ROC_AUC: 0.9859±0.0035
+
+2024-06-09 23:51:35 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-09 23:51:39 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-09 23:51:44 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-09 23:51:48 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-09 23:51:51 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-09 23:51:56 [INFO]: 
+XGB with linear_interpolation imputation PR_AUC: 0.9725±0.0048, ROC_AUC: 0.9958±0.0009
+RNN with linear_interpolation imputation PR_AUC: 0.4983±0.0588, ROC_AUC: 0.9057±0.0193
+Transformer with linear_interpolation imputation PR_AUC: 0.9158±0.0253, ROC_AUC: 0.9871±0.0039

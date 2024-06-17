@@ -1,0 +1,207 @@
+2024-06-03 03:09:27 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 03:09:27 [INFO]: Using the given device: cuda:0
+2024-06-03 03:09:28 [INFO]: Model files will be saved to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_0/20240603_T030928
+2024-06-03 03:09:28 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_0/20240603_T030928/tensorboard
+2024-06-03 03:09:28 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=256, n_heads=4, d_k=256
+2024-06-03 03:09:28 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (4) * d_k (256)
+2024-06-03 03:09:30 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 18,932,236
+2024-06-03 03:09:35 [INFO]: Epoch 001 - training loss: 1.1980, validation loss: 1.5384
+2024-06-03 03:09:38 [INFO]: Epoch 002 - training loss: 0.6657, validation loss: 1.3168
+2024-06-03 03:09:40 [INFO]: Epoch 003 - training loss: 0.5734, validation loss: 1.2783
+2024-06-03 03:09:43 [INFO]: Epoch 004 - training loss: 0.5157, validation loss: 1.2512
+2024-06-03 03:09:46 [INFO]: Epoch 005 - training loss: 0.5014, validation loss: 1.2249
+2024-06-03 03:09:49 [INFO]: Epoch 006 - training loss: 0.4740, validation loss: 1.0842
+2024-06-03 03:09:52 [INFO]: Epoch 007 - training loss: 0.4622, validation loss: 1.2051
+2024-06-03 03:09:54 [INFO]: Epoch 008 - training loss: 0.4581, validation loss: 1.0906
+2024-06-03 03:09:57 [INFO]: Epoch 009 - training loss: 0.4372, validation loss: 1.1548
+2024-06-03 03:10:00 [INFO]: Epoch 010 - training loss: 0.4372, validation loss: 1.0510
+2024-06-03 03:10:03 [INFO]: Epoch 011 - training loss: 0.4269, validation loss: 0.9397
+2024-06-03 03:10:06 [INFO]: Epoch 012 - training loss: 0.4096, validation loss: 1.1314
+2024-06-03 03:10:09 [INFO]: Epoch 013 - training loss: 0.3957, validation loss: 1.1975
+2024-06-03 03:10:12 [INFO]: Epoch 014 - training loss: 0.4087, validation loss: 1.0628
+2024-06-03 03:10:15 [INFO]: Epoch 015 - training loss: 0.4076, validation loss: 1.0273
+2024-06-03 03:10:18 [INFO]: Epoch 016 - training loss: 0.3999, validation loss: 1.0872
+2024-06-03 03:10:21 [INFO]: Epoch 017 - training loss: 0.3862, validation loss: 1.0123
+2024-06-03 03:10:24 [INFO]: Epoch 018 - training loss: 0.3858, validation loss: 0.9782
+2024-06-03 03:10:26 [INFO]: Epoch 019 - training loss: 0.3734, validation loss: 0.8978
+2024-06-03 03:10:29 [INFO]: Epoch 020 - training loss: 0.3757, validation loss: 1.0637
+2024-06-03 03:10:32 [INFO]: Epoch 021 - training loss: 0.3920, validation loss: 1.0427
+2024-06-03 03:10:35 [INFO]: Epoch 022 - training loss: 0.3828, validation loss: 1.0298
+2024-06-03 03:10:38 [INFO]: Epoch 023 - training loss: 0.3757, validation loss: 0.9564
+2024-06-03 03:10:40 [INFO]: Epoch 024 - training loss: 0.3667, validation loss: 0.9460
+2024-06-03 03:10:43 [INFO]: Epoch 025 - training loss: 0.3908, validation loss: 0.9519
+2024-06-03 03:10:46 [INFO]: Epoch 026 - training loss: 0.3709, validation loss: 1.0335
+2024-06-03 03:10:49 [INFO]: Epoch 027 - training loss: 0.3645, validation loss: 0.9295
+2024-06-03 03:10:52 [INFO]: Epoch 028 - training loss: 0.3531, validation loss: 0.9168
+2024-06-03 03:10:55 [INFO]: Epoch 029 - training loss: 0.3475, validation loss: 0.9456
+2024-06-03 03:10:55 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:10:55 [INFO]: Finished training. The best model is from epoch#19.
+2024-06-03 03:10:55 [INFO]: Saved the model to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_0/20240603_T030928/iTransformer.pypots
+2024-06-03 03:10:56 [INFO]: Successfully saved to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_0/imputation.pkl
+2024-06-03 03:10:56 [INFO]: Round0 - iTransformer on ItalyAir: MAE=0.5647, MSE=0.7218, MRE=0.7240
+2024-06-03 03:10:56 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 03:10:56 [INFO]: Using the given device: cuda:0
+2024-06-03 03:10:56 [INFO]: Model files will be saved to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_1/20240603_T031056
+2024-06-03 03:10:56 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_1/20240603_T031056/tensorboard
+2024-06-03 03:10:56 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=256, n_heads=4, d_k=256
+2024-06-03 03:10:56 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (4) * d_k (256)
+2024-06-03 03:10:57 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 18,932,236
+2024-06-03 03:11:00 [INFO]: Epoch 001 - training loss: 1.1847, validation loss: 1.5411
+2024-06-03 03:11:03 [INFO]: Epoch 002 - training loss: 0.6592, validation loss: 1.3177
+2024-06-03 03:11:05 [INFO]: Epoch 003 - training loss: 0.5578, validation loss: 1.2363
+2024-06-03 03:11:08 [INFO]: Epoch 004 - training loss: 0.5197, validation loss: 1.1491
+2024-06-03 03:11:11 [INFO]: Epoch 005 - training loss: 0.5003, validation loss: 1.0985
+2024-06-03 03:11:14 [INFO]: Epoch 006 - training loss: 0.4923, validation loss: 1.0868
+2024-06-03 03:11:16 [INFO]: Epoch 007 - training loss: 0.4755, validation loss: 1.0087
+2024-06-03 03:11:19 [INFO]: Epoch 008 - training loss: 0.4543, validation loss: 1.0123
+2024-06-03 03:11:22 [INFO]: Epoch 009 - training loss: 0.4420, validation loss: 1.0174
+2024-06-03 03:11:24 [INFO]: Epoch 010 - training loss: 0.4237, validation loss: 0.9136
+2024-06-03 03:11:27 [INFO]: Epoch 011 - training loss: 0.4309, validation loss: 0.9617
+2024-06-03 03:11:30 [INFO]: Epoch 012 - training loss: 0.4183, validation loss: 0.9841
+2024-06-03 03:11:33 [INFO]: Epoch 013 - training loss: 0.4080, validation loss: 1.0249
+2024-06-03 03:11:36 [INFO]: Epoch 014 - training loss: 0.4221, validation loss: 0.8985
+2024-06-03 03:11:39 [INFO]: Epoch 015 - training loss: 0.3921, validation loss: 0.8358
+2024-06-03 03:11:41 [INFO]: Epoch 016 - training loss: 0.4194, validation loss: 0.9387
+2024-06-03 03:11:44 [INFO]: Epoch 017 - training loss: 0.3981, validation loss: 0.9779
+2024-06-03 03:11:47 [INFO]: Epoch 018 - training loss: 0.3882, validation loss: 1.0374
+2024-06-03 03:11:50 [INFO]: Epoch 019 - training loss: 0.3889, validation loss: 0.9930
+2024-06-03 03:11:53 [INFO]: Epoch 020 - training loss: 0.3677, validation loss: 0.9762
+2024-06-03 03:11:56 [INFO]: Epoch 021 - training loss: 0.3782, validation loss: 0.9567
+2024-06-03 03:11:59 [INFO]: Epoch 022 - training loss: 0.3752, validation loss: 1.0223
+2024-06-03 03:12:01 [INFO]: Epoch 023 - training loss: 0.3660, validation loss: 1.0544
+2024-06-03 03:12:04 [INFO]: Epoch 024 - training loss: 0.3624, validation loss: 0.9902
+2024-06-03 03:12:07 [INFO]: Epoch 025 - training loss: 0.3708, validation loss: 0.8090
+2024-06-03 03:12:10 [INFO]: Epoch 026 - training loss: 0.3635, validation loss: 1.0901
+2024-06-03 03:12:13 [INFO]: Epoch 027 - training loss: 0.3748, validation loss: 1.0690
+2024-06-03 03:12:16 [INFO]: Epoch 028 - training loss: 0.3712, validation loss: 0.9130
+2024-06-03 03:12:18 [INFO]: Epoch 029 - training loss: 0.3493, validation loss: 0.9447
+2024-06-03 03:12:21 [INFO]: Epoch 030 - training loss: 0.3579, validation loss: 1.0280
+2024-06-03 03:12:24 [INFO]: Epoch 031 - training loss: 0.3611, validation loss: 0.9122
+2024-06-03 03:12:27 [INFO]: Epoch 032 - training loss: 0.3475, validation loss: 0.8449
+2024-06-03 03:12:30 [INFO]: Epoch 033 - training loss: 0.3400, validation loss: 0.9230
+2024-06-03 03:12:32 [INFO]: Epoch 034 - training loss: 0.3518, validation loss: 0.9509
+2024-06-03 03:12:35 [INFO]: Epoch 035 - training loss: 0.3612, validation loss: 0.9113
+2024-06-03 03:12:35 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:12:35 [INFO]: Finished training. The best model is from epoch#25.
+2024-06-03 03:12:35 [INFO]: Saved the model to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_1/20240603_T031056/iTransformer.pypots
+2024-06-03 03:12:36 [INFO]: Successfully saved to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_1/imputation.pkl
+2024-06-03 03:12:36 [INFO]: Round1 - iTransformer on ItalyAir: MAE=0.5758, MSE=0.7359, MRE=0.7382
+2024-06-03 03:12:36 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 03:12:36 [INFO]: Using the given device: cuda:0
+2024-06-03 03:12:36 [INFO]: Model files will be saved to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_2/20240603_T031236
+2024-06-03 03:12:36 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_2/20240603_T031236/tensorboard
+2024-06-03 03:12:36 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=256, n_heads=4, d_k=256
+2024-06-03 03:12:36 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (4) * d_k (256)
+2024-06-03 03:12:37 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 18,932,236
+2024-06-03 03:12:40 [INFO]: Epoch 001 - training loss: 1.1995, validation loss: 1.4904
+2024-06-03 03:12:42 [INFO]: Epoch 002 - training loss: 0.6524, validation loss: 1.4327
+2024-06-03 03:12:45 [INFO]: Epoch 003 - training loss: 0.5480, validation loss: 1.2544
+2024-06-03 03:12:48 [INFO]: Epoch 004 - training loss: 0.5208, validation loss: 1.1417
+2024-06-03 03:12:50 [INFO]: Epoch 005 - training loss: 0.5031, validation loss: 1.1884
+2024-06-03 03:12:53 [INFO]: Epoch 006 - training loss: 0.4828, validation loss: 1.0893
+2024-06-03 03:12:55 [INFO]: Epoch 007 - training loss: 0.4561, validation loss: 1.0919
+2024-06-03 03:12:58 [INFO]: Epoch 008 - training loss: 0.4445, validation loss: 1.0642
+2024-06-03 03:13:00 [INFO]: Epoch 009 - training loss: 0.4371, validation loss: 0.9845
+2024-06-03 03:13:03 [INFO]: Epoch 010 - training loss: 0.4509, validation loss: 1.0257
+2024-06-03 03:13:05 [INFO]: Epoch 011 - training loss: 0.4255, validation loss: 1.1296
+2024-06-03 03:13:08 [INFO]: Epoch 012 - training loss: 0.4363, validation loss: 0.9683
+2024-06-03 03:13:10 [INFO]: Epoch 013 - training loss: 0.4098, validation loss: 0.9040
+2024-06-03 03:13:13 [INFO]: Epoch 014 - training loss: 0.4285, validation loss: 0.8986
+2024-06-03 03:13:15 [INFO]: Epoch 015 - training loss: 0.4285, validation loss: 0.9621
+2024-06-03 03:13:18 [INFO]: Epoch 016 - training loss: 0.3914, validation loss: 0.9476
+2024-06-03 03:13:20 [INFO]: Epoch 017 - training loss: 0.3922, validation loss: 1.0176
+2024-06-03 03:13:23 [INFO]: Epoch 018 - training loss: 0.3871, validation loss: 1.0205
+2024-06-03 03:13:25 [INFO]: Epoch 019 - training loss: 0.3866, validation loss: 0.9369
+2024-06-03 03:13:28 [INFO]: Epoch 020 - training loss: 0.3786, validation loss: 0.9888
+2024-06-03 03:13:30 [INFO]: Epoch 021 - training loss: 0.3724, validation loss: 1.0526
+2024-06-03 03:13:32 [INFO]: Epoch 022 - training loss: 0.3737, validation loss: 1.0678
+2024-06-03 03:13:35 [INFO]: Epoch 023 - training loss: 0.3701, validation loss: 1.0393
+2024-06-03 03:13:38 [INFO]: Epoch 024 - training loss: 0.3622, validation loss: 1.0338
+2024-06-03 03:13:38 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:13:38 [INFO]: Finished training. The best model is from epoch#14.
+2024-06-03 03:13:38 [INFO]: Saved the model to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_2/20240603_T031236/iTransformer.pypots
+2024-06-03 03:13:39 [INFO]: Successfully saved to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_2/imputation.pkl
+2024-06-03 03:13:39 [INFO]: Round2 - iTransformer on ItalyAir: MAE=0.5799, MSE=0.7930, MRE=0.7434
+2024-06-03 03:13:39 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 03:13:39 [INFO]: Using the given device: cuda:0
+2024-06-03 03:13:39 [INFO]: Model files will be saved to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_3/20240603_T031339
+2024-06-03 03:13:39 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_3/20240603_T031339/tensorboard
+2024-06-03 03:13:39 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=256, n_heads=4, d_k=256
+2024-06-03 03:13:39 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (4) * d_k (256)
+2024-06-03 03:13:40 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 18,932,236
+2024-06-03 03:13:42 [INFO]: Epoch 001 - training loss: 1.1937, validation loss: 1.6693
+2024-06-03 03:13:44 [INFO]: Epoch 002 - training loss: 0.6520, validation loss: 1.4109
+2024-06-03 03:13:47 [INFO]: Epoch 003 - training loss: 0.5588, validation loss: 1.3049
+2024-06-03 03:13:49 [INFO]: Epoch 004 - training loss: 0.5210, validation loss: 1.2202
+2024-06-03 03:13:52 [INFO]: Epoch 005 - training loss: 0.4938, validation loss: 1.2155
+2024-06-03 03:13:54 [INFO]: Epoch 006 - training loss: 0.4938, validation loss: 1.1550
+2024-06-03 03:13:57 [INFO]: Epoch 007 - training loss: 0.4671, validation loss: 1.0973
+2024-06-03 03:13:59 [INFO]: Epoch 008 - training loss: 0.4503, validation loss: 1.1990
+2024-06-03 03:14:02 [INFO]: Epoch 009 - training loss: 0.4206, validation loss: 1.1258
+2024-06-03 03:14:04 [INFO]: Epoch 010 - training loss: 0.4339, validation loss: 1.0748
+2024-06-03 03:14:06 [INFO]: Epoch 011 - training loss: 0.4193, validation loss: 0.9875
+2024-06-03 03:14:09 [INFO]: Epoch 012 - training loss: 0.4157, validation loss: 1.1154
+2024-06-03 03:14:12 [INFO]: Epoch 013 - training loss: 0.4133, validation loss: 1.0739
+2024-06-03 03:14:14 [INFO]: Epoch 014 - training loss: 0.3984, validation loss: 1.0097
+2024-06-03 03:14:17 [INFO]: Epoch 015 - training loss: 0.4027, validation loss: 1.0781
+2024-06-03 03:14:19 [INFO]: Epoch 016 - training loss: 0.4037, validation loss: 0.9788
+2024-06-03 03:14:22 [INFO]: Epoch 017 - training loss: 0.3981, validation loss: 1.0864
+2024-06-03 03:14:24 [INFO]: Epoch 018 - training loss: 0.4028, validation loss: 0.9957
+2024-06-03 03:14:27 [INFO]: Epoch 019 - training loss: 0.3830, validation loss: 1.1132
+2024-06-03 03:14:29 [INFO]: Epoch 020 - training loss: 0.3798, validation loss: 0.9561
+2024-06-03 03:14:32 [INFO]: Epoch 021 - training loss: 0.3619, validation loss: 0.9066
+2024-06-03 03:14:34 [INFO]: Epoch 022 - training loss: 0.3808, validation loss: 1.1888
+2024-06-03 03:14:37 [INFO]: Epoch 023 - training loss: 0.3715, validation loss: 0.9755
+2024-06-03 03:14:39 [INFO]: Epoch 024 - training loss: 0.3642, validation loss: 1.0083
+2024-06-03 03:14:42 [INFO]: Epoch 025 - training loss: 0.3680, validation loss: 1.0555
+2024-06-03 03:14:44 [INFO]: Epoch 026 - training loss: 0.3698, validation loss: 1.0216
+2024-06-03 03:14:47 [INFO]: Epoch 027 - training loss: 0.3553, validation loss: 0.9860
+2024-06-03 03:14:49 [INFO]: Epoch 028 - training loss: 0.3511, validation loss: 1.0421
+2024-06-03 03:14:52 [INFO]: Epoch 029 - training loss: 0.3618, validation loss: 1.0252
+2024-06-03 03:14:55 [INFO]: Epoch 030 - training loss: 0.3487, validation loss: 1.0172
+2024-06-03 03:14:57 [INFO]: Epoch 031 - training loss: 0.3599, validation loss: 1.0691
+2024-06-03 03:14:57 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:14:57 [INFO]: Finished training. The best model is from epoch#21.
+2024-06-03 03:14:58 [INFO]: Saved the model to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_3/20240603_T031339/iTransformer.pypots
+2024-06-03 03:14:59 [INFO]: Successfully saved to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_3/imputation.pkl
+2024-06-03 03:14:59 [INFO]: Round3 - iTransformer on ItalyAir: MAE=0.5856, MSE=0.8216, MRE=0.7507
+2024-06-03 03:14:59 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 03:14:59 [INFO]: Using the given device: cuda:0
+2024-06-03 03:14:59 [INFO]: Model files will be saved to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_4/20240603_T031459
+2024-06-03 03:14:59 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_4/20240603_T031459/tensorboard
+2024-06-03 03:14:59 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=256, n_heads=4, d_k=256
+2024-06-03 03:14:59 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (4) * d_k (256)
+2024-06-03 03:14:59 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 18,932,236
+2024-06-03 03:15:02 [INFO]: Epoch 001 - training loss: 1.2019, validation loss: 1.6578
+2024-06-03 03:15:04 [INFO]: Epoch 002 - training loss: 0.6920, validation loss: 1.4414
+2024-06-03 03:15:07 [INFO]: Epoch 003 - training loss: 0.5674, validation loss: 1.3253
+2024-06-03 03:15:09 [INFO]: Epoch 004 - training loss: 0.5268, validation loss: 1.2344
+2024-06-03 03:15:12 [INFO]: Epoch 005 - training loss: 0.4942, validation loss: 1.2666
+2024-06-03 03:15:14 [INFO]: Epoch 006 - training loss: 0.4828, validation loss: 1.1458
+2024-06-03 03:15:17 [INFO]: Epoch 007 - training loss: 0.4657, validation loss: 1.1335
+2024-06-03 03:15:19 [INFO]: Epoch 008 - training loss: 0.4413, validation loss: 1.2250
+2024-06-03 03:15:22 [INFO]: Epoch 009 - training loss: 0.4387, validation loss: 1.0682
+2024-06-03 03:15:24 [INFO]: Epoch 010 - training loss: 0.4229, validation loss: 1.1606
+2024-06-03 03:15:26 [INFO]: Epoch 011 - training loss: 0.4218, validation loss: 1.0878
+2024-06-03 03:15:29 [INFO]: Epoch 012 - training loss: 0.4185, validation loss: 1.0199
+2024-06-03 03:15:31 [INFO]: Epoch 013 - training loss: 0.3984, validation loss: 1.1676
+2024-06-03 03:15:33 [INFO]: Epoch 014 - training loss: 0.3999, validation loss: 1.0637
+2024-06-03 03:15:36 [INFO]: Epoch 015 - training loss: 0.4013, validation loss: 0.9431
+2024-06-03 03:15:38 [INFO]: Epoch 016 - training loss: 0.4014, validation loss: 0.8618
+2024-06-03 03:15:40 [INFO]: Epoch 017 - training loss: 0.4062, validation loss: 0.9084
+2024-06-03 03:15:43 [INFO]: Epoch 018 - training loss: 0.3778, validation loss: 1.0292
+2024-06-03 03:15:45 [INFO]: Epoch 019 - training loss: 0.3888, validation loss: 0.9322
+2024-06-03 03:15:47 [INFO]: Epoch 020 - training loss: 0.3743, validation loss: 1.0876
+2024-06-03 03:15:50 [INFO]: Epoch 021 - training loss: 0.3744, validation loss: 1.0816
+2024-06-03 03:15:52 [INFO]: Epoch 022 - training loss: 0.3753, validation loss: 0.9793
+2024-06-03 03:15:55 [INFO]: Epoch 023 - training loss: 0.3659, validation loss: 1.0258
+2024-06-03 03:15:57 [INFO]: Epoch 024 - training loss: 0.3684, validation loss: 1.0607
+2024-06-03 03:15:59 [INFO]: Epoch 025 - training loss: 0.3811, validation loss: 0.9655
+2024-06-03 03:16:01 [INFO]: Epoch 026 - training loss: 0.3703, validation loss: 0.9914
+2024-06-03 03:16:01 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:16:01 [INFO]: Finished training. The best model is from epoch#16.
+2024-06-03 03:16:02 [INFO]: Saved the model to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_4/20240603_T031459/iTransformer.pypots
+2024-06-03 03:16:03 [INFO]: Successfully saved to results_subseq_rate05/ItalyAir/iTransformer_ItalyAir/round_4/imputation.pkl
+2024-06-03 03:16:03 [INFO]: Round4 - iTransformer on ItalyAir: MAE=0.5777, MSE=0.7637, MRE=0.7406
+2024-06-03 03:16:03 [INFO]: Done! Final results:
+Averaged iTransformer (18,932,236 params) on ItalyAir: MAE=0.5767 ± 0.006844850147539905, MSE=0.7672 ± 0.036537445449116406, MRE=0.7394 ± 0.008775229028511928, average inference time=0.19

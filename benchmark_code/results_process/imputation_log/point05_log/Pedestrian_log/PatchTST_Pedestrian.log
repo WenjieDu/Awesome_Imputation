@@ -1,0 +1,516 @@
+2024-06-02 20:52:35 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-02 20:52:35 [INFO]: Using the given device: cuda:0
+2024-06-02 20:52:35 [INFO]: Model files will be saved to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_0/20240602_T205235
+2024-06-02 20:52:35 [INFO]: Tensorboard file will be saved to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_0/20240602_T205235/tensorboard
+2024-06-02 20:52:36 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 106,905
+2024-06-02 20:52:45 [INFO]: Epoch 001 - training loss: 1.3414, validation loss: 0.9808
+2024-06-02 20:52:46 [INFO]: Epoch 002 - training loss: 0.9405, validation loss: 0.7266
+2024-06-02 20:52:47 [INFO]: Epoch 003 - training loss: 0.7980, validation loss: 0.6608
+2024-06-02 20:52:48 [INFO]: Epoch 004 - training loss: 0.7247, validation loss: 0.5890
+2024-06-02 20:52:50 [INFO]: Epoch 005 - training loss: 0.6804, validation loss: 0.5312
+2024-06-02 20:52:52 [INFO]: Epoch 006 - training loss: 0.6358, validation loss: 0.4971
+2024-06-02 20:52:53 [INFO]: Epoch 007 - training loss: 0.6169, validation loss: 0.4669
+2024-06-02 20:52:55 [INFO]: Epoch 008 - training loss: 0.6110, validation loss: 0.4454
+2024-06-02 20:52:57 [INFO]: Epoch 009 - training loss: 0.5820, validation loss: 0.4352
+2024-06-02 20:52:58 [INFO]: Epoch 010 - training loss: 0.5759, validation loss: 0.4403
+2024-06-02 20:53:00 [INFO]: Epoch 011 - training loss: 0.5851, validation loss: 0.4079
+2024-06-02 20:53:02 [INFO]: Epoch 012 - training loss: 0.5675, validation loss: 0.4109
+2024-06-02 20:53:04 [INFO]: Epoch 013 - training loss: 0.5618, validation loss: 0.3949
+2024-06-02 20:53:05 [INFO]: Epoch 014 - training loss: 0.5487, validation loss: 0.4002
+2024-06-02 20:53:07 [INFO]: Epoch 015 - training loss: 0.5241, validation loss: 0.3972
+2024-06-02 20:53:09 [INFO]: Epoch 016 - training loss: 0.5266, validation loss: 0.3933
+2024-06-02 20:53:10 [INFO]: Epoch 017 - training loss: 0.5324, validation loss: 0.3851
+2024-06-02 20:53:12 [INFO]: Epoch 018 - training loss: 0.5166, validation loss: 0.3717
+2024-06-02 20:53:14 [INFO]: Epoch 019 - training loss: 0.5042, validation loss: 0.3750
+2024-06-02 20:53:15 [INFO]: Epoch 020 - training loss: 0.4772, validation loss: 0.3667
+2024-06-02 20:53:17 [INFO]: Epoch 021 - training loss: 0.4819, validation loss: 0.3717
+2024-06-02 20:53:18 [INFO]: Epoch 022 - training loss: 0.4816, validation loss: 0.3558
+2024-06-02 20:53:20 [INFO]: Epoch 023 - training loss: 0.4625, validation loss: 0.3653
+2024-06-02 20:53:22 [INFO]: Epoch 024 - training loss: 0.4641, validation loss: 0.3500
+2024-06-02 20:53:23 [INFO]: Epoch 025 - training loss: 0.4541, validation loss: 0.3541
+2024-06-02 20:53:25 [INFO]: Epoch 026 - training loss: 0.4523, validation loss: 0.3490
+2024-06-02 20:53:27 [INFO]: Epoch 027 - training loss: 0.4374, validation loss: 0.3528
+2024-06-02 20:53:28 [INFO]: Epoch 028 - training loss: 0.4378, validation loss: 0.3503
+2024-06-02 20:53:30 [INFO]: Epoch 029 - training loss: 0.4273, validation loss: 0.3409
+2024-06-02 20:53:31 [INFO]: Epoch 030 - training loss: 0.4400, validation loss: 0.3457
+2024-06-02 20:53:33 [INFO]: Epoch 031 - training loss: 0.4316, validation loss: 0.3469
+2024-06-02 20:53:35 [INFO]: Epoch 032 - training loss: 0.4321, validation loss: 0.3375
+2024-06-02 20:53:36 [INFO]: Epoch 033 - training loss: 0.4248, validation loss: 0.3375
+2024-06-02 20:53:38 [INFO]: Epoch 034 - training loss: 0.4127, validation loss: 0.3344
+2024-06-02 20:53:39 [INFO]: Epoch 035 - training loss: 0.4064, validation loss: 0.3344
+2024-06-02 20:53:41 [INFO]: Epoch 036 - training loss: 0.4044, validation loss: 0.3311
+2024-06-02 20:53:42 [INFO]: Epoch 037 - training loss: 0.4049, validation loss: 0.3319
+2024-06-02 20:53:44 [INFO]: Epoch 038 - training loss: 0.4004, validation loss: 0.3305
+2024-06-02 20:53:46 [INFO]: Epoch 039 - training loss: 0.3910, validation loss: 0.3258
+2024-06-02 20:53:47 [INFO]: Epoch 040 - training loss: 0.4159, validation loss: 0.3381
+2024-06-02 20:53:49 [INFO]: Epoch 041 - training loss: 0.3992, validation loss: 0.3342
+2024-06-02 20:53:51 [INFO]: Epoch 042 - training loss: 0.3939, validation loss: 0.3299
+2024-06-02 20:53:52 [INFO]: Epoch 043 - training loss: 0.3990, validation loss: 0.3273
+2024-06-02 20:53:54 [INFO]: Epoch 044 - training loss: 0.4014, validation loss: 0.3318
+2024-06-02 20:53:56 [INFO]: Epoch 045 - training loss: 0.3921, validation loss: 0.3353
+2024-06-02 20:53:58 [INFO]: Epoch 046 - training loss: 0.3831, validation loss: 0.3260
+2024-06-02 20:53:59 [INFO]: Epoch 047 - training loss: 0.3842, validation loss: 0.3183
+2024-06-02 20:54:01 [INFO]: Epoch 048 - training loss: 0.3881, validation loss: 0.3252
+2024-06-02 20:54:03 [INFO]: Epoch 049 - training loss: 0.3808, validation loss: 0.3288
+2024-06-02 20:54:04 [INFO]: Epoch 050 - training loss: 0.3802, validation loss: 0.3211
+2024-06-02 20:54:06 [INFO]: Epoch 051 - training loss: 0.3802, validation loss: 0.3162
+2024-06-02 20:54:08 [INFO]: Epoch 052 - training loss: 0.3646, validation loss: 0.3234
+2024-06-02 20:54:09 [INFO]: Epoch 053 - training loss: 0.3697, validation loss: 0.3182
+2024-06-02 20:54:11 [INFO]: Epoch 054 - training loss: 0.3740, validation loss: 0.3163
+2024-06-02 20:54:13 [INFO]: Epoch 055 - training loss: 0.3755, validation loss: 0.3168
+2024-06-02 20:54:15 [INFO]: Epoch 056 - training loss: 0.3720, validation loss: 0.3165
+2024-06-02 20:54:16 [INFO]: Epoch 057 - training loss: 0.3587, validation loss: 0.3156
+2024-06-02 20:54:18 [INFO]: Epoch 058 - training loss: 0.3732, validation loss: 0.3101
+2024-06-02 20:54:19 [INFO]: Epoch 059 - training loss: 0.3538, validation loss: 0.3128
+2024-06-02 20:54:21 [INFO]: Epoch 060 - training loss: 0.3618, validation loss: 0.3077
+2024-06-02 20:54:22 [INFO]: Epoch 061 - training loss: 0.3648, validation loss: 0.3137
+2024-06-02 20:54:24 [INFO]: Epoch 062 - training loss: 0.3659, validation loss: 0.3079
+2024-06-02 20:54:25 [INFO]: Epoch 063 - training loss: 0.3484, validation loss: 0.3010
+2024-06-02 20:54:27 [INFO]: Epoch 064 - training loss: 0.3614, validation loss: 0.3054
+2024-06-02 20:54:28 [INFO]: Epoch 065 - training loss: 0.3593, validation loss: 0.3006
+2024-06-02 20:54:30 [INFO]: Epoch 066 - training loss: 0.3522, validation loss: 0.3109
+2024-06-02 20:54:31 [INFO]: Epoch 067 - training loss: 0.3493, validation loss: 0.3064
+2024-06-02 20:54:33 [INFO]: Epoch 068 - training loss: 0.3519, validation loss: 0.3057
+2024-06-02 20:54:35 [INFO]: Epoch 069 - training loss: 0.3617, validation loss: 0.3001
+2024-06-02 20:54:36 [INFO]: Epoch 070 - training loss: 0.3437, validation loss: 0.3104
+2024-06-02 20:54:38 [INFO]: Epoch 071 - training loss: 0.3546, validation loss: 0.3043
+2024-06-02 20:54:40 [INFO]: Epoch 072 - training loss: 0.3573, validation loss: 0.3061
+2024-06-02 20:54:41 [INFO]: Epoch 073 - training loss: 0.3448, validation loss: 0.3010
+2024-06-02 20:54:43 [INFO]: Epoch 074 - training loss: 0.3504, validation loss: 0.3041
+2024-06-02 20:54:45 [INFO]: Epoch 075 - training loss: 0.3481, validation loss: 0.3018
+2024-06-02 20:54:46 [INFO]: Epoch 076 - training loss: 0.3405, validation loss: 0.3070
+2024-06-02 20:54:48 [INFO]: Epoch 077 - training loss: 0.3456, validation loss: 0.3013
+2024-06-02 20:54:50 [INFO]: Epoch 078 - training loss: 0.3478, validation loss: 0.3040
+2024-06-02 20:54:51 [INFO]: Epoch 079 - training loss: 0.3431, validation loss: 0.3063
+2024-06-02 20:54:51 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 20:54:51 [INFO]: Finished training. The best model is from epoch#69.
+2024-06-02 20:54:51 [INFO]: Saved the model to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_0/20240602_T205235/PatchTST.pypots
+2024-06-02 20:54:53 [INFO]: Successfully saved to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_0/imputation.pkl
+2024-06-02 20:54:53 [INFO]: Round0 - PatchTST on Pedestrian: MAE=0.2012, MSE=0.3603, MRE=0.2647
+2024-06-02 20:54:53 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-02 20:54:53 [INFO]: Using the given device: cuda:0
+2024-06-02 20:54:53 [INFO]: Model files will be saved to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_1/20240602_T205453
+2024-06-02 20:54:53 [INFO]: Tensorboard file will be saved to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_1/20240602_T205453/tensorboard
+2024-06-02 20:54:53 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 106,905
+2024-06-02 20:54:54 [INFO]: Epoch 001 - training loss: 1.4054, validation loss: 1.3026
+2024-06-02 20:54:56 [INFO]: Epoch 002 - training loss: 1.1233, validation loss: 0.7663
+2024-06-02 20:54:58 [INFO]: Epoch 003 - training loss: 0.8181, validation loss: 0.7414
+2024-06-02 20:54:59 [INFO]: Epoch 004 - training loss: 0.7567, validation loss: 0.6851
+2024-06-02 20:55:01 [INFO]: Epoch 005 - training loss: 0.7105, validation loss: 0.6129
+2024-06-02 20:55:03 [INFO]: Epoch 006 - training loss: 0.6649, validation loss: 0.5515
+2024-06-02 20:55:04 [INFO]: Epoch 007 - training loss: 0.6157, validation loss: 0.5222
+2024-06-02 20:55:06 [INFO]: Epoch 008 - training loss: 0.5899, validation loss: 0.4989
+2024-06-02 20:55:08 [INFO]: Epoch 009 - training loss: 0.5794, validation loss: 0.4655
+2024-06-02 20:55:09 [INFO]: Epoch 010 - training loss: 0.5481, validation loss: 0.4458
+2024-06-02 20:55:11 [INFO]: Epoch 011 - training loss: 0.5377, validation loss: 0.4300
+2024-06-02 20:55:13 [INFO]: Epoch 012 - training loss: 0.5203, validation loss: 0.4113
+2024-06-02 20:55:15 [INFO]: Epoch 013 - training loss: 0.5236, validation loss: 0.3988
+2024-06-02 20:55:16 [INFO]: Epoch 014 - training loss: 0.5017, validation loss: 0.3907
+2024-06-02 20:55:18 [INFO]: Epoch 015 - training loss: 0.5020, validation loss: 0.3785
+2024-06-02 20:55:20 [INFO]: Epoch 016 - training loss: 0.5027, validation loss: 0.3730
+2024-06-02 20:55:21 [INFO]: Epoch 017 - training loss: 0.4947, validation loss: 0.3747
+2024-06-02 20:55:23 [INFO]: Epoch 018 - training loss: 0.4603, validation loss: 0.3786
+2024-06-02 20:55:25 [INFO]: Epoch 019 - training loss: 0.4693, validation loss: 0.3543
+2024-06-02 20:55:26 [INFO]: Epoch 020 - training loss: 0.4790, validation loss: 0.3522
+2024-06-02 20:55:28 [INFO]: Epoch 021 - training loss: 0.4629, validation loss: 0.3520
+2024-06-02 20:55:29 [INFO]: Epoch 022 - training loss: 0.4496, validation loss: 0.3529
+2024-06-02 20:55:31 [INFO]: Epoch 023 - training loss: 0.4444, validation loss: 0.3532
+2024-06-02 20:55:32 [INFO]: Epoch 024 - training loss: 0.4553, validation loss: 0.3454
+2024-06-02 20:55:34 [INFO]: Epoch 025 - training loss: 0.4424, validation loss: 0.3412
+2024-06-02 20:55:35 [INFO]: Epoch 026 - training loss: 0.4574, validation loss: 0.3460
+2024-06-02 20:55:37 [INFO]: Epoch 027 - training loss: 0.4373, validation loss: 0.3448
+2024-06-02 20:55:39 [INFO]: Epoch 028 - training loss: 0.4398, validation loss: 0.3370
+2024-06-02 20:55:40 [INFO]: Epoch 029 - training loss: 0.4389, validation loss: 0.3440
+2024-06-02 20:55:42 [INFO]: Epoch 030 - training loss: 0.4564, validation loss: 0.3402
+2024-06-02 20:55:43 [INFO]: Epoch 031 - training loss: 0.4342, validation loss: 0.3317
+2024-06-02 20:55:45 [INFO]: Epoch 032 - training loss: 0.4239, validation loss: 0.3371
+2024-06-02 20:55:46 [INFO]: Epoch 033 - training loss: 0.4205, validation loss: 0.3405
+2024-06-02 20:55:48 [INFO]: Epoch 034 - training loss: 0.4064, validation loss: 0.3355
+2024-06-02 20:55:49 [INFO]: Epoch 035 - training loss: 0.4182, validation loss: 0.3366
+2024-06-02 20:55:51 [INFO]: Epoch 036 - training loss: 0.4108, validation loss: 0.3251
+2024-06-02 20:55:52 [INFO]: Epoch 037 - training loss: 0.4161, validation loss: 0.3413
+2024-06-02 20:55:54 [INFO]: Epoch 038 - training loss: 0.4029, validation loss: 0.3247
+2024-06-02 20:55:55 [INFO]: Epoch 039 - training loss: 0.4080, validation loss: 0.3328
+2024-06-02 20:55:57 [INFO]: Epoch 040 - training loss: 0.4142, validation loss: 0.3239
+2024-06-02 20:55:58 [INFO]: Epoch 041 - training loss: 0.4093, validation loss: 0.3236
+2024-06-02 20:55:59 [INFO]: Epoch 042 - training loss: 0.3927, validation loss: 0.3254
+2024-06-02 20:56:01 [INFO]: Epoch 043 - training loss: 0.3995, validation loss: 0.3174
+2024-06-02 20:56:02 [INFO]: Epoch 044 - training loss: 0.3750, validation loss: 0.3132
+2024-06-02 20:56:04 [INFO]: Epoch 045 - training loss: 0.3967, validation loss: 0.3217
+2024-06-02 20:56:05 [INFO]: Epoch 046 - training loss: 0.3875, validation loss: 0.3132
+2024-06-02 20:56:06 [INFO]: Epoch 047 - training loss: 0.3978, validation loss: 0.3193
+2024-06-02 20:56:08 [INFO]: Epoch 048 - training loss: 0.3826, validation loss: 0.3109
+2024-06-02 20:56:09 [INFO]: Epoch 049 - training loss: 0.3808, validation loss: 0.3158
+2024-06-02 20:56:11 [INFO]: Epoch 050 - training loss: 0.3873, validation loss: 0.3231
+2024-06-02 20:56:12 [INFO]: Epoch 051 - training loss: 0.3835, validation loss: 0.3066
+2024-06-02 20:56:14 [INFO]: Epoch 052 - training loss: 0.3826, validation loss: 0.2988
+2024-06-02 20:56:15 [INFO]: Epoch 053 - training loss: 0.3893, validation loss: 0.3029
+2024-06-02 20:56:17 [INFO]: Epoch 054 - training loss: 0.3870, validation loss: 0.3062
+2024-06-02 20:56:18 [INFO]: Epoch 055 - training loss: 0.3903, validation loss: 0.3098
+2024-06-02 20:56:20 [INFO]: Epoch 056 - training loss: 0.3882, validation loss: 0.3065
+2024-06-02 20:56:21 [INFO]: Epoch 057 - training loss: 0.3855, validation loss: 0.3036
+2024-06-02 20:56:22 [INFO]: Epoch 058 - training loss: 0.3711, validation loss: 0.3109
+2024-06-02 20:56:24 [INFO]: Epoch 059 - training loss: 0.3578, validation loss: 0.3099
+2024-06-02 20:56:25 [INFO]: Epoch 060 - training loss: 0.3720, validation loss: 0.2994
+2024-06-02 20:56:26 [INFO]: Epoch 061 - training loss: 0.3753, validation loss: 0.3131
+2024-06-02 20:56:27 [INFO]: Epoch 062 - training loss: 0.3777, validation loss: 0.2974
+2024-06-02 20:56:28 [INFO]: Epoch 063 - training loss: 0.3794, validation loss: 0.3000
+2024-06-02 20:56:29 [INFO]: Epoch 064 - training loss: 0.3668, validation loss: 0.3007
+2024-06-02 20:56:30 [INFO]: Epoch 065 - training loss: 0.3634, validation loss: 0.2962
+2024-06-02 20:56:32 [INFO]: Epoch 066 - training loss: 0.3576, validation loss: 0.2917
+2024-06-02 20:56:33 [INFO]: Epoch 067 - training loss: 0.3634, validation loss: 0.3029
+2024-06-02 20:56:34 [INFO]: Epoch 068 - training loss: 0.3545, validation loss: 0.2973
+2024-06-02 20:56:35 [INFO]: Epoch 069 - training loss: 0.3365, validation loss: 0.2955
+2024-06-02 20:56:36 [INFO]: Epoch 070 - training loss: 0.3627, validation loss: 0.2991
+2024-06-02 20:56:37 [INFO]: Epoch 071 - training loss: 0.3494, validation loss: 0.2923
+2024-06-02 20:56:39 [INFO]: Epoch 072 - training loss: 0.3611, validation loss: 0.2919
+2024-06-02 20:56:40 [INFO]: Epoch 073 - training loss: 0.3571, validation loss: 0.2956
+2024-06-02 20:56:41 [INFO]: Epoch 074 - training loss: 0.3655, validation loss: 0.2914
+2024-06-02 20:56:42 [INFO]: Epoch 075 - training loss: 0.3553, validation loss: 0.2923
+2024-06-02 20:56:43 [INFO]: Epoch 076 - training loss: 0.3493, validation loss: 0.2911
+2024-06-02 20:56:45 [INFO]: Epoch 077 - training loss: 0.3399, validation loss: 0.2918
+2024-06-02 20:56:46 [INFO]: Epoch 078 - training loss: 0.3486, validation loss: 0.2872
+2024-06-02 20:56:47 [INFO]: Epoch 079 - training loss: 0.3504, validation loss: 0.2864
+2024-06-02 20:56:48 [INFO]: Epoch 080 - training loss: 0.3590, validation loss: 0.2896
+2024-06-02 20:56:50 [INFO]: Epoch 081 - training loss: 0.3438, validation loss: 0.2833
+2024-06-02 20:56:51 [INFO]: Epoch 082 - training loss: 0.3388, validation loss: 0.2887
+2024-06-02 20:56:52 [INFO]: Epoch 083 - training loss: 0.3395, validation loss: 0.2854
+2024-06-02 20:56:54 [INFO]: Epoch 084 - training loss: 0.3516, validation loss: 0.2829
+2024-06-02 20:56:55 [INFO]: Epoch 085 - training loss: 0.3385, validation loss: 0.2761
+2024-06-02 20:56:56 [INFO]: Epoch 086 - training loss: 0.3534, validation loss: 0.2932
+2024-06-02 20:56:57 [INFO]: Epoch 087 - training loss: 0.3460, validation loss: 0.2834
+2024-06-02 20:56:59 [INFO]: Epoch 088 - training loss: 0.3508, validation loss: 0.2882
+2024-06-02 20:57:00 [INFO]: Epoch 089 - training loss: 0.3485, validation loss: 0.2705
+2024-06-02 20:57:01 [INFO]: Epoch 090 - training loss: 0.3417, validation loss: 0.2749
+2024-06-02 20:57:02 [INFO]: Epoch 091 - training loss: 0.3439, validation loss: 0.2876
+2024-06-02 20:57:03 [INFO]: Epoch 092 - training loss: 0.3477, validation loss: 0.2772
+2024-06-02 20:57:05 [INFO]: Epoch 093 - training loss: 0.3522, validation loss: 0.2768
+2024-06-02 20:57:06 [INFO]: Epoch 094 - training loss: 0.3383, validation loss: 0.2745
+2024-06-02 20:57:07 [INFO]: Epoch 095 - training loss: 0.3391, validation loss: 0.2814
+2024-06-02 20:57:08 [INFO]: Epoch 096 - training loss: 0.3379, validation loss: 0.2746
+2024-06-02 20:57:09 [INFO]: Epoch 097 - training loss: 0.3471, validation loss: 0.2754
+2024-06-02 20:57:10 [INFO]: Epoch 098 - training loss: 0.3314, validation loss: 0.2775
+2024-06-02 20:57:11 [INFO]: Epoch 099 - training loss: 0.3356, validation loss: 0.2781
+2024-06-02 20:57:11 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 20:57:11 [INFO]: Finished training. The best model is from epoch#89.
+2024-06-02 20:57:11 [INFO]: Saved the model to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_1/20240602_T205453/PatchTST.pypots
+2024-06-02 20:57:13 [INFO]: Successfully saved to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_1/imputation.pkl
+2024-06-02 20:57:13 [INFO]: Round1 - PatchTST on Pedestrian: MAE=0.1999, MSE=0.3449, MRE=0.2630
+2024-06-02 20:57:13 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-02 20:57:13 [INFO]: Using the given device: cuda:0
+2024-06-02 20:57:13 [INFO]: Model files will be saved to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_2/20240602_T205713
+2024-06-02 20:57:13 [INFO]: Tensorboard file will be saved to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_2/20240602_T205713/tensorboard
+2024-06-02 20:57:13 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 106,905
+2024-06-02 20:57:14 [INFO]: Epoch 001 - training loss: 1.4390, validation loss: 1.4082
+2024-06-02 20:57:15 [INFO]: Epoch 002 - training loss: 1.3328, validation loss: 1.2109
+2024-06-02 20:57:16 [INFO]: Epoch 003 - training loss: 1.0291, validation loss: 0.7623
+2024-06-02 20:57:18 [INFO]: Epoch 004 - training loss: 0.8183, validation loss: 0.7085
+2024-06-02 20:57:19 [INFO]: Epoch 005 - training loss: 0.7338, validation loss: 0.6094
+2024-06-02 20:57:20 [INFO]: Epoch 006 - training loss: 0.6708, validation loss: 0.5260
+2024-06-02 20:57:21 [INFO]: Epoch 007 - training loss: 0.6390, validation loss: 0.4805
+2024-06-02 20:57:22 [INFO]: Epoch 008 - training loss: 0.5959, validation loss: 0.4509
+2024-06-02 20:57:24 [INFO]: Epoch 009 - training loss: 0.5967, validation loss: 0.4379
+2024-06-02 20:57:25 [INFO]: Epoch 010 - training loss: 0.5734, validation loss: 0.4197
+2024-06-02 20:57:26 [INFO]: Epoch 011 - training loss: 0.5630, validation loss: 0.4143
+2024-06-02 20:57:27 [INFO]: Epoch 012 - training loss: 0.5465, validation loss: 0.3972
+2024-06-02 20:57:28 [INFO]: Epoch 013 - training loss: 0.5396, validation loss: 0.3993
+2024-06-02 20:57:29 [INFO]: Epoch 014 - training loss: 0.5262, validation loss: 0.3883
+2024-06-02 20:57:30 [INFO]: Epoch 015 - training loss: 0.5103, validation loss: 0.3832
+2024-06-02 20:57:31 [INFO]: Epoch 016 - training loss: 0.5176, validation loss: 0.3776
+2024-06-02 20:57:32 [INFO]: Epoch 017 - training loss: 0.4954, validation loss: 0.3734
+2024-06-02 20:57:33 [INFO]: Epoch 018 - training loss: 0.4938, validation loss: 0.3642
+2024-06-02 20:57:34 [INFO]: Epoch 019 - training loss: 0.4709, validation loss: 0.3705
+2024-06-02 20:57:36 [INFO]: Epoch 020 - training loss: 0.4599, validation loss: 0.3716
+2024-06-02 20:57:37 [INFO]: Epoch 021 - training loss: 0.4592, validation loss: 0.3698
+2024-06-02 20:57:38 [INFO]: Epoch 022 - training loss: 0.4811, validation loss: 0.3646
+2024-06-02 20:57:39 [INFO]: Epoch 023 - training loss: 0.4572, validation loss: 0.3679
+2024-06-02 20:57:40 [INFO]: Epoch 024 - training loss: 0.4505, validation loss: 0.3594
+2024-06-02 20:57:41 [INFO]: Epoch 025 - training loss: 0.4520, validation loss: 0.3560
+2024-06-02 20:57:42 [INFO]: Epoch 026 - training loss: 0.4536, validation loss: 0.3500
+2024-06-02 20:57:43 [INFO]: Epoch 027 - training loss: 0.4379, validation loss: 0.3489
+2024-06-02 20:57:44 [INFO]: Epoch 028 - training loss: 0.4476, validation loss: 0.3449
+2024-06-02 20:57:46 [INFO]: Epoch 029 - training loss: 0.4372, validation loss: 0.3431
+2024-06-02 20:57:47 [INFO]: Epoch 030 - training loss: 0.4305, validation loss: 0.3497
+2024-06-02 20:57:48 [INFO]: Epoch 031 - training loss: 0.4282, validation loss: 0.3440
+2024-06-02 20:57:49 [INFO]: Epoch 032 - training loss: 0.4346, validation loss: 0.3339
+2024-06-02 20:57:50 [INFO]: Epoch 033 - training loss: 0.4223, validation loss: 0.3370
+2024-06-02 20:57:51 [INFO]: Epoch 034 - training loss: 0.4274, validation loss: 0.3282
+2024-06-02 20:57:52 [INFO]: Epoch 035 - training loss: 0.4135, validation loss: 0.3309
+2024-06-02 20:57:53 [INFO]: Epoch 036 - training loss: 0.4133, validation loss: 0.3306
+2024-06-02 20:57:54 [INFO]: Epoch 037 - training loss: 0.4095, validation loss: 0.3249
+2024-06-02 20:57:55 [INFO]: Epoch 038 - training loss: 0.4050, validation loss: 0.3251
+2024-06-02 20:57:56 [INFO]: Epoch 039 - training loss: 0.4125, validation loss: 0.3312
+2024-06-02 20:57:57 [INFO]: Epoch 040 - training loss: 0.4066, validation loss: 0.3211
+2024-06-02 20:57:58 [INFO]: Epoch 041 - training loss: 0.4013, validation loss: 0.3281
+2024-06-02 20:58:00 [INFO]: Epoch 042 - training loss: 0.3834, validation loss: 0.3275
+2024-06-02 20:58:01 [INFO]: Epoch 043 - training loss: 0.3895, validation loss: 0.3259
+2024-06-02 20:58:02 [INFO]: Epoch 044 - training loss: 0.3901, validation loss: 0.3200
+2024-06-02 20:58:03 [INFO]: Epoch 045 - training loss: 0.3882, validation loss: 0.3343
+2024-06-02 20:58:04 [INFO]: Epoch 046 - training loss: 0.3896, validation loss: 0.3240
+2024-06-02 20:58:05 [INFO]: Epoch 047 - training loss: 0.3915, validation loss: 0.3266
+2024-06-02 20:58:06 [INFO]: Epoch 048 - training loss: 0.3887, validation loss: 0.3194
+2024-06-02 20:58:07 [INFO]: Epoch 049 - training loss: 0.3722, validation loss: 0.3186
+2024-06-02 20:58:08 [INFO]: Epoch 050 - training loss: 0.3826, validation loss: 0.3211
+2024-06-02 20:58:09 [INFO]: Epoch 051 - training loss: 0.3739, validation loss: 0.3143
+2024-06-02 20:58:11 [INFO]: Epoch 052 - training loss: 0.3730, validation loss: 0.3197
+2024-06-02 20:58:12 [INFO]: Epoch 053 - training loss: 0.3731, validation loss: 0.3169
+2024-06-02 20:58:13 [INFO]: Epoch 054 - training loss: 0.3662, validation loss: 0.3135
+2024-06-02 20:58:14 [INFO]: Epoch 055 - training loss: 0.3598, validation loss: 0.3134
+2024-06-02 20:58:15 [INFO]: Epoch 056 - training loss: 0.3629, validation loss: 0.3156
+2024-06-02 20:58:16 [INFO]: Epoch 057 - training loss: 0.3705, validation loss: 0.3110
+2024-06-02 20:58:17 [INFO]: Epoch 058 - training loss: 0.3638, validation loss: 0.3051
+2024-06-02 20:58:17 [INFO]: Epoch 059 - training loss: 0.3675, validation loss: 0.3084
+2024-06-02 20:58:18 [INFO]: Epoch 060 - training loss: 0.3703, validation loss: 0.3070
+2024-06-02 20:58:19 [INFO]: Epoch 061 - training loss: 0.3669, validation loss: 0.3176
+2024-06-02 20:58:20 [INFO]: Epoch 062 - training loss: 0.3564, validation loss: 0.3002
+2024-06-02 20:58:21 [INFO]: Epoch 063 - training loss: 0.3635, validation loss: 0.3075
+2024-06-02 20:58:22 [INFO]: Epoch 064 - training loss: 0.3614, validation loss: 0.3104
+2024-06-02 20:58:23 [INFO]: Epoch 065 - training loss: 0.3387, validation loss: 0.3092
+2024-06-02 20:58:24 [INFO]: Epoch 066 - training loss: 0.3573, validation loss: 0.3010
+2024-06-02 20:58:25 [INFO]: Epoch 067 - training loss: 0.3557, validation loss: 0.3153
+2024-06-02 20:58:26 [INFO]: Epoch 068 - training loss: 0.3527, validation loss: 0.3051
+2024-06-02 20:58:27 [INFO]: Epoch 069 - training loss: 0.3505, validation loss: 0.3101
+2024-06-02 20:58:28 [INFO]: Epoch 070 - training loss: 0.3430, validation loss: 0.3009
+2024-06-02 20:58:29 [INFO]: Epoch 071 - training loss: 0.3509, validation loss: 0.3036
+2024-06-02 20:58:30 [INFO]: Epoch 072 - training loss: 0.3478, validation loss: 0.3001
+2024-06-02 20:58:32 [INFO]: Epoch 073 - training loss: 0.3535, validation loss: 0.2975
+2024-06-02 20:58:33 [INFO]: Epoch 074 - training loss: 0.3439, validation loss: 0.3000
+2024-06-02 20:58:34 [INFO]: Epoch 075 - training loss: 0.3424, validation loss: 0.3019
+2024-06-02 20:58:35 [INFO]: Epoch 076 - training loss: 0.3409, validation loss: 0.2979
+2024-06-02 20:58:36 [INFO]: Epoch 077 - training loss: 0.3324, validation loss: 0.3064
+2024-06-02 20:58:37 [INFO]: Epoch 078 - training loss: 0.3483, validation loss: 0.2971
+2024-06-02 20:58:38 [INFO]: Epoch 079 - training loss: 0.3348, validation loss: 0.2923
+2024-06-02 20:58:39 [INFO]: Epoch 080 - training loss: 0.3438, validation loss: 0.2982
+2024-06-02 20:58:40 [INFO]: Epoch 081 - training loss: 0.3433, validation loss: 0.2897
+2024-06-02 20:58:41 [INFO]: Epoch 082 - training loss: 0.3423, validation loss: 0.2949
+2024-06-02 20:58:42 [INFO]: Epoch 083 - training loss: 0.3504, validation loss: 0.2966
+2024-06-02 20:58:44 [INFO]: Epoch 084 - training loss: 0.3452, validation loss: 0.2976
+2024-06-02 20:58:45 [INFO]: Epoch 085 - training loss: 0.3396, validation loss: 0.2960
+2024-06-02 20:58:46 [INFO]: Epoch 086 - training loss: 0.3255, validation loss: 0.2947
+2024-06-02 20:58:47 [INFO]: Epoch 087 - training loss: 0.3424, validation loss: 0.2960
+2024-06-02 20:58:48 [INFO]: Epoch 088 - training loss: 0.3337, validation loss: 0.2912
+2024-06-02 20:58:49 [INFO]: Epoch 089 - training loss: 0.3313, validation loss: 0.2894
+2024-06-02 20:58:51 [INFO]: Epoch 090 - training loss: 0.3336, validation loss: 0.2915
+2024-06-02 20:58:52 [INFO]: Epoch 091 - training loss: 0.3395, validation loss: 0.2846
+2024-06-02 20:58:53 [INFO]: Epoch 092 - training loss: 0.3292, validation loss: 0.2879
+2024-06-02 20:58:53 [INFO]: Epoch 093 - training loss: 0.3357, validation loss: 0.2854
+2024-06-02 20:58:55 [INFO]: Epoch 094 - training loss: 0.3248, validation loss: 0.2894
+2024-06-02 20:58:56 [INFO]: Epoch 095 - training loss: 0.3267, validation loss: 0.2940
+2024-06-02 20:58:57 [INFO]: Epoch 096 - training loss: 0.3261, validation loss: 0.2890
+2024-06-02 20:58:58 [INFO]: Epoch 097 - training loss: 0.3255, validation loss: 0.2899
+2024-06-02 20:58:59 [INFO]: Epoch 098 - training loss: 0.3332, validation loss: 0.2917
+2024-06-02 20:59:00 [INFO]: Epoch 099 - training loss: 0.3270, validation loss: 0.2921
+2024-06-02 20:59:01 [INFO]: Epoch 100 - training loss: 0.3291, validation loss: 0.2801
+2024-06-02 20:59:01 [INFO]: Finished training. The best model is from epoch#100.
+2024-06-02 20:59:01 [INFO]: Saved the model to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_2/20240602_T205713/PatchTST.pypots
+2024-06-02 20:59:02 [INFO]: Successfully saved to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_2/imputation.pkl
+2024-06-02 20:59:02 [INFO]: Round2 - PatchTST on Pedestrian: MAE=0.1944, MSE=0.3487, MRE=0.2558
+2024-06-02 20:59:02 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-02 20:59:02 [INFO]: Using the given device: cuda:0
+2024-06-02 20:59:02 [INFO]: Model files will be saved to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_3/20240602_T205902
+2024-06-02 20:59:02 [INFO]: Tensorboard file will be saved to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_3/20240602_T205902/tensorboard
+2024-06-02 20:59:02 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 106,905
+2024-06-02 20:59:03 [INFO]: Epoch 001 - training loss: 1.3588, validation loss: 0.9422
+2024-06-02 20:59:04 [INFO]: Epoch 002 - training loss: 0.9424, validation loss: 0.7164
+2024-06-02 20:59:05 [INFO]: Epoch 003 - training loss: 0.8304, validation loss: 0.6363
+2024-06-02 20:59:06 [INFO]: Epoch 004 - training loss: 0.7503, validation loss: 0.5658
+2024-06-02 20:59:08 [INFO]: Epoch 005 - training loss: 0.6805, validation loss: 0.5194
+2024-06-02 20:59:09 [INFO]: Epoch 006 - training loss: 0.6489, validation loss: 0.4795
+2024-06-02 20:59:10 [INFO]: Epoch 007 - training loss: 0.6234, validation loss: 0.4475
+2024-06-02 20:59:11 [INFO]: Epoch 008 - training loss: 0.6082, validation loss: 0.4420
+2024-06-02 20:59:12 [INFO]: Epoch 009 - training loss: 0.6029, validation loss: 0.4300
+2024-06-02 20:59:13 [INFO]: Epoch 010 - training loss: 0.5813, validation loss: 0.4185
+2024-06-02 20:59:14 [INFO]: Epoch 011 - training loss: 0.5935, validation loss: 0.4069
+2024-06-02 20:59:15 [INFO]: Epoch 012 - training loss: 0.5875, validation loss: 0.4124
+2024-06-02 20:59:16 [INFO]: Epoch 013 - training loss: 0.5610, validation loss: 0.4215
+2024-06-02 20:59:17 [INFO]: Epoch 014 - training loss: 0.5546, validation loss: 0.4087
+2024-06-02 20:59:18 [INFO]: Epoch 015 - training loss: 0.5317, validation loss: 0.3981
+2024-06-02 20:59:19 [INFO]: Epoch 016 - training loss: 0.5178, validation loss: 0.3889
+2024-06-02 20:59:20 [INFO]: Epoch 017 - training loss: 0.5048, validation loss: 0.3899
+2024-06-02 20:59:21 [INFO]: Epoch 018 - training loss: 0.5289, validation loss: 0.3833
+2024-06-02 20:59:22 [INFO]: Epoch 019 - training loss: 0.5102, validation loss: 0.3824
+2024-06-02 20:59:23 [INFO]: Epoch 020 - training loss: 0.4796, validation loss: 0.3804
+2024-06-02 20:59:24 [INFO]: Epoch 021 - training loss: 0.4901, validation loss: 0.3731
+2024-06-02 20:59:25 [INFO]: Epoch 022 - training loss: 0.4753, validation loss: 0.3625
+2024-06-02 20:59:26 [INFO]: Epoch 023 - training loss: 0.4692, validation loss: 0.3666
+2024-06-02 20:59:27 [INFO]: Epoch 024 - training loss: 0.4437, validation loss: 0.3713
+2024-06-02 20:59:27 [INFO]: Epoch 025 - training loss: 0.4587, validation loss: 0.3768
+2024-06-02 20:59:28 [INFO]: Epoch 026 - training loss: 0.4448, validation loss: 0.3590
+2024-06-02 20:59:29 [INFO]: Epoch 027 - training loss: 0.4406, validation loss: 0.3600
+2024-06-02 20:59:30 [INFO]: Epoch 028 - training loss: 0.4568, validation loss: 0.3557
+2024-06-02 20:59:30 [INFO]: Epoch 029 - training loss: 0.4421, validation loss: 0.3455
+2024-06-02 20:59:31 [INFO]: Epoch 030 - training loss: 0.4418, validation loss: 0.3497
+2024-06-02 20:59:32 [INFO]: Epoch 031 - training loss: 0.4205, validation loss: 0.3502
+2024-06-02 20:59:33 [INFO]: Epoch 032 - training loss: 0.4401, validation loss: 0.3497
+2024-06-02 20:59:34 [INFO]: Epoch 033 - training loss: 0.4323, validation loss: 0.3447
+2024-06-02 20:59:34 [INFO]: Epoch 034 - training loss: 0.4285, validation loss: 0.3451
+2024-06-02 20:59:35 [INFO]: Epoch 035 - training loss: 0.4241, validation loss: 0.3450
+2024-06-02 20:59:36 [INFO]: Epoch 036 - training loss: 0.4102, validation loss: 0.3464
+2024-06-02 20:59:37 [INFO]: Epoch 037 - training loss: 0.4159, validation loss: 0.3383
+2024-06-02 20:59:38 [INFO]: Epoch 038 - training loss: 0.4206, validation loss: 0.3300
+2024-06-02 20:59:39 [INFO]: Epoch 039 - training loss: 0.4071, validation loss: 0.3349
+2024-06-02 20:59:39 [INFO]: Epoch 040 - training loss: 0.4045, validation loss: 0.3251
+2024-06-02 20:59:40 [INFO]: Epoch 041 - training loss: 0.4007, validation loss: 0.3262
+2024-06-02 20:59:41 [INFO]: Epoch 042 - training loss: 0.4018, validation loss: 0.3309
+2024-06-02 20:59:42 [INFO]: Epoch 043 - training loss: 0.3947, validation loss: 0.3307
+2024-06-02 20:59:43 [INFO]: Epoch 044 - training loss: 0.3979, validation loss: 0.3215
+2024-06-02 20:59:43 [INFO]: Epoch 045 - training loss: 0.3834, validation loss: 0.3295
+2024-06-02 20:59:44 [INFO]: Epoch 046 - training loss: 0.3918, validation loss: 0.3299
+2024-06-02 20:59:45 [INFO]: Epoch 047 - training loss: 0.3809, validation loss: 0.3262
+2024-06-02 20:59:46 [INFO]: Epoch 048 - training loss: 0.3827, validation loss: 0.3253
+2024-06-02 20:59:46 [INFO]: Epoch 049 - training loss: 0.3956, validation loss: 0.3223
+2024-06-02 20:59:47 [INFO]: Epoch 050 - training loss: 0.3922, validation loss: 0.3232
+2024-06-02 20:59:48 [INFO]: Epoch 051 - training loss: 0.3949, validation loss: 0.3217
+2024-06-02 20:59:49 [INFO]: Epoch 052 - training loss: 0.3823, validation loss: 0.3175
+2024-06-02 20:59:49 [INFO]: Epoch 053 - training loss: 0.3632, validation loss: 0.3176
+2024-06-02 20:59:50 [INFO]: Epoch 054 - training loss: 0.3726, validation loss: 0.3188
+2024-06-02 20:59:51 [INFO]: Epoch 055 - training loss: 0.3628, validation loss: 0.3227
+2024-06-02 20:59:52 [INFO]: Epoch 056 - training loss: 0.3764, validation loss: 0.3185
+2024-06-02 20:59:52 [INFO]: Epoch 057 - training loss: 0.3786, validation loss: 0.3136
+2024-06-02 20:59:53 [INFO]: Epoch 058 - training loss: 0.3669, validation loss: 0.3145
+2024-06-02 20:59:54 [INFO]: Epoch 059 - training loss: 0.3769, validation loss: 0.3156
+2024-06-02 20:59:55 [INFO]: Epoch 060 - training loss: 0.3658, validation loss: 0.3078
+2024-06-02 20:59:55 [INFO]: Epoch 061 - training loss: 0.3657, validation loss: 0.3093
+2024-06-02 20:59:56 [INFO]: Epoch 062 - training loss: 0.3527, validation loss: 0.3179
+2024-06-02 20:59:57 [INFO]: Epoch 063 - training loss: 0.3557, validation loss: 0.3092
+2024-06-02 20:59:58 [INFO]: Epoch 064 - training loss: 0.3463, validation loss: 0.3163
+2024-06-02 20:59:59 [INFO]: Epoch 065 - training loss: 0.3529, validation loss: 0.3131
+2024-06-02 20:59:59 [INFO]: Epoch 066 - training loss: 0.3552, validation loss: 0.3053
+2024-06-02 21:00:00 [INFO]: Epoch 067 - training loss: 0.3638, validation loss: 0.3170
+2024-06-02 21:00:01 [INFO]: Epoch 068 - training loss: 0.3541, validation loss: 0.3120
+2024-06-02 21:00:02 [INFO]: Epoch 069 - training loss: 0.3430, validation loss: 0.3149
+2024-06-02 21:00:03 [INFO]: Epoch 070 - training loss: 0.3587, validation loss: 0.3134
+2024-06-02 21:00:03 [INFO]: Epoch 071 - training loss: 0.3469, validation loss: 0.3099
+2024-06-02 21:00:04 [INFO]: Epoch 072 - training loss: 0.3535, validation loss: 0.3075
+2024-06-02 21:00:05 [INFO]: Epoch 073 - training loss: 0.3360, validation loss: 0.3069
+2024-06-02 21:00:06 [INFO]: Epoch 074 - training loss: 0.3529, validation loss: 0.3085
+2024-06-02 21:00:07 [INFO]: Epoch 075 - training loss: 0.3537, validation loss: 0.3052
+2024-06-02 21:00:07 [INFO]: Epoch 076 - training loss: 0.3471, validation loss: 0.3062
+2024-06-02 21:00:08 [INFO]: Epoch 077 - training loss: 0.3450, validation loss: 0.3005
+2024-06-02 21:00:09 [INFO]: Epoch 078 - training loss: 0.3574, validation loss: 0.3074
+2024-06-02 21:00:10 [INFO]: Epoch 079 - training loss: 0.3407, validation loss: 0.3035
+2024-06-02 21:00:11 [INFO]: Epoch 080 - training loss: 0.3440, validation loss: 0.3065
+2024-06-02 21:00:12 [INFO]: Epoch 081 - training loss: 0.3432, validation loss: 0.3019
+2024-06-02 21:00:12 [INFO]: Epoch 082 - training loss: 0.3602, validation loss: 0.3036
+2024-06-02 21:00:13 [INFO]: Epoch 083 - training loss: 0.3629, validation loss: 0.3016
+2024-06-02 21:00:14 [INFO]: Epoch 084 - training loss: 0.3367, validation loss: 0.3005
+2024-06-02 21:00:15 [INFO]: Epoch 085 - training loss: 0.3364, validation loss: 0.3083
+2024-06-02 21:00:16 [INFO]: Epoch 086 - training loss: 0.3312, validation loss: 0.3030
+2024-06-02 21:00:16 [INFO]: Epoch 087 - training loss: 0.3356, validation loss: 0.2989
+2024-06-02 21:00:17 [INFO]: Epoch 088 - training loss: 0.3322, validation loss: 0.3009
+2024-06-02 21:00:18 [INFO]: Epoch 089 - training loss: 0.3434, validation loss: 0.3022
+2024-06-02 21:00:19 [INFO]: Epoch 090 - training loss: 0.3363, validation loss: 0.3011
+2024-06-02 21:00:20 [INFO]: Epoch 091 - training loss: 0.3401, validation loss: 0.2979
+2024-06-02 21:00:20 [INFO]: Epoch 092 - training loss: 0.3363, validation loss: 0.2909
+2024-06-02 21:00:21 [INFO]: Epoch 093 - training loss: 0.3342, validation loss: 0.2919
+2024-06-02 21:00:22 [INFO]: Epoch 094 - training loss: 0.3342, validation loss: 0.2896
+2024-06-02 21:00:23 [INFO]: Epoch 095 - training loss: 0.3483, validation loss: 0.2920
+2024-06-02 21:00:24 [INFO]: Epoch 096 - training loss: 0.3334, validation loss: 0.2965
+2024-06-02 21:00:24 [INFO]: Epoch 097 - training loss: 0.3343, validation loss: 0.2959
+2024-06-02 21:00:25 [INFO]: Epoch 098 - training loss: 0.3422, validation loss: 0.2930
+2024-06-02 21:00:26 [INFO]: Epoch 099 - training loss: 0.3334, validation loss: 0.2883
+2024-06-02 21:00:27 [INFO]: Epoch 100 - training loss: 0.3279, validation loss: 0.2859
+2024-06-02 21:00:27 [INFO]: Finished training. The best model is from epoch#100.
+2024-06-02 21:00:27 [INFO]: Saved the model to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_3/20240602_T205902/PatchTST.pypots
+2024-06-02 21:00:27 [INFO]: Successfully saved to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_3/imputation.pkl
+2024-06-02 21:00:27 [INFO]: Round3 - PatchTST on Pedestrian: MAE=0.1970, MSE=0.3525, MRE=0.2592
+2024-06-02 21:00:27 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-02 21:00:27 [INFO]: Using the given device: cuda:0
+2024-06-02 21:00:27 [INFO]: Model files will be saved to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_4/20240602_T210027
+2024-06-02 21:00:27 [INFO]: Tensorboard file will be saved to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_4/20240602_T210027/tensorboard
+2024-06-02 21:00:27 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 106,905
+2024-06-02 21:00:28 [INFO]: Epoch 001 - training loss: 1.3418, validation loss: 0.9966
+2024-06-02 21:00:29 [INFO]: Epoch 002 - training loss: 0.9064, validation loss: 0.7511
+2024-06-02 21:00:30 [INFO]: Epoch 003 - training loss: 0.8223, validation loss: 0.7445
+2024-06-02 21:00:30 [INFO]: Epoch 004 - training loss: 0.7867, validation loss: 0.6997
+2024-06-02 21:00:31 [INFO]: Epoch 005 - training loss: 0.7122, validation loss: 0.6255
+2024-06-02 21:00:32 [INFO]: Epoch 006 - training loss: 0.6533, validation loss: 0.5650
+2024-06-02 21:00:33 [INFO]: Epoch 007 - training loss: 0.6207, validation loss: 0.5377
+2024-06-02 21:00:33 [INFO]: Epoch 008 - training loss: 0.5931, validation loss: 0.5063
+2024-06-02 21:00:34 [INFO]: Epoch 009 - training loss: 0.5560, validation loss: 0.4762
+2024-06-02 21:00:35 [INFO]: Epoch 010 - training loss: 0.5404, validation loss: 0.4496
+2024-06-02 21:00:35 [INFO]: Epoch 011 - training loss: 0.5365, validation loss: 0.4430
+2024-06-02 21:00:36 [INFO]: Epoch 012 - training loss: 0.5194, validation loss: 0.4180
+2024-06-02 21:00:36 [INFO]: Epoch 013 - training loss: 0.5071, validation loss: 0.4109
+2024-06-02 21:00:37 [INFO]: Epoch 014 - training loss: 0.4927, validation loss: 0.4066
+2024-06-02 21:00:38 [INFO]: Epoch 015 - training loss: 0.4993, validation loss: 0.3903
+2024-06-02 21:00:38 [INFO]: Epoch 016 - training loss: 0.4804, validation loss: 0.3955
+2024-06-02 21:00:39 [INFO]: Epoch 017 - training loss: 0.4796, validation loss: 0.3871
+2024-06-02 21:00:39 [INFO]: Epoch 018 - training loss: 0.4611, validation loss: 0.3834
+2024-06-02 21:00:40 [INFO]: Epoch 019 - training loss: 0.4643, validation loss: 0.3800
+2024-06-02 21:00:41 [INFO]: Epoch 020 - training loss: 0.4479, validation loss: 0.3750
+2024-06-02 21:00:42 [INFO]: Epoch 021 - training loss: 0.4516, validation loss: 0.3640
+2024-06-02 21:00:42 [INFO]: Epoch 022 - training loss: 0.4383, validation loss: 0.3588
+2024-06-02 21:00:43 [INFO]: Epoch 023 - training loss: 0.4208, validation loss: 0.3587
+2024-06-02 21:00:43 [INFO]: Epoch 024 - training loss: 0.4277, validation loss: 0.3517
+2024-06-02 21:00:44 [INFO]: Epoch 025 - training loss: 0.4323, validation loss: 0.3491
+2024-06-02 21:00:45 [INFO]: Epoch 026 - training loss: 0.4420, validation loss: 0.3521
+2024-06-02 21:00:45 [INFO]: Epoch 027 - training loss: 0.4170, validation loss: 0.3384
+2024-06-02 21:00:46 [INFO]: Epoch 028 - training loss: 0.4108, validation loss: 0.3604
+2024-06-02 21:00:46 [INFO]: Epoch 029 - training loss: 0.4101, validation loss: 0.3474
+2024-06-02 21:00:47 [INFO]: Epoch 030 - training loss: 0.4251, validation loss: 0.3469
+2024-06-02 21:00:48 [INFO]: Epoch 031 - training loss: 0.3984, validation loss: 0.3374
+2024-06-02 21:00:48 [INFO]: Epoch 032 - training loss: 0.4021, validation loss: 0.3396
+2024-06-02 21:00:49 [INFO]: Epoch 033 - training loss: 0.4144, validation loss: 0.3250
+2024-06-02 21:00:49 [INFO]: Epoch 034 - training loss: 0.3771, validation loss: 0.3207
+2024-06-02 21:00:50 [INFO]: Epoch 035 - training loss: 0.3966, validation loss: 0.3203
+2024-06-02 21:00:51 [INFO]: Epoch 036 - training loss: 0.3786, validation loss: 0.3253
+2024-06-02 21:00:51 [INFO]: Epoch 037 - training loss: 0.3882, validation loss: 0.3140
+2024-06-02 21:00:52 [INFO]: Epoch 038 - training loss: 0.3788, validation loss: 0.3134
+2024-06-02 21:00:53 [INFO]: Epoch 039 - training loss: 0.3746, validation loss: 0.3131
+2024-06-02 21:00:53 [INFO]: Epoch 040 - training loss: 0.3713, validation loss: 0.3181
+2024-06-02 21:00:54 [INFO]: Epoch 041 - training loss: 0.3661, validation loss: 0.3243
+2024-06-02 21:00:54 [INFO]: Epoch 042 - training loss: 0.3699, validation loss: 0.3098
+2024-06-02 21:00:55 [INFO]: Epoch 043 - training loss: 0.3645, validation loss: 0.3217
+2024-06-02 21:00:55 [INFO]: Epoch 044 - training loss: 0.3727, validation loss: 0.3137
+2024-06-02 21:00:56 [INFO]: Epoch 045 - training loss: 0.3613, validation loss: 0.3155
+2024-06-02 21:00:57 [INFO]: Epoch 046 - training loss: 0.3658, validation loss: 0.3145
+2024-06-02 21:00:57 [INFO]: Epoch 047 - training loss: 0.3581, validation loss: 0.3168
+2024-06-02 21:00:58 [INFO]: Epoch 048 - training loss: 0.3439, validation loss: 0.3102
+2024-06-02 21:00:59 [INFO]: Epoch 049 - training loss: 0.3508, validation loss: 0.3043
+2024-06-02 21:00:59 [INFO]: Epoch 050 - training loss: 0.3603, validation loss: 0.2986
+2024-06-02 21:01:00 [INFO]: Epoch 051 - training loss: 0.3474, validation loss: 0.3066
+2024-06-02 21:01:00 [INFO]: Epoch 052 - training loss: 0.3492, validation loss: 0.3080
+2024-06-02 21:01:01 [INFO]: Epoch 053 - training loss: 0.3709, validation loss: 0.3044
+2024-06-02 21:01:02 [INFO]: Epoch 054 - training loss: 0.3631, validation loss: 0.2981
+2024-06-02 21:01:02 [INFO]: Epoch 055 - training loss: 0.3518, validation loss: 0.2980
+2024-06-02 21:01:03 [INFO]: Epoch 056 - training loss: 0.3514, validation loss: 0.2972
+2024-06-02 21:01:04 [INFO]: Epoch 057 - training loss: 0.3529, validation loss: 0.3065
+2024-06-02 21:01:04 [INFO]: Epoch 058 - training loss: 0.3480, validation loss: 0.2981
+2024-06-02 21:01:05 [INFO]: Epoch 059 - training loss: 0.3452, validation loss: 0.2940
+2024-06-02 21:01:05 [INFO]: Epoch 060 - training loss: 0.3444, validation loss: 0.2975
+2024-06-02 21:01:06 [INFO]: Epoch 061 - training loss: 0.3474, validation loss: 0.3025
+2024-06-02 21:01:06 [INFO]: Epoch 062 - training loss: 0.3414, validation loss: 0.2983
+2024-06-02 21:01:07 [INFO]: Epoch 063 - training loss: 0.3413, validation loss: 0.2953
+2024-06-02 21:01:07 [INFO]: Epoch 064 - training loss: 0.3517, validation loss: 0.3010
+2024-06-02 21:01:08 [INFO]: Epoch 065 - training loss: 0.3426, validation loss: 0.2965
+2024-06-02 21:01:09 [INFO]: Epoch 066 - training loss: 0.3525, validation loss: 0.2946
+2024-06-02 21:01:09 [INFO]: Epoch 067 - training loss: 0.3451, validation loss: 0.2894
+2024-06-02 21:01:10 [INFO]: Epoch 068 - training loss: 0.3349, validation loss: 0.2901
+2024-06-02 21:01:10 [INFO]: Epoch 069 - training loss: 0.3276, validation loss: 0.2885
+2024-06-02 21:01:11 [INFO]: Epoch 070 - training loss: 0.3318, validation loss: 0.2926
+2024-06-02 21:01:12 [INFO]: Epoch 071 - training loss: 0.3395, validation loss: 0.3027
+2024-06-02 21:01:12 [INFO]: Epoch 072 - training loss: 0.3455, validation loss: 0.2920
+2024-06-02 21:01:13 [INFO]: Epoch 073 - training loss: 0.3199, validation loss: 0.2969
+2024-06-02 21:01:14 [INFO]: Epoch 074 - training loss: 0.3324, validation loss: 0.2881
+2024-06-02 21:01:14 [INFO]: Epoch 075 - training loss: 0.3308, validation loss: 0.2846
+2024-06-02 21:01:15 [INFO]: Epoch 076 - training loss: 0.3312, validation loss: 0.2862
+2024-06-02 21:01:15 [INFO]: Epoch 077 - training loss: 0.3212, validation loss: 0.3022
+2024-06-02 21:01:16 [INFO]: Epoch 078 - training loss: 0.3299, validation loss: 0.2832
+2024-06-02 21:01:17 [INFO]: Epoch 079 - training loss: 0.3272, validation loss: 0.2923
+2024-06-02 21:01:17 [INFO]: Epoch 080 - training loss: 0.3345, validation loss: 0.2836
+2024-06-02 21:01:18 [INFO]: Epoch 081 - training loss: 0.3310, validation loss: 0.2884
+2024-06-02 21:01:19 [INFO]: Epoch 082 - training loss: 0.3396, validation loss: 0.2927
+2024-06-02 21:01:19 [INFO]: Epoch 083 - training loss: 0.3209, validation loss: 0.2920
+2024-06-02 21:01:20 [INFO]: Epoch 084 - training loss: 0.3410, validation loss: 0.2937
+2024-06-02 21:01:20 [INFO]: Epoch 085 - training loss: 0.3164, validation loss: 0.2892
+2024-06-02 21:01:21 [INFO]: Epoch 086 - training loss: 0.3216, validation loss: 0.2922
+2024-06-02 21:01:22 [INFO]: Epoch 087 - training loss: 0.3249, validation loss: 0.2857
+2024-06-02 21:01:22 [INFO]: Epoch 088 - training loss: 0.3217, validation loss: 0.2858
+2024-06-02 21:01:22 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 21:01:22 [INFO]: Finished training. The best model is from epoch#78.
+2024-06-02 21:01:22 [INFO]: Saved the model to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_4/20240602_T210027/PatchTST.pypots
+2024-06-02 21:01:23 [INFO]: Successfully saved to results_point_rate05/Pedestrian/PatchTST_Pedestrian/round_4/imputation.pkl
+2024-06-02 21:01:23 [INFO]: Round4 - PatchTST on Pedestrian: MAE=0.1955, MSE=0.3514, MRE=0.2573
+2024-06-02 21:01:23 [INFO]: Done! Final results:
+Averaged PatchTST (106,905 params) on Pedestrian: MAE=0.1976 ± 0.002574801579815896, MSE=0.3515 ± 0.005092497790088145, MRE=0.2600 ± 0.00338819511837672, average inference time=0.65

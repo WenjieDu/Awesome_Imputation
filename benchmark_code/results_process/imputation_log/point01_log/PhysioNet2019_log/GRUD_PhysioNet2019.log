@@ -1,0 +1,107 @@
+2024-06-03 19:01:49 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 19:01:49 [INFO]: Using the given device: cuda:0
+2024-06-03 19:01:50 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_0/20240603_T190150
+2024-06-03 19:01:50 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_0/20240603_T190150/tensorboard
+2024-06-03 19:01:51 [INFO]: GRUD initialized with the given hyperparameters, the number of trainable parameters: 15,971
+2024-06-03 19:02:32 [INFO]: Epoch 001 - training loss: 0.6734, validation loss: 0.0725
+2024-06-03 19:02:52 [INFO]: Epoch 002 - training loss: 0.5291, validation loss: 0.1267
+2024-06-03 19:03:10 [INFO]: Epoch 003 - training loss: 0.4999, validation loss: 0.1825
+2024-06-03 19:03:29 [INFO]: Epoch 004 - training loss: 0.4806, validation loss: 0.2127
+2024-06-03 19:03:47 [INFO]: Epoch 005 - training loss: 0.4708, validation loss: 0.2397
+2024-06-03 19:04:05 [INFO]: Epoch 006 - training loss: 0.4626, validation loss: 0.2527
+2024-06-03 19:04:23 [INFO]: Epoch 007 - training loss: 0.4578, validation loss: 0.2452
+2024-06-03 19:04:42 [INFO]: Epoch 008 - training loss: 0.4533, validation loss: 0.2591
+2024-06-03 19:05:00 [INFO]: Epoch 009 - training loss: 0.4509, validation loss: 0.2701
+2024-06-03 19:05:18 [INFO]: Epoch 010 - training loss: 0.4473, validation loss: 0.2826
+2024-06-03 19:05:37 [INFO]: Epoch 011 - training loss: 0.4442, validation loss: 0.2879
+2024-06-03 19:05:37 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:05:37 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:05:37 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_0/20240603_T190150/GRUD.pypots
+2024-06-03 19:06:07 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_0/imputation.pkl
+2024-06-03 19:06:07 [INFO]: Round0 - GRUD on PhysioNet2019: MAE=0.4711, MSE=0.4516, MRE=0.6183
+2024-06-03 19:06:07 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:06:07 [INFO]: Using the given device: cuda:0
+2024-06-03 19:06:07 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_1/20240603_T190607
+2024-06-03 19:06:07 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_1/20240603_T190607/tensorboard
+2024-06-03 19:06:07 [INFO]: GRUD initialized with the given hyperparameters, the number of trainable parameters: 15,971
+2024-06-03 19:06:39 [INFO]: Epoch 001 - training loss: 0.6684, validation loss: 0.0757
+2024-06-03 19:06:58 [INFO]: Epoch 002 - training loss: 0.5235, validation loss: 0.1381
+2024-06-03 19:07:16 [INFO]: Epoch 003 - training loss: 0.4973, validation loss: 0.1713
+2024-06-03 19:07:34 [INFO]: Epoch 004 - training loss: 0.4821, validation loss: 0.1915
+2024-06-03 19:07:53 [INFO]: Epoch 005 - training loss: 0.4727, validation loss: 0.2131
+2024-06-03 19:08:11 [INFO]: Epoch 006 - training loss: 0.4664, validation loss: 0.2168
+2024-06-03 19:08:29 [INFO]: Epoch 007 - training loss: 0.4612, validation loss: 0.2387
+2024-06-03 19:08:47 [INFO]: Epoch 008 - training loss: 0.4571, validation loss: 0.2441
+2024-06-03 19:09:05 [INFO]: Epoch 009 - training loss: 0.4529, validation loss: 0.2481
+2024-06-03 19:09:24 [INFO]: Epoch 010 - training loss: 0.4501, validation loss: 0.2666
+2024-06-03 19:09:43 [INFO]: Epoch 011 - training loss: 0.4476, validation loss: 0.2735
+2024-06-03 19:09:43 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:09:43 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:09:43 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_1/20240603_T190607/GRUD.pypots
+2024-06-03 19:10:11 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_1/imputation.pkl
+2024-06-03 19:10:11 [INFO]: Round1 - GRUD on PhysioNet2019: MAE=0.4715, MSE=0.4528, MRE=0.6188
+2024-06-03 19:10:11 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:10:11 [INFO]: Using the given device: cuda:0
+2024-06-03 19:10:11 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_2/20240603_T191011
+2024-06-03 19:10:11 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_2/20240603_T191011/tensorboard
+2024-06-03 19:10:11 [INFO]: GRUD initialized with the given hyperparameters, the number of trainable parameters: 15,971
+2024-06-03 19:10:43 [INFO]: Epoch 001 - training loss: 0.6897, validation loss: 0.0651
+2024-06-03 19:11:01 [INFO]: Epoch 002 - training loss: 0.5349, validation loss: 0.1245
+2024-06-03 19:11:20 [INFO]: Epoch 003 - training loss: 0.5015, validation loss: 0.1626
+2024-06-03 19:11:38 [INFO]: Epoch 004 - training loss: 0.4831, validation loss: 0.1914
+2024-06-03 19:11:56 [INFO]: Epoch 005 - training loss: 0.4729, validation loss: 0.2204
+2024-06-03 19:12:15 [INFO]: Epoch 006 - training loss: 0.4639, validation loss: 0.2210
+2024-06-03 19:12:33 [INFO]: Epoch 007 - training loss: 0.4580, validation loss: 0.2260
+2024-06-03 19:12:51 [INFO]: Epoch 008 - training loss: 0.4535, validation loss: 0.2556
+2024-06-03 19:13:09 [INFO]: Epoch 009 - training loss: 0.4488, validation loss: 0.2649
+2024-06-03 19:13:27 [INFO]: Epoch 010 - training loss: 0.4467, validation loss: 0.2649
+2024-06-03 19:13:45 [INFO]: Epoch 011 - training loss: 0.4448, validation loss: 0.2823
+2024-06-03 19:13:45 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:13:45 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:13:45 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_2/20240603_T191011/GRUD.pypots
+2024-06-03 19:14:15 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_2/imputation.pkl
+2024-06-03 19:14:15 [INFO]: Round2 - GRUD on PhysioNet2019: MAE=0.4699, MSE=0.4512, MRE=0.6168
+2024-06-03 19:14:15 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:14:15 [INFO]: Using the given device: cuda:0
+2024-06-03 19:14:15 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_3/20240603_T191415
+2024-06-03 19:14:15 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_3/20240603_T191415/tensorboard
+2024-06-03 19:14:15 [INFO]: GRUD initialized with the given hyperparameters, the number of trainable parameters: 15,971
+2024-06-03 19:14:46 [INFO]: Epoch 001 - training loss: 0.6721, validation loss: 0.0766
+2024-06-03 19:15:03 [INFO]: Epoch 002 - training loss: 0.5302, validation loss: 0.1279
+2024-06-03 19:15:21 [INFO]: Epoch 003 - training loss: 0.4975, validation loss: 0.1703
+2024-06-03 19:15:39 [INFO]: Epoch 004 - training loss: 0.4800, validation loss: 0.1957
+2024-06-03 19:15:56 [INFO]: Epoch 005 - training loss: 0.4709, validation loss: 0.2325
+2024-06-03 19:16:13 [INFO]: Epoch 006 - training loss: 0.4640, validation loss: 0.2441
+2024-06-03 19:16:31 [INFO]: Epoch 007 - training loss: 0.4572, validation loss: 0.2538
+2024-06-03 19:16:50 [INFO]: Epoch 008 - training loss: 0.4540, validation loss: 0.2584
+2024-06-03 19:17:08 [INFO]: Epoch 009 - training loss: 0.4497, validation loss: 0.2716
+2024-06-03 19:17:26 [INFO]: Epoch 010 - training loss: 0.4467, validation loss: 0.2842
+2024-06-03 19:17:44 [INFO]: Epoch 011 - training loss: 0.4442, validation loss: 0.2981
+2024-06-03 19:17:44 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:17:44 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:17:44 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_3/20240603_T191415/GRUD.pypots
+2024-06-03 19:18:14 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_3/imputation.pkl
+2024-06-03 19:18:14 [INFO]: Round3 - GRUD on PhysioNet2019: MAE=0.4690, MSE=0.4501, MRE=0.6155
+2024-06-03 19:18:14 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:18:14 [INFO]: Using the given device: cuda:0
+2024-06-03 19:18:14 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_4/20240603_T191814
+2024-06-03 19:18:14 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_4/20240603_T191814/tensorboard
+2024-06-03 19:18:14 [INFO]: GRUD initialized with the given hyperparameters, the number of trainable parameters: 15,971
+2024-06-03 19:18:47 [INFO]: Epoch 001 - training loss: 0.6854, validation loss: 0.0736
+2024-06-03 19:19:06 [INFO]: Epoch 002 - training loss: 0.5341, validation loss: 0.1278
+2024-06-03 19:19:24 [INFO]: Epoch 003 - training loss: 0.4992, validation loss: 0.1815
+2024-06-03 19:19:43 [INFO]: Epoch 004 - training loss: 0.4814, validation loss: 0.2085
+2024-06-03 19:20:01 [INFO]: Epoch 005 - training loss: 0.4718, validation loss: 0.2283
+2024-06-03 19:20:19 [INFO]: Epoch 006 - training loss: 0.4657, validation loss: 0.2301
+2024-06-03 19:20:37 [INFO]: Epoch 007 - training loss: 0.4591, validation loss: 0.2510
+2024-06-03 19:20:54 [INFO]: Epoch 008 - training loss: 0.4552, validation loss: 0.2681
+2024-06-03 19:21:11 [INFO]: Epoch 009 - training loss: 0.4510, validation loss: 0.2777
+2024-06-03 19:21:27 [INFO]: Epoch 010 - training loss: 0.4488, validation loss: 0.2882
+2024-06-03 19:21:44 [INFO]: Epoch 011 - training loss: 0.4450, validation loss: 0.2807
+2024-06-03 19:21:44 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:21:44 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:21:44 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_4/20240603_T191814/GRUD.pypots
+2024-06-03 19:22:09 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/GRUD_PhysioNet2019/round_4/imputation.pkl
+2024-06-03 19:22:09 [INFO]: Round4 - GRUD on PhysioNet2019: MAE=0.4720, MSE=0.4523, MRE=0.6195
+2024-06-03 19:22:09 [INFO]: Done! Final results:
+Averaged GRUD (15,971 params) on PhysioNet2019: MAE=0.4707 ± 0.0011048182856530607, MSE=0.4516 ± 0.0009354152184418321, MRE=0.6178 ± 0.0014500794951632654, average inference time=4.53

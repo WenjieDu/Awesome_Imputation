@@ -1,0 +1,11 @@
+2024-06-05 01:10:00 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 09:34:29 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 17:59:31 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-06 02:27:23 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-06 10:54:45 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-06 19:06:40 [INFO]: 
+XGB (without imputation) regression MAE: 0.6624±0.0000, MSE: 0.8733±0.0000, MRE: 0.5329±0.0000
+XGB (with FiLM imputation) regression MAE: 0.6104±0.0000, MSE: 0.7474±0.0000, MRE: 0.4911±0.0000
+RNN (with FiLM imputation) regression MAE: 0.5203±0.0104, MSE: 0.6151±0.0240, MRE: 0.4185±0.0083
+Transformer (with FiLM imputation) regression MAE: 0.4233±0.0133, MSE: 0.4047±0.0203, MRE: 0.3405±0.0107
+

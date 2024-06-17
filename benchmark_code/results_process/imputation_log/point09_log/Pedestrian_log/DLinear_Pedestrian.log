@@ -1,0 +1,136 @@
+2024-06-03 00:14:09 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 00:14:09 [INFO]: Using the given device: cuda:0
+2024-06-03 00:14:09 [INFO]: Model files will be saved to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_0/20240603_T001409
+2024-06-03 00:14:09 [INFO]: Tensorboard file will be saved to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_0/20240603_T001409/tensorboard
+2024-06-03 00:14:10 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 3,250
+2024-06-03 00:14:13 [INFO]: Epoch 001 - training loss: 1.4145, validation loss: 1.5333
+2024-06-03 00:14:14 [INFO]: Epoch 002 - training loss: 1.2755, validation loss: 1.3986
+2024-06-03 00:14:15 [INFO]: Epoch 003 - training loss: 1.1794, validation loss: 1.3222
+2024-06-03 00:14:17 [INFO]: Epoch 004 - training loss: 1.1508, validation loss: 1.2800
+2024-06-03 00:14:18 [INFO]: Epoch 005 - training loss: 0.9424, validation loss: 1.1947
+2024-06-03 00:14:19 [INFO]: Epoch 006 - training loss: 1.0212, validation loss: 1.2359
+2024-06-03 00:14:21 [INFO]: Epoch 007 - training loss: 0.8705, validation loss: 1.1911
+2024-06-03 00:14:22 [INFO]: Epoch 008 - training loss: 0.8356, validation loss: 1.1917
+2024-06-03 00:14:24 [INFO]: Epoch 009 - training loss: 0.8258, validation loss: 1.1503
+2024-06-03 00:14:25 [INFO]: Epoch 010 - training loss: 0.7499, validation loss: 1.1746
+2024-06-03 00:14:27 [INFO]: Epoch 011 - training loss: 0.7907, validation loss: 1.1805
+2024-06-03 00:14:28 [INFO]: Epoch 012 - training loss: 0.7548, validation loss: 1.2285
+2024-06-03 00:14:30 [INFO]: Epoch 013 - training loss: 0.7490, validation loss: 1.1834
+2024-06-03 00:14:31 [INFO]: Epoch 014 - training loss: 0.7390, validation loss: 1.2092
+2024-06-03 00:14:32 [INFO]: Epoch 015 - training loss: 0.7257, validation loss: 1.1808
+2024-06-03 00:14:34 [INFO]: Epoch 016 - training loss: 0.7636, validation loss: 1.1846
+2024-06-03 00:14:36 [INFO]: Epoch 017 - training loss: 0.6611, validation loss: 1.2033
+2024-06-03 00:14:37 [INFO]: Epoch 018 - training loss: 0.7101, validation loss: 1.2461
+2024-06-03 00:14:38 [INFO]: Epoch 019 - training loss: 0.6609, validation loss: 1.2435
+2024-06-03 00:14:38 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:14:38 [INFO]: Finished training. The best model is from epoch#9.
+2024-06-03 00:14:38 [INFO]: Saved the model to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_0/20240603_T001409/DLinear.pypots
+2024-06-03 00:14:40 [INFO]: Successfully saved to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_0/imputation.pkl
+2024-06-03 00:14:40 [INFO]: Round0 - DLinear on Pedestrian: MAE=0.5879, MSE=1.0489, MRE=0.7761
+2024-06-03 00:14:40 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 00:14:40 [INFO]: Using the given device: cuda:0
+2024-06-03 00:14:40 [INFO]: Model files will be saved to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_1/20240603_T001440
+2024-06-03 00:14:40 [INFO]: Tensorboard file will be saved to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_1/20240603_T001440/tensorboard
+2024-06-03 00:14:40 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 3,250
+2024-06-03 00:14:41 [INFO]: Epoch 001 - training loss: 1.3830, validation loss: 1.6292
+2024-06-03 00:14:43 [INFO]: Epoch 002 - training loss: 1.2430, validation loss: 1.2517
+2024-06-03 00:14:44 [INFO]: Epoch 003 - training loss: 1.1128, validation loss: 1.2239
+2024-06-03 00:14:46 [INFO]: Epoch 004 - training loss: 0.8928, validation loss: 1.1221
+2024-06-03 00:14:48 [INFO]: Epoch 005 - training loss: 0.7970, validation loss: 1.1821
+2024-06-03 00:14:49 [INFO]: Epoch 006 - training loss: 0.7372, validation loss: 1.1968
+2024-06-03 00:14:51 [INFO]: Epoch 007 - training loss: 0.7088, validation loss: 1.3126
+2024-06-03 00:14:52 [INFO]: Epoch 008 - training loss: 0.7730, validation loss: 1.1873
+2024-06-03 00:14:54 [INFO]: Epoch 009 - training loss: 0.7147, validation loss: 1.2938
+2024-06-03 00:14:55 [INFO]: Epoch 010 - training loss: 0.6494, validation loss: 1.2526
+2024-06-03 00:14:57 [INFO]: Epoch 011 - training loss: 0.7411, validation loss: 1.2803
+2024-06-03 00:14:59 [INFO]: Epoch 012 - training loss: 0.7277, validation loss: 1.2204
+2024-06-03 00:15:00 [INFO]: Epoch 013 - training loss: 0.6228, validation loss: 1.2953
+2024-06-03 00:15:02 [INFO]: Epoch 014 - training loss: 0.7268, validation loss: 1.1669
+2024-06-03 00:15:02 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:15:02 [INFO]: Finished training. The best model is from epoch#4.
+2024-06-03 00:15:02 [INFO]: Saved the model to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_1/20240603_T001440/DLinear.pypots
+2024-06-03 00:15:03 [INFO]: Successfully saved to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_1/imputation.pkl
+2024-06-03 00:15:03 [INFO]: Round1 - DLinear on Pedestrian: MAE=0.6031, MSE=0.9719, MRE=0.7962
+2024-06-03 00:15:03 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 00:15:03 [INFO]: Using the given device: cuda:0
+2024-06-03 00:15:03 [INFO]: Model files will be saved to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_2/20240603_T001503
+2024-06-03 00:15:03 [INFO]: Tensorboard file will be saved to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_2/20240603_T001503/tensorboard
+2024-06-03 00:15:03 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 3,250
+2024-06-03 00:15:05 [INFO]: Epoch 001 - training loss: 1.3720, validation loss: 1.3484
+2024-06-03 00:15:06 [INFO]: Epoch 002 - training loss: 1.2925, validation loss: 1.3678
+2024-06-03 00:15:07 [INFO]: Epoch 003 - training loss: 1.1223, validation loss: 1.1534
+2024-06-03 00:15:09 [INFO]: Epoch 004 - training loss: 1.1202, validation loss: 1.1616
+2024-06-03 00:15:10 [INFO]: Epoch 005 - training loss: 1.0502, validation loss: 1.3215
+2024-06-03 00:15:11 [INFO]: Epoch 006 - training loss: 0.9888, validation loss: 1.2263
+2024-06-03 00:15:13 [INFO]: Epoch 007 - training loss: 0.8344, validation loss: 1.2112
+2024-06-03 00:15:14 [INFO]: Epoch 008 - training loss: 0.8511, validation loss: 1.1603
+2024-06-03 00:15:15 [INFO]: Epoch 009 - training loss: 0.7566, validation loss: 1.1180
+2024-06-03 00:15:17 [INFO]: Epoch 010 - training loss: 0.7573, validation loss: 1.1429
+2024-06-03 00:15:18 [INFO]: Epoch 011 - training loss: 0.7015, validation loss: 1.1137
+2024-06-03 00:15:20 [INFO]: Epoch 012 - training loss: 0.7198, validation loss: 1.1338
+2024-06-03 00:15:21 [INFO]: Epoch 013 - training loss: 0.7314, validation loss: 1.1208
+2024-06-03 00:15:22 [INFO]: Epoch 014 - training loss: 0.7410, validation loss: 1.1734
+2024-06-03 00:15:24 [INFO]: Epoch 015 - training loss: 0.7100, validation loss: 1.1802
+2024-06-03 00:15:25 [INFO]: Epoch 016 - training loss: 0.7235, validation loss: 1.1607
+2024-06-03 00:15:26 [INFO]: Epoch 017 - training loss: 0.7023, validation loss: 1.1344
+2024-06-03 00:15:28 [INFO]: Epoch 018 - training loss: 0.7289, validation loss: 1.2006
+2024-06-03 00:15:29 [INFO]: Epoch 019 - training loss: 0.7033, validation loss: 1.1783
+2024-06-03 00:15:30 [INFO]: Epoch 020 - training loss: 0.7337, validation loss: 1.1766
+2024-06-03 00:15:31 [INFO]: Epoch 021 - training loss: 0.7136, validation loss: 1.1969
+2024-06-03 00:15:31 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:15:31 [INFO]: Finished training. The best model is from epoch#11.
+2024-06-03 00:15:31 [INFO]: Saved the model to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_2/20240603_T001503/DLinear.pypots
+2024-06-03 00:15:33 [INFO]: Successfully saved to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_2/imputation.pkl
+2024-06-03 00:15:33 [INFO]: Round2 - DLinear on Pedestrian: MAE=0.5535, MSE=0.9750, MRE=0.7307
+2024-06-03 00:15:33 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 00:15:33 [INFO]: Using the given device: cuda:0
+2024-06-03 00:15:33 [INFO]: Model files will be saved to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_3/20240603_T001533
+2024-06-03 00:15:33 [INFO]: Tensorboard file will be saved to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_3/20240603_T001533/tensorboard
+2024-06-03 00:15:33 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 3,250
+2024-06-03 00:15:34 [INFO]: Epoch 001 - training loss: 1.4042, validation loss: 1.7158
+2024-06-03 00:15:36 [INFO]: Epoch 002 - training loss: 1.2773, validation loss: 1.3393
+2024-06-03 00:15:37 [INFO]: Epoch 003 - training loss: 1.1931, validation loss: 1.2068
+2024-06-03 00:15:39 [INFO]: Epoch 004 - training loss: 1.0146, validation loss: 1.1391
+2024-06-03 00:15:40 [INFO]: Epoch 005 - training loss: 0.8702, validation loss: 1.0849
+2024-06-03 00:15:42 [INFO]: Epoch 006 - training loss: 0.7516, validation loss: 1.1719
+2024-06-03 00:15:43 [INFO]: Epoch 007 - training loss: 0.7084, validation loss: 1.2226
+2024-06-03 00:15:45 [INFO]: Epoch 008 - training loss: 0.7475, validation loss: 1.1537
+2024-06-03 00:15:46 [INFO]: Epoch 009 - training loss: 0.7483, validation loss: 1.1945
+2024-06-03 00:15:48 [INFO]: Epoch 010 - training loss: 0.6871, validation loss: 1.2562
+2024-06-03 00:15:49 [INFO]: Epoch 011 - training loss: 0.7044, validation loss: 1.2208
+2024-06-03 00:15:51 [INFO]: Epoch 012 - training loss: 0.6590, validation loss: 1.2245
+2024-06-03 00:15:52 [INFO]: Epoch 013 - training loss: 0.7228, validation loss: 1.2212
+2024-06-03 00:15:54 [INFO]: Epoch 014 - training loss: 0.6807, validation loss: 1.2584
+2024-06-03 00:15:55 [INFO]: Epoch 015 - training loss: 0.7554, validation loss: 1.1495
+2024-06-03 00:15:55 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:15:55 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 00:15:55 [INFO]: Saved the model to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_3/20240603_T001533/DLinear.pypots
+2024-06-03 00:15:57 [INFO]: Successfully saved to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_3/imputation.pkl
+2024-06-03 00:15:57 [INFO]: Round3 - DLinear on Pedestrian: MAE=0.6091, MSE=0.9500, MRE=0.8041
+2024-06-03 00:15:57 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 00:15:57 [INFO]: Using the given device: cuda:0
+2024-06-03 00:15:57 [INFO]: Model files will be saved to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_4/20240603_T001557
+2024-06-03 00:15:57 [INFO]: Tensorboard file will be saved to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_4/20240603_T001557/tensorboard
+2024-06-03 00:15:57 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 3,250
+2024-06-03 00:15:58 [INFO]: Epoch 001 - training loss: 1.3270, validation loss: 1.3188
+2024-06-03 00:16:00 [INFO]: Epoch 002 - training loss: 1.2151, validation loss: 1.1933
+2024-06-03 00:16:02 [INFO]: Epoch 003 - training loss: 1.0736, validation loss: 1.1437
+2024-06-03 00:16:03 [INFO]: Epoch 004 - training loss: 0.9558, validation loss: 1.1806
+2024-06-03 00:16:05 [INFO]: Epoch 005 - training loss: 0.8651, validation loss: 1.1416
+2024-06-03 00:16:06 [INFO]: Epoch 006 - training loss: 0.7738, validation loss: 1.1903
+2024-06-03 00:16:08 [INFO]: Epoch 007 - training loss: 0.7443, validation loss: 1.1429
+2024-06-03 00:16:09 [INFO]: Epoch 008 - training loss: 0.7081, validation loss: 1.2219
+2024-06-03 00:16:11 [INFO]: Epoch 009 - training loss: 0.7284, validation loss: 1.1682
+2024-06-03 00:16:13 [INFO]: Epoch 010 - training loss: 0.6908, validation loss: 1.1829
+2024-06-03 00:16:14 [INFO]: Epoch 011 - training loss: 0.7292, validation loss: 1.2562
+2024-06-03 00:16:16 [INFO]: Epoch 012 - training loss: 0.7251, validation loss: 1.1956
+2024-06-03 00:16:17 [INFO]: Epoch 013 - training loss: 0.7049, validation loss: 1.2004
+2024-06-03 00:16:19 [INFO]: Epoch 014 - training loss: 0.7088, validation loss: 1.1772
+2024-06-03 00:16:20 [INFO]: Epoch 015 - training loss: 0.6847, validation loss: 1.1903
+2024-06-03 00:16:20 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:16:20 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 00:16:20 [INFO]: Saved the model to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_4/20240603_T001557/DLinear.pypots
+2024-06-03 00:16:22 [INFO]: Successfully saved to results_point_rate09/Pedestrian/DLinear_Pedestrian/round_4/imputation.pkl
+2024-06-03 00:16:22 [INFO]: Round4 - DLinear on Pedestrian: MAE=0.5790, MSE=0.9828, MRE=0.7644
+2024-06-03 00:16:22 [INFO]: Done! Final results:
+Averaged DLinear (3,250 params) on Pedestrian: MAE=0.5865 ± 0.01966881016813035, MSE=0.9857 ± 0.03339893029618294, MRE=0.7743 ± 0.025964147857334738, average inference time=0.83

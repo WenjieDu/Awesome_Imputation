@@ -1,0 +1,135 @@
+2024-06-03 18:58:34 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 18:58:34 [INFO]: Using the given device: cuda:0
+2024-06-03 18:58:34 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_0/20240603_T185834
+2024-06-03 18:58:34 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_0/20240603_T185834/tensorboard
+2024-06-03 18:58:35 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 12,913,109
+2024-06-03 18:59:09 [INFO]: Epoch 001 - training loss: 1.1484, validation loss: 0.0840
+2024-06-03 18:59:40 [INFO]: Epoch 002 - training loss: 0.9262, validation loss: 0.0715
+2024-06-03 19:00:11 [INFO]: Epoch 003 - training loss: 0.8690, validation loss: 0.0742
+2024-06-03 19:00:43 [INFO]: Epoch 004 - training loss: 0.8382, validation loss: 0.0761
+2024-06-03 19:01:13 [INFO]: Epoch 005 - training loss: 0.8162, validation loss: 0.0769
+2024-06-03 19:01:43 [INFO]: Epoch 006 - training loss: 0.8025, validation loss: 0.0821
+2024-06-03 19:02:14 [INFO]: Epoch 007 - training loss: 0.7919, validation loss: 0.0994
+2024-06-03 19:02:45 [INFO]: Epoch 008 - training loss: 0.7805, validation loss: 0.0781
+2024-06-03 19:03:15 [INFO]: Epoch 009 - training loss: 0.7780, validation loss: 0.0824
+2024-06-03 19:03:45 [INFO]: Epoch 010 - training loss: 0.7680, validation loss: 0.0709
+2024-06-03 19:04:16 [INFO]: Epoch 011 - training loss: 0.7649, validation loss: 0.0760
+2024-06-03 19:04:47 [INFO]: Epoch 012 - training loss: 0.7578, validation loss: 0.0665
+2024-06-03 19:05:19 [INFO]: Epoch 013 - training loss: 0.7561, validation loss: 0.0771
+2024-06-03 19:05:50 [INFO]: Epoch 014 - training loss: 0.7511, validation loss: 0.0828
+2024-06-03 19:06:21 [INFO]: Epoch 015 - training loss: 0.7494, validation loss: 0.0740
+2024-06-03 19:06:52 [INFO]: Epoch 016 - training loss: 0.7456, validation loss: 0.0826
+2024-06-03 19:07:24 [INFO]: Epoch 017 - training loss: 0.7422, validation loss: 0.0783
+2024-06-03 19:07:54 [INFO]: Epoch 018 - training loss: 0.7393, validation loss: 0.0761
+2024-06-03 19:08:24 [INFO]: Epoch 019 - training loss: 0.7352, validation loss: 0.0829
+2024-06-03 19:08:55 [INFO]: Epoch 020 - training loss: 0.7339, validation loss: 0.0678
+2024-06-03 19:09:26 [INFO]: Epoch 021 - training loss: 0.7289, validation loss: 0.0794
+2024-06-03 19:09:57 [INFO]: Epoch 022 - training loss: 0.7261, validation loss: 0.0801
+2024-06-03 19:09:57 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:09:57 [INFO]: Finished training. The best model is from epoch#12.
+2024-06-03 19:09:57 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_0/20240603_T185834/ETSformer.pypots
+2024-06-03 19:10:21 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_0/imputation.pkl
+2024-06-03 19:10:21 [INFO]: Round0 - ETSformer on PhysioNet2019: MAE=0.4444, MSE=0.4427, MRE=0.5833
+2024-06-03 19:10:21 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:10:21 [INFO]: Using the given device: cuda:0
+2024-06-03 19:10:21 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_1/20240603_T191021
+2024-06-03 19:10:21 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_1/20240603_T191021/tensorboard
+2024-06-03 19:10:21 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 12,913,109
+2024-06-03 19:10:51 [INFO]: Epoch 001 - training loss: 1.1235, validation loss: 0.0692
+2024-06-03 19:11:23 [INFO]: Epoch 002 - training loss: 0.9163, validation loss: 0.0707
+2024-06-03 19:11:54 [INFO]: Epoch 003 - training loss: 0.8658, validation loss: 0.0696
+2024-06-03 19:12:25 [INFO]: Epoch 004 - training loss: 0.8306, validation loss: 0.0752
+2024-06-03 19:12:58 [INFO]: Epoch 005 - training loss: 0.8102, validation loss: 0.0758
+2024-06-03 19:13:29 [INFO]: Epoch 006 - training loss: 0.7925, validation loss: 0.0744
+2024-06-03 19:14:00 [INFO]: Epoch 007 - training loss: 0.7840, validation loss: 0.0721
+2024-06-03 19:14:30 [INFO]: Epoch 008 - training loss: 0.7748, validation loss: 0.0770
+2024-06-03 19:15:00 [INFO]: Epoch 009 - training loss: 0.7690, validation loss: 0.0708
+2024-06-03 19:15:29 [INFO]: Epoch 010 - training loss: 0.7629, validation loss: 0.0777
+2024-06-03 19:15:57 [INFO]: Epoch 011 - training loss: 0.7574, validation loss: 0.0737
+2024-06-03 19:15:57 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:15:57 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:15:57 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_1/20240603_T191021/ETSformer.pypots
+2024-06-03 19:16:19 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_1/imputation.pkl
+2024-06-03 19:16:19 [INFO]: Round1 - ETSformer on PhysioNet2019: MAE=0.4583, MSE=0.4616, MRE=0.6016
+2024-06-03 19:16:19 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:16:19 [INFO]: Using the given device: cuda:0
+2024-06-03 19:16:19 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_2/20240603_T191619
+2024-06-03 19:16:19 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_2/20240603_T191619/tensorboard
+2024-06-03 19:16:20 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 12,913,109
+2024-06-03 19:16:49 [INFO]: Epoch 001 - training loss: 1.0981, validation loss: 0.0672
+2024-06-03 19:17:19 [INFO]: Epoch 002 - training loss: 0.9073, validation loss: 0.0735
+2024-06-03 19:17:49 [INFO]: Epoch 003 - training loss: 0.8495, validation loss: 0.0735
+2024-06-03 19:18:19 [INFO]: Epoch 004 - training loss: 0.8193, validation loss: 0.0691
+2024-06-03 19:18:39 [INFO]: Epoch 005 - training loss: 0.8018, validation loss: 0.0759
+2024-06-03 19:18:53 [INFO]: Epoch 006 - training loss: 0.7897, validation loss: 0.0761
+2024-06-03 19:19:09 [INFO]: Epoch 007 - training loss: 0.7775, validation loss: 0.0674
+2024-06-03 19:19:25 [INFO]: Epoch 008 - training loss: 0.7723, validation loss: 0.0773
+2024-06-03 19:19:41 [INFO]: Epoch 009 - training loss: 0.7657, validation loss: 0.0665
+2024-06-03 19:19:57 [INFO]: Epoch 010 - training loss: 0.7613, validation loss: 0.0753
+2024-06-03 19:20:12 [INFO]: Epoch 011 - training loss: 0.7556, validation loss: 0.0716
+2024-06-03 19:20:29 [INFO]: Epoch 012 - training loss: 0.7529, validation loss: 0.0743
+2024-06-03 19:20:45 [INFO]: Epoch 013 - training loss: 0.7505, validation loss: 0.0772
+2024-06-03 19:21:02 [INFO]: Epoch 014 - training loss: 0.7476, validation loss: 0.0744
+2024-06-03 19:21:18 [INFO]: Epoch 015 - training loss: 0.7442, validation loss: 0.0843
+2024-06-03 19:21:34 [INFO]: Epoch 016 - training loss: 0.7410, validation loss: 0.0726
+2024-06-03 19:21:51 [INFO]: Epoch 017 - training loss: 0.7345, validation loss: 0.0863
+2024-06-03 19:22:04 [INFO]: Epoch 018 - training loss: 0.7335, validation loss: 0.0790
+2024-06-03 19:22:16 [INFO]: Epoch 019 - training loss: 0.7290, validation loss: 0.0831
+2024-06-03 19:22:16 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:22:16 [INFO]: Finished training. The best model is from epoch#9.
+2024-06-03 19:22:16 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_2/20240603_T191619/ETSformer.pypots
+2024-06-03 19:22:23 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_2/imputation.pkl
+2024-06-03 19:22:23 [INFO]: Round2 - ETSformer on PhysioNet2019: MAE=0.4476, MSE=0.4498, MRE=0.5875
+2024-06-03 19:22:23 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:22:23 [INFO]: Using the given device: cuda:0
+2024-06-03 19:22:23 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_3/20240603_T192223
+2024-06-03 19:22:23 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_3/20240603_T192223/tensorboard
+2024-06-03 19:22:23 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 12,913,109
+2024-06-03 19:22:36 [INFO]: Epoch 001 - training loss: 1.1576, validation loss: 0.0786
+2024-06-03 19:22:48 [INFO]: Epoch 002 - training loss: 0.9288, validation loss: 0.0747
+2024-06-03 19:23:00 [INFO]: Epoch 003 - training loss: 0.8665, validation loss: 0.0871
+2024-06-03 19:23:13 [INFO]: Epoch 004 - training loss: 0.8271, validation loss: 0.0743
+2024-06-03 19:23:26 [INFO]: Epoch 005 - training loss: 0.8083, validation loss: 0.0628
+2024-06-03 19:23:39 [INFO]: Epoch 006 - training loss: 0.7909, validation loss: 0.0808
+2024-06-03 19:23:52 [INFO]: Epoch 007 - training loss: 0.7860, validation loss: 0.0811
+2024-06-03 19:24:05 [INFO]: Epoch 008 - training loss: 0.7749, validation loss: 0.0756
+2024-06-03 19:24:18 [INFO]: Epoch 009 - training loss: 0.7675, validation loss: 0.0790
+2024-06-03 19:24:31 [INFO]: Epoch 010 - training loss: 0.7621, validation loss: 0.0691
+2024-06-03 19:24:43 [INFO]: Epoch 011 - training loss: 0.7575, validation loss: 0.0792
+2024-06-03 19:24:56 [INFO]: Epoch 012 - training loss: 0.7525, validation loss: 0.0795
+2024-06-03 19:25:08 [INFO]: Epoch 013 - training loss: 0.7480, validation loss: 0.0762
+2024-06-03 19:25:21 [INFO]: Epoch 014 - training loss: 0.7414, validation loss: 0.0752
+2024-06-03 19:25:34 [INFO]: Epoch 015 - training loss: 0.7411, validation loss: 0.0811
+2024-06-03 19:25:34 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:25:34 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 19:25:34 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_3/20240603_T192223/ETSformer.pypots
+2024-06-03 19:25:43 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_3/imputation.pkl
+2024-06-03 19:25:43 [INFO]: Round3 - ETSformer on PhysioNet2019: MAE=0.4531, MSE=0.4568, MRE=0.5947
+2024-06-03 19:25:43 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:25:43 [INFO]: Using the given device: cuda:0
+2024-06-03 19:25:43 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_4/20240603_T192543
+2024-06-03 19:25:43 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_4/20240603_T192543/tensorboard
+2024-06-03 19:25:43 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 12,913,109
+2024-06-03 19:25:56 [INFO]: Epoch 001 - training loss: 1.1313, validation loss: 0.0693
+2024-06-03 19:26:07 [INFO]: Epoch 002 - training loss: 0.9185, validation loss: 0.0709
+2024-06-03 19:26:20 [INFO]: Epoch 003 - training loss: 0.8608, validation loss: 0.0679
+2024-06-03 19:26:32 [INFO]: Epoch 004 - training loss: 0.8357, validation loss: 0.0735
+2024-06-03 19:26:44 [INFO]: Epoch 005 - training loss: 0.8189, validation loss: 0.0693
+2024-06-03 19:26:57 [INFO]: Epoch 006 - training loss: 0.8033, validation loss: 0.0637
+2024-06-03 19:27:11 [INFO]: Epoch 007 - training loss: 0.7947, validation loss: 0.0651
+2024-06-03 19:27:24 [INFO]: Epoch 008 - training loss: 0.7849, validation loss: 0.0661
+2024-06-03 19:27:36 [INFO]: Epoch 009 - training loss: 0.7790, validation loss: 0.0678
+2024-06-03 19:27:48 [INFO]: Epoch 010 - training loss: 0.7713, validation loss: 0.0690
+2024-06-03 19:28:01 [INFO]: Epoch 011 - training loss: 0.7686, validation loss: 0.0869
+2024-06-03 19:28:13 [INFO]: Epoch 012 - training loss: 0.7628, validation loss: 0.0734
+2024-06-03 19:28:26 [INFO]: Epoch 013 - training loss: 0.7599, validation loss: 0.0802
+2024-06-03 19:28:39 [INFO]: Epoch 014 - training loss: 0.7557, validation loss: 0.0792
+2024-06-03 19:28:52 [INFO]: Epoch 015 - training loss: 0.7524, validation loss: 0.0715
+2024-06-03 19:29:04 [INFO]: Epoch 016 - training loss: 0.7480, validation loss: 0.0774
+2024-06-03 19:29:04 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:29:04 [INFO]: Finished training. The best model is from epoch#6.
+2024-06-03 19:29:05 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_4/20240603_T192543/ETSformer.pypots
+2024-06-03 19:29:12 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/ETSformer_PhysioNet2019/round_4/imputation.pkl
+2024-06-03 19:29:12 [INFO]: Round4 - ETSformer on PhysioNet2019: MAE=0.4530, MSE=0.4564, MRE=0.5946
+2024-06-03 19:29:12 [INFO]: Done! Final results:
+Averaged ETSformer (12,913,109 params) on PhysioNet2019: MAE=0.4513 ± 0.004833109078553806, MSE=0.4534 ± 0.0065550016132224775, MRE=0.5923 ± 0.006343479704950387, average inference time=2.39

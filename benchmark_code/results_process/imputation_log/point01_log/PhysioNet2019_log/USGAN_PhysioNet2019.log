@@ -1,0 +1,107 @@
+2024-06-03 19:01:49 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 19:01:49 [INFO]: Using the given device: cuda:0
+2024-06-03 19:01:49 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_0/20240603_T190149
+2024-06-03 19:01:49 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_0/20240603_T190149/tensorboard
+2024-06-03 19:01:52 [INFO]: USGAN initialized with the given hyperparameters, the number of trainable parameters: 4,268,849
+2024-06-03 19:29:12 [INFO]: Epoch 001 - generator training loss: 0.4853, discriminator training loss: 0.2516, validation loss: 0.1686
+2024-06-03 19:32:57 [INFO]: Epoch 002 - generator training loss: 0.4139, discriminator training loss: 0.1088, validation loss: 0.8123
+2024-06-03 19:33:29 [INFO]: Epoch 003 - generator training loss: 0.3909, discriminator training loss: 0.0734, validation loss: 1.1483
+2024-06-03 19:33:53 [INFO]: Epoch 004 - generator training loss: 0.3642, discriminator training loss: 0.0569, validation loss: 1.1556
+2024-06-03 19:34:17 [INFO]: Epoch 005 - generator training loss: 0.3441, discriminator training loss: 0.0473, validation loss: 0.9512
+2024-06-03 19:34:41 [INFO]: Epoch 006 - generator training loss: 0.3288, discriminator training loss: 0.0416, validation loss: 0.7391
+2024-06-03 19:35:05 [INFO]: Epoch 007 - generator training loss: 0.3177, discriminator training loss: 0.0379, validation loss: 0.5851
+2024-06-03 19:35:29 [INFO]: Epoch 008 - generator training loss: 0.3087, discriminator training loss: 0.0348, validation loss: 0.4594
+2024-06-03 19:35:52 [INFO]: Epoch 009 - generator training loss: 0.3032, discriminator training loss: 0.0326, validation loss: 0.3444
+2024-06-03 19:36:16 [INFO]: Epoch 010 - generator training loss: 0.2956, discriminator training loss: 0.0309, validation loss: 0.2636
+2024-06-03 19:36:40 [INFO]: Epoch 011 - generator training loss: 0.2923, discriminator training loss: 0.0300, validation loss: 0.2384
+2024-06-03 19:36:40 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:36:40 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:36:40 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_0/20240603_T190149/USGAN.pypots
+2024-06-03 19:36:56 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_0/imputation.pkl
+2024-06-03 19:36:56 [INFO]: Round0 - USGAN on PhysioNet2019: MAE=0.3560, MSE=0.2964, MRE=0.4673
+2024-06-03 19:36:56 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:36:56 [INFO]: Using the given device: cuda:0
+2024-06-03 19:36:56 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_1/20240603_T193656
+2024-06-03 19:36:56 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_1/20240603_T193656/tensorboard
+2024-06-03 19:36:56 [INFO]: USGAN initialized with the given hyperparameters, the number of trainable parameters: 4,268,849
+2024-06-03 19:37:23 [INFO]: Epoch 001 - generator training loss: 0.4814, discriminator training loss: 0.2516, validation loss: 0.2237
+2024-06-03 19:37:47 [INFO]: Epoch 002 - generator training loss: 0.4079, discriminator training loss: 0.1067, validation loss: 0.4181
+2024-06-03 19:38:11 [INFO]: Epoch 003 - generator training loss: 0.3770, discriminator training loss: 0.0727, validation loss: 0.5196
+2024-06-03 19:38:35 [INFO]: Epoch 004 - generator training loss: 0.3577, discriminator training loss: 0.0572, validation loss: 0.6247
+2024-06-03 19:38:58 [INFO]: Epoch 005 - generator training loss: 0.3445, discriminator training loss: 0.0479, validation loss: 0.6704
+2024-06-03 19:39:22 [INFO]: Epoch 006 - generator training loss: 0.3325, discriminator training loss: 0.0424, validation loss: 0.8063
+2024-06-03 19:39:46 [INFO]: Epoch 007 - generator training loss: 0.3255, discriminator training loss: 0.0387, validation loss: 0.7402
+2024-06-03 19:40:10 [INFO]: Epoch 008 - generator training loss: 0.3161, discriminator training loss: 0.0357, validation loss: 0.6157
+2024-06-03 19:40:34 [INFO]: Epoch 009 - generator training loss: 0.3080, discriminator training loss: 0.0332, validation loss: 0.6230
+2024-06-03 19:40:57 [INFO]: Epoch 010 - generator training loss: 0.3015, discriminator training loss: 0.0308, validation loss: 0.5024
+2024-06-03 19:41:21 [INFO]: Epoch 011 - generator training loss: 0.2966, discriminator training loss: 0.0296, validation loss: 0.4413
+2024-06-03 19:41:21 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:41:21 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:41:21 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_1/20240603_T193656/USGAN.pypots
+2024-06-03 19:41:37 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_1/imputation.pkl
+2024-06-03 19:41:37 [INFO]: Round1 - USGAN on PhysioNet2019: MAE=0.3595, MSE=0.2973, MRE=0.4719
+2024-06-03 19:41:37 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:41:37 [INFO]: Using the given device: cuda:0
+2024-06-03 19:41:37 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_2/20240603_T194137
+2024-06-03 19:41:37 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_2/20240603_T194137/tensorboard
+2024-06-03 19:41:37 [INFO]: USGAN initialized with the given hyperparameters, the number of trainable parameters: 4,268,849
+2024-06-03 19:42:04 [INFO]: Epoch 001 - generator training loss: 0.4762, discriminator training loss: 0.2539, validation loss: 0.1912
+2024-06-03 19:42:28 [INFO]: Epoch 002 - generator training loss: 0.4065, discriminator training loss: 0.1119, validation loss: 0.6927
+2024-06-03 19:42:52 [INFO]: Epoch 003 - generator training loss: 0.3810, discriminator training loss: 0.0739, validation loss: 1.2098
+2024-06-03 19:43:16 [INFO]: Epoch 004 - generator training loss: 0.3620, discriminator training loss: 0.0572, validation loss: 1.0226
+2024-06-03 19:43:40 [INFO]: Epoch 005 - generator training loss: 0.3442, discriminator training loss: 0.0470, validation loss: 1.0798
+2024-06-03 19:44:03 [INFO]: Epoch 006 - generator training loss: 0.3299, discriminator training loss: 0.0416, validation loss: 0.7963
+2024-06-03 19:44:27 [INFO]: Epoch 007 - generator training loss: 0.3204, discriminator training loss: 0.0377, validation loss: 0.6281
+2024-06-03 19:44:51 [INFO]: Epoch 008 - generator training loss: 0.3132, discriminator training loss: 0.0354, validation loss: 0.4526
+2024-06-03 19:45:15 [INFO]: Epoch 009 - generator training loss: 0.3074, discriminator training loss: 0.0331, validation loss: 0.3588
+2024-06-03 19:45:39 [INFO]: Epoch 010 - generator training loss: 0.3019, discriminator training loss: 0.0315, validation loss: 0.2743
+2024-06-03 19:46:02 [INFO]: Epoch 011 - generator training loss: 0.2985, discriminator training loss: 0.0303, validation loss: 0.2774
+2024-06-03 19:46:02 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:46:02 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:46:02 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_2/20240603_T194137/USGAN.pypots
+2024-06-03 19:46:18 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_2/imputation.pkl
+2024-06-03 19:46:18 [INFO]: Round2 - USGAN on PhysioNet2019: MAE=0.3603, MSE=0.2997, MRE=0.4729
+2024-06-03 19:46:18 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:46:18 [INFO]: Using the given device: cuda:0
+2024-06-03 19:46:18 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_3/20240603_T194618
+2024-06-03 19:46:18 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_3/20240603_T194618/tensorboard
+2024-06-03 19:46:18 [INFO]: USGAN initialized with the given hyperparameters, the number of trainable parameters: 4,268,849
+2024-06-03 19:46:46 [INFO]: Epoch 001 - generator training loss: 0.4916, discriminator training loss: 0.2486, validation loss: 0.1604
+2024-06-03 19:47:09 [INFO]: Epoch 002 - generator training loss: 0.4211, discriminator training loss: 0.1021, validation loss: 0.5319
+2024-06-03 19:47:33 [INFO]: Epoch 003 - generator training loss: 0.3999, discriminator training loss: 0.0700, validation loss: 1.1611
+2024-06-03 19:47:57 [INFO]: Epoch 004 - generator training loss: 0.3826, discriminator training loss: 0.0545, validation loss: 1.1407
+2024-06-03 19:48:21 [INFO]: Epoch 005 - generator training loss: 0.3627, discriminator training loss: 0.0466, validation loss: 1.0280
+2024-06-03 19:48:45 [INFO]: Epoch 006 - generator training loss: 0.3448, discriminator training loss: 0.0418, validation loss: 1.0826
+2024-06-03 19:49:08 [INFO]: Epoch 007 - generator training loss: 0.3307, discriminator training loss: 0.0380, validation loss: 1.1471
+2024-06-03 19:49:32 [INFO]: Epoch 008 - generator training loss: 0.3200, discriminator training loss: 0.0352, validation loss: 0.8104
+2024-06-03 19:49:56 [INFO]: Epoch 009 - generator training loss: 0.3102, discriminator training loss: 0.0325, validation loss: 0.7192
+2024-06-03 19:50:20 [INFO]: Epoch 010 - generator training loss: 0.3029, discriminator training loss: 0.0306, validation loss: 0.6401
+2024-06-03 19:50:44 [INFO]: Epoch 011 - generator training loss: 0.2955, discriminator training loss: 0.0292, validation loss: 0.5610
+2024-06-03 19:50:44 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:50:44 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:50:44 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_3/20240603_T194618/USGAN.pypots
+2024-06-03 19:50:59 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_3/imputation.pkl
+2024-06-03 19:50:59 [INFO]: Round3 - USGAN on PhysioNet2019: MAE=0.3563, MSE=0.2944, MRE=0.4677
+2024-06-03 19:50:59 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:50:59 [INFO]: Using the given device: cuda:0
+2024-06-03 19:50:59 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_4/20240603_T195059
+2024-06-03 19:50:59 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_4/20240603_T195059/tensorboard
+2024-06-03 19:50:59 [INFO]: USGAN initialized with the given hyperparameters, the number of trainable parameters: 4,268,849
+2024-06-03 19:51:27 [INFO]: Epoch 001 - generator training loss: 0.4863, discriminator training loss: 0.2511, validation loss: 0.1438
+2024-06-03 19:51:50 [INFO]: Epoch 002 - generator training loss: 0.4172, discriminator training loss: 0.1084, validation loss: 0.7264
+2024-06-03 19:52:14 [INFO]: Epoch 003 - generator training loss: 0.3884, discriminator training loss: 0.0728, validation loss: 0.7756
+2024-06-03 19:52:38 [INFO]: Epoch 004 - generator training loss: 0.3676, discriminator training loss: 0.0562, validation loss: 0.5763
+2024-06-03 19:53:02 [INFO]: Epoch 005 - generator training loss: 0.3442, discriminator training loss: 0.0475, validation loss: 0.3875
+2024-06-03 19:53:25 [INFO]: Epoch 006 - generator training loss: 0.3272, discriminator training loss: 0.0423, validation loss: 0.2297
+2024-06-03 19:53:49 [INFO]: Epoch 007 - generator training loss: 0.3151, discriminator training loss: 0.0386, validation loss: 0.1696
+2024-06-03 19:54:13 [INFO]: Epoch 008 - generator training loss: 0.3092, discriminator training loss: 0.0363, validation loss: 0.1659
+2024-06-03 19:54:37 [INFO]: Epoch 009 - generator training loss: 0.3047, discriminator training loss: 0.0345, validation loss: 0.3744
+2024-06-03 19:55:01 [INFO]: Epoch 010 - generator training loss: 0.3066, discriminator training loss: 0.0324, validation loss: 0.6756
+2024-06-03 19:55:24 [INFO]: Epoch 011 - generator training loss: 0.3000, discriminator training loss: 0.0301, validation loss: 0.6375
+2024-06-03 19:55:24 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:55:24 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:55:24 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_4/20240603_T195059/USGAN.pypots
+2024-06-03 19:55:40 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/USGAN_PhysioNet2019/round_4/imputation.pkl
+2024-06-03 19:55:40 [INFO]: Round4 - USGAN on PhysioNet2019: MAE=0.3576, MSE=0.2945, MRE=0.4694
+2024-06-03 19:55:40 [INFO]: Done! Final results:
+Averaged USGAN (4,268,849 params) on PhysioNet2019: MAE=0.3580 ± 0.0017028083299866661, MSE=0.2965 ± 0.001950888174001983, MRE=0.4698 ± 0.002234944402687267, average inference time=2.48

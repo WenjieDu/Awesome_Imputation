@@ -1,0 +1,149 @@
+2024-06-03 18:56:52 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 18:56:52 [INFO]: Using the given device: cuda:0
+2024-06-03 18:56:52 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_0/20240603_T185652
+2024-06-03 18:56:52 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_0/20240603_T185652/tensorboard
+2024-06-03 18:56:53 [INFO]: NonstationaryTransformer initialized with the given hyperparameters, the number of trainable parameters: 1,613,155
+2024-06-03 18:57:11 [INFO]: Epoch 001 - training loss: 0.8005, validation loss: 0.4849
+2024-06-03 18:57:20 [INFO]: Epoch 002 - training loss: 0.7530, validation loss: 0.4873
+2024-06-03 18:57:30 [INFO]: Epoch 003 - training loss: 0.7409, validation loss: 0.4766
+2024-06-03 18:57:42 [INFO]: Epoch 004 - training loss: 0.7409, validation loss: 0.4856
+2024-06-03 18:57:53 [INFO]: Epoch 005 - training loss: 0.7361, validation loss: 0.4800
+2024-06-03 18:58:05 [INFO]: Epoch 006 - training loss: 0.7292, validation loss: 0.4750
+2024-06-03 18:58:16 [INFO]: Epoch 007 - training loss: 0.7280, validation loss: 0.4883
+2024-06-03 18:58:28 [INFO]: Epoch 008 - training loss: 0.7284, validation loss: 0.4740
+2024-06-03 18:58:39 [INFO]: Epoch 009 - training loss: 0.7273, validation loss: 0.4720
+2024-06-03 18:58:50 [INFO]: Epoch 010 - training loss: 0.7226, validation loss: 0.4751
+2024-06-03 18:59:02 [INFO]: Epoch 011 - training loss: 0.7254, validation loss: 0.4776
+2024-06-03 18:59:13 [INFO]: Epoch 012 - training loss: 0.7204, validation loss: 0.4747
+2024-06-03 18:59:25 [INFO]: Epoch 013 - training loss: 0.7179, validation loss: 0.4766
+2024-06-03 18:59:35 [INFO]: Epoch 014 - training loss: 0.7209, validation loss: 0.4761
+2024-06-03 18:59:46 [INFO]: Epoch 015 - training loss: 0.7207, validation loss: 0.4733
+2024-06-03 18:59:57 [INFO]: Epoch 016 - training loss: 0.7152, validation loss: 0.4890
+2024-06-03 19:00:08 [INFO]: Epoch 017 - training loss: 0.7146, validation loss: 0.4853
+2024-06-03 19:00:18 [INFO]: Epoch 018 - training loss: 0.7148, validation loss: 0.4856
+2024-06-03 19:00:28 [INFO]: Epoch 019 - training loss: 0.7138, validation loss: 0.4851
+2024-06-03 19:00:28 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:00:28 [INFO]: Finished training. The best model is from epoch#9.
+2024-06-03 19:00:28 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_0/20240603_T185652/NonstationaryTransformer.pypots
+2024-06-03 19:00:33 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_0/imputation.pkl
+2024-06-03 19:00:33 [INFO]: Round0 - NonstationaryTransformer on PhysioNet2012: MAE=0.4114, MSE=0.4878, MRE=0.5707
+2024-06-03 19:00:33 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:00:33 [INFO]: Using the given device: cuda:0
+2024-06-03 19:00:33 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_1/20240603_T190033
+2024-06-03 19:00:33 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_1/20240603_T190033/tensorboard
+2024-06-03 19:00:33 [INFO]: NonstationaryTransformer initialized with the given hyperparameters, the number of trainable parameters: 1,613,155
+2024-06-03 19:00:45 [INFO]: Epoch 001 - training loss: 0.8054, validation loss: 0.4803
+2024-06-03 19:00:56 [INFO]: Epoch 002 - training loss: 0.7537, validation loss: 0.4765
+2024-06-03 19:01:08 [INFO]: Epoch 003 - training loss: 0.7433, validation loss: 0.4792
+2024-06-03 19:01:20 [INFO]: Epoch 004 - training loss: 0.7412, validation loss: 0.4698
+2024-06-03 19:01:31 [INFO]: Epoch 005 - training loss: 0.7327, validation loss: 0.4678
+2024-06-03 19:01:43 [INFO]: Epoch 006 - training loss: 0.7328, validation loss: 0.4690
+2024-06-03 19:01:54 [INFO]: Epoch 007 - training loss: 0.7311, validation loss: 0.4705
+2024-06-03 19:02:05 [INFO]: Epoch 008 - training loss: 0.7282, validation loss: 0.4774
+2024-06-03 19:02:17 [INFO]: Epoch 009 - training loss: 0.7244, validation loss: 0.4734
+2024-06-03 19:02:28 [INFO]: Epoch 010 - training loss: 0.7240, validation loss: 0.4786
+2024-06-03 19:02:39 [INFO]: Epoch 011 - training loss: 0.7206, validation loss: 0.4724
+2024-06-03 19:02:51 [INFO]: Epoch 012 - training loss: 0.7186, validation loss: 0.4789
+2024-06-03 19:03:02 [INFO]: Epoch 013 - training loss: 0.7199, validation loss: 0.4727
+2024-06-03 19:03:13 [INFO]: Epoch 014 - training loss: 0.7203, validation loss: 0.4734
+2024-06-03 19:03:23 [INFO]: Epoch 015 - training loss: 0.7180, validation loss: 0.4855
+2024-06-03 19:03:23 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:03:23 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 19:03:23 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_1/20240603_T190033/NonstationaryTransformer.pypots
+2024-06-03 19:03:27 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_1/imputation.pkl
+2024-06-03 19:03:27 [INFO]: Round1 - NonstationaryTransformer on PhysioNet2012: MAE=0.4157, MSE=0.4835, MRE=0.5767
+2024-06-03 19:03:27 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:03:27 [INFO]: Using the given device: cuda:0
+2024-06-03 19:03:28 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_2/20240603_T190327
+2024-06-03 19:03:28 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_2/20240603_T190327/tensorboard
+2024-06-03 19:03:28 [INFO]: NonstationaryTransformer initialized with the given hyperparameters, the number of trainable parameters: 1,613,155
+2024-06-03 19:03:38 [INFO]: Epoch 001 - training loss: 0.8078, validation loss: 0.4829
+2024-06-03 19:03:49 [INFO]: Epoch 002 - training loss: 0.7518, validation loss: 0.4781
+2024-06-03 19:04:00 [INFO]: Epoch 003 - training loss: 0.7457, validation loss: 0.4726
+2024-06-03 19:04:12 [INFO]: Epoch 004 - training loss: 0.7396, validation loss: 0.4725
+2024-06-03 19:04:23 [INFO]: Epoch 005 - training loss: 0.7337, validation loss: 0.4754
+2024-06-03 19:04:35 [INFO]: Epoch 006 - training loss: 0.7329, validation loss: 0.4681
+2024-06-03 19:04:46 [INFO]: Epoch 007 - training loss: 0.7334, validation loss: 0.4712
+2024-06-03 19:04:58 [INFO]: Epoch 008 - training loss: 0.7284, validation loss: 0.4767
+2024-06-03 19:05:10 [INFO]: Epoch 009 - training loss: 0.7282, validation loss: 0.4747
+2024-06-03 19:05:21 [INFO]: Epoch 010 - training loss: 0.7237, validation loss: 0.4694
+2024-06-03 19:05:32 [INFO]: Epoch 011 - training loss: 0.7243, validation loss: 0.4646
+2024-06-03 19:05:44 [INFO]: Epoch 012 - training loss: 0.7226, validation loss: 0.4722
+2024-06-03 19:05:56 [INFO]: Epoch 013 - training loss: 0.7198, validation loss: 0.4727
+2024-06-03 19:06:06 [INFO]: Epoch 014 - training loss: 0.7203, validation loss: 0.4738
+2024-06-03 19:06:17 [INFO]: Epoch 015 - training loss: 0.7181, validation loss: 0.4769
+2024-06-03 19:06:28 [INFO]: Epoch 016 - training loss: 0.7173, validation loss: 0.4834
+2024-06-03 19:06:39 [INFO]: Epoch 017 - training loss: 0.7161, validation loss: 0.4728
+2024-06-03 19:06:50 [INFO]: Epoch 018 - training loss: 0.7150, validation loss: 0.4712
+2024-06-03 19:07:01 [INFO]: Epoch 019 - training loss: 0.7140, validation loss: 0.4751
+2024-06-03 19:07:10 [INFO]: Epoch 020 - training loss: 0.7121, validation loss: 0.4775
+2024-06-03 19:07:20 [INFO]: Epoch 021 - training loss: 0.7120, validation loss: 0.4754
+2024-06-03 19:07:20 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:07:20 [INFO]: Finished training. The best model is from epoch#11.
+2024-06-03 19:07:20 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_2/20240603_T190327/NonstationaryTransformer.pypots
+2024-06-03 19:07:24 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_2/imputation.pkl
+2024-06-03 19:07:24 [INFO]: Round2 - NonstationaryTransformer on PhysioNet2012: MAE=0.4148, MSE=0.4701, MRE=0.5754
+2024-06-03 19:07:24 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:07:24 [INFO]: Using the given device: cuda:0
+2024-06-03 19:07:24 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_3/20240603_T190724
+2024-06-03 19:07:24 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_3/20240603_T190724/tensorboard
+2024-06-03 19:07:24 [INFO]: NonstationaryTransformer initialized with the given hyperparameters, the number of trainable parameters: 1,613,155
+2024-06-03 19:07:34 [INFO]: Epoch 001 - training loss: 0.8026, validation loss: 0.4783
+2024-06-03 19:07:45 [INFO]: Epoch 002 - training loss: 0.7551, validation loss: 0.4690
+2024-06-03 19:07:56 [INFO]: Epoch 003 - training loss: 0.7479, validation loss: 0.4689
+2024-06-03 19:08:05 [INFO]: Epoch 004 - training loss: 0.7379, validation loss: 0.4807
+2024-06-03 19:08:16 [INFO]: Epoch 005 - training loss: 0.7383, validation loss: 0.4714
+2024-06-03 19:08:25 [INFO]: Epoch 006 - training loss: 0.7347, validation loss: 0.4820
+2024-06-03 19:08:34 [INFO]: Epoch 007 - training loss: 0.7305, validation loss: 0.4707
+2024-06-03 19:08:44 [INFO]: Epoch 008 - training loss: 0.7299, validation loss: 0.4668
+2024-06-03 19:08:56 [INFO]: Epoch 009 - training loss: 0.7237, validation loss: 0.4748
+2024-06-03 19:09:07 [INFO]: Epoch 010 - training loss: 0.7258, validation loss: 0.4781
+2024-06-03 19:09:18 [INFO]: Epoch 011 - training loss: 0.7227, validation loss: 0.4746
+2024-06-03 19:09:29 [INFO]: Epoch 012 - training loss: 0.7215, validation loss: 0.4684
+2024-06-03 19:09:40 [INFO]: Epoch 013 - training loss: 0.7210, validation loss: 0.4758
+2024-06-03 19:09:52 [INFO]: Epoch 014 - training loss: 0.7210, validation loss: 0.4637
+2024-06-03 19:10:02 [INFO]: Epoch 015 - training loss: 0.7189, validation loss: 0.4784
+2024-06-03 19:10:12 [INFO]: Epoch 016 - training loss: 0.7127, validation loss: 0.4757
+2024-06-03 19:10:23 [INFO]: Epoch 017 - training loss: 0.7161, validation loss: 0.4760
+2024-06-03 19:10:34 [INFO]: Epoch 018 - training loss: 0.7148, validation loss: 0.4806
+2024-06-03 19:10:46 [INFO]: Epoch 019 - training loss: 0.7161, validation loss: 0.4806
+2024-06-03 19:10:57 [INFO]: Epoch 020 - training loss: 0.7121, validation loss: 0.4760
+2024-06-03 19:11:08 [INFO]: Epoch 021 - training loss: 0.7122, validation loss: 0.4810
+2024-06-03 19:11:20 [INFO]: Epoch 022 - training loss: 0.7100, validation loss: 0.4773
+2024-06-03 19:11:32 [INFO]: Epoch 023 - training loss: 0.7105, validation loss: 0.4871
+2024-06-03 19:11:44 [INFO]: Epoch 024 - training loss: 0.7116, validation loss: 0.4825
+2024-06-03 19:11:44 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:11:44 [INFO]: Finished training. The best model is from epoch#14.
+2024-06-03 19:11:44 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_3/20240603_T190724/NonstationaryTransformer.pypots
+2024-06-03 19:11:49 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_3/imputation.pkl
+2024-06-03 19:11:49 [INFO]: Round3 - NonstationaryTransformer on PhysioNet2012: MAE=0.4138, MSE=0.4695, MRE=0.5740
+2024-06-03 19:11:49 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:11:49 [INFO]: Using the given device: cuda:0
+2024-06-03 19:11:49 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_4/20240603_T191149
+2024-06-03 19:11:49 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_4/20240603_T191149/tensorboard
+2024-06-03 19:11:49 [INFO]: NonstationaryTransformer initialized with the given hyperparameters, the number of trainable parameters: 1,613,155
+2024-06-03 19:12:00 [INFO]: Epoch 001 - training loss: 0.8064, validation loss: 0.4931
+2024-06-03 19:12:12 [INFO]: Epoch 002 - training loss: 0.7514, validation loss: 0.4806
+2024-06-03 19:12:23 [INFO]: Epoch 003 - training loss: 0.7430, validation loss: 0.4818
+2024-06-03 19:12:34 [INFO]: Epoch 004 - training loss: 0.7362, validation loss: 0.4743
+2024-06-03 19:12:46 [INFO]: Epoch 005 - training loss: 0.7340, validation loss: 0.4772
+2024-06-03 19:12:57 [INFO]: Epoch 006 - training loss: 0.7338, validation loss: 0.4792
+2024-06-03 19:13:07 [INFO]: Epoch 007 - training loss: 0.7307, validation loss: 0.4752
+2024-06-03 19:13:17 [INFO]: Epoch 008 - training loss: 0.7271, validation loss: 0.4726
+2024-06-03 19:13:27 [INFO]: Epoch 009 - training loss: 0.7245, validation loss: 0.4782
+2024-06-03 19:13:37 [INFO]: Epoch 010 - training loss: 0.7252, validation loss: 0.4778
+2024-06-03 19:13:47 [INFO]: Epoch 011 - training loss: 0.7238, validation loss: 0.4777
+2024-06-03 19:13:56 [INFO]: Epoch 012 - training loss: 0.7214, validation loss: 0.4757
+2024-06-03 19:14:06 [INFO]: Epoch 013 - training loss: 0.7205, validation loss: 0.4820
+2024-06-03 19:14:15 [INFO]: Epoch 014 - training loss: 0.7176, validation loss: 0.4829
+2024-06-03 19:14:25 [INFO]: Epoch 015 - training loss: 0.7175, validation loss: 0.4750
+2024-06-03 19:14:33 [INFO]: Epoch 016 - training loss: 0.7189, validation loss: 0.4813
+2024-06-03 19:14:43 [INFO]: Epoch 017 - training loss: 0.7182, validation loss: 0.4843
+2024-06-03 19:14:52 [INFO]: Epoch 018 - training loss: 0.7153, validation loss: 0.4787
+2024-06-03 19:14:52 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:14:52 [INFO]: Finished training. The best model is from epoch#8.
+2024-06-03 19:14:52 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_4/20240603_T191149/NonstationaryTransformer.pypots
+2024-06-03 19:14:55 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/NonstationaryTransformer_PhysioNet2012/round_4/imputation.pkl
+2024-06-03 19:14:55 [INFO]: Round4 - NonstationaryTransformer on PhysioNet2012: MAE=0.4160, MSE=0.4907, MRE=0.5770
+2024-06-03 19:14:55 [INFO]: Done! Final results:
+Averaged NonstationaryTransformer (1,613,155 params) on PhysioNet2012: MAE=0.4102 ± 0.0016151845832103099, MSE=0.4538 ± 0.005210856849066479, MRE=0.5786 ± 0.0022782568514655194, average inference time=0.69

@@ -1,0 +1,107 @@
+2024-06-03 18:58:34 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 18:58:34 [INFO]: Using the given device: cuda:0
+2024-06-03 18:58:34 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_0/20240603_T185834
+2024-06-03 18:58:34 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_0/20240603_T185834/tensorboard
+2024-06-03 18:58:35 [INFO]: FiLM initialized with the given hyperparameters, the number of trainable parameters: 6,756
+2024-06-03 18:58:52 [INFO]: Epoch 001 - training loss: 1.1423, validation loss: 0.2124
+2024-06-03 18:59:08 [INFO]: Epoch 002 - training loss: 0.9648, validation loss: 0.2472
+2024-06-03 18:59:25 [INFO]: Epoch 003 - training loss: 0.9524, validation loss: 0.2791
+2024-06-03 18:59:41 [INFO]: Epoch 004 - training loss: 0.9466, validation loss: 0.2734
+2024-06-03 18:59:58 [INFO]: Epoch 005 - training loss: 0.9426, validation loss: 0.2695
+2024-06-03 19:00:14 [INFO]: Epoch 006 - training loss: 0.9419, validation loss: 0.3074
+2024-06-03 19:00:31 [INFO]: Epoch 007 - training loss: 0.9387, validation loss: 0.3217
+2024-06-03 19:00:48 [INFO]: Epoch 008 - training loss: 0.9410, validation loss: 0.3164
+2024-06-03 19:01:04 [INFO]: Epoch 009 - training loss: 0.9389, validation loss: 0.3227
+2024-06-03 19:01:20 [INFO]: Epoch 010 - training loss: 0.9378, validation loss: 0.3099
+2024-06-03 19:01:36 [INFO]: Epoch 011 - training loss: 0.9366, validation loss: 0.3040
+2024-06-03 19:01:36 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:01:36 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:01:36 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_0/20240603_T185834/FiLM.pypots
+2024-06-03 19:01:45 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_0/imputation.pkl
+2024-06-03 19:01:45 [INFO]: Round0 - FiLM on PhysioNet2019: MAE=0.4913, MSE=0.5052, MRE=0.6448
+2024-06-03 19:01:45 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:01:45 [INFO]: Using the given device: cuda:0
+2024-06-03 19:01:45 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_1/20240603_T190145
+2024-06-03 19:01:45 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_1/20240603_T190145/tensorboard
+2024-06-03 19:01:45 [INFO]: FiLM initialized with the given hyperparameters, the number of trainable parameters: 6,756
+2024-06-03 19:02:01 [INFO]: Epoch 001 - training loss: 1.1411, validation loss: 0.2060
+2024-06-03 19:02:17 [INFO]: Epoch 002 - training loss: 0.9657, validation loss: 0.2428
+2024-06-03 19:02:34 [INFO]: Epoch 003 - training loss: 0.9539, validation loss: 0.2566
+2024-06-03 19:02:50 [INFO]: Epoch 004 - training loss: 0.9463, validation loss: 0.2745
+2024-06-03 19:03:07 [INFO]: Epoch 005 - training loss: 0.9426, validation loss: 0.3012
+2024-06-03 19:03:24 [INFO]: Epoch 006 - training loss: 0.9421, validation loss: 0.2792
+2024-06-03 19:03:40 [INFO]: Epoch 007 - training loss: 0.9418, validation loss: 0.3066
+2024-06-03 19:03:57 [INFO]: Epoch 008 - training loss: 0.9415, validation loss: 0.3046
+2024-06-03 19:04:13 [INFO]: Epoch 009 - training loss: 0.9391, validation loss: 0.3044
+2024-06-03 19:04:30 [INFO]: Epoch 010 - training loss: 0.9390, validation loss: 0.2884
+2024-06-03 19:04:46 [INFO]: Epoch 011 - training loss: 0.9390, validation loss: 0.3004
+2024-06-03 19:04:46 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:04:46 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:04:46 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_1/20240603_T190145/FiLM.pypots
+2024-06-03 19:04:55 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_1/imputation.pkl
+2024-06-03 19:04:55 [INFO]: Round1 - FiLM on PhysioNet2019: MAE=0.4906, MSE=0.5011, MRE=0.6439
+2024-06-03 19:04:55 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:04:55 [INFO]: Using the given device: cuda:0
+2024-06-03 19:04:55 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_2/20240603_T190455
+2024-06-03 19:04:55 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_2/20240603_T190455/tensorboard
+2024-06-03 19:04:55 [INFO]: FiLM initialized with the given hyperparameters, the number of trainable parameters: 6,756
+2024-06-03 19:05:12 [INFO]: Epoch 001 - training loss: 1.1519, validation loss: 0.2094
+2024-06-03 19:05:29 [INFO]: Epoch 002 - training loss: 0.9672, validation loss: 0.2612
+2024-06-03 19:05:44 [INFO]: Epoch 003 - training loss: 0.9535, validation loss: 0.2601
+2024-06-03 19:06:01 [INFO]: Epoch 004 - training loss: 0.9486, validation loss: 0.2686
+2024-06-03 19:06:17 [INFO]: Epoch 005 - training loss: 0.9448, validation loss: 0.2740
+2024-06-03 19:06:32 [INFO]: Epoch 006 - training loss: 0.9428, validation loss: 0.2971
+2024-06-03 19:06:49 [INFO]: Epoch 007 - training loss: 0.9397, validation loss: 0.2796
+2024-06-03 19:07:06 [INFO]: Epoch 008 - training loss: 0.9389, validation loss: 0.2966
+2024-06-03 19:07:23 [INFO]: Epoch 009 - training loss: 0.9384, validation loss: 0.2931
+2024-06-03 19:07:39 [INFO]: Epoch 010 - training loss: 0.9369, validation loss: 0.2890
+2024-06-03 19:07:55 [INFO]: Epoch 011 - training loss: 0.9370, validation loss: 0.3220
+2024-06-03 19:07:55 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:07:55 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:07:55 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_2/20240603_T190455/FiLM.pypots
+2024-06-03 19:08:03 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_2/imputation.pkl
+2024-06-03 19:08:03 [INFO]: Round2 - FiLM on PhysioNet2019: MAE=0.4951, MSE=0.5092, MRE=0.6498
+2024-06-03 19:08:03 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:08:03 [INFO]: Using the given device: cuda:0
+2024-06-03 19:08:03 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_3/20240603_T190803
+2024-06-03 19:08:03 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_3/20240603_T190803/tensorboard
+2024-06-03 19:08:03 [INFO]: FiLM initialized with the given hyperparameters, the number of trainable parameters: 6,756
+2024-06-03 19:08:20 [INFO]: Epoch 001 - training loss: 1.1427, validation loss: 0.2180
+2024-06-03 19:08:37 [INFO]: Epoch 002 - training loss: 0.9671, validation loss: 0.2444
+2024-06-03 19:08:53 [INFO]: Epoch 003 - training loss: 0.9503, validation loss: 0.2804
+2024-06-03 19:09:10 [INFO]: Epoch 004 - training loss: 0.9446, validation loss: 0.2773
+2024-06-03 19:09:27 [INFO]: Epoch 005 - training loss: 0.9441, validation loss: 0.2710
+2024-06-03 19:09:43 [INFO]: Epoch 006 - training loss: 0.9417, validation loss: 0.3072
+2024-06-03 19:09:59 [INFO]: Epoch 007 - training loss: 0.9404, validation loss: 0.2887
+2024-06-03 19:10:14 [INFO]: Epoch 008 - training loss: 0.9376, validation loss: 0.3100
+2024-06-03 19:10:29 [INFO]: Epoch 009 - training loss: 0.9373, validation loss: 0.3329
+2024-06-03 19:10:46 [INFO]: Epoch 010 - training loss: 0.9383, validation loss: 0.3462
+2024-06-03 19:11:02 [INFO]: Epoch 011 - training loss: 0.9362, validation loss: 0.3285
+2024-06-03 19:11:02 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:11:02 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:11:02 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_3/20240603_T190803/FiLM.pypots
+2024-06-03 19:11:09 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_3/imputation.pkl
+2024-06-03 19:11:09 [INFO]: Round3 - FiLM on PhysioNet2019: MAE=0.4964, MSE=0.5103, MRE=0.6516
+2024-06-03 19:11:09 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:11:09 [INFO]: Using the given device: cuda:0
+2024-06-03 19:11:09 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_4/20240603_T191109
+2024-06-03 19:11:09 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_4/20240603_T191109/tensorboard
+2024-06-03 19:11:09 [INFO]: FiLM initialized with the given hyperparameters, the number of trainable parameters: 6,756
+2024-06-03 19:11:25 [INFO]: Epoch 001 - training loss: 1.1248, validation loss: 0.1919
+2024-06-03 19:11:41 [INFO]: Epoch 002 - training loss: 0.9656, validation loss: 0.2421
+2024-06-03 19:11:58 [INFO]: Epoch 003 - training loss: 0.9533, validation loss: 0.2593
+2024-06-03 19:12:14 [INFO]: Epoch 004 - training loss: 0.9474, validation loss: 0.2965
+2024-06-03 19:12:30 [INFO]: Epoch 005 - training loss: 0.9443, validation loss: 0.2853
+2024-06-03 19:12:46 [INFO]: Epoch 006 - training loss: 0.9408, validation loss: 0.2871
+2024-06-03 19:13:02 [INFO]: Epoch 007 - training loss: 0.9404, validation loss: 0.3062
+2024-06-03 19:13:20 [INFO]: Epoch 008 - training loss: 0.9390, validation loss: 0.3155
+2024-06-03 19:13:35 [INFO]: Epoch 009 - training loss: 0.9383, validation loss: 0.2875
+2024-06-03 19:13:51 [INFO]: Epoch 010 - training loss: 0.9383, validation loss: 0.3076
+2024-06-03 19:14:07 [INFO]: Epoch 011 - training loss: 0.9370, validation loss: 0.3284
+2024-06-03 19:14:07 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:14:07 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:14:07 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_4/20240603_T191109/FiLM.pypots
+2024-06-03 19:14:16 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/FiLM_PhysioNet2019/round_4/imputation.pkl
+2024-06-03 19:14:16 [INFO]: Round4 - FiLM on PhysioNet2019: MAE=0.4990, MSE=0.5152, MRE=0.6550
+2024-06-03 19:14:16 [INFO]: Done! Final results:
+Averaged FiLM (6,756 params) on PhysioNet2019: MAE=0.4945 ± 0.0031702445662962022, MSE=0.5082 ± 0.004767836955034625, MRE=0.6490 ± 0.004160961761708619, average inference time=1.29

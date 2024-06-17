@@ -1,0 +1,170 @@
+2024-06-03 01:15:38 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 01:15:38 [INFO]: Using the given device: cuda:0
+2024-06-03 01:15:38 [INFO]: Model files will be saved to results_point_rate09/Electricity/MICN_Electricity/round_0/20240603_T011538
+2024-06-03 01:15:38 [INFO]: Tensorboard file will be saved to results_point_rate09/Electricity/MICN_Electricity/round_0/20240603_T011538/tensorboard
+2024-06-03 01:15:39 [INFO]: MICN initialized with the given hyperparameters, the number of trainable parameters: 5,457,910
+2024-06-03 01:15:47 [INFO]: Epoch 001 - training loss: 1.4089, validation loss: 3.2617
+2024-06-03 01:15:53 [INFO]: Epoch 002 - training loss: 1.0259, validation loss: 3.1536
+2024-06-03 01:16:01 [INFO]: Epoch 003 - training loss: 0.9675, validation loss: 3.1515
+2024-06-03 01:16:07 [INFO]: Epoch 004 - training loss: 0.9516, validation loss: 3.1306
+2024-06-03 01:16:15 [INFO]: Epoch 005 - training loss: 0.9160, validation loss: 3.1408
+2024-06-03 01:16:22 [INFO]: Epoch 006 - training loss: 0.8999, validation loss: 3.1340
+2024-06-03 01:16:29 [INFO]: Epoch 007 - training loss: 0.8954, validation loss: 3.1203
+2024-06-03 01:16:36 [INFO]: Epoch 008 - training loss: 0.8880, validation loss: 3.1146
+2024-06-03 01:16:43 [INFO]: Epoch 009 - training loss: 0.8791, validation loss: 3.1235
+2024-06-03 01:16:50 [INFO]: Epoch 010 - training loss: 0.8742, validation loss: 3.1165
+2024-06-03 01:16:57 [INFO]: Epoch 011 - training loss: 0.8719, validation loss: 3.1300
+2024-06-03 01:17:04 [INFO]: Epoch 012 - training loss: 0.8685, validation loss: 3.1261
+2024-06-03 01:17:11 [INFO]: Epoch 013 - training loss: 0.8619, validation loss: 3.1144
+2024-06-03 01:17:18 [INFO]: Epoch 014 - training loss: 0.8533, validation loss: 3.1282
+2024-06-03 01:17:25 [INFO]: Epoch 015 - training loss: 0.8465, validation loss: 3.1256
+2024-06-03 01:17:33 [INFO]: Epoch 016 - training loss: 0.8345, validation loss: 3.1621
+2024-06-03 01:17:40 [INFO]: Epoch 017 - training loss: 0.8160, validation loss: 3.1840
+2024-06-03 01:17:47 [INFO]: Epoch 018 - training loss: 0.8006, validation loss: 3.1616
+2024-06-03 01:17:54 [INFO]: Epoch 019 - training loss: 0.7844, validation loss: 3.1696
+2024-06-03 01:18:01 [INFO]: Epoch 020 - training loss: 0.7820, validation loss: 3.1815
+2024-06-03 01:18:09 [INFO]: Epoch 021 - training loss: 0.7706, validation loss: 3.1771
+2024-06-03 01:18:16 [INFO]: Epoch 022 - training loss: 0.7616, validation loss: 3.1524
+2024-06-03 01:18:24 [INFO]: Epoch 023 - training loss: 0.7570, validation loss: 3.1628
+2024-06-03 01:18:24 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 01:18:24 [INFO]: Finished training. The best model is from epoch#13.
+2024-06-03 01:18:24 [INFO]: Saved the model to results_point_rate09/Electricity/MICN_Electricity/round_0/20240603_T011538/MICN.pypots
+2024-06-03 01:18:25 [INFO]: Successfully saved to results_point_rate09/Electricity/MICN_Electricity/round_0/imputation.pkl
+2024-06-03 01:18:25 [INFO]: Round0 - MICN on Electricity: MAE=1.5120, MSE=4.8349, MRE=0.8094
+2024-06-03 01:18:25 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 01:18:25 [INFO]: Using the given device: cuda:0
+2024-06-03 01:18:25 [INFO]: Model files will be saved to results_point_rate09/Electricity/MICN_Electricity/round_1/20240603_T011825
+2024-06-03 01:18:25 [INFO]: Tensorboard file will be saved to results_point_rate09/Electricity/MICN_Electricity/round_1/20240603_T011825/tensorboard
+2024-06-03 01:18:25 [INFO]: MICN initialized with the given hyperparameters, the number of trainable parameters: 5,457,910
+2024-06-03 01:18:34 [INFO]: Epoch 001 - training loss: 1.4177, validation loss: 3.2870
+2024-06-03 01:18:41 [INFO]: Epoch 002 - training loss: 1.0239, validation loss: 3.1705
+2024-06-03 01:18:48 [INFO]: Epoch 003 - training loss: 0.9655, validation loss: 3.1747
+2024-06-03 01:18:55 [INFO]: Epoch 004 - training loss: 0.9481, validation loss: 3.1580
+2024-06-03 01:19:02 [INFO]: Epoch 005 - training loss: 0.9182, validation loss: 3.1321
+2024-06-03 01:19:09 [INFO]: Epoch 006 - training loss: 0.8977, validation loss: 3.1368
+2024-06-03 01:19:17 [INFO]: Epoch 007 - training loss: 0.8893, validation loss: 3.1459
+2024-06-03 01:19:24 [INFO]: Epoch 008 - training loss: 0.8864, validation loss: 3.1481
+2024-06-03 01:19:31 [INFO]: Epoch 009 - training loss: 0.8743, validation loss: 3.1350
+2024-06-03 01:19:39 [INFO]: Epoch 010 - training loss: 0.8613, validation loss: 3.1377
+2024-06-03 01:19:46 [INFO]: Epoch 011 - training loss: 0.8414, validation loss: 3.1592
+2024-06-03 01:19:54 [INFO]: Epoch 012 - training loss: 0.8291, validation loss: 3.1527
+2024-06-03 01:20:01 [INFO]: Epoch 013 - training loss: 0.8121, validation loss: 3.1618
+2024-06-03 01:20:09 [INFO]: Epoch 014 - training loss: 0.7998, validation loss: 3.1541
+2024-06-03 01:20:16 [INFO]: Epoch 015 - training loss: 0.7886, validation loss: 3.1632
+2024-06-03 01:20:16 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 01:20:16 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 01:20:16 [INFO]: Saved the model to results_point_rate09/Electricity/MICN_Electricity/round_1/20240603_T011825/MICN.pypots
+2024-06-03 01:20:17 [INFO]: Successfully saved to results_point_rate09/Electricity/MICN_Electricity/round_1/imputation.pkl
+2024-06-03 01:20:17 [INFO]: Round1 - MICN on Electricity: MAE=1.5193, MSE=4.7659, MRE=0.8133
+2024-06-03 01:20:17 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 01:20:17 [INFO]: Using the given device: cuda:0
+2024-06-03 01:20:17 [INFO]: Model files will be saved to results_point_rate09/Electricity/MICN_Electricity/round_2/20240603_T012017
+2024-06-03 01:20:17 [INFO]: Tensorboard file will be saved to results_point_rate09/Electricity/MICN_Electricity/round_2/20240603_T012017/tensorboard
+2024-06-03 01:20:18 [INFO]: MICN initialized with the given hyperparameters, the number of trainable parameters: 5,457,910
+2024-06-03 01:20:26 [INFO]: Epoch 001 - training loss: 1.4342, validation loss: 3.4061
+2024-06-03 01:20:33 [INFO]: Epoch 002 - training loss: 1.0615, validation loss: 3.1829
+2024-06-03 01:20:41 [INFO]: Epoch 003 - training loss: 0.9555, validation loss: 3.1758
+2024-06-03 01:20:48 [INFO]: Epoch 004 - training loss: 0.9224, validation loss: 3.1446
+2024-06-03 01:20:55 [INFO]: Epoch 005 - training loss: 0.8943, validation loss: 3.1590
+2024-06-03 01:21:03 [INFO]: Epoch 006 - training loss: 0.8851, validation loss: 3.1513
+2024-06-03 01:21:10 [INFO]: Epoch 007 - training loss: 0.8860, validation loss: 3.1640
+2024-06-03 01:21:18 [INFO]: Epoch 008 - training loss: 0.8785, validation loss: 3.1542
+2024-06-03 01:21:25 [INFO]: Epoch 009 - training loss: 0.8699, validation loss: 3.1486
+2024-06-03 01:21:33 [INFO]: Epoch 010 - training loss: 0.8648, validation loss: 3.1375
+2024-06-03 01:21:40 [INFO]: Epoch 011 - training loss: 0.8601, validation loss: 3.1441
+2024-06-03 01:21:47 [INFO]: Epoch 012 - training loss: 0.8535, validation loss: 3.1452
+2024-06-03 01:21:54 [INFO]: Epoch 013 - training loss: 0.8496, validation loss: 3.1405
+2024-06-03 01:22:02 [INFO]: Epoch 014 - training loss: 0.8464, validation loss: 3.1457
+2024-06-03 01:22:09 [INFO]: Epoch 015 - training loss: 0.8279, validation loss: 3.1553
+2024-06-03 01:22:16 [INFO]: Epoch 016 - training loss: 0.8162, validation loss: 3.1623
+2024-06-03 01:22:24 [INFO]: Epoch 017 - training loss: 0.7982, validation loss: 3.1473
+2024-06-03 01:22:31 [INFO]: Epoch 018 - training loss: 0.7806, validation loss: 3.1304
+2024-06-03 01:22:38 [INFO]: Epoch 019 - training loss: 0.7757, validation loss: 3.1466
+2024-06-03 01:22:45 [INFO]: Epoch 020 - training loss: 0.7681, validation loss: 3.1564
+2024-06-03 01:22:52 [INFO]: Epoch 021 - training loss: 0.7592, validation loss: 3.1365
+2024-06-03 01:22:59 [INFO]: Epoch 022 - training loss: 0.7546, validation loss: 3.1537
+2024-06-03 01:23:06 [INFO]: Epoch 023 - training loss: 0.7481, validation loss: 3.1534
+2024-06-03 01:23:14 [INFO]: Epoch 024 - training loss: 0.7458, validation loss: 3.1533
+2024-06-03 01:23:21 [INFO]: Epoch 025 - training loss: 0.7418, validation loss: 3.1654
+2024-06-03 01:23:28 [INFO]: Epoch 026 - training loss: 0.7392, validation loss: 3.1378
+2024-06-03 01:23:35 [INFO]: Epoch 027 - training loss: 0.7348, validation loss: 3.1575
+2024-06-03 01:23:42 [INFO]: Epoch 028 - training loss: 0.7328, validation loss: 3.1662
+2024-06-03 01:23:42 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 01:23:42 [INFO]: Finished training. The best model is from epoch#18.
+2024-06-03 01:23:43 [INFO]: Saved the model to results_point_rate09/Electricity/MICN_Electricity/round_2/20240603_T012017/MICN.pypots
+2024-06-03 01:23:43 [INFO]: Successfully saved to results_point_rate09/Electricity/MICN_Electricity/round_2/imputation.pkl
+2024-06-03 01:23:43 [INFO]: Round2 - MICN on Electricity: MAE=1.5180, MSE=4.8642, MRE=0.8126
+2024-06-03 01:23:43 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 01:23:43 [INFO]: Using the given device: cuda:0
+2024-06-03 01:23:43 [INFO]: Model files will be saved to results_point_rate09/Electricity/MICN_Electricity/round_3/20240603_T012343
+2024-06-03 01:23:43 [INFO]: Tensorboard file will be saved to results_point_rate09/Electricity/MICN_Electricity/round_3/20240603_T012343/tensorboard
+2024-06-03 01:23:44 [INFO]: MICN initialized with the given hyperparameters, the number of trainable parameters: 5,457,910
+2024-06-03 01:23:52 [INFO]: Epoch 001 - training loss: 1.3894, validation loss: 3.2697
+2024-06-03 01:23:59 [INFO]: Epoch 002 - training loss: 1.0105, validation loss: 3.1680
+2024-06-03 01:24:06 [INFO]: Epoch 003 - training loss: 0.9678, validation loss: 3.1673
+2024-06-03 01:24:13 [INFO]: Epoch 004 - training loss: 0.9435, validation loss: 3.1522
+2024-06-03 01:24:21 [INFO]: Epoch 005 - training loss: 0.9099, validation loss: 3.1522
+2024-06-03 01:24:28 [INFO]: Epoch 006 - training loss: 0.9007, validation loss: 3.1504
+2024-06-03 01:24:35 [INFO]: Epoch 007 - training loss: 0.8941, validation loss: 3.1547
+2024-06-03 01:24:42 [INFO]: Epoch 008 - training loss: 0.8904, validation loss: 3.1452
+2024-06-03 01:24:50 [INFO]: Epoch 009 - training loss: 0.8805, validation loss: 3.1429
+2024-06-03 01:24:57 [INFO]: Epoch 010 - training loss: 0.8744, validation loss: 3.1357
+2024-06-03 01:25:04 [INFO]: Epoch 011 - training loss: 0.8585, validation loss: 3.1420
+2024-06-03 01:25:11 [INFO]: Epoch 012 - training loss: 0.8467, validation loss: 3.1622
+2024-06-03 01:25:18 [INFO]: Epoch 013 - training loss: 0.8270, validation loss: 3.1527
+2024-06-03 01:25:25 [INFO]: Epoch 014 - training loss: 0.8138, validation loss: 3.1610
+2024-06-03 01:25:33 [INFO]: Epoch 015 - training loss: 0.8015, validation loss: 3.1881
+2024-06-03 01:25:40 [INFO]: Epoch 016 - training loss: 0.7988, validation loss: 3.1620
+2024-06-03 01:25:47 [INFO]: Epoch 017 - training loss: 0.7850, validation loss: 3.1424
+2024-06-03 01:25:54 [INFO]: Epoch 018 - training loss: 0.7789, validation loss: 3.1352
+2024-06-03 01:26:01 [INFO]: Epoch 019 - training loss: 0.7688, validation loss: 3.1314
+2024-06-03 01:26:09 [INFO]: Epoch 020 - training loss: 0.7644, validation loss: 3.1213
+2024-06-03 01:26:16 [INFO]: Epoch 021 - training loss: 0.7634, validation loss: 3.1448
+2024-06-03 01:26:22 [INFO]: Epoch 022 - training loss: 0.7570, validation loss: 3.1412
+2024-06-03 01:26:29 [INFO]: Epoch 023 - training loss: 0.7491, validation loss: 3.1382
+2024-06-03 01:26:36 [INFO]: Epoch 024 - training loss: 0.7443, validation loss: 3.1394
+2024-06-03 01:26:43 [INFO]: Epoch 025 - training loss: 0.7430, validation loss: 3.1417
+2024-06-03 01:26:50 [INFO]: Epoch 026 - training loss: 0.7418, validation loss: 3.1617
+2024-06-03 01:26:58 [INFO]: Epoch 027 - training loss: 0.7376, validation loss: 3.1570
+2024-06-03 01:27:05 [INFO]: Epoch 028 - training loss: 0.7325, validation loss: 3.1617
+2024-06-03 01:27:12 [INFO]: Epoch 029 - training loss: 0.7316, validation loss: 3.1653
+2024-06-03 01:27:20 [INFO]: Epoch 030 - training loss: 0.7304, validation loss: 3.1597
+2024-06-03 01:27:20 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 01:27:20 [INFO]: Finished training. The best model is from epoch#20.
+2024-06-03 01:27:20 [INFO]: Saved the model to results_point_rate09/Electricity/MICN_Electricity/round_3/20240603_T012343/MICN.pypots
+2024-06-03 01:27:21 [INFO]: Successfully saved to results_point_rate09/Electricity/MICN_Electricity/round_3/imputation.pkl
+2024-06-03 01:27:21 [INFO]: Round3 - MICN on Electricity: MAE=1.5104, MSE=4.7750, MRE=0.8086
+2024-06-03 01:27:21 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 01:27:21 [INFO]: Using the given device: cuda:0
+2024-06-03 01:27:21 [INFO]: Model files will be saved to results_point_rate09/Electricity/MICN_Electricity/round_4/20240603_T012721
+2024-06-03 01:27:21 [INFO]: Tensorboard file will be saved to results_point_rate09/Electricity/MICN_Electricity/round_4/20240603_T012721/tensorboard
+2024-06-03 01:27:21 [INFO]: MICN initialized with the given hyperparameters, the number of trainable parameters: 5,457,910
+2024-06-03 01:27:29 [INFO]: Epoch 001 - training loss: 1.4194, validation loss: 3.3494
+2024-06-03 01:27:36 [INFO]: Epoch 002 - training loss: 1.0312, validation loss: 3.1795
+2024-06-03 01:27:43 [INFO]: Epoch 003 - training loss: 0.9511, validation loss: 3.1626
+2024-06-03 01:27:50 [INFO]: Epoch 004 - training loss: 0.9168, validation loss: 3.1661
+2024-06-03 01:27:57 [INFO]: Epoch 005 - training loss: 0.9022, validation loss: 3.1596
+2024-06-03 01:28:04 [INFO]: Epoch 006 - training loss: 0.8961, validation loss: 3.1548
+2024-06-03 01:28:11 [INFO]: Epoch 007 - training loss: 0.8928, validation loss: 3.1626
+2024-06-03 01:28:18 [INFO]: Epoch 008 - training loss: 0.8870, validation loss: 3.1481
+2024-06-03 01:28:25 [INFO]: Epoch 009 - training loss: 0.8774, validation loss: 3.1569
+2024-06-03 01:28:32 [INFO]: Epoch 010 - training loss: 0.8715, validation loss: 3.1518
+2024-06-03 01:28:39 [INFO]: Epoch 011 - training loss: 0.8646, validation loss: 3.1607
+2024-06-03 01:28:46 [INFO]: Epoch 012 - training loss: 0.8577, validation loss: 3.1477
+2024-06-03 01:28:54 [INFO]: Epoch 013 - training loss: 0.8405, validation loss: 3.1575
+2024-06-03 01:29:01 [INFO]: Epoch 014 - training loss: 0.8239, validation loss: 3.1564
+2024-06-03 01:29:09 [INFO]: Epoch 015 - training loss: 0.8144, validation loss: 3.1487
+2024-06-03 01:29:16 [INFO]: Epoch 016 - training loss: 0.7958, validation loss: 3.1547
+2024-06-03 01:29:23 [INFO]: Epoch 017 - training loss: 0.7777, validation loss: 3.1579
+2024-06-03 01:29:30 [INFO]: Epoch 018 - training loss: 0.7708, validation loss: 3.1675
+2024-06-03 01:29:36 [INFO]: Epoch 019 - training loss: 0.7639, validation loss: 3.1515
+2024-06-03 01:29:43 [INFO]: Epoch 020 - training loss: 0.7599, validation loss: 3.1559
+2024-06-03 01:29:50 [INFO]: Epoch 021 - training loss: 0.7540, validation loss: 3.1515
+2024-06-03 01:29:58 [INFO]: Epoch 022 - training loss: 0.7508, validation loss: 3.1794
+2024-06-03 01:29:58 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 01:29:58 [INFO]: Finished training. The best model is from epoch#12.
+2024-06-03 01:29:58 [INFO]: Saved the model to results_point_rate09/Electricity/MICN_Electricity/round_4/20240603_T012721/MICN.pypots
+2024-06-03 01:29:59 [INFO]: Successfully saved to results_point_rate09/Electricity/MICN_Electricity/round_4/imputation.pkl
+2024-06-03 01:29:59 [INFO]: Round4 - MICN on Electricity: MAE=1.5263, MSE=4.8446, MRE=0.8171
+2024-06-03 01:29:59 [INFO]: Done! Final results:
+Averaged MICN (5,457,910 params) on Electricity: MAE=1.5172 ± 0.00567781717390049, MSE=4.8169 ± 0.03920663134774734, MRE=0.8122 ± 0.003039497546156733, average inference time=0.50

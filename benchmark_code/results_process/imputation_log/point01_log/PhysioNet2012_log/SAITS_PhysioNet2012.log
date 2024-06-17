@@ -1,0 +1,134 @@
+2024-06-03 18:56:57 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 18:56:57 [INFO]: Using the given device: cuda:0
+2024-06-03 18:56:58 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_0/20240603_T185658
+2024-06-03 18:56:58 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_0/20240603_T185658/tensorboard
+2024-06-03 18:56:58 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=8, d_k=128
+2024-06-03 18:56:58 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (8) * d_k (128)
+2024-06-03 18:56:59 [INFO]: SAITS initialized with the given hyperparameters, the number of trainable parameters: 44,295,342
+2024-06-03 18:57:20 [INFO]: Epoch 001 - training loss: 1.1160, validation loss: 0.1104
+2024-06-03 18:57:38 [INFO]: Epoch 002 - training loss: 0.8458, validation loss: 0.1432
+2024-06-03 18:57:57 [INFO]: Epoch 003 - training loss: 0.7480, validation loss: 0.1551
+2024-06-03 18:58:15 [INFO]: Epoch 004 - training loss: 0.6949, validation loss: 0.1421
+2024-06-03 18:58:34 [INFO]: Epoch 005 - training loss: 0.6592, validation loss: 0.1494
+2024-06-03 18:58:53 [INFO]: Epoch 006 - training loss: 0.6339, validation loss: 0.1485
+2024-06-03 18:59:12 [INFO]: Epoch 007 - training loss: 0.6120, validation loss: 0.1459
+2024-06-03 18:59:31 [INFO]: Epoch 008 - training loss: 0.5957, validation loss: 0.1581
+2024-06-03 18:59:50 [INFO]: Epoch 009 - training loss: 0.5819, validation loss: 0.1575
+2024-06-03 19:00:08 [INFO]: Epoch 010 - training loss: 0.5715, validation loss: 0.1678
+2024-06-03 19:00:27 [INFO]: Epoch 011 - training loss: 0.5570, validation loss: 0.1686
+2024-06-03 19:00:27 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:00:27 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:00:28 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_0/20240603_T185658/SAITS.pypots
+2024-06-03 19:00:34 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_0/imputation.pkl
+2024-06-03 19:00:34 [INFO]: Round0 - SAITS on PhysioNet2012: MAE=0.3217, MSE=0.4953, MRE=0.4462
+2024-06-03 19:00:34 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:00:34 [INFO]: Using the given device: cuda:0
+2024-06-03 19:00:34 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_1/20240603_T190034
+2024-06-03 19:00:34 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_1/20240603_T190034/tensorboard
+2024-06-03 19:00:34 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=8, d_k=128
+2024-06-03 19:00:34 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (8) * d_k (128)
+2024-06-03 19:00:35 [INFO]: SAITS initialized with the given hyperparameters, the number of trainable parameters: 44,295,342
+2024-06-03 19:00:55 [INFO]: Epoch 001 - training loss: 1.1103, validation loss: 0.1343
+2024-06-03 19:01:13 [INFO]: Epoch 002 - training loss: 0.8357, validation loss: 0.1416
+2024-06-03 19:01:31 [INFO]: Epoch 003 - training loss: 0.7500, validation loss: 0.1399
+2024-06-03 19:01:49 [INFO]: Epoch 004 - training loss: 0.6951, validation loss: 0.1532
+2024-06-03 19:02:07 [INFO]: Epoch 005 - training loss: 0.6593, validation loss: 0.1483
+2024-06-03 19:02:26 [INFO]: Epoch 006 - training loss: 0.6315, validation loss: 0.1675
+2024-06-03 19:02:43 [INFO]: Epoch 007 - training loss: 0.6170, validation loss: 0.1515
+2024-06-03 19:02:59 [INFO]: Epoch 008 - training loss: 0.5958, validation loss: 0.1554
+2024-06-03 19:03:17 [INFO]: Epoch 009 - training loss: 0.5849, validation loss: 0.1608
+2024-06-03 19:03:34 [INFO]: Epoch 010 - training loss: 0.5703, validation loss: 0.1801
+2024-06-03 19:03:52 [INFO]: Epoch 011 - training loss: 0.5601, validation loss: 0.1590
+2024-06-03 19:03:52 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:03:52 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:03:53 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_1/20240603_T190034/SAITS.pypots
+2024-06-03 19:03:59 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_1/imputation.pkl
+2024-06-03 19:03:59 [INFO]: Round1 - SAITS on PhysioNet2012: MAE=0.3188, MSE=0.5017, MRE=0.4422
+2024-06-03 19:03:59 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:03:59 [INFO]: Using the given device: cuda:0
+2024-06-03 19:03:59 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_2/20240603_T190359
+2024-06-03 19:03:59 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_2/20240603_T190359/tensorboard
+2024-06-03 19:03:59 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=8, d_k=128
+2024-06-03 19:03:59 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (8) * d_k (128)
+2024-06-03 19:04:01 [INFO]: SAITS initialized with the given hyperparameters, the number of trainable parameters: 44,295,342
+2024-06-03 19:04:20 [INFO]: Epoch 001 - training loss: 1.0978, validation loss: 0.1446
+2024-06-03 19:04:38 [INFO]: Epoch 002 - training loss: 0.8191, validation loss: 0.1781
+2024-06-03 19:04:56 [INFO]: Epoch 003 - training loss: 0.7359, validation loss: 0.1726
+2024-06-03 19:05:14 [INFO]: Epoch 004 - training loss: 0.6895, validation loss: 0.1456
+2024-06-03 19:05:34 [INFO]: Epoch 005 - training loss: 0.6518, validation loss: 0.1414
+2024-06-03 19:05:53 [INFO]: Epoch 006 - training loss: 0.6310, validation loss: 0.1532
+2024-06-03 19:06:11 [INFO]: Epoch 007 - training loss: 0.6060, validation loss: 0.1510
+2024-06-03 19:06:30 [INFO]: Epoch 008 - training loss: 0.5974, validation loss: 0.1647
+2024-06-03 19:06:49 [INFO]: Epoch 009 - training loss: 0.5868, validation loss: 0.1642
+2024-06-03 19:07:09 [INFO]: Epoch 010 - training loss: 0.5729, validation loss: 0.1644
+2024-06-03 19:07:25 [INFO]: Epoch 011 - training loss: 0.5563, validation loss: 0.1676
+2024-06-03 19:07:42 [INFO]: Epoch 012 - training loss: 0.5474, validation loss: 0.1633
+2024-06-03 19:08:02 [INFO]: Epoch 013 - training loss: 0.5411, validation loss: 0.1642
+2024-06-03 19:08:21 [INFO]: Epoch 014 - training loss: 0.5285, validation loss: 0.1688
+2024-06-03 19:08:39 [INFO]: Epoch 015 - training loss: 0.5255, validation loss: 0.1768
+2024-06-03 19:08:39 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:08:39 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 19:08:40 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_2/20240603_T190359/SAITS.pypots
+2024-06-03 19:08:46 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_2/imputation.pkl
+2024-06-03 19:08:46 [INFO]: Round2 - SAITS on PhysioNet2012: MAE=0.3053, MSE=0.4862, MRE=0.4234
+2024-06-03 19:08:46 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:08:46 [INFO]: Using the given device: cuda:0
+2024-06-03 19:08:46 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_3/20240603_T190846
+2024-06-03 19:08:46 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_3/20240603_T190846/tensorboard
+2024-06-03 19:08:46 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=8, d_k=128
+2024-06-03 19:08:46 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (8) * d_k (128)
+2024-06-03 19:08:47 [INFO]: SAITS initialized with the given hyperparameters, the number of trainable parameters: 44,295,342
+2024-06-03 19:09:06 [INFO]: Epoch 001 - training loss: 1.0989, validation loss: 0.2138
+2024-06-03 19:09:25 [INFO]: Epoch 002 - training loss: 0.8030, validation loss: 0.2031
+2024-06-03 19:09:43 [INFO]: Epoch 003 - training loss: 0.7188, validation loss: 0.1995
+2024-06-03 19:10:00 [INFO]: Epoch 004 - training loss: 0.6802, validation loss: 0.1862
+2024-06-03 19:10:19 [INFO]: Epoch 005 - training loss: 0.6489, validation loss: 0.1955
+2024-06-03 19:10:37 [INFO]: Epoch 006 - training loss: 0.6295, validation loss: 0.1814
+2024-06-03 19:10:54 [INFO]: Epoch 007 - training loss: 0.6096, validation loss: 0.1696
+2024-06-03 19:11:10 [INFO]: Epoch 008 - training loss: 0.5952, validation loss: 0.1765
+2024-06-03 19:11:25 [INFO]: Epoch 009 - training loss: 0.5797, validation loss: 0.1774
+2024-06-03 19:11:38 [INFO]: Epoch 010 - training loss: 0.5725, validation loss: 0.1901
+2024-06-03 19:11:51 [INFO]: Epoch 011 - training loss: 0.5582, validation loss: 0.1826
+2024-06-03 19:12:04 [INFO]: Epoch 012 - training loss: 0.5463, validation loss: 0.1829
+2024-06-03 19:12:17 [INFO]: Epoch 013 - training loss: 0.5372, validation loss: 0.1994
+2024-06-03 19:12:30 [INFO]: Epoch 014 - training loss: 0.5291, validation loss: 0.1837
+2024-06-03 19:12:41 [INFO]: Epoch 015 - training loss: 0.5234, validation loss: 0.1905
+2024-06-03 19:12:52 [INFO]: Epoch 016 - training loss: 0.5154, validation loss: 0.1792
+2024-06-03 19:13:04 [INFO]: Epoch 017 - training loss: 0.5101, validation loss: 0.1903
+2024-06-03 19:13:04 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:13:04 [INFO]: Finished training. The best model is from epoch#7.
+2024-06-03 19:13:05 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_3/20240603_T190846/SAITS.pypots
+2024-06-03 19:13:09 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_3/imputation.pkl
+2024-06-03 19:13:09 [INFO]: Round3 - SAITS on PhysioNet2012: MAE=0.2953, MSE=0.4629, MRE=0.4096
+2024-06-03 19:13:09 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:13:09 [INFO]: Using the given device: cuda:0
+2024-06-03 19:13:09 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_4/20240603_T191309
+2024-06-03 19:13:09 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_4/20240603_T191309/tensorboard
+2024-06-03 19:13:09 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=8, d_k=128
+2024-06-03 19:13:09 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (8) * d_k (128)
+2024-06-03 19:13:10 [INFO]: SAITS initialized with the given hyperparameters, the number of trainable parameters: 44,295,342
+2024-06-03 19:13:23 [INFO]: Epoch 001 - training loss: 1.1159, validation loss: 0.1672
+2024-06-03 19:13:35 [INFO]: Epoch 002 - training loss: 0.8254, validation loss: 0.1934
+2024-06-03 19:13:48 [INFO]: Epoch 003 - training loss: 0.7327, validation loss: 0.1884
+2024-06-03 19:14:01 [INFO]: Epoch 004 - training loss: 0.6843, validation loss: 0.1746
+2024-06-03 19:14:13 [INFO]: Epoch 005 - training loss: 0.6549, validation loss: 0.1600
+2024-06-03 19:14:26 [INFO]: Epoch 006 - training loss: 0.6333, validation loss: 0.1576
+2024-06-03 19:14:38 [INFO]: Epoch 007 - training loss: 0.6107, validation loss: 0.1612
+2024-06-03 19:14:51 [INFO]: Epoch 008 - training loss: 0.5987, validation loss: 0.1554
+2024-06-03 19:15:04 [INFO]: Epoch 009 - training loss: 0.5830, validation loss: 0.1591
+2024-06-03 19:15:16 [INFO]: Epoch 010 - training loss: 0.5707, validation loss: 0.1685
+2024-06-03 19:15:29 [INFO]: Epoch 011 - training loss: 0.5627, validation loss: 0.1616
+2024-06-03 19:15:41 [INFO]: Epoch 012 - training loss: 0.5519, validation loss: 0.1695
+2024-06-03 19:15:54 [INFO]: Epoch 013 - training loss: 0.5401, validation loss: 0.1750
+2024-06-03 19:16:07 [INFO]: Epoch 014 - training loss: 0.5330, validation loss: 0.1706
+2024-06-03 19:16:19 [INFO]: Epoch 015 - training loss: 0.5225, validation loss: 0.1790
+2024-06-03 19:16:28 [INFO]: Epoch 016 - training loss: 0.5182, validation loss: 0.1628
+2024-06-03 19:16:37 [INFO]: Epoch 017 - training loss: 0.5150, validation loss: 0.1789
+2024-06-03 19:16:47 [INFO]: Epoch 018 - training loss: 0.5058, validation loss: 0.1669
+2024-06-03 19:16:47 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:16:47 [INFO]: Finished training. The best model is from epoch#8.
+2024-06-03 19:16:47 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_4/20240603_T191309/SAITS.pypots
+2024-06-03 19:16:51 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/SAITS_PhysioNet2012/round_4/imputation.pkl
+2024-06-03 19:16:51 [INFO]: Round4 - SAITS on PhysioNet2012: MAE=0.2881, MSE=0.4583, MRE=0.3997
+2024-06-03 19:16:51 [INFO]: Done! Final results:
+Averaged SAITS (44,295,342 params) on PhysioNet2012: MAE=0.2569 ± 0.019237509764597607, MSE=0.2757 ± 0.018386987350430897, MRE=0.3623 ± 0.02713497199138528, average inference time=0.75

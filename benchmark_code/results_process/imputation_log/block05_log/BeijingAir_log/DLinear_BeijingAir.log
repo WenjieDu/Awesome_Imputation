@@ -1,0 +1,131 @@
+2024-06-03 13:05:13 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 13:05:13 [INFO]: Using the given device: cuda:0
+2024-06-03 13:05:13 [INFO]: Model files will be saved to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_0/20240603_T130513
+2024-06-03 13:05:13 [INFO]: Tensorboard file will be saved to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_0/20240603_T130513/tensorboard
+2024-06-03 13:05:15 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 204,728
+2024-06-03 13:05:23 [INFO]: Epoch 001 - training loss: 0.9056, validation loss: 0.4185
+2024-06-03 13:05:28 [INFO]: Epoch 002 - training loss: 0.6203, validation loss: 0.3717
+2024-06-03 13:05:32 [INFO]: Epoch 003 - training loss: 0.5423, validation loss: 0.3101
+2024-06-03 13:05:37 [INFO]: Epoch 004 - training loss: 0.5061, validation loss: 0.3077
+2024-06-03 13:05:42 [INFO]: Epoch 005 - training loss: 0.4783, validation loss: 0.2973
+2024-06-03 13:05:47 [INFO]: Epoch 006 - training loss: 0.4659, validation loss: 0.3085
+2024-06-03 13:05:52 [INFO]: Epoch 007 - training loss: 0.4549, validation loss: 0.3190
+2024-06-03 13:05:57 [INFO]: Epoch 008 - training loss: 0.4478, validation loss: 0.3047
+2024-06-03 13:06:01 [INFO]: Epoch 009 - training loss: 0.4445, validation loss: 0.3048
+2024-06-03 13:06:06 [INFO]: Epoch 010 - training loss: 0.4477, validation loss: 0.3139
+2024-06-03 13:06:11 [INFO]: Epoch 011 - training loss: 0.4377, validation loss: 0.3102
+2024-06-03 13:06:16 [INFO]: Epoch 012 - training loss: 0.4346, validation loss: 0.3257
+2024-06-03 13:06:21 [INFO]: Epoch 013 - training loss: 0.4324, validation loss: 0.3338
+2024-06-03 13:06:26 [INFO]: Epoch 014 - training loss: 0.4322, validation loss: 0.3209
+2024-06-03 13:06:30 [INFO]: Epoch 015 - training loss: 0.4306, validation loss: 0.3214
+2024-06-03 13:06:30 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 13:06:30 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 13:06:30 [INFO]: Saved the model to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_0/20240603_T130513/DLinear.pypots
+2024-06-03 13:06:31 [INFO]: Successfully saved to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_0/imputation.pkl
+2024-06-03 13:06:31 [INFO]: Round0 - DLinear on BeijingAir: MAE=0.3083, MSE=0.3537, MRE=0.4168
+2024-06-03 13:06:31 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 13:06:31 [INFO]: Using the given device: cuda:0
+2024-06-03 13:06:31 [INFO]: Model files will be saved to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_1/20240603_T130631
+2024-06-03 13:06:31 [INFO]: Tensorboard file will be saved to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_1/20240603_T130631/tensorboard
+2024-06-03 13:06:31 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 204,728
+2024-06-03 13:06:36 [INFO]: Epoch 001 - training loss: 0.8858, validation loss: 0.4633
+2024-06-03 13:06:41 [INFO]: Epoch 002 - training loss: 0.6119, validation loss: 0.3586
+2024-06-03 13:06:46 [INFO]: Epoch 003 - training loss: 0.5333, validation loss: 0.3188
+2024-06-03 13:06:50 [INFO]: Epoch 004 - training loss: 0.4945, validation loss: 0.3048
+2024-06-03 13:06:55 [INFO]: Epoch 005 - training loss: 0.4722, validation loss: 0.3035
+2024-06-03 13:07:00 [INFO]: Epoch 006 - training loss: 0.4584, validation loss: 0.3061
+2024-06-03 13:07:05 [INFO]: Epoch 007 - training loss: 0.4564, validation loss: 0.3174
+2024-06-03 13:07:09 [INFO]: Epoch 008 - training loss: 0.4458, validation loss: 0.3057
+2024-06-03 13:07:14 [INFO]: Epoch 009 - training loss: 0.4405, validation loss: 0.3075
+2024-06-03 13:07:19 [INFO]: Epoch 010 - training loss: 0.4334, validation loss: 0.3093
+2024-06-03 13:07:24 [INFO]: Epoch 011 - training loss: 0.4344, validation loss: 0.3096
+2024-06-03 13:07:29 [INFO]: Epoch 012 - training loss: 0.4387, validation loss: 0.3160
+2024-06-03 13:07:34 [INFO]: Epoch 013 - training loss: 0.4402, validation loss: 0.3220
+2024-06-03 13:07:39 [INFO]: Epoch 014 - training loss: 0.4344, validation loss: 0.3186
+2024-06-03 13:07:43 [INFO]: Epoch 015 - training loss: 0.4308, validation loss: 0.3155
+2024-06-03 13:07:43 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 13:07:43 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 13:07:43 [INFO]: Saved the model to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_1/20240603_T130631/DLinear.pypots
+2024-06-03 13:07:44 [INFO]: Successfully saved to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_1/imputation.pkl
+2024-06-03 13:07:44 [INFO]: Round1 - DLinear on BeijingAir: MAE=0.2988, MSE=0.3482, MRE=0.4039
+2024-06-03 13:07:44 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 13:07:44 [INFO]: Using the given device: cuda:0
+2024-06-03 13:07:44 [INFO]: Model files will be saved to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_2/20240603_T130744
+2024-06-03 13:07:44 [INFO]: Tensorboard file will be saved to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_2/20240603_T130744/tensorboard
+2024-06-03 13:07:44 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 204,728
+2024-06-03 13:07:49 [INFO]: Epoch 001 - training loss: 0.9390, validation loss: 0.4203
+2024-06-03 13:07:54 [INFO]: Epoch 002 - training loss: 0.6215, validation loss: 0.3411
+2024-06-03 13:07:59 [INFO]: Epoch 003 - training loss: 0.5348, validation loss: 0.3153
+2024-06-03 13:08:03 [INFO]: Epoch 004 - training loss: 0.5046, validation loss: 0.3086
+2024-06-03 13:08:08 [INFO]: Epoch 005 - training loss: 0.4840, validation loss: 0.3063
+2024-06-03 13:08:13 [INFO]: Epoch 006 - training loss: 0.4701, validation loss: 0.3023
+2024-06-03 13:08:18 [INFO]: Epoch 007 - training loss: 0.4539, validation loss: 0.3019
+2024-06-03 13:08:23 [INFO]: Epoch 008 - training loss: 0.4518, validation loss: 0.2948
+2024-06-03 13:08:28 [INFO]: Epoch 009 - training loss: 0.4422, validation loss: 0.3148
+2024-06-03 13:08:33 [INFO]: Epoch 010 - training loss: 0.4395, validation loss: 0.3061
+2024-06-03 13:08:38 [INFO]: Epoch 011 - training loss: 0.4419, validation loss: 0.3031
+2024-06-03 13:08:42 [INFO]: Epoch 012 - training loss: 0.4359, validation loss: 0.3183
+2024-06-03 13:08:47 [INFO]: Epoch 013 - training loss: 0.4368, validation loss: 0.3462
+2024-06-03 13:08:52 [INFO]: Epoch 014 - training loss: 0.4314, validation loss: 0.3220
+2024-06-03 13:08:57 [INFO]: Epoch 015 - training loss: 0.4301, validation loss: 0.3008
+2024-06-03 13:09:02 [INFO]: Epoch 016 - training loss: 0.4249, validation loss: 0.3091
+2024-06-03 13:09:06 [INFO]: Epoch 017 - training loss: 0.4236, validation loss: 0.3151
+2024-06-03 13:09:11 [INFO]: Epoch 018 - training loss: 0.4276, validation loss: 0.3219
+2024-06-03 13:09:11 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 13:09:11 [INFO]: Finished training. The best model is from epoch#8.
+2024-06-03 13:09:11 [INFO]: Saved the model to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_2/20240603_T130744/DLinear.pypots
+2024-06-03 13:09:12 [INFO]: Successfully saved to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_2/imputation.pkl
+2024-06-03 13:09:12 [INFO]: Round2 - DLinear on BeijingAir: MAE=0.3087, MSE=0.3576, MRE=0.4174
+2024-06-03 13:09:12 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 13:09:12 [INFO]: Using the given device: cuda:0
+2024-06-03 13:09:12 [INFO]: Model files will be saved to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_3/20240603_T130912
+2024-06-03 13:09:12 [INFO]: Tensorboard file will be saved to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_3/20240603_T130912/tensorboard
+2024-06-03 13:09:12 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 204,728
+2024-06-03 13:09:17 [INFO]: Epoch 001 - training loss: 0.9047, validation loss: 0.4115
+2024-06-03 13:09:22 [INFO]: Epoch 002 - training loss: 0.6080, validation loss: 0.3525
+2024-06-03 13:09:27 [INFO]: Epoch 003 - training loss: 0.5297, validation loss: 0.3196
+2024-06-03 13:09:32 [INFO]: Epoch 004 - training loss: 0.4949, validation loss: 0.3070
+2024-06-03 13:09:36 [INFO]: Epoch 005 - training loss: 0.4803, validation loss: 0.3134
+2024-06-03 13:09:41 [INFO]: Epoch 006 - training loss: 0.4600, validation loss: 0.3007
+2024-06-03 13:09:46 [INFO]: Epoch 007 - training loss: 0.4481, validation loss: 0.3031
+2024-06-03 13:09:51 [INFO]: Epoch 008 - training loss: 0.4473, validation loss: 0.3186
+2024-06-03 13:09:56 [INFO]: Epoch 009 - training loss: 0.4438, validation loss: 0.3148
+2024-06-03 13:10:01 [INFO]: Epoch 010 - training loss: 0.4410, validation loss: 0.3145
+2024-06-03 13:10:05 [INFO]: Epoch 011 - training loss: 0.4392, validation loss: 0.3051
+2024-06-03 13:10:10 [INFO]: Epoch 012 - training loss: 0.4322, validation loss: 0.3286
+2024-06-03 13:10:15 [INFO]: Epoch 013 - training loss: 0.4307, validation loss: 0.3052
+2024-06-03 13:10:20 [INFO]: Epoch 014 - training loss: 0.4269, validation loss: 0.3205
+2024-06-03 13:10:25 [INFO]: Epoch 015 - training loss: 0.4313, validation loss: 0.3144
+2024-06-03 13:10:30 [INFO]: Epoch 016 - training loss: 0.4299, validation loss: 0.3200
+2024-06-03 13:10:30 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 13:10:30 [INFO]: Finished training. The best model is from epoch#6.
+2024-06-03 13:10:30 [INFO]: Saved the model to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_3/20240603_T130912/DLinear.pypots
+2024-06-03 13:10:31 [INFO]: Successfully saved to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_3/imputation.pkl
+2024-06-03 13:10:31 [INFO]: Round3 - DLinear on BeijingAir: MAE=0.3083, MSE=0.3591, MRE=0.4168
+2024-06-03 13:10:31 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 13:10:31 [INFO]: Using the given device: cuda:0
+2024-06-03 13:10:31 [INFO]: Model files will be saved to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_4/20240603_T131031
+2024-06-03 13:10:31 [INFO]: Tensorboard file will be saved to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_4/20240603_T131031/tensorboard
+2024-06-03 13:10:31 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 204,728
+2024-06-03 13:10:36 [INFO]: Epoch 001 - training loss: 0.9093, validation loss: 0.4345
+2024-06-03 13:10:41 [INFO]: Epoch 002 - training loss: 0.6208, validation loss: 0.3437
+2024-06-03 13:10:46 [INFO]: Epoch 003 - training loss: 0.5384, validation loss: 0.3238
+2024-06-03 13:10:50 [INFO]: Epoch 004 - training loss: 0.5062, validation loss: 0.3112
+2024-06-03 13:10:55 [INFO]: Epoch 005 - training loss: 0.4799, validation loss: 0.2996
+2024-06-03 13:11:00 [INFO]: Epoch 006 - training loss: 0.4623, validation loss: 0.2998
+2024-06-03 13:11:05 [INFO]: Epoch 007 - training loss: 0.4460, validation loss: 0.3150
+2024-06-03 13:11:09 [INFO]: Epoch 008 - training loss: 0.4452, validation loss: 0.3059
+2024-06-03 13:11:14 [INFO]: Epoch 009 - training loss: 0.4424, validation loss: 0.3174
+2024-06-03 13:11:19 [INFO]: Epoch 010 - training loss: 0.4396, validation loss: 0.3211
+2024-06-03 13:11:24 [INFO]: Epoch 011 - training loss: 0.4386, validation loss: 0.3057
+2024-06-03 13:11:28 [INFO]: Epoch 012 - training loss: 0.4338, validation loss: 0.3282
+2024-06-03 13:11:33 [INFO]: Epoch 013 - training loss: 0.4371, validation loss: 0.3106
+2024-06-03 13:11:38 [INFO]: Epoch 014 - training loss: 0.4308, validation loss: 0.3257
+2024-06-03 13:11:42 [INFO]: Epoch 015 - training loss: 0.4287, validation loss: 0.3129
+2024-06-03 13:11:42 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 13:11:42 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 13:11:42 [INFO]: Saved the model to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_4/20240603_T131031/DLinear.pypots
+2024-06-03 13:11:43 [INFO]: Successfully saved to results_block_rate05/BeijingAir/DLinear_BeijingAir/round_4/imputation.pkl
+2024-06-03 13:11:43 [INFO]: Round4 - DLinear on BeijingAir: MAE=0.3027, MSE=0.3471, MRE=0.4091
+2024-06-03 13:11:43 [INFO]: Done! Final results:
+Averaged DLinear (204,728 params) on BeijingAir: MAE=0.3006 ± 0.00430856264411348, MSE=0.3494 ± 0.0050846625621140135, MRE=0.3957 ± 0.005671242242708075, average inference time=0.19

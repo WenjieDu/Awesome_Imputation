@@ -1,0 +1,117 @@
+2024-06-02 19:42:31 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-02 19:42:31 [INFO]: Using the given device: cuda:0
+2024-06-02 19:42:31 [INFO]: Model files will be saved to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_0/20240602_T194231
+2024-06-02 19:42:31 [INFO]: Tensorboard file will be saved to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_0/20240602_T194231/tensorboard
+2024-06-02 19:42:32 [INFO]: NonstationaryTransformer initialized with the given hyperparameters, the number of trainable parameters: 24,811,090
+2024-06-02 19:42:39 [INFO]: Epoch 001 - training loss: 0.6860, validation loss: 1.2011
+2024-06-02 19:42:46 [INFO]: Epoch 002 - training loss: 0.4820, validation loss: 1.0937
+2024-06-02 19:42:53 [INFO]: Epoch 003 - training loss: 0.4541, validation loss: 1.3827
+2024-06-02 19:43:01 [INFO]: Epoch 004 - training loss: 0.4363, validation loss: 1.3754
+2024-06-02 19:43:08 [INFO]: Epoch 005 - training loss: 0.4277, validation loss: 1.3610
+2024-06-02 19:43:15 [INFO]: Epoch 006 - training loss: 0.4178, validation loss: 1.2967
+2024-06-02 19:43:22 [INFO]: Epoch 007 - training loss: 0.4116, validation loss: 1.4074
+2024-06-02 19:43:29 [INFO]: Epoch 008 - training loss: 0.4082, validation loss: 1.4011
+2024-06-02 19:43:36 [INFO]: Epoch 009 - training loss: 0.4023, validation loss: 1.4302
+2024-06-02 19:43:43 [INFO]: Epoch 010 - training loss: 0.3975, validation loss: 1.3713
+2024-06-02 19:43:50 [INFO]: Epoch 011 - training loss: 0.3934, validation loss: 1.3807
+2024-06-02 19:43:57 [INFO]: Epoch 012 - training loss: 0.3917, validation loss: 1.3405
+2024-06-02 19:43:57 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 19:43:57 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-02 19:43:57 [INFO]: Saved the model to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_0/20240602_T194231/NonstationaryTransformer.pypots
+2024-06-02 19:43:58 [INFO]: Successfully saved to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_0/imputation.pkl
+2024-06-02 19:43:58 [INFO]: Round0 - NonstationaryTransformer on Electricity: MAE=0.2325, MSE=0.1989, MRE=0.1244
+2024-06-02 19:43:58 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-02 19:43:58 [INFO]: Using the given device: cuda:0
+2024-06-02 19:43:58 [INFO]: Model files will be saved to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_1/20240602_T194358
+2024-06-02 19:43:58 [INFO]: Tensorboard file will be saved to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_1/20240602_T194358/tensorboard
+2024-06-02 19:43:59 [INFO]: NonstationaryTransformer initialized with the given hyperparameters, the number of trainable parameters: 24,811,090
+2024-06-02 19:44:06 [INFO]: Epoch 001 - training loss: 0.7312, validation loss: 1.2305
+2024-06-02 19:44:13 [INFO]: Epoch 002 - training loss: 0.4855, validation loss: 1.0695
+2024-06-02 19:44:20 [INFO]: Epoch 003 - training loss: 0.4556, validation loss: 1.0536
+2024-06-02 19:44:28 [INFO]: Epoch 004 - training loss: 0.4406, validation loss: 1.0695
+2024-06-02 19:44:35 [INFO]: Epoch 005 - training loss: 0.4287, validation loss: 1.1097
+2024-06-02 19:44:42 [INFO]: Epoch 006 - training loss: 0.4199, validation loss: 1.1852
+2024-06-02 19:44:50 [INFO]: Epoch 007 - training loss: 0.4145, validation loss: 1.1502
+2024-06-02 19:44:57 [INFO]: Epoch 008 - training loss: 0.4079, validation loss: 1.2445
+2024-06-02 19:45:04 [INFO]: Epoch 009 - training loss: 0.4042, validation loss: 1.1534
+2024-06-02 19:45:12 [INFO]: Epoch 010 - training loss: 0.4004, validation loss: 1.2809
+2024-06-02 19:45:19 [INFO]: Epoch 011 - training loss: 0.3957, validation loss: 1.2455
+2024-06-02 19:45:26 [INFO]: Epoch 012 - training loss: 0.3908, validation loss: 1.2202
+2024-06-02 19:45:33 [INFO]: Epoch 013 - training loss: 0.3880, validation loss: 1.2598
+2024-06-02 19:45:33 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 19:45:33 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-02 19:45:33 [INFO]: Saved the model to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_1/20240602_T194358/NonstationaryTransformer.pypots
+2024-06-02 19:45:34 [INFO]: Successfully saved to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_1/imputation.pkl
+2024-06-02 19:45:34 [INFO]: Round1 - NonstationaryTransformer on Electricity: MAE=0.2126, MSE=0.1727, MRE=0.1137
+2024-06-02 19:45:34 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-02 19:45:34 [INFO]: Using the given device: cuda:0
+2024-06-02 19:45:34 [INFO]: Model files will be saved to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_2/20240602_T194534
+2024-06-02 19:45:34 [INFO]: Tensorboard file will be saved to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_2/20240602_T194534/tensorboard
+2024-06-02 19:45:34 [INFO]: NonstationaryTransformer initialized with the given hyperparameters, the number of trainable parameters: 24,811,090
+2024-06-02 19:45:42 [INFO]: Epoch 001 - training loss: 0.7195, validation loss: 1.2327
+2024-06-02 19:45:49 [INFO]: Epoch 002 - training loss: 0.4885, validation loss: 1.1564
+2024-06-02 19:45:56 [INFO]: Epoch 003 - training loss: 0.4541, validation loss: 1.1727
+2024-06-02 19:46:03 [INFO]: Epoch 004 - training loss: 0.4387, validation loss: 1.2769
+2024-06-02 19:46:10 [INFO]: Epoch 005 - training loss: 0.4287, validation loss: 1.2321
+2024-06-02 19:46:17 [INFO]: Epoch 006 - training loss: 0.4189, validation loss: 1.2206
+2024-06-02 19:46:24 [INFO]: Epoch 007 - training loss: 0.4126, validation loss: 1.5272
+2024-06-02 19:46:31 [INFO]: Epoch 008 - training loss: 0.4097, validation loss: 1.4483
+2024-06-02 19:46:38 [INFO]: Epoch 009 - training loss: 0.4032, validation loss: 1.4941
+2024-06-02 19:46:44 [INFO]: Epoch 010 - training loss: 0.3975, validation loss: 1.4315
+2024-06-02 19:46:52 [INFO]: Epoch 011 - training loss: 0.3944, validation loss: 1.3516
+2024-06-02 19:46:59 [INFO]: Epoch 012 - training loss: 0.3901, validation loss: 1.5104
+2024-06-02 19:46:59 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 19:46:59 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-02 19:46:59 [INFO]: Saved the model to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_2/20240602_T194534/NonstationaryTransformer.pypots
+2024-06-02 19:47:00 [INFO]: Successfully saved to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_2/imputation.pkl
+2024-06-02 19:47:00 [INFO]: Round2 - NonstationaryTransformer on Electricity: MAE=0.2217, MSE=0.1976, MRE=0.1186
+2024-06-02 19:47:00 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-02 19:47:00 [INFO]: Using the given device: cuda:0
+2024-06-02 19:47:00 [INFO]: Model files will be saved to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_3/20240602_T194700
+2024-06-02 19:47:00 [INFO]: Tensorboard file will be saved to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_3/20240602_T194700/tensorboard
+2024-06-02 19:47:00 [INFO]: NonstationaryTransformer initialized with the given hyperparameters, the number of trainable parameters: 24,811,090
+2024-06-02 19:47:08 [INFO]: Epoch 001 - training loss: 0.7248, validation loss: 1.0231
+2024-06-02 19:47:15 [INFO]: Epoch 002 - training loss: 0.4875, validation loss: 1.0607
+2024-06-02 19:47:22 [INFO]: Epoch 003 - training loss: 0.4572, validation loss: 0.9891
+2024-06-02 19:47:29 [INFO]: Epoch 004 - training loss: 0.4421, validation loss: 1.1197
+2024-06-02 19:47:35 [INFO]: Epoch 005 - training loss: 0.4289, validation loss: 1.1659
+2024-06-02 19:47:42 [INFO]: Epoch 006 - training loss: 0.4196, validation loss: 1.1901
+2024-06-02 19:47:49 [INFO]: Epoch 007 - training loss: 0.4130, validation loss: 1.1020
+2024-06-02 19:47:56 [INFO]: Epoch 008 - training loss: 0.4067, validation loss: 1.1229
+2024-06-02 19:48:03 [INFO]: Epoch 009 - training loss: 0.4028, validation loss: 1.2564
+2024-06-02 19:48:11 [INFO]: Epoch 010 - training loss: 0.4003, validation loss: 1.2319
+2024-06-02 19:48:18 [INFO]: Epoch 011 - training loss: 0.3956, validation loss: 1.2149
+2024-06-02 19:48:25 [INFO]: Epoch 012 - training loss: 0.3923, validation loss: 1.2495
+2024-06-02 19:48:32 [INFO]: Epoch 013 - training loss: 0.3879, validation loss: 1.2426
+2024-06-02 19:48:33 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 19:48:33 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-02 19:48:33 [INFO]: Saved the model to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_3/20240602_T194700/NonstationaryTransformer.pypots
+2024-06-02 19:48:34 [INFO]: Successfully saved to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_3/imputation.pkl
+2024-06-02 19:48:34 [INFO]: Round3 - NonstationaryTransformer on Electricity: MAE=0.1922, MSE=0.1498, MRE=0.1028
+2024-06-02 19:48:34 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-02 19:48:34 [INFO]: Using the given device: cuda:0
+2024-06-02 19:48:34 [INFO]: Model files will be saved to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_4/20240602_T194834
+2024-06-02 19:48:34 [INFO]: Tensorboard file will be saved to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_4/20240602_T194834/tensorboard
+2024-06-02 19:48:34 [INFO]: NonstationaryTransformer initialized with the given hyperparameters, the number of trainable parameters: 24,811,090
+2024-06-02 19:48:42 [INFO]: Epoch 001 - training loss: 0.7376, validation loss: 1.1897
+2024-06-02 19:48:48 [INFO]: Epoch 002 - training loss: 0.4891, validation loss: 1.0831
+2024-06-02 19:48:55 [INFO]: Epoch 003 - training loss: 0.4598, validation loss: 1.1120
+2024-06-02 19:49:02 [INFO]: Epoch 004 - training loss: 0.4437, validation loss: 1.1731
+2024-06-02 19:49:09 [INFO]: Epoch 005 - training loss: 0.4325, validation loss: 1.0591
+2024-06-02 19:49:16 [INFO]: Epoch 006 - training loss: 0.4231, validation loss: 1.1049
+2024-06-02 19:49:23 [INFO]: Epoch 007 - training loss: 0.4162, validation loss: 1.2113
+2024-06-02 19:49:30 [INFO]: Epoch 008 - training loss: 0.4098, validation loss: 1.3058
+2024-06-02 19:49:37 [INFO]: Epoch 009 - training loss: 0.4057, validation loss: 1.2760
+2024-06-02 19:49:45 [INFO]: Epoch 010 - training loss: 0.4012, validation loss: 1.2994
+2024-06-02 19:49:52 [INFO]: Epoch 011 - training loss: 0.3964, validation loss: 1.4378
+2024-06-02 19:49:59 [INFO]: Epoch 012 - training loss: 0.3932, validation loss: 1.3156
+2024-06-02 19:50:07 [INFO]: Epoch 013 - training loss: 0.3900, validation loss: 1.3235
+2024-06-02 19:50:14 [INFO]: Epoch 014 - training loss: 0.3866, validation loss: 1.4134
+2024-06-02 19:50:22 [INFO]: Epoch 015 - training loss: 0.3846, validation loss: 1.4380
+2024-06-02 19:50:22 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 19:50:22 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-02 19:50:22 [INFO]: Saved the model to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_4/20240602_T194834/NonstationaryTransformer.pypots
+2024-06-02 19:50:23 [INFO]: Successfully saved to results_point_rate01/Electricity/NonstationaryTransformer_Electricity/round_4/imputation.pkl
+2024-06-02 19:50:23 [INFO]: Round4 - NonstationaryTransformer on Electricity: MAE=0.2078, MSE=0.1737, MRE=0.1112
+2024-06-02 19:50:23 [INFO]: Done! Final results:
+Averaged NonstationaryTransformer (24,811,090 params) on Electricity: MAE=0.2134 ± 0.013508456499818211, MSE=0.1785 ± 0.01823083295027406, MRE=0.1141 ± 0.0072263951361582, average inference time=0.61

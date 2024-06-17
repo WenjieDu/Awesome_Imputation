@@ -1,0 +1,120 @@
+2024-06-03 00:58:37 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 00:58:37 [INFO]: Using the given device: cuda:0
+2024-06-03 00:58:37 [INFO]: Model files will be saved to results_point_rate09/BeijingAir/MICN_BeijingAir/round_0/20240603_T005837
+2024-06-03 00:58:37 [INFO]: Tensorboard file will be saved to results_point_rate09/BeijingAir/MICN_BeijingAir/round_0/20240603_T005837/tensorboard
+2024-06-03 00:58:38 [INFO]: MICN initialized with the given hyperparameters, the number of trainable parameters: 57,048,200
+2024-06-03 00:58:40 [INFO]: Epoch 001 - training loss: 1.3910, validation loss: 1.0354
+2024-06-03 00:58:40 [INFO]: Epoch 002 - training loss: 1.1834, validation loss: 1.0284
+2024-06-03 00:58:41 [INFO]: Epoch 003 - training loss: 1.1248, validation loss: 1.0354
+2024-06-03 00:58:42 [INFO]: Epoch 004 - training loss: 1.0625, validation loss: 1.0544
+2024-06-03 00:58:42 [INFO]: Epoch 005 - training loss: 1.0140, validation loss: 1.0832
+2024-06-03 00:58:43 [INFO]: Epoch 006 - training loss: 0.9597, validation loss: 1.0635
+2024-06-03 00:58:43 [INFO]: Epoch 007 - training loss: 0.9255, validation loss: 1.0131
+2024-06-03 00:58:44 [INFO]: Epoch 008 - training loss: 0.8979, validation loss: 1.0703
+2024-06-03 00:58:45 [INFO]: Epoch 009 - training loss: 0.8575, validation loss: 1.0329
+2024-06-03 00:58:45 [INFO]: Epoch 010 - training loss: 0.8288, validation loss: 1.0843
+2024-06-03 00:58:46 [INFO]: Epoch 011 - training loss: 0.8070, validation loss: 1.0766
+2024-06-03 00:58:47 [INFO]: Epoch 012 - training loss: 0.8017, validation loss: 1.0848
+2024-06-03 00:58:47 [INFO]: Epoch 013 - training loss: 0.7899, validation loss: 1.0730
+2024-06-03 00:58:48 [INFO]: Epoch 014 - training loss: 0.7700, validation loss: 1.0774
+2024-06-03 00:58:48 [INFO]: Epoch 015 - training loss: 0.7648, validation loss: 1.0648
+2024-06-03 00:58:49 [INFO]: Epoch 016 - training loss: 0.7481, validation loss: 1.0897
+2024-06-03 00:58:50 [INFO]: Epoch 017 - training loss: 0.7365, validation loss: 1.0907
+2024-06-03 00:58:50 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:58:50 [INFO]: Finished training. The best model is from epoch#7.
+2024-06-03 00:58:50 [INFO]: Saved the model to results_point_rate09/BeijingAir/MICN_BeijingAir/round_0/20240603_T005837/MICN.pypots
+2024-06-03 00:58:50 [INFO]: Successfully saved to results_point_rate09/BeijingAir/MICN_BeijingAir/round_0/imputation.pkl
+2024-06-03 00:58:50 [INFO]: Round0 - MICN on BeijingAir: MAE=0.6817, MSE=1.0767, MRE=0.9180
+2024-06-03 00:58:50 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 00:58:50 [INFO]: Using the given device: cuda:0
+2024-06-03 00:58:50 [INFO]: Model files will be saved to results_point_rate09/BeijingAir/MICN_BeijingAir/round_1/20240603_T005850
+2024-06-03 00:58:50 [INFO]: Tensorboard file will be saved to results_point_rate09/BeijingAir/MICN_BeijingAir/round_1/20240603_T005850/tensorboard
+2024-06-03 00:58:51 [INFO]: MICN initialized with the given hyperparameters, the number of trainable parameters: 57,048,200
+2024-06-03 00:58:51 [INFO]: Epoch 001 - training loss: 1.4129, validation loss: 1.0311
+2024-06-03 00:58:52 [INFO]: Epoch 002 - training loss: 1.2177, validation loss: 1.0016
+2024-06-03 00:58:53 [INFO]: Epoch 003 - training loss: 1.1858, validation loss: 1.0448
+2024-06-03 00:58:53 [INFO]: Epoch 004 - training loss: 1.1547, validation loss: 1.0157
+2024-06-03 00:58:54 [INFO]: Epoch 005 - training loss: 1.0969, validation loss: 1.0502
+2024-06-03 00:58:55 [INFO]: Epoch 006 - training loss: 1.0229, validation loss: 1.0146
+2024-06-03 00:58:55 [INFO]: Epoch 007 - training loss: 0.9672, validation loss: 1.0546
+2024-06-03 00:58:56 [INFO]: Epoch 008 - training loss: 0.9184, validation loss: 1.0913
+2024-06-03 00:58:56 [INFO]: Epoch 009 - training loss: 0.8838, validation loss: 1.0790
+2024-06-03 00:58:57 [INFO]: Epoch 010 - training loss: 0.8635, validation loss: 1.1069
+2024-06-03 00:58:58 [INFO]: Epoch 011 - training loss: 0.8383, validation loss: 1.0876
+2024-06-03 00:58:58 [INFO]: Epoch 012 - training loss: 0.8077, validation loss: 1.0377
+2024-06-03 00:58:58 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:58:58 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 00:58:59 [INFO]: Saved the model to results_point_rate09/BeijingAir/MICN_BeijingAir/round_1/20240603_T005850/MICN.pypots
+2024-06-03 00:58:59 [INFO]: Successfully saved to results_point_rate09/BeijingAir/MICN_BeijingAir/round_1/imputation.pkl
+2024-06-03 00:58:59 [INFO]: Round1 - MICN on BeijingAir: MAE=0.6735, MSE=1.0574, MRE=0.9069
+2024-06-03 00:58:59 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 00:58:59 [INFO]: Using the given device: cuda:0
+2024-06-03 00:58:59 [INFO]: Model files will be saved to results_point_rate09/BeijingAir/MICN_BeijingAir/round_2/20240603_T005859
+2024-06-03 00:58:59 [INFO]: Tensorboard file will be saved to results_point_rate09/BeijingAir/MICN_BeijingAir/round_2/20240603_T005859/tensorboard
+2024-06-03 00:58:59 [INFO]: MICN initialized with the given hyperparameters, the number of trainable parameters: 57,048,200
+2024-06-03 00:59:00 [INFO]: Epoch 001 - training loss: 1.3893, validation loss: 1.0392
+2024-06-03 00:59:00 [INFO]: Epoch 002 - training loss: 1.1990, validation loss: 1.0248
+2024-06-03 00:59:01 [INFO]: Epoch 003 - training loss: 1.1624, validation loss: 1.0276
+2024-06-03 00:59:01 [INFO]: Epoch 004 - training loss: 1.1118, validation loss: 1.0416
+2024-06-03 00:59:02 [INFO]: Epoch 005 - training loss: 1.0486, validation loss: 1.0285
+2024-06-03 00:59:02 [INFO]: Epoch 006 - training loss: 0.9989, validation loss: 1.1373
+2024-06-03 00:59:02 [INFO]: Epoch 007 - training loss: 0.9492, validation loss: 1.0697
+2024-06-03 00:59:03 [INFO]: Epoch 008 - training loss: 0.9013, validation loss: 1.0832
+2024-06-03 00:59:03 [INFO]: Epoch 009 - training loss: 0.8623, validation loss: 1.0857
+2024-06-03 00:59:04 [INFO]: Epoch 010 - training loss: 0.8526, validation loss: 1.0886
+2024-06-03 00:59:04 [INFO]: Epoch 011 - training loss: 0.8266, validation loss: 1.0849
+2024-06-03 00:59:04 [INFO]: Epoch 012 - training loss: 0.7978, validation loss: 1.1071
+2024-06-03 00:59:04 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:59:04 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 00:59:05 [INFO]: Saved the model to results_point_rate09/BeijingAir/MICN_BeijingAir/round_2/20240603_T005859/MICN.pypots
+2024-06-03 00:59:05 [INFO]: Successfully saved to results_point_rate09/BeijingAir/MICN_BeijingAir/round_2/imputation.pkl
+2024-06-03 00:59:05 [INFO]: Round2 - MICN on BeijingAir: MAE=0.6759, MSE=1.0848, MRE=0.9102
+2024-06-03 00:59:05 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 00:59:05 [INFO]: Using the given device: cuda:0
+2024-06-03 00:59:05 [INFO]: Model files will be saved to results_point_rate09/BeijingAir/MICN_BeijingAir/round_3/20240603_T005905
+2024-06-03 00:59:05 [INFO]: Tensorboard file will be saved to results_point_rate09/BeijingAir/MICN_BeijingAir/round_3/20240603_T005905/tensorboard
+2024-06-03 00:59:05 [INFO]: MICN initialized with the given hyperparameters, the number of trainable parameters: 57,048,200
+2024-06-03 00:59:06 [INFO]: Epoch 001 - training loss: 1.3864, validation loss: 1.0669
+2024-06-03 00:59:06 [INFO]: Epoch 002 - training loss: 1.1950, validation loss: 1.0314
+2024-06-03 00:59:06 [INFO]: Epoch 003 - training loss: 1.1522, validation loss: 1.0194
+2024-06-03 00:59:07 [INFO]: Epoch 004 - training loss: 1.0828, validation loss: 1.1094
+2024-06-03 00:59:07 [INFO]: Epoch 005 - training loss: 1.0330, validation loss: 1.0503
+2024-06-03 00:59:08 [INFO]: Epoch 006 - training loss: 0.9897, validation loss: 1.0664
+2024-06-03 00:59:08 [INFO]: Epoch 007 - training loss: 0.9339, validation loss: 1.0366
+2024-06-03 00:59:08 [INFO]: Epoch 008 - training loss: 0.9012, validation loss: 1.0808
+2024-06-03 00:59:09 [INFO]: Epoch 009 - training loss: 0.8632, validation loss: 1.0612
+2024-06-03 00:59:09 [INFO]: Epoch 010 - training loss: 0.8464, validation loss: 1.0582
+2024-06-03 00:59:10 [INFO]: Epoch 011 - training loss: 0.8264, validation loss: 1.0711
+2024-06-03 00:59:10 [INFO]: Epoch 012 - training loss: 0.7971, validation loss: 1.1261
+2024-06-03 00:59:10 [INFO]: Epoch 013 - training loss: 0.7818, validation loss: 1.0631
+2024-06-03 00:59:10 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:59:10 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 00:59:11 [INFO]: Saved the model to results_point_rate09/BeijingAir/MICN_BeijingAir/round_3/20240603_T005905/MICN.pypots
+2024-06-03 00:59:11 [INFO]: Successfully saved to results_point_rate09/BeijingAir/MICN_BeijingAir/round_3/imputation.pkl
+2024-06-03 00:59:11 [INFO]: Round3 - MICN on BeijingAir: MAE=0.6854, MSE=1.0824, MRE=0.9229
+2024-06-03 00:59:11 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 00:59:11 [INFO]: Using the given device: cuda:0
+2024-06-03 00:59:11 [INFO]: Model files will be saved to results_point_rate09/BeijingAir/MICN_BeijingAir/round_4/20240603_T005911
+2024-06-03 00:59:11 [INFO]: Tensorboard file will be saved to results_point_rate09/BeijingAir/MICN_BeijingAir/round_4/20240603_T005911/tensorboard
+2024-06-03 00:59:11 [INFO]: MICN initialized with the given hyperparameters, the number of trainable parameters: 57,048,200
+2024-06-03 00:59:12 [INFO]: Epoch 001 - training loss: 1.4065, validation loss: 1.0429
+2024-06-03 00:59:12 [INFO]: Epoch 002 - training loss: 1.1956, validation loss: 1.0333
+2024-06-03 00:59:12 [INFO]: Epoch 003 - training loss: 1.1432, validation loss: 1.0250
+2024-06-03 00:59:13 [INFO]: Epoch 004 - training loss: 1.0915, validation loss: 1.0173
+2024-06-03 00:59:13 [INFO]: Epoch 005 - training loss: 1.0448, validation loss: 1.0677
+2024-06-03 00:59:14 [INFO]: Epoch 006 - training loss: 1.0037, validation loss: 1.0954
+2024-06-03 00:59:14 [INFO]: Epoch 007 - training loss: 0.9639, validation loss: 1.0271
+2024-06-03 00:59:14 [INFO]: Epoch 008 - training loss: 0.9223, validation loss: 1.0851
+2024-06-03 00:59:15 [INFO]: Epoch 009 - training loss: 0.8755, validation loss: 1.0498
+2024-06-03 00:59:15 [INFO]: Epoch 010 - training loss: 0.8547, validation loss: 1.1092
+2024-06-03 00:59:16 [INFO]: Epoch 011 - training loss: 0.8331, validation loss: 1.0788
+2024-06-03 00:59:16 [INFO]: Epoch 012 - training loss: 0.8046, validation loss: 1.0503
+2024-06-03 00:59:17 [INFO]: Epoch 013 - training loss: 0.7966, validation loss: 1.1118
+2024-06-03 00:59:17 [INFO]: Epoch 014 - training loss: 0.7758, validation loss: 1.0563
+2024-06-03 00:59:17 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:59:17 [INFO]: Finished training. The best model is from epoch#4.
+2024-06-03 00:59:17 [INFO]: Saved the model to results_point_rate09/BeijingAir/MICN_BeijingAir/round_4/20240603_T005911/MICN.pypots
+2024-06-03 00:59:17 [INFO]: Successfully saved to results_point_rate09/BeijingAir/MICN_BeijingAir/round_4/imputation.pkl
+2024-06-03 00:59:17 [INFO]: Round4 - MICN on BeijingAir: MAE=0.6846, MSE=1.0806, MRE=0.9219
+2024-06-03 00:59:17 [INFO]: Done! Final results:
+Averaged MICN (57,048,200 params) on BeijingAir: MAE=0.6852 ± 0.004859168232921587, MSE=1.0897 ± 0.00988067897634306, MRE=0.9090 ± 0.006446325419658724, average inference time=0.04

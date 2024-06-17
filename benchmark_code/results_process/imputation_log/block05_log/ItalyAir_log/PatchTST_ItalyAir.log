@@ -1,0 +1,166 @@
+2024-06-03 10:00:05 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 10:00:05 [INFO]: Using the given device: cuda:0
+2024-06-03 10:00:07 [INFO]: Model files will be saved to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_0/20240603_T100007
+2024-06-03 10:00:07 [INFO]: Tensorboard file will be saved to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_0/20240603_T100007/tensorboard
+2024-06-03 10:00:07 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=256
+2024-06-03 10:00:07 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (4) * d_k (256)
+2024-06-03 10:00:13 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 5,077,145
+2024-06-03 10:00:30 [INFO]: Epoch 001 - training loss: 1.2531, validation loss: 2.2136
+2024-06-03 10:00:40 [INFO]: Epoch 002 - training loss: 1.1735, validation loss: 2.1286
+2024-06-03 10:00:50 [INFO]: Epoch 003 - training loss: 1.1117, validation loss: 1.9214
+2024-06-03 10:01:00 [INFO]: Epoch 004 - training loss: 0.9903, validation loss: 1.3889
+2024-06-03 10:01:11 [INFO]: Epoch 005 - training loss: 0.7993, validation loss: 1.0103
+2024-06-03 10:01:20 [INFO]: Epoch 006 - training loss: 0.6772, validation loss: 0.8821
+2024-06-03 10:01:31 [INFO]: Epoch 007 - training loss: 0.6267, validation loss: 0.7756
+2024-06-03 10:01:41 [INFO]: Epoch 008 - training loss: 0.5932, validation loss: 0.6985
+2024-06-03 10:01:51 [INFO]: Epoch 009 - training loss: 0.5642, validation loss: 0.7459
+2024-06-03 10:02:01 [INFO]: Epoch 010 - training loss: 0.5569, validation loss: 0.7776
+2024-06-03 10:02:11 [INFO]: Epoch 011 - training loss: 0.5290, validation loss: 0.7868
+2024-06-03 10:02:21 [INFO]: Epoch 012 - training loss: 0.5275, validation loss: 0.7639
+2024-06-03 10:02:31 [INFO]: Epoch 013 - training loss: 0.5221, validation loss: 0.7302
+2024-06-03 10:02:41 [INFO]: Epoch 014 - training loss: 0.5052, validation loss: 0.7640
+2024-06-03 10:02:51 [INFO]: Epoch 015 - training loss: 0.4953, validation loss: 0.7553
+2024-06-03 10:03:02 [INFO]: Epoch 016 - training loss: 0.5051, validation loss: 0.7048
+2024-06-03 10:03:12 [INFO]: Epoch 017 - training loss: 0.5056, validation loss: 0.7258
+2024-06-03 10:03:22 [INFO]: Epoch 018 - training loss: 0.4977, validation loss: 0.7656
+2024-06-03 10:03:22 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 10:03:22 [INFO]: Finished training. The best model is from epoch#8.
+2024-06-03 10:03:22 [INFO]: Saved the model to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_0/20240603_T100007/PatchTST.pypots
+2024-06-03 10:03:27 [INFO]: Successfully saved to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_0/imputation.pkl
+2024-06-03 10:03:27 [INFO]: Round0 - PatchTST on ItalyAir: MAE=0.4965, MSE=0.5503, MRE=0.6067
+2024-06-03 10:03:27 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 10:03:27 [INFO]: Using the given device: cuda:0
+2024-06-03 10:03:27 [INFO]: Model files will be saved to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_1/20240603_T100327
+2024-06-03 10:03:27 [INFO]: Tensorboard file will be saved to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_1/20240603_T100327/tensorboard
+2024-06-03 10:03:27 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=256
+2024-06-03 10:03:27 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (4) * d_k (256)
+2024-06-03 10:03:27 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 5,077,145
+2024-06-03 10:03:38 [INFO]: Epoch 001 - training loss: 1.2720, validation loss: 2.2443
+2024-06-03 10:03:48 [INFO]: Epoch 002 - training loss: 1.1375, validation loss: 2.1088
+2024-06-03 10:03:58 [INFO]: Epoch 003 - training loss: 1.0027, validation loss: 1.7860
+2024-06-03 10:04:08 [INFO]: Epoch 004 - training loss: 0.8461, validation loss: 1.3971
+2024-06-03 10:04:18 [INFO]: Epoch 005 - training loss: 0.7192, validation loss: 1.1262
+2024-06-03 10:04:28 [INFO]: Epoch 006 - training loss: 0.6596, validation loss: 0.9233
+2024-06-03 10:04:38 [INFO]: Epoch 007 - training loss: 0.6062, validation loss: 0.7982
+2024-06-03 10:04:48 [INFO]: Epoch 008 - training loss: 0.5814, validation loss: 0.7344
+2024-06-03 10:04:58 [INFO]: Epoch 009 - training loss: 0.5563, validation loss: 0.7240
+2024-06-03 10:05:08 [INFO]: Epoch 010 - training loss: 0.5327, validation loss: 0.7337
+2024-06-03 10:05:18 [INFO]: Epoch 011 - training loss: 0.5312, validation loss: 0.7693
+2024-06-03 10:05:28 [INFO]: Epoch 012 - training loss: 0.5207, validation loss: 0.7215
+2024-06-03 10:05:38 [INFO]: Epoch 013 - training loss: 0.5242, validation loss: 0.7311
+2024-06-03 10:05:48 [INFO]: Epoch 014 - training loss: 0.5106, validation loss: 0.7391
+2024-06-03 10:05:58 [INFO]: Epoch 015 - training loss: 0.5153, validation loss: 0.7444
+2024-06-03 10:06:07 [INFO]: Epoch 016 - training loss: 0.4992, validation loss: 0.7282
+2024-06-03 10:06:18 [INFO]: Epoch 017 - training loss: 0.4997, validation loss: 0.7517
+2024-06-03 10:06:28 [INFO]: Epoch 018 - training loss: 0.4842, validation loss: 0.7514
+2024-06-03 10:06:38 [INFO]: Epoch 019 - training loss: 0.4925, validation loss: 0.7850
+2024-06-03 10:06:48 [INFO]: Epoch 020 - training loss: 0.4877, validation loss: 0.7609
+2024-06-03 10:06:58 [INFO]: Epoch 021 - training loss: 0.4828, validation loss: 0.7287
+2024-06-03 10:07:08 [INFO]: Epoch 022 - training loss: 0.4807, validation loss: 0.7641
+2024-06-03 10:07:08 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 10:07:08 [INFO]: Finished training. The best model is from epoch#12.
+2024-06-03 10:07:08 [INFO]: Saved the model to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_1/20240603_T100327/PatchTST.pypots
+2024-06-03 10:07:12 [INFO]: Successfully saved to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_1/imputation.pkl
+2024-06-03 10:07:12 [INFO]: Round1 - PatchTST on ItalyAir: MAE=0.4983, MSE=0.5595, MRE=0.6089
+2024-06-03 10:07:12 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 10:07:12 [INFO]: Using the given device: cuda:0
+2024-06-03 10:07:12 [INFO]: Model files will be saved to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_2/20240603_T100712
+2024-06-03 10:07:12 [INFO]: Tensorboard file will be saved to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_2/20240603_T100712/tensorboard
+2024-06-03 10:07:12 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=256
+2024-06-03 10:07:12 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (4) * d_k (256)
+2024-06-03 10:07:13 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 5,077,145
+2024-06-03 10:07:24 [INFO]: Epoch 001 - training loss: 1.2455, validation loss: 2.2658
+2024-06-03 10:07:34 [INFO]: Epoch 002 - training loss: 1.1170, validation loss: 2.0532
+2024-06-03 10:07:44 [INFO]: Epoch 003 - training loss: 1.0110, validation loss: 1.7251
+2024-06-03 10:07:54 [INFO]: Epoch 004 - training loss: 0.8316, validation loss: 1.3085
+2024-06-03 10:08:05 [INFO]: Epoch 005 - training loss: 0.7177, validation loss: 1.1478
+2024-06-03 10:08:15 [INFO]: Epoch 006 - training loss: 0.6516, validation loss: 0.9560
+2024-06-03 10:08:25 [INFO]: Epoch 007 - training loss: 0.6064, validation loss: 0.8862
+2024-06-03 10:08:35 [INFO]: Epoch 008 - training loss: 0.5835, validation loss: 0.7378
+2024-06-03 10:08:45 [INFO]: Epoch 009 - training loss: 0.5448, validation loss: 0.7297
+2024-06-03 10:08:55 [INFO]: Epoch 010 - training loss: 0.5419, validation loss: 0.7047
+2024-06-03 10:09:04 [INFO]: Epoch 011 - training loss: 0.5318, validation loss: 0.7211
+2024-06-03 10:09:15 [INFO]: Epoch 012 - training loss: 0.5155, validation loss: 0.7127
+2024-06-03 10:09:25 [INFO]: Epoch 013 - training loss: 0.5071, validation loss: 0.7718
+2024-06-03 10:09:34 [INFO]: Epoch 014 - training loss: 0.5177, validation loss: 0.7360
+2024-06-03 10:09:44 [INFO]: Epoch 015 - training loss: 0.5014, validation loss: 0.7663
+2024-06-03 10:09:54 [INFO]: Epoch 016 - training loss: 0.5016, validation loss: 0.7435
+2024-06-03 10:10:04 [INFO]: Epoch 017 - training loss: 0.4898, validation loss: 0.7710
+2024-06-03 10:10:15 [INFO]: Epoch 018 - training loss: 0.4918, validation loss: 0.7289
+2024-06-03 10:10:25 [INFO]: Epoch 019 - training loss: 0.4889, validation loss: 0.7892
+2024-06-03 10:10:35 [INFO]: Epoch 020 - training loss: 0.4899, validation loss: 0.7532
+2024-06-03 10:10:35 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 10:10:35 [INFO]: Finished training. The best model is from epoch#10.
+2024-06-03 10:10:35 [INFO]: Saved the model to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_2/20240603_T100712/PatchTST.pypots
+2024-06-03 10:10:40 [INFO]: Successfully saved to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_2/imputation.pkl
+2024-06-03 10:10:40 [INFO]: Round2 - PatchTST on ItalyAir: MAE=0.5011, MSE=0.5667, MRE=0.6124
+2024-06-03 10:10:40 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 10:10:40 [INFO]: Using the given device: cuda:0
+2024-06-03 10:10:40 [INFO]: Model files will be saved to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_3/20240603_T101040
+2024-06-03 10:10:40 [INFO]: Tensorboard file will be saved to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_3/20240603_T101040/tensorboard
+2024-06-03 10:10:40 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=256
+2024-06-03 10:10:40 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (4) * d_k (256)
+2024-06-03 10:10:40 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 5,077,145
+2024-06-03 10:10:51 [INFO]: Epoch 001 - training loss: 1.2408, validation loss: 2.2157
+2024-06-03 10:11:00 [INFO]: Epoch 002 - training loss: 1.1282, validation loss: 2.0927
+2024-06-03 10:11:10 [INFO]: Epoch 003 - training loss: 1.0333, validation loss: 1.8147
+2024-06-03 10:11:20 [INFO]: Epoch 004 - training loss: 0.9000, validation loss: 1.3575
+2024-06-03 10:11:31 [INFO]: Epoch 005 - training loss: 0.7562, validation loss: 1.0762
+2024-06-03 10:11:41 [INFO]: Epoch 006 - training loss: 0.6725, validation loss: 0.8707
+2024-06-03 10:11:50 [INFO]: Epoch 007 - training loss: 0.6226, validation loss: 0.8140
+2024-06-03 10:12:00 [INFO]: Epoch 008 - training loss: 0.6007, validation loss: 0.7634
+2024-06-03 10:12:10 [INFO]: Epoch 009 - training loss: 0.5661, validation loss: 0.7025
+2024-06-03 10:12:20 [INFO]: Epoch 010 - training loss: 0.5453, validation loss: 0.7356
+2024-06-03 10:12:30 [INFO]: Epoch 011 - training loss: 0.5298, validation loss: 0.7304
+2024-06-03 10:12:40 [INFO]: Epoch 012 - training loss: 0.5242, validation loss: 0.6694
+2024-06-03 10:12:50 [INFO]: Epoch 013 - training loss: 0.5263, validation loss: 0.7629
+2024-06-03 10:12:59 [INFO]: Epoch 014 - training loss: 0.5046, validation loss: 0.7515
+2024-06-03 10:13:09 [INFO]: Epoch 015 - training loss: 0.5039, validation loss: 0.7521
+2024-06-03 10:13:19 [INFO]: Epoch 016 - training loss: 0.5053, validation loss: 0.7303
+2024-06-03 10:13:30 [INFO]: Epoch 017 - training loss: 0.4951, validation loss: 0.7451
+2024-06-03 10:13:39 [INFO]: Epoch 018 - training loss: 0.5035, validation loss: 0.7162
+2024-06-03 10:13:49 [INFO]: Epoch 019 - training loss: 0.4984, validation loss: 0.7533
+2024-06-03 10:13:59 [INFO]: Epoch 020 - training loss: 0.4967, validation loss: 0.6919
+2024-06-03 10:14:10 [INFO]: Epoch 021 - training loss: 0.4891, validation loss: 0.7926
+2024-06-03 10:14:20 [INFO]: Epoch 022 - training loss: 0.4812, validation loss: 0.7368
+2024-06-03 10:14:20 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 10:14:20 [INFO]: Finished training. The best model is from epoch#12.
+2024-06-03 10:14:20 [INFO]: Saved the model to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_3/20240603_T101040/PatchTST.pypots
+2024-06-03 10:14:24 [INFO]: Successfully saved to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_3/imputation.pkl
+2024-06-03 10:14:24 [INFO]: Round3 - PatchTST on ItalyAir: MAE=0.4922, MSE=0.5431, MRE=0.6015
+2024-06-03 10:14:24 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 10:14:24 [INFO]: Using the given device: cuda:0
+2024-06-03 10:14:24 [INFO]: Model files will be saved to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_4/20240603_T101424
+2024-06-03 10:14:24 [INFO]: Tensorboard file will be saved to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_4/20240603_T101424/tensorboard
+2024-06-03 10:14:24 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=256
+2024-06-03 10:14:24 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (4) * d_k (256)
+2024-06-03 10:14:25 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 5,077,145
+2024-06-03 10:14:35 [INFO]: Epoch 001 - training loss: 1.2535, validation loss: 2.2046
+2024-06-03 10:14:45 [INFO]: Epoch 002 - training loss: 1.1275, validation loss: 2.0572
+2024-06-03 10:14:55 [INFO]: Epoch 003 - training loss: 0.9925, validation loss: 1.6965
+2024-06-03 10:15:05 [INFO]: Epoch 004 - training loss: 0.8516, validation loss: 1.3231
+2024-06-03 10:15:15 [INFO]: Epoch 005 - training loss: 0.7325, validation loss: 1.1018
+2024-06-03 10:15:26 [INFO]: Epoch 006 - training loss: 0.6621, validation loss: 0.9864
+2024-06-03 10:15:35 [INFO]: Epoch 007 - training loss: 0.6223, validation loss: 0.8438
+2024-06-03 10:15:46 [INFO]: Epoch 008 - training loss: 0.5885, validation loss: 0.7683
+2024-06-03 10:15:56 [INFO]: Epoch 009 - training loss: 0.5747, validation loss: 0.7602
+2024-06-03 10:16:05 [INFO]: Epoch 010 - training loss: 0.5438, validation loss: 0.7708
+2024-06-03 10:16:15 [INFO]: Epoch 011 - training loss: 0.5329, validation loss: 0.7685
+2024-06-03 10:16:25 [INFO]: Epoch 012 - training loss: 0.5257, validation loss: 0.7391
+2024-06-03 10:16:35 [INFO]: Epoch 013 - training loss: 0.5190, validation loss: 0.7777
+2024-06-03 10:16:45 [INFO]: Epoch 014 - training loss: 0.5082, validation loss: 0.7751
+2024-06-03 10:16:55 [INFO]: Epoch 015 - training loss: 0.5129, validation loss: 0.7431
+2024-06-03 10:17:05 [INFO]: Epoch 016 - training loss: 0.5127, validation loss: 0.7573
+2024-06-03 10:17:15 [INFO]: Epoch 017 - training loss: 0.5030, validation loss: 0.7973
+2024-06-03 10:17:24 [INFO]: Epoch 018 - training loss: 0.5047, validation loss: 0.7932
+2024-06-03 10:17:34 [INFO]: Epoch 019 - training loss: 0.4950, validation loss: 0.7777
+2024-06-03 10:17:43 [INFO]: Epoch 020 - training loss: 0.4893, validation loss: 0.8068
+2024-06-03 10:17:53 [INFO]: Epoch 021 - training loss: 0.4949, validation loss: 0.8211
+2024-06-03 10:18:03 [INFO]: Epoch 022 - training loss: 0.4936, validation loss: 0.7615
+2024-06-03 10:18:03 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 10:18:03 [INFO]: Finished training. The best model is from epoch#12.
+2024-06-03 10:18:03 [INFO]: Saved the model to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_4/20240603_T101424/PatchTST.pypots
+2024-06-03 10:18:07 [INFO]: Successfully saved to results_block_rate05/ItalyAir/PatchTST_ItalyAir/round_4/imputation.pkl
+2024-06-03 10:18:07 [INFO]: Round4 - PatchTST on ItalyAir: MAE=0.4959, MSE=0.5586, MRE=0.6060
+2024-06-03 10:18:07 [INFO]: Done! Final results:
+Averaged PatchTST (5,077,145 params) on ItalyAir: MAE=0.4968 ± 0.002928260312742807, MSE=0.5557 ± 0.0081374517779853, MRE=0.6071 ± 0.0035784413725870657, average inference time=0.83

@@ -1,0 +1,339 @@
+2024-06-02 21:09:18 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-02 21:09:18 [INFO]: Using the given device: cuda:0
+2024-06-02 21:09:19 [INFO]: Model files will be saved to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_0/20240602_T210919
+2024-06-02 21:09:19 [INFO]: Tensorboard file will be saved to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_0/20240602_T210919/tensorboard
+2024-06-02 21:09:20 [INFO]: StemGNN initialized with the given hyperparameters, the number of trainable parameters: 926,737
+2024-06-02 21:09:24 [INFO]: Epoch 001 - training loss: 1.2695, validation loss: 2.0171
+2024-06-02 21:09:26 [INFO]: Epoch 002 - training loss: 0.9600, validation loss: 1.5057
+2024-06-02 21:09:28 [INFO]: Epoch 003 - training loss: 0.7650, validation loss: 1.3028
+2024-06-02 21:09:29 [INFO]: Epoch 004 - training loss: 0.6677, validation loss: 1.0659
+2024-06-02 21:09:31 [INFO]: Epoch 005 - training loss: 0.6300, validation loss: 0.9059
+2024-06-02 21:09:33 [INFO]: Epoch 006 - training loss: 0.6074, validation loss: 0.7869
+2024-06-02 21:09:35 [INFO]: Epoch 007 - training loss: 0.5236, validation loss: 0.6073
+2024-06-02 21:09:37 [INFO]: Epoch 008 - training loss: 0.4983, validation loss: 0.5034
+2024-06-02 21:09:39 [INFO]: Epoch 009 - training loss: 0.4783, validation loss: 0.4434
+2024-06-02 21:09:41 [INFO]: Epoch 010 - training loss: 0.4663, validation loss: 0.4404
+2024-06-02 21:09:43 [INFO]: Epoch 011 - training loss: 0.4481, validation loss: 0.4111
+2024-06-02 21:09:45 [INFO]: Epoch 012 - training loss: 0.4656, validation loss: 0.3699
+2024-06-02 21:09:46 [INFO]: Epoch 013 - training loss: 0.4342, validation loss: 0.3953
+2024-06-02 21:09:48 [INFO]: Epoch 014 - training loss: 0.4328, validation loss: 0.3701
+2024-06-02 21:09:50 [INFO]: Epoch 015 - training loss: 0.4244, validation loss: 0.3409
+2024-06-02 21:09:52 [INFO]: Epoch 016 - training loss: 0.4232, validation loss: 0.3818
+2024-06-02 21:09:54 [INFO]: Epoch 017 - training loss: 0.4105, validation loss: 0.3421
+2024-06-02 21:09:56 [INFO]: Epoch 018 - training loss: 0.3987, validation loss: 0.3333
+2024-06-02 21:09:58 [INFO]: Epoch 019 - training loss: 0.3900, validation loss: 0.3356
+2024-06-02 21:09:59 [INFO]: Epoch 020 - training loss: 0.3833, validation loss: 0.3173
+2024-06-02 21:10:01 [INFO]: Epoch 021 - training loss: 0.3811, validation loss: 0.2937
+2024-06-02 21:10:03 [INFO]: Epoch 022 - training loss: 0.3715, validation loss: 0.3077
+2024-06-02 21:10:05 [INFO]: Epoch 023 - training loss: 0.3693, validation loss: 0.3095
+2024-06-02 21:10:07 [INFO]: Epoch 024 - training loss: 0.3746, validation loss: 0.3091
+2024-06-02 21:10:08 [INFO]: Epoch 025 - training loss: 0.3607, validation loss: 0.2980
+2024-06-02 21:10:10 [INFO]: Epoch 026 - training loss: 0.3459, validation loss: 0.3092
+2024-06-02 21:10:12 [INFO]: Epoch 027 - training loss: 0.3382, validation loss: 0.2982
+2024-06-02 21:10:14 [INFO]: Epoch 028 - training loss: 0.3453, validation loss: 0.2845
+2024-06-02 21:10:16 [INFO]: Epoch 029 - training loss: 0.3519, validation loss: 0.3136
+2024-06-02 21:10:18 [INFO]: Epoch 030 - training loss: 0.3405, validation loss: 0.3104
+2024-06-02 21:10:19 [INFO]: Epoch 031 - training loss: 0.3337, validation loss: 0.2922
+2024-06-02 21:10:21 [INFO]: Epoch 032 - training loss: 0.3350, validation loss: 0.3039
+2024-06-02 21:10:23 [INFO]: Epoch 033 - training loss: 0.3341, validation loss: 0.2896
+2024-06-02 21:10:25 [INFO]: Epoch 034 - training loss: 0.3394, validation loss: 0.2883
+2024-06-02 21:10:27 [INFO]: Epoch 035 - training loss: 0.3318, validation loss: 0.2857
+2024-06-02 21:10:28 [INFO]: Epoch 036 - training loss: 0.3321, validation loss: 0.3175
+2024-06-02 21:10:30 [INFO]: Epoch 037 - training loss: 0.3320, validation loss: 0.2946
+2024-06-02 21:10:32 [INFO]: Epoch 038 - training loss: 0.3271, validation loss: 0.2933
+2024-06-02 21:10:32 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 21:10:32 [INFO]: Finished training. The best model is from epoch#28.
+2024-06-02 21:10:32 [INFO]: Saved the model to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_0/20240602_T210919/StemGNN.pypots
+2024-06-02 21:10:33 [INFO]: Successfully saved to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_0/imputation.pkl
+2024-06-02 21:10:33 [INFO]: Round0 - StemGNN on ItalyAir: MAE=0.3202, MSE=0.2961, MRE=0.4187
+2024-06-02 21:10:33 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-02 21:10:33 [INFO]: Using the given device: cuda:0
+2024-06-02 21:10:33 [INFO]: Model files will be saved to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_1/20240602_T211033
+2024-06-02 21:10:33 [INFO]: Tensorboard file will be saved to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_1/20240602_T211033/tensorboard
+2024-06-02 21:10:33 [INFO]: StemGNN initialized with the given hyperparameters, the number of trainable parameters: 926,737
+2024-06-02 21:10:35 [INFO]: Epoch 001 - training loss: 1.2252, validation loss: 2.0201
+2024-06-02 21:10:37 [INFO]: Epoch 002 - training loss: 0.9937, validation loss: 1.6908
+2024-06-02 21:10:39 [INFO]: Epoch 003 - training loss: 0.7855, validation loss: 1.2800
+2024-06-02 21:10:41 [INFO]: Epoch 004 - training loss: 0.6430, validation loss: 0.8781
+2024-06-02 21:10:43 [INFO]: Epoch 005 - training loss: 0.5800, validation loss: 0.7404
+2024-06-02 21:10:44 [INFO]: Epoch 006 - training loss: 0.5176, validation loss: 0.5688
+2024-06-02 21:10:46 [INFO]: Epoch 007 - training loss: 0.4843, validation loss: 0.5216
+2024-06-02 21:10:48 [INFO]: Epoch 008 - training loss: 0.4726, validation loss: 0.4531
+2024-06-02 21:10:50 [INFO]: Epoch 009 - training loss: 0.4675, validation loss: 0.4246
+2024-06-02 21:10:51 [INFO]: Epoch 010 - training loss: 0.4526, validation loss: 0.4229
+2024-06-02 21:10:53 [INFO]: Epoch 011 - training loss: 0.4539, validation loss: 0.4010
+2024-06-02 21:10:55 [INFO]: Epoch 012 - training loss: 0.4304, validation loss: 0.3840
+2024-06-02 21:10:57 [INFO]: Epoch 013 - training loss: 0.4274, validation loss: 0.3663
+2024-06-02 21:10:59 [INFO]: Epoch 014 - training loss: 0.4061, validation loss: 0.3772
+2024-06-02 21:11:01 [INFO]: Epoch 015 - training loss: 0.3913, validation loss: 0.3798
+2024-06-02 21:11:02 [INFO]: Epoch 016 - training loss: 0.3920, validation loss: 0.3970
+2024-06-02 21:11:04 [INFO]: Epoch 017 - training loss: 0.3951, validation loss: 0.3823
+2024-06-02 21:11:06 [INFO]: Epoch 018 - training loss: 0.3820, validation loss: 0.3535
+2024-06-02 21:11:08 [INFO]: Epoch 019 - training loss: 0.3792, validation loss: 0.3782
+2024-06-02 21:11:10 [INFO]: Epoch 020 - training loss: 0.3641, validation loss: 0.3385
+2024-06-02 21:11:12 [INFO]: Epoch 021 - training loss: 0.3706, validation loss: 0.3605
+2024-06-02 21:11:13 [INFO]: Epoch 022 - training loss: 0.3635, validation loss: 0.3626
+2024-06-02 21:11:15 [INFO]: Epoch 023 - training loss: 0.3612, validation loss: 0.3546
+2024-06-02 21:11:17 [INFO]: Epoch 024 - training loss: 0.3586, validation loss: 0.3540
+2024-06-02 21:11:19 [INFO]: Epoch 025 - training loss: 0.3675, validation loss: 0.3384
+2024-06-02 21:11:21 [INFO]: Epoch 026 - training loss: 0.3495, validation loss: 0.3299
+2024-06-02 21:11:23 [INFO]: Epoch 027 - training loss: 0.3464, validation loss: 0.3375
+2024-06-02 21:11:24 [INFO]: Epoch 028 - training loss: 0.3566, validation loss: 0.3544
+2024-06-02 21:11:26 [INFO]: Epoch 029 - training loss: 0.3571, validation loss: 0.3346
+2024-06-02 21:11:28 [INFO]: Epoch 030 - training loss: 0.3344, validation loss: 0.3177
+2024-06-02 21:11:30 [INFO]: Epoch 031 - training loss: 0.3340, validation loss: 0.3442
+2024-06-02 21:11:32 [INFO]: Epoch 032 - training loss: 0.3411, validation loss: 0.3535
+2024-06-02 21:11:34 [INFO]: Epoch 033 - training loss: 0.3440, validation loss: 0.3283
+2024-06-02 21:11:36 [INFO]: Epoch 034 - training loss: 0.3307, validation loss: 0.3125
+2024-06-02 21:11:38 [INFO]: Epoch 035 - training loss: 0.3352, validation loss: 0.3366
+2024-06-02 21:11:40 [INFO]: Epoch 036 - training loss: 0.3298, validation loss: 0.2960
+2024-06-02 21:11:41 [INFO]: Epoch 037 - training loss: 0.3168, validation loss: 0.3064
+2024-06-02 21:11:43 [INFO]: Epoch 038 - training loss: 0.3165, validation loss: 0.2982
+2024-06-02 21:11:45 [INFO]: Epoch 039 - training loss: 0.3289, validation loss: 0.3111
+2024-06-02 21:11:47 [INFO]: Epoch 040 - training loss: 0.3472, validation loss: 0.3238
+2024-06-02 21:11:48 [INFO]: Epoch 041 - training loss: 0.3387, validation loss: 0.3152
+2024-06-02 21:11:50 [INFO]: Epoch 042 - training loss: 0.3242, validation loss: 0.3292
+2024-06-02 21:11:52 [INFO]: Epoch 043 - training loss: 0.3130, validation loss: 0.2937
+2024-06-02 21:11:54 [INFO]: Epoch 044 - training loss: 0.3131, validation loss: 0.2970
+2024-06-02 21:11:56 [INFO]: Epoch 045 - training loss: 0.3134, validation loss: 0.3062
+2024-06-02 21:11:58 [INFO]: Epoch 046 - training loss: 0.3083, validation loss: 0.3039
+2024-06-02 21:12:00 [INFO]: Epoch 047 - training loss: 0.3055, validation loss: 0.2886
+2024-06-02 21:12:02 [INFO]: Epoch 048 - training loss: 0.3064, validation loss: 0.2993
+2024-06-02 21:12:03 [INFO]: Epoch 049 - training loss: 0.3024, validation loss: 0.3052
+2024-06-02 21:12:05 [INFO]: Epoch 050 - training loss: 0.2938, validation loss: 0.2767
+2024-06-02 21:12:07 [INFO]: Epoch 051 - training loss: 0.2948, validation loss: 0.3004
+2024-06-02 21:12:09 [INFO]: Epoch 052 - training loss: 0.2975, validation loss: 0.2857
+2024-06-02 21:12:11 [INFO]: Epoch 053 - training loss: 0.2956, validation loss: 0.2786
+2024-06-02 21:12:13 [INFO]: Epoch 054 - training loss: 0.3033, validation loss: 0.3226
+2024-06-02 21:12:14 [INFO]: Epoch 055 - training loss: 0.3021, validation loss: 0.2947
+2024-06-02 21:12:16 [INFO]: Epoch 056 - training loss: 0.2935, validation loss: 0.2923
+2024-06-02 21:12:18 [INFO]: Epoch 057 - training loss: 0.2891, validation loss: 0.2937
+2024-06-02 21:12:20 [INFO]: Epoch 058 - training loss: 0.2861, validation loss: 0.3007
+2024-06-02 21:12:22 [INFO]: Epoch 059 - training loss: 0.2998, validation loss: 0.2885
+2024-06-02 21:12:24 [INFO]: Epoch 060 - training loss: 0.2830, validation loss: 0.2939
+2024-06-02 21:12:24 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 21:12:24 [INFO]: Finished training. The best model is from epoch#50.
+2024-06-02 21:12:24 [INFO]: Saved the model to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_1/20240602_T211033/StemGNN.pypots
+2024-06-02 21:12:25 [INFO]: Successfully saved to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_1/imputation.pkl
+2024-06-02 21:12:25 [INFO]: Round1 - StemGNN on ItalyAir: MAE=0.2925, MSE=0.2640, MRE=0.3825
+2024-06-02 21:12:25 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-02 21:12:25 [INFO]: Using the given device: cuda:0
+2024-06-02 21:12:25 [INFO]: Model files will be saved to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_2/20240602_T211225
+2024-06-02 21:12:25 [INFO]: Tensorboard file will be saved to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_2/20240602_T211225/tensorboard
+2024-06-02 21:12:25 [INFO]: StemGNN initialized with the given hyperparameters, the number of trainable parameters: 926,737
+2024-06-02 21:12:27 [INFO]: Epoch 001 - training loss: 1.2864, validation loss: 2.0338
+2024-06-02 21:12:29 [INFO]: Epoch 002 - training loss: 1.0187, validation loss: 1.5594
+2024-06-02 21:12:30 [INFO]: Epoch 003 - training loss: 0.7941, validation loss: 1.4959
+2024-06-02 21:12:32 [INFO]: Epoch 004 - training loss: 0.6967, validation loss: 1.1615
+2024-06-02 21:12:34 [INFO]: Epoch 005 - training loss: 0.6513, validation loss: 1.0504
+2024-06-02 21:12:36 [INFO]: Epoch 006 - training loss: 0.6032, validation loss: 0.7417
+2024-06-02 21:12:38 [INFO]: Epoch 007 - training loss: 0.5377, validation loss: 0.6440
+2024-06-02 21:12:40 [INFO]: Epoch 008 - training loss: 0.5067, validation loss: 0.5829
+2024-06-02 21:12:41 [INFO]: Epoch 009 - training loss: 0.4872, validation loss: 0.5527
+2024-06-02 21:12:43 [INFO]: Epoch 010 - training loss: 0.4813, validation loss: 0.4692
+2024-06-02 21:12:45 [INFO]: Epoch 011 - training loss: 0.4611, validation loss: 0.4610
+2024-06-02 21:12:47 [INFO]: Epoch 012 - training loss: 0.4533, validation loss: 0.4228
+2024-06-02 21:12:49 [INFO]: Epoch 013 - training loss: 0.4399, validation loss: 0.4666
+2024-06-02 21:12:50 [INFO]: Epoch 014 - training loss: 0.4365, validation loss: 0.3801
+2024-06-02 21:12:52 [INFO]: Epoch 015 - training loss: 0.4308, validation loss: 0.3991
+2024-06-02 21:12:54 [INFO]: Epoch 016 - training loss: 0.4341, validation loss: 0.3719
+2024-06-02 21:12:56 [INFO]: Epoch 017 - training loss: 0.4269, validation loss: 0.3735
+2024-06-02 21:12:58 [INFO]: Epoch 018 - training loss: 0.4017, validation loss: 0.3740
+2024-06-02 21:13:00 [INFO]: Epoch 019 - training loss: 0.3925, validation loss: 0.3715
+2024-06-02 21:13:01 [INFO]: Epoch 020 - training loss: 0.3801, validation loss: 0.3446
+2024-06-02 21:13:03 [INFO]: Epoch 021 - training loss: 0.3777, validation loss: 0.3652
+2024-06-02 21:13:05 [INFO]: Epoch 022 - training loss: 0.3711, validation loss: 0.3449
+2024-06-02 21:13:06 [INFO]: Epoch 023 - training loss: 0.3608, validation loss: 0.3367
+2024-06-02 21:13:08 [INFO]: Epoch 024 - training loss: 0.3675, validation loss: 0.3703
+2024-06-02 21:13:10 [INFO]: Epoch 025 - training loss: 0.3589, validation loss: 0.3364
+2024-06-02 21:13:11 [INFO]: Epoch 026 - training loss: 0.3498, validation loss: 0.3123
+2024-06-02 21:13:13 [INFO]: Epoch 027 - training loss: 0.3410, validation loss: 0.3046
+2024-06-02 21:13:15 [INFO]: Epoch 028 - training loss: 0.3490, validation loss: 0.3036
+2024-06-02 21:13:16 [INFO]: Epoch 029 - training loss: 0.3473, validation loss: 0.3281
+2024-06-02 21:13:18 [INFO]: Epoch 030 - training loss: 0.3308, validation loss: 0.3154
+2024-06-02 21:13:20 [INFO]: Epoch 031 - training loss: 0.3328, validation loss: 0.3283
+2024-06-02 21:13:21 [INFO]: Epoch 032 - training loss: 0.3354, validation loss: 0.3202
+2024-06-02 21:13:23 [INFO]: Epoch 033 - training loss: 0.3353, validation loss: 0.3065
+2024-06-02 21:13:25 [INFO]: Epoch 034 - training loss: 0.3301, validation loss: 0.3252
+2024-06-02 21:13:26 [INFO]: Epoch 035 - training loss: 0.3312, validation loss: 0.3070
+2024-06-02 21:13:28 [INFO]: Epoch 036 - training loss: 0.3229, validation loss: 0.3134
+2024-06-02 21:13:30 [INFO]: Epoch 037 - training loss: 0.3208, validation loss: 0.3128
+2024-06-02 21:13:32 [INFO]: Epoch 038 - training loss: 0.3237, validation loss: 0.3362
+2024-06-02 21:13:32 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 21:13:32 [INFO]: Finished training. The best model is from epoch#28.
+2024-06-02 21:13:32 [INFO]: Saved the model to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_2/20240602_T211225/StemGNN.pypots
+2024-06-02 21:13:33 [INFO]: Successfully saved to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_2/imputation.pkl
+2024-06-02 21:13:33 [INFO]: Round2 - StemGNN on ItalyAir: MAE=0.3236, MSE=0.3084, MRE=0.4232
+2024-06-02 21:13:33 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-02 21:13:33 [INFO]: Using the given device: cuda:0
+2024-06-02 21:13:33 [INFO]: Model files will be saved to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_3/20240602_T211333
+2024-06-02 21:13:33 [INFO]: Tensorboard file will be saved to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_3/20240602_T211333/tensorboard
+2024-06-02 21:13:33 [INFO]: StemGNN initialized with the given hyperparameters, the number of trainable parameters: 926,737
+2024-06-02 21:13:35 [INFO]: Epoch 001 - training loss: 1.2179, validation loss: 2.0793
+2024-06-02 21:13:36 [INFO]: Epoch 002 - training loss: 1.1320, validation loss: 2.0117
+2024-06-02 21:13:38 [INFO]: Epoch 003 - training loss: 1.0239, validation loss: 1.7317
+2024-06-02 21:13:39 [INFO]: Epoch 004 - training loss: 0.7852, validation loss: 1.3578
+2024-06-02 21:13:41 [INFO]: Epoch 005 - training loss: 0.6728, validation loss: 1.1060
+2024-06-02 21:13:43 [INFO]: Epoch 006 - training loss: 0.5963, validation loss: 0.8956
+2024-06-02 21:13:44 [INFO]: Epoch 007 - training loss: 0.5530, validation loss: 0.7591
+2024-06-02 21:13:46 [INFO]: Epoch 008 - training loss: 0.5299, validation loss: 0.6696
+2024-06-02 21:13:47 [INFO]: Epoch 009 - training loss: 0.4921, validation loss: 0.6096
+2024-06-02 21:13:49 [INFO]: Epoch 010 - training loss: 0.4658, validation loss: 0.5503
+2024-06-02 21:13:50 [INFO]: Epoch 011 - training loss: 0.4674, validation loss: 0.4775
+2024-06-02 21:13:52 [INFO]: Epoch 012 - training loss: 0.4554, validation loss: 0.4266
+2024-06-02 21:13:54 [INFO]: Epoch 013 - training loss: 0.4440, validation loss: 0.4156
+2024-06-02 21:13:55 [INFO]: Epoch 014 - training loss: 0.4289, validation loss: 0.3988
+2024-06-02 21:13:57 [INFO]: Epoch 015 - training loss: 0.4183, validation loss: 0.3840
+2024-06-02 21:13:58 [INFO]: Epoch 016 - training loss: 0.4072, validation loss: 0.3712
+2024-06-02 21:13:59 [INFO]: Epoch 017 - training loss: 0.4054, validation loss: 0.3689
+2024-06-02 21:14:01 [INFO]: Epoch 018 - training loss: 0.4156, validation loss: 0.3648
+2024-06-02 21:14:02 [INFO]: Epoch 019 - training loss: 0.4029, validation loss: 0.3725
+2024-06-02 21:14:03 [INFO]: Epoch 020 - training loss: 0.3919, validation loss: 0.3616
+2024-06-02 21:14:04 [INFO]: Epoch 021 - training loss: 0.3807, validation loss: 0.3599
+2024-06-02 21:14:06 [INFO]: Epoch 022 - training loss: 0.3922, validation loss: 0.3632
+2024-06-02 21:14:07 [INFO]: Epoch 023 - training loss: 0.3819, validation loss: 0.3416
+2024-06-02 21:14:09 [INFO]: Epoch 024 - training loss: 0.3637, validation loss: 0.3510
+2024-06-02 21:14:10 [INFO]: Epoch 025 - training loss: 0.3668, validation loss: 0.3407
+2024-06-02 21:14:11 [INFO]: Epoch 026 - training loss: 0.3585, validation loss: 0.3281
+2024-06-02 21:14:12 [INFO]: Epoch 027 - training loss: 0.3582, validation loss: 0.3354
+2024-06-02 21:14:14 [INFO]: Epoch 028 - training loss: 0.3650, validation loss: 0.3400
+2024-06-02 21:14:15 [INFO]: Epoch 029 - training loss: 0.3756, validation loss: 0.3328
+2024-06-02 21:14:17 [INFO]: Epoch 030 - training loss: 0.3624, validation loss: 0.3636
+2024-06-02 21:14:18 [INFO]: Epoch 031 - training loss: 0.3508, validation loss: 0.3173
+2024-06-02 21:14:19 [INFO]: Epoch 032 - training loss: 0.3506, validation loss: 0.3168
+2024-06-02 21:14:21 [INFO]: Epoch 033 - training loss: 0.3365, validation loss: 0.3036
+2024-06-02 21:14:22 [INFO]: Epoch 034 - training loss: 0.3391, validation loss: 0.3257
+2024-06-02 21:14:24 [INFO]: Epoch 035 - training loss: 0.3378, validation loss: 0.3231
+2024-06-02 21:14:25 [INFO]: Epoch 036 - training loss: 0.3408, validation loss: 0.3223
+2024-06-02 21:14:26 [INFO]: Epoch 037 - training loss: 0.3378, validation loss: 0.2975
+2024-06-02 21:14:28 [INFO]: Epoch 038 - training loss: 0.3339, validation loss: 0.2961
+2024-06-02 21:14:29 [INFO]: Epoch 039 - training loss: 0.3298, validation loss: 0.2932
+2024-06-02 21:14:31 [INFO]: Epoch 040 - training loss: 0.3234, validation loss: 0.2990
+2024-06-02 21:14:32 [INFO]: Epoch 041 - training loss: 0.3336, validation loss: 0.3010
+2024-06-02 21:14:33 [INFO]: Epoch 042 - training loss: 0.3278, validation loss: 0.3002
+2024-06-02 21:14:35 [INFO]: Epoch 043 - training loss: 0.3213, validation loss: 0.3101
+2024-06-02 21:14:36 [INFO]: Epoch 044 - training loss: 0.3184, validation loss: 0.3037
+2024-06-02 21:14:38 [INFO]: Epoch 045 - training loss: 0.3162, validation loss: 0.3021
+2024-06-02 21:14:39 [INFO]: Epoch 046 - training loss: 0.3277, validation loss: 0.3115
+2024-06-02 21:14:40 [INFO]: Epoch 047 - training loss: 0.3200, validation loss: 0.2984
+2024-06-02 21:14:42 [INFO]: Epoch 048 - training loss: 0.3171, validation loss: 0.3091
+2024-06-02 21:14:43 [INFO]: Epoch 049 - training loss: 0.3125, validation loss: 0.2866
+2024-06-02 21:14:44 [INFO]: Epoch 050 - training loss: 0.3067, validation loss: 0.2908
+2024-06-02 21:14:46 [INFO]: Epoch 051 - training loss: 0.3010, validation loss: 0.2869
+2024-06-02 21:14:47 [INFO]: Epoch 052 - training loss: 0.3027, validation loss: 0.2908
+2024-06-02 21:14:48 [INFO]: Epoch 053 - training loss: 0.3081, validation loss: 0.2761
+2024-06-02 21:14:50 [INFO]: Epoch 054 - training loss: 0.3059, validation loss: 0.2757
+2024-06-02 21:14:51 [INFO]: Epoch 055 - training loss: 0.3125, validation loss: 0.2863
+2024-06-02 21:14:52 [INFO]: Epoch 056 - training loss: 0.3081, validation loss: 0.2694
+2024-06-02 21:14:54 [INFO]: Epoch 057 - training loss: 0.2971, validation loss: 0.2957
+2024-06-02 21:14:55 [INFO]: Epoch 058 - training loss: 0.3081, validation loss: 0.2833
+2024-06-02 21:14:56 [INFO]: Epoch 059 - training loss: 0.2963, validation loss: 0.2902
+2024-06-02 21:14:58 [INFO]: Epoch 060 - training loss: 0.2964, validation loss: 0.2811
+2024-06-02 21:14:59 [INFO]: Epoch 061 - training loss: 0.2919, validation loss: 0.2757
+2024-06-02 21:15:00 [INFO]: Epoch 062 - training loss: 0.2919, validation loss: 0.2817
+2024-06-02 21:15:02 [INFO]: Epoch 063 - training loss: 0.2939, validation loss: 0.2646
+2024-06-02 21:15:03 [INFO]: Epoch 064 - training loss: 0.2980, validation loss: 0.2712
+2024-06-02 21:15:04 [INFO]: Epoch 065 - training loss: 0.2880, validation loss: 0.2725
+2024-06-02 21:15:06 [INFO]: Epoch 066 - training loss: 0.2989, validation loss: 0.2746
+2024-06-02 21:15:07 [INFO]: Epoch 067 - training loss: 0.2877, validation loss: 0.2723
+2024-06-02 21:15:08 [INFO]: Epoch 068 - training loss: 0.2847, validation loss: 0.2670
+2024-06-02 21:15:10 [INFO]: Epoch 069 - training loss: 0.2865, validation loss: 0.2672
+2024-06-02 21:15:11 [INFO]: Epoch 070 - training loss: 0.2930, validation loss: 0.2843
+2024-06-02 21:15:12 [INFO]: Epoch 071 - training loss: 0.2841, validation loss: 0.2640
+2024-06-02 21:15:14 [INFO]: Epoch 072 - training loss: 0.2845, validation loss: 0.2522
+2024-06-02 21:15:15 [INFO]: Epoch 073 - training loss: 0.2871, validation loss: 0.2761
+2024-06-02 21:15:16 [INFO]: Epoch 074 - training loss: 0.2833, validation loss: 0.2758
+2024-06-02 21:15:17 [INFO]: Epoch 075 - training loss: 0.2909, validation loss: 0.2615
+2024-06-02 21:15:18 [INFO]: Epoch 076 - training loss: 0.2765, validation loss: 0.2625
+2024-06-02 21:15:19 [INFO]: Epoch 077 - training loss: 0.2748, validation loss: 0.2805
+2024-06-02 21:15:20 [INFO]: Epoch 078 - training loss: 0.2782, validation loss: 0.2563
+2024-06-02 21:15:20 [INFO]: Epoch 079 - training loss: 0.2793, validation loss: 0.2656
+2024-06-02 21:15:21 [INFO]: Epoch 080 - training loss: 0.2784, validation loss: 0.2535
+2024-06-02 21:15:22 [INFO]: Epoch 081 - training loss: 0.2886, validation loss: 0.2382
+2024-06-02 21:15:23 [INFO]: Epoch 082 - training loss: 0.2884, validation loss: 0.2520
+2024-06-02 21:15:24 [INFO]: Epoch 083 - training loss: 0.2732, validation loss: 0.2467
+2024-06-02 21:15:24 [INFO]: Epoch 084 - training loss: 0.2740, validation loss: 0.2571
+2024-06-02 21:15:25 [INFO]: Epoch 085 - training loss: 0.2832, validation loss: 0.2661
+2024-06-02 21:15:26 [INFO]: Epoch 086 - training loss: 0.2840, validation loss: 0.2476
+2024-06-02 21:15:27 [INFO]: Epoch 087 - training loss: 0.2853, validation loss: 0.2636
+2024-06-02 21:15:28 [INFO]: Epoch 088 - training loss: 0.2829, validation loss: 0.2574
+2024-06-02 21:15:29 [INFO]: Epoch 089 - training loss: 0.2831, validation loss: 0.2564
+2024-06-02 21:15:30 [INFO]: Epoch 090 - training loss: 0.2716, validation loss: 0.2572
+2024-06-02 21:15:30 [INFO]: Epoch 091 - training loss: 0.2715, validation loss: 0.2483
+2024-06-02 21:15:30 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 21:15:30 [INFO]: Finished training. The best model is from epoch#81.
+2024-06-02 21:15:30 [INFO]: Saved the model to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_3/20240602_T211333/StemGNN.pypots
+2024-06-02 21:15:31 [INFO]: Successfully saved to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_3/imputation.pkl
+2024-06-02 21:15:31 [INFO]: Round3 - StemGNN on ItalyAir: MAE=0.2907, MSE=0.2650, MRE=0.3802
+2024-06-02 21:15:31 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-02 21:15:31 [INFO]: Using the given device: cuda:0
+2024-06-02 21:15:31 [INFO]: Model files will be saved to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_4/20240602_T211531
+2024-06-02 21:15:31 [INFO]: Tensorboard file will be saved to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_4/20240602_T211531/tensorboard
+2024-06-02 21:15:31 [INFO]: StemGNN initialized with the given hyperparameters, the number of trainable parameters: 926,737
+2024-06-02 21:15:32 [INFO]: Epoch 001 - training loss: 1.1949, validation loss: 1.9730
+2024-06-02 21:15:33 [INFO]: Epoch 002 - training loss: 0.9022, validation loss: 1.3974
+2024-06-02 21:15:34 [INFO]: Epoch 003 - training loss: 0.7211, validation loss: 1.1472
+2024-06-02 21:15:35 [INFO]: Epoch 004 - training loss: 0.6537, validation loss: 0.9128
+2024-06-02 21:15:35 [INFO]: Epoch 005 - training loss: 0.6044, validation loss: 0.6630
+2024-06-02 21:15:36 [INFO]: Epoch 006 - training loss: 0.5631, validation loss: 0.5691
+2024-06-02 21:15:37 [INFO]: Epoch 007 - training loss: 0.5145, validation loss: 0.4462
+2024-06-02 21:15:38 [INFO]: Epoch 008 - training loss: 0.4820, validation loss: 0.4331
+2024-06-02 21:15:39 [INFO]: Epoch 009 - training loss: 0.4634, validation loss: 0.3742
+2024-06-02 21:15:40 [INFO]: Epoch 010 - training loss: 0.4565, validation loss: 0.3717
+2024-06-02 21:15:41 [INFO]: Epoch 011 - training loss: 0.4440, validation loss: 0.3765
+2024-06-02 21:15:41 [INFO]: Epoch 012 - training loss: 0.4235, validation loss: 0.3518
+2024-06-02 21:15:42 [INFO]: Epoch 013 - training loss: 0.4224, validation loss: 0.3537
+2024-06-02 21:15:43 [INFO]: Epoch 014 - training loss: 0.4165, validation loss: 0.3389
+2024-06-02 21:15:44 [INFO]: Epoch 015 - training loss: 0.4221, validation loss: 0.3361
+2024-06-02 21:15:45 [INFO]: Epoch 016 - training loss: 0.4028, validation loss: 0.3410
+2024-06-02 21:15:46 [INFO]: Epoch 017 - training loss: 0.3901, validation loss: 0.3631
+2024-06-02 21:15:47 [INFO]: Epoch 018 - training loss: 0.3925, validation loss: 0.3282
+2024-06-02 21:15:48 [INFO]: Epoch 019 - training loss: 0.3915, validation loss: 0.3432
+2024-06-02 21:15:48 [INFO]: Epoch 020 - training loss: 0.3863, validation loss: 0.3461
+2024-06-02 21:15:49 [INFO]: Epoch 021 - training loss: 0.3876, validation loss: 0.3270
+2024-06-02 21:15:50 [INFO]: Epoch 022 - training loss: 0.3836, validation loss: 0.3506
+2024-06-02 21:15:51 [INFO]: Epoch 023 - training loss: 0.3681, validation loss: 0.3305
+2024-06-02 21:15:52 [INFO]: Epoch 024 - training loss: 0.3638, validation loss: 0.3259
+2024-06-02 21:15:53 [INFO]: Epoch 025 - training loss: 0.3638, validation loss: 0.3255
+2024-06-02 21:15:54 [INFO]: Epoch 026 - training loss: 0.3648, validation loss: 0.3113
+2024-06-02 21:15:55 [INFO]: Epoch 027 - training loss: 0.3585, validation loss: 0.3017
+2024-06-02 21:15:56 [INFO]: Epoch 028 - training loss: 0.3622, validation loss: 0.2985
+2024-06-02 21:15:57 [INFO]: Epoch 029 - training loss: 0.3572, validation loss: 0.3160
+2024-06-02 21:15:57 [INFO]: Epoch 030 - training loss: 0.3598, validation loss: 0.2845
+2024-06-02 21:15:58 [INFO]: Epoch 031 - training loss: 0.3475, validation loss: 0.2992
+2024-06-02 21:15:59 [INFO]: Epoch 032 - training loss: 0.3361, validation loss: 0.2844
+2024-06-02 21:16:00 [INFO]: Epoch 033 - training loss: 0.3339, validation loss: 0.3101
+2024-06-02 21:16:01 [INFO]: Epoch 034 - training loss: 0.3319, validation loss: 0.3066
+2024-06-02 21:16:02 [INFO]: Epoch 035 - training loss: 0.3365, validation loss: 0.3112
+2024-06-02 21:16:03 [INFO]: Epoch 036 - training loss: 0.3278, validation loss: 0.3142
+2024-06-02 21:16:04 [INFO]: Epoch 037 - training loss: 0.3282, validation loss: 0.2844
+2024-06-02 21:16:05 [INFO]: Epoch 038 - training loss: 0.3272, validation loss: 0.3014
+2024-06-02 21:16:06 [INFO]: Epoch 039 - training loss: 0.3199, validation loss: 0.2925
+2024-06-02 21:16:06 [INFO]: Epoch 040 - training loss: 0.3273, validation loss: 0.3020
+2024-06-02 21:16:07 [INFO]: Epoch 041 - training loss: 0.3232, validation loss: 0.2767
+2024-06-02 21:16:08 [INFO]: Epoch 042 - training loss: 0.3194, validation loss: 0.3017
+2024-06-02 21:16:09 [INFO]: Epoch 043 - training loss: 0.3211, validation loss: 0.2755
+2024-06-02 21:16:10 [INFO]: Epoch 044 - training loss: 0.3208, validation loss: 0.3067
+2024-06-02 21:16:11 [INFO]: Epoch 045 - training loss: 0.3093, validation loss: 0.3020
+2024-06-02 21:16:12 [INFO]: Epoch 046 - training loss: 0.3072, validation loss: 0.3083
+2024-06-02 21:16:13 [INFO]: Epoch 047 - training loss: 0.3056, validation loss: 0.2961
+2024-06-02 21:16:13 [INFO]: Epoch 048 - training loss: 0.3040, validation loss: 0.3219
+2024-06-02 21:16:14 [INFO]: Epoch 049 - training loss: 0.3162, validation loss: 0.3132
+2024-06-02 21:16:15 [INFO]: Epoch 050 - training loss: 0.3062, validation loss: 0.2694
+2024-06-02 21:16:16 [INFO]: Epoch 051 - training loss: 0.3011, validation loss: 0.2828
+2024-06-02 21:16:17 [INFO]: Epoch 052 - training loss: 0.2992, validation loss: 0.2978
+2024-06-02 21:16:18 [INFO]: Epoch 053 - training loss: 0.3044, validation loss: 0.2766
+2024-06-02 21:16:19 [INFO]: Epoch 054 - training loss: 0.3042, validation loss: 0.3062
+2024-06-02 21:16:19 [INFO]: Epoch 055 - training loss: 0.3125, validation loss: 0.2933
+2024-06-02 21:16:20 [INFO]: Epoch 056 - training loss: 0.3004, validation loss: 0.3257
+2024-06-02 21:16:21 [INFO]: Epoch 057 - training loss: 0.3150, validation loss: 0.2981
+2024-06-02 21:16:22 [INFO]: Epoch 058 - training loss: 0.3168, validation loss: 0.3009
+2024-06-02 21:16:23 [INFO]: Epoch 059 - training loss: 0.3191, validation loss: 0.2926
+2024-06-02 21:16:24 [INFO]: Epoch 060 - training loss: 0.3115, validation loss: 0.2756
+2024-06-02 21:16:24 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 21:16:24 [INFO]: Finished training. The best model is from epoch#50.
+2024-06-02 21:16:24 [INFO]: Saved the model to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_4/20240602_T211531/StemGNN.pypots
+2024-06-02 21:16:24 [INFO]: Successfully saved to results_point_rate05/ItalyAir/StemGNN_ItalyAir/round_4/imputation.pkl
+2024-06-02 21:16:24 [INFO]: Round4 - StemGNN on ItalyAir: MAE=0.3058, MSE=0.2643, MRE=0.3999
+2024-06-02 21:16:24 [INFO]: Done! Final results:
+Averaged StemGNN (926,737 params) on ItalyAir: MAE=0.3066 ± 0.013604056048896761, MSE=0.2796 ± 0.018936992352399446, MRE=0.4009 ± 0.017789904305429458, average inference time=0.18
