@@ -3,8 +3,6 @@
 2024-06-03 18:53:34 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/ETSformer_PhysioNet2012/round_0/20240603_T185334
 2024-06-03 18:53:34 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/ETSformer_PhysioNet2012/round_0/20240603_T185334/tensorboard
 2024-06-03 18:53:35 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 9,785,804
-/scratch/users/k1814348/.conda/envs/pypots/lib/python3.10/site-packages/torch/functional.py:507: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847130/work/aten/src/ATen/native/TensorShape.cpp:3549.)
-  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
 2024-06-03 18:54:12 [INFO]: Epoch 001 - training loss: 1.2737, validation loss: 0.0960
 2024-06-03 18:54:44 [INFO]: Epoch 002 - training loss: 1.1291, validation loss: 0.1074
 2024-06-03 18:55:17 [INFO]: Epoch 003 - training loss: 1.0281, validation loss: 0.1141
