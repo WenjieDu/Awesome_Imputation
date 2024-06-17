@@ -1,0 +1,146 @@
+2024-06-03 10:17:20 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 10:17:20 [INFO]: Using the given device: cuda:0
+2024-06-03 10:17:24 [INFO]: Model files will be saved to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_0/20240603_T101724
+2024-06-03 10:17:24 [INFO]: Tensorboard file will be saved to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_0/20240603_T101724/tensorboard
+2024-06-03 10:17:28 [INFO]: SCINet initialized with the given hyperparameters, the number of trainable parameters: 79,493
+2024-06-03 10:17:39 [INFO]: Epoch 001 - training loss: 1.5746, validation loss: 1.0006
+2024-06-03 10:17:41 [INFO]: Epoch 002 - training loss: 1.4984, validation loss: 0.9218
+2024-06-03 10:17:42 [INFO]: Epoch 003 - training loss: 1.3984, validation loss: 0.8940
+2024-06-03 10:17:43 [INFO]: Epoch 004 - training loss: 1.2428, validation loss: 0.9834
+2024-06-03 10:17:45 [INFO]: Epoch 005 - training loss: 1.0688, validation loss: 0.8626
+2024-06-03 10:17:46 [INFO]: Epoch 006 - training loss: 0.9840, validation loss: 0.7456
+2024-06-03 10:17:49 [INFO]: Epoch 007 - training loss: 0.8665, validation loss: 0.6009
+2024-06-03 10:17:51 [INFO]: Epoch 008 - training loss: 0.7625, validation loss: 0.4592
+2024-06-03 10:17:53 [INFO]: Epoch 009 - training loss: 0.6616, validation loss: 0.4335
+2024-06-03 10:17:55 [INFO]: Epoch 010 - training loss: 0.6000, validation loss: 0.4322
+2024-06-03 10:17:57 [INFO]: Epoch 011 - training loss: 0.5743, validation loss: 0.4484
+2024-06-03 10:17:59 [INFO]: Epoch 012 - training loss: 0.5498, validation loss: 0.4414
+2024-06-03 10:18:01 [INFO]: Epoch 013 - training loss: 0.5279, validation loss: 0.4671
+2024-06-03 10:18:03 [INFO]: Epoch 014 - training loss: 0.5165, validation loss: 0.4687
+2024-06-03 10:18:05 [INFO]: Epoch 015 - training loss: 0.5096, validation loss: 0.4921
+2024-06-03 10:18:07 [INFO]: Epoch 016 - training loss: 0.5044, validation loss: 0.4657
+2024-06-03 10:18:09 [INFO]: Epoch 017 - training loss: 0.4911, validation loss: 0.4838
+2024-06-03 10:18:11 [INFO]: Epoch 018 - training loss: 0.4813, validation loss: 0.4883
+2024-06-03 10:18:13 [INFO]: Epoch 019 - training loss: 0.4726, validation loss: 0.4787
+2024-06-03 10:18:15 [INFO]: Epoch 020 - training loss: 0.4660, validation loss: 0.4990
+2024-06-03 10:18:15 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 10:18:15 [INFO]: Finished training. The best model is from epoch#10.
+2024-06-03 10:18:15 [INFO]: Saved the model to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_0/20240603_T101724/SCINet.pypots
+2024-06-03 10:18:16 [INFO]: Successfully saved to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_0/imputation.pkl
+2024-06-03 10:18:16 [INFO]: Round0 - SCINet on ETT_h1: MAE=0.5670, MSE=0.6453, MRE=0.7041
+2024-06-03 10:18:16 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 10:18:16 [INFO]: Using the given device: cuda:0
+2024-06-03 10:18:16 [INFO]: Model files will be saved to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_1/20240603_T101816
+2024-06-03 10:18:16 [INFO]: Tensorboard file will be saved to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_1/20240603_T101816/tensorboard
+2024-06-03 10:18:16 [INFO]: SCINet initialized with the given hyperparameters, the number of trainable parameters: 79,493
+2024-06-03 10:18:18 [INFO]: Epoch 001 - training loss: 1.5895, validation loss: 0.9258
+2024-06-03 10:18:20 [INFO]: Epoch 002 - training loss: 1.4770, validation loss: 0.8766
+2024-06-03 10:18:22 [INFO]: Epoch 003 - training loss: 1.3814, validation loss: 0.8303
+2024-06-03 10:18:24 [INFO]: Epoch 004 - training loss: 1.1606, validation loss: 0.7518
+2024-06-03 10:18:26 [INFO]: Epoch 005 - training loss: 0.9486, validation loss: 0.5899
+2024-06-03 10:18:28 [INFO]: Epoch 006 - training loss: 0.8325, validation loss: 0.5208
+2024-06-03 10:18:30 [INFO]: Epoch 007 - training loss: 0.7409, validation loss: 0.4337
+2024-06-03 10:18:32 [INFO]: Epoch 008 - training loss: 0.6815, validation loss: 0.4264
+2024-06-03 10:18:35 [INFO]: Epoch 009 - training loss: 0.6432, validation loss: 0.4275
+2024-06-03 10:18:37 [INFO]: Epoch 010 - training loss: 0.5989, validation loss: 0.4404
+2024-06-03 10:18:40 [INFO]: Epoch 011 - training loss: 0.5906, validation loss: 0.4294
+2024-06-03 10:18:42 [INFO]: Epoch 012 - training loss: 0.5636, validation loss: 0.4576
+2024-06-03 10:18:44 [INFO]: Epoch 013 - training loss: 0.5489, validation loss: 0.4543
+2024-06-03 10:18:46 [INFO]: Epoch 014 - training loss: 0.5506, validation loss: 0.4723
+2024-06-03 10:18:48 [INFO]: Epoch 015 - training loss: 0.5353, validation loss: 0.4627
+2024-06-03 10:18:50 [INFO]: Epoch 016 - training loss: 0.5222, validation loss: 0.4485
+2024-06-03 10:18:52 [INFO]: Epoch 017 - training loss: 0.5151, validation loss: 0.4404
+2024-06-03 10:18:54 [INFO]: Epoch 018 - training loss: 0.5057, validation loss: 0.4700
+2024-06-03 10:18:54 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 10:18:54 [INFO]: Finished training. The best model is from epoch#8.
+2024-06-03 10:18:54 [INFO]: Saved the model to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_1/20240603_T101816/SCINet.pypots
+2024-06-03 10:18:55 [INFO]: Successfully saved to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_1/imputation.pkl
+2024-06-03 10:18:55 [INFO]: Round1 - SCINet on ETT_h1: MAE=0.5341, MSE=0.6100, MRE=0.6632
+2024-06-03 10:18:55 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 10:18:55 [INFO]: Using the given device: cuda:0
+2024-06-03 10:18:55 [INFO]: Model files will be saved to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_2/20240603_T101855
+2024-06-03 10:18:55 [INFO]: Tensorboard file will be saved to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_2/20240603_T101855/tensorboard
+2024-06-03 10:18:55 [INFO]: SCINet initialized with the given hyperparameters, the number of trainable parameters: 79,493
+2024-06-03 10:18:57 [INFO]: Epoch 001 - training loss: 1.4795, validation loss: 0.8745
+2024-06-03 10:19:00 [INFO]: Epoch 002 - training loss: 1.1572, validation loss: 0.8572
+2024-06-03 10:19:02 [INFO]: Epoch 003 - training loss: 1.0263, validation loss: 0.7477
+2024-06-03 10:19:04 [INFO]: Epoch 004 - training loss: 0.9018, validation loss: 0.5456
+2024-06-03 10:19:05 [INFO]: Epoch 005 - training loss: 0.8092, validation loss: 0.4600
+2024-06-03 10:19:07 [INFO]: Epoch 006 - training loss: 0.7538, validation loss: 0.4157
+2024-06-03 10:19:09 [INFO]: Epoch 007 - training loss: 0.7185, validation loss: 0.4140
+2024-06-03 10:19:11 [INFO]: Epoch 008 - training loss: 0.6793, validation loss: 0.4850
+2024-06-03 10:19:13 [INFO]: Epoch 009 - training loss: 0.6532, validation loss: 0.4607
+2024-06-03 10:19:14 [INFO]: Epoch 010 - training loss: 0.6375, validation loss: 0.4650
+2024-06-03 10:19:16 [INFO]: Epoch 011 - training loss: 0.6236, validation loss: 0.4616
+2024-06-03 10:19:18 [INFO]: Epoch 012 - training loss: 0.6139, validation loss: 0.4891
+2024-06-03 10:19:20 [INFO]: Epoch 013 - training loss: 0.5872, validation loss: 0.4495
+2024-06-03 10:19:22 [INFO]: Epoch 014 - training loss: 0.5676, validation loss: 0.4704
+2024-06-03 10:19:23 [INFO]: Epoch 015 - training loss: 0.5647, validation loss: 0.4599
+2024-06-03 10:19:25 [INFO]: Epoch 016 - training loss: 0.5601, validation loss: 0.4287
+2024-06-03 10:19:27 [INFO]: Epoch 017 - training loss: 0.5583, validation loss: 0.4641
+2024-06-03 10:19:27 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 10:19:27 [INFO]: Finished training. The best model is from epoch#7.
+2024-06-03 10:19:27 [INFO]: Saved the model to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_2/20240603_T101855/SCINet.pypots
+2024-06-03 10:19:28 [INFO]: Successfully saved to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_2/imputation.pkl
+2024-06-03 10:19:28 [INFO]: Round2 - SCINet on ETT_h1: MAE=0.5304, MSE=0.5496, MRE=0.6586
+2024-06-03 10:19:28 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 10:19:28 [INFO]: Using the given device: cuda:0
+2024-06-03 10:19:28 [INFO]: Model files will be saved to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_3/20240603_T101928
+2024-06-03 10:19:28 [INFO]: Tensorboard file will be saved to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_3/20240603_T101928/tensorboard
+2024-06-03 10:19:28 [INFO]: SCINet initialized with the given hyperparameters, the number of trainable parameters: 79,493
+2024-06-03 10:19:30 [INFO]: Epoch 001 - training loss: 1.5726, validation loss: 0.9854
+2024-06-03 10:19:32 [INFO]: Epoch 002 - training loss: 1.3819, validation loss: 0.9303
+2024-06-03 10:19:34 [INFO]: Epoch 003 - training loss: 1.1218, validation loss: 0.9078
+2024-06-03 10:19:36 [INFO]: Epoch 004 - training loss: 0.9756, validation loss: 0.7770
+2024-06-03 10:19:38 [INFO]: Epoch 005 - training loss: 0.8472, validation loss: 0.6244
+2024-06-03 10:19:40 [INFO]: Epoch 006 - training loss: 0.7375, validation loss: 0.5556
+2024-06-03 10:19:42 [INFO]: Epoch 007 - training loss: 0.6522, validation loss: 0.4959
+2024-06-03 10:19:45 [INFO]: Epoch 008 - training loss: 0.6075, validation loss: 0.4838
+2024-06-03 10:19:47 [INFO]: Epoch 009 - training loss: 0.5750, validation loss: 0.4972
+2024-06-03 10:19:49 [INFO]: Epoch 010 - training loss: 0.5459, validation loss: 0.4900
+2024-06-03 10:19:51 [INFO]: Epoch 011 - training loss: 0.5212, validation loss: 0.4871
+2024-06-03 10:19:53 [INFO]: Epoch 012 - training loss: 0.5077, validation loss: 0.5038
+2024-06-03 10:19:55 [INFO]: Epoch 013 - training loss: 0.4994, validation loss: 0.4938
+2024-06-03 10:19:57 [INFO]: Epoch 014 - training loss: 0.4857, validation loss: 0.5191
+2024-06-03 10:19:59 [INFO]: Epoch 015 - training loss: 0.4787, validation loss: 0.4882
+2024-06-03 10:20:01 [INFO]: Epoch 016 - training loss: 0.4625, validation loss: 0.5292
+2024-06-03 10:20:03 [INFO]: Epoch 017 - training loss: 0.4652, validation loss: 0.4963
+2024-06-03 10:20:04 [INFO]: Epoch 018 - training loss: 0.4640, validation loss: 0.4917
+2024-06-03 10:20:04 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 10:20:04 [INFO]: Finished training. The best model is from epoch#8.
+2024-06-03 10:20:05 [INFO]: Saved the model to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_3/20240603_T101928/SCINet.pypots
+2024-06-03 10:20:05 [INFO]: Successfully saved to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_3/imputation.pkl
+2024-06-03 10:20:05 [INFO]: Round3 - SCINet on ETT_h1: MAE=0.5621, MSE=0.6439, MRE=0.6980
+2024-06-03 10:20:05 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 10:20:05 [INFO]: Using the given device: cuda:0
+2024-06-03 10:20:05 [INFO]: Model files will be saved to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_4/20240603_T102005
+2024-06-03 10:20:05 [INFO]: Tensorboard file will be saved to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_4/20240603_T102005/tensorboard
+2024-06-03 10:20:06 [INFO]: SCINet initialized with the given hyperparameters, the number of trainable parameters: 79,493
+2024-06-03 10:20:07 [INFO]: Epoch 001 - training loss: 1.5211, validation loss: 0.9533
+2024-06-03 10:20:09 [INFO]: Epoch 002 - training loss: 1.3258, validation loss: 0.8854
+2024-06-03 10:20:11 [INFO]: Epoch 003 - training loss: 1.1269, validation loss: 0.7854
+2024-06-03 10:20:14 [INFO]: Epoch 004 - training loss: 1.0047, validation loss: 0.7638
+2024-06-03 10:20:16 [INFO]: Epoch 005 - training loss: 0.9057, validation loss: 0.6120
+2024-06-03 10:20:18 [INFO]: Epoch 006 - training loss: 0.8488, validation loss: 0.6418
+2024-06-03 10:20:20 [INFO]: Epoch 007 - training loss: 0.7902, validation loss: 0.5537
+2024-06-03 10:20:22 [INFO]: Epoch 008 - training loss: 0.7309, validation loss: 0.4867
+2024-06-03 10:20:24 [INFO]: Epoch 009 - training loss: 0.6881, validation loss: 0.4622
+2024-06-03 10:20:26 [INFO]: Epoch 010 - training loss: 0.6586, validation loss: 0.4217
+2024-06-03 10:20:28 [INFO]: Epoch 011 - training loss: 0.6437, validation loss: 0.4166
+2024-06-03 10:20:30 [INFO]: Epoch 012 - training loss: 0.6360, validation loss: 0.4786
+2024-06-03 10:20:32 [INFO]: Epoch 013 - training loss: 0.6172, validation loss: 0.4473
+2024-06-03 10:20:34 [INFO]: Epoch 014 - training loss: 0.6214, validation loss: 0.4344
+2024-06-03 10:20:36 [INFO]: Epoch 015 - training loss: 0.5980, validation loss: 0.4480
+2024-06-03 10:20:39 [INFO]: Epoch 016 - training loss: 0.6002, validation loss: 0.4318
+2024-06-03 10:20:41 [INFO]: Epoch 017 - training loss: 0.5855, validation loss: 0.4731
+2024-06-03 10:20:43 [INFO]: Epoch 018 - training loss: 0.5785, validation loss: 0.4461
+2024-06-03 10:20:45 [INFO]: Epoch 019 - training loss: 0.5476, validation loss: 0.4301
+2024-06-03 10:20:46 [INFO]: Epoch 020 - training loss: 0.5381, validation loss: 0.4187
+2024-06-03 10:20:48 [INFO]: Epoch 021 - training loss: 0.5479, validation loss: 0.4286
+2024-06-03 10:20:48 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 10:20:48 [INFO]: Finished training. The best model is from epoch#11.
+2024-06-03 10:20:48 [INFO]: Saved the model to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_4/20240603_T102005/SCINet.pypots
+2024-06-03 10:20:49 [INFO]: Successfully saved to results_block_rate05/ETT_h1/SCINet_ETT_h1/round_4/imputation.pkl
+2024-06-03 10:20:49 [INFO]: Round4 - SCINet on ETT_h1: MAE=0.5274, MSE=0.5780, MRE=0.6550
+2024-06-03 10:20:49 [INFO]: Done! Final results:
+Averaged SCINet (79,493 params) on ETT_h1: MAE=0.5442 ± 0.01683024244321909, MSE=0.6054 ± 0.03731320521958441, MRE=0.6758 ± 0.020899324066658388, average inference time=0.27

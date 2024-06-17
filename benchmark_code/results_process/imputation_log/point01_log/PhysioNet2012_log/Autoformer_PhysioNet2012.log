@@ -1,0 +1,131 @@
+2024-06-03 18:53:33 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 18:53:33 [INFO]: Using the given device: cuda:0
+2024-06-03 18:53:34 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_0/20240603_T185334
+2024-06-03 18:53:34 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_0/20240603_T185334/tensorboard
+2024-06-03 18:53:35 [INFO]: Autoformer initialized with the given hyperparameters, the number of trainable parameters: 14,266,403
+2024-06-03 18:54:20 [INFO]: Epoch 001 - training loss: 1.2704, validation loss: 0.1408
+2024-06-03 18:54:56 [INFO]: Epoch 002 - training loss: 1.1760, validation loss: 0.1282
+2024-06-03 18:55:33 [INFO]: Epoch 003 - training loss: 1.1549, validation loss: 0.1211
+2024-06-03 18:56:08 [INFO]: Epoch 004 - training loss: 1.1367, validation loss: 0.1221
+2024-06-03 18:56:45 [INFO]: Epoch 005 - training loss: 1.1251, validation loss: 0.1203
+2024-06-03 18:57:22 [INFO]: Epoch 006 - training loss: 1.1157, validation loss: 0.1289
+2024-06-03 18:57:56 [INFO]: Epoch 007 - training loss: 1.1061, validation loss: 0.1191
+2024-06-03 18:58:32 [INFO]: Epoch 008 - training loss: 1.1003, validation loss: 0.1305
+2024-06-03 18:59:09 [INFO]: Epoch 009 - training loss: 1.0911, validation loss: 0.1266
+2024-06-03 18:59:43 [INFO]: Epoch 010 - training loss: 1.0829, validation loss: 0.1364
+2024-06-03 19:00:18 [INFO]: Epoch 011 - training loss: 1.0794, validation loss: 0.1360
+2024-06-03 19:00:57 [INFO]: Epoch 012 - training loss: 1.0738, validation loss: 0.1341
+2024-06-03 19:01:33 [INFO]: Epoch 013 - training loss: 1.0685, validation loss: 0.1414
+2024-06-03 19:02:09 [INFO]: Epoch 014 - training loss: 1.0619, validation loss: 0.1430
+2024-06-03 19:02:47 [INFO]: Epoch 015 - training loss: 1.0581, validation loss: 0.1407
+2024-06-03 19:03:24 [INFO]: Epoch 016 - training loss: 1.0509, validation loss: 0.1446
+2024-06-03 19:03:56 [INFO]: Epoch 017 - training loss: 1.0455, validation loss: 0.1518
+2024-06-03 19:03:56 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:03:56 [INFO]: Finished training. The best model is from epoch#7.
+2024-06-03 19:03:56 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_0/20240603_T185334/Autoformer.pypots
+2024-06-03 19:04:05 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_0/imputation.pkl
+2024-06-03 19:04:05 [INFO]: Round0 - Autoformer on PhysioNet2012: MAE=0.4592, MSE=0.7759, MRE=0.6370
+2024-06-03 19:04:05 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:04:05 [INFO]: Using the given device: cuda:0
+2024-06-03 19:04:05 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_1/20240603_T190405
+2024-06-03 19:04:05 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_1/20240603_T190405/tensorboard
+2024-06-03 19:04:06 [INFO]: Autoformer initialized with the given hyperparameters, the number of trainable parameters: 14,266,403
+2024-06-03 19:04:41 [INFO]: Epoch 001 - training loss: 1.2761, validation loss: 0.1266
+2024-06-03 19:05:15 [INFO]: Epoch 002 - training loss: 1.1703, validation loss: 0.1127
+2024-06-03 19:05:47 [INFO]: Epoch 003 - training loss: 1.1499, validation loss: 0.1075
+2024-06-03 19:06:21 [INFO]: Epoch 004 - training loss: 1.1295, validation loss: 0.1092
+2024-06-03 19:06:57 [INFO]: Epoch 005 - training loss: 1.1222, validation loss: 0.1094
+2024-06-03 19:07:30 [INFO]: Epoch 006 - training loss: 1.1105, validation loss: 0.1107
+2024-06-03 19:08:06 [INFO]: Epoch 007 - training loss: 1.1033, validation loss: 0.1154
+2024-06-03 19:08:37 [INFO]: Epoch 008 - training loss: 1.0950, validation loss: 0.1174
+2024-06-03 19:09:10 [INFO]: Epoch 009 - training loss: 1.0879, validation loss: 0.1168
+2024-06-03 19:09:41 [INFO]: Epoch 010 - training loss: 1.0805, validation loss: 0.1136
+2024-06-03 19:10:14 [INFO]: Epoch 011 - training loss: 1.0753, validation loss: 0.1187
+2024-06-03 19:10:47 [INFO]: Epoch 012 - training loss: 1.0696, validation loss: 0.1256
+2024-06-03 19:11:16 [INFO]: Epoch 013 - training loss: 1.0596, validation loss: 0.1258
+2024-06-03 19:11:16 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:11:16 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 19:11:17 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_1/20240603_T190405/Autoformer.pypots
+2024-06-03 19:11:25 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_1/imputation.pkl
+2024-06-03 19:11:25 [INFO]: Round1 - Autoformer on PhysioNet2012: MAE=0.4544, MSE=0.7460, MRE=0.6304
+2024-06-03 19:11:25 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:11:25 [INFO]: Using the given device: cuda:0
+2024-06-03 19:11:25 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_2/20240603_T191125
+2024-06-03 19:11:25 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_2/20240603_T191125/tensorboard
+2024-06-03 19:11:25 [INFO]: Autoformer initialized with the given hyperparameters, the number of trainable parameters: 14,266,403
+2024-06-03 19:11:58 [INFO]: Epoch 001 - training loss: 1.2743, validation loss: 0.1214
+2024-06-03 19:12:31 [INFO]: Epoch 002 - training loss: 1.1690, validation loss: 0.1131
+2024-06-03 19:13:02 [INFO]: Epoch 003 - training loss: 1.1447, validation loss: 0.1051
+2024-06-03 19:13:33 [INFO]: Epoch 004 - training loss: 1.1280, validation loss: 0.1023
+2024-06-03 19:14:04 [INFO]: Epoch 005 - training loss: 1.1200, validation loss: 0.1047
+2024-06-03 19:14:32 [INFO]: Epoch 006 - training loss: 1.1054, validation loss: 0.1016
+2024-06-03 19:14:57 [INFO]: Epoch 007 - training loss: 1.0955, validation loss: 0.1118
+2024-06-03 19:15:18 [INFO]: Epoch 008 - training loss: 1.0900, validation loss: 0.1076
+2024-06-03 19:15:35 [INFO]: Epoch 009 - training loss: 1.0811, validation loss: 0.1102
+2024-06-03 19:15:50 [INFO]: Epoch 010 - training loss: 1.0762, validation loss: 0.1144
+2024-06-03 19:16:07 [INFO]: Epoch 011 - training loss: 1.0701, validation loss: 0.1135
+2024-06-03 19:16:22 [INFO]: Epoch 012 - training loss: 1.0615, validation loss: 0.1154
+2024-06-03 19:16:37 [INFO]: Epoch 013 - training loss: 1.0572, validation loss: 0.1192
+2024-06-03 19:16:54 [INFO]: Epoch 014 - training loss: 1.0499, validation loss: 0.1246
+2024-06-03 19:17:11 [INFO]: Epoch 015 - training loss: 1.0422, validation loss: 0.1290
+2024-06-03 19:17:28 [INFO]: Epoch 016 - training loss: 1.0396, validation loss: 0.1269
+2024-06-03 19:17:28 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:17:28 [INFO]: Finished training. The best model is from epoch#6.
+2024-06-03 19:17:28 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_2/20240603_T191125/Autoformer.pypots
+2024-06-03 19:17:33 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_2/imputation.pkl
+2024-06-03 19:17:33 [INFO]: Round2 - Autoformer on PhysioNet2012: MAE=0.4473, MSE=0.7411, MRE=0.6205
+2024-06-03 19:17:33 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:17:33 [INFO]: Using the given device: cuda:0
+2024-06-03 19:17:33 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_3/20240603_T191733
+2024-06-03 19:17:33 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_3/20240603_T191733/tensorboard
+2024-06-03 19:17:33 [INFO]: Autoformer initialized with the given hyperparameters, the number of trainable parameters: 14,266,403
+2024-06-03 19:17:50 [INFO]: Epoch 001 - training loss: 1.2718, validation loss: 0.1266
+2024-06-03 19:18:07 [INFO]: Epoch 002 - training loss: 1.1708, validation loss: 0.1112
+2024-06-03 19:18:24 [INFO]: Epoch 003 - training loss: 1.1493, validation loss: 0.1052
+2024-06-03 19:18:41 [INFO]: Epoch 004 - training loss: 1.1365, validation loss: 0.1048
+2024-06-03 19:18:58 [INFO]: Epoch 005 - training loss: 1.1206, validation loss: 0.1020
+2024-06-03 19:19:15 [INFO]: Epoch 006 - training loss: 1.1109, validation loss: 0.1020
+2024-06-03 19:19:32 [INFO]: Epoch 007 - training loss: 1.1006, validation loss: 0.1045
+2024-06-03 19:19:50 [INFO]: Epoch 008 - training loss: 1.0945, validation loss: 0.1024
+2024-06-03 19:20:04 [INFO]: Epoch 009 - training loss: 1.0841, validation loss: 0.1026
+2024-06-03 19:20:17 [INFO]: Epoch 010 - training loss: 1.0799, validation loss: 0.1047
+2024-06-03 19:20:31 [INFO]: Epoch 011 - training loss: 1.0679, validation loss: 0.1071
+2024-06-03 19:20:44 [INFO]: Epoch 012 - training loss: 1.0634, validation loss: 0.1092
+2024-06-03 19:20:58 [INFO]: Epoch 013 - training loss: 1.0591, validation loss: 0.1106
+2024-06-03 19:21:12 [INFO]: Epoch 014 - training loss: 1.0519, validation loss: 0.1174
+2024-06-03 19:21:26 [INFO]: Epoch 015 - training loss: 1.0452, validation loss: 0.1163
+2024-06-03 19:21:41 [INFO]: Epoch 016 - training loss: 1.0421, validation loss: 0.1209
+2024-06-03 19:21:41 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:21:41 [INFO]: Finished training. The best model is from epoch#6.
+2024-06-03 19:21:41 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_3/20240603_T191733/Autoformer.pypots
+2024-06-03 19:21:44 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_3/imputation.pkl
+2024-06-03 19:21:44 [INFO]: Round3 - Autoformer on PhysioNet2012: MAE=0.4442, MSE=0.7423, MRE=0.6161
+2024-06-03 19:21:44 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:21:44 [INFO]: Using the given device: cuda:0
+2024-06-03 19:21:44 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_4/20240603_T192144
+2024-06-03 19:21:44 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_4/20240603_T192144/tensorboard
+2024-06-03 19:21:45 [INFO]: Autoformer initialized with the given hyperparameters, the number of trainable parameters: 14,266,403
+2024-06-03 19:21:58 [INFO]: Epoch 001 - training loss: 1.2767, validation loss: 0.1330
+2024-06-03 19:22:12 [INFO]: Epoch 002 - training loss: 1.1705, validation loss: 0.1217
+2024-06-03 19:22:26 [INFO]: Epoch 003 - training loss: 1.1460, validation loss: 0.1187
+2024-06-03 19:22:40 [INFO]: Epoch 004 - training loss: 1.1289, validation loss: 0.1155
+2024-06-03 19:22:53 [INFO]: Epoch 005 - training loss: 1.1176, validation loss: 0.1202
+2024-06-03 19:23:07 [INFO]: Epoch 006 - training loss: 1.1088, validation loss: 0.1237
+2024-06-03 19:23:20 [INFO]: Epoch 007 - training loss: 1.0985, validation loss: 0.1151
+2024-06-03 19:23:34 [INFO]: Epoch 008 - training loss: 1.0910, validation loss: 0.1239
+2024-06-03 19:23:48 [INFO]: Epoch 009 - training loss: 1.0845, validation loss: 0.1190
+2024-06-03 19:24:01 [INFO]: Epoch 010 - training loss: 1.0756, validation loss: 0.1235
+2024-06-03 19:24:15 [INFO]: Epoch 011 - training loss: 1.0661, validation loss: 0.1211
+2024-06-03 19:24:29 [INFO]: Epoch 012 - training loss: 1.0633, validation loss: 0.1249
+2024-06-03 19:24:43 [INFO]: Epoch 013 - training loss: 1.0566, validation loss: 0.1282
+2024-06-03 19:24:56 [INFO]: Epoch 014 - training loss: 1.0502, validation loss: 0.1283
+2024-06-03 19:25:10 [INFO]: Epoch 015 - training loss: 1.0451, validation loss: 0.1294
+2024-06-03 19:25:24 [INFO]: Epoch 016 - training loss: 1.0403, validation loss: 0.1336
+2024-06-03 19:25:38 [INFO]: Epoch 017 - training loss: 1.0357, validation loss: 0.1338
+2024-06-03 19:25:38 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:25:38 [INFO]: Finished training. The best model is from epoch#7.
+2024-06-03 19:25:38 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_4/20240603_T192144/Autoformer.pypots
+2024-06-03 19:25:41 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/Autoformer_PhysioNet2012/round_4/imputation.pkl
+2024-06-03 19:25:41 [INFO]: Round4 - Autoformer on PhysioNet2012: MAE=0.4561, MSE=0.7667, MRE=0.6326
+2024-06-03 19:25:41 [INFO]: Done! Final results:
+Averaged Autoformer (14,266,403 params) on PhysioNet2012: MAE=0.4171 ± 0.00943661436050785, MSE=0.5454 ± 0.01724654180546621, MRE=0.5884 ± 0.013310572392124801, average inference time=0.88

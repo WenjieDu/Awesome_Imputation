@@ -1,0 +1,165 @@
+2024-06-03 02:34:53 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 02:34:53 [INFO]: Using the given device: cuda:0
+2024-06-03 02:34:53 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_0/20240603_T023453
+2024-06-03 02:34:53 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_0/20240603_T023453/tensorboard
+2024-06-03 02:34:53 [INFO]: SAITS initialized with the given hyperparameters, the number of trainable parameters: 133,406
+2024-06-03 02:35:00 [INFO]: Epoch 001 - training loss: 0.9724, validation loss: 0.7074
+2024-06-03 02:35:03 [INFO]: Epoch 002 - training loss: 0.8070, validation loss: 0.6453
+2024-06-03 02:35:06 [INFO]: Epoch 003 - training loss: 0.7050, validation loss: 0.6390
+2024-06-03 02:35:09 [INFO]: Epoch 004 - training loss: 0.7044, validation loss: 0.6533
+2024-06-03 02:35:12 [INFO]: Epoch 005 - training loss: 0.6539, validation loss: 0.6585
+2024-06-03 02:35:15 [INFO]: Epoch 006 - training loss: 0.6629, validation loss: 0.6216
+2024-06-03 02:35:18 [INFO]: Epoch 007 - training loss: 0.6411, validation loss: 0.6333
+2024-06-03 02:35:21 [INFO]: Epoch 008 - training loss: 0.5827, validation loss: 0.5852
+2024-06-03 02:35:24 [INFO]: Epoch 009 - training loss: 0.5838, validation loss: 0.6004
+2024-06-03 02:35:27 [INFO]: Epoch 010 - training loss: 0.5721, validation loss: 0.5939
+2024-06-03 02:35:30 [INFO]: Epoch 011 - training loss: 0.5475, validation loss: 0.5605
+2024-06-03 02:35:33 [INFO]: Epoch 012 - training loss: 0.5177, validation loss: 0.5406
+2024-06-03 02:35:37 [INFO]: Epoch 013 - training loss: 0.5221, validation loss: 0.5760
+2024-06-03 02:35:40 [INFO]: Epoch 014 - training loss: 0.5302, validation loss: 0.5808
+2024-06-03 02:35:43 [INFO]: Epoch 015 - training loss: 0.5064, validation loss: 0.5749
+2024-06-03 02:35:46 [INFO]: Epoch 016 - training loss: 0.5011, validation loss: 0.5910
+2024-06-03 02:35:49 [INFO]: Epoch 017 - training loss: 0.5047, validation loss: 0.5762
+2024-06-03 02:35:52 [INFO]: Epoch 018 - training loss: 0.4997, validation loss: 0.5868
+2024-06-03 02:35:55 [INFO]: Epoch 019 - training loss: 0.4995, validation loss: 0.5904
+2024-06-03 02:35:58 [INFO]: Epoch 020 - training loss: 0.5130, validation loss: 0.5942
+2024-06-03 02:36:01 [INFO]: Epoch 021 - training loss: 0.4820, validation loss: 0.5781
+2024-06-03 02:36:04 [INFO]: Epoch 022 - training loss: 0.4797, validation loss: 0.6041
+2024-06-03 02:36:04 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:36:04 [INFO]: Finished training. The best model is from epoch#12.
+2024-06-03 02:36:04 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_0/20240603_T023453/SAITS.pypots
+2024-06-03 02:36:07 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_0/imputation.pkl
+2024-06-03 02:36:07 [INFO]: Round0 - SAITS on Pedestrian: MAE=0.4965, MSE=0.6219, MRE=0.6485
+2024-06-03 02:36:07 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 02:36:07 [INFO]: Using the given device: cuda:0
+2024-06-03 02:36:07 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_1/20240603_T023607
+2024-06-03 02:36:07 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_1/20240603_T023607/tensorboard
+2024-06-03 02:36:07 [INFO]: SAITS initialized with the given hyperparameters, the number of trainable parameters: 133,406
+2024-06-03 02:36:10 [INFO]: Epoch 001 - training loss: 1.0630, validation loss: 0.7777
+2024-06-03 02:36:13 [INFO]: Epoch 002 - training loss: 0.8391, validation loss: 0.6465
+2024-06-03 02:36:16 [INFO]: Epoch 003 - training loss: 0.7577, validation loss: 0.6420
+2024-06-03 02:36:19 [INFO]: Epoch 004 - training loss: 0.7360, validation loss: 0.6230
+2024-06-03 02:36:22 [INFO]: Epoch 005 - training loss: 0.6669, validation loss: 0.6400
+2024-06-03 02:36:25 [INFO]: Epoch 006 - training loss: 0.6450, validation loss: 0.6292
+2024-06-03 02:36:28 [INFO]: Epoch 007 - training loss: 0.6397, validation loss: 0.6263
+2024-06-03 02:36:31 [INFO]: Epoch 008 - training loss: 0.5891, validation loss: 0.6029
+2024-06-03 02:36:34 [INFO]: Epoch 009 - training loss: 0.5928, validation loss: 0.5807
+2024-06-03 02:36:37 [INFO]: Epoch 010 - training loss: 0.5746, validation loss: 0.6082
+2024-06-03 02:36:39 [INFO]: Epoch 011 - training loss: 0.5387, validation loss: 0.6197
+2024-06-03 02:36:42 [INFO]: Epoch 012 - training loss: 0.5293, validation loss: 0.6287
+2024-06-03 02:36:46 [INFO]: Epoch 013 - training loss: 0.5088, validation loss: 0.5973
+2024-06-03 02:36:48 [INFO]: Epoch 014 - training loss: 0.5131, validation loss: 0.5948
+2024-06-03 02:36:52 [INFO]: Epoch 015 - training loss: 0.5134, validation loss: 0.6304
+2024-06-03 02:36:55 [INFO]: Epoch 016 - training loss: 0.4864, validation loss: 0.6120
+2024-06-03 02:36:58 [INFO]: Epoch 017 - training loss: 0.5154, validation loss: 0.6472
+2024-06-03 02:37:01 [INFO]: Epoch 018 - training loss: 0.5084, validation loss: 0.5962
+2024-06-03 02:37:04 [INFO]: Epoch 019 - training loss: 0.4736, validation loss: 0.6041
+2024-06-03 02:37:04 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:37:04 [INFO]: Finished training. The best model is from epoch#9.
+2024-06-03 02:37:04 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_1/20240603_T023607/SAITS.pypots
+2024-06-03 02:37:07 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_1/imputation.pkl
+2024-06-03 02:37:07 [INFO]: Round1 - SAITS on Pedestrian: MAE=0.4937, MSE=0.6550, MRE=0.6447
+2024-06-03 02:37:07 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 02:37:07 [INFO]: Using the given device: cuda:0
+2024-06-03 02:37:07 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_2/20240603_T023707
+2024-06-03 02:37:07 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_2/20240603_T023707/tensorboard
+2024-06-03 02:37:07 [INFO]: SAITS initialized with the given hyperparameters, the number of trainable parameters: 133,406
+2024-06-03 02:37:10 [INFO]: Epoch 001 - training loss: 1.0932, validation loss: 0.7659
+2024-06-03 02:37:13 [INFO]: Epoch 002 - training loss: 0.9023, validation loss: 0.6335
+2024-06-03 02:37:16 [INFO]: Epoch 003 - training loss: 0.7921, validation loss: 0.6238
+2024-06-03 02:37:19 [INFO]: Epoch 004 - training loss: 0.7335, validation loss: 0.6331
+2024-06-03 02:37:22 [INFO]: Epoch 005 - training loss: 0.7125, validation loss: 0.6212
+2024-06-03 02:37:25 [INFO]: Epoch 006 - training loss: 0.6751, validation loss: 0.5973
+2024-06-03 02:37:28 [INFO]: Epoch 007 - training loss: 0.6127, validation loss: 0.6081
+2024-06-03 02:37:31 [INFO]: Epoch 008 - training loss: 0.6096, validation loss: 0.6715
+2024-06-03 02:37:34 [INFO]: Epoch 009 - training loss: 0.5927, validation loss: 0.6623
+2024-06-03 02:37:37 [INFO]: Epoch 010 - training loss: 0.5783, validation loss: 0.6602
+2024-06-03 02:37:40 [INFO]: Epoch 011 - training loss: 0.5636, validation loss: 0.5792
+2024-06-03 02:37:43 [INFO]: Epoch 012 - training loss: 0.5701, validation loss: 0.6289
+2024-06-03 02:37:46 [INFO]: Epoch 013 - training loss: 0.5389, validation loss: 0.5985
+2024-06-03 02:37:49 [INFO]: Epoch 014 - training loss: 0.5220, validation loss: 0.6313
+2024-06-03 02:37:52 [INFO]: Epoch 015 - training loss: 0.5151, validation loss: 0.6099
+2024-06-03 02:37:55 [INFO]: Epoch 016 - training loss: 0.5105, validation loss: 0.6411
+2024-06-03 02:37:58 [INFO]: Epoch 017 - training loss: 0.5277, validation loss: 0.6201
+2024-06-03 02:38:01 [INFO]: Epoch 018 - training loss: 0.4973, validation loss: 0.6801
+2024-06-03 02:38:03 [INFO]: Epoch 019 - training loss: 0.5015, validation loss: 0.6309
+2024-06-03 02:38:06 [INFO]: Epoch 020 - training loss: 0.4848, validation loss: 0.6104
+2024-06-03 02:38:09 [INFO]: Epoch 021 - training loss: 0.4704, validation loss: 0.6560
+2024-06-03 02:38:09 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:38:09 [INFO]: Finished training. The best model is from epoch#11.
+2024-06-03 02:38:09 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_2/20240603_T023707/SAITS.pypots
+2024-06-03 02:38:13 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_2/imputation.pkl
+2024-06-03 02:38:13 [INFO]: Round2 - SAITS on Pedestrian: MAE=0.5039, MSE=0.7165, MRE=0.6581
+2024-06-03 02:38:13 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 02:38:13 [INFO]: Using the given device: cuda:0
+2024-06-03 02:38:13 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_3/20240603_T023813
+2024-06-03 02:38:13 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_3/20240603_T023813/tensorboard
+2024-06-03 02:38:13 [INFO]: SAITS initialized with the given hyperparameters, the number of trainable parameters: 133,406
+2024-06-03 02:38:16 [INFO]: Epoch 001 - training loss: 1.0584, validation loss: 0.6846
+2024-06-03 02:38:19 [INFO]: Epoch 002 - training loss: 0.7497, validation loss: 0.6940
+2024-06-03 02:38:22 [INFO]: Epoch 003 - training loss: 0.6692, validation loss: 0.6288
+2024-06-03 02:38:25 [INFO]: Epoch 004 - training loss: 0.6388, validation loss: 0.6771
+2024-06-03 02:38:28 [INFO]: Epoch 005 - training loss: 0.6077, validation loss: 0.6765
+2024-06-03 02:38:31 [INFO]: Epoch 006 - training loss: 0.5674, validation loss: 0.6358
+2024-06-03 02:38:34 [INFO]: Epoch 007 - training loss: 0.5463, validation loss: 0.5958
+2024-06-03 02:38:37 [INFO]: Epoch 008 - training loss: 0.5077, validation loss: 0.5652
+2024-06-03 02:38:40 [INFO]: Epoch 009 - training loss: 0.4683, validation loss: 0.5768
+2024-06-03 02:38:43 [INFO]: Epoch 010 - training loss: 0.4536, validation loss: 0.5765
+2024-06-03 02:38:46 [INFO]: Epoch 011 - training loss: 0.4257, validation loss: 0.6131
+2024-06-03 02:38:49 [INFO]: Epoch 012 - training loss: 0.4088, validation loss: 0.6012
+2024-06-03 02:38:52 [INFO]: Epoch 013 - training loss: 0.4180, validation loss: 0.5586
+2024-06-03 02:38:55 [INFO]: Epoch 014 - training loss: 0.4013, validation loss: 0.5791
+2024-06-03 02:38:59 [INFO]: Epoch 015 - training loss: 0.3836, validation loss: 0.6271
+2024-06-03 02:39:02 [INFO]: Epoch 016 - training loss: 0.3752, validation loss: 0.6329
+2024-06-03 02:39:04 [INFO]: Epoch 017 - training loss: 0.3650, validation loss: 0.6364
+2024-06-03 02:39:07 [INFO]: Epoch 018 - training loss: 0.3589, validation loss: 0.6152
+2024-06-03 02:39:11 [INFO]: Epoch 019 - training loss: 0.3634, validation loss: 0.5582
+2024-06-03 02:39:13 [INFO]: Epoch 020 - training loss: 0.3213, validation loss: 0.5764
+2024-06-03 02:39:16 [INFO]: Epoch 021 - training loss: 0.3228, validation loss: 0.5753
+2024-06-03 02:39:19 [INFO]: Epoch 022 - training loss: 0.3315, validation loss: 0.5608
+2024-06-03 02:39:21 [INFO]: Epoch 023 - training loss: 0.3069, validation loss: 0.5720
+2024-06-03 02:39:23 [INFO]: Epoch 024 - training loss: 0.3415, validation loss: 0.5415
+2024-06-03 02:39:26 [INFO]: Epoch 025 - training loss: 0.2956, validation loss: 0.5788
+2024-06-03 02:39:29 [INFO]: Epoch 026 - training loss: 0.2799, validation loss: 0.5837
+2024-06-03 02:39:31 [INFO]: Epoch 027 - training loss: 0.2870, validation loss: 0.5651
+2024-06-03 02:39:33 [INFO]: Epoch 028 - training loss: 0.2969, validation loss: 0.6262
+2024-06-03 02:39:35 [INFO]: Epoch 029 - training loss: 0.2701, validation loss: 0.5645
+2024-06-03 02:39:37 [INFO]: Epoch 030 - training loss: 0.2781, validation loss: 0.5513
+2024-06-03 02:39:39 [INFO]: Epoch 031 - training loss: 0.2619, validation loss: 0.6647
+2024-06-03 02:39:41 [INFO]: Epoch 032 - training loss: 0.2825, validation loss: 0.5881
+2024-06-03 02:39:43 [INFO]: Epoch 033 - training loss: 0.2700, validation loss: 0.5679
+2024-06-03 02:39:46 [INFO]: Epoch 034 - training loss: 0.2535, validation loss: 0.6382
+2024-06-03 02:39:46 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:39:46 [INFO]: Finished training. The best model is from epoch#24.
+2024-06-03 02:39:46 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_3/20240603_T023813/SAITS.pypots
+2024-06-03 02:39:48 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_3/imputation.pkl
+2024-06-03 02:39:48 [INFO]: Round3 - SAITS on Pedestrian: MAE=0.5527, MSE=0.6408, MRE=0.7219
+2024-06-03 02:39:48 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 02:39:48 [INFO]: Using the given device: cuda:0
+2024-06-03 02:39:48 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_4/20240603_T023948
+2024-06-03 02:39:48 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_4/20240603_T023948/tensorboard
+2024-06-03 02:39:48 [INFO]: SAITS initialized with the given hyperparameters, the number of trainable parameters: 133,406
+2024-06-03 02:39:50 [INFO]: Epoch 001 - training loss: 1.1922, validation loss: 0.8390
+2024-06-03 02:39:52 [INFO]: Epoch 002 - training loss: 0.9659, validation loss: 0.6675
+2024-06-03 02:39:55 [INFO]: Epoch 003 - training loss: 0.8695, validation loss: 0.6284
+2024-06-03 02:39:57 [INFO]: Epoch 004 - training loss: 0.8413, validation loss: 0.6405
+2024-06-03 02:39:59 [INFO]: Epoch 005 - training loss: 0.7739, validation loss: 0.6259
+2024-06-03 02:40:01 [INFO]: Epoch 006 - training loss: 0.7586, validation loss: 0.6286
+2024-06-03 02:40:03 [INFO]: Epoch 007 - training loss: 0.7316, validation loss: 0.6019
+2024-06-03 02:40:05 [INFO]: Epoch 008 - training loss: 0.7117, validation loss: 0.6135
+2024-06-03 02:40:07 [INFO]: Epoch 009 - training loss: 0.6636, validation loss: 0.6382
+2024-06-03 02:40:10 [INFO]: Epoch 010 - training loss: 0.6476, validation loss: 0.6389
+2024-06-03 02:40:12 [INFO]: Epoch 011 - training loss: 0.6097, validation loss: 0.6284
+2024-06-03 02:40:14 [INFO]: Epoch 012 - training loss: 0.6199, validation loss: 0.6601
+2024-06-03 02:40:16 [INFO]: Epoch 013 - training loss: 0.5848, validation loss: 0.6229
+2024-06-03 02:40:18 [INFO]: Epoch 014 - training loss: 0.5755, validation loss: 0.6311
+2024-06-03 02:40:20 [INFO]: Epoch 015 - training loss: 0.5509, validation loss: 0.6691
+2024-06-03 02:40:21 [INFO]: Epoch 016 - training loss: 0.5743, validation loss: 0.6766
+2024-06-03 02:40:23 [INFO]: Epoch 017 - training loss: 0.5591, validation loss: 0.6817
+2024-06-03 02:40:23 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:40:23 [INFO]: Finished training. The best model is from epoch#7.
+2024-06-03 02:40:23 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_4/20240603_T023948/SAITS.pypots
+2024-06-03 02:40:24 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/SAITS_Pedestrian/round_4/imputation.pkl
+2024-06-03 02:40:24 [INFO]: Round4 - SAITS on Pedestrian: MAE=0.5248, MSE=0.7374, MRE=0.6855
+2024-06-03 02:40:24 [INFO]: Done! Final results:
+Averaged SAITS (133,406 params) on Pedestrian: MAE=0.5143 ± 0.02207933451466382, MSE=0.6743 ± 0.044739956915875845, MRE=0.6717 ± 0.028836621210256128, average inference time=1.64

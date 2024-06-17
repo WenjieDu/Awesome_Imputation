@@ -1,0 +1,216 @@
+2024-06-02 19:58:25 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-02 19:58:25 [INFO]: Using the given device: cuda:0
+2024-06-02 19:58:26 [INFO]: Model files will be saved to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_0/20240602_T195826
+2024-06-02 19:58:26 [INFO]: Tensorboard file will be saved to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_0/20240602_T195826/tensorboard
+2024-06-02 19:58:27 [INFO]: NonstationaryTransformer initialized with the given hyperparameters, the number of trainable parameters: 589,927
+2024-06-02 19:58:32 [INFO]: Epoch 001 - training loss: 1.0873, validation loss: 0.4297
+2024-06-02 19:58:33 [INFO]: Epoch 002 - training loss: 0.7586, validation loss: 0.4062
+2024-06-02 19:58:33 [INFO]: Epoch 003 - training loss: 0.6930, validation loss: 0.3083
+2024-06-02 19:58:34 [INFO]: Epoch 004 - training loss: 0.6381, validation loss: 0.2572
+2024-06-02 19:58:35 [INFO]: Epoch 005 - training loss: 0.6162, validation loss: 0.2250
+2024-06-02 19:58:35 [INFO]: Epoch 006 - training loss: 0.5977, validation loss: 0.2256
+2024-06-02 19:58:36 [INFO]: Epoch 007 - training loss: 0.5892, validation loss: 0.2227
+2024-06-02 19:58:36 [INFO]: Epoch 008 - training loss: 0.5744, validation loss: 0.2117
+2024-06-02 19:58:37 [INFO]: Epoch 009 - training loss: 0.5729, validation loss: 0.2128
+2024-06-02 19:58:37 [INFO]: Epoch 010 - training loss: 0.5701, validation loss: 0.2063
+2024-06-02 19:58:38 [INFO]: Epoch 011 - training loss: 0.5641, validation loss: 0.2196
+2024-06-02 19:58:38 [INFO]: Epoch 012 - training loss: 0.5679, validation loss: 0.2120
+2024-06-02 19:58:39 [INFO]: Epoch 013 - training loss: 0.5552, validation loss: 0.2128
+2024-06-02 19:58:39 [INFO]: Epoch 014 - training loss: 0.5655, validation loss: 0.2037
+2024-06-02 19:58:40 [INFO]: Epoch 015 - training loss: 0.5534, validation loss: 0.2136
+2024-06-02 19:58:41 [INFO]: Epoch 016 - training loss: 0.5547, validation loss: 0.2006
+2024-06-02 19:58:41 [INFO]: Epoch 017 - training loss: 0.5471, validation loss: 0.1989
+2024-06-02 19:58:42 [INFO]: Epoch 018 - training loss: 0.5481, validation loss: 0.2034
+2024-06-02 19:58:42 [INFO]: Epoch 019 - training loss: 0.5433, validation loss: 0.2115
+2024-06-02 19:58:43 [INFO]: Epoch 020 - training loss: 0.5428, validation loss: 0.2116
+2024-06-02 19:58:43 [INFO]: Epoch 021 - training loss: 0.5445, validation loss: 0.1971
+2024-06-02 19:58:44 [INFO]: Epoch 022 - training loss: 0.5464, validation loss: 0.2135
+2024-06-02 19:58:44 [INFO]: Epoch 023 - training loss: 0.5409, validation loss: 0.2084
+2024-06-02 19:58:45 [INFO]: Epoch 024 - training loss: 0.5450, validation loss: 0.1956
+2024-06-02 19:58:46 [INFO]: Epoch 025 - training loss: 0.5352, validation loss: 0.2019
+2024-06-02 19:58:46 [INFO]: Epoch 026 - training loss: 0.5311, validation loss: 0.2002
+2024-06-02 19:58:47 [INFO]: Epoch 027 - training loss: 0.5321, validation loss: 0.1895
+2024-06-02 19:58:47 [INFO]: Epoch 028 - training loss: 0.5280, validation loss: 0.1927
+2024-06-02 19:58:48 [INFO]: Epoch 029 - training loss: 0.5253, validation loss: 0.2067
+2024-06-02 19:58:48 [INFO]: Epoch 030 - training loss: 0.5286, validation loss: 0.2005
+2024-06-02 19:58:49 [INFO]: Epoch 031 - training loss: 0.5276, validation loss: 0.2083
+2024-06-02 19:58:49 [INFO]: Epoch 032 - training loss: 0.5286, validation loss: 0.1959
+2024-06-02 19:58:50 [INFO]: Epoch 033 - training loss: 0.5285, validation loss: 0.1980
+2024-06-02 19:58:50 [INFO]: Epoch 034 - training loss: 0.5266, validation loss: 0.2039
+2024-06-02 19:58:51 [INFO]: Epoch 035 - training loss: 0.5310, validation loss: 0.1949
+2024-06-02 19:58:51 [INFO]: Epoch 036 - training loss: 0.5333, validation loss: 0.2024
+2024-06-02 19:58:52 [INFO]: Epoch 037 - training loss: 0.5196, validation loss: 0.2106
+2024-06-02 19:58:52 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 19:58:52 [INFO]: Finished training. The best model is from epoch#27.
+2024-06-02 19:58:52 [INFO]: Saved the model to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_0/20240602_T195826/NonstationaryTransformer.pypots
+2024-06-02 19:58:52 [INFO]: Successfully saved to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_0/imputation.pkl
+2024-06-02 19:58:52 [INFO]: Round0 - NonstationaryTransformer on ETT_h1: MAE=0.3767, MSE=0.2821, MRE=0.4456
+2024-06-02 19:58:52 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-02 19:58:52 [INFO]: Using the given device: cuda:0
+2024-06-02 19:58:52 [INFO]: Model files will be saved to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_1/20240602_T195852
+2024-06-02 19:58:52 [INFO]: Tensorboard file will be saved to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_1/20240602_T195852/tensorboard
+2024-06-02 19:58:52 [INFO]: NonstationaryTransformer initialized with the given hyperparameters, the number of trainable parameters: 589,927
+2024-06-02 19:58:53 [INFO]: Epoch 001 - training loss: 0.9276, validation loss: 0.3463
+2024-06-02 19:58:54 [INFO]: Epoch 002 - training loss: 0.6982, validation loss: 0.2571
+2024-06-02 19:58:54 [INFO]: Epoch 003 - training loss: 0.6501, validation loss: 0.2315
+2024-06-02 19:58:55 [INFO]: Epoch 004 - training loss: 0.6170, validation loss: 0.2404
+2024-06-02 19:58:55 [INFO]: Epoch 005 - training loss: 0.6040, validation loss: 0.2230
+2024-06-02 19:58:56 [INFO]: Epoch 006 - training loss: 0.5939, validation loss: 0.2212
+2024-06-02 19:58:56 [INFO]: Epoch 007 - training loss: 0.5870, validation loss: 0.2162
+2024-06-02 19:58:57 [INFO]: Epoch 008 - training loss: 0.5742, validation loss: 0.2080
+2024-06-02 19:58:57 [INFO]: Epoch 009 - training loss: 0.5628, validation loss: 0.2081
+2024-06-02 19:58:58 [INFO]: Epoch 010 - training loss: 0.5615, validation loss: 0.2004
+2024-06-02 19:58:59 [INFO]: Epoch 011 - training loss: 0.5720, validation loss: 0.2065
+2024-06-02 19:58:59 [INFO]: Epoch 012 - training loss: 0.5600, validation loss: 0.2026
+2024-06-02 19:59:00 [INFO]: Epoch 013 - training loss: 0.5616, validation loss: 0.2031
+2024-06-02 19:59:00 [INFO]: Epoch 014 - training loss: 0.5600, validation loss: 0.1999
+2024-06-02 19:59:01 [INFO]: Epoch 015 - training loss: 0.5533, validation loss: 0.2070
+2024-06-02 19:59:01 [INFO]: Epoch 016 - training loss: 0.5456, validation loss: 0.1993
+2024-06-02 19:59:02 [INFO]: Epoch 017 - training loss: 0.5483, validation loss: 0.1973
+2024-06-02 19:59:02 [INFO]: Epoch 018 - training loss: 0.5452, validation loss: 0.2000
+2024-06-02 19:59:03 [INFO]: Epoch 019 - training loss: 0.5419, validation loss: 0.1948
+2024-06-02 19:59:04 [INFO]: Epoch 020 - training loss: 0.5358, validation loss: 0.1959
+2024-06-02 19:59:04 [INFO]: Epoch 021 - training loss: 0.5362, validation loss: 0.2013
+2024-06-02 19:59:05 [INFO]: Epoch 022 - training loss: 0.5394, validation loss: 0.2086
+2024-06-02 19:59:05 [INFO]: Epoch 023 - training loss: 0.5353, validation loss: 0.1931
+2024-06-02 19:59:06 [INFO]: Epoch 024 - training loss: 0.5375, validation loss: 0.1945
+2024-06-02 19:59:06 [INFO]: Epoch 025 - training loss: 0.5336, validation loss: 0.1957
+2024-06-02 19:59:07 [INFO]: Epoch 026 - training loss: 0.5398, validation loss: 0.1999
+2024-06-02 19:59:08 [INFO]: Epoch 027 - training loss: 0.5356, validation loss: 0.2091
+2024-06-02 19:59:08 [INFO]: Epoch 028 - training loss: 0.5302, validation loss: 0.1935
+2024-06-02 19:59:09 [INFO]: Epoch 029 - training loss: 0.5359, validation loss: 0.2094
+2024-06-02 19:59:09 [INFO]: Epoch 030 - training loss: 0.5336, validation loss: 0.2019
+2024-06-02 19:59:10 [INFO]: Epoch 031 - training loss: 0.5243, validation loss: 0.2032
+2024-06-02 19:59:10 [INFO]: Epoch 032 - training loss: 0.5313, validation loss: 0.1949
+2024-06-02 19:59:11 [INFO]: Epoch 033 - training loss: 0.5315, validation loss: 0.2000
+2024-06-02 19:59:11 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 19:59:11 [INFO]: Finished training. The best model is from epoch#23.
+2024-06-02 19:59:11 [INFO]: Saved the model to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_1/20240602_T195852/NonstationaryTransformer.pypots
+2024-06-02 19:59:11 [INFO]: Successfully saved to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_1/imputation.pkl
+2024-06-02 19:59:11 [INFO]: Round1 - NonstationaryTransformer on ETT_h1: MAE=0.3888, MSE=0.3000, MRE=0.4600
+2024-06-02 19:59:11 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-02 19:59:11 [INFO]: Using the given device: cuda:0
+2024-06-02 19:59:11 [INFO]: Model files will be saved to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_2/20240602_T195911
+2024-06-02 19:59:11 [INFO]: Tensorboard file will be saved to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_2/20240602_T195911/tensorboard
+2024-06-02 19:59:11 [INFO]: NonstationaryTransformer initialized with the given hyperparameters, the number of trainable parameters: 589,927
+2024-06-02 19:59:12 [INFO]: Epoch 001 - training loss: 1.0847, validation loss: 0.3957
+2024-06-02 19:59:12 [INFO]: Epoch 002 - training loss: 0.7505, validation loss: 0.2930
+2024-06-02 19:59:13 [INFO]: Epoch 003 - training loss: 0.6732, validation loss: 0.2632
+2024-06-02 19:59:13 [INFO]: Epoch 004 - training loss: 0.6268, validation loss: 0.2350
+2024-06-02 19:59:14 [INFO]: Epoch 005 - training loss: 0.6212, validation loss: 0.2203
+2024-06-02 19:59:14 [INFO]: Epoch 006 - training loss: 0.5947, validation loss: 0.2143
+2024-06-02 19:59:15 [INFO]: Epoch 007 - training loss: 0.5843, validation loss: 0.2088
+2024-06-02 19:59:15 [INFO]: Epoch 008 - training loss: 0.5808, validation loss: 0.2048
+2024-06-02 19:59:16 [INFO]: Epoch 009 - training loss: 0.5814, validation loss: 0.2044
+2024-06-02 19:59:16 [INFO]: Epoch 010 - training loss: 0.5651, validation loss: 0.2063
+2024-06-02 19:59:17 [INFO]: Epoch 011 - training loss: 0.5736, validation loss: 0.2027
+2024-06-02 19:59:18 [INFO]: Epoch 012 - training loss: 0.5635, validation loss: 0.2038
+2024-06-02 19:59:18 [INFO]: Epoch 013 - training loss: 0.5661, validation loss: 0.2006
+2024-06-02 19:59:19 [INFO]: Epoch 014 - training loss: 0.5661, validation loss: 0.2011
+2024-06-02 19:59:19 [INFO]: Epoch 015 - training loss: 0.5539, validation loss: 0.1949
+2024-06-02 19:59:20 [INFO]: Epoch 016 - training loss: 0.5536, validation loss: 0.2016
+2024-06-02 19:59:20 [INFO]: Epoch 017 - training loss: 0.5533, validation loss: 0.2013
+2024-06-02 19:59:21 [INFO]: Epoch 018 - training loss: 0.5482, validation loss: 0.2042
+2024-06-02 19:59:21 [INFO]: Epoch 019 - training loss: 0.5436, validation loss: 0.2040
+2024-06-02 19:59:22 [INFO]: Epoch 020 - training loss: 0.5463, validation loss: 0.2015
+2024-06-02 19:59:22 [INFO]: Epoch 021 - training loss: 0.5491, validation loss: 0.2021
+2024-06-02 19:59:23 [INFO]: Epoch 022 - training loss: 0.5447, validation loss: 0.1975
+2024-06-02 19:59:23 [INFO]: Epoch 023 - training loss: 0.5446, validation loss: 0.2005
+2024-06-02 19:59:23 [INFO]: Epoch 024 - training loss: 0.5338, validation loss: 0.2082
+2024-06-02 19:59:24 [INFO]: Epoch 025 - training loss: 0.5349, validation loss: 0.1967
+2024-06-02 19:59:24 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 19:59:24 [INFO]: Finished training. The best model is from epoch#15.
+2024-06-02 19:59:24 [INFO]: Saved the model to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_2/20240602_T195911/NonstationaryTransformer.pypots
+2024-06-02 19:59:24 [INFO]: Successfully saved to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_2/imputation.pkl
+2024-06-02 19:59:24 [INFO]: Round2 - NonstationaryTransformer on ETT_h1: MAE=0.3815, MSE=0.2960, MRE=0.4514
+2024-06-02 19:59:24 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-02 19:59:24 [INFO]: Using the given device: cuda:0
+2024-06-02 19:59:24 [INFO]: Model files will be saved to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_3/20240602_T195924
+2024-06-02 19:59:24 [INFO]: Tensorboard file will be saved to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_3/20240602_T195924/tensorboard
+2024-06-02 19:59:24 [INFO]: NonstationaryTransformer initialized with the given hyperparameters, the number of trainable parameters: 589,927
+2024-06-02 19:59:25 [INFO]: Epoch 001 - training loss: 1.1765, validation loss: 0.4707
+2024-06-02 19:59:25 [INFO]: Epoch 002 - training loss: 0.7612, validation loss: 0.4097
+2024-06-02 19:59:26 [INFO]: Epoch 003 - training loss: 0.6925, validation loss: 0.2947
+2024-06-02 19:59:26 [INFO]: Epoch 004 - training loss: 0.6626, validation loss: 0.2992
+2024-06-02 19:59:27 [INFO]: Epoch 005 - training loss: 0.6208, validation loss: 0.2756
+2024-06-02 19:59:27 [INFO]: Epoch 006 - training loss: 0.6000, validation loss: 0.2170
+2024-06-02 19:59:28 [INFO]: Epoch 007 - training loss: 0.5927, validation loss: 0.2201
+2024-06-02 19:59:28 [INFO]: Epoch 008 - training loss: 0.5837, validation loss: 0.2122
+2024-06-02 19:59:29 [INFO]: Epoch 009 - training loss: 0.5783, validation loss: 0.2119
+2024-06-02 19:59:29 [INFO]: Epoch 010 - training loss: 0.5759, validation loss: 0.2149
+2024-06-02 19:59:30 [INFO]: Epoch 011 - training loss: 0.5708, validation loss: 0.2326
+2024-06-02 19:59:30 [INFO]: Epoch 012 - training loss: 0.5758, validation loss: 0.2030
+2024-06-02 19:59:31 [INFO]: Epoch 013 - training loss: 0.5560, validation loss: 0.2033
+2024-06-02 19:59:31 [INFO]: Epoch 014 - training loss: 0.5701, validation loss: 0.2336
+2024-06-02 19:59:32 [INFO]: Epoch 015 - training loss: 0.5567, validation loss: 0.2003
+2024-06-02 19:59:32 [INFO]: Epoch 016 - training loss: 0.5583, validation loss: 0.1950
+2024-06-02 19:59:33 [INFO]: Epoch 017 - training loss: 0.5658, validation loss: 0.2041
+2024-06-02 19:59:34 [INFO]: Epoch 018 - training loss: 0.5557, validation loss: 0.1994
+2024-06-02 19:59:34 [INFO]: Epoch 019 - training loss: 0.5508, validation loss: 0.2091
+2024-06-02 19:59:35 [INFO]: Epoch 020 - training loss: 0.5560, validation loss: 0.2037
+2024-06-02 19:59:35 [INFO]: Epoch 021 - training loss: 0.5507, validation loss: 0.1972
+2024-06-02 19:59:36 [INFO]: Epoch 022 - training loss: 0.5495, validation loss: 0.2084
+2024-06-02 19:59:36 [INFO]: Epoch 023 - training loss: 0.5444, validation loss: 0.1982
+2024-06-02 19:59:37 [INFO]: Epoch 024 - training loss: 0.5417, validation loss: 0.1918
+2024-06-02 19:59:37 [INFO]: Epoch 025 - training loss: 0.5318, validation loss: 0.1994
+2024-06-02 19:59:38 [INFO]: Epoch 026 - training loss: 0.5296, validation loss: 0.1894
+2024-06-02 19:59:38 [INFO]: Epoch 027 - training loss: 0.5376, validation loss: 0.1997
+2024-06-02 19:59:39 [INFO]: Epoch 028 - training loss: 0.5360, validation loss: 0.2036
+2024-06-02 19:59:39 [INFO]: Epoch 029 - training loss: 0.5417, validation loss: 0.2031
+2024-06-02 19:59:40 [INFO]: Epoch 030 - training loss: 0.5392, validation loss: 0.1942
+2024-06-02 19:59:40 [INFO]: Epoch 031 - training loss: 0.5390, validation loss: 0.1960
+2024-06-02 19:59:41 [INFO]: Epoch 032 - training loss: 0.5304, validation loss: 0.2012
+2024-06-02 19:59:41 [INFO]: Epoch 033 - training loss: 0.5375, validation loss: 0.1969
+2024-06-02 19:59:42 [INFO]: Epoch 034 - training loss: 0.5301, validation loss: 0.1911
+2024-06-02 19:59:43 [INFO]: Epoch 035 - training loss: 0.5310, validation loss: 0.1919
+2024-06-02 19:59:43 [INFO]: Epoch 036 - training loss: 0.5259, validation loss: 0.1980
+2024-06-02 19:59:43 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 19:59:43 [INFO]: Finished training. The best model is from epoch#26.
+2024-06-02 19:59:43 [INFO]: Saved the model to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_3/20240602_T195924/NonstationaryTransformer.pypots
+2024-06-02 19:59:43 [INFO]: Successfully saved to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_3/imputation.pkl
+2024-06-02 19:59:43 [INFO]: Round3 - NonstationaryTransformer on ETT_h1: MAE=0.3798, MSE=0.2875, MRE=0.4492
+2024-06-02 19:59:43 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-02 19:59:43 [INFO]: Using the given device: cuda:0
+2024-06-02 19:59:43 [INFO]: Model files will be saved to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_4/20240602_T195943
+2024-06-02 19:59:43 [INFO]: Tensorboard file will be saved to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_4/20240602_T195943/tensorboard
+2024-06-02 19:59:43 [INFO]: NonstationaryTransformer initialized with the given hyperparameters, the number of trainable parameters: 589,927
+2024-06-02 19:59:44 [INFO]: Epoch 001 - training loss: 0.9644, validation loss: 0.4004
+2024-06-02 19:59:45 [INFO]: Epoch 002 - training loss: 0.7016, validation loss: 0.2833
+2024-06-02 19:59:45 [INFO]: Epoch 003 - training loss: 0.6499, validation loss: 0.2577
+2024-06-02 19:59:46 [INFO]: Epoch 004 - training loss: 0.6163, validation loss: 0.2267
+2024-06-02 19:59:46 [INFO]: Epoch 005 - training loss: 0.6003, validation loss: 0.2137
+2024-06-02 19:59:46 [INFO]: Epoch 006 - training loss: 0.5912, validation loss: 0.2306
+2024-06-02 19:59:47 [INFO]: Epoch 007 - training loss: 0.5850, validation loss: 0.2278
+2024-06-02 19:59:47 [INFO]: Epoch 008 - training loss: 0.5747, validation loss: 0.2073
+2024-06-02 19:59:48 [INFO]: Epoch 009 - training loss: 0.5693, validation loss: 0.1984
+2024-06-02 19:59:49 [INFO]: Epoch 010 - training loss: 0.5657, validation loss: 0.2173
+2024-06-02 19:59:49 [INFO]: Epoch 011 - training loss: 0.5633, validation loss: 0.2055
+2024-06-02 19:59:50 [INFO]: Epoch 012 - training loss: 0.5644, validation loss: 0.2001
+2024-06-02 19:59:50 [INFO]: Epoch 013 - training loss: 0.5674, validation loss: 0.2121
+2024-06-02 19:59:51 [INFO]: Epoch 014 - training loss: 0.5593, validation loss: 0.1955
+2024-06-02 19:59:51 [INFO]: Epoch 015 - training loss: 0.5525, validation loss: 0.2064
+2024-06-02 19:59:52 [INFO]: Epoch 016 - training loss: 0.5514, validation loss: 0.1986
+2024-06-02 19:59:53 [INFO]: Epoch 017 - training loss: 0.5502, validation loss: 0.2084
+2024-06-02 19:59:53 [INFO]: Epoch 018 - training loss: 0.5497, validation loss: 0.1980
+2024-06-02 19:59:54 [INFO]: Epoch 019 - training loss: 0.5455, validation loss: 0.1931
+2024-06-02 19:59:54 [INFO]: Epoch 020 - training loss: 0.5460, validation loss: 0.2077
+2024-06-02 19:59:55 [INFO]: Epoch 021 - training loss: 0.5394, validation loss: 0.2002
+2024-06-02 19:59:55 [INFO]: Epoch 022 - training loss: 0.5310, validation loss: 0.1940
+2024-06-02 19:59:56 [INFO]: Epoch 023 - training loss: 0.5407, validation loss: 0.1930
+2024-06-02 19:59:56 [INFO]: Epoch 024 - training loss: 0.5366, validation loss: 0.2179
+2024-06-02 19:59:57 [INFO]: Epoch 025 - training loss: 0.5401, validation loss: 0.1943
+2024-06-02 19:59:57 [INFO]: Epoch 026 - training loss: 0.5365, validation loss: 0.1955
+2024-06-02 19:59:58 [INFO]: Epoch 027 - training loss: 0.5316, validation loss: 0.1963
+2024-06-02 19:59:59 [INFO]: Epoch 028 - training loss: 0.5341, validation loss: 0.2060
+2024-06-02 19:59:59 [INFO]: Epoch 029 - training loss: 0.5290, validation loss: 0.1966
+2024-06-02 20:00:00 [INFO]: Epoch 030 - training loss: 0.5319, validation loss: 0.1941
+2024-06-02 20:00:00 [INFO]: Epoch 031 - training loss: 0.5312, validation loss: 0.1966
+2024-06-02 20:00:01 [INFO]: Epoch 032 - training loss: 0.5309, validation loss: 0.1940
+2024-06-02 20:00:01 [INFO]: Epoch 033 - training loss: 0.5259, validation loss: 0.2041
+2024-06-02 20:00:01 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 20:00:01 [INFO]: Finished training. The best model is from epoch#23.
+2024-06-02 20:00:01 [INFO]: Saved the model to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_4/20240602_T195943/NonstationaryTransformer.pypots
+2024-06-02 20:00:02 [INFO]: Successfully saved to results_point_rate05/ETT_h1/NonstationaryTransformer_ETT_h1/round_4/imputation.pkl
+2024-06-02 20:00:02 [INFO]: Round4 - NonstationaryTransformer on ETT_h1: MAE=0.3819, MSE=0.2951, MRE=0.4518
+2024-06-02 20:00:02 [INFO]: Done! Final results:
+Averaged NonstationaryTransformer (589,927 params) on ETT_h1: MAE=0.3817 ± 0.004005708651531966, MSE=0.2921 ± 0.006464028644379544, MRE=0.4516 ± 0.0047387403073882815, average inference time=0.06

@@ -1,0 +1,409 @@
+2024-06-05 12:24:17 [INFO]: Start running downstream regression task on data/point_rate01_latest/ett_rate01_step48_point
+2024-06-05 12:24:17 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:24:39 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:25:00 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:25:21 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:25:42 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:26:03 [INFO]: 
+XGB (with mean imputation) regression MAE: 1.2089±0.0000, MSE: 1.7164±0.0000, MRE: 1.0675±0.0000
+RNN (with mean imputation) regression MAE: 1.4243±0.0694, MSE: 2.4160±0.1782, MRE: 1.2577±0.0613
+Transformer (with mean imputation) regression MAE: 1.4452±0.0753, MSE: 2.3902±0.2132, MRE: 1.2762±0.0665
+
+2024-06-05 12:26:03 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:26:23 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:26:44 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:27:05 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:27:25 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:27:46 [INFO]: 
+XGB (with median imputation) regression MAE: 1.2075±0.0014, MSE: 1.7170±0.0006, MRE: 1.0662±0.0012
+RNN (with median imputation) regression MAE: 1.4233±0.0689, MSE: 2.4147±0.1765, MRE: 1.2568±0.0608
+Transformer (with median imputation) regression MAE: 1.4478±0.0716, MSE: 2.3978±0.2017, MRE: 1.2785±0.0632
+
+2024-06-05 12:27:46 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:28:08 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:28:31 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:28:53 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:29:16 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:29:38 [INFO]: 
+XGB (with locf imputation) regression MAE: 1.1935±0.0197, MSE: 1.6817±0.0499, MRE: 1.0539±0.0174
+RNN (with locf imputation) regression MAE: 1.4167±0.0659, MSE: 2.3946±0.1677, MRE: 1.2510±0.0582
+Transformer (with locf imputation) regression MAE: 1.4301±0.0764, MSE: 2.3456±0.2119, MRE: 1.2629±0.0674
+
+2024-06-05 12:29:38 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:30:03 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:30:28 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:30:52 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:31:17 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:31:42 [INFO]: 
+XGB (with linear_interpolation imputation) regression MAE: 1.1876±0.0199, MSE: 1.6773±0.0439, MRE: 1.0487±0.0176
+RNN (with linear_interpolation imputation) regression MAE: 1.4136±0.0641, MSE: 2.3855±0.1618, MRE: 1.2482±0.0566
+Transformer (with linear_interpolation imputation) regression MAE: 1.4218±0.0771, MSE: 2.3213±0.2117, MRE: 1.2555±0.0681
+
+2024-06-05 12:31:45 [INFO]: Start running downstream regression task on data/point_rate05/ett_rate05_step48_point
+2024-06-05 12:31:45 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:32:01 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:32:16 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:32:32 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:32:47 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:33:02 [INFO]: 
+XGB (with mean imputation) regression MAE: 1.4314±0.0000, MSE: 2.3036±0.0000, MRE: 1.2640±0.0000
+RNN (with mean imputation) regression MAE: 1.5119±0.1199, MSE: 2.6247±0.3506, MRE: 1.3351±0.1058
+Transformer (with mean imputation) regression MAE: 1.6273±0.0724, MSE: 3.0105±0.2327, MRE: 1.4369±0.0639
+
+2024-06-05 12:33:02 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:33:18 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:33:33 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:33:48 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:34:04 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:34:19 [INFO]: 
+XGB (with median imputation) regression MAE: 1.5173±0.0860, MSE: 2.5725±0.2688, MRE: 1.3399±0.0759
+RNN (with median imputation) regression MAE: 1.5314±0.1279, MSE: 2.7048±0.3820, MRE: 1.3523±0.1129
+Transformer (with median imputation) regression MAE: 1.6710±0.0687, MSE: 3.1424±0.2127, MRE: 1.4756±0.0607
+
+2024-06-05 12:34:19 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:34:41 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:35:04 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:35:26 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:35:48 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:36:11 [INFO]: 
+XGB (with locf imputation) regression MAE: 1.4459±0.1230, MSE: 2.4158±0.3119, MRE: 1.2768±0.1086
+RNN (with locf imputation) regression MAE: 1.4769±0.1338, MSE: 2.5520±0.3877, MRE: 1.3042±0.1182
+Transformer (with locf imputation) regression MAE: 1.5715±0.1579, MSE: 2.8205±0.5012, MRE: 1.3877±0.1394
+
+2024-06-05 12:36:11 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:36:44 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:37:18 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:37:52 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:38:26 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:38:59 [INFO]: 
+XGB (with linear_interpolation imputation) regression MAE: 1.3935±0.1399, MSE: 2.2813±0.3567, MRE: 1.2305±0.1236
+RNN (with linear_interpolation imputation) regression MAE: 1.4529±0.1266, MSE: 2.4860±0.3619, MRE: 1.2829±0.1118
+Transformer (with linear_interpolation imputation) regression MAE: 1.5251±0.1634, MSE: 2.6704±0.5161, MRE: 1.3467±0.1443
+
+2024-06-05 13:04:06 [INFO]: Start running downstream regression task on data/point_rate09/ett_rate09_step48_point_latest
+2024-06-05 13:04:06 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 13:04:13 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 13:04:18 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 13:04:24 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 13:04:30 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 13:04:36 [INFO]: 
+XGB (with mean imputation) regression MAE: 2.0675±0.0000, MSE: 4.7368±0.0000, MRE: 1.8256±0.0000
+RNN (with mean imputation) regression MAE: 2.0965±0.1020, MSE: 4.8346±0.4307, MRE: 1.8513±0.0900
+Transformer (with mean imputation) regression MAE: 1.4983±0.1616, MSE: 2.4736±0.4751, MRE: 1.3230±0.1427
+
+2024-06-05 13:04:36 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 13:04:42 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 13:04:48 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 13:04:53 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 13:04:59 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 13:05:05 [INFO]: 
+XGB (with median imputation) regression MAE: 2.0450±0.0224, MSE: 4.6318±0.1051, MRE: 1.8058±0.0198
+RNN (with median imputation) regression MAE: 2.0231±0.1916, MSE: 4.5138±0.7986, MRE: 1.7864±0.1692
+Transformer (with median imputation) regression MAE: 1.4827±0.1614, MSE: 2.4265±0.4654, MRE: 1.3093±0.1425
+
+2024-06-05 13:05:05 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 13:05:29 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 13:05:53 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 13:06:16 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 13:06:40 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 13:07:04 [INFO]: 
+XGB (with locf imputation) regression MAE: 1.8042±0.3410, MSE: 3.8567±1.0994, MRE: 1.5932±0.3011
+RNN (with locf imputation) regression MAE: 1.7731±0.3884, MSE: 3.6790±1.3520, MRE: 1.5657±0.3429
+Transformer (with locf imputation) regression MAE: 1.4426±0.1462, MSE: 2.3494±0.4043, MRE: 1.2739±0.1291
+
+2024-06-05 13:07:04 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 13:07:44 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 13:08:25 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 13:09:05 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 13:09:45 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 13:10:26 [INFO]: 
+XGB (with linear_interpolation imputation) regression MAE: 1.6817±0.3637, MSE: 3.4637±1.1705, MRE: 1.4850±0.3212
+RNN (with linear_interpolation imputation) regression MAE: 1.6524±0.3971, MSE: 3.2790±1.3627, MRE: 1.4592±0.3507
+Transformer (with linear_interpolation imputation) regression MAE: 1.4227±0.1336, MSE: 2.3137±0.3628, MRE: 1.2563±0.1180
+
+2024-06-05 12:39:05 [INFO]: Start running downstream regression task on data/subseq_rate05/ett_rate05_step48_subseq_seqlen36
+2024-06-05 12:39:05 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:39:22 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:39:39 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:39:55 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:40:12 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:40:28 [INFO]: 
+XGB (with mean imputation) regression MAE: 1.4300±0.0000, MSE: 2.5255±0.0000, MRE: 1.2628±0.0000
+RNN (with mean imputation) regression MAE: 1.8593±0.0951, MSE: 3.8210±0.3490, MRE: 1.6418±0.0840
+Transformer (with mean imputation) regression MAE: 1.7788±0.0353, MSE: 3.4784±0.1326, MRE: 1.5707±0.0312
+
+2024-06-05 12:40:28 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:40:45 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:41:01 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:41:18 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:41:34 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:41:51 [INFO]: 
+XGB (with median imputation) regression MAE: 1.4990±0.0690, MSE: 2.7657±0.2402, MRE: 1.3237±0.0609
+RNN (with median imputation) regression MAE: 1.8582±0.0891, MSE: 3.8250±0.3277, MRE: 1.6408±0.0787
+Transformer (with median imputation) regression MAE: 1.7772±0.0342, MSE: 3.4718±0.1331, MRE: 1.5694±0.0302
+
+2024-06-05 12:41:51 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:42:15 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:42:39 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:43:04 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:43:28 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:43:53 [INFO]: 
+XGB (with locf imputation) regression MAE: 1.4458±0.0941, MSE: 2.6191±0.2854, MRE: 1.2767±0.0831
+RNN (with locf imputation) regression MAE: 1.6991±0.2375, MSE: 3.2932±0.8003, MRE: 1.5004±0.2097
+Transformer (with locf imputation) regression MAE: 1.6510±0.1822, MSE: 3.0551±0.6028, MRE: 1.4579±0.1608
+
+2024-06-05 12:43:53 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:44:29 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:45:06 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:45:42 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:46:18 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:46:55 [INFO]: 
+XGB (with linear_interpolation imputation) regression MAE: 1.4225±0.0909, MSE: 2.5400±0.2826, MRE: 1.2561±0.0803
+RNN (with linear_interpolation imputation) regression MAE: 1.6100±0.2581, MSE: 3.0105±0.8502, MRE: 1.4217±0.2280
+Transformer (with linear_interpolation imputation) regression MAE: 1.5879±0.1931, MSE: 2.8576±0.6274, MRE: 1.4022±0.1706
+
+2024-06-05 12:46:58 [INFO]: Start running downstream regression task on data/block_rate05/ett_rate05_step48_block_blocklen6
+2024-06-05 12:46:58 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:47:16 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:47:33 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:47:50 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:48:07 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:48:24 [INFO]: 
+XGB (with mean imputation) regression MAE: 1.4130±0.0000, MSE: 2.3457±0.0000, MRE: 1.2478±0.0000
+RNN (with mean imputation) regression MAE: 1.6685±0.0834, MSE: 3.1408±0.2662, MRE: 1.4734±0.0736
+Transformer (with mean imputation) regression MAE: 1.7496±0.0434, MSE: 3.4527±0.1734, MRE: 1.5450±0.0383
+
+2024-06-05 12:48:24 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:48:41 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:48:58 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:49:15 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:49:32 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:49:49 [INFO]: 
+XGB (with median imputation) regression MAE: 1.4961±0.0831, MSE: 2.6480±0.3024, MRE: 1.3212±0.0734
+RNN (with median imputation) regression MAE: 1.6879±0.1001, MSE: 3.2277±0.3316, MRE: 1.4905±0.0884
+Transformer (with median imputation) regression MAE: 1.7362±0.0612, MSE: 3.3852±0.2480, MRE: 1.5331±0.0540
+
+2024-06-05 12:49:49 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:50:13 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:50:37 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:51:01 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:51:24 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:51:48 [INFO]: 
+XGB (with locf imputation) regression MAE: 1.4331±0.1121, MSE: 2.4837±0.3390, MRE: 1.2655±0.0990
+RNN (with locf imputation) regression MAE: 1.6009±0.1500, MSE: 2.9521±0.4788, MRE: 1.4136±0.1325
+Transformer (with locf imputation) regression MAE: 1.6111±0.1875, MSE: 2.9723±0.6258, MRE: 1.4227±0.1656
+
+2024-06-05 12:51:48 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-05 12:52:24 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-05 12:52:59 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-05 12:53:35 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-05 12:54:10 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-05 12:54:46 [INFO]: 
+XGB (with linear_interpolation imputation) regression MAE: 1.3948±0.1176, MSE: 2.3650±0.3584, MRE: 1.2316±0.1038
+RNN (with linear_interpolation imputation) regression MAE: 1.5582±0.1515, MSE: 2.8206±0.4773, MRE: 1.3759±0.1338
+Transformer (with linear_interpolation imputation) regression MAE: 1.5557±0.1913, MSE: 2.7905±0.6329, MRE: 1.3738±0.1690
+
+2024-06-12 12:31:44 [INFO]: Start running downstream regression task on data/point_rate01_latest/pems_traffic_rate01_step24_point
+2024-06-12 12:31:46 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-12 12:54:54 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-12 13:18:20 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-12 13:41:46 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-12 14:05:12 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-12 14:28:43 [INFO]: 
+XGB (with mean imputation) regression MAE: 0.5725±0.0000, MSE: 0.6507±0.0000, MRE: 0.4605±0.0000
+RNN (with mean imputation) regression MAE: 0.4387±0.0241, MSE: 0.4266±0.0361, MRE: 0.3529±0.0194
+Transformer (with mean imputation) regression MAE: 0.4011±0.0121, MSE: 0.3748±0.0129, MRE: 0.3227±0.0097
+
+2024-06-12 14:28:43 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-12 14:52:17 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-12 15:15:57 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-12 15:39:33 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-12 16:03:02 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-12 16:26:30 [INFO]: 
+XGB (with median imputation) regression MAE: 0.5721±0.0004, MSE: 0.6623±0.0116, MRE: 0.4602±0.0003
+RNN (with median imputation) regression MAE: 0.4360±0.0220, MSE: 0.4230±0.0329, MRE: 0.3507±0.0177
+Transformer (with median imputation) regression MAE: 0.4013±0.0120, MSE: 0.3760±0.0140, MRE: 0.3228±0.0096
+
+2024-06-12 16:26:30 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-12 16:51:33 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-12 17:16:40 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-12 17:41:47 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-12 18:06:53 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-12 18:31:37 [INFO]: 
+XGB (with locf imputation) regression MAE: 0.5756±0.0050, MSE: 0.6642±0.0098, MRE: 0.4631±0.0040
+RNN (with locf imputation) regression MAE: 0.4377±0.0219, MSE: 0.4260±0.0341, MRE: 0.3521±0.0176
+Transformer (with locf imputation) regression MAE: 0.4047±0.0178, MSE: 0.3836±0.0248, MRE: 0.3256±0.0143
+
+2024-06-12 18:31:37 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-12 18:56:58 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-12 19:22:22 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-12 19:47:46 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-12 20:13:10 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-12 20:38:26 [INFO]: 
+XGB (with linear_interpolation imputation) regression MAE: 0.5671±0.0154, MSE: 0.6550±0.0180, MRE: 0.4562±0.0124
+RNN (with linear_interpolation imputation) regression MAE: 0.4375±0.0234, MSE: 0.4257±0.0357, MRE: 0.3520±0.0188
+Transformer (with linear_interpolation imputation) regression MAE: 0.4125±0.0210, MSE: 0.3945±0.0293, MRE: 0.3318±0.0169
+
+2024-06-12 20:39:30 [INFO]: Start running downstream regression task on data/point_rate05/pems_traffic_rate05_step24_point
+2024-06-12 20:39:33 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-12 20:58:22 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-12 21:17:14 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-12 21:36:06 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-12 21:54:55 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-12 22:13:43 [INFO]: 
+XGB (with mean imputation) regression MAE: 0.6071±0.0000, MSE: 0.7233±0.0000, MRE: 0.4884±0.0000
+RNN (with mean imputation) regression MAE: 0.4279±0.0274, MSE: 0.4088±0.0374, MRE: 0.3443±0.0220
+Transformer (with mean imputation) regression MAE: 0.4000±0.0121, MSE: 0.3889±0.0184, MRE: 0.3218±0.0098
+
+2024-06-12 22:13:43 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-12 22:32:14 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-12 22:50:44 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-12 23:09:23 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-12 23:28:10 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-12 23:47:04 [INFO]: 
+XGB (with median imputation) regression MAE: 0.6062±0.0009, MSE: 0.7204±0.0029, MRE: 0.4877±0.0007
+RNN (with median imputation) regression MAE: 0.4223±0.0234, MSE: 0.4014±0.0320, MRE: 0.3397±0.0188
+Transformer (with median imputation) regression MAE: 0.3971±0.0109, MSE: 0.3795±0.0180, MRE: 0.3195±0.0088
+
+2024-06-12 23:47:04 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-13 00:12:11 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-13 00:37:08 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-13 01:01:57 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-13 01:26:47 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-13 01:51:40 [INFO]: 
+XGB (with locf imputation) regression MAE: 0.6044±0.0026, MSE: 0.7088±0.0165, MRE: 0.4862±0.0021
+RNN (with locf imputation) regression MAE: 0.4360±0.0277, MSE: 0.4221±0.0402, MRE: 0.3508±0.0223
+Transformer (with locf imputation) regression MAE: 0.4127±0.0260, MSE: 0.3907±0.0276, MRE: 0.3320±0.0209
+
+2024-06-13 01:51:40 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-13 02:19:26 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-13 02:47:11 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-13 03:14:58 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-13 03:42:40 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-13 04:10:23 [INFO]: 
+XGB (with linear_interpolation imputation) regression MAE: 0.5920±0.0216, MSE: 0.6881±0.0387, MRE: 0.4762±0.0174
+RNN (with linear_interpolation imputation) regression MAE: 0.4437±0.0305, MSE: 0.4311±0.0425, MRE: 0.3570±0.0246
+Transformer (with linear_interpolation imputation) regression MAE: 0.4192±0.0281, MSE: 0.3966±0.0310, MRE: 0.3373±0.0226
+
+2024-06-13 08:57:48 [INFO]: Start running downstream regression task on data/point_rate09_latest/pems_traffic_rate09_step24_point
+2024-06-13 08:57:51 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-13 09:05:02 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-13 09:12:08 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-13 09:19:15 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-13 09:26:21 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-13 09:33:26 [INFO]: 
+XGB (with mean imputation) regression MAE: 0.8190±0.0000, MSE: 1.1101±0.0000, MRE: 0.6588±0.0000
+RNN (with mean imputation) regression MAE: 0.7884±0.0387, MSE: 0.8778±0.0881, MRE: 0.6342±0.0312
+Transformer (with mean imputation) regression MAE: 0.7627±0.0232, MSE: 0.8078±0.0421, MRE: 0.6136±0.0186
+
+2024-06-13 09:33:26 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-13 09:40:32 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-13 09:47:39 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-13 09:54:50 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-13 10:02:02 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-13 10:09:15 [INFO]: 
+XGB (with median imputation) regression MAE: 0.8649±0.0459, MSE: 1.2490±0.1389, MRE: 0.6958±0.0369
+RNN (with median imputation) regression MAE: 0.7030±0.0913, MSE: 0.7166±0.1746, MRE: 0.5655±0.0734
+Transformer (with median imputation) regression MAE: 0.6691±0.0954, MSE: 0.6511±0.1598, MRE: 0.5382±0.0767
+
+2024-06-13 10:09:15 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-13 10:33:22 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-13 10:57:22 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-13 11:21:24 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-13 11:45:15 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-13 12:09:08 [INFO]: 
+XGB (with locf imputation) regression MAE: 0.8061±0.0912, MSE: 1.1094±0.2276, MRE: 0.6485±0.0733
+RNN (with locf imputation) regression MAE: 0.6638±0.0933, MSE: 0.6902±0.1482, MRE: 0.5340±0.0750
+Transformer (with locf imputation) regression MAE: 0.6295±0.0964, MSE: 0.6295±0.1353, MRE: 0.5064±0.0776
+
+2024-06-13 12:09:08 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-13 12:39:34 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-13 13:10:02 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-13 13:40:29 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-13 14:10:54 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-13 14:41:10 [INFO]: 
+XGB (with linear_interpolation imputation) regression MAE: 0.7791±0.0918, MSE: 1.0434±0.2278, MRE: 0.6267±0.0739
+RNN (with linear_interpolation imputation) regression MAE: 0.6423±0.0890, MSE: 0.6600±0.1387, MRE: 0.5167±0.0716
+Transformer (with linear_interpolation imputation) regression MAE: 0.5932±0.1046, MSE: 0.5842±0.1412, MRE: 0.4772±0.0842
+
+2024-06-13 04:11:27 [INFO]: Start running downstream regression task on data/subseq_rate05/pems_traffic_rate05_step24_subseq_seqlen18
+2024-06-13 04:11:29 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-13 04:29:01 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-13 04:46:33 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-13 05:04:05 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-13 05:21:36 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-13 05:39:08 [INFO]: 
+XGB (with mean imputation) regression MAE: 0.6755±0.0000, MSE: 0.9006±0.0000, MRE: 0.5434±0.0000
+RNN (with mean imputation) regression MAE: 0.4568±0.0176, MSE: 0.4184±0.0293, MRE: 0.3674±0.0142
+Transformer (with mean imputation) regression MAE: 0.4536±0.0174, MSE: 0.3888±0.0206, MRE: 0.3649±0.0140
+
+2024-06-13 05:39:08 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-13 05:56:37 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-13 06:14:05 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-13 06:31:33 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-13 06:49:01 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-13 07:06:28 [INFO]: 
+XGB (with median imputation) regression MAE: 0.7147±0.0392, MSE: 1.0779±0.1773, MRE: 0.5750±0.0316
+RNN (with median imputation) regression MAE: 0.5338±0.0796, MSE: 0.5781±0.1644, MRE: 0.4294±0.0640
+Transformer (with median imputation) regression MAE: 0.4384±0.0207, MSE: 0.3644±0.0313, MRE: 0.3527±0.0167
+
+2024-06-13 07:06:28 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-13 07:31:48 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-13 07:57:10 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-13 08:22:30 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-13 08:47:50 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-13 09:13:22 [INFO]: 
+XGB (with locf imputation) regression MAE: 0.7091±0.0330, MSE: 1.0331±0.1580, MRE: 0.5705±0.0265
+RNN (with locf imputation) regression MAE: 0.5473±0.0680, MSE: 0.6246±0.1505, MRE: 0.4403±0.0547
+Transformer (with locf imputation) regression MAE: 0.4344±0.0181, MSE: 0.3819±0.0364, MRE: 0.3494±0.0146
+
+2024-06-13 09:13:22 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-13 09:42:56 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-13 10:12:42 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-13 10:42:21 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-13 11:12:10 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-13 11:41:56 [INFO]: 
+XGB (with linear_interpolation imputation) regression MAE: 0.7022±0.0310, MSE: 1.0010±0.1477, MRE: 0.5649±0.0249
+RNN (with linear_interpolation imputation) regression MAE: 0.5963±0.1036, MSE: 0.7009±0.1870, MRE: 0.4797±0.0833
+Transformer (with linear_interpolation imputation) regression MAE: 0.4267±0.0226, MSE: 0.3721±0.0377, MRE: 0.3432±0.0182
+
+2024-06-13 09:49:55 [INFO]: Start running downstream regression task on data/block_rate05/pems_traffic_rate05_step24_block_blocklen6
+2024-06-13 09:49:57 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-13 10:08:02 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-13 10:26:09 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-13 10:44:15 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-13 11:02:22 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-13 11:20:28 [INFO]: 
+XGB (with mean imputation) regression MAE: 0.6028±0.0000, MSE: 0.7206±0.0000, MRE: 0.4850±0.0000
+RNN (with mean imputation) regression MAE: 0.4049±0.0155, MSE: 0.3326±0.0201, MRE: 0.3257±0.0125
+Transformer (with mean imputation) regression MAE: 0.3987±0.0076, MSE: 0.3493±0.0247, MRE: 0.3207±0.0061
+
+2024-06-13 11:20:28 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-13 11:38:37 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-13 11:56:44 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-13 12:14:42 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-13 12:32:40 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-13 12:50:37 [INFO]: 
+XGB (with median imputation) regression MAE: 0.6163±0.0134, MSE: 0.7466±0.0260, MRE: 0.4958±0.0108
+RNN (with median imputation) regression MAE: 0.4077±0.0123, MSE: 0.3354±0.0153, MRE: 0.3280±0.0099
+Transformer (with median imputation) regression MAE: 0.3946±0.0110, MSE: 0.3399±0.0242, MRE: 0.3174±0.0088
+
+2024-06-13 12:50:37 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-13 13:15:36 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-13 13:40:44 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-13 14:05:52 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-13 14:30:52 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-13 14:55:51 [INFO]: 
+XGB (with locf imputation) regression MAE: 0.6129±0.0120, MSE: 0.7366±0.0256, MRE: 0.4931±0.0096
+RNN (with locf imputation) regression MAE: 0.4407±0.0487, MSE: 0.3931±0.0841, MRE: 0.3545±0.0392
+Transformer (with locf imputation) regression MAE: 0.4329±0.0559, MSE: 0.3985±0.0868, MRE: 0.3483±0.0450
+
+2024-06-13 14:55:51 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-13 15:24:31 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-13 15:53:14 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-13 16:21:48 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-13 16:50:23 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-13 17:18:58 [INFO]: 
+XGB (with linear_interpolation imputation) regression MAE: 0.6114±0.0107, MSE: 0.7316±0.0237, MRE: 0.4918±0.0086
+RNN (with linear_interpolation imputation) regression MAE: 0.4427±0.0429, MSE: 0.4032±0.0755, MRE: 0.3561±0.0345
+Transformer (with linear_interpolation imputation) regression MAE: 0.4352±0.0491, MSE: 0.4028±0.0761, MRE: 0.3501±0.0395

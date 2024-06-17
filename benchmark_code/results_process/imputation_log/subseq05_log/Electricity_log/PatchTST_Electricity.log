@@ -1,0 +1,231 @@
+2024-06-03 04:48:35 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 04:48:35 [INFO]: Using the given device: cuda:0
+2024-06-03 04:48:36 [INFO]: Model files will be saved to results_subseq_rate05/Electricity/PatchTST_Electricity/round_0/20240603_T044836
+2024-06-03 04:48:36 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Electricity/PatchTST_Electricity/round_0/20240603_T044836/tensorboard
+2024-06-03 04:48:36 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=128
+2024-06-03 04:48:36 [WARNING]: ⚠️ d_model is reset to 512 = n_heads (4) * d_k (128)
+2024-06-03 04:48:37 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 4,419,410
+2024-06-03 04:49:30 [INFO]: Epoch 001 - training loss: 1.2948, validation loss: 3.5695
+2024-06-03 04:50:31 [INFO]: Epoch 002 - training loss: 0.9209, validation loss: 3.2814
+2024-06-03 04:51:32 [INFO]: Epoch 003 - training loss: 0.7677, validation loss: 3.1720
+2024-06-03 04:52:33 [INFO]: Epoch 004 - training loss: 0.7059, validation loss: 3.0837
+2024-06-03 04:53:33 [INFO]: Epoch 005 - training loss: 0.6670, validation loss: 2.9991
+2024-06-03 04:54:34 [INFO]: Epoch 006 - training loss: 0.6363, validation loss: 2.9310
+2024-06-03 04:55:35 [INFO]: Epoch 007 - training loss: 0.6135, validation loss: 2.8679
+2024-06-03 04:56:36 [INFO]: Epoch 008 - training loss: 0.5920, validation loss: 2.8177
+2024-06-03 04:57:37 [INFO]: Epoch 009 - training loss: 0.5739, validation loss: 2.7765
+2024-06-03 04:58:37 [INFO]: Epoch 010 - training loss: 0.5579, validation loss: 2.7498
+2024-06-03 04:59:38 [INFO]: Epoch 011 - training loss: 0.5446, validation loss: 2.7336
+2024-06-03 05:00:36 [INFO]: Epoch 012 - training loss: 0.5307, validation loss: 2.7258
+2024-06-03 05:01:31 [INFO]: Epoch 013 - training loss: 0.5212, validation loss: 2.7022
+2024-06-03 05:02:25 [INFO]: Epoch 014 - training loss: 0.5103, validation loss: 2.7184
+2024-06-03 05:03:20 [INFO]: Epoch 015 - training loss: 0.5024, validation loss: 2.7217
+2024-06-03 05:04:14 [INFO]: Epoch 016 - training loss: 0.4945, validation loss: 2.7000
+2024-06-03 05:05:08 [INFO]: Epoch 017 - training loss: 0.4867, validation loss: 2.6949
+2024-06-03 05:06:03 [INFO]: Epoch 018 - training loss: 0.4795, validation loss: 2.7010
+2024-06-03 05:06:57 [INFO]: Epoch 019 - training loss: 0.4714, validation loss: 2.6878
+2024-06-03 05:07:52 [INFO]: Epoch 020 - training loss: 0.4657, validation loss: 2.6954
+2024-06-03 05:08:46 [INFO]: Epoch 021 - training loss: 0.4605, validation loss: 2.7000
+2024-06-03 05:09:40 [INFO]: Epoch 022 - training loss: 0.4550, validation loss: 2.7029
+2024-06-03 05:10:34 [INFO]: Epoch 023 - training loss: 0.4520, validation loss: 2.6982
+2024-06-03 05:11:29 [INFO]: Epoch 024 - training loss: 0.4462, validation loss: 2.6946
+2024-06-03 05:12:23 [INFO]: Epoch 025 - training loss: 0.4421, validation loss: 2.6944
+2024-06-03 05:13:18 [INFO]: Epoch 026 - training loss: 0.4370, validation loss: 2.7169
+2024-06-03 05:14:12 [INFO]: Epoch 027 - training loss: 0.4335, validation loss: 2.7118
+2024-06-03 05:15:07 [INFO]: Epoch 028 - training loss: 0.4306, validation loss: 2.7228
+2024-06-03 05:16:01 [INFO]: Epoch 029 - training loss: 0.4272, validation loss: 2.7245
+2024-06-03 05:16:01 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 05:16:01 [INFO]: Finished training. The best model is from epoch#19.
+2024-06-03 05:16:01 [INFO]: Saved the model to results_subseq_rate05/Electricity/PatchTST_Electricity/round_0/20240603_T044836/PatchTST.pypots
+2024-06-03 05:16:08 [INFO]: Successfully saved to results_subseq_rate05/Electricity/PatchTST_Electricity/round_0/imputation.pkl
+2024-06-03 05:16:08 [INFO]: Round0 - PatchTST on Electricity: MAE=1.1144, MSE=2.8857, MRE=0.5911
+2024-06-03 05:16:08 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 05:16:08 [INFO]: Using the given device: cuda:0
+2024-06-03 05:16:08 [INFO]: Model files will be saved to results_subseq_rate05/Electricity/PatchTST_Electricity/round_1/20240603_T051608
+2024-06-03 05:16:08 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Electricity/PatchTST_Electricity/round_1/20240603_T051608/tensorboard
+2024-06-03 05:16:08 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=128
+2024-06-03 05:16:08 [WARNING]: ⚠️ d_model is reset to 512 = n_heads (4) * d_k (128)
+2024-06-03 05:16:08 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 4,419,410
+2024-06-03 05:17:02 [INFO]: Epoch 001 - training loss: 1.3152, validation loss: 3.7063
+2024-06-03 05:17:56 [INFO]: Epoch 002 - training loss: 0.9082, validation loss: 3.4428
+2024-06-03 05:18:50 [INFO]: Epoch 003 - training loss: 0.7729, validation loss: 3.2849
+2024-06-03 05:19:44 [INFO]: Epoch 004 - training loss: 0.7112, validation loss: 3.1348
+2024-06-03 05:20:39 [INFO]: Epoch 005 - training loss: 0.6683, validation loss: 3.0363
+2024-06-03 05:21:33 [INFO]: Epoch 006 - training loss: 0.6320, validation loss: 2.9557
+2024-06-03 05:22:28 [INFO]: Epoch 007 - training loss: 0.6066, validation loss: 2.9045
+2024-06-03 05:23:22 [INFO]: Epoch 008 - training loss: 0.5849, validation loss: 2.8519
+2024-06-03 05:24:17 [INFO]: Epoch 009 - training loss: 0.5701, validation loss: 2.8330
+2024-06-03 05:25:09 [INFO]: Epoch 010 - training loss: 0.5564, validation loss: 2.8062
+2024-06-03 05:26:00 [INFO]: Epoch 011 - training loss: 0.5427, validation loss: 2.7801
+2024-06-03 05:26:51 [INFO]: Epoch 012 - training loss: 0.5310, validation loss: 2.7754
+2024-06-03 05:27:41 [INFO]: Epoch 013 - training loss: 0.5198, validation loss: 2.7596
+2024-06-03 05:28:32 [INFO]: Epoch 014 - training loss: 0.5103, validation loss: 2.7493
+2024-06-03 05:29:23 [INFO]: Epoch 015 - training loss: 0.5027, validation loss: 2.7438
+2024-06-03 05:30:14 [INFO]: Epoch 016 - training loss: 0.4943, validation loss: 2.7390
+2024-06-03 05:31:05 [INFO]: Epoch 017 - training loss: 0.4867, validation loss: 2.7346
+2024-06-03 05:31:56 [INFO]: Epoch 018 - training loss: 0.4796, validation loss: 2.7448
+2024-06-03 05:32:46 [INFO]: Epoch 019 - training loss: 0.4715, validation loss: 2.7288
+2024-06-03 05:33:37 [INFO]: Epoch 020 - training loss: 0.4659, validation loss: 2.7359
+2024-06-03 05:34:28 [INFO]: Epoch 021 - training loss: 0.4618, validation loss: 2.7305
+2024-06-03 05:35:18 [INFO]: Epoch 022 - training loss: 0.4547, validation loss: 2.7306
+2024-06-03 05:36:05 [INFO]: Epoch 023 - training loss: 0.4503, validation loss: 2.7321
+2024-06-03 05:36:45 [INFO]: Epoch 024 - training loss: 0.4464, validation loss: 2.7350
+2024-06-03 05:37:25 [INFO]: Epoch 025 - training loss: 0.4418, validation loss: 2.7362
+2024-06-03 05:38:04 [INFO]: Epoch 026 - training loss: 0.4390, validation loss: 2.7365
+2024-06-03 05:38:44 [INFO]: Epoch 027 - training loss: 0.4337, validation loss: 2.7455
+2024-06-03 05:39:24 [INFO]: Epoch 028 - training loss: 0.4301, validation loss: 2.7390
+2024-06-03 05:40:03 [INFO]: Epoch 029 - training loss: 0.4263, validation loss: 2.7418
+2024-06-03 05:40:03 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 05:40:03 [INFO]: Finished training. The best model is from epoch#19.
+2024-06-03 05:40:04 [INFO]: Saved the model to results_subseq_rate05/Electricity/PatchTST_Electricity/round_1/20240603_T051608/PatchTST.pypots
+2024-06-03 05:40:08 [INFO]: Successfully saved to results_subseq_rate05/Electricity/PatchTST_Electricity/round_1/imputation.pkl
+2024-06-03 05:40:08 [INFO]: Round1 - PatchTST on Electricity: MAE=1.1138, MSE=2.9064, MRE=0.5908
+2024-06-03 05:40:08 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 05:40:08 [INFO]: Using the given device: cuda:0
+2024-06-03 05:40:08 [INFO]: Model files will be saved to results_subseq_rate05/Electricity/PatchTST_Electricity/round_2/20240603_T054008
+2024-06-03 05:40:08 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Electricity/PatchTST_Electricity/round_2/20240603_T054008/tensorboard
+2024-06-03 05:40:08 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=128
+2024-06-03 05:40:08 [WARNING]: ⚠️ d_model is reset to 512 = n_heads (4) * d_k (128)
+2024-06-03 05:40:08 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 4,419,410
+2024-06-03 05:40:48 [INFO]: Epoch 001 - training loss: 1.2787, validation loss: 3.7198
+2024-06-03 05:41:28 [INFO]: Epoch 002 - training loss: 0.9180, validation loss: 3.4150
+2024-06-03 05:42:08 [INFO]: Epoch 003 - training loss: 0.7763, validation loss: 3.2356
+2024-06-03 05:42:47 [INFO]: Epoch 004 - training loss: 0.7079, validation loss: 3.1148
+2024-06-03 05:43:27 [INFO]: Epoch 005 - training loss: 0.6664, validation loss: 3.0085
+2024-06-03 05:44:07 [INFO]: Epoch 006 - training loss: 0.6320, validation loss: 2.9339
+2024-06-03 05:44:46 [INFO]: Epoch 007 - training loss: 0.6069, validation loss: 2.8845
+2024-06-03 05:45:26 [INFO]: Epoch 008 - training loss: 0.5860, validation loss: 2.8234
+2024-06-03 05:46:06 [INFO]: Epoch 009 - training loss: 0.5674, validation loss: 2.7924
+2024-06-03 05:46:44 [INFO]: Epoch 010 - training loss: 0.5523, validation loss: 2.7617
+2024-06-03 05:47:18 [INFO]: Epoch 011 - training loss: 0.5403, validation loss: 2.7470
+2024-06-03 05:47:57 [INFO]: Epoch 012 - training loss: 0.5299, validation loss: 2.7211
+2024-06-03 05:48:37 [INFO]: Epoch 013 - training loss: 0.5216, validation loss: 2.7275
+2024-06-03 05:49:17 [INFO]: Epoch 014 - training loss: 0.5089, validation loss: 2.7096
+2024-06-03 05:49:56 [INFO]: Epoch 015 - training loss: 0.5013, validation loss: 2.7027
+2024-06-03 05:50:36 [INFO]: Epoch 016 - training loss: 0.4922, validation loss: 2.6949
+2024-06-03 05:51:16 [INFO]: Epoch 017 - training loss: 0.4843, validation loss: 2.6889
+2024-06-03 05:51:55 [INFO]: Epoch 018 - training loss: 0.4782, validation loss: 2.6899
+2024-06-03 05:52:35 [INFO]: Epoch 019 - training loss: 0.4718, validation loss: 2.6856
+2024-06-03 05:53:15 [INFO]: Epoch 020 - training loss: 0.4656, validation loss: 2.7031
+2024-06-03 05:53:54 [INFO]: Epoch 021 - training loss: 0.4601, validation loss: 2.6805
+2024-06-03 05:54:34 [INFO]: Epoch 022 - training loss: 0.4549, validation loss: 2.6947
+2024-06-03 05:55:14 [INFO]: Epoch 023 - training loss: 0.4492, validation loss: 2.6862
+2024-06-03 05:55:53 [INFO]: Epoch 024 - training loss: 0.4454, validation loss: 2.7019
+2024-06-03 05:56:33 [INFO]: Epoch 025 - training loss: 0.4416, validation loss: 2.6783
+2024-06-03 05:57:13 [INFO]: Epoch 026 - training loss: 0.4372, validation loss: 2.6860
+2024-06-03 05:57:52 [INFO]: Epoch 027 - training loss: 0.4334, validation loss: 2.7008
+2024-06-03 05:58:32 [INFO]: Epoch 028 - training loss: 0.4301, validation loss: 2.6924
+2024-06-03 05:59:12 [INFO]: Epoch 029 - training loss: 0.4273, validation loss: 2.6912
+2024-06-03 05:59:51 [INFO]: Epoch 030 - training loss: 0.4243, validation loss: 2.6935
+2024-06-03 06:00:31 [INFO]: Epoch 031 - training loss: 0.4217, validation loss: 2.6995
+2024-06-03 06:01:11 [INFO]: Epoch 032 - training loss: 0.4179, validation loss: 2.7146
+2024-06-03 06:01:50 [INFO]: Epoch 033 - training loss: 0.4152, validation loss: 2.7083
+2024-06-03 06:02:30 [INFO]: Epoch 034 - training loss: 0.4141, validation loss: 2.7257
+2024-06-03 06:03:10 [INFO]: Epoch 035 - training loss: 0.4114, validation loss: 2.7269
+2024-06-03 06:03:10 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 06:03:10 [INFO]: Finished training. The best model is from epoch#25.
+2024-06-03 06:03:10 [INFO]: Saved the model to results_subseq_rate05/Electricity/PatchTST_Electricity/round_2/20240603_T054008/PatchTST.pypots
+2024-06-03 06:03:14 [INFO]: Successfully saved to results_subseq_rate05/Electricity/PatchTST_Electricity/round_2/imputation.pkl
+2024-06-03 06:03:14 [INFO]: Round2 - PatchTST on Electricity: MAE=1.1376, MSE=2.8987, MRE=0.6034
+2024-06-03 06:03:14 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 06:03:14 [INFO]: Using the given device: cuda:0
+2024-06-03 06:03:14 [INFO]: Model files will be saved to results_subseq_rate05/Electricity/PatchTST_Electricity/round_3/20240603_T060314
+2024-06-03 06:03:14 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Electricity/PatchTST_Electricity/round_3/20240603_T060314/tensorboard
+2024-06-03 06:03:14 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=128
+2024-06-03 06:03:14 [WARNING]: ⚠️ d_model is reset to 512 = n_heads (4) * d_k (128)
+2024-06-03 06:03:14 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 4,419,410
+2024-06-03 06:03:54 [INFO]: Epoch 001 - training loss: 1.3397, validation loss: 3.6766
+2024-06-03 06:04:34 [INFO]: Epoch 002 - training loss: 0.9973, validation loss: 3.5212
+2024-06-03 06:05:14 [INFO]: Epoch 003 - training loss: 0.8532, validation loss: 3.3020
+2024-06-03 06:05:53 [INFO]: Epoch 004 - training loss: 0.7405, validation loss: 3.1821
+2024-06-03 06:06:33 [INFO]: Epoch 005 - training loss: 0.6888, validation loss: 3.0691
+2024-06-03 06:07:13 [INFO]: Epoch 006 - training loss: 0.6529, validation loss: 2.9681
+2024-06-03 06:07:53 [INFO]: Epoch 007 - training loss: 0.6246, validation loss: 2.9022
+2024-06-03 06:08:33 [INFO]: Epoch 008 - training loss: 0.6030, validation loss: 2.8462
+2024-06-03 06:09:12 [INFO]: Epoch 009 - training loss: 0.5860, validation loss: 2.8038
+2024-06-03 06:09:52 [INFO]: Epoch 010 - training loss: 0.5699, validation loss: 2.7641
+2024-06-03 06:10:32 [INFO]: Epoch 011 - training loss: 0.5556, validation loss: 2.7394
+2024-06-03 06:11:12 [INFO]: Epoch 012 - training loss: 0.5435, validation loss: 2.7201
+2024-06-03 06:11:51 [INFO]: Epoch 013 - training loss: 0.5301, validation loss: 2.6981
+2024-06-03 06:12:31 [INFO]: Epoch 014 - training loss: 0.5222, validation loss: 2.6882
+2024-06-03 06:13:11 [INFO]: Epoch 015 - training loss: 0.5105, validation loss: 2.6725
+2024-06-03 06:13:50 [INFO]: Epoch 016 - training loss: 0.5026, validation loss: 2.6690
+2024-06-03 06:14:30 [INFO]: Epoch 017 - training loss: 0.4928, validation loss: 2.6615
+2024-06-03 06:15:10 [INFO]: Epoch 018 - training loss: 0.4856, validation loss: 2.6536
+2024-06-03 06:15:49 [INFO]: Epoch 019 - training loss: 0.4781, validation loss: 2.6536
+2024-06-03 06:16:29 [INFO]: Epoch 020 - training loss: 0.4720, validation loss: 2.6585
+2024-06-03 06:17:09 [INFO]: Epoch 021 - training loss: 0.4674, validation loss: 2.6481
+2024-06-03 06:17:49 [INFO]: Epoch 022 - training loss: 0.4604, validation loss: 2.6452
+2024-06-03 06:18:28 [INFO]: Epoch 023 - training loss: 0.4548, validation loss: 2.6488
+2024-06-03 06:19:08 [INFO]: Epoch 024 - training loss: 0.4505, validation loss: 2.6550
+2024-06-03 06:19:47 [INFO]: Epoch 025 - training loss: 0.4462, validation loss: 2.6564
+2024-06-03 06:20:27 [INFO]: Epoch 026 - training loss: 0.4420, validation loss: 2.6537
+2024-06-03 06:21:07 [INFO]: Epoch 027 - training loss: 0.4378, validation loss: 2.6758
+2024-06-03 06:21:46 [INFO]: Epoch 028 - training loss: 0.4339, validation loss: 2.6531
+2024-06-03 06:22:26 [INFO]: Epoch 029 - training loss: 0.4314, validation loss: 2.6629
+2024-06-03 06:23:06 [INFO]: Epoch 030 - training loss: 0.4277, validation loss: 2.6554
+2024-06-03 06:23:45 [INFO]: Epoch 031 - training loss: 0.4246, validation loss: 2.6556
+2024-06-03 06:24:25 [INFO]: Epoch 032 - training loss: 0.4216, validation loss: 2.6700
+2024-06-03 06:24:25 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 06:24:25 [INFO]: Finished training. The best model is from epoch#22.
+2024-06-03 06:24:25 [INFO]: Saved the model to results_subseq_rate05/Electricity/PatchTST_Electricity/round_3/20240603_T060314/PatchTST.pypots
+2024-06-03 06:24:30 [INFO]: Successfully saved to results_subseq_rate05/Electricity/PatchTST_Electricity/round_3/imputation.pkl
+2024-06-03 06:24:30 [INFO]: Round3 - PatchTST on Electricity: MAE=1.0959, MSE=2.7669, MRE=0.5813
+2024-06-03 06:24:30 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 06:24:30 [INFO]: Using the given device: cuda:0
+2024-06-03 06:24:30 [INFO]: Model files will be saved to results_subseq_rate05/Electricity/PatchTST_Electricity/round_4/20240603_T062430
+2024-06-03 06:24:30 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Electricity/PatchTST_Electricity/round_4/20240603_T062430/tensorboard
+2024-06-03 06:24:30 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=128
+2024-06-03 06:24:30 [WARNING]: ⚠️ d_model is reset to 512 = n_heads (4) * d_k (128)
+2024-06-03 06:24:30 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 4,419,410
+2024-06-03 06:25:10 [INFO]: Epoch 001 - training loss: 1.3231, validation loss: 3.6771
+2024-06-03 06:25:50 [INFO]: Epoch 002 - training loss: 1.0154, validation loss: 3.6555
+2024-06-03 06:26:30 [INFO]: Epoch 003 - training loss: 0.9605, validation loss: 3.6484
+2024-06-03 06:27:10 [INFO]: Epoch 004 - training loss: 0.9155, validation loss: 3.6279
+2024-06-03 06:27:50 [INFO]: Epoch 005 - training loss: 0.8404, validation loss: 3.5023
+2024-06-03 06:28:29 [INFO]: Epoch 006 - training loss: 0.7322, validation loss: 3.3734
+2024-06-03 06:29:09 [INFO]: Epoch 007 - training loss: 0.6742, validation loss: 3.3120
+2024-06-03 06:29:49 [INFO]: Epoch 008 - training loss: 0.6416, validation loss: 3.2508
+2024-06-03 06:30:28 [INFO]: Epoch 009 - training loss: 0.6152, validation loss: 3.2000
+2024-06-03 06:31:07 [INFO]: Epoch 010 - training loss: 0.5997, validation loss: 3.1633
+2024-06-03 06:31:41 [INFO]: Epoch 011 - training loss: 0.5809, validation loss: 3.1427
+2024-06-03 06:32:21 [INFO]: Epoch 012 - training loss: 0.5684, validation loss: 3.1096
+2024-06-03 06:33:00 [INFO]: Epoch 013 - training loss: 0.5576, validation loss: 3.0855
+2024-06-03 06:33:40 [INFO]: Epoch 014 - training loss: 0.5470, validation loss: 3.0732
+2024-06-03 06:34:20 [INFO]: Epoch 015 - training loss: 0.5373, validation loss: 3.0816
+2024-06-03 06:35:00 [INFO]: Epoch 016 - training loss: 0.5279, validation loss: 3.0625
+2024-06-03 06:35:40 [INFO]: Epoch 017 - training loss: 0.5207, validation loss: 3.0634
+2024-06-03 06:36:19 [INFO]: Epoch 018 - training loss: 0.5139, validation loss: 3.0608
+2024-06-03 06:36:59 [INFO]: Epoch 019 - training loss: 0.5063, validation loss: 3.0594
+2024-06-03 06:37:39 [INFO]: Epoch 020 - training loss: 0.5000, validation loss: 3.0462
+2024-06-03 06:38:19 [INFO]: Epoch 021 - training loss: 0.4940, validation loss: 3.0429
+2024-06-03 06:38:59 [INFO]: Epoch 022 - training loss: 0.4888, validation loss: 3.0456
+2024-06-03 06:39:39 [INFO]: Epoch 023 - training loss: 0.4854, validation loss: 3.0425
+2024-06-03 06:40:19 [INFO]: Epoch 024 - training loss: 0.4773, validation loss: 3.0326
+2024-06-03 06:40:58 [INFO]: Epoch 025 - training loss: 0.4744, validation loss: 3.0327
+2024-06-03 06:41:38 [INFO]: Epoch 026 - training loss: 0.4681, validation loss: 3.0309
+2024-06-03 06:42:18 [INFO]: Epoch 027 - training loss: 0.4634, validation loss: 3.0325
+2024-06-03 06:42:57 [INFO]: Epoch 028 - training loss: 0.4596, validation loss: 3.0309
+2024-06-03 06:43:37 [INFO]: Epoch 029 - training loss: 0.4584, validation loss: 3.0259
+2024-06-03 06:44:17 [INFO]: Epoch 030 - training loss: 0.4532, validation loss: 3.0297
+2024-06-03 06:44:57 [INFO]: Epoch 031 - training loss: 0.4483, validation loss: 3.0239
+2024-06-03 06:45:36 [INFO]: Epoch 032 - training loss: 0.4446, validation loss: 3.0262
+2024-06-03 06:46:16 [INFO]: Epoch 033 - training loss: 0.4419, validation loss: 3.0337
+2024-06-03 06:46:56 [INFO]: Epoch 034 - training loss: 0.4387, validation loss: 3.0189
+2024-06-03 06:47:36 [INFO]: Epoch 035 - training loss: 0.4356, validation loss: 3.0235
+2024-06-03 06:48:16 [INFO]: Epoch 036 - training loss: 0.4336, validation loss: 3.0269
+2024-06-03 06:48:55 [INFO]: Epoch 037 - training loss: 0.4309, validation loss: 3.0256
+2024-06-03 06:49:35 [INFO]: Epoch 038 - training loss: 0.4273, validation loss: 3.0230
+2024-06-03 06:50:15 [INFO]: Epoch 039 - training loss: 0.4251, validation loss: 3.0319
+2024-06-03 06:50:55 [INFO]: Epoch 040 - training loss: 0.4230, validation loss: 3.0351
+2024-06-03 06:51:35 [INFO]: Epoch 041 - training loss: 0.4208, validation loss: 3.0316
+2024-06-03 06:52:15 [INFO]: Epoch 042 - training loss: 0.4190, validation loss: 3.0412
+2024-06-03 06:52:54 [INFO]: Epoch 043 - training loss: 0.4179, validation loss: 3.0356
+2024-06-03 06:53:34 [INFO]: Epoch 044 - training loss: 0.4159, validation loss: 3.0464
+2024-06-03 06:53:34 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 06:53:34 [INFO]: Finished training. The best model is from epoch#34.
+2024-06-03 06:53:34 [INFO]: Saved the model to results_subseq_rate05/Electricity/PatchTST_Electricity/round_4/20240603_T062430/PatchTST.pypots
+2024-06-03 06:53:39 [INFO]: Successfully saved to results_subseq_rate05/Electricity/PatchTST_Electricity/round_4/imputation.pkl
+2024-06-03 06:53:39 [INFO]: Round4 - PatchTST on Electricity: MAE=1.4222, MSE=4.2523, MRE=0.7544
+2024-06-03 06:53:39 [INFO]: Done! Final results:
+Averaged PatchTST (4,419,410 params) on Electricity: MAE=1.1768 ± 0.12343714783550175, MSE=3.1420 ± 0.5574679089411738, MRE=0.6242 ± 0.0654763058986677, average inference time=4.63

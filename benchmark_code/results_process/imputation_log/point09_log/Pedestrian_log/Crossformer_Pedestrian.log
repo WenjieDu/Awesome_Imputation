@@ -1,0 +1,197 @@
+2024-06-03 00:14:08 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 00:14:08 [INFO]: Using the given device: cuda:0
+2024-06-03 00:14:09 [INFO]: Model files will be saved to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_0/20240603_T001409
+2024-06-03 00:14:09 [INFO]: Tensorboard file will be saved to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_0/20240603_T001409/tensorboard
+2024-06-03 00:14:10 [INFO]: Crossformer initialized with the given hyperparameters, the number of trainable parameters: 202,905
+2024-06-03 00:14:15 [INFO]: Epoch 001 - training loss: 1.4084, validation loss: 1.5081
+2024-06-03 00:14:17 [INFO]: Epoch 002 - training loss: 1.3977, validation loss: 1.5012
+2024-06-03 00:14:20 [INFO]: Epoch 003 - training loss: 1.3845, validation loss: 1.5223
+2024-06-03 00:14:22 [INFO]: Epoch 004 - training loss: 1.3536, validation loss: 1.4916
+2024-06-03 00:14:24 [INFO]: Epoch 005 - training loss: 1.2873, validation loss: 1.2689
+2024-06-03 00:14:27 [INFO]: Epoch 006 - training loss: 0.9641, validation loss: 1.2405
+2024-06-03 00:14:29 [INFO]: Epoch 007 - training loss: 0.9231, validation loss: 1.1011
+2024-06-03 00:14:31 [INFO]: Epoch 008 - training loss: 0.9011, validation loss: 1.0717
+2024-06-03 00:14:34 [INFO]: Epoch 009 - training loss: 0.7739, validation loss: 1.0359
+2024-06-03 00:14:36 [INFO]: Epoch 010 - training loss: 0.7688, validation loss: 1.0160
+2024-06-03 00:14:39 [INFO]: Epoch 011 - training loss: 0.7410, validation loss: 1.0359
+2024-06-03 00:14:41 [INFO]: Epoch 012 - training loss: 0.6949, validation loss: 1.0034
+2024-06-03 00:14:44 [INFO]: Epoch 013 - training loss: 0.7311, validation loss: 0.9923
+2024-06-03 00:14:46 [INFO]: Epoch 014 - training loss: 0.7031, validation loss: 0.9551
+2024-06-03 00:14:49 [INFO]: Epoch 015 - training loss: 0.6868, validation loss: 1.0094
+2024-06-03 00:14:51 [INFO]: Epoch 016 - training loss: 0.7104, validation loss: 0.9887
+2024-06-03 00:14:54 [INFO]: Epoch 017 - training loss: 0.7220, validation loss: 1.0317
+2024-06-03 00:14:56 [INFO]: Epoch 018 - training loss: 0.7003, validation loss: 1.0690
+2024-06-03 00:14:59 [INFO]: Epoch 019 - training loss: 0.7061, validation loss: 1.0066
+2024-06-03 00:15:01 [INFO]: Epoch 020 - training loss: 0.6957, validation loss: 0.9819
+2024-06-03 00:15:04 [INFO]: Epoch 021 - training loss: 0.7452, validation loss: 1.0131
+2024-06-03 00:15:06 [INFO]: Epoch 022 - training loss: 0.6802, validation loss: 1.0154
+2024-06-03 00:15:09 [INFO]: Epoch 023 - training loss: 0.7118, validation loss: 1.0079
+2024-06-03 00:15:11 [INFO]: Epoch 024 - training loss: 0.6621, validation loss: 0.9818
+2024-06-03 00:15:11 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:15:11 [INFO]: Finished training. The best model is from epoch#14.
+2024-06-03 00:15:11 [INFO]: Saved the model to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_0/20240603_T001409/Crossformer.pypots
+2024-06-03 00:15:13 [INFO]: Successfully saved to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_0/imputation.pkl
+2024-06-03 00:15:13 [INFO]: Round0 - Crossformer on Pedestrian: MAE=0.4647, MSE=0.7931, MRE=0.6134
+2024-06-03 00:15:13 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 00:15:13 [INFO]: Using the given device: cuda:0
+2024-06-03 00:15:13 [INFO]: Model files will be saved to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_1/20240603_T001513
+2024-06-03 00:15:13 [INFO]: Tensorboard file will be saved to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_1/20240603_T001513/tensorboard
+2024-06-03 00:15:13 [INFO]: Crossformer initialized with the given hyperparameters, the number of trainable parameters: 202,905
+2024-06-03 00:15:16 [INFO]: Epoch 001 - training loss: 1.5017, validation loss: 1.5418
+2024-06-03 00:15:18 [INFO]: Epoch 002 - training loss: 1.4096, validation loss: 1.4946
+2024-06-03 00:15:20 [INFO]: Epoch 003 - training loss: 1.3968, validation loss: 1.5451
+2024-06-03 00:15:23 [INFO]: Epoch 004 - training loss: 1.3753, validation loss: 1.4928
+2024-06-03 00:15:25 [INFO]: Epoch 005 - training loss: 1.2518, validation loss: 1.2170
+2024-06-03 00:15:28 [INFO]: Epoch 006 - training loss: 0.9947, validation loss: 1.0273
+2024-06-03 00:15:30 [INFO]: Epoch 007 - training loss: 0.9768, validation loss: 1.0668
+2024-06-03 00:15:33 [INFO]: Epoch 008 - training loss: 0.8445, validation loss: 1.0877
+2024-06-03 00:15:35 [INFO]: Epoch 009 - training loss: 0.8173, validation loss: 1.0323
+2024-06-03 00:15:37 [INFO]: Epoch 010 - training loss: 0.8199, validation loss: 1.1145
+2024-06-03 00:15:40 [INFO]: Epoch 011 - training loss: 0.7729, validation loss: 1.0095
+2024-06-03 00:15:42 [INFO]: Epoch 012 - training loss: 0.7314, validation loss: 0.9858
+2024-06-03 00:15:44 [INFO]: Epoch 013 - training loss: 0.7553, validation loss: 1.0300
+2024-06-03 00:15:47 [INFO]: Epoch 014 - training loss: 0.8021, validation loss: 1.0228
+2024-06-03 00:15:49 [INFO]: Epoch 015 - training loss: 0.7379, validation loss: 1.0032
+2024-06-03 00:15:51 [INFO]: Epoch 016 - training loss: 0.6922, validation loss: 1.0514
+2024-06-03 00:15:54 [INFO]: Epoch 017 - training loss: 0.7214, validation loss: 0.9767
+2024-06-03 00:15:56 [INFO]: Epoch 018 - training loss: 0.7068, validation loss: 1.0021
+2024-06-03 00:15:58 [INFO]: Epoch 019 - training loss: 0.7228, validation loss: 0.9973
+2024-06-03 00:16:01 [INFO]: Epoch 020 - training loss: 0.6941, validation loss: 1.0536
+2024-06-03 00:16:03 [INFO]: Epoch 021 - training loss: 0.7059, validation loss: 1.0262
+2024-06-03 00:16:06 [INFO]: Epoch 022 - training loss: 0.6401, validation loss: 0.9741
+2024-06-03 00:16:08 [INFO]: Epoch 023 - training loss: 0.7381, validation loss: 0.9684
+2024-06-03 00:16:11 [INFO]: Epoch 024 - training loss: 0.7143, validation loss: 1.0010
+2024-06-03 00:16:13 [INFO]: Epoch 025 - training loss: 0.6269, validation loss: 1.0272
+2024-06-03 00:16:16 [INFO]: Epoch 026 - training loss: 0.7021, validation loss: 1.0130
+2024-06-03 00:16:18 [INFO]: Epoch 027 - training loss: 0.6786, validation loss: 1.0051
+2024-06-03 00:16:21 [INFO]: Epoch 028 - training loss: 0.6439, validation loss: 0.9848
+2024-06-03 00:16:23 [INFO]: Epoch 029 - training loss: 0.7110, validation loss: 0.9769
+2024-06-03 00:16:25 [INFO]: Epoch 030 - training loss: 0.6279, validation loss: 1.0616
+2024-06-03 00:16:28 [INFO]: Epoch 031 - training loss: 0.6808, validation loss: 1.0323
+2024-06-03 00:16:30 [INFO]: Epoch 032 - training loss: 0.6452, validation loss: 1.0864
+2024-06-03 00:16:32 [INFO]: Epoch 033 - training loss: 0.6443, validation loss: 0.9756
+2024-06-03 00:16:32 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:16:32 [INFO]: Finished training. The best model is from epoch#23.
+2024-06-03 00:16:32 [INFO]: Saved the model to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_1/20240603_T001513/Crossformer.pypots
+2024-06-03 00:16:34 [INFO]: Successfully saved to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_1/imputation.pkl
+2024-06-03 00:16:34 [INFO]: Round1 - Crossformer on Pedestrian: MAE=0.4800, MSE=0.7735, MRE=0.6337
+2024-06-03 00:16:34 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 00:16:34 [INFO]: Using the given device: cuda:0
+2024-06-03 00:16:34 [INFO]: Model files will be saved to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_2/20240603_T001634
+2024-06-03 00:16:34 [INFO]: Tensorboard file will be saved to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_2/20240603_T001634/tensorboard
+2024-06-03 00:16:34 [INFO]: Crossformer initialized with the given hyperparameters, the number of trainable parameters: 202,905
+2024-06-03 00:16:37 [INFO]: Epoch 001 - training loss: 1.4989, validation loss: 1.5154
+2024-06-03 00:16:39 [INFO]: Epoch 002 - training loss: 1.3784, validation loss: 1.4884
+2024-06-03 00:16:41 [INFO]: Epoch 003 - training loss: 1.3911, validation loss: 1.4967
+2024-06-03 00:16:43 [INFO]: Epoch 004 - training loss: 1.4298, validation loss: 1.5011
+2024-06-03 00:16:45 [INFO]: Epoch 005 - training loss: 1.3077, validation loss: 1.4033
+2024-06-03 00:16:47 [INFO]: Epoch 006 - training loss: 1.1137, validation loss: 1.0935
+2024-06-03 00:16:49 [INFO]: Epoch 007 - training loss: 0.9700, validation loss: 1.1123
+2024-06-03 00:16:51 [INFO]: Epoch 008 - training loss: 0.9035, validation loss: 1.0381
+2024-06-03 00:16:53 [INFO]: Epoch 009 - training loss: 0.8558, validation loss: 1.0448
+2024-06-03 00:16:55 [INFO]: Epoch 010 - training loss: 0.7921, validation loss: 0.9988
+2024-06-03 00:16:57 [INFO]: Epoch 011 - training loss: 0.7795, validation loss: 0.9893
+2024-06-03 00:17:00 [INFO]: Epoch 012 - training loss: 0.7614, validation loss: 1.0407
+2024-06-03 00:17:02 [INFO]: Epoch 013 - training loss: 0.7966, validation loss: 0.9850
+2024-06-03 00:17:04 [INFO]: Epoch 014 - training loss: 0.7606, validation loss: 0.9621
+2024-06-03 00:17:06 [INFO]: Epoch 015 - training loss: 0.7319, validation loss: 1.0094
+2024-06-03 00:17:08 [INFO]: Epoch 016 - training loss: 0.7309, validation loss: 0.9652
+2024-06-03 00:17:10 [INFO]: Epoch 017 - training loss: 0.7119, validation loss: 1.0387
+2024-06-03 00:17:12 [INFO]: Epoch 018 - training loss: 0.7361, validation loss: 0.9745
+2024-06-03 00:17:14 [INFO]: Epoch 019 - training loss: 0.7444, validation loss: 0.9802
+2024-06-03 00:17:17 [INFO]: Epoch 020 - training loss: 0.6454, validation loss: 0.9844
+2024-06-03 00:17:19 [INFO]: Epoch 021 - training loss: 0.6602, validation loss: 0.9563
+2024-06-03 00:17:21 [INFO]: Epoch 022 - training loss: 0.6741, validation loss: 0.9726
+2024-06-03 00:17:23 [INFO]: Epoch 023 - training loss: 0.7011, validation loss: 1.0344
+2024-06-03 00:17:25 [INFO]: Epoch 024 - training loss: 0.6483, validation loss: 0.9852
+2024-06-03 00:17:27 [INFO]: Epoch 025 - training loss: 0.6265, validation loss: 1.0182
+2024-06-03 00:17:29 [INFO]: Epoch 026 - training loss: 0.6615, validation loss: 0.9857
+2024-06-03 00:17:32 [INFO]: Epoch 027 - training loss: 0.6658, validation loss: 0.9869
+2024-06-03 00:17:34 [INFO]: Epoch 028 - training loss: 0.6810, validation loss: 1.0091
+2024-06-03 00:17:36 [INFO]: Epoch 029 - training loss: 0.6170, validation loss: 1.0304
+2024-06-03 00:17:38 [INFO]: Epoch 030 - training loss: 0.6469, validation loss: 0.9903
+2024-06-03 00:17:40 [INFO]: Epoch 031 - training loss: 0.6934, validation loss: 0.9384
+2024-06-03 00:17:42 [INFO]: Epoch 032 - training loss: 0.6641, validation loss: 0.9848
+2024-06-03 00:17:44 [INFO]: Epoch 033 - training loss: 0.6348, validation loss: 0.9889
+2024-06-03 00:17:46 [INFO]: Epoch 034 - training loss: 0.6459, validation loss: 0.9645
+2024-06-03 00:17:49 [INFO]: Epoch 035 - training loss: 0.6436, validation loss: 0.9858
+2024-06-03 00:17:51 [INFO]: Epoch 036 - training loss: 0.6985, validation loss: 0.9694
+2024-06-03 00:17:53 [INFO]: Epoch 037 - training loss: 0.6472, validation loss: 1.0030
+2024-06-03 00:17:56 [INFO]: Epoch 038 - training loss: 0.5826, validation loss: 0.9807
+2024-06-03 00:17:58 [INFO]: Epoch 039 - training loss: 0.6271, validation loss: 1.0808
+2024-06-03 00:18:00 [INFO]: Epoch 040 - training loss: 0.6318, validation loss: 0.9890
+2024-06-03 00:18:02 [INFO]: Epoch 041 - training loss: 0.6677, validation loss: 1.0002
+2024-06-03 00:18:02 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:18:02 [INFO]: Finished training. The best model is from epoch#31.
+2024-06-03 00:18:02 [INFO]: Saved the model to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_2/20240603_T001634/Crossformer.pypots
+2024-06-03 00:18:04 [INFO]: Successfully saved to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_2/imputation.pkl
+2024-06-03 00:18:04 [INFO]: Round2 - Crossformer on Pedestrian: MAE=0.4606, MSE=0.7936, MRE=0.6080
+2024-06-03 00:18:04 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 00:18:04 [INFO]: Using the given device: cuda:0
+2024-06-03 00:18:04 [INFO]: Model files will be saved to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_3/20240603_T001804
+2024-06-03 00:18:04 [INFO]: Tensorboard file will be saved to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_3/20240603_T001804/tensorboard
+2024-06-03 00:18:05 [INFO]: Crossformer initialized with the given hyperparameters, the number of trainable parameters: 202,905
+2024-06-03 00:18:07 [INFO]: Epoch 001 - training loss: 1.4640, validation loss: 1.5194
+2024-06-03 00:18:09 [INFO]: Epoch 002 - training loss: 1.4173, validation loss: 1.5249
+2024-06-03 00:18:11 [INFO]: Epoch 003 - training loss: 1.4514, validation loss: 1.5153
+2024-06-03 00:18:14 [INFO]: Epoch 004 - training loss: 1.3944, validation loss: 1.5122
+2024-06-03 00:18:15 [INFO]: Epoch 005 - training loss: 1.3487, validation loss: 1.4801
+2024-06-03 00:18:18 [INFO]: Epoch 006 - training loss: 1.3291, validation loss: 1.3746
+2024-06-03 00:18:19 [INFO]: Epoch 007 - training loss: 1.0861, validation loss: 1.0564
+2024-06-03 00:18:21 [INFO]: Epoch 008 - training loss: 0.8858, validation loss: 1.0004
+2024-06-03 00:18:23 [INFO]: Epoch 009 - training loss: 0.8757, validation loss: 1.0065
+2024-06-03 00:18:25 [INFO]: Epoch 010 - training loss: 0.8149, validation loss: 0.9891
+2024-06-03 00:18:27 [INFO]: Epoch 011 - training loss: 0.8424, validation loss: 0.9987
+2024-06-03 00:18:29 [INFO]: Epoch 012 - training loss: 0.7979, validation loss: 0.9891
+2024-06-03 00:18:30 [INFO]: Epoch 013 - training loss: 0.7230, validation loss: 0.9888
+2024-06-03 00:18:32 [INFO]: Epoch 014 - training loss: 0.7079, validation loss: 0.9486
+2024-06-03 00:18:34 [INFO]: Epoch 015 - training loss: 0.7699, validation loss: 0.9861
+2024-06-03 00:18:35 [INFO]: Epoch 016 - training loss: 0.7027, validation loss: 1.0550
+2024-06-03 00:18:37 [INFO]: Epoch 017 - training loss: 0.7350, validation loss: 0.9982
+2024-06-03 00:18:39 [INFO]: Epoch 018 - training loss: 0.6921, validation loss: 1.0092
+2024-06-03 00:18:41 [INFO]: Epoch 019 - training loss: 0.7231, validation loss: 1.0231
+2024-06-03 00:18:43 [INFO]: Epoch 020 - training loss: 0.6662, validation loss: 0.9619
+2024-06-03 00:18:45 [INFO]: Epoch 021 - training loss: 0.6723, validation loss: 1.0445
+2024-06-03 00:18:47 [INFO]: Epoch 022 - training loss: 0.6508, validation loss: 1.0505
+2024-06-03 00:18:48 [INFO]: Epoch 023 - training loss: 0.6450, validation loss: 0.9994
+2024-06-03 00:18:50 [INFO]: Epoch 024 - training loss: 0.6537, validation loss: 0.9668
+2024-06-03 00:18:50 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:18:50 [INFO]: Finished training. The best model is from epoch#14.
+2024-06-03 00:18:50 [INFO]: Saved the model to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_3/20240603_T001804/Crossformer.pypots
+2024-06-03 00:18:52 [INFO]: Successfully saved to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_3/imputation.pkl
+2024-06-03 00:18:52 [INFO]: Round3 - Crossformer on Pedestrian: MAE=0.4718, MSE=0.7742, MRE=0.6228
+2024-06-03 00:18:52 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 00:18:52 [INFO]: Using the given device: cuda:0
+2024-06-03 00:18:52 [INFO]: Model files will be saved to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_4/20240603_T001852
+2024-06-03 00:18:52 [INFO]: Tensorboard file will be saved to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_4/20240603_T001852/tensorboard
+2024-06-03 00:18:53 [INFO]: Crossformer initialized with the given hyperparameters, the number of trainable parameters: 202,905
+2024-06-03 00:18:54 [INFO]: Epoch 001 - training loss: 1.4717, validation loss: 1.4751
+2024-06-03 00:18:56 [INFO]: Epoch 002 - training loss: 1.4223, validation loss: 1.5177
+2024-06-03 00:18:58 [INFO]: Epoch 003 - training loss: 1.4012, validation loss: 1.5612
+2024-06-03 00:19:00 [INFO]: Epoch 004 - training loss: 1.4455, validation loss: 1.4774
+2024-06-03 00:19:02 [INFO]: Epoch 005 - training loss: 1.3934, validation loss: 1.3432
+2024-06-03 00:19:04 [INFO]: Epoch 006 - training loss: 1.0761, validation loss: 1.0613
+2024-06-03 00:19:06 [INFO]: Epoch 007 - training loss: 0.9561, validation loss: 1.0453
+2024-06-03 00:19:07 [INFO]: Epoch 008 - training loss: 0.8779, validation loss: 1.0238
+2024-06-03 00:19:09 [INFO]: Epoch 009 - training loss: 0.8109, validation loss: 1.0102
+2024-06-03 00:19:11 [INFO]: Epoch 010 - training loss: 0.7755, validation loss: 1.0109
+2024-06-03 00:19:13 [INFO]: Epoch 011 - training loss: 0.7838, validation loss: 1.0227
+2024-06-03 00:19:15 [INFO]: Epoch 012 - training loss: 0.8225, validation loss: 0.9765
+2024-06-03 00:19:17 [INFO]: Epoch 013 - training loss: 0.7897, validation loss: 0.9540
+2024-06-03 00:19:19 [INFO]: Epoch 014 - training loss: 0.7655, validation loss: 1.0022
+2024-06-03 00:19:21 [INFO]: Epoch 015 - training loss: 0.7619, validation loss: 0.9994
+2024-06-03 00:19:23 [INFO]: Epoch 016 - training loss: 0.7431, validation loss: 1.0187
+2024-06-03 00:19:25 [INFO]: Epoch 017 - training loss: 0.7028, validation loss: 0.9919
+2024-06-03 00:19:27 [INFO]: Epoch 018 - training loss: 0.6752, validation loss: 1.0122
+2024-06-03 00:19:28 [INFO]: Epoch 019 - training loss: 0.6356, validation loss: 1.0139
+2024-06-03 00:19:30 [INFO]: Epoch 020 - training loss: 0.7112, validation loss: 1.0263
+2024-06-03 00:19:31 [INFO]: Epoch 021 - training loss: 0.7191, validation loss: 1.0838
+2024-06-03 00:19:33 [INFO]: Epoch 022 - training loss: 0.6712, validation loss: 1.0115
+2024-06-03 00:19:34 [INFO]: Epoch 023 - training loss: 0.6611, validation loss: 1.0398
+2024-06-03 00:19:34 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:19:34 [INFO]: Finished training. The best model is from epoch#13.
+2024-06-03 00:19:34 [INFO]: Saved the model to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_4/20240603_T001852/Crossformer.pypots
+2024-06-03 00:19:36 [INFO]: Successfully saved to results_point_rate09/Pedestrian/Crossformer_Pedestrian/round_4/imputation.pkl
+2024-06-03 00:19:36 [INFO]: Round4 - Crossformer on Pedestrian: MAE=0.4730, MSE=0.8182, MRE=0.6243
+2024-06-03 00:19:36 [INFO]: Done! Final results:
+Averaged Crossformer (202,905 params) on Pedestrian: MAE=0.4700 ± 0.006781735397048126, MSE=0.7905 ± 0.01632879015455022, MRE=0.6204 ± 0.008952345315914729, average inference time=1.52

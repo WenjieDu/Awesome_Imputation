@@ -1,0 +1,131 @@
+2024-06-03 02:34:52 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 02:34:52 [INFO]: Using the given device: cuda:0
+2024-06-03 02:34:52 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_0/20240603_T023452
+2024-06-03 02:34:52 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_0/20240603_T023452/tensorboard
+2024-06-03 02:34:54 [INFO]: StemGNN initialized with the given hyperparameters, the number of trainable parameters: 1,638,337
+2024-06-03 02:35:00 [INFO]: Epoch 001 - training loss: 1.1836, validation loss: 0.7307
+2024-06-03 02:35:03 [INFO]: Epoch 002 - training loss: 0.7414, validation loss: 0.6331
+2024-06-03 02:35:07 [INFO]: Epoch 003 - training loss: 0.6072, validation loss: 0.6740
+2024-06-03 02:35:11 [INFO]: Epoch 004 - training loss: 0.5831, validation loss: 0.6152
+2024-06-03 02:35:15 [INFO]: Epoch 005 - training loss: 0.5451, validation loss: 0.6030
+2024-06-03 02:35:19 [INFO]: Epoch 006 - training loss: 0.5177, validation loss: 0.6210
+2024-06-03 02:35:23 [INFO]: Epoch 007 - training loss: 0.4944, validation loss: 0.6405
+2024-06-03 02:35:27 [INFO]: Epoch 008 - training loss: 0.4856, validation loss: 0.7041
+2024-06-03 02:35:31 [INFO]: Epoch 009 - training loss: 0.4611, validation loss: 0.6083
+2024-06-03 02:35:35 [INFO]: Epoch 010 - training loss: 0.4473, validation loss: 0.6703
+2024-06-03 02:35:39 [INFO]: Epoch 011 - training loss: 0.4209, validation loss: 0.6690
+2024-06-03 02:35:43 [INFO]: Epoch 012 - training loss: 0.4154, validation loss: 0.6850
+2024-06-03 02:35:47 [INFO]: Epoch 013 - training loss: 0.4231, validation loss: 0.6326
+2024-06-03 02:35:51 [INFO]: Epoch 014 - training loss: 0.3882, validation loss: 0.6247
+2024-06-03 02:35:55 [INFO]: Epoch 015 - training loss: 0.4074, validation loss: 0.6544
+2024-06-03 02:35:55 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:35:55 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 02:35:55 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_0/20240603_T023452/StemGNN.pypots
+2024-06-03 02:36:01 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_0/imputation.pkl
+2024-06-03 02:36:01 [INFO]: Round0 - StemGNN on Pedestrian: MAE=0.5291, MSE=0.6810, MRE=0.6910
+2024-06-03 02:36:01 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 02:36:01 [INFO]: Using the given device: cuda:0
+2024-06-03 02:36:01 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_1/20240603_T023601
+2024-06-03 02:36:01 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_1/20240603_T023601/tensorboard
+2024-06-03 02:36:01 [INFO]: StemGNN initialized with the given hyperparameters, the number of trainable parameters: 1,638,337
+2024-06-03 02:36:05 [INFO]: Epoch 001 - training loss: 1.2303, validation loss: 0.7538
+2024-06-03 02:36:09 [INFO]: Epoch 002 - training loss: 0.7498, validation loss: 0.6242
+2024-06-03 02:36:13 [INFO]: Epoch 003 - training loss: 0.5859, validation loss: 0.6302
+2024-06-03 02:36:17 [INFO]: Epoch 004 - training loss: 0.5396, validation loss: 0.6397
+2024-06-03 02:36:21 [INFO]: Epoch 005 - training loss: 0.5439, validation loss: 0.6413
+2024-06-03 02:36:25 [INFO]: Epoch 006 - training loss: 0.4859, validation loss: 0.6093
+2024-06-03 02:36:29 [INFO]: Epoch 007 - training loss: 0.4530, validation loss: 0.6730
+2024-06-03 02:36:33 [INFO]: Epoch 008 - training loss: 0.4171, validation loss: 0.6380
+2024-06-03 02:36:37 [INFO]: Epoch 009 - training loss: 0.4254, validation loss: 0.6451
+2024-06-03 02:36:41 [INFO]: Epoch 010 - training loss: 0.3916, validation loss: 0.7043
+2024-06-03 02:36:46 [INFO]: Epoch 011 - training loss: 0.3720, validation loss: 0.6914
+2024-06-03 02:36:50 [INFO]: Epoch 012 - training loss: 0.3789, validation loss: 0.6557
+2024-06-03 02:36:53 [INFO]: Epoch 013 - training loss: 0.3805, validation loss: 0.6509
+2024-06-03 02:36:57 [INFO]: Epoch 014 - training loss: 0.3540, validation loss: 0.6772
+2024-06-03 02:37:01 [INFO]: Epoch 015 - training loss: 0.3512, validation loss: 0.6524
+2024-06-03 02:37:05 [INFO]: Epoch 016 - training loss: 0.3507, validation loss: 0.6701
+2024-06-03 02:37:05 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:37:05 [INFO]: Finished training. The best model is from epoch#6.
+2024-06-03 02:37:05 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_1/20240603_T023601/StemGNN.pypots
+2024-06-03 02:37:11 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_1/imputation.pkl
+2024-06-03 02:37:11 [INFO]: Round1 - StemGNN on Pedestrian: MAE=0.5695, MSE=0.7372, MRE=0.7437
+2024-06-03 02:37:11 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 02:37:11 [INFO]: Using the given device: cuda:0
+2024-06-03 02:37:11 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_2/20240603_T023711
+2024-06-03 02:37:11 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_2/20240603_T023711/tensorboard
+2024-06-03 02:37:11 [INFO]: StemGNN initialized with the given hyperparameters, the number of trainable parameters: 1,638,337
+2024-06-03 02:37:15 [INFO]: Epoch 001 - training loss: 1.1439, validation loss: 0.6387
+2024-06-03 02:37:20 [INFO]: Epoch 002 - training loss: 0.6911, validation loss: 0.6416
+2024-06-03 02:37:24 [INFO]: Epoch 003 - training loss: 0.6007, validation loss: 0.6016
+2024-06-03 02:37:28 [INFO]: Epoch 004 - training loss: 0.5330, validation loss: 0.6201
+2024-06-03 02:37:32 [INFO]: Epoch 005 - training loss: 0.4991, validation loss: 0.5890
+2024-06-03 02:37:36 [INFO]: Epoch 006 - training loss: 0.4816, validation loss: 0.5880
+2024-06-03 02:37:40 [INFO]: Epoch 007 - training loss: 0.4485, validation loss: 0.6072
+2024-06-03 02:37:44 [INFO]: Epoch 008 - training loss: 0.4299, validation loss: 0.6143
+2024-06-03 02:37:48 [INFO]: Epoch 009 - training loss: 0.4122, validation loss: 0.6001
+2024-06-03 02:37:52 [INFO]: Epoch 010 - training loss: 0.3771, validation loss: 0.6442
+2024-06-03 02:37:56 [INFO]: Epoch 011 - training loss: 0.3740, validation loss: 0.6397
+2024-06-03 02:38:00 [INFO]: Epoch 012 - training loss: 0.3572, validation loss: 0.6443
+2024-06-03 02:38:04 [INFO]: Epoch 013 - training loss: 0.3490, validation loss: 0.6739
+2024-06-03 02:38:08 [INFO]: Epoch 014 - training loss: 0.3526, validation loss: 0.6789
+2024-06-03 02:38:11 [INFO]: Epoch 015 - training loss: 0.3508, validation loss: 0.6719
+2024-06-03 02:38:16 [INFO]: Epoch 016 - training loss: 0.3555, validation loss: 0.6288
+2024-06-03 02:38:16 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:38:16 [INFO]: Finished training. The best model is from epoch#6.
+2024-06-03 02:38:16 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_2/20240603_T023711/StemGNN.pypots
+2024-06-03 02:38:21 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_2/imputation.pkl
+2024-06-03 02:38:21 [INFO]: Round2 - StemGNN on Pedestrian: MAE=0.5749, MSE=0.7116, MRE=0.7508
+2024-06-03 02:38:21 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 02:38:21 [INFO]: Using the given device: cuda:0
+2024-06-03 02:38:22 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_3/20240603_T023821
+2024-06-03 02:38:22 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_3/20240603_T023821/tensorboard
+2024-06-03 02:38:22 [INFO]: StemGNN initialized with the given hyperparameters, the number of trainable parameters: 1,638,337
+2024-06-03 02:38:25 [INFO]: Epoch 001 - training loss: 1.2162, validation loss: 0.8300
+2024-06-03 02:38:29 [INFO]: Epoch 002 - training loss: 0.7389, validation loss: 0.6357
+2024-06-03 02:38:33 [INFO]: Epoch 003 - training loss: 0.6102, validation loss: 0.5985
+2024-06-03 02:38:37 [INFO]: Epoch 004 - training loss: 0.5593, validation loss: 0.5984
+2024-06-03 02:38:41 [INFO]: Epoch 005 - training loss: 0.5220, validation loss: 0.5945
+2024-06-03 02:38:45 [INFO]: Epoch 006 - training loss: 0.4851, validation loss: 0.5773
+2024-06-03 02:38:49 [INFO]: Epoch 007 - training loss: 0.4942, validation loss: 0.6078
+2024-06-03 02:38:53 [INFO]: Epoch 008 - training loss: 0.4477, validation loss: 0.6026
+2024-06-03 02:38:57 [INFO]: Epoch 009 - training loss: 0.4432, validation loss: 0.5686
+2024-06-03 02:39:01 [INFO]: Epoch 010 - training loss: 0.4430, validation loss: 0.5770
+2024-06-03 02:39:05 [INFO]: Epoch 011 - training loss: 0.4122, validation loss: 0.5800
+2024-06-03 02:39:09 [INFO]: Epoch 012 - training loss: 0.4078, validation loss: 0.6085
+2024-06-03 02:39:13 [INFO]: Epoch 013 - training loss: 0.3937, validation loss: 0.5764
+2024-06-03 02:39:17 [INFO]: Epoch 014 - training loss: 0.3833, validation loss: 0.5731
+2024-06-03 02:39:20 [INFO]: Epoch 015 - training loss: 0.3717, validation loss: 0.5750
+2024-06-03 02:39:24 [INFO]: Epoch 016 - training loss: 0.3640, validation loss: 0.6112
+2024-06-03 02:39:27 [INFO]: Epoch 017 - training loss: 0.3773, validation loss: 0.5826
+2024-06-03 02:39:30 [INFO]: Epoch 018 - training loss: 0.3443, validation loss: 0.5723
+2024-06-03 02:39:33 [INFO]: Epoch 019 - training loss: 0.3506, validation loss: 0.6205
+2024-06-03 02:39:33 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:39:33 [INFO]: Finished training. The best model is from epoch#9.
+2024-06-03 02:39:34 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_3/20240603_T023821/StemGNN.pypots
+2024-06-03 02:39:38 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_3/imputation.pkl
+2024-06-03 02:39:38 [INFO]: Round3 - StemGNN on Pedestrian: MAE=0.5412, MSE=0.6735, MRE=0.7068
+2024-06-03 02:39:38 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 02:39:38 [INFO]: Using the given device: cuda:0
+2024-06-03 02:39:38 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_4/20240603_T023938
+2024-06-03 02:39:38 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_4/20240603_T023938/tensorboard
+2024-06-03 02:39:38 [INFO]: StemGNN initialized with the given hyperparameters, the number of trainable parameters: 1,638,337
+2024-06-03 02:39:41 [INFO]: Epoch 001 - training loss: 1.1615, validation loss: 0.7857
+2024-06-03 02:39:44 [INFO]: Epoch 002 - training loss: 0.6851, validation loss: 0.6972
+2024-06-03 02:39:47 [INFO]: Epoch 003 - training loss: 0.5586, validation loss: 0.6227
+2024-06-03 02:39:50 [INFO]: Epoch 004 - training loss: 0.5400, validation loss: 0.6952
+2024-06-03 02:39:53 [INFO]: Epoch 005 - training loss: 0.4981, validation loss: 0.7093
+2024-06-03 02:39:56 [INFO]: Epoch 006 - training loss: 0.4973, validation loss: 0.6851
+2024-06-03 02:39:59 [INFO]: Epoch 007 - training loss: 0.4639, validation loss: 0.7177
+2024-06-03 02:40:02 [INFO]: Epoch 008 - training loss: 0.4355, validation loss: 0.6518
+2024-06-03 02:40:05 [INFO]: Epoch 009 - training loss: 0.4027, validation loss: 0.6601
+2024-06-03 02:40:08 [INFO]: Epoch 010 - training loss: 0.3924, validation loss: 0.6861
+2024-06-03 02:40:11 [INFO]: Epoch 011 - training loss: 0.3854, validation loss: 0.7070
+2024-06-03 02:40:13 [INFO]: Epoch 012 - training loss: 0.3800, validation loss: 0.6970
+2024-06-03 02:40:16 [INFO]: Epoch 013 - training loss: 0.3752, validation loss: 0.6601
+2024-06-03 02:40:16 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:40:16 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 02:40:16 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_4/20240603_T023938/StemGNN.pypots
+2024-06-03 02:40:20 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/StemGNN_Pedestrian/round_4/imputation.pkl
+2024-06-03 02:40:20 [INFO]: Round4 - StemGNN on Pedestrian: MAE=0.5901, MSE=0.7334, MRE=0.7707
+2024-06-03 02:40:20 [INFO]: Done! Final results:
+Averaged StemGNN (1,638,337 params) on Pedestrian: MAE=0.5609 ± 0.022459219210405956, MSE=0.7074 ± 0.026203190885697066, MRE=0.7326 ± 0.029332768006139584, average inference time=3.54

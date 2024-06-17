@@ -1,0 +1,107 @@
+2024-06-03 18:58:34 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 18:58:34 [INFO]: Using the given device: cuda:0
+2024-06-03 18:58:34 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_0/20240603_T185834
+2024-06-03 18:58:34 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_0/20240603_T185834/tensorboard
+2024-06-03 18:58:35 [INFO]: BRITS initialized with the given hyperparameters, the number of trainable parameters: 2,453,264
+2024-06-03 19:06:37 [INFO]: Epoch 001 - training loss: 1.2095, validation loss: 0.0727
+2024-06-03 19:14:00 [INFO]: Epoch 002 - training loss: 1.0143, validation loss: 0.0856
+2024-06-03 19:19:46 [INFO]: Epoch 003 - training loss: 0.9553, validation loss: 0.0900
+2024-06-03 19:23:13 [INFO]: Epoch 004 - training loss: 0.9156, validation loss: 0.1025
+2024-06-03 19:25:54 [INFO]: Epoch 005 - training loss: 0.8863, validation loss: 0.1125
+2024-06-03 19:28:46 [INFO]: Epoch 006 - training loss: 0.8646, validation loss: 0.1336
+2024-06-03 19:33:04 [INFO]: Epoch 007 - training loss: 0.8487, validation loss: 0.1202
+2024-06-03 19:37:40 [INFO]: Epoch 008 - training loss: 0.8358, validation loss: 0.1399
+2024-06-03 19:41:53 [INFO]: Epoch 009 - training loss: 0.8249, validation loss: 0.1360
+2024-06-03 19:44:51 [INFO]: Epoch 010 - training loss: 0.8153, validation loss: 0.1475
+2024-06-03 19:48:15 [INFO]: Epoch 011 - training loss: 0.8096, validation loss: 0.1475
+2024-06-03 19:48:15 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:48:15 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:48:15 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_0/20240603_T185834/BRITS.pypots
+2024-06-03 19:53:37 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_0/imputation.pkl
+2024-06-03 19:53:37 [INFO]: Round0 - BRITS on PhysioNet2019: MAE=0.3553, MSE=0.3207, MRE=0.4664
+2024-06-03 19:53:37 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:53:37 [INFO]: Using the given device: cuda:0
+2024-06-03 19:53:37 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_1/20240603_T195337
+2024-06-03 19:53:37 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_1/20240603_T195337/tensorboard
+2024-06-03 19:53:37 [INFO]: BRITS initialized with the given hyperparameters, the number of trainable parameters: 2,453,264
+2024-06-03 19:58:19 [INFO]: Epoch 001 - training loss: 1.2138, validation loss: 0.0729
+2024-06-03 20:02:50 [INFO]: Epoch 002 - training loss: 1.0131, validation loss: 0.0817
+2024-06-03 20:06:52 [INFO]: Epoch 003 - training loss: 0.9535, validation loss: 0.0954
+2024-06-03 20:09:52 [INFO]: Epoch 004 - training loss: 0.9179, validation loss: 0.1091
+2024-06-03 20:13:27 [INFO]: Epoch 005 - training loss: 0.8901, validation loss: 0.1096
+2024-06-03 20:17:59 [INFO]: Epoch 006 - training loss: 0.8709, validation loss: 0.1202
+2024-06-03 20:22:31 [INFO]: Epoch 007 - training loss: 0.8526, validation loss: 0.1285
+2024-06-03 20:26:59 [INFO]: Epoch 008 - training loss: 0.8387, validation loss: 0.1295
+2024-06-03 20:31:07 [INFO]: Epoch 009 - training loss: 0.8274, validation loss: 0.1412
+2024-06-03 20:34:04 [INFO]: Epoch 010 - training loss: 0.8188, validation loss: 0.1421
+2024-06-03 20:37:44 [INFO]: Epoch 011 - training loss: 0.8106, validation loss: 0.1458
+2024-06-03 20:37:44 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 20:37:44 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 20:37:44 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_1/20240603_T195337/BRITS.pypots
+2024-06-03 20:43:03 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_1/imputation.pkl
+2024-06-03 20:43:03 [INFO]: Round1 - BRITS on PhysioNet2019: MAE=0.3538, MSE=0.3195, MRE=0.4644
+2024-06-03 20:43:03 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 20:43:03 [INFO]: Using the given device: cuda:0
+2024-06-03 20:43:03 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_2/20240603_T204303
+2024-06-03 20:43:03 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_2/20240603_T204303/tensorboard
+2024-06-03 20:43:03 [INFO]: BRITS initialized with the given hyperparameters, the number of trainable parameters: 2,453,264
+2024-06-03 20:47:41 [INFO]: Epoch 001 - training loss: 1.2052, validation loss: 0.0728
+2024-06-03 20:52:11 [INFO]: Epoch 002 - training loss: 1.0122, validation loss: 0.0789
+2024-06-03 20:55:56 [INFO]: Epoch 003 - training loss: 0.9551, validation loss: 0.0898
+2024-06-03 20:58:55 [INFO]: Epoch 004 - training loss: 0.9184, validation loss: 0.1066
+2024-06-03 21:02:31 [INFO]: Epoch 005 - training loss: 0.8919, validation loss: 0.1094
+2024-06-03 21:07:05 [INFO]: Epoch 006 - training loss: 0.8686, validation loss: 0.1219
+2024-06-03 21:11:38 [INFO]: Epoch 007 - training loss: 0.8519, validation loss: 0.1286
+2024-06-03 21:16:07 [INFO]: Epoch 008 - training loss: 0.8367, validation loss: 0.1300
+2024-06-03 21:19:44 [INFO]: Epoch 009 - training loss: 0.8256, validation loss: 0.1405
+2024-06-03 21:20:00 [INFO]: Epoch 010 - training loss: 0.8164, validation loss: 0.1445
+2024-06-03 21:20:15 [INFO]: Epoch 011 - training loss: 0.8083, validation loss: 0.1422
+2024-06-03 21:20:15 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 21:20:15 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 21:20:15 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_2/20240603_T204303/BRITS.pypots
+2024-06-03 21:20:29 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_2/imputation.pkl
+2024-06-03 21:20:29 [INFO]: Round2 - BRITS on PhysioNet2019: MAE=0.3549, MSE=0.3199, MRE=0.4658
+2024-06-03 21:20:29 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 21:20:29 [INFO]: Using the given device: cuda:0
+2024-06-03 21:20:29 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_3/20240603_T212029
+2024-06-03 21:20:29 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_3/20240603_T212029/tensorboard
+2024-06-03 21:20:29 [INFO]: BRITS initialized with the given hyperparameters, the number of trainable parameters: 2,453,264
+2024-06-03 21:20:48 [INFO]: Epoch 001 - training loss: 1.2180, validation loss: 0.0724
+2024-06-03 21:21:03 [INFO]: Epoch 002 - training loss: 1.0260, validation loss: 0.0790
+2024-06-03 21:21:18 [INFO]: Epoch 003 - training loss: 0.9727, validation loss: 0.0959
+2024-06-03 21:21:33 [INFO]: Epoch 004 - training loss: 0.9350, validation loss: 0.1120
+2024-06-03 21:21:48 [INFO]: Epoch 005 - training loss: 0.9038, validation loss: 0.1181
+2024-06-03 21:22:03 [INFO]: Epoch 006 - training loss: 0.8782, validation loss: 0.1158
+2024-06-03 21:22:19 [INFO]: Epoch 007 - training loss: 0.8592, validation loss: 0.1331
+2024-06-03 21:22:34 [INFO]: Epoch 008 - training loss: 0.8425, validation loss: 0.1299
+2024-06-03 21:22:49 [INFO]: Epoch 009 - training loss: 0.8311, validation loss: 0.1476
+2024-06-03 21:23:04 [INFO]: Epoch 010 - training loss: 0.8201, validation loss: 0.1489
+2024-06-03 21:23:19 [INFO]: Epoch 011 - training loss: 0.8122, validation loss: 0.1531
+2024-06-03 21:23:19 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 21:23:19 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 21:23:19 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_3/20240603_T212029/BRITS.pypots
+2024-06-03 21:23:34 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_3/imputation.pkl
+2024-06-03 21:23:34 [INFO]: Round3 - BRITS on PhysioNet2019: MAE=0.3560, MSE=0.3202, MRE=0.4672
+2024-06-03 21:23:34 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 21:23:34 [INFO]: Using the given device: cuda:0
+2024-06-03 21:23:34 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_4/20240603_T212334
+2024-06-03 21:23:34 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_4/20240603_T212334/tensorboard
+2024-06-03 21:23:34 [INFO]: BRITS initialized with the given hyperparameters, the number of trainable parameters: 2,453,264
+2024-06-03 21:23:52 [INFO]: Epoch 001 - training loss: 1.2122, validation loss: 0.0711
+2024-06-03 21:24:07 [INFO]: Epoch 002 - training loss: 1.0210, validation loss: 0.0872
+2024-06-03 21:24:22 [INFO]: Epoch 003 - training loss: 0.9641, validation loss: 0.0858
+2024-06-03 21:24:38 [INFO]: Epoch 004 - training loss: 0.9248, validation loss: 0.1110
+2024-06-03 21:24:53 [INFO]: Epoch 005 - training loss: 0.8962, validation loss: 0.1192
+2024-06-03 21:25:08 [INFO]: Epoch 006 - training loss: 0.8726, validation loss: 0.1239
+2024-06-03 21:25:23 [INFO]: Epoch 007 - training loss: 0.8539, validation loss: 0.1339
+2024-06-03 21:25:38 [INFO]: Epoch 008 - training loss: 0.8387, validation loss: 0.1376
+2024-06-03 21:25:53 [INFO]: Epoch 009 - training loss: 0.8272, validation loss: 0.1457
+2024-06-03 21:26:08 [INFO]: Epoch 010 - training loss: 0.8176, validation loss: 0.1497
+2024-06-03 21:26:24 [INFO]: Epoch 011 - training loss: 0.8090, validation loss: 0.1525
+2024-06-03 21:26:24 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 21:26:24 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 21:26:24 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_4/20240603_T212334/BRITS.pypots
+2024-06-03 21:26:38 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/BRITS_PhysioNet2019/round_4/imputation.pkl
+2024-06-03 21:26:38 [INFO]: Round4 - BRITS on PhysioNet2019: MAE=0.3539, MSE=0.3203, MRE=0.4645
+2024-06-03 21:26:38 [INFO]: Done! Final results:
+Averaged BRITS (2,453,264 params) on PhysioNet2019: MAE=0.3548 ± 0.0008224589841913694, MSE=0.3201 ± 0.0003903665471965902, MRE=0.4657 ± 0.0010794815075709254, average inference time=22.18

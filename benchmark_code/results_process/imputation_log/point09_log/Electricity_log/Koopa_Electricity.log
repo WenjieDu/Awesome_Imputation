@@ -1,0 +1,191 @@
+2024-06-03 01:13:36 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 01:13:36 [INFO]: Using the given device: cuda:0
+2024-06-03 01:13:36 [INFO]: Model files will be saved to results_point_rate09/Electricity/Koopa_Electricity/round_0/20240603_T011336
+2024-06-03 01:13:36 [INFO]: Tensorboard file will be saved to results_point_rate09/Electricity/Koopa_Electricity/round_0/20240603_T011336/tensorboard
+2024-06-03 01:13:37 [INFO]: Koopa initialized with the given hyperparameters, the number of trainable parameters: 2,680,114
+2024-06-03 01:16:20 [INFO]: Epoch 001 - training loss: 1.2128, validation loss: 3.7232
+2024-06-03 01:19:06 [INFO]: Epoch 002 - training loss: 1.0040, validation loss: 3.6995
+2024-06-03 01:21:54 [INFO]: Epoch 003 - training loss: 0.8569, validation loss: 3.7904
+2024-06-03 01:24:33 [INFO]: Epoch 004 - training loss: 0.7467, validation loss: 3.6016
+2024-06-03 01:27:18 [INFO]: Epoch 005 - training loss: 0.6794, validation loss: 3.5329
+2024-06-03 01:29:39 [INFO]: Epoch 006 - training loss: 0.6483, validation loss: 3.4970
+2024-06-03 01:31:53 [INFO]: Epoch 007 - training loss: 0.6251, validation loss: 3.5874
+2024-06-03 01:34:10 [INFO]: Epoch 008 - training loss: 0.6081, validation loss: 3.5002
+2024-06-03 01:36:22 [INFO]: Epoch 009 - training loss: 0.5956, validation loss: 3.5257
+2024-06-03 01:38:38 [INFO]: Epoch 010 - training loss: 0.5851, validation loss: 3.5883
+2024-06-03 01:40:59 [INFO]: Epoch 011 - training loss: 0.5755, validation loss: 3.6213
+2024-06-03 01:43:22 [INFO]: Epoch 012 - training loss: 0.5672, validation loss: 3.5442
+2024-06-03 01:45:36 [INFO]: Epoch 013 - training loss: 0.5607, validation loss: 3.5674
+2024-06-03 01:47:52 [INFO]: Epoch 014 - training loss: 0.5565, validation loss: 3.5982
+2024-06-03 01:50:10 [INFO]: Epoch 015 - training loss: 0.5534, validation loss: 3.5321
+2024-06-03 01:52:27 [INFO]: Epoch 016 - training loss: 0.5456, validation loss: 3.5856
+2024-06-03 01:52:27 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 01:52:27 [INFO]: Finished training. The best model is from epoch#6.
+2024-06-03 01:52:27 [INFO]: Saved the model to results_point_rate09/Electricity/Koopa_Electricity/round_0/20240603_T011336/Koopa.pypots
+2024-06-03 01:52:28 [INFO]: Successfully saved to results_point_rate09/Electricity/Koopa_Electricity/round_0/imputation.pkl
+2024-06-03 01:52:28 [INFO]: Round0 - Koopa on Electricity: MAE=1.7191, MSE=6.6075, MRE=0.9203
+2024-06-03 01:52:28 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 01:52:28 [INFO]: Using the given device: cuda:0
+2024-06-03 01:52:28 [INFO]: Model files will be saved to results_point_rate09/Electricity/Koopa_Electricity/round_1/20240603_T015228
+2024-06-03 01:52:28 [INFO]: Tensorboard file will be saved to results_point_rate09/Electricity/Koopa_Electricity/round_1/20240603_T015228/tensorboard
+2024-06-03 01:52:28 [INFO]: Koopa initialized with the given hyperparameters, the number of trainable parameters: 2,680,114
+2024-06-03 01:54:12 [INFO]: Epoch 001 - training loss: 1.2085, validation loss: 3.7168
+2024-06-03 01:55:52 [INFO]: Epoch 002 - training loss: 1.0401, validation loss: 3.7127
+2024-06-03 01:57:29 [INFO]: Epoch 003 - training loss: 0.8800, validation loss: 3.7711
+2024-06-03 01:59:10 [INFO]: Epoch 004 - training loss: 0.7345, validation loss: 3.8146
+2024-06-03 02:00:45 [INFO]: Epoch 005 - training loss: 0.6784, validation loss: 6.8621
+2024-06-03 02:02:06 [INFO]: Epoch 006 - training loss: 0.6466, validation loss: 3.7565
+2024-06-03 02:03:26 [INFO]: Epoch 007 - training loss: 0.6253, validation loss: 3.7857
+2024-06-03 02:04:46 [INFO]: Epoch 008 - training loss: 0.6122, validation loss: 3.8291
+2024-06-03 02:06:05 [INFO]: Epoch 009 - training loss: 0.6027, validation loss: 3.8397
+2024-06-03 02:07:25 [INFO]: Epoch 010 - training loss: 0.5917, validation loss: 3.8101
+2024-06-03 02:08:43 [INFO]: Epoch 011 - training loss: 0.5844, validation loss: 3.9823
+2024-06-03 02:09:54 [INFO]: Epoch 012 - training loss: 0.5765, validation loss: 3.9134
+2024-06-03 02:09:54 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:09:54 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 02:09:54 [INFO]: Saved the model to results_point_rate09/Electricity/Koopa_Electricity/round_1/20240603_T015228/Koopa.pypots
+2024-06-03 02:09:55 [INFO]: Successfully saved to results_point_rate09/Electricity/Koopa_Electricity/round_1/imputation.pkl
+2024-06-03 02:09:55 [INFO]: Round1 - Koopa on Electricity: MAE=1.9601, MSE=8.4122, MRE=1.0493
+2024-06-03 02:09:55 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 02:09:55 [INFO]: Using the given device: cuda:0
+2024-06-03 02:09:55 [INFO]: Model files will be saved to results_point_rate09/Electricity/Koopa_Electricity/round_2/20240603_T020955
+2024-06-03 02:09:55 [INFO]: Tensorboard file will be saved to results_point_rate09/Electricity/Koopa_Electricity/round_2/20240603_T020955/tensorboard
+2024-06-03 02:09:55 [INFO]: Koopa initialized with the given hyperparameters, the number of trainable parameters: 2,680,114
+2024-06-03 02:11:19 [INFO]: Epoch 001 - training loss: 1.2146, validation loss: 3.7716
+2024-06-03 02:12:40 [INFO]: Epoch 002 - training loss: 1.0340, validation loss: 3.7828
+2024-06-03 02:13:59 [INFO]: Epoch 003 - training loss: 0.8628, validation loss: 3.8413
+2024-06-03 02:15:24 [INFO]: Epoch 004 - training loss: 0.7405, validation loss: 3.7941
+2024-06-03 02:16:46 [INFO]: Epoch 005 - training loss: 0.6830, validation loss: 3.7303
+2024-06-03 02:18:06 [INFO]: Epoch 006 - training loss: 0.6527, validation loss: 3.8583
+2024-06-03 02:19:25 [INFO]: Epoch 007 - training loss: 0.6300, validation loss: 3.7791
+2024-06-03 02:20:46 [INFO]: Epoch 008 - training loss: 0.6108, validation loss: 3.8524
+2024-06-03 02:22:09 [INFO]: Epoch 009 - training loss: 0.5990, validation loss: 3.8207
+2024-06-03 02:23:31 [INFO]: Epoch 010 - training loss: 0.5926, validation loss: 16.2537
+2024-06-03 02:24:54 [INFO]: Epoch 011 - training loss: 0.5812, validation loss: 3.9098
+2024-06-03 02:26:17 [INFO]: Epoch 012 - training loss: 0.5725, validation loss: 3.9802
+2024-06-03 02:27:35 [INFO]: Epoch 013 - training loss: 0.5631, validation loss: 3.9468
+2024-06-03 02:28:56 [INFO]: Epoch 014 - training loss: 0.5570, validation loss: 4.0254
+2024-06-03 02:30:18 [INFO]: Epoch 015 - training loss: 0.5542, validation loss: 4.0219
+2024-06-03 02:30:18 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:30:18 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 02:30:18 [INFO]: Saved the model to results_point_rate09/Electricity/Koopa_Electricity/round_2/20240603_T020955/Koopa.pypots
+2024-06-03 02:30:19 [INFO]: Successfully saved to results_point_rate09/Electricity/Koopa_Electricity/round_2/imputation.pkl
+2024-06-03 02:30:19 [INFO]: Round2 - Koopa on Electricity: MAE=2.0214, MSE=8.8098, MRE=1.0821
+2024-06-03 02:30:19 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 02:30:19 [INFO]: Using the given device: cuda:0
+2024-06-03 02:30:19 [INFO]: Model files will be saved to results_point_rate09/Electricity/Koopa_Electricity/round_3/20240603_T023019
+2024-06-03 02:30:19 [INFO]: Tensorboard file will be saved to results_point_rate09/Electricity/Koopa_Electricity/round_3/20240603_T023019/tensorboard
+2024-06-03 02:30:19 [INFO]: Koopa initialized with the given hyperparameters, the number of trainable parameters: 2,680,114
+2024-06-03 02:31:40 [INFO]: Epoch 001 - training loss: 1.1975, validation loss: 3.7131
+2024-06-03 02:33:03 [INFO]: Epoch 002 - training loss: 1.0013, validation loss: 3.7146
+2024-06-03 02:34:26 [INFO]: Epoch 003 - training loss: 0.8431, validation loss: 3.7338
+2024-06-03 02:35:48 [INFO]: Epoch 004 - training loss: 0.7521, validation loss: 3.7031
+2024-06-03 02:37:07 [INFO]: Epoch 005 - training loss: 0.7021, validation loss: 3.7646
+2024-06-03 02:38:25 [INFO]: Epoch 006 - training loss: 0.6810, validation loss: 3.7210
+2024-06-03 02:39:37 [INFO]: Epoch 007 - training loss: 0.6568, validation loss: 3.8163
+2024-06-03 02:41:00 [INFO]: Epoch 008 - training loss: 0.6414, validation loss: 3.8751
+2024-06-03 02:42:19 [INFO]: Epoch 009 - training loss: 0.6260, validation loss: 3.8033
+2024-06-03 02:43:42 [INFO]: Epoch 010 - training loss: 0.6190, validation loss: 3.6610
+2024-06-03 02:45:06 [INFO]: Epoch 011 - training loss: 0.6090, validation loss: 5.7212
+2024-06-03 02:46:26 [INFO]: Epoch 012 - training loss: 0.5962, validation loss: 3.6725
+2024-06-03 02:47:49 [INFO]: Epoch 013 - training loss: 0.5907, validation loss: 3.5688
+2024-06-03 02:49:09 [INFO]: Epoch 014 - training loss: 0.5855, validation loss: 3.6085
+2024-06-03 02:50:28 [INFO]: Epoch 015 - training loss: 0.5782, validation loss: 3.5212
+2024-06-03 02:51:49 [INFO]: Epoch 016 - training loss: 0.5750, validation loss: 3.5912
+2024-06-03 02:53:10 [INFO]: Epoch 017 - training loss: 0.5700, validation loss: 3.4325
+2024-06-03 02:54:33 [INFO]: Epoch 018 - training loss: 0.5663, validation loss: 3.3930
+2024-06-03 02:55:48 [INFO]: Epoch 019 - training loss: 0.5648, validation loss: 3.5009
+2024-06-03 02:57:10 [INFO]: Epoch 020 - training loss: 0.5551, validation loss: 3.3915
+2024-06-03 02:58:33 [INFO]: Epoch 021 - training loss: 0.5557, validation loss: 3.4776
+2024-06-03 02:59:53 [INFO]: Epoch 022 - training loss: 0.5521, validation loss: 3.2645
+2024-06-03 03:01:18 [INFO]: Epoch 023 - training loss: 0.5477, validation loss: 3.3626
+2024-06-03 03:02:38 [INFO]: Epoch 024 - training loss: 0.5441, validation loss: 3.1765
+2024-06-03 03:04:00 [INFO]: Epoch 025 - training loss: 0.5413, validation loss: 3.0752
+2024-06-03 03:05:28 [INFO]: Epoch 026 - training loss: 0.5396, validation loss: 3.0960
+2024-06-03 03:06:51 [INFO]: Epoch 027 - training loss: 0.5371, validation loss: 3.0382
+2024-06-03 03:08:16 [INFO]: Epoch 028 - training loss: 0.5360, validation loss: 6.6734
+2024-06-03 03:09:35 [INFO]: Epoch 029 - training loss: 0.5315, validation loss: 2.8817
+2024-06-03 03:10:56 [INFO]: Epoch 030 - training loss: 0.5273, validation loss: 2.8483
+2024-06-03 03:12:19 [INFO]: Epoch 031 - training loss: 0.5243, validation loss: 2.7768
+2024-06-03 03:13:42 [INFO]: Epoch 032 - training loss: 0.5247, validation loss: 2.7110
+2024-06-03 03:15:06 [INFO]: Epoch 033 - training loss: 0.5225, validation loss: 2.7201
+2024-06-03 03:16:24 [INFO]: Epoch 034 - training loss: 0.5207, validation loss: 2.7259
+2024-06-03 03:17:38 [INFO]: Epoch 035 - training loss: 0.5172, validation loss: 2.6676
+2024-06-03 03:19:03 [INFO]: Epoch 036 - training loss: 0.5153, validation loss: 2.6582
+2024-06-03 03:20:22 [INFO]: Epoch 037 - training loss: 0.5156, validation loss: 2.7191
+2024-06-03 03:21:41 [INFO]: Epoch 038 - training loss: 0.5125, validation loss: 2.5709
+2024-06-03 03:23:05 [INFO]: Epoch 039 - training loss: 0.5121, validation loss: 3.2441
+2024-06-03 03:24:28 [INFO]: Epoch 040 - training loss: 0.5070, validation loss: 2.5382
+2024-06-03 03:25:49 [INFO]: Epoch 041 - training loss: 0.5069, validation loss: 2.5680
+2024-06-03 03:27:13 [INFO]: Epoch 042 - training loss: 0.5068, validation loss: 2.8334
+2024-06-03 03:28:36 [INFO]: Epoch 043 - training loss: 0.5057, validation loss: 2.4784
+2024-06-03 03:29:59 [INFO]: Epoch 044 - training loss: 0.5026, validation loss: 2.5096
+2024-06-03 03:31:19 [INFO]: Epoch 045 - training loss: 0.5028, validation loss: 2.4723
+2024-06-03 03:32:42 [INFO]: Epoch 046 - training loss: 0.5006, validation loss: 2.4511
+2024-06-03 03:34:04 [INFO]: Epoch 047 - training loss: 0.4996, validation loss: 2.4431
+2024-06-03 03:35:28 [INFO]: Epoch 048 - training loss: 0.4963, validation loss: 2.4570
+2024-06-03 03:36:48 [INFO]: Epoch 049 - training loss: 0.4950, validation loss: 2.4897
+2024-06-03 03:38:09 [INFO]: Epoch 050 - training loss: 0.4950, validation loss: 2.4609
+2024-06-03 03:39:32 [INFO]: Epoch 051 - training loss: 0.4952, validation loss: 2.4909
+2024-06-03 03:40:57 [INFO]: Epoch 052 - training loss: 0.4933, validation loss: 2.4383
+2024-06-03 03:42:20 [INFO]: Epoch 053 - training loss: 0.4915, validation loss: 2.4064
+2024-06-03 03:43:41 [INFO]: Epoch 054 - training loss: 0.4894, validation loss: 2.4028
+2024-06-03 03:45:06 [INFO]: Epoch 055 - training loss: 0.4899, validation loss: 2.4387
+2024-06-03 03:46:29 [INFO]: Epoch 056 - training loss: 0.4880, validation loss: 2.3779
+2024-06-03 03:47:51 [INFO]: Epoch 057 - training loss: 0.4887, validation loss: 2.3941
+2024-06-03 03:49:13 [INFO]: Epoch 058 - training loss: 0.4861, validation loss: 2.4380
+2024-06-03 03:50:37 [INFO]: Epoch 059 - training loss: 0.4857, validation loss: 2.4190
+2024-06-03 03:51:57 [INFO]: Epoch 060 - training loss: 0.4892, validation loss: 2.4019
+2024-06-03 03:53:22 [INFO]: Epoch 061 - training loss: 0.4845, validation loss: 2.3553
+2024-06-03 03:54:47 [INFO]: Epoch 062 - training loss: 0.4827, validation loss: 2.3905
+2024-06-03 03:56:09 [INFO]: Epoch 063 - training loss: 0.4820, validation loss: 2.4086
+2024-06-03 03:57:15 [INFO]: Epoch 064 - training loss: 0.4800, validation loss: 2.3931
+2024-06-03 03:58:19 [INFO]: Epoch 065 - training loss: 0.4807, validation loss: 2.4572
+2024-06-03 03:58:56 [INFO]: Epoch 066 - training loss: 0.4816, validation loss: 2.3826
+2024-06-03 03:59:34 [INFO]: Epoch 067 - training loss: 0.4803, validation loss: 2.4026
+2024-06-03 04:00:12 [INFO]: Epoch 068 - training loss: 0.4799, validation loss: 2.4068
+2024-06-03 04:00:50 [INFO]: Epoch 069 - training loss: 0.4795, validation loss: 2.4331
+2024-06-03 04:01:28 [INFO]: Epoch 070 - training loss: 0.4809, validation loss: 2.3639
+2024-06-03 04:02:02 [INFO]: Epoch 071 - training loss: 0.4773, validation loss: 2.3848
+2024-06-03 04:02:02 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 04:02:02 [INFO]: Finished training. The best model is from epoch#61.
+2024-06-03 04:02:02 [INFO]: Saved the model to results_point_rate09/Electricity/Koopa_Electricity/round_3/20240603_T023019/Koopa.pypots
+2024-06-03 04:02:03 [INFO]: Successfully saved to results_point_rate09/Electricity/Koopa_Electricity/round_3/imputation.pkl
+2024-06-03 04:02:03 [INFO]: Round3 - Koopa on Electricity: MAE=1.3236, MSE=4.1990, MRE=0.7086
+2024-06-03 04:02:03 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 04:02:03 [INFO]: Using the given device: cuda:0
+2024-06-03 04:02:03 [INFO]: Model files will be saved to results_point_rate09/Electricity/Koopa_Electricity/round_4/20240603_T040203
+2024-06-03 04:02:03 [INFO]: Tensorboard file will be saved to results_point_rate09/Electricity/Koopa_Electricity/round_4/20240603_T040203/tensorboard
+2024-06-03 04:02:03 [INFO]: Koopa initialized with the given hyperparameters, the number of trainable parameters: 2,680,114
+2024-06-03 04:02:41 [INFO]: Epoch 001 - training loss: 1.2144, validation loss: 3.7708
+2024-06-03 04:03:19 [INFO]: Epoch 002 - training loss: 1.0277, validation loss: 3.7207
+2024-06-03 04:03:56 [INFO]: Epoch 003 - training loss: 0.8822, validation loss: 14.5725
+2024-06-03 04:04:33 [INFO]: Epoch 004 - training loss: 0.7448, validation loss: 3.5901
+2024-06-03 04:05:11 [INFO]: Epoch 005 - training loss: 0.6786, validation loss: 3.6255
+2024-06-03 04:05:48 [INFO]: Epoch 006 - training loss: 0.6444, validation loss: 3.5155
+2024-06-03 04:06:26 [INFO]: Epoch 007 - training loss: 0.6238, validation loss: 3.5830
+2024-06-03 04:07:03 [INFO]: Epoch 008 - training loss: 0.6068, validation loss: 3.4968
+2024-06-03 04:07:41 [INFO]: Epoch 009 - training loss: 0.5936, validation loss: 3.5623
+2024-06-03 04:08:19 [INFO]: Epoch 010 - training loss: 0.5822, validation loss: 3.4184
+2024-06-03 04:08:56 [INFO]: Epoch 011 - training loss: 0.5724, validation loss: 3.4341
+2024-06-03 04:09:34 [INFO]: Epoch 012 - training loss: 0.5664, validation loss: 3.4461
+2024-06-03 04:10:10 [INFO]: Epoch 013 - training loss: 0.5597, validation loss: 3.4849
+2024-06-03 04:10:47 [INFO]: Epoch 014 - training loss: 0.5528, validation loss: 6.2554
+2024-06-03 04:11:25 [INFO]: Epoch 015 - training loss: 0.5471, validation loss: 3.3962
+2024-06-03 04:12:02 [INFO]: Epoch 016 - training loss: 0.5433, validation loss: 3.4839
+2024-06-03 04:12:40 [INFO]: Epoch 017 - training loss: 0.5437, validation loss: 3.4302
+2024-06-03 04:13:18 [INFO]: Epoch 018 - training loss: 0.5384, validation loss: 3.4859
+2024-06-03 04:13:36 [INFO]: Epoch 019 - training loss: 0.5321, validation loss: 6.1051
+2024-06-03 04:13:38 [INFO]: Epoch 020 - training loss: 0.5291, validation loss: 3.4609
+2024-06-03 04:13:40 [INFO]: Epoch 021 - training loss: 0.5258, validation loss: 3.4975
+2024-06-03 04:13:42 [INFO]: Epoch 022 - training loss: 0.5237, validation loss: 3.5361
+2024-06-03 04:13:44 [INFO]: Epoch 023 - training loss: 0.5218, validation loss: 3.5751
+2024-06-03 04:13:46 [INFO]: Epoch 024 - training loss: 0.5192, validation loss: 6.7943
+2024-06-03 04:13:48 [INFO]: Epoch 025 - training loss: 0.5183, validation loss: 3.4861
+2024-06-03 04:13:48 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 04:13:48 [INFO]: Finished training. The best model is from epoch#15.
+2024-06-03 04:13:49 [INFO]: Saved the model to results_point_rate09/Electricity/Koopa_Electricity/round_4/20240603_T040203/Koopa.pypots
+2024-06-03 04:13:49 [INFO]: Successfully saved to results_point_rate09/Electricity/Koopa_Electricity/round_4/imputation.pkl
+2024-06-03 04:13:49 [INFO]: Round4 - Koopa on Electricity: MAE=2.0002, MSE=8.7326, MRE=1.0708
+2024-06-03 04:13:49 [INFO]: Done! Final results:
+Averaged Koopa (2,680,114 params) on Electricity: MAE=1.8049 ± 0.2638345693486699, MSE=7.3522 ± 1.7692356549835724, MRE=0.9662 ± 0.1412381733270392, average inference time=0.55

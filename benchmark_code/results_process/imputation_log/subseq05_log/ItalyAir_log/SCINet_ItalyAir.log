@@ -1,0 +1,157 @@
+2024-06-03 03:22:32 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 03:22:32 [INFO]: Using the given device: cuda:0
+2024-06-03 03:22:34 [INFO]: Model files will be saved to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_0/20240603_T032233
+2024-06-03 03:22:34 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_0/20240603_T032233/tensorboard
+2024-06-03 03:22:35 [INFO]: SCINet initialized with the given hyperparameters, the number of trainable parameters: 263,517
+2024-06-03 03:22:38 [INFO]: Epoch 001 - training loss: 1.2806, validation loss: 2.2411
+2024-06-03 03:22:39 [INFO]: Epoch 002 - training loss: 1.1715, validation loss: 2.1735
+2024-06-03 03:22:40 [INFO]: Epoch 003 - training loss: 1.0567, validation loss: 1.9497
+2024-06-03 03:22:41 [INFO]: Epoch 004 - training loss: 0.9461, validation loss: 1.6789
+2024-06-03 03:22:42 [INFO]: Epoch 005 - training loss: 0.8139, validation loss: 1.2258
+2024-06-03 03:22:43 [INFO]: Epoch 006 - training loss: 0.7103, validation loss: 1.0066
+2024-06-03 03:22:44 [INFO]: Epoch 007 - training loss: 0.6330, validation loss: 0.8742
+2024-06-03 03:22:45 [INFO]: Epoch 008 - training loss: 0.6044, validation loss: 0.8190
+2024-06-03 03:22:47 [INFO]: Epoch 009 - training loss: 0.5659, validation loss: 0.7425
+2024-06-03 03:22:48 [INFO]: Epoch 010 - training loss: 0.5492, validation loss: 0.7291
+2024-06-03 03:22:49 [INFO]: Epoch 011 - training loss: 0.5452, validation loss: 0.7543
+2024-06-03 03:22:50 [INFO]: Epoch 012 - training loss: 0.5361, validation loss: 0.8132
+2024-06-03 03:22:51 [INFO]: Epoch 013 - training loss: 0.5260, validation loss: 0.7678
+2024-06-03 03:22:52 [INFO]: Epoch 014 - training loss: 0.5157, validation loss: 0.8032
+2024-06-03 03:22:54 [INFO]: Epoch 015 - training loss: 0.5136, validation loss: 0.8577
+2024-06-03 03:22:55 [INFO]: Epoch 016 - training loss: 0.5103, validation loss: 0.8646
+2024-06-03 03:22:56 [INFO]: Epoch 017 - training loss: 0.4934, validation loss: 0.8576
+2024-06-03 03:22:57 [INFO]: Epoch 018 - training loss: 0.5046, validation loss: 0.7816
+2024-06-03 03:22:58 [INFO]: Epoch 019 - training loss: 0.4881, validation loss: 0.8019
+2024-06-03 03:22:59 [INFO]: Epoch 020 - training loss: 0.4860, validation loss: 0.8306
+2024-06-03 03:22:59 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:22:59 [INFO]: Finished training. The best model is from epoch#10.
+2024-06-03 03:22:59 [INFO]: Saved the model to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_0/20240603_T032233/SCINet.pypots
+2024-06-03 03:23:00 [INFO]: Successfully saved to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_0/imputation.pkl
+2024-06-03 03:23:00 [INFO]: Round0 - SCINet on ItalyAir: MAE=0.4962, MSE=0.6225, MRE=0.6362
+2024-06-03 03:23:00 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 03:23:00 [INFO]: Using the given device: cuda:0
+2024-06-03 03:23:00 [INFO]: Model files will be saved to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_1/20240603_T032300
+2024-06-03 03:23:00 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_1/20240603_T032300/tensorboard
+2024-06-03 03:23:00 [INFO]: SCINet initialized with the given hyperparameters, the number of trainable parameters: 263,517
+2024-06-03 03:23:01 [INFO]: Epoch 001 - training loss: 1.2860, validation loss: 2.2766
+2024-06-03 03:23:02 [INFO]: Epoch 002 - training loss: 1.1605, validation loss: 2.2441
+2024-06-03 03:23:03 [INFO]: Epoch 003 - training loss: 1.0836, validation loss: 2.1667
+2024-06-03 03:23:04 [INFO]: Epoch 004 - training loss: 1.0316, validation loss: 1.9982
+2024-06-03 03:23:06 [INFO]: Epoch 005 - training loss: 0.9510, validation loss: 1.7130
+2024-06-03 03:23:07 [INFO]: Epoch 006 - training loss: 0.8310, validation loss: 1.3887
+2024-06-03 03:23:08 [INFO]: Epoch 007 - training loss: 0.7727, validation loss: 1.2305
+2024-06-03 03:23:09 [INFO]: Epoch 008 - training loss: 0.7248, validation loss: 0.9921
+2024-06-03 03:23:10 [INFO]: Epoch 009 - training loss: 0.6782, validation loss: 0.8620
+2024-06-03 03:23:11 [INFO]: Epoch 010 - training loss: 0.6328, validation loss: 0.7448
+2024-06-03 03:23:12 [INFO]: Epoch 011 - training loss: 0.6070, validation loss: 0.7019
+2024-06-03 03:23:14 [INFO]: Epoch 012 - training loss: 0.5884, validation loss: 0.6616
+2024-06-03 03:23:15 [INFO]: Epoch 013 - training loss: 0.5591, validation loss: 0.7345
+2024-06-03 03:23:16 [INFO]: Epoch 014 - training loss: 0.5580, validation loss: 0.7178
+2024-06-03 03:23:17 [INFO]: Epoch 015 - training loss: 0.5385, validation loss: 0.7468
+2024-06-03 03:23:18 [INFO]: Epoch 016 - training loss: 0.5303, validation loss: 0.7563
+2024-06-03 03:23:19 [INFO]: Epoch 017 - training loss: 0.5179, validation loss: 0.7626
+2024-06-03 03:23:21 [INFO]: Epoch 018 - training loss: 0.5046, validation loss: 0.7274
+2024-06-03 03:23:22 [INFO]: Epoch 019 - training loss: 0.5088, validation loss: 0.7248
+2024-06-03 03:23:23 [INFO]: Epoch 020 - training loss: 0.4953, validation loss: 0.7515
+2024-06-03 03:23:24 [INFO]: Epoch 021 - training loss: 0.5065, validation loss: 0.7862
+2024-06-03 03:23:26 [INFO]: Epoch 022 - training loss: 0.5000, validation loss: 0.7784
+2024-06-03 03:23:26 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:23:26 [INFO]: Finished training. The best model is from epoch#12.
+2024-06-03 03:23:26 [INFO]: Saved the model to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_1/20240603_T032300/SCINet.pypots
+2024-06-03 03:23:26 [INFO]: Successfully saved to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_1/imputation.pkl
+2024-06-03 03:23:26 [INFO]: Round1 - SCINet on ItalyAir: MAE=0.4651, MSE=0.5543, MRE=0.5963
+2024-06-03 03:23:26 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 03:23:26 [INFO]: Using the given device: cuda:0
+2024-06-03 03:23:26 [INFO]: Model files will be saved to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_2/20240603_T032326
+2024-06-03 03:23:26 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_2/20240603_T032326/tensorboard
+2024-06-03 03:23:26 [INFO]: SCINet initialized with the given hyperparameters, the number of trainable parameters: 263,517
+2024-06-03 03:23:27 [INFO]: Epoch 001 - training loss: 1.2609, validation loss: 2.1589
+2024-06-03 03:23:28 [INFO]: Epoch 002 - training loss: 1.0809, validation loss: 1.9428
+2024-06-03 03:23:29 [INFO]: Epoch 003 - training loss: 0.9149, validation loss: 1.6736
+2024-06-03 03:23:30 [INFO]: Epoch 004 - training loss: 0.7989, validation loss: 1.3807
+2024-06-03 03:23:32 [INFO]: Epoch 005 - training loss: 0.7062, validation loss: 1.1484
+2024-06-03 03:23:33 [INFO]: Epoch 006 - training loss: 0.6638, validation loss: 0.9613
+2024-06-03 03:23:34 [INFO]: Epoch 007 - training loss: 0.6219, validation loss: 0.8435
+2024-06-03 03:23:35 [INFO]: Epoch 008 - training loss: 0.5762, validation loss: 0.7385
+2024-06-03 03:23:36 [INFO]: Epoch 009 - training loss: 0.5591, validation loss: 0.6931
+2024-06-03 03:23:37 [INFO]: Epoch 010 - training loss: 0.5423, validation loss: 0.6890
+2024-06-03 03:23:38 [INFO]: Epoch 011 - training loss: 0.5317, validation loss: 0.6654
+2024-06-03 03:23:40 [INFO]: Epoch 012 - training loss: 0.5185, validation loss: 0.7058
+2024-06-03 03:23:41 [INFO]: Epoch 013 - training loss: 0.5170, validation loss: 0.7325
+2024-06-03 03:23:42 [INFO]: Epoch 014 - training loss: 0.5078, validation loss: 0.7265
+2024-06-03 03:23:43 [INFO]: Epoch 015 - training loss: 0.5081, validation loss: 0.7178
+2024-06-03 03:23:44 [INFO]: Epoch 016 - training loss: 0.4932, validation loss: 0.7485
+2024-06-03 03:23:46 [INFO]: Epoch 017 - training loss: 0.4839, validation loss: 0.7424
+2024-06-03 03:23:47 [INFO]: Epoch 018 - training loss: 0.4843, validation loss: 0.7730
+2024-06-03 03:23:48 [INFO]: Epoch 019 - training loss: 0.4777, validation loss: 0.7712
+2024-06-03 03:23:49 [INFO]: Epoch 020 - training loss: 0.4791, validation loss: 0.8192
+2024-06-03 03:23:50 [INFO]: Epoch 021 - training loss: 0.4724, validation loss: 0.7620
+2024-06-03 03:23:50 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:23:50 [INFO]: Finished training. The best model is from epoch#11.
+2024-06-03 03:23:50 [INFO]: Saved the model to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_2/20240603_T032326/SCINet.pypots
+2024-06-03 03:23:51 [INFO]: Successfully saved to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_2/imputation.pkl
+2024-06-03 03:23:51 [INFO]: Round2 - SCINet on ItalyAir: MAE=0.4791, MSE=0.5873, MRE=0.6142
+2024-06-03 03:23:51 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 03:23:51 [INFO]: Using the given device: cuda:0
+2024-06-03 03:23:51 [INFO]: Model files will be saved to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_3/20240603_T032351
+2024-06-03 03:23:51 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_3/20240603_T032351/tensorboard
+2024-06-03 03:23:51 [INFO]: SCINet initialized with the given hyperparameters, the number of trainable parameters: 263,517
+2024-06-03 03:23:52 [INFO]: Epoch 001 - training loss: 1.3378, validation loss: 2.2605
+2024-06-03 03:23:53 [INFO]: Epoch 002 - training loss: 1.0990, validation loss: 2.1326
+2024-06-03 03:23:54 [INFO]: Epoch 003 - training loss: 0.9544, validation loss: 1.9022
+2024-06-03 03:23:56 [INFO]: Epoch 004 - training loss: 0.8480, validation loss: 1.7178
+2024-06-03 03:23:57 [INFO]: Epoch 005 - training loss: 0.7864, validation loss: 1.4340
+2024-06-03 03:23:58 [INFO]: Epoch 006 - training loss: 0.7040, validation loss: 1.2363
+2024-06-03 03:23:59 [INFO]: Epoch 007 - training loss: 0.6588, validation loss: 0.9920
+2024-06-03 03:24:00 [INFO]: Epoch 008 - training loss: 0.6137, validation loss: 0.8895
+2024-06-03 03:24:01 [INFO]: Epoch 009 - training loss: 0.5808, validation loss: 0.7758
+2024-06-03 03:24:02 [INFO]: Epoch 010 - training loss: 0.5524, validation loss: 0.7967
+2024-06-03 03:24:03 [INFO]: Epoch 011 - training loss: 0.5399, validation loss: 0.7885
+2024-06-03 03:24:04 [INFO]: Epoch 012 - training loss: 0.5187, validation loss: 0.7796
+2024-06-03 03:24:06 [INFO]: Epoch 013 - training loss: 0.5213, validation loss: 0.7624
+2024-06-03 03:24:07 [INFO]: Epoch 014 - training loss: 0.5110, validation loss: 0.7792
+2024-06-03 03:24:08 [INFO]: Epoch 015 - training loss: 0.4999, validation loss: 0.7730
+2024-06-03 03:24:09 [INFO]: Epoch 016 - training loss: 0.4869, validation loss: 0.8004
+2024-06-03 03:24:10 [INFO]: Epoch 017 - training loss: 0.4886, validation loss: 0.8234
+2024-06-03 03:24:11 [INFO]: Epoch 018 - training loss: 0.4848, validation loss: 0.7997
+2024-06-03 03:24:12 [INFO]: Epoch 019 - training loss: 0.4741, validation loss: 0.8375
+2024-06-03 03:24:14 [INFO]: Epoch 020 - training loss: 0.4716, validation loss: 0.8413
+2024-06-03 03:24:15 [INFO]: Epoch 021 - training loss: 0.4663, validation loss: 0.8509
+2024-06-03 03:24:16 [INFO]: Epoch 022 - training loss: 0.4663, validation loss: 0.8331
+2024-06-03 03:24:17 [INFO]: Epoch 023 - training loss: 0.4711, validation loss: 0.8199
+2024-06-03 03:24:17 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:24:17 [INFO]: Finished training. The best model is from epoch#13.
+2024-06-03 03:24:17 [INFO]: Saved the model to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_3/20240603_T032351/SCINet.pypots
+2024-06-03 03:24:18 [INFO]: Successfully saved to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_3/imputation.pkl
+2024-06-03 03:24:18 [INFO]: Round3 - SCINet on ItalyAir: MAE=0.4712, MSE=0.5867, MRE=0.6040
+2024-06-03 03:24:18 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 03:24:18 [INFO]: Using the given device: cuda:0
+2024-06-03 03:24:18 [INFO]: Model files will be saved to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_4/20240603_T032418
+2024-06-03 03:24:18 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_4/20240603_T032418/tensorboard
+2024-06-03 03:24:18 [INFO]: SCINet initialized with the given hyperparameters, the number of trainable parameters: 263,517
+2024-06-03 03:24:19 [INFO]: Epoch 001 - training loss: 1.3258, validation loss: 2.1486
+2024-06-03 03:24:20 [INFO]: Epoch 002 - training loss: 1.1175, validation loss: 1.8677
+2024-06-03 03:24:21 [INFO]: Epoch 003 - training loss: 0.9698, validation loss: 1.4992
+2024-06-03 03:24:22 [INFO]: Epoch 004 - training loss: 0.8275, validation loss: 1.1653
+2024-06-03 03:24:23 [INFO]: Epoch 005 - training loss: 0.7076, validation loss: 0.9545
+2024-06-03 03:24:24 [INFO]: Epoch 006 - training loss: 0.6331, validation loss: 0.8258
+2024-06-03 03:24:25 [INFO]: Epoch 007 - training loss: 0.6001, validation loss: 0.7484
+2024-06-03 03:24:26 [INFO]: Epoch 008 - training loss: 0.5694, validation loss: 0.7103
+2024-06-03 03:24:28 [INFO]: Epoch 009 - training loss: 0.5574, validation loss: 0.6318
+2024-06-03 03:24:29 [INFO]: Epoch 010 - training loss: 0.5343, validation loss: 0.6566
+2024-06-03 03:24:30 [INFO]: Epoch 011 - training loss: 0.5347, validation loss: 0.6494
+2024-06-03 03:24:31 [INFO]: Epoch 012 - training loss: 0.5193, validation loss: 0.6953
+2024-06-03 03:24:32 [INFO]: Epoch 013 - training loss: 0.5149, validation loss: 0.7089
+2024-06-03 03:24:33 [INFO]: Epoch 014 - training loss: 0.5019, validation loss: 0.7022
+2024-06-03 03:24:34 [INFO]: Epoch 015 - training loss: 0.5013, validation loss: 0.7136
+2024-06-03 03:24:35 [INFO]: Epoch 016 - training loss: 0.4968, validation loss: 0.7052
+2024-06-03 03:24:36 [INFO]: Epoch 017 - training loss: 0.4914, validation loss: 0.7040
+2024-06-03 03:24:37 [INFO]: Epoch 018 - training loss: 0.4777, validation loss: 0.7089
+2024-06-03 03:24:38 [INFO]: Epoch 019 - training loss: 0.4838, validation loss: 0.7209
+2024-06-03 03:24:38 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:24:38 [INFO]: Finished training. The best model is from epoch#9.
+2024-06-03 03:24:38 [INFO]: Saved the model to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_4/20240603_T032418/SCINet.pypots
+2024-06-03 03:24:39 [INFO]: Successfully saved to results_subseq_rate05/ItalyAir/SCINet_ItalyAir/round_4/imputation.pkl
+2024-06-03 03:24:39 [INFO]: Round4 - SCINet on ItalyAir: MAE=0.4843, MSE=0.5808, MRE=0.6209
+2024-06-03 03:24:39 [INFO]: Done! Final results:
+Averaged SCINet (263,517 params) on ItalyAir: MAE=0.4792 ± 0.010767246393211949, MSE=0.5863 ± 0.021751382685580824, MRE=0.6143 ± 0.013803816164012366, average inference time=0.10

@@ -1,0 +1,137 @@
+2024-06-03 18:58:34 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 18:58:34 [INFO]: Using the given device: cuda:0
+2024-06-03 18:58:34 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_0/20240603_T185834
+2024-06-03 18:58:34 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_0/20240603_T185834/tensorboard
+2024-06-03 18:58:35 [INFO]: FreTS initialized with the given hyperparameters, the number of trainable parameters: 3,447,121
+2024-06-03 18:58:50 [INFO]: Epoch 001 - training loss: 0.9185, validation loss: 0.1055
+2024-06-03 18:59:04 [INFO]: Epoch 002 - training loss: 0.7445, validation loss: 0.0900
+2024-06-03 18:59:17 [INFO]: Epoch 003 - training loss: 0.7227, validation loss: 0.0861
+2024-06-03 18:59:31 [INFO]: Epoch 004 - training loss: 0.7084, validation loss: 0.0986
+2024-06-03 18:59:45 [INFO]: Epoch 005 - training loss: 0.6954, validation loss: 0.0735
+2024-06-03 18:59:58 [INFO]: Epoch 006 - training loss: 0.6901, validation loss: 0.0797
+2024-06-03 19:00:12 [INFO]: Epoch 007 - training loss: 0.6772, validation loss: 0.0830
+2024-06-03 19:00:26 [INFO]: Epoch 008 - training loss: 0.6633, validation loss: 0.0783
+2024-06-03 19:00:40 [INFO]: Epoch 009 - training loss: 0.6504, validation loss: 0.0941
+2024-06-03 19:00:53 [INFO]: Epoch 010 - training loss: 0.6354, validation loss: 0.0929
+2024-06-03 19:01:08 [INFO]: Epoch 011 - training loss: 0.6263, validation loss: 0.0949
+2024-06-03 19:01:22 [INFO]: Epoch 012 - training loss: 0.6171, validation loss: 0.0906
+2024-06-03 19:01:36 [INFO]: Epoch 013 - training loss: 0.6069, validation loss: 0.0901
+2024-06-03 19:01:49 [INFO]: Epoch 014 - training loss: 0.5982, validation loss: 0.1043
+2024-06-03 19:02:03 [INFO]: Epoch 015 - training loss: 0.5910, validation loss: 0.0930
+2024-06-03 19:02:03 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:02:03 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 19:02:03 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_0/20240603_T185834/FreTS.pypots
+2024-06-03 19:02:08 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_0/imputation.pkl
+2024-06-03 19:02:08 [INFO]: Round0 - FreTS on PhysioNet2019: MAE=0.4104, MSE=0.3784, MRE=0.5387
+2024-06-03 19:02:08 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:02:08 [INFO]: Using the given device: cuda:0
+2024-06-03 19:02:09 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_1/20240603_T190208
+2024-06-03 19:02:09 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_1/20240603_T190208/tensorboard
+2024-06-03 19:02:09 [INFO]: FreTS initialized with the given hyperparameters, the number of trainable parameters: 3,447,121
+2024-06-03 19:02:24 [INFO]: Epoch 001 - training loss: 0.9140, validation loss: 0.1113
+2024-06-03 19:02:37 [INFO]: Epoch 002 - training loss: 0.7415, validation loss: 0.1075
+2024-06-03 19:02:51 [INFO]: Epoch 003 - training loss: 0.7185, validation loss: 0.0915
+2024-06-03 19:03:05 [INFO]: Epoch 004 - training loss: 0.7044, validation loss: 0.0970
+2024-06-03 19:03:18 [INFO]: Epoch 005 - training loss: 0.6991, validation loss: 0.0820
+2024-06-03 19:03:32 [INFO]: Epoch 006 - training loss: 0.6896, validation loss: 0.0801
+2024-06-03 19:03:45 [INFO]: Epoch 007 - training loss: 0.6863, validation loss: 0.0964
+2024-06-03 19:03:59 [INFO]: Epoch 008 - training loss: 0.6791, validation loss: 0.0940
+2024-06-03 19:04:13 [INFO]: Epoch 009 - training loss: 0.6667, validation loss: 0.1012
+2024-06-03 19:04:27 [INFO]: Epoch 010 - training loss: 0.6560, validation loss: 0.1010
+2024-06-03 19:04:41 [INFO]: Epoch 011 - training loss: 0.6449, validation loss: 0.0853
+2024-06-03 19:04:55 [INFO]: Epoch 012 - training loss: 0.6320, validation loss: 0.0870
+2024-06-03 19:05:08 [INFO]: Epoch 013 - training loss: 0.6223, validation loss: 0.0915
+2024-06-03 19:05:22 [INFO]: Epoch 014 - training loss: 0.6128, validation loss: 0.0948
+2024-06-03 19:05:36 [INFO]: Epoch 015 - training loss: 0.6030, validation loss: 0.1098
+2024-06-03 19:05:49 [INFO]: Epoch 016 - training loss: 0.6010, validation loss: 0.0933
+2024-06-03 19:05:49 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:05:49 [INFO]: Finished training. The best model is from epoch#6.
+2024-06-03 19:05:49 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_1/20240603_T190208/FreTS.pypots
+2024-06-03 19:05:55 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_1/imputation.pkl
+2024-06-03 19:05:55 [INFO]: Round1 - FreTS on PhysioNet2019: MAE=0.4117, MSE=0.3838, MRE=0.5404
+2024-06-03 19:05:55 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:05:55 [INFO]: Using the given device: cuda:0
+2024-06-03 19:05:55 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_2/20240603_T190555
+2024-06-03 19:05:55 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_2/20240603_T190555/tensorboard
+2024-06-03 19:05:55 [INFO]: FreTS initialized with the given hyperparameters, the number of trainable parameters: 3,447,121
+2024-06-03 19:06:08 [INFO]: Epoch 001 - training loss: 0.9523, validation loss: 0.1387
+2024-06-03 19:06:22 [INFO]: Epoch 002 - training loss: 0.7486, validation loss: 0.1001
+2024-06-03 19:06:36 [INFO]: Epoch 003 - training loss: 0.7230, validation loss: 0.0874
+2024-06-03 19:06:49 [INFO]: Epoch 004 - training loss: 0.7053, validation loss: 0.1042
+2024-06-03 19:07:03 [INFO]: Epoch 005 - training loss: 0.6985, validation loss: 0.0949
+2024-06-03 19:07:17 [INFO]: Epoch 006 - training loss: 0.6890, validation loss: 0.0968
+2024-06-03 19:07:30 [INFO]: Epoch 007 - training loss: 0.6763, validation loss: 0.0891
+2024-06-03 19:07:44 [INFO]: Epoch 008 - training loss: 0.6679, validation loss: 0.0892
+2024-06-03 19:07:58 [INFO]: Epoch 009 - training loss: 0.6490, validation loss: 0.0996
+2024-06-03 19:08:12 [INFO]: Epoch 010 - training loss: 0.6353, validation loss: 0.0958
+2024-06-03 19:08:26 [INFO]: Epoch 011 - training loss: 0.6223, validation loss: 0.1072
+2024-06-03 19:08:40 [INFO]: Epoch 012 - training loss: 0.6133, validation loss: 0.0879
+2024-06-03 19:08:54 [INFO]: Epoch 013 - training loss: 0.6051, validation loss: 0.1066
+2024-06-03 19:08:54 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:08:54 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 19:08:54 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_2/20240603_T190555/FreTS.pypots
+2024-06-03 19:09:00 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_2/imputation.pkl
+2024-06-03 19:09:00 [INFO]: Round2 - FreTS on PhysioNet2019: MAE=0.4220, MSE=0.3967, MRE=0.5538
+2024-06-03 19:09:00 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:09:00 [INFO]: Using the given device: cuda:0
+2024-06-03 19:09:00 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_3/20240603_T190900
+2024-06-03 19:09:00 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_3/20240603_T190900/tensorboard
+2024-06-03 19:09:00 [INFO]: FreTS initialized with the given hyperparameters, the number of trainable parameters: 3,447,121
+2024-06-03 19:09:14 [INFO]: Epoch 001 - training loss: 0.9665, validation loss: 0.1038
+2024-06-03 19:09:28 [INFO]: Epoch 002 - training loss: 0.7478, validation loss: 0.1145
+2024-06-03 19:09:42 [INFO]: Epoch 003 - training loss: 0.7220, validation loss: 0.1039
+2024-06-03 19:09:55 [INFO]: Epoch 004 - training loss: 0.7069, validation loss: 0.0925
+2024-06-03 19:10:09 [INFO]: Epoch 005 - training loss: 0.6890, validation loss: 0.0903
+2024-06-03 19:10:22 [INFO]: Epoch 006 - training loss: 0.6749, validation loss: 0.0936
+2024-06-03 19:10:36 [INFO]: Epoch 007 - training loss: 0.6592, validation loss: 0.0984
+2024-06-03 19:10:50 [INFO]: Epoch 008 - training loss: 0.6432, validation loss: 0.0982
+2024-06-03 19:11:04 [INFO]: Epoch 009 - training loss: 0.6339, validation loss: 0.1026
+2024-06-03 19:11:18 [INFO]: Epoch 010 - training loss: 0.6223, validation loss: 0.1053
+2024-06-03 19:11:31 [INFO]: Epoch 011 - training loss: 0.6130, validation loss: 0.1064
+2024-06-03 19:11:44 [INFO]: Epoch 012 - training loss: 0.6066, validation loss: 0.1005
+2024-06-03 19:11:59 [INFO]: Epoch 013 - training loss: 0.6000, validation loss: 0.1000
+2024-06-03 19:12:12 [INFO]: Epoch 014 - training loss: 0.5937, validation loss: 0.0941
+2024-06-03 19:12:26 [INFO]: Epoch 015 - training loss: 0.5874, validation loss: 0.1039
+2024-06-03 19:12:26 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:12:26 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 19:12:26 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_3/20240603_T190900/FreTS.pypots
+2024-06-03 19:12:31 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_3/imputation.pkl
+2024-06-03 19:12:31 [INFO]: Round3 - FreTS on PhysioNet2019: MAE=0.4102, MSE=0.3793, MRE=0.5384
+2024-06-03 19:12:31 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:12:31 [INFO]: Using the given device: cuda:0
+2024-06-03 19:12:31 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_4/20240603_T191231
+2024-06-03 19:12:31 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_4/20240603_T191231/tensorboard
+2024-06-03 19:12:32 [INFO]: FreTS initialized with the given hyperparameters, the number of trainable parameters: 3,447,121
+2024-06-03 19:12:46 [INFO]: Epoch 001 - training loss: 0.9458, validation loss: 0.1326
+2024-06-03 19:12:59 [INFO]: Epoch 002 - training loss: 0.7403, validation loss: 0.1084
+2024-06-03 19:13:13 [INFO]: Epoch 003 - training loss: 0.7210, validation loss: 0.0965
+2024-06-03 19:13:27 [INFO]: Epoch 004 - training loss: 0.6994, validation loss: 0.0995
+2024-06-03 19:13:41 [INFO]: Epoch 005 - training loss: 0.6841, validation loss: 0.1049
+2024-06-03 19:13:55 [INFO]: Epoch 006 - training loss: 0.6681, validation loss: 0.1042
+2024-06-03 19:14:08 [INFO]: Epoch 007 - training loss: 0.6500, validation loss: 0.0991
+2024-06-03 19:14:22 [INFO]: Epoch 008 - training loss: 0.6368, validation loss: 0.0939
+2024-06-03 19:14:35 [INFO]: Epoch 009 - training loss: 0.6288, validation loss: 0.0956
+2024-06-03 19:14:48 [INFO]: Epoch 010 - training loss: 0.6171, validation loss: 0.1141
+2024-06-03 19:15:01 [INFO]: Epoch 011 - training loss: 0.6084, validation loss: 0.1019
+2024-06-03 19:15:14 [INFO]: Epoch 012 - training loss: 0.5983, validation loss: 0.0983
+2024-06-03 19:15:27 [INFO]: Epoch 013 - training loss: 0.5942, validation loss: 0.1001
+2024-06-03 19:15:40 [INFO]: Epoch 014 - training loss: 0.5850, validation loss: 0.0985
+2024-06-03 19:15:53 [INFO]: Epoch 015 - training loss: 0.5769, validation loss: 0.0996
+2024-06-03 19:16:06 [INFO]: Epoch 016 - training loss: 0.5659, validation loss: 0.0882
+2024-06-03 19:16:18 [INFO]: Epoch 017 - training loss: 0.5585, validation loss: 0.0976
+2024-06-03 19:16:31 [INFO]: Epoch 018 - training loss: 0.5422, validation loss: 0.0957
+2024-06-03 19:16:44 [INFO]: Epoch 019 - training loss: 0.5339, validation loss: 0.1072
+2024-06-03 19:16:57 [INFO]: Epoch 020 - training loss: 0.5272, validation loss: 0.0938
+2024-06-03 19:17:11 [INFO]: Epoch 021 - training loss: 0.5214, validation loss: 0.1033
+2024-06-03 19:17:25 [INFO]: Epoch 022 - training loss: 0.5156, validation loss: 0.1021
+2024-06-03 19:17:39 [INFO]: Epoch 023 - training loss: 0.5099, validation loss: 0.1228
+2024-06-03 19:17:53 [INFO]: Epoch 024 - training loss: 0.5068, validation loss: 0.1003
+2024-06-03 19:18:06 [INFO]: Epoch 025 - training loss: 0.5028, validation loss: 0.1057
+2024-06-03 19:18:19 [INFO]: Epoch 026 - training loss: 0.4988, validation loss: 0.1113
+2024-06-03 19:18:19 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:18:19 [INFO]: Finished training. The best model is from epoch#16.
+2024-06-03 19:18:19 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_4/20240603_T191231/FreTS.pypots
+2024-06-03 19:18:25 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/FreTS_PhysioNet2019/round_4/imputation.pkl
+2024-06-03 19:18:25 [INFO]: Round4 - FreTS on PhysioNet2019: MAE=0.3735, MSE=0.3427, MRE=0.4902
+2024-06-03 19:18:25 [INFO]: Done! Final results:
+Averaged FreTS (3,447,121 params) on PhysioNet2019: MAE=0.4056 ± 0.016603258194741555, MSE=0.3761 ± 0.017978791302703082, MRE=0.5323 ± 0.021791858963363126, average inference time=0.85

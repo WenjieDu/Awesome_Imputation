@@ -1,0 +1,136 @@
+2024-06-03 02:48:14 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 02:48:14 [INFO]: Using the given device: cuda:0
+2024-06-03 02:48:16 [INFO]: Model files will be saved to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_0/20240603_T024816
+2024-06-03 02:48:16 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_0/20240603_T024816/tensorboard
+2024-06-03 02:48:17 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 5,458
+2024-06-03 02:48:19 [INFO]: Epoch 001 - training loss: 1.1608, validation loss: 1.9144
+2024-06-03 02:48:20 [INFO]: Epoch 002 - training loss: 1.0157, validation loss: 1.4664
+2024-06-03 02:48:21 [INFO]: Epoch 003 - training loss: 0.8121, validation loss: 1.2379
+2024-06-03 02:48:21 [INFO]: Epoch 004 - training loss: 0.6698, validation loss: 1.0594
+2024-06-03 02:48:22 [INFO]: Epoch 005 - training loss: 0.6030, validation loss: 0.8964
+2024-06-03 02:48:23 [INFO]: Epoch 006 - training loss: 0.5772, validation loss: 0.8232
+2024-06-03 02:48:24 [INFO]: Epoch 007 - training loss: 0.5253, validation loss: 0.7651
+2024-06-03 02:48:25 [INFO]: Epoch 008 - training loss: 0.4902, validation loss: 0.8065
+2024-06-03 02:48:27 [INFO]: Epoch 009 - training loss: 0.4581, validation loss: 0.8117
+2024-06-03 02:48:28 [INFO]: Epoch 010 - training loss: 0.4616, validation loss: 0.8625
+2024-06-03 02:48:29 [INFO]: Epoch 011 - training loss: 0.4549, validation loss: 0.8747
+2024-06-03 02:48:30 [INFO]: Epoch 012 - training loss: 0.4467, validation loss: 0.9039
+2024-06-03 02:48:31 [INFO]: Epoch 013 - training loss: 0.4398, validation loss: 0.9781
+2024-06-03 02:48:32 [INFO]: Epoch 014 - training loss: 0.4396, validation loss: 0.9549
+2024-06-03 02:48:33 [INFO]: Epoch 015 - training loss: 0.4339, validation loss: 0.9763
+2024-06-03 02:48:34 [INFO]: Epoch 016 - training loss: 0.4279, validation loss: 0.9578
+2024-06-03 02:48:35 [INFO]: Epoch 017 - training loss: 0.4244, validation loss: 0.9914
+2024-06-03 02:48:35 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:48:35 [INFO]: Finished training. The best model is from epoch#7.
+2024-06-03 02:48:35 [INFO]: Saved the model to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_0/20240603_T024816/DLinear.pypots
+2024-06-03 02:48:35 [INFO]: Successfully saved to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_0/imputation.pkl
+2024-06-03 02:48:35 [INFO]: Round0 - DLinear on ItalyAir: MAE=0.5122, MSE=0.7224, MRE=0.6566
+2024-06-03 02:48:35 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 02:48:35 [INFO]: Using the given device: cuda:0
+2024-06-03 02:48:36 [INFO]: Model files will be saved to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_1/20240603_T024835
+2024-06-03 02:48:36 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_1/20240603_T024835/tensorboard
+2024-06-03 02:48:36 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 5,458
+2024-06-03 02:48:37 [INFO]: Epoch 001 - training loss: 1.1412, validation loss: 1.8588
+2024-06-03 02:48:38 [INFO]: Epoch 002 - training loss: 0.9426, validation loss: 1.2952
+2024-06-03 02:48:39 [INFO]: Epoch 003 - training loss: 0.7598, validation loss: 1.0850
+2024-06-03 02:48:40 [INFO]: Epoch 004 - training loss: 0.6479, validation loss: 0.9576
+2024-06-03 02:48:41 [INFO]: Epoch 005 - training loss: 0.5838, validation loss: 0.8352
+2024-06-03 02:48:42 [INFO]: Epoch 006 - training loss: 0.5472, validation loss: 0.8232
+2024-06-03 02:48:43 [INFO]: Epoch 007 - training loss: 0.5017, validation loss: 0.8389
+2024-06-03 02:48:45 [INFO]: Epoch 008 - training loss: 0.4875, validation loss: 0.8492
+2024-06-03 02:48:46 [INFO]: Epoch 009 - training loss: 0.4675, validation loss: 0.8812
+2024-06-03 02:48:47 [INFO]: Epoch 010 - training loss: 0.4516, validation loss: 0.8463
+2024-06-03 02:48:48 [INFO]: Epoch 011 - training loss: 0.4533, validation loss: 0.8396
+2024-06-03 02:48:49 [INFO]: Epoch 012 - training loss: 0.4514, validation loss: 0.9251
+2024-06-03 02:48:50 [INFO]: Epoch 013 - training loss: 0.4330, validation loss: 0.9853
+2024-06-03 02:48:51 [INFO]: Epoch 014 - training loss: 0.4295, validation loss: 0.9835
+2024-06-03 02:48:52 [INFO]: Epoch 015 - training loss: 0.4277, validation loss: 0.9719
+2024-06-03 02:48:53 [INFO]: Epoch 016 - training loss: 0.4228, validation loss: 0.9996
+2024-06-03 02:48:53 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:48:53 [INFO]: Finished training. The best model is from epoch#6.
+2024-06-03 02:48:53 [INFO]: Saved the model to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_1/20240603_T024835/DLinear.pypots
+2024-06-03 02:48:54 [INFO]: Successfully saved to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_1/imputation.pkl
+2024-06-03 02:48:54 [INFO]: Round1 - DLinear on ItalyAir: MAE=0.5211, MSE=0.7394, MRE=0.6680
+2024-06-03 02:48:54 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 02:48:54 [INFO]: Using the given device: cuda:0
+2024-06-03 02:48:54 [INFO]: Model files will be saved to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_2/20240603_T024854
+2024-06-03 02:48:54 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_2/20240603_T024854/tensorboard
+2024-06-03 02:48:54 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 5,458
+2024-06-03 02:48:55 [INFO]: Epoch 001 - training loss: 1.1363, validation loss: 1.8136
+2024-06-03 02:48:56 [INFO]: Epoch 002 - training loss: 0.9288, validation loss: 1.3276
+2024-06-03 02:48:57 [INFO]: Epoch 003 - training loss: 0.7381, validation loss: 1.2028
+2024-06-03 02:48:59 [INFO]: Epoch 004 - training loss: 0.6480, validation loss: 1.0474
+2024-06-03 02:49:00 [INFO]: Epoch 005 - training loss: 0.5861, validation loss: 0.8944
+2024-06-03 02:49:01 [INFO]: Epoch 006 - training loss: 0.5522, validation loss: 0.7925
+2024-06-03 02:49:02 [INFO]: Epoch 007 - training loss: 0.5231, validation loss: 0.7648
+2024-06-03 02:49:03 [INFO]: Epoch 008 - training loss: 0.5007, validation loss: 0.7907
+2024-06-03 02:49:04 [INFO]: Epoch 009 - training loss: 0.4768, validation loss: 0.8587
+2024-06-03 02:49:05 [INFO]: Epoch 010 - training loss: 0.4573, validation loss: 0.8632
+2024-06-03 02:49:06 [INFO]: Epoch 011 - training loss: 0.4470, validation loss: 0.8363
+2024-06-03 02:49:07 [INFO]: Epoch 012 - training loss: 0.4470, validation loss: 0.8536
+2024-06-03 02:49:08 [INFO]: Epoch 013 - training loss: 0.4331, validation loss: 0.9513
+2024-06-03 02:49:10 [INFO]: Epoch 014 - training loss: 0.4481, validation loss: 0.8821
+2024-06-03 02:49:11 [INFO]: Epoch 015 - training loss: 0.4431, validation loss: 0.9832
+2024-06-03 02:49:12 [INFO]: Epoch 016 - training loss: 0.4334, validation loss: 0.9624
+2024-06-03 02:49:13 [INFO]: Epoch 017 - training loss: 0.4132, validation loss: 0.9785
+2024-06-03 02:49:13 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:49:13 [INFO]: Finished training. The best model is from epoch#7.
+2024-06-03 02:49:13 [INFO]: Saved the model to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_2/20240603_T024854/DLinear.pypots
+2024-06-03 02:49:13 [INFO]: Successfully saved to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_2/imputation.pkl
+2024-06-03 02:49:13 [INFO]: Round2 - DLinear on ItalyAir: MAE=0.5056, MSE=0.7067, MRE=0.6482
+2024-06-03 02:49:13 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 02:49:13 [INFO]: Using the given device: cuda:0
+2024-06-03 02:49:13 [INFO]: Model files will be saved to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_3/20240603_T024913
+2024-06-03 02:49:13 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_3/20240603_T024913/tensorboard
+2024-06-03 02:49:13 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 5,458
+2024-06-03 02:49:15 [INFO]: Epoch 001 - training loss: 1.2075, validation loss: 1.8772
+2024-06-03 02:49:15 [INFO]: Epoch 002 - training loss: 1.0089, validation loss: 1.4364
+2024-06-03 02:49:16 [INFO]: Epoch 003 - training loss: 0.7848, validation loss: 1.1134
+2024-06-03 02:49:17 [INFO]: Epoch 004 - training loss: 0.6679, validation loss: 0.9661
+2024-06-03 02:49:19 [INFO]: Epoch 005 - training loss: 0.6044, validation loss: 0.8866
+2024-06-03 02:49:20 [INFO]: Epoch 006 - training loss: 0.5465, validation loss: 0.8134
+2024-06-03 02:49:21 [INFO]: Epoch 007 - training loss: 0.5213, validation loss: 0.7903
+2024-06-03 02:49:22 [INFO]: Epoch 008 - training loss: 0.4820, validation loss: 0.8103
+2024-06-03 02:49:23 [INFO]: Epoch 009 - training loss: 0.4710, validation loss: 0.8554
+2024-06-03 02:49:24 [INFO]: Epoch 010 - training loss: 0.4462, validation loss: 0.8430
+2024-06-03 02:49:25 [INFO]: Epoch 011 - training loss: 0.4435, validation loss: 0.9115
+2024-06-03 02:49:26 [INFO]: Epoch 012 - training loss: 0.4356, validation loss: 0.9075
+2024-06-03 02:49:27 [INFO]: Epoch 013 - training loss: 0.4393, validation loss: 0.8655
+2024-06-03 02:49:28 [INFO]: Epoch 014 - training loss: 0.4294, validation loss: 0.9223
+2024-06-03 02:49:30 [INFO]: Epoch 015 - training loss: 0.4329, validation loss: 0.9828
+2024-06-03 02:49:31 [INFO]: Epoch 016 - training loss: 0.4372, validation loss: 0.9550
+2024-06-03 02:49:32 [INFO]: Epoch 017 - training loss: 0.4269, validation loss: 0.9929
+2024-06-03 02:49:32 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:49:32 [INFO]: Finished training. The best model is from epoch#7.
+2024-06-03 02:49:32 [INFO]: Saved the model to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_3/20240603_T024913/DLinear.pypots
+2024-06-03 02:49:32 [INFO]: Successfully saved to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_3/imputation.pkl
+2024-06-03 02:49:32 [INFO]: Round3 - DLinear on ItalyAir: MAE=0.4991, MSE=0.7095, MRE=0.6398
+2024-06-03 02:49:32 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 02:49:32 [INFO]: Using the given device: cuda:0
+2024-06-03 02:49:32 [INFO]: Model files will be saved to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_4/20240603_T024932
+2024-06-03 02:49:32 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_4/20240603_T024932/tensorboard
+2024-06-03 02:49:32 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 5,458
+2024-06-03 02:49:33 [INFO]: Epoch 001 - training loss: 1.2075, validation loss: 2.0929
+2024-06-03 02:49:34 [INFO]: Epoch 002 - training loss: 1.0391, validation loss: 1.6984
+2024-06-03 02:49:35 [INFO]: Epoch 003 - training loss: 0.8427, validation loss: 1.2608
+2024-06-03 02:49:36 [INFO]: Epoch 004 - training loss: 0.6948, validation loss: 1.0723
+2024-06-03 02:49:37 [INFO]: Epoch 005 - training loss: 0.6256, validation loss: 0.9361
+2024-06-03 02:49:38 [INFO]: Epoch 006 - training loss: 0.5514, validation loss: 0.8372
+2024-06-03 02:49:39 [INFO]: Epoch 007 - training loss: 0.5047, validation loss: 0.7549
+2024-06-03 02:49:41 [INFO]: Epoch 008 - training loss: 0.4840, validation loss: 0.8285
+2024-06-03 02:49:42 [INFO]: Epoch 009 - training loss: 0.4672, validation loss: 0.8386
+2024-06-03 02:49:43 [INFO]: Epoch 010 - training loss: 0.4431, validation loss: 0.8913
+2024-06-03 02:49:44 [INFO]: Epoch 011 - training loss: 0.4530, validation loss: 0.9134
+2024-06-03 02:49:45 [INFO]: Epoch 012 - training loss: 0.4462, validation loss: 0.9599
+2024-06-03 02:49:46 [INFO]: Epoch 013 - training loss: 0.4340, validation loss: 0.9981
+2024-06-03 02:49:47 [INFO]: Epoch 014 - training loss: 0.4283, validation loss: 0.9873
+2024-06-03 02:49:48 [INFO]: Epoch 015 - training loss: 0.4236, validation loss: 1.0230
+2024-06-03 02:49:50 [INFO]: Epoch 016 - training loss: 0.4232, validation loss: 0.9731
+2024-06-03 02:49:51 [INFO]: Epoch 017 - training loss: 0.4350, validation loss: 1.0222
+2024-06-03 02:49:51 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:49:51 [INFO]: Finished training. The best model is from epoch#7.
+2024-06-03 02:49:51 [INFO]: Saved the model to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_4/20240603_T024932/DLinear.pypots
+2024-06-03 02:49:51 [INFO]: Successfully saved to results_subseq_rate05/ItalyAir/DLinear_ItalyAir/round_4/imputation.pkl
+2024-06-03 02:49:51 [INFO]: Round4 - DLinear on ItalyAir: MAE=0.5060, MSE=0.7164, MRE=0.6487
+2024-06-03 02:49:51 [INFO]: Done! Final results:
+Averaged DLinear (5,458 params) on ItalyAir: MAE=0.5088 ± 0.007405077138315432, MSE=0.7188 ± 0.01162580480236276, MRE=0.6523 ± 0.009493450763983544, average inference time=0.08

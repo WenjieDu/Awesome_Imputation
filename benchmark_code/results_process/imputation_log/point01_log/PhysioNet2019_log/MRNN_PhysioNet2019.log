@@ -1,0 +1,216 @@
+2024-06-03 19:01:49 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 19:01:49 [INFO]: Using the given device: cuda:0
+2024-06-03 19:01:50 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_0/20240603_T190149
+2024-06-03 19:01:50 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_0/20240603_T190149/tensorboard
+2024-06-03 19:01:52 [INFO]: MRNN initialized with the given hyperparameters, the number of trainable parameters: 1,593,671
+2024-06-03 19:03:27 [INFO]: Epoch 001 - training loss: 0.9619, validation loss: 0.0575
+2024-06-03 19:04:23 [INFO]: Epoch 002 - training loss: 0.5399, validation loss: 0.0584
+2024-06-03 19:05:19 [INFO]: Epoch 003 - training loss: 0.5573, validation loss: 0.0404
+2024-06-03 19:06:13 [INFO]: Epoch 004 - training loss: 0.5196, validation loss: 0.1263
+2024-06-03 19:07:08 [INFO]: Epoch 005 - training loss: 0.5077, validation loss: 0.0981
+2024-06-03 19:08:05 [INFO]: Epoch 006 - training loss: 0.5018, validation loss: 0.1169
+2024-06-03 19:09:00 [INFO]: Epoch 007 - training loss: 0.5118, validation loss: 0.0487
+2024-06-03 19:09:55 [INFO]: Epoch 008 - training loss: 0.4886, validation loss: 0.0459
+2024-06-03 19:10:49 [INFO]: Epoch 009 - training loss: 0.4944, validation loss: 0.0658
+2024-06-03 19:11:45 [INFO]: Epoch 010 - training loss: 0.4918, validation loss: 0.1197
+2024-06-03 19:12:41 [INFO]: Epoch 011 - training loss: 0.5379, validation loss: 0.1685
+2024-06-03 19:13:38 [INFO]: Epoch 012 - training loss: 0.6038, validation loss: 0.0505
+2024-06-03 19:14:33 [INFO]: Epoch 013 - training loss: 0.5210, validation loss: 0.0641
+2024-06-03 19:14:33 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:14:33 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 19:14:33 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_0/20240603_T190149/MRNN.pypots
+2024-06-03 19:15:49 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_0/imputation.pkl
+2024-06-03 19:15:49 [INFO]: Round0 - MRNN on PhysioNet2019: MAE=0.7743, MSE=1.0014, MRE=1.0163
+2024-06-03 19:15:49 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:15:49 [INFO]: Using the given device: cuda:0
+2024-06-03 19:15:49 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_1/20240603_T191549
+2024-06-03 19:15:49 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_1/20240603_T191549/tensorboard
+2024-06-03 19:15:49 [INFO]: MRNN initialized with the given hyperparameters, the number of trainable parameters: 1,593,671
+2024-06-03 19:17:17 [INFO]: Epoch 001 - training loss: 0.9713, validation loss: 0.0766
+2024-06-03 19:18:10 [INFO]: Epoch 002 - training loss: 0.5212, validation loss: 0.0959
+2024-06-03 19:19:05 [INFO]: Epoch 003 - training loss: 0.5114, validation loss: 0.0818
+2024-06-03 19:20:01 [INFO]: Epoch 004 - training loss: 0.5417, validation loss: 0.1570
+2024-06-03 19:20:54 [INFO]: Epoch 005 - training loss: 0.4722, validation loss: 0.0338
+2024-06-03 19:21:44 [INFO]: Epoch 006 - training loss: 0.5139, validation loss: 0.1701
+2024-06-03 19:22:29 [INFO]: Epoch 007 - training loss: 0.4945, validation loss: 0.0433
+2024-06-03 19:23:09 [INFO]: Epoch 008 - training loss: 0.4669, validation loss: 0.1246
+2024-06-03 19:23:44 [INFO]: Epoch 009 - training loss: 0.4593, validation loss: 0.0786
+2024-06-03 19:24:18 [INFO]: Epoch 010 - training loss: 0.4203, validation loss: 0.0526
+2024-06-03 19:24:52 [INFO]: Epoch 011 - training loss: 0.4279, validation loss: 0.0472
+2024-06-03 19:25:24 [INFO]: Epoch 012 - training loss: 0.4249, validation loss: 0.0313
+2024-06-03 19:25:46 [INFO]: Epoch 013 - training loss: 0.4501, validation loss: 0.0323
+2024-06-03 19:26:08 [INFO]: Epoch 014 - training loss: 0.4310, validation loss: 0.1395
+2024-06-03 19:26:29 [INFO]: Epoch 015 - training loss: 0.4577, validation loss: 0.0290
+2024-06-03 19:26:51 [INFO]: Epoch 016 - training loss: 0.4416, validation loss: 0.0424
+2024-06-03 19:27:12 [INFO]: Epoch 017 - training loss: 0.4858, validation loss: 0.0884
+2024-06-03 19:27:35 [INFO]: Epoch 018 - training loss: 0.4588, validation loss: 0.0451
+2024-06-03 19:27:57 [INFO]: Epoch 019 - training loss: 0.4286, validation loss: 0.0324
+2024-06-03 19:28:19 [INFO]: Epoch 020 - training loss: 0.4864, validation loss: 0.0352
+2024-06-03 19:28:40 [INFO]: Epoch 021 - training loss: 0.4855, validation loss: 0.0862
+2024-06-03 19:29:01 [INFO]: Epoch 022 - training loss: 0.4811, validation loss: 0.0349
+2024-06-03 19:29:23 [INFO]: Epoch 023 - training loss: 0.4747, validation loss: 0.0744
+2024-06-03 19:29:39 [INFO]: Epoch 024 - training loss: 0.4720, validation loss: 0.0354
+2024-06-03 19:29:54 [INFO]: Epoch 025 - training loss: 0.4577, validation loss: 0.0646
+2024-06-03 19:29:54 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:29:54 [INFO]: Finished training. The best model is from epoch#15.
+2024-06-03 19:29:54 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_1/20240603_T191549/MRNN.pypots
+2024-06-03 19:30:13 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_1/imputation.pkl
+2024-06-03 19:30:13 [INFO]: Round1 - MRNN on PhysioNet2019: MAE=0.7731, MSE=0.9994, MRE=1.0146
+2024-06-03 19:30:13 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:30:13 [INFO]: Using the given device: cuda:0
+2024-06-03 19:30:13 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_2/20240603_T193013
+2024-06-03 19:30:13 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_2/20240603_T193013/tensorboard
+2024-06-03 19:30:13 [INFO]: MRNN initialized with the given hyperparameters, the number of trainable parameters: 1,593,671
+2024-06-03 19:30:35 [INFO]: Epoch 001 - training loss: 1.1052, validation loss: 0.1178
+2024-06-03 19:30:51 [INFO]: Epoch 002 - training loss: 0.6687, validation loss: 0.0728
+2024-06-03 19:31:07 [INFO]: Epoch 003 - training loss: 0.6064, validation loss: 0.0672
+2024-06-03 19:31:22 [INFO]: Epoch 004 - training loss: 0.5793, validation loss: 0.2135
+2024-06-03 19:31:38 [INFO]: Epoch 005 - training loss: 0.5775, validation loss: 0.0375
+2024-06-03 19:31:54 [INFO]: Epoch 006 - training loss: 0.5189, validation loss: 0.0557
+2024-06-03 19:32:09 [INFO]: Epoch 007 - training loss: 1.0714, validation loss: 0.1416
+2024-06-03 19:32:25 [INFO]: Epoch 008 - training loss: 0.5968, validation loss: 0.2356
+2024-06-03 19:32:38 [INFO]: Epoch 009 - training loss: 0.5970, validation loss: 0.3791
+2024-06-03 19:32:51 [INFO]: Epoch 010 - training loss: 0.5922, validation loss: 0.0454
+2024-06-03 19:33:04 [INFO]: Epoch 011 - training loss: 0.6030, validation loss: 0.0476
+2024-06-03 19:33:17 [INFO]: Epoch 012 - training loss: 0.5629, validation loss: 0.3918
+2024-06-03 19:33:30 [INFO]: Epoch 013 - training loss: 0.5804, validation loss: 0.1429
+2024-06-03 19:33:44 [INFO]: Epoch 014 - training loss: 0.5379, validation loss: 0.2085
+2024-06-03 19:33:57 [INFO]: Epoch 015 - training loss: 0.5571, validation loss: 0.1918
+2024-06-03 19:33:57 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:33:57 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 19:33:57 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_2/20240603_T193013/MRNN.pypots
+2024-06-03 19:34:10 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_2/imputation.pkl
+2024-06-03 19:34:10 [INFO]: Round2 - MRNN on PhysioNet2019: MAE=0.8066, MSE=1.0583, MRE=1.0587
+2024-06-03 19:34:10 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:34:10 [INFO]: Using the given device: cuda:0
+2024-06-03 19:34:10 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_3/20240603_T193410
+2024-06-03 19:34:10 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_3/20240603_T193410/tensorboard
+2024-06-03 19:34:10 [INFO]: MRNN initialized with the given hyperparameters, the number of trainable parameters: 1,593,671
+2024-06-03 19:34:27 [INFO]: Epoch 001 - training loss: 0.8185, validation loss: 0.0616
+2024-06-03 19:34:40 [INFO]: Epoch 002 - training loss: 0.4739, validation loss: 0.0610
+2024-06-03 19:34:53 [INFO]: Epoch 003 - training loss: 0.4333, validation loss: 0.0645
+2024-06-03 19:35:06 [INFO]: Epoch 004 - training loss: 0.4185, validation loss: 0.0510
+2024-06-03 19:35:19 [INFO]: Epoch 005 - training loss: 0.4070, validation loss: 0.0484
+2024-06-03 19:35:32 [INFO]: Epoch 006 - training loss: 0.3981, validation loss: 0.0430
+2024-06-03 19:35:45 [INFO]: Epoch 007 - training loss: 0.4027, validation loss: 0.0407
+2024-06-03 19:35:58 [INFO]: Epoch 008 - training loss: 0.3927, validation loss: 0.0392
+2024-06-03 19:36:11 [INFO]: Epoch 009 - training loss: 0.3922, validation loss: 0.0372
+2024-06-03 19:36:24 [INFO]: Epoch 010 - training loss: 0.3883, validation loss: 0.0353
+2024-06-03 19:36:37 [INFO]: Epoch 011 - training loss: 0.3877, validation loss: 0.0351
+2024-06-03 19:36:50 [INFO]: Epoch 012 - training loss: 0.3837, validation loss: 0.0347
+2024-06-03 19:37:03 [INFO]: Epoch 013 - training loss: 0.3804, validation loss: 0.0332
+2024-06-03 19:37:16 [INFO]: Epoch 014 - training loss: 0.3828, validation loss: 0.0317
+2024-06-03 19:37:30 [INFO]: Epoch 015 - training loss: 0.3807, validation loss: 0.0324
+2024-06-03 19:37:43 [INFO]: Epoch 016 - training loss: 0.3816, validation loss: 0.0318
+2024-06-03 19:37:56 [INFO]: Epoch 017 - training loss: 0.3777, validation loss: 0.0314
+2024-06-03 19:38:09 [INFO]: Epoch 018 - training loss: 0.3794, validation loss: 0.0313
+2024-06-03 19:38:22 [INFO]: Epoch 019 - training loss: 0.3820, validation loss: 0.0313
+2024-06-03 19:38:35 [INFO]: Epoch 020 - training loss: 0.3752, validation loss: 0.0309
+2024-06-03 19:38:48 [INFO]: Epoch 021 - training loss: 0.3776, validation loss: 0.0302
+2024-06-03 19:39:01 [INFO]: Epoch 022 - training loss: 0.3755, validation loss: 0.0301
+2024-06-03 19:39:14 [INFO]: Epoch 023 - training loss: 0.3766, validation loss: 0.0300
+2024-06-03 19:39:27 [INFO]: Epoch 024 - training loss: 0.3741, validation loss: 0.0298
+2024-06-03 19:39:40 [INFO]: Epoch 025 - training loss: 0.3743, validation loss: 0.0300
+2024-06-03 19:39:53 [INFO]: Epoch 026 - training loss: 0.3741, validation loss: 0.0293
+2024-06-03 19:40:06 [INFO]: Epoch 027 - training loss: 0.3782, validation loss: 0.0293
+2024-06-03 19:40:19 [INFO]: Epoch 028 - training loss: 0.3724, validation loss: 0.0288
+2024-06-03 19:40:32 [INFO]: Epoch 029 - training loss: 0.3763, validation loss: 0.0291
+2024-06-03 19:40:45 [INFO]: Epoch 030 - training loss: 0.3757, validation loss: 0.0286
+2024-06-03 19:40:58 [INFO]: Epoch 031 - training loss: 0.3725, validation loss: 0.0286
+2024-06-03 19:41:11 [INFO]: Epoch 032 - training loss: 0.3745, validation loss: 0.0287
+2024-06-03 19:41:25 [INFO]: Epoch 033 - training loss: 0.3720, validation loss: 0.0284
+2024-06-03 19:41:38 [INFO]: Epoch 034 - training loss: 0.3752, validation loss: 0.0285
+2024-06-03 19:41:51 [INFO]: Epoch 035 - training loss: 0.3702, validation loss: 0.0283
+2024-06-03 19:42:04 [INFO]: Epoch 036 - training loss: 0.3729, validation loss: 0.0282
+2024-06-03 19:42:17 [INFO]: Epoch 037 - training loss: 0.3728, validation loss: 0.0282
+2024-06-03 19:42:30 [INFO]: Epoch 038 - training loss: 0.3738, validation loss: 0.0286
+2024-06-03 19:42:43 [INFO]: Epoch 039 - training loss: 0.3707, validation loss: 0.0282
+2024-06-03 19:42:56 [INFO]: Epoch 040 - training loss: 0.3697, validation loss: 0.0281
+2024-06-03 19:43:09 [INFO]: Epoch 041 - training loss: 0.3702, validation loss: 0.0281
+2024-06-03 19:43:22 [INFO]: Epoch 042 - training loss: 0.3728, validation loss: 0.0279
+2024-06-03 19:43:35 [INFO]: Epoch 043 - training loss: 0.3719, validation loss: 0.0279
+2024-06-03 19:43:48 [INFO]: Epoch 044 - training loss: 0.3722, validation loss: 0.0291
+2024-06-03 19:44:01 [INFO]: Epoch 045 - training loss: 0.3718, validation loss: 0.0280
+2024-06-03 19:44:14 [INFO]: Epoch 046 - training loss: 0.3746, validation loss: 0.0278
+2024-06-03 19:44:27 [INFO]: Epoch 047 - training loss: 0.3709, validation loss: 0.0280
+2024-06-03 19:44:40 [INFO]: Epoch 048 - training loss: 0.3700, validation loss: 0.0278
+2024-06-03 19:44:53 [INFO]: Epoch 049 - training loss: 0.3703, validation loss: 0.0280
+2024-06-03 19:45:07 [INFO]: Epoch 050 - training loss: 0.3697, validation loss: 0.0279
+2024-06-03 19:45:20 [INFO]: Epoch 051 - training loss: 0.3721, validation loss: 0.0278
+2024-06-03 19:45:33 [INFO]: Epoch 052 - training loss: 0.3693, validation loss: 0.0281
+2024-06-03 19:45:46 [INFO]: Epoch 053 - training loss: 0.3720, validation loss: 0.0278
+2024-06-03 19:45:59 [INFO]: Epoch 054 - training loss: 0.3693, validation loss: 0.0279
+2024-06-03 19:46:12 [INFO]: Epoch 055 - training loss: 0.3706, validation loss: 0.0281
+2024-06-03 19:46:25 [INFO]: Epoch 056 - training loss: 0.3716, validation loss: 0.0278
+2024-06-03 19:46:38 [INFO]: Epoch 057 - training loss: 0.3710, validation loss: 0.0279
+2024-06-03 19:46:51 [INFO]: Epoch 058 - training loss: 0.3688, validation loss: 0.0277
+2024-06-03 19:47:04 [INFO]: Epoch 059 - training loss: 0.3687, validation loss: 0.0279
+2024-06-03 19:47:17 [INFO]: Epoch 060 - training loss: 0.3673, validation loss: 0.0277
+2024-06-03 19:47:30 [INFO]: Epoch 061 - training loss: 0.3685, validation loss: 0.0277
+2024-06-03 19:47:43 [INFO]: Epoch 062 - training loss: 0.3662, validation loss: 0.0277
+2024-06-03 19:47:56 [INFO]: Epoch 063 - training loss: 0.3674, validation loss: 0.0277
+2024-06-03 19:48:09 [INFO]: Epoch 064 - training loss: 0.3696, validation loss: 0.0277
+2024-06-03 19:48:22 [INFO]: Epoch 065 - training loss: 0.3696, validation loss: 0.0277
+2024-06-03 19:48:36 [INFO]: Epoch 066 - training loss: 0.3701, validation loss: 0.0278
+2024-06-03 19:48:49 [INFO]: Epoch 067 - training loss: 0.3675, validation loss: 0.0277
+2024-06-03 19:49:02 [INFO]: Epoch 068 - training loss: 0.3688, validation loss: 0.0277
+2024-06-03 19:49:15 [INFO]: Epoch 069 - training loss: 0.3665, validation loss: 0.0277
+2024-06-03 19:49:28 [INFO]: Epoch 070 - training loss: 0.3665, validation loss: 0.0276
+2024-06-03 19:49:41 [INFO]: Epoch 071 - training loss: 0.3681, validation loss: 0.0278
+2024-06-03 19:49:54 [INFO]: Epoch 072 - training loss: 0.3680, validation loss: 0.0277
+2024-06-03 19:50:07 [INFO]: Epoch 073 - training loss: 0.3685, validation loss: 0.0278
+2024-06-03 19:50:20 [INFO]: Epoch 074 - training loss: 0.3702, validation loss: 0.0277
+2024-06-03 19:50:33 [INFO]: Epoch 075 - training loss: 0.3682, validation loss: 0.0277
+2024-06-03 19:50:46 [INFO]: Epoch 076 - training loss: 0.3665, validation loss: 0.0277
+2024-06-03 19:50:59 [INFO]: Epoch 077 - training loss: 0.3680, validation loss: 0.0277
+2024-06-03 19:51:12 [INFO]: Epoch 078 - training loss: 0.3676, validation loss: 0.0276
+2024-06-03 19:51:25 [INFO]: Epoch 079 - training loss: 0.3672, validation loss: 0.0276
+2024-06-03 19:51:38 [INFO]: Epoch 080 - training loss: 0.3793, validation loss: 0.0275
+2024-06-03 19:51:52 [INFO]: Epoch 081 - training loss: 0.3687, validation loss: 0.0276
+2024-06-03 19:52:05 [INFO]: Epoch 082 - training loss: 0.3674, validation loss: 0.0276
+2024-06-03 19:52:18 [INFO]: Epoch 083 - training loss: 0.3666, validation loss: 0.0276
+2024-06-03 19:52:31 [INFO]: Epoch 084 - training loss: 0.3673, validation loss: 0.0275
+2024-06-03 19:52:44 [INFO]: Epoch 085 - training loss: 0.3742, validation loss: 0.0477
+2024-06-03 19:52:57 [INFO]: Epoch 086 - training loss: 0.3826, validation loss: 0.0282
+2024-06-03 19:53:10 [INFO]: Epoch 087 - training loss: 0.3691, validation loss: 0.0279
+2024-06-03 19:53:23 [INFO]: Epoch 088 - training loss: 0.3675, validation loss: 0.0277
+2024-06-03 19:53:36 [INFO]: Epoch 089 - training loss: 0.3682, validation loss: 0.0277
+2024-06-03 19:53:49 [INFO]: Epoch 090 - training loss: 0.3665, validation loss: 0.0276
+2024-06-03 19:53:49 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:53:49 [INFO]: Finished training. The best model is from epoch#80.
+2024-06-03 19:53:49 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_3/20240603_T193410/MRNN.pypots
+2024-06-03 19:54:02 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_3/imputation.pkl
+2024-06-03 19:54:02 [INFO]: Round3 - MRNN on PhysioNet2019: MAE=0.7619, MSE=0.9911, MRE=1.0000
+2024-06-03 19:54:02 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:54:02 [INFO]: Using the given device: cuda:0
+2024-06-03 19:54:02 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_4/20240603_T195402
+2024-06-03 19:54:02 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_4/20240603_T195402/tensorboard
+2024-06-03 19:54:02 [INFO]: MRNN initialized with the given hyperparameters, the number of trainable parameters: 1,593,671
+2024-06-03 19:54:19 [INFO]: Epoch 001 - training loss: 1.0439, validation loss: 0.0424
+2024-06-03 19:54:32 [INFO]: Epoch 002 - training loss: 0.5609, validation loss: 0.0378
+2024-06-03 19:54:46 [INFO]: Epoch 003 - training loss: 0.5489, validation loss: 0.1256
+2024-06-03 19:54:59 [INFO]: Epoch 004 - training loss: 0.5552, validation loss: 0.0735
+2024-06-03 19:55:12 [INFO]: Epoch 005 - training loss: 0.4939, validation loss: 0.1513
+2024-06-03 19:55:25 [INFO]: Epoch 006 - training loss: 0.4860, validation loss: 0.0526
+2024-06-03 19:55:38 [INFO]: Epoch 007 - training loss: 0.4609, validation loss: 0.0384
+2024-06-03 19:55:51 [INFO]: Epoch 008 - training loss: 0.4863, validation loss: 0.1103
+2024-06-03 19:56:04 [INFO]: Epoch 009 - training loss: 0.4854, validation loss: 0.0407
+2024-06-03 19:56:17 [INFO]: Epoch 010 - training loss: 0.4588, validation loss: 0.0380
+2024-06-03 19:56:30 [INFO]: Epoch 011 - training loss: 0.5856, validation loss: 0.0311
+2024-06-03 19:56:43 [INFO]: Epoch 012 - training loss: 0.4708, validation loss: 0.0745
+2024-06-03 19:56:56 [INFO]: Epoch 013 - training loss: 0.4881, validation loss: 0.0538
+2024-06-03 19:57:09 [INFO]: Epoch 014 - training loss: 0.4861, validation loss: 0.1726
+2024-06-03 19:57:23 [INFO]: Epoch 015 - training loss: 0.6858, validation loss: 0.0885
+2024-06-03 19:57:36 [INFO]: Epoch 016 - training loss: 0.6880, validation loss: 0.0703
+2024-06-03 19:57:49 [INFO]: Epoch 017 - training loss: 0.5347, validation loss: 0.1077
+2024-06-03 19:58:02 [INFO]: Epoch 018 - training loss: 0.5261, validation loss: 0.5402
+2024-06-03 19:58:15 [INFO]: Epoch 019 - training loss: 0.5467, validation loss: 0.1729
+2024-06-03 19:58:28 [INFO]: Epoch 020 - training loss: 0.4847, validation loss: 0.0924
+2024-06-03 19:58:41 [INFO]: Epoch 021 - training loss: 0.4760, validation loss: 0.0641
+2024-06-03 19:58:41 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:58:41 [INFO]: Finished training. The best model is from epoch#11.
+2024-06-03 19:58:41 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_4/20240603_T195402/MRNN.pypots
+2024-06-03 19:58:54 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/MRNN_PhysioNet2019/round_4/imputation.pkl
+2024-06-03 19:58:54 [INFO]: Round4 - MRNN on PhysioNet2019: MAE=0.7754, MSE=0.9964, MRE=1.0177
+2024-06-03 19:58:54 [INFO]: Done! Final results:
+Averaged MRNN (1,593,671 params) on PhysioNet2019: MAE=0.7783 ± 0.014976858731290335, MSE=1.0093 ± 0.024737714035142466, MRE=1.0215 ± 0.019657201578052872, average inference time=4.28

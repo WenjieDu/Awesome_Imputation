@@ -1,0 +1,127 @@
+2024-06-03 10:17:22 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 10:17:22 [INFO]: Using the given device: cuda:0
+2024-06-03 10:17:24 [INFO]: Model files will be saved to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_0/20240603_T101724
+2024-06-03 10:17:24 [INFO]: Tensorboard file will be saved to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_0/20240603_T101724/tensorboard
+2024-06-03 10:17:30 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 809,057
+2024-06-03 10:17:49 [INFO]: Epoch 001 - training loss: 1.1596, validation loss: 0.7232
+2024-06-03 10:17:54 [INFO]: Epoch 002 - training loss: 0.9547, validation loss: 0.6370
+2024-06-03 10:17:59 [INFO]: Epoch 003 - training loss: 0.8160, validation loss: 0.6159
+2024-06-03 10:18:05 [INFO]: Epoch 004 - training loss: 0.7216, validation loss: 0.6069
+2024-06-03 10:18:10 [INFO]: Epoch 005 - training loss: 0.6620, validation loss: 0.5975
+2024-06-03 10:18:15 [INFO]: Epoch 006 - training loss: 0.6263, validation loss: 0.6121
+2024-06-03 10:18:20 [INFO]: Epoch 007 - training loss: 0.5935, validation loss: 0.6032
+2024-06-03 10:18:24 [INFO]: Epoch 008 - training loss: 0.5720, validation loss: 0.6098
+2024-06-03 10:18:29 [INFO]: Epoch 009 - training loss: 0.5609, validation loss: 0.6043
+2024-06-03 10:18:34 [INFO]: Epoch 010 - training loss: 0.5554, validation loss: 0.6179
+2024-06-03 10:18:39 [INFO]: Epoch 011 - training loss: 0.5392, validation loss: 0.6099
+2024-06-03 10:18:44 [INFO]: Epoch 012 - training loss: 0.5301, validation loss: 0.6149
+2024-06-03 10:18:48 [INFO]: Epoch 013 - training loss: 0.5289, validation loss: 0.6231
+2024-06-03 10:18:54 [INFO]: Epoch 014 - training loss: 0.5172, validation loss: 0.6309
+2024-06-03 10:18:59 [INFO]: Epoch 015 - training loss: 0.5141, validation loss: 0.6132
+2024-06-03 10:18:59 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 10:18:59 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 10:19:00 [INFO]: Saved the model to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_0/20240603_T101724/ETSformer.pypots
+2024-06-03 10:19:04 [INFO]: Successfully saved to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_0/imputation.pkl
+2024-06-03 10:19:04 [INFO]: Round0 - ETSformer on ETT_h1: MAE=0.6363, MSE=0.8345, MRE=0.7902
+2024-06-03 10:19:04 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 10:19:04 [INFO]: Using the given device: cuda:0
+2024-06-03 10:19:04 [INFO]: Model files will be saved to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_1/20240603_T101904
+2024-06-03 10:19:04 [INFO]: Tensorboard file will be saved to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_1/20240603_T101904/tensorboard
+2024-06-03 10:19:05 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 809,057
+2024-06-03 10:19:09 [INFO]: Epoch 001 - training loss: 1.2003, validation loss: 0.7320
+2024-06-03 10:19:14 [INFO]: Epoch 002 - training loss: 0.9579, validation loss: 0.6494
+2024-06-03 10:19:18 [INFO]: Epoch 003 - training loss: 0.8255, validation loss: 0.6033
+2024-06-03 10:19:23 [INFO]: Epoch 004 - training loss: 0.7306, validation loss: 0.6362
+2024-06-03 10:19:27 [INFO]: Epoch 005 - training loss: 0.6610, validation loss: 0.5988
+2024-06-03 10:19:33 [INFO]: Epoch 006 - training loss: 0.6303, validation loss: 0.6269
+2024-06-03 10:19:38 [INFO]: Epoch 007 - training loss: 0.5957, validation loss: 0.6165
+2024-06-03 10:19:43 [INFO]: Epoch 008 - training loss: 0.5776, validation loss: 0.6236
+2024-06-03 10:19:47 [INFO]: Epoch 009 - training loss: 0.5433, validation loss: 0.6330
+2024-06-03 10:19:52 [INFO]: Epoch 010 - training loss: 0.5395, validation loss: 0.6115
+2024-06-03 10:19:57 [INFO]: Epoch 011 - training loss: 0.5355, validation loss: 0.6518
+2024-06-03 10:20:01 [INFO]: Epoch 012 - training loss: 0.5239, validation loss: 0.6303
+2024-06-03 10:20:07 [INFO]: Epoch 013 - training loss: 0.5186, validation loss: 0.6271
+2024-06-03 10:20:11 [INFO]: Epoch 014 - training loss: 0.5127, validation loss: 0.6281
+2024-06-03 10:20:17 [INFO]: Epoch 015 - training loss: 0.4989, validation loss: 0.6304
+2024-06-03 10:20:17 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 10:20:17 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 10:20:17 [INFO]: Saved the model to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_1/20240603_T101904/ETSformer.pypots
+2024-06-03 10:20:22 [INFO]: Successfully saved to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_1/imputation.pkl
+2024-06-03 10:20:22 [INFO]: Round1 - ETSformer on ETT_h1: MAE=0.6434, MSE=0.8496, MRE=0.7989
+2024-06-03 10:20:22 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 10:20:22 [INFO]: Using the given device: cuda:0
+2024-06-03 10:20:22 [INFO]: Model files will be saved to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_2/20240603_T102022
+2024-06-03 10:20:22 [INFO]: Tensorboard file will be saved to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_2/20240603_T102022/tensorboard
+2024-06-03 10:20:22 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 809,057
+2024-06-03 10:20:27 [INFO]: Epoch 001 - training loss: 1.1591, validation loss: 0.7416
+2024-06-03 10:20:31 [INFO]: Epoch 002 - training loss: 0.9653, validation loss: 0.6551
+2024-06-03 10:20:37 [INFO]: Epoch 003 - training loss: 0.8360, validation loss: 0.6277
+2024-06-03 10:20:42 [INFO]: Epoch 004 - training loss: 0.7312, validation loss: 0.5905
+2024-06-03 10:20:47 [INFO]: Epoch 005 - training loss: 0.6526, validation loss: 0.6168
+2024-06-03 10:20:53 [INFO]: Epoch 006 - training loss: 0.6258, validation loss: 0.5872
+2024-06-03 10:20:58 [INFO]: Epoch 007 - training loss: 0.5854, validation loss: 0.6120
+2024-06-03 10:21:04 [INFO]: Epoch 008 - training loss: 0.5698, validation loss: 0.5968
+2024-06-03 10:21:08 [INFO]: Epoch 009 - training loss: 0.5656, validation loss: 0.6121
+2024-06-03 10:21:12 [INFO]: Epoch 010 - training loss: 0.5562, validation loss: 0.6078
+2024-06-03 10:21:17 [INFO]: Epoch 011 - training loss: 0.5349, validation loss: 0.6169
+2024-06-03 10:21:21 [INFO]: Epoch 012 - training loss: 0.5264, validation loss: 0.6319
+2024-06-03 10:21:26 [INFO]: Epoch 013 - training loss: 0.5303, validation loss: 0.6164
+2024-06-03 10:21:30 [INFO]: Epoch 014 - training loss: 0.5274, validation loss: 0.6197
+2024-06-03 10:21:34 [INFO]: Epoch 015 - training loss: 0.5059, validation loss: 0.6280
+2024-06-03 10:21:37 [INFO]: Epoch 016 - training loss: 0.5163, validation loss: 0.6291
+2024-06-03 10:21:37 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 10:21:37 [INFO]: Finished training. The best model is from epoch#6.
+2024-06-03 10:21:38 [INFO]: Saved the model to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_2/20240603_T102022/ETSformer.pypots
+2024-06-03 10:21:41 [INFO]: Successfully saved to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_2/imputation.pkl
+2024-06-03 10:21:41 [INFO]: Round2 - ETSformer on ETT_h1: MAE=0.6407, MSE=0.8402, MRE=0.7956
+2024-06-03 10:21:41 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 10:21:41 [INFO]: Using the given device: cuda:0
+2024-06-03 10:21:41 [INFO]: Model files will be saved to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_3/20240603_T102141
+2024-06-03 10:21:41 [INFO]: Tensorboard file will be saved to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_3/20240603_T102141/tensorboard
+2024-06-03 10:21:41 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 809,057
+2024-06-03 10:21:46 [INFO]: Epoch 001 - training loss: 1.1708, validation loss: 0.6975
+2024-06-03 10:21:51 [INFO]: Epoch 002 - training loss: 0.9823, validation loss: 0.6481
+2024-06-03 10:21:55 [INFO]: Epoch 003 - training loss: 0.8413, validation loss: 0.6255
+2024-06-03 10:21:59 [INFO]: Epoch 004 - training loss: 0.7426, validation loss: 0.6336
+2024-06-03 10:22:03 [INFO]: Epoch 005 - training loss: 0.6679, validation loss: 0.6298
+2024-06-03 10:22:08 [INFO]: Epoch 006 - training loss: 0.6269, validation loss: 0.6439
+2024-06-03 10:22:13 [INFO]: Epoch 007 - training loss: 0.6097, validation loss: 0.6487
+2024-06-03 10:22:18 [INFO]: Epoch 008 - training loss: 0.5745, validation loss: 0.6303
+2024-06-03 10:22:22 [INFO]: Epoch 009 - training loss: 0.5585, validation loss: 0.6584
+2024-06-03 10:22:26 [INFO]: Epoch 010 - training loss: 0.5420, validation loss: 0.6607
+2024-06-03 10:22:30 [INFO]: Epoch 011 - training loss: 0.5312, validation loss: 0.6497
+2024-06-03 10:22:34 [INFO]: Epoch 012 - training loss: 0.5268, validation loss: 0.6646
+2024-06-03 10:22:38 [INFO]: Epoch 013 - training loss: 0.5222, validation loss: 0.6731
+2024-06-03 10:22:38 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 10:22:38 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 10:22:38 [INFO]: Saved the model to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_3/20240603_T102141/ETSformer.pypots
+2024-06-03 10:22:42 [INFO]: Successfully saved to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_3/imputation.pkl
+2024-06-03 10:22:42 [INFO]: Round3 - ETSformer on ETT_h1: MAE=0.6697, MSE=0.8856, MRE=0.8317
+2024-06-03 10:22:42 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 10:22:42 [INFO]: Using the given device: cuda:0
+2024-06-03 10:22:42 [INFO]: Model files will be saved to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_4/20240603_T102242
+2024-06-03 10:22:42 [INFO]: Tensorboard file will be saved to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_4/20240603_T102242/tensorboard
+2024-06-03 10:22:42 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 809,057
+2024-06-03 10:22:46 [INFO]: Epoch 001 - training loss: 1.1687, validation loss: 0.6782
+2024-06-03 10:22:50 [INFO]: Epoch 002 - training loss: 0.9189, validation loss: 0.6351
+2024-06-03 10:22:54 [INFO]: Epoch 003 - training loss: 0.8084, validation loss: 0.6086
+2024-06-03 10:22:58 [INFO]: Epoch 004 - training loss: 0.7335, validation loss: 0.6121
+2024-06-03 10:23:03 [INFO]: Epoch 005 - training loss: 0.6619, validation loss: 0.6092
+2024-06-03 10:23:07 [INFO]: Epoch 006 - training loss: 0.6356, validation loss: 0.5837
+2024-06-03 10:23:11 [INFO]: Epoch 007 - training loss: 0.5971, validation loss: 0.6022
+2024-06-03 10:23:15 [INFO]: Epoch 008 - training loss: 0.5697, validation loss: 0.6045
+2024-06-03 10:23:20 [INFO]: Epoch 009 - training loss: 0.5455, validation loss: 0.6001
+2024-06-03 10:23:24 [INFO]: Epoch 010 - training loss: 0.5487, validation loss: 0.6161
+2024-06-03 10:23:28 [INFO]: Epoch 011 - training loss: 0.5417, validation loss: 0.6093
+2024-06-03 10:23:32 [INFO]: Epoch 012 - training loss: 0.5226, validation loss: 0.6129
+2024-06-03 10:23:36 [INFO]: Epoch 013 - training loss: 0.5258, validation loss: 0.6233
+2024-06-03 10:23:39 [INFO]: Epoch 014 - training loss: 0.5208, validation loss: 0.6178
+2024-06-03 10:23:43 [INFO]: Epoch 015 - training loss: 0.5189, validation loss: 0.6190
+2024-06-03 10:23:47 [INFO]: Epoch 016 - training loss: 0.5158, validation loss: 0.6135
+2024-06-03 10:23:47 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 10:23:47 [INFO]: Finished training. The best model is from epoch#6.
+2024-06-03 10:23:47 [INFO]: Saved the model to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_4/20240603_T102242/ETSformer.pypots
+2024-06-03 10:23:51 [INFO]: Successfully saved to results_block_rate05/ETT_h1/ETSformer_ETT_h1/round_4/imputation.pkl
+2024-06-03 10:23:51 [INFO]: Round4 - ETSformer on ETT_h1: MAE=0.6410, MSE=0.8522, MRE=0.7959
+2024-06-03 10:23:51 [INFO]: Done! Final results:
+Averaged ETSformer (809,057 params) on ETT_h1: MAE=0.6462 ± 0.011973576932554544, MSE=0.8524 ± 0.017782195271218267, MRE=0.8025 ± 0.014868452750741244, average inference time=1.00

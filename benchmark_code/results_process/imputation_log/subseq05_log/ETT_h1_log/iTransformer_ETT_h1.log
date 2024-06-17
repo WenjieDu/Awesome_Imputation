@@ -1,0 +1,122 @@
+2024-06-03 03:45:34 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 03:45:34 [INFO]: Using the given device: cuda:0
+2024-06-03 03:45:34 [INFO]: Model files will be saved to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_0/20240603_T034534
+2024-06-03 03:45:34 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_0/20240603_T034534/tensorboard
+2024-06-03 03:45:34 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=256, n_heads=8, d_k=128
+2024-06-03 03:45:34 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (8) * d_k (128)
+2024-06-03 03:45:36 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 23,723,056
+2024-06-03 03:45:38 [INFO]: Epoch 001 - training loss: 1.3000, validation loss: 0.9353
+2024-06-03 03:45:39 [INFO]: Epoch 002 - training loss: 0.8936, validation loss: 0.8238
+2024-06-03 03:45:39 [INFO]: Epoch 003 - training loss: 0.7580, validation loss: 0.8348
+2024-06-03 03:45:40 [INFO]: Epoch 004 - training loss: 0.6940, validation loss: 0.8444
+2024-06-03 03:45:40 [INFO]: Epoch 005 - training loss: 0.6387, validation loss: 0.8639
+2024-06-03 03:45:41 [INFO]: Epoch 006 - training loss: 0.5959, validation loss: 0.8727
+2024-06-03 03:45:42 [INFO]: Epoch 007 - training loss: 0.5703, validation loss: 0.8957
+2024-06-03 03:45:42 [INFO]: Epoch 008 - training loss: 0.5347, validation loss: 0.8964
+2024-06-03 03:45:43 [INFO]: Epoch 009 - training loss: 0.5051, validation loss: 0.8975
+2024-06-03 03:45:43 [INFO]: Epoch 010 - training loss: 0.4988, validation loss: 0.9226
+2024-06-03 03:45:44 [INFO]: Epoch 011 - training loss: 0.4993, validation loss: 0.8866
+2024-06-03 03:45:44 [INFO]: Epoch 012 - training loss: 0.4831, validation loss: 0.9022
+2024-06-03 03:45:44 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:45:44 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 03:45:45 [INFO]: Saved the model to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_0/20240603_T034534/iTransformer.pypots
+2024-06-03 03:45:45 [INFO]: Successfully saved to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_0/imputation.pkl
+2024-06-03 03:45:45 [INFO]: Round0 - iTransformer on ETT_h1: MAE=0.8140, MSE=1.2506, MRE=0.9168
+2024-06-03 03:45:45 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 03:45:45 [INFO]: Using the given device: cuda:0
+2024-06-03 03:45:45 [INFO]: Model files will be saved to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_1/20240603_T034545
+2024-06-03 03:45:45 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_1/20240603_T034545/tensorboard
+2024-06-03 03:45:45 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=256, n_heads=8, d_k=128
+2024-06-03 03:45:45 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (8) * d_k (128)
+2024-06-03 03:45:46 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 23,723,056
+2024-06-03 03:45:47 [INFO]: Epoch 001 - training loss: 1.3533, validation loss: 0.8752
+2024-06-03 03:45:48 [INFO]: Epoch 002 - training loss: 0.9172, validation loss: 0.7578
+2024-06-03 03:45:48 [INFO]: Epoch 003 - training loss: 0.7740, validation loss: 0.8136
+2024-06-03 03:45:49 [INFO]: Epoch 004 - training loss: 0.6898, validation loss: 0.8040
+2024-06-03 03:45:50 [INFO]: Epoch 005 - training loss: 0.6442, validation loss: 0.8321
+2024-06-03 03:45:50 [INFO]: Epoch 006 - training loss: 0.5974, validation loss: 0.8461
+2024-06-03 03:45:51 [INFO]: Epoch 007 - training loss: 0.5674, validation loss: 0.8787
+2024-06-03 03:45:51 [INFO]: Epoch 008 - training loss: 0.5370, validation loss: 0.8746
+2024-06-03 03:45:52 [INFO]: Epoch 009 - training loss: 0.5248, validation loss: 0.8715
+2024-06-03 03:45:53 [INFO]: Epoch 010 - training loss: 0.4935, validation loss: 0.8848
+2024-06-03 03:45:53 [INFO]: Epoch 011 - training loss: 0.4914, validation loss: 0.9054
+2024-06-03 03:45:54 [INFO]: Epoch 012 - training loss: 0.4901, validation loss: 0.8886
+2024-06-03 03:45:54 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:45:54 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 03:45:54 [INFO]: Saved the model to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_1/20240603_T034545/iTransformer.pypots
+2024-06-03 03:45:55 [INFO]: Successfully saved to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_1/imputation.pkl
+2024-06-03 03:45:55 [INFO]: Round1 - iTransformer on ETT_h1: MAE=0.8044, MSE=1.2246, MRE=0.9061
+2024-06-03 03:45:55 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 03:45:55 [INFO]: Using the given device: cuda:0
+2024-06-03 03:45:55 [INFO]: Model files will be saved to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_2/20240603_T034555
+2024-06-03 03:45:55 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_2/20240603_T034555/tensorboard
+2024-06-03 03:45:55 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=256, n_heads=8, d_k=128
+2024-06-03 03:45:55 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (8) * d_k (128)
+2024-06-03 03:45:55 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 23,723,056
+2024-06-03 03:45:56 [INFO]: Epoch 001 - training loss: 1.3197, validation loss: 0.8577
+2024-06-03 03:45:56 [INFO]: Epoch 002 - training loss: 0.8954, validation loss: 0.7958
+2024-06-03 03:45:57 [INFO]: Epoch 003 - training loss: 0.7706, validation loss: 0.8146
+2024-06-03 03:45:58 [INFO]: Epoch 004 - training loss: 0.7041, validation loss: 0.8181
+2024-06-03 03:45:58 [INFO]: Epoch 005 - training loss: 0.6426, validation loss: 0.8393
+2024-06-03 03:45:59 [INFO]: Epoch 006 - training loss: 0.6004, validation loss: 0.8481
+2024-06-03 03:45:59 [INFO]: Epoch 007 - training loss: 0.5657, validation loss: 0.8764
+2024-06-03 03:46:00 [INFO]: Epoch 008 - training loss: 0.5366, validation loss: 0.8693
+2024-06-03 03:46:01 [INFO]: Epoch 009 - training loss: 0.5108, validation loss: 0.8901
+2024-06-03 03:46:01 [INFO]: Epoch 010 - training loss: 0.5123, validation loss: 0.8971
+2024-06-03 03:46:02 [INFO]: Epoch 011 - training loss: 0.4772, validation loss: 0.8859
+2024-06-03 03:46:03 [INFO]: Epoch 012 - training loss: 0.4814, validation loss: 0.8831
+2024-06-03 03:46:03 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:46:03 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 03:46:03 [INFO]: Saved the model to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_2/20240603_T034555/iTransformer.pypots
+2024-06-03 03:46:03 [INFO]: Successfully saved to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_2/imputation.pkl
+2024-06-03 03:46:03 [INFO]: Round2 - iTransformer on ETT_h1: MAE=0.8061, MSE=1.2283, MRE=0.9080
+2024-06-03 03:46:03 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 03:46:03 [INFO]: Using the given device: cuda:0
+2024-06-03 03:46:03 [INFO]: Model files will be saved to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_3/20240603_T034603
+2024-06-03 03:46:03 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_3/20240603_T034603/tensorboard
+2024-06-03 03:46:03 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=256, n_heads=8, d_k=128
+2024-06-03 03:46:03 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (8) * d_k (128)
+2024-06-03 03:46:04 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 23,723,056
+2024-06-03 03:46:05 [INFO]: Epoch 001 - training loss: 1.3110, validation loss: 0.9051
+2024-06-03 03:46:05 [INFO]: Epoch 002 - training loss: 0.8887, validation loss: 0.8143
+2024-06-03 03:46:06 [INFO]: Epoch 003 - training loss: 0.7664, validation loss: 0.8409
+2024-06-03 03:46:07 [INFO]: Epoch 004 - training loss: 0.6874, validation loss: 0.8370
+2024-06-03 03:46:07 [INFO]: Epoch 005 - training loss: 0.6423, validation loss: 0.8577
+2024-06-03 03:46:08 [INFO]: Epoch 006 - training loss: 0.5958, validation loss: 0.8876
+2024-06-03 03:46:09 [INFO]: Epoch 007 - training loss: 0.5729, validation loss: 0.9251
+2024-06-03 03:46:09 [INFO]: Epoch 008 - training loss: 0.5345, validation loss: 0.8871
+2024-06-03 03:46:10 [INFO]: Epoch 009 - training loss: 0.5129, validation loss: 0.9020
+2024-06-03 03:46:10 [INFO]: Epoch 010 - training loss: 0.5075, validation loss: 0.9015
+2024-06-03 03:46:11 [INFO]: Epoch 011 - training loss: 0.4823, validation loss: 0.9034
+2024-06-03 03:46:11 [INFO]: Epoch 012 - training loss: 0.4803, validation loss: 0.8926
+2024-06-03 03:46:11 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:46:11 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 03:46:12 [INFO]: Saved the model to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_3/20240603_T034603/iTransformer.pypots
+2024-06-03 03:46:12 [INFO]: Successfully saved to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_3/imputation.pkl
+2024-06-03 03:46:12 [INFO]: Round3 - iTransformer on ETT_h1: MAE=0.8127, MSE=1.2307, MRE=0.9154
+2024-06-03 03:46:12 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 03:46:12 [INFO]: Using the given device: cuda:0
+2024-06-03 03:46:12 [INFO]: Model files will be saved to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_4/20240603_T034612
+2024-06-03 03:46:12 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_4/20240603_T034612/tensorboard
+2024-06-03 03:46:12 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=256, n_heads=8, d_k=128
+2024-06-03 03:46:12 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (8) * d_k (128)
+2024-06-03 03:46:13 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 23,723,056
+2024-06-03 03:46:14 [INFO]: Epoch 001 - training loss: 1.3090, validation loss: 0.8910
+2024-06-03 03:46:14 [INFO]: Epoch 002 - training loss: 0.8811, validation loss: 0.8285
+2024-06-03 03:46:15 [INFO]: Epoch 003 - training loss: 0.7614, validation loss: 0.8551
+2024-06-03 03:46:16 [INFO]: Epoch 004 - training loss: 0.6946, validation loss: 0.8567
+2024-06-03 03:46:16 [INFO]: Epoch 005 - training loss: 0.6409, validation loss: 0.8798
+2024-06-03 03:46:17 [INFO]: Epoch 006 - training loss: 0.6116, validation loss: 0.8757
+2024-06-03 03:46:17 [INFO]: Epoch 007 - training loss: 0.5823, validation loss: 0.8921
+2024-06-03 03:46:18 [INFO]: Epoch 008 - training loss: 0.5476, validation loss: 0.9154
+2024-06-03 03:46:19 [INFO]: Epoch 009 - training loss: 0.5344, validation loss: 0.8962
+2024-06-03 03:46:19 [INFO]: Epoch 010 - training loss: 0.5163, validation loss: 0.9243
+2024-06-03 03:46:20 [INFO]: Epoch 011 - training loss: 0.4925, validation loss: 0.9094
+2024-06-03 03:46:20 [INFO]: Epoch 012 - training loss: 0.4831, validation loss: 0.9149
+2024-06-03 03:46:20 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:46:20 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 03:46:21 [INFO]: Saved the model to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_4/20240603_T034612/iTransformer.pypots
+2024-06-03 03:46:21 [INFO]: Successfully saved to results_subseq_rate05/ETT_h1/iTransformer_ETT_h1/round_4/imputation.pkl
+2024-06-03 03:46:21 [INFO]: Round4 - iTransformer on ETT_h1: MAE=0.8133, MSE=1.2494, MRE=0.9161
+2024-06-03 03:46:21 [INFO]: Done! Final results:
+Averaged iTransformer (23,723,056 params) on ETT_h1: MAE=0.8101 ± 0.003997985883118703, MSE=1.2367 ± 0.011042182529043508, MRE=0.9125 ± 0.004503163673450545, average inference time=0.07
