@@ -2,8 +2,6 @@
 2024-06-03 18:53:33 [INFO]: Using the given device: cuda:0
 2024-06-03 18:53:34 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/CSDI_PhysioNet2012/round_0/20240603_T185334
 2024-06-03 18:53:34 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/CSDI_PhysioNet2012/round_0/20240603_T185334/tensorboard
-/scratch/users/k1814348/.conda/envs/pypots/lib/python3.10/site-packages/torch/nn/modules/transformer.py:286: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
-  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
 2024-06-03 18:53:34 [INFO]: CSDI initialized with the given hyperparameters, the number of trainable parameters: 1,528,729
 2024-06-03 18:55:43 [INFO]: Epoch 001 - training loss: 0.4510, validation loss: 0.2856
 2024-06-03 18:57:39 [INFO]: Epoch 002 - training loss: 0.3513, validation loss: 0.2744
@@ -27,8 +25,6 @@
 2024-06-03 19:58:15 [INFO]: Using the given device: cuda:0
 2024-06-03 19:58:15 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/CSDI_PhysioNet2012/round_1/20240603_T195815
 2024-06-03 19:58:15 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/CSDI_PhysioNet2012/round_1/20240603_T195815/tensorboard
-/scratch/users/k1814348/.conda/envs/pypots/lib/python3.10/site-packages/torch/nn/modules/transformer.py:286: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
-  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
 2024-06-03 19:58:15 [INFO]: CSDI initialized with the given hyperparameters, the number of trainable parameters: 1,528,729
 2024-06-03 19:59:13 [INFO]: Epoch 001 - training loss: 0.4331, validation loss: 0.2779
 2024-06-03 20:00:11 [INFO]: Epoch 002 - training loss: 0.3478, validation loss: 0.2785
