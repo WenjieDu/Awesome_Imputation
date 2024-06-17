@@ -13,7 +13,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from pypots.data.saving import pickle_load
+from pypots.data.saving import load_dict_from_h5
 from pypots.nn.modules.transformer import TransformerEncoder, PositionalEncoding
 from pypots.utils.logging import logger
 from pypots.utils.metrics import calc_binary_classification_metrics
@@ -179,12 +179,6 @@ if __name__ == "__main__":
         required=True,
     )
     parser.add_argument(
-        "--model",
-        type=str,
-        help="the model name",
-        required=True,
-    )
-    parser.add_argument(
         "--dataset",
         type=str,
         help="the dataset name",
@@ -200,12 +194,6 @@ if __name__ == "__main__":
         "--n_classes",
         type=int,
         help="the number of classes",
-        required=True,
-    )
-    parser.add_argument(
-        "--model_result_parent_fold",
-        type=str,
-        help="the parent fold of the model results, where should include the folds of 5 rounds",
         required=True,
     )
     args = parser.parse_args()
@@ -227,30 +215,6 @@ if __name__ == "__main__":
         # Pedestrian dataset has 10 classes with label from 1 to 10, we need to convert it to 0 to 9
         train_y, val_y, test_y = train_y - 1, val_y - 1, test_y - 1
 
-    train_X_collector = []
-    val_X_collector = []
-    test_X_collector = []
-
-    for n_round in range(5):
-        imputed_data_path = os.path.join(
-            args.model_result_parent_fold,
-            f"round_{n_round}/imputation.pkl",
-        )
-        imputed_data = pickle_load(imputed_data_path)
-        _train_X, _val_X, _test_X = (
-            imputed_data["train_set_imputation"],
-            imputed_data["val_set_imputation"],
-            imputed_data["test_set_imputation"],
-        )
-        train_X_collector.append(_train_X)
-        val_X_collector.append(_val_X)
-        test_X_collector.append(_test_X)
-    train_X, val_X, test_X = (
-        np.mean(np.stack(train_X_collector), axis=0),
-        np.mean(np.stack(val_X_collector), axis=0),
-        np.mean(np.stack(test_X_collector), axis=0),
-    )
-
     xgb_wo_pr_auc_collector = []
     xgb_wo_roc_auc_collector = []
     xgb_pr_auc_collector = []
@@ -260,122 +224,109 @@ if __name__ == "__main__":
     transformer_pr_auc_collector = []
     transformer_roc_auc_collector = []
 
-    train_loader, val_loader, test_loader = get_dataloaders(
-        train_X, train_y, val_X, val_y, test_X, test_y
+    imputed_data_path = os.path.join(
+        args.dataset_fold_path,
+        f"naive_imputation.h5",
     )
-    for n_round in range(5):
-        set_random_seed(RANDOM_SEEDS[n_round])
-        # XGBoost model without imputation
-        n_flatten_features = np.product(train_X.shape[1:])
-        xgb = XGBClassifier()
-        xgb.fit(
-            pots_train_X.reshape(-1, n_flatten_features),
-            train_y,
-            eval_set=[(pots_val_X.reshape(-1, n_flatten_features), val_y)],
-            verbose=False,
-        )
-        proba_predictions = xgb.predict_proba(
-            pots_test_X.reshape(-1, n_flatten_features)
-        )
-        if args.n_classes == 2:
-            classification_metrics = calc_binary_classification_metrics(
-                proba_predictions, test_y
+    imputed_data = load_dict_from_h5(imputed_data_path)
+    for naive_method in ["mean", "median", "locf", "linear_interpolation"]:
+        for n_round in range(5):
+            train_X, val_X, test_X = (
+                imputed_data["train"][naive_method],
+                imputed_data["val"][naive_method],
+                imputed_data["test"][naive_method],
             )
-            pr_auc, roc_auc = (
-                classification_metrics["pr_auc"],
-                classification_metrics["roc_auc"],
-            )
-        else:
-            pr_auc, roc_auc = calc_multiclass_classification_metrics(
-                proba_predictions, test_y, args.n_classes
-            )
-        xgb_wo_pr_auc_collector.append(pr_auc)
-        xgb_wo_roc_auc_collector.append(roc_auc)
 
-        # XGBoost model with imputation
-        xgb = XGBClassifier()
-        xgb.fit(
-            train_X.reshape(-1, n_flatten_features),
-            train_y,
-            eval_set=[(val_X.reshape(-1, n_flatten_features), val_y)],
-            verbose=False,
-        )
-        proba_predictions = xgb.predict_proba(test_X.reshape(-1, n_flatten_features))
-        if args.n_classes == 2:
-            classification_metrics = calc_binary_classification_metrics(
-                proba_predictions, test_y
+            train_loader, val_loader, test_loader = get_dataloaders(
+                train_X, train_y, val_X, val_y, test_X, test_y
             )
-            pr_auc, roc_auc = (
-                classification_metrics["pr_auc"],
-                classification_metrics["roc_auc"],
-            )
-        else:
-            pr_auc, roc_auc = calc_multiclass_classification_metrics(
-                proba_predictions, test_y, args.n_classes
-            )
-        xgb_pr_auc_collector.append(pr_auc)
-        xgb_roc_auc_collector.append(roc_auc)
+            set_random_seed(RANDOM_SEEDS[n_round])
+            n_flatten_features = np.product(train_X.shape[1:])
 
-        # RNN model
-        simple_rnn_classifier = SimpleRNNClassification(
-            n_features=train_X.shape[-1],
-            rnn_hidden_size=128,
-            n_classes=args.n_classes,
-        )
-        simple_rnn_classifier = simple_rnn_classifier.to(args.device)
-        proba_predictions = train(simple_rnn_classifier, train_loader, val_loader)
-        if args.n_classes == 2:
-            classification_metrics = calc_binary_classification_metrics(
-                proba_predictions, test_y
+            # XGBoost model with imputation
+            xgb = XGBClassifier()
+            xgb.fit(
+                train_X.reshape(-1, n_flatten_features),
+                train_y,
+                eval_set=[(val_X.reshape(-1, n_flatten_features), val_y)],
+                verbose=False,
             )
-            pr_auc, roc_auc = (
-                classification_metrics["pr_auc"],
-                classification_metrics["roc_auc"],
+            proba_predictions = xgb.predict_proba(
+                test_X.reshape(-1, n_flatten_features)
             )
-        else:
-            pr_auc, roc_auc = calc_multiclass_classification_metrics(
-                proba_predictions, test_y, args.n_classes
-            )
-        rnn_pr_auc_collector.append(pr_auc)
-        rnn_roc_auc_collector.append(roc_auc)
+            if args.n_classes == 2:
+                classification_metrics = calc_binary_classification_metrics(
+                    proba_predictions, test_y
+                )
+                pr_auc, roc_auc = (
+                    classification_metrics["pr_auc"],
+                    classification_metrics["roc_auc"],
+                )
+            else:
+                pr_auc, roc_auc = calc_multiclass_classification_metrics(
+                    proba_predictions, test_y, args.n_classes
+                )
+            xgb_pr_auc_collector.append(pr_auc)
+            xgb_roc_auc_collector.append(roc_auc)
 
-        # Transformer model
-        transformer_classifier = TransformerClassification(
-            n_steps=train_X.shape[1],
-            n_features=train_X.shape[2],
-            n_layers=1,
-            d_model=64,
-            n_heads=2,
-            d_ffn=128,
-            dropout=0.1,
-            attn_dropout=0,
-            n_classes=args.n_classes,
-        )
-        transformer_classifier = transformer_classifier.to(args.device)
-        proba_predictions = train(transformer_classifier, train_loader, val_loader)
-        if args.n_classes == 2:
-            classification_metrics = calc_binary_classification_metrics(
-                proba_predictions, test_y
+            # RNN model
+            simple_rnn_classifier = SimpleRNNClassification(
+                n_features=train_X.shape[-1],
+                rnn_hidden_size=128,
+                n_classes=args.n_classes,
             )
-            pr_auc, roc_auc = (
-                classification_metrics["pr_auc"],
-                classification_metrics["roc_auc"],
-            )
-        else:
-            pr_auc, roc_auc = calc_multiclass_classification_metrics(
-                proba_predictions, test_y, args.n_classes
-            )
-        transformer_pr_auc_collector.append(pr_auc)
-        transformer_roc_auc_collector.append(roc_auc)
+            simple_rnn_classifier = simple_rnn_classifier.to(args.device)
+            proba_predictions = train(simple_rnn_classifier, train_loader, val_loader)
+            if args.n_classes == 2:
+                classification_metrics = calc_binary_classification_metrics(
+                    proba_predictions, test_y
+                )
+                pr_auc, roc_auc = (
+                    classification_metrics["pr_auc"],
+                    classification_metrics["roc_auc"],
+                )
+            else:
+                pr_auc, roc_auc = calc_multiclass_classification_metrics(
+                    proba_predictions, test_y, args.n_classes
+                )
+            rnn_pr_auc_collector.append(pr_auc)
+            rnn_roc_auc_collector.append(roc_auc)
 
-    logger.info(
-        "\n"
-        f"XGB without imputation PR_AUC: {np.mean(xgb_wo_pr_auc_collector):.4f}±{np.std(xgb_wo_pr_auc_collector):.4f}, "
-        f"ROC_AUC: {np.mean(xgb_wo_roc_auc_collector):.4f}±{np.std(xgb_wo_roc_auc_collector):.4f}\n"
-        f"XGB with {args.model} imputation PR_AUC: {np.mean(xgb_pr_auc_collector):.4f}±{np.std(xgb_pr_auc_collector):.4f}, "
-        f"ROC_AUC: {np.mean(xgb_roc_auc_collector):.4f}±{np.std(xgb_roc_auc_collector):.4f}\n"
-        f"RNN with {args.model} imputation PR_AUC: {np.mean(rnn_pr_auc_collector):.4f}±{np.std(rnn_pr_auc_collector):.4f}, "
-        f"ROC_AUC: {np.mean(rnn_roc_auc_collector):.4f}±{np.std(rnn_roc_auc_collector):.4f}\n"
-        f"Transformer with {args.model} imputation PR_AUC: {np.mean(transformer_pr_auc_collector):.4f}±{np.std(transformer_pr_auc_collector):.4f}, "
-        f"ROC_AUC: {np.mean(transformer_roc_auc_collector):.4f}±{np.std(transformer_roc_auc_collector):.4f}\n"
-    )
+            # Transformer model
+            transformer_classifier = TransformerClassification(
+                n_steps=train_X.shape[1],
+                n_features=train_X.shape[2],
+                n_layers=1,
+                d_model=64,
+                n_heads=2,
+                d_ffn=128,
+                dropout=0.1,
+                attn_dropout=0,
+                n_classes=args.n_classes,
+            )
+            transformer_classifier = transformer_classifier.to(args.device)
+            proba_predictions = train(transformer_classifier, train_loader, val_loader)
+            if args.n_classes == 2:
+                classification_metrics = calc_binary_classification_metrics(
+                    proba_predictions, test_y
+                )
+                pr_auc, roc_auc = (
+                    classification_metrics["pr_auc"],
+                    classification_metrics["roc_auc"],
+                )
+            else:
+                pr_auc, roc_auc = calc_multiclass_classification_metrics(
+                    proba_predictions, test_y, args.n_classes
+                )
+            transformer_pr_auc_collector.append(pr_auc)
+            transformer_roc_auc_collector.append(roc_auc)
+
+        logger.info(
+            "\n"
+            f"XGB with {naive_method} imputation PR_AUC: {np.mean(xgb_pr_auc_collector):.4f}±{np.std(xgb_pr_auc_collector):.4f}, "
+            f"ROC_AUC: {np.mean(xgb_roc_auc_collector):.4f}±{np.std(xgb_roc_auc_collector):.4f}\n"
+            f"RNN with {naive_method} imputation PR_AUC: {np.mean(rnn_pr_auc_collector):.4f}±{np.std(rnn_pr_auc_collector):.4f}, "
+            f"ROC_AUC: {np.mean(rnn_roc_auc_collector):.4f}±{np.std(rnn_roc_auc_collector):.4f}\n"
+            f"Transformer with {naive_method} imputation PR_AUC: {np.mean(transformer_pr_auc_collector):.4f}±{np.std(transformer_pr_auc_collector):.4f}, "
+            f"ROC_AUC: {np.mean(transformer_roc_auc_collector):.4f}±{np.std(transformer_roc_auc_collector):.4f}\n"
+        )
