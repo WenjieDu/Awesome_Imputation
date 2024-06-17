@@ -12,7 +12,7 @@ import h5py
 import numpy as np
 import torch
 import torch.nn as nn
-from pypots.data.saving import pickle_load
+from pypots.data.saving import load_dict_from_h5
 from pypots.nn.modules.transformer import (
     TransformerEncoder,
     PositionalEncoding,
@@ -159,12 +159,6 @@ if __name__ == "__main__":
         required=True,
     )
     parser.add_argument(
-        "--model",
-        type=str,
-        help="the model name",
-        required=True,
-    )
-    parser.add_argument(
         "--dataset",
         type=str,
         help="the dataset name",
@@ -174,12 +168,6 @@ if __name__ == "__main__":
         "--dataset_fold_path",
         type=str,
         help="the dataset fold path, where should include 3 H5 files train.h5, val.h5 and test.h5",
-        required=True,
-    )
-    parser.add_argument(
-        "--model_result_parent_fold",
-        type=str,
-        help="the parent fold of the model results, where should include the folds of 5 rounds",
         required=True,
     )
     args = parser.parse_args()
@@ -197,127 +185,97 @@ if __name__ == "__main__":
         pots_test_X = hf["X"][:, :, :-1]
         ori_test_X = hf["X_ori"][:]
 
-    train_X_collector = []
-    val_X_collector = []
-    test_X_collector = []
-
-    for n_round in range(5):
-        imputed_data_path = os.path.join(
-            args.model_result_parent_fold,
-            f"round_{n_round}/imputation.pkl",
-        )
-        imputed_data = pickle_load(imputed_data_path)
-        _train_X, _val_X, _test_X = (
-            imputed_data["train_set_imputation"][:, :, :-1],
-            imputed_data["val_set_imputation"][:, :, :-1],
-            imputed_data["test_set_imputation"][:, :, :-1],
-        )
-        train_X_collector.append(_train_X)
-        val_X_collector.append(_val_X)
-        test_X_collector.append(_test_X)
-    train_X, val_X, test_X = (
-        np.mean(np.stack(train_X_collector), axis=0),
-        np.mean(np.stack(val_X_collector), axis=0),
-        np.mean(np.stack(test_X_collector), axis=0),
-    )
-
     xgb_wo_metrics_collector = {"mae": [], "mse": [], "mre": []}
     xgb_metrics_collector = {"mae": [], "mse": [], "mre": []}
     rnn_metrics_collector = {"mae": [], "mse": [], "mre": []}
     transformer_metrics_collector = {"mae": [], "mse": [], "mre": []}
 
-    train_y, val_y, test_y = (
-        ori_train_X[:, :, -1],
-        ori_val_X[:, :, -1],
-        ori_test_X[:, :, -1],
+    imputed_data_path = os.path.join(
+        args.dataset_fold_path,
+        f"naive_imputation.h5",
     )
-    train_loader, val_loader, test_loader = get_dataloaders(
-        train_X,
-        np.expand_dims(train_y, -1),
-        val_X,
-        np.expand_dims(val_y, -1),
-        test_X,
-        np.expand_dims(test_y, -1),
-    )
-    for n_round in range(5):
-        set_random_seed(RANDOM_SEEDS[n_round])
+    imputed_data = load_dict_from_h5(imputed_data_path)
+    for naive_method in ["mean", "median", "locf", "linear_interpolation"]:
+        for n_round in range(5):
+            train_X, val_X, test_X = (
+                imputed_data["train"][naive_method][:, :, :-1],
+                imputed_data["val"][naive_method][:, :, :-1],
+                imputed_data["test"][naive_method][:, :, :-1],
+            )
+            train_y, val_y, test_y = (
+                ori_train_X[:, :, -1],
+                ori_val_X[:, :, -1],
+                ori_test_X[:, :, -1],
+            )
+            train_loader, val_loader, test_loader = get_dataloaders(
+                train_X,
+                np.expand_dims(train_y, -1),
+                val_X,
+                np.expand_dims(val_y, -1),
+                test_X,
+                np.expand_dims(test_y, -1),
+            )
+            set_random_seed(RANDOM_SEEDS[n_round])
+            n_flatten_features = np.product(train_X.shape[1:])
 
-        # XGBoost model without imputation
-        n_flatten_features = np.product(train_X.shape[1:])
-        xgb = XGBRegressor()
-        xgb.fit(
-            pots_train_X.reshape(-1, n_flatten_features),
-            train_y,
-            eval_set=[(pots_val_X.reshape(-1, n_flatten_features), val_y)],
-            verbose=False,
-        )
-        predictions = xgb.predict(pots_test_X.reshape(-1, n_flatten_features))
-        xgb_wo_metrics_collector["mae"].append(calc_mae(predictions, test_y))
-        xgb_wo_metrics_collector["mse"].append(calc_mse(predictions, test_y))
-        xgb_wo_metrics_collector["mre"].append(calc_mre(predictions, test_y))
+            # XGBoost model with imputation
+            xgb = XGBRegressor()
+            xgb.fit(
+                train_X.reshape(-1, n_flatten_features),
+                train_y,
+                eval_set=[(val_X.reshape(-1, n_flatten_features), val_y)],
+                verbose=False,
+            )
+            predictions = xgb.predict(test_X.reshape(-1, n_flatten_features))
+            xgb_metrics_collector["mae"].append(calc_mae(predictions, test_y))
+            xgb_metrics_collector["mse"].append(calc_mse(predictions, test_y))
+            xgb_metrics_collector["mre"].append(calc_mre(predictions, test_y))
 
-        # XGBoost model without imputation
-        xgb = XGBRegressor()
-        xgb.fit(
-            train_X.reshape(-1, n_flatten_features),
-            train_y,
-            eval_set=[(val_X.reshape(-1, n_flatten_features), val_y)],
-            verbose=False,
-        )
-        predictions = xgb.predict(test_X.reshape(-1, n_flatten_features))
-        xgb_metrics_collector["mae"].append(calc_mae(predictions, test_y))
-        xgb_metrics_collector["mse"].append(calc_mse(predictions, test_y))
-        xgb_metrics_collector["mre"].append(calc_mre(predictions, test_y))
+            # RNN model
+            simple_rnn_regressor = SimpleRNNRegressor(
+                n_features=train_X.shape[-1], rnn_hidden_size=128, n_out_features=1
+            )
+            simple_rnn_regressor = simple_rnn_regressor.to(args.device)
+            predictions = train(simple_rnn_regressor, train_loader, val_loader)
+            rnn_metrics_collector["mae"].append(calc_mae(predictions.squeeze(), test_y))
+            rnn_metrics_collector["mse"].append(calc_mse(predictions.squeeze(), test_y))
+            rnn_metrics_collector["mre"].append(calc_mre(predictions.squeeze(), test_y))
 
-        # RNN model
-        simple_rnn_regressor = SimpleRNNRegressor(
-            n_features=train_X.shape[-1], rnn_hidden_size=128, n_out_features=1
-        )
-        simple_rnn_regressor = simple_rnn_regressor.to(args.device)
-        predictions = train(simple_rnn_regressor, train_loader, val_loader)
-        rnn_metrics_collector["mae"].append(calc_mae(predictions.squeeze(), test_y))
-        rnn_metrics_collector["mse"].append(calc_mse(predictions.squeeze(), test_y))
-        rnn_metrics_collector["mre"].append(calc_mre(predictions.squeeze(), test_y))
+            # Transformer model
+            transformer_classifier = TransformerRegressor(
+                n_features=train_X.shape[-1],
+                n_out_features=1,
+                n_layers=1,
+                d_model=64,
+                n_heads=2,
+                d_ffn=128,
+                dropout=0.1,
+                attn_dropout=0,
+            )
+            transformer_classifier = transformer_classifier.to(args.device)
+            predictions = train(transformer_classifier, train_loader, val_loader)
+            transformer_metrics_collector["mae"].append(
+                calc_mae(predictions.squeeze(), test_y)
+            )
+            transformer_metrics_collector["mse"].append(
+                calc_mse(predictions.squeeze(), test_y)
+            )
+            transformer_metrics_collector["mre"].append(
+                calc_mre(predictions.squeeze(), test_y)
+            )
 
-        # Transformer model
-        transformer_classifier = TransformerRegressor(
-            n_features=train_X.shape[-1],
-            n_out_features=1,
-            n_layers=1,
-            d_model=64,
-            n_heads=2,
-            d_ffn=128,
-            dropout=0.1,
-            attn_dropout=0,
+        logger.info(
+            "\n"
+            f"XGB (with {naive_method} imputation) regression "
+            f"MAE: {np.mean(xgb_metrics_collector['mae']):.4f}±{np.std(xgb_metrics_collector['mae']):.4f}, "
+            f"MSE: {np.mean(xgb_metrics_collector['mse']):.4f}±{np.std(xgb_metrics_collector['mse']):.4f}, "
+            f"MRE: {np.mean(xgb_metrics_collector['mre']):.4f}±{np.std(xgb_metrics_collector['mre']):.4f}\n"
+            f"RNN (with {naive_method} imputation) regression "
+            f"MAE: {np.mean(rnn_metrics_collector['mae']):.4f}±{np.std(rnn_metrics_collector['mae']):.4f}, "
+            f"MSE: {np.mean(rnn_metrics_collector['mse']):.4f}±{np.std(rnn_metrics_collector['mse']):.4f}, "
+            f"MRE: {np.mean(rnn_metrics_collector['mre']):.4f}±{np.std(rnn_metrics_collector['mre']):.4f}\n"
+            f"Transformer (with {naive_method} imputation) regression "
+            f"MAE: {np.mean(transformer_metrics_collector['mae']):.4f}±{np.std(transformer_metrics_collector['mae']):.4f}, "
+            f"MSE: {np.mean(transformer_metrics_collector['mse']):.4f}±{np.std(transformer_metrics_collector['mse']):.4f}, "
+            f"MRE: {np.mean(transformer_metrics_collector['mre']):.4f}±{np.std(transformer_metrics_collector['mre']):.4f}\n"
         )
-        transformer_classifier = transformer_classifier.to(args.device)
-        predictions = train(transformer_classifier, train_loader, val_loader)
-        transformer_metrics_collector["mae"].append(
-            calc_mae(predictions.squeeze(), test_y)
-        )
-        transformer_metrics_collector["mse"].append(
-            calc_mse(predictions.squeeze(), test_y)
-        )
-        transformer_metrics_collector["mre"].append(
-            calc_mre(predictions.squeeze(), test_y)
-        )
-
-    logger.info(
-        "\n"
-        f"XGB (without imputation) regression "
-        f"MAE: {np.mean(xgb_wo_metrics_collector['mae']):.4f}±{np.std(xgb_wo_metrics_collector['mae']):.4f}, "
-        f"MSE: {np.mean(xgb_wo_metrics_collector['mse']):.4f}±{np.std(xgb_wo_metrics_collector['mse']):.4f}, "
-        f"MRE: {np.mean(xgb_wo_metrics_collector['mre']):.4f}±{np.std(xgb_wo_metrics_collector['mre']):.4f}\n"
-        f"XGB (with {args.model} imputation) regression "
-        f"MAE: {np.mean(xgb_metrics_collector['mae']):.4f}±{np.std(xgb_metrics_collector['mae']):.4f}, "
-        f"MSE: {np.mean(xgb_metrics_collector['mse']):.4f}±{np.std(xgb_metrics_collector['mse']):.4f}, "
-        f"MRE: {np.mean(xgb_metrics_collector['mre']):.4f}±{np.std(xgb_metrics_collector['mre']):.4f}\n"
-        f"RNN (with {args.model} imputation) regression "
-        f"MAE: {np.mean(rnn_metrics_collector['mae']):.4f}±{np.std(rnn_metrics_collector['mae']):.4f}, "
-        f"MSE: {np.mean(rnn_metrics_collector['mse']):.4f}±{np.std(rnn_metrics_collector['mse']):.4f}, "
-        f"MRE: {np.mean(rnn_metrics_collector['mre']):.4f}±{np.std(rnn_metrics_collector['mre']):.4f}\n"
-        f"Transformer (with {args.model} imputation) regression "
-        f"MAE: {np.mean(transformer_metrics_collector['mae']):.4f}±{np.std(transformer_metrics_collector['mae']):.4f}, "
-        f"MSE: {np.mean(transformer_metrics_collector['mse']):.4f}±{np.std(transformer_metrics_collector['mse']):.4f}, "
-        f"MRE: {np.mean(transformer_metrics_collector['mre']):.4f}±{np.std(transformer_metrics_collector['mre']):.4f}\n"
-    )
