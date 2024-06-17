@@ -1,0 +1,157 @@
+2024-06-03 03:32:36 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 03:32:36 [INFO]: Using the given device: cuda:0
+2024-06-03 03:32:37 [INFO]: Model files will be saved to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_0/20240603_T033237
+2024-06-03 03:32:37 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_0/20240603_T033237/tensorboard
+2024-06-03 03:32:38 [INFO]: BRITS initialized with the given hyperparameters, the number of trainable parameters: 2,178,496
+2024-06-03 03:33:04 [INFO]: Epoch 001 - training loss: 1.4974, validation loss: 0.9456
+2024-06-03 03:33:24 [INFO]: Epoch 002 - training loss: 1.2810, validation loss: 1.0577
+2024-06-03 03:33:39 [INFO]: Epoch 003 - training loss: 1.0944, validation loss: 1.0078
+2024-06-03 03:33:52 [INFO]: Epoch 004 - training loss: 0.9941, validation loss: 0.9567
+2024-06-03 03:34:03 [INFO]: Epoch 005 - training loss: 0.8926, validation loss: 0.9236
+2024-06-03 03:34:12 [INFO]: Epoch 006 - training loss: 0.8278, validation loss: 0.8443
+2024-06-03 03:34:21 [INFO]: Epoch 007 - training loss: 0.7763, validation loss: 0.9342
+2024-06-03 03:34:29 [INFO]: Epoch 008 - training loss: 0.7398, validation loss: 0.8434
+2024-06-03 03:34:38 [INFO]: Epoch 009 - training loss: 0.7128, validation loss: 0.8786
+2024-06-03 03:34:48 [INFO]: Epoch 010 - training loss: 0.6883, validation loss: 0.8934
+2024-06-03 03:34:57 [INFO]: Epoch 011 - training loss: 0.6685, validation loss: 0.9497
+2024-06-03 03:35:07 [INFO]: Epoch 012 - training loss: 0.6521, validation loss: 0.9038
+2024-06-03 03:35:20 [INFO]: Epoch 013 - training loss: 0.6395, validation loss: 0.8987
+2024-06-03 03:35:34 [INFO]: Epoch 014 - training loss: 0.6366, validation loss: 0.9312
+2024-06-03 03:35:53 [INFO]: Epoch 015 - training loss: 0.6145, validation loss: 0.9202
+2024-06-03 03:36:01 [INFO]: Epoch 016 - training loss: 0.6027, validation loss: 0.9548
+2024-06-03 03:36:11 [INFO]: Epoch 017 - training loss: 0.5870, validation loss: 0.9975
+2024-06-03 03:36:18 [INFO]: Epoch 018 - training loss: 0.5809, validation loss: 0.9723
+2024-06-03 03:36:18 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:36:18 [INFO]: Finished training. The best model is from epoch#8.
+2024-06-03 03:36:19 [INFO]: Saved the model to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_0/20240603_T033237/BRITS.pypots
+2024-06-03 03:36:30 [INFO]: Successfully saved to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_0/imputation.pkl
+2024-06-03 03:36:30 [INFO]: Round0 - BRITS on ETT_h1: MAE=0.7656, MSE=1.1629, MRE=0.8624
+2024-06-03 03:36:30 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 03:36:30 [INFO]: Using the given device: cuda:0
+2024-06-03 03:36:30 [INFO]: Model files will be saved to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_1/20240603_T033630
+2024-06-03 03:36:30 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_1/20240603_T033630/tensorboard
+2024-06-03 03:36:30 [INFO]: BRITS initialized with the given hyperparameters, the number of trainable parameters: 2,178,496
+2024-06-03 03:36:40 [INFO]: Epoch 001 - training loss: 1.5450, validation loss: 1.0984
+2024-06-03 03:36:49 [INFO]: Epoch 002 - training loss: 1.3522, validation loss: 1.0287
+2024-06-03 03:37:02 [INFO]: Epoch 003 - training loss: 1.1649, validation loss: 1.0835
+2024-06-03 03:37:16 [INFO]: Epoch 004 - training loss: 1.0297, validation loss: 1.0329
+2024-06-03 03:37:35 [INFO]: Epoch 005 - training loss: 0.9131, validation loss: 0.9097
+2024-06-03 03:37:44 [INFO]: Epoch 006 - training loss: 0.8369, validation loss: 0.9315
+2024-06-03 03:37:53 [INFO]: Epoch 007 - training loss: 0.7830, validation loss: 0.8689
+2024-06-03 03:38:02 [INFO]: Epoch 008 - training loss: 0.7415, validation loss: 0.9689
+2024-06-03 03:38:12 [INFO]: Epoch 009 - training loss: 0.7187, validation loss: 0.9391
+2024-06-03 03:38:21 [INFO]: Epoch 010 - training loss: 0.6929, validation loss: 0.9255
+2024-06-03 03:38:30 [INFO]: Epoch 011 - training loss: 0.6760, validation loss: 0.9545
+2024-06-03 03:38:40 [INFO]: Epoch 012 - training loss: 0.6608, validation loss: 0.8567
+2024-06-03 03:38:49 [INFO]: Epoch 013 - training loss: 0.6459, validation loss: 0.8999
+2024-06-03 03:38:59 [INFO]: Epoch 014 - training loss: 0.6269, validation loss: 0.8607
+2024-06-03 03:39:08 [INFO]: Epoch 015 - training loss: 0.6142, validation loss: 0.9397
+2024-06-03 03:39:17 [INFO]: Epoch 016 - training loss: 0.5956, validation loss: 0.8540
+2024-06-03 03:39:26 [INFO]: Epoch 017 - training loss: 0.5850, validation loss: 0.8663
+2024-06-03 03:39:35 [INFO]: Epoch 018 - training loss: 0.5717, validation loss: 0.8594
+2024-06-03 03:39:45 [INFO]: Epoch 019 - training loss: 0.5610, validation loss: 0.8807
+2024-06-03 03:39:57 [INFO]: Epoch 020 - training loss: 0.5551, validation loss: 0.8363
+2024-06-03 03:40:17 [INFO]: Epoch 021 - training loss: 0.5404, validation loss: 0.9155
+2024-06-03 03:40:29 [INFO]: Epoch 022 - training loss: 0.5460, validation loss: 0.8565
+2024-06-03 03:40:38 [INFO]: Epoch 023 - training loss: 0.5318, validation loss: 0.8776
+2024-06-03 03:40:48 [INFO]: Epoch 024 - training loss: 0.5219, validation loss: 0.8587
+2024-06-03 03:40:57 [INFO]: Epoch 025 - training loss: 0.5123, validation loss: 0.8501
+2024-06-03 03:41:06 [INFO]: Epoch 026 - training loss: 0.5089, validation loss: 0.8066
+2024-06-03 03:41:16 [INFO]: Epoch 027 - training loss: 0.4996, validation loss: 0.8822
+2024-06-03 03:41:25 [INFO]: Epoch 028 - training loss: 0.5018, validation loss: 0.8698
+2024-06-03 03:41:33 [INFO]: Epoch 029 - training loss: 0.4902, validation loss: 0.8404
+2024-06-03 03:41:46 [INFO]: Epoch 030 - training loss: 0.4830, validation loss: 0.8706
+2024-06-03 03:42:01 [INFO]: Epoch 031 - training loss: 0.4778, validation loss: 0.8441
+2024-06-03 03:42:20 [INFO]: Epoch 032 - training loss: 0.4675, validation loss: 0.8487
+2024-06-03 03:42:28 [INFO]: Epoch 033 - training loss: 0.4668, validation loss: 0.8287
+2024-06-03 03:42:38 [INFO]: Epoch 034 - training loss: 0.4666, validation loss: 0.8249
+2024-06-03 03:42:47 [INFO]: Epoch 035 - training loss: 0.4612, validation loss: 0.8255
+2024-06-03 03:42:57 [INFO]: Epoch 036 - training loss: 0.4533, validation loss: 0.8296
+2024-06-03 03:42:57 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:42:57 [INFO]: Finished training. The best model is from epoch#26.
+2024-06-03 03:42:57 [INFO]: Saved the model to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_1/20240603_T033630/BRITS.pypots
+2024-06-03 03:43:08 [INFO]: Successfully saved to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_1/imputation.pkl
+2024-06-03 03:43:08 [INFO]: Round1 - BRITS on ETT_h1: MAE=0.6838, MSE=0.9766, MRE=0.7702
+2024-06-03 03:43:08 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 03:43:08 [INFO]: Using the given device: cuda:0
+2024-06-03 03:43:08 [INFO]: Model files will be saved to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_2/20240603_T034308
+2024-06-03 03:43:08 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_2/20240603_T034308/tensorboard
+2024-06-03 03:43:08 [INFO]: BRITS initialized with the given hyperparameters, the number of trainable parameters: 2,178,496
+2024-06-03 03:43:18 [INFO]: Epoch 001 - training loss: 1.5505, validation loss: 1.0324
+2024-06-03 03:43:27 [INFO]: Epoch 002 - training loss: 1.3496, validation loss: 1.0396
+2024-06-03 03:43:36 [INFO]: Epoch 003 - training loss: 1.1916, validation loss: 1.0115
+2024-06-03 03:43:49 [INFO]: Epoch 004 - training loss: 1.0363, validation loss: 0.9052
+2024-06-03 03:44:05 [INFO]: Epoch 005 - training loss: 0.9294, validation loss: 0.8512
+2024-06-03 03:44:23 [INFO]: Epoch 006 - training loss: 0.8482, validation loss: 0.8288
+2024-06-03 03:44:26 [INFO]: Epoch 007 - training loss: 0.7948, validation loss: 0.8320
+2024-06-03 03:44:27 [INFO]: Epoch 008 - training loss: 0.7507, validation loss: 0.8001
+2024-06-03 03:44:28 [INFO]: Epoch 009 - training loss: 0.7259, validation loss: 0.8037
+2024-06-03 03:44:29 [INFO]: Epoch 010 - training loss: 0.6987, validation loss: 0.8364
+2024-06-03 03:44:30 [INFO]: Epoch 011 - training loss: 0.6745, validation loss: 0.8123
+2024-06-03 03:44:31 [INFO]: Epoch 012 - training loss: 0.6566, validation loss: 0.8141
+2024-06-03 03:44:32 [INFO]: Epoch 013 - training loss: 0.6430, validation loss: 0.8314
+2024-06-03 03:44:33 [INFO]: Epoch 014 - training loss: 0.6286, validation loss: 0.8215
+2024-06-03 03:44:35 [INFO]: Epoch 015 - training loss: 0.6145, validation loss: 0.9140
+2024-06-03 03:44:36 [INFO]: Epoch 016 - training loss: 0.6035, validation loss: 0.8370
+2024-06-03 03:44:37 [INFO]: Epoch 017 - training loss: 0.5945, validation loss: 0.8589
+2024-06-03 03:44:38 [INFO]: Epoch 018 - training loss: 0.5840, validation loss: 0.8706
+2024-06-03 03:44:38 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:44:38 [INFO]: Finished training. The best model is from epoch#8.
+2024-06-03 03:44:38 [INFO]: Saved the model to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_2/20240603_T034308/BRITS.pypots
+2024-06-03 03:44:39 [INFO]: Successfully saved to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_2/imputation.pkl
+2024-06-03 03:44:39 [INFO]: Round2 - BRITS on ETT_h1: MAE=0.7313, MSE=1.0406, MRE=0.8237
+2024-06-03 03:44:39 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 03:44:39 [INFO]: Using the given device: cuda:0
+2024-06-03 03:44:39 [INFO]: Model files will be saved to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_3/20240603_T034439
+2024-06-03 03:44:39 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_3/20240603_T034439/tensorboard
+2024-06-03 03:44:39 [INFO]: BRITS initialized with the given hyperparameters, the number of trainable parameters: 2,178,496
+2024-06-03 03:44:41 [INFO]: Epoch 001 - training loss: 1.5032, validation loss: 1.1091
+2024-06-03 03:44:42 [INFO]: Epoch 002 - training loss: 1.2538, validation loss: 1.0167
+2024-06-03 03:44:43 [INFO]: Epoch 003 - training loss: 1.0851, validation loss: 0.9684
+2024-06-03 03:44:44 [INFO]: Epoch 004 - training loss: 0.9540, validation loss: 0.9419
+2024-06-03 03:44:45 [INFO]: Epoch 005 - training loss: 0.8659, validation loss: 0.8596
+2024-06-03 03:44:46 [INFO]: Epoch 006 - training loss: 0.8040, validation loss: 0.9748
+2024-06-03 03:44:47 [INFO]: Epoch 007 - training loss: 0.7681, validation loss: 0.8459
+2024-06-03 03:44:48 [INFO]: Epoch 008 - training loss: 0.7337, validation loss: 0.8286
+2024-06-03 03:44:50 [INFO]: Epoch 009 - training loss: 0.7071, validation loss: 0.8912
+2024-06-03 03:44:51 [INFO]: Epoch 010 - training loss: 0.6891, validation loss: 0.9392
+2024-06-03 03:44:52 [INFO]: Epoch 011 - training loss: 0.6680, validation loss: 0.8326
+2024-06-03 03:44:53 [INFO]: Epoch 012 - training loss: 0.6479, validation loss: 0.9237
+2024-06-03 03:44:54 [INFO]: Epoch 013 - training loss: 0.6313, validation loss: 1.0170
+2024-06-03 03:44:55 [INFO]: Epoch 014 - training loss: 0.6168, validation loss: 0.9541
+2024-06-03 03:44:56 [INFO]: Epoch 015 - training loss: 0.6002, validation loss: 0.9564
+2024-06-03 03:44:57 [INFO]: Epoch 016 - training loss: 0.5901, validation loss: 0.9044
+2024-06-03 03:44:59 [INFO]: Epoch 017 - training loss: 0.5794, validation loss: 0.9030
+2024-06-03 03:45:00 [INFO]: Epoch 018 - training loss: 0.5812, validation loss: 0.8658
+2024-06-03 03:45:00 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:45:00 [INFO]: Finished training. The best model is from epoch#8.
+2024-06-03 03:45:00 [INFO]: Saved the model to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_3/20240603_T034439/BRITS.pypots
+2024-06-03 03:45:01 [INFO]: Successfully saved to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_3/imputation.pkl
+2024-06-03 03:45:01 [INFO]: Round3 - BRITS on ETT_h1: MAE=0.7237, MSE=1.0375, MRE=0.8151
+2024-06-03 03:45:01 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 03:45:01 [INFO]: Using the given device: cuda:0
+2024-06-03 03:45:01 [INFO]: Model files will be saved to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_4/20240603_T034501
+2024-06-03 03:45:01 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_4/20240603_T034501/tensorboard
+2024-06-03 03:45:01 [INFO]: BRITS initialized with the given hyperparameters, the number of trainable parameters: 2,178,496
+2024-06-03 03:45:02 [INFO]: Epoch 001 - training loss: 1.4739, validation loss: 0.9982
+2024-06-03 03:45:03 [INFO]: Epoch 002 - training loss: 1.2999, validation loss: 0.9341
+2024-06-03 03:45:04 [INFO]: Epoch 003 - training loss: 1.1047, validation loss: 0.8741
+2024-06-03 03:45:06 [INFO]: Epoch 004 - training loss: 0.9506, validation loss: 0.8508
+2024-06-03 03:45:07 [INFO]: Epoch 005 - training loss: 0.8560, validation loss: 0.7546
+2024-06-03 03:45:08 [INFO]: Epoch 006 - training loss: 0.7883, validation loss: 0.8231
+2024-06-03 03:45:09 [INFO]: Epoch 007 - training loss: 0.7430, validation loss: 0.8219
+2024-06-03 03:45:10 [INFO]: Epoch 008 - training loss: 0.7160, validation loss: 0.8494
+2024-06-03 03:45:11 [INFO]: Epoch 009 - training loss: 0.6940, validation loss: 0.8552
+2024-06-03 03:45:12 [INFO]: Epoch 010 - training loss: 0.6739, validation loss: 0.8376
+2024-06-03 03:45:13 [INFO]: Epoch 011 - training loss: 0.6510, validation loss: 0.8134
+2024-06-03 03:45:15 [INFO]: Epoch 012 - training loss: 0.6257, validation loss: 0.8772
+2024-06-03 03:45:16 [INFO]: Epoch 013 - training loss: 0.6091, validation loss: 0.8393
+2024-06-03 03:45:17 [INFO]: Epoch 014 - training loss: 0.5908, validation loss: 0.9421
+2024-06-03 03:45:18 [INFO]: Epoch 015 - training loss: 0.5924, validation loss: 0.9047
+2024-06-03 03:45:18 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:45:18 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 03:45:18 [INFO]: Saved the model to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_4/20240603_T034501/BRITS.pypots
+2024-06-03 03:45:19 [INFO]: Successfully saved to results_subseq_rate05/ETT_h1/BRITS_ETT_h1/round_4/imputation.pkl
+2024-06-03 03:45:19 [INFO]: Round4 - BRITS on ETT_h1: MAE=0.7444, MSE=1.1056, MRE=0.8385
+2024-06-03 03:45:19 [INFO]: Done! Final results:
+Averaged BRITS (2,178,496 params) on ETT_h1: MAE=0.7298 ± 0.027015430216794586, MSE=1.0646 ± 0.0638699980569047, MRE=0.8220 ± 0.03042904790849542, average inference time=1.18

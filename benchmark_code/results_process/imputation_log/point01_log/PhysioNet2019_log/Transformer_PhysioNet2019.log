@@ -1,0 +1,111 @@
+2024-06-03 19:01:49 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 19:01:49 [INFO]: Using the given device: cuda:0
+2024-06-03 19:01:50 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_0/20240603_T190150
+2024-06-03 19:01:50 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_0/20240603_T190150/tensorboard
+2024-06-03 19:01:52 [INFO]: Transformer initialized with the given hyperparameters, the number of trainable parameters: 88,352,801
+2024-06-03 19:02:28 [INFO]: Epoch 001 - training loss: 1.2515, validation loss: 0.1028
+2024-06-03 19:02:59 [INFO]: Epoch 002 - training loss: 0.6900, validation loss: 0.0819
+2024-06-03 19:03:29 [INFO]: Epoch 003 - training loss: 0.6052, validation loss: 0.1116
+2024-06-03 19:04:01 [INFO]: Epoch 004 - training loss: 0.5596, validation loss: 0.1143
+2024-06-03 19:04:31 [INFO]: Epoch 005 - training loss: 0.5204, validation loss: 0.1079
+2024-06-03 19:05:01 [INFO]: Epoch 006 - training loss: 0.5040, validation loss: 0.1408
+2024-06-03 19:05:32 [INFO]: Epoch 007 - training loss: 0.4789, validation loss: 0.1511
+2024-06-03 19:06:02 [INFO]: Epoch 008 - training loss: 0.4742, validation loss: 0.1401
+2024-06-03 19:06:33 [INFO]: Epoch 009 - training loss: 0.4638, validation loss: 0.1433
+2024-06-03 19:07:04 [INFO]: Epoch 010 - training loss: 0.4568, validation loss: 0.1546
+2024-06-03 19:07:35 [INFO]: Epoch 011 - training loss: 0.4325, validation loss: 0.1335
+2024-06-03 19:08:05 [INFO]: Epoch 012 - training loss: 0.4372, validation loss: 0.1321
+2024-06-03 19:08:06 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:08:06 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 19:08:07 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_0/20240603_T190150/Transformer.pypots
+2024-06-03 19:08:18 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_0/imputation.pkl
+2024-06-03 19:08:18 [INFO]: Round0 - Transformer on PhysioNet2019: MAE=0.3409, MSE=0.2946, MRE=0.4475
+2024-06-03 19:08:18 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:08:18 [INFO]: Using the given device: cuda:0
+2024-06-03 19:08:18 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_1/20240603_T190818
+2024-06-03 19:08:18 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_1/20240603_T190818/tensorboard
+2024-06-03 19:08:21 [INFO]: Transformer initialized with the given hyperparameters, the number of trainable parameters: 88,352,801
+2024-06-03 19:08:52 [INFO]: Epoch 001 - training loss: 1.2587, validation loss: 0.1168
+2024-06-03 19:09:23 [INFO]: Epoch 002 - training loss: 0.6976, validation loss: 0.1042
+2024-06-03 19:09:53 [INFO]: Epoch 003 - training loss: 0.6072, validation loss: 0.1006
+2024-06-03 19:10:23 [INFO]: Epoch 004 - training loss: 0.5603, validation loss: 0.1241
+2024-06-03 19:10:50 [INFO]: Epoch 005 - training loss: 0.5277, validation loss: 0.1246
+2024-06-03 19:11:18 [INFO]: Epoch 006 - training loss: 0.5058, validation loss: 0.1230
+2024-06-03 19:11:44 [INFO]: Epoch 007 - training loss: 0.4732, validation loss: 0.1324
+2024-06-03 19:12:14 [INFO]: Epoch 008 - training loss: 0.4753, validation loss: 0.1498
+2024-06-03 19:12:44 [INFO]: Epoch 009 - training loss: 0.4588, validation loss: 0.1410
+2024-06-03 19:13:16 [INFO]: Epoch 010 - training loss: 0.4408, validation loss: 0.1602
+2024-06-03 19:13:46 [INFO]: Epoch 011 - training loss: 0.4494, validation loss: 0.1459
+2024-06-03 19:14:16 [INFO]: Epoch 012 - training loss: 0.4391, validation loss: 0.1542
+2024-06-03 19:14:46 [INFO]: Epoch 013 - training loss: 0.4292, validation loss: 0.1498
+2024-06-03 19:14:46 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:14:46 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 19:14:48 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_1/20240603_T190818/Transformer.pypots
+2024-06-03 19:14:59 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_1/imputation.pkl
+2024-06-03 19:14:59 [INFO]: Round1 - Transformer on PhysioNet2019: MAE=0.3423, MSE=0.2926, MRE=0.4492
+2024-06-03 19:14:59 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:14:59 [INFO]: Using the given device: cuda:0
+2024-06-03 19:14:59 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_2/20240603_T191459
+2024-06-03 19:14:59 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_2/20240603_T191459/tensorboard
+2024-06-03 19:15:02 [INFO]: Transformer initialized with the given hyperparameters, the number of trainable parameters: 88,352,801
+2024-06-03 19:15:32 [INFO]: Epoch 001 - training loss: 1.2189, validation loss: 0.1074
+2024-06-03 19:16:03 [INFO]: Epoch 002 - training loss: 0.6718, validation loss: 0.1074
+2024-06-03 19:16:33 [INFO]: Epoch 003 - training loss: 0.6114, validation loss: 0.1257
+2024-06-03 19:17:03 [INFO]: Epoch 004 - training loss: 0.5581, validation loss: 0.1179
+2024-06-03 19:17:34 [INFO]: Epoch 005 - training loss: 0.5320, validation loss: 0.1694
+2024-06-03 19:18:04 [INFO]: Epoch 006 - training loss: 0.4975, validation loss: 0.1328
+2024-06-03 19:18:32 [INFO]: Epoch 007 - training loss: 0.4837, validation loss: 0.1496
+2024-06-03 19:19:01 [INFO]: Epoch 008 - training loss: 0.4735, validation loss: 0.1475
+2024-06-03 19:19:26 [INFO]: Epoch 009 - training loss: 0.4551, validation loss: 0.1617
+2024-06-03 19:19:56 [INFO]: Epoch 010 - training loss: 0.4469, validation loss: 0.1806
+2024-06-03 19:20:27 [INFO]: Epoch 011 - training loss: 0.4424, validation loss: 0.1806
+2024-06-03 19:20:27 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:20:27 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:20:29 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_2/20240603_T191459/Transformer.pypots
+2024-06-03 19:20:39 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_2/imputation.pkl
+2024-06-03 19:20:39 [INFO]: Round2 - Transformer on PhysioNet2019: MAE=0.3439, MSE=0.3010, MRE=0.4514
+2024-06-03 19:20:39 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:20:39 [INFO]: Using the given device: cuda:0
+2024-06-03 19:20:39 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_3/20240603_T192039
+2024-06-03 19:20:39 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_3/20240603_T192039/tensorboard
+2024-06-03 19:20:43 [INFO]: Transformer initialized with the given hyperparameters, the number of trainable parameters: 88,352,801
+2024-06-03 19:21:13 [INFO]: Epoch 001 - training loss: 1.1984, validation loss: 0.0915
+2024-06-03 19:21:45 [INFO]: Epoch 002 - training loss: 0.6812, validation loss: 0.1061
+2024-06-03 19:22:15 [INFO]: Epoch 003 - training loss: 0.6143, validation loss: 0.1142
+2024-06-03 19:22:45 [INFO]: Epoch 004 - training loss: 0.5553, validation loss: 0.1604
+2024-06-03 19:23:15 [INFO]: Epoch 005 - training loss: 0.5267, validation loss: 0.1065
+2024-06-03 19:23:46 [INFO]: Epoch 006 - training loss: 0.5037, validation loss: 0.1124
+2024-06-03 19:24:18 [INFO]: Epoch 007 - training loss: 0.4852, validation loss: 0.1097
+2024-06-03 19:24:48 [INFO]: Epoch 008 - training loss: 0.4645, validation loss: 0.1204
+2024-06-03 19:25:19 [INFO]: Epoch 009 - training loss: 0.4532, validation loss: 0.1392
+2024-06-03 19:25:49 [INFO]: Epoch 010 - training loss: 0.4450, validation loss: 0.1545
+2024-06-03 19:26:17 [INFO]: Epoch 011 - training loss: 0.4451, validation loss: 0.1250
+2024-06-03 19:26:17 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:26:17 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:26:19 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_3/20240603_T192039/Transformer.pypots
+2024-06-03 19:26:29 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_3/imputation.pkl
+2024-06-03 19:26:29 [INFO]: Round3 - Transformer on PhysioNet2019: MAE=0.3410, MSE=0.2935, MRE=0.4476
+2024-06-03 19:26:29 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:26:29 [INFO]: Using the given device: cuda:0
+2024-06-03 19:26:29 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_4/20240603_T192629
+2024-06-03 19:26:29 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_4/20240603_T192629/tensorboard
+2024-06-03 19:26:32 [INFO]: Transformer initialized with the given hyperparameters, the number of trainable parameters: 88,352,801
+2024-06-03 19:26:57 [INFO]: Epoch 001 - training loss: 1.2861, validation loss: 0.1146
+2024-06-03 19:27:23 [INFO]: Epoch 002 - training loss: 0.6916, validation loss: 0.0851
+2024-06-03 19:27:51 [INFO]: Epoch 003 - training loss: 0.6116, validation loss: 0.1052
+2024-06-03 19:28:19 [INFO]: Epoch 004 - training loss: 0.5535, validation loss: 0.0972
+2024-06-03 19:28:48 [INFO]: Epoch 005 - training loss: 0.5363, validation loss: 0.1280
+2024-06-03 19:29:15 [INFO]: Epoch 006 - training loss: 0.5004, validation loss: 0.1175
+2024-06-03 19:29:32 [INFO]: Epoch 007 - training loss: 0.4845, validation loss: 0.1255
+2024-06-03 19:29:48 [INFO]: Epoch 008 - training loss: 0.4704, validation loss: 0.1292
+2024-06-03 19:30:05 [INFO]: Epoch 009 - training loss: 0.4629, validation loss: 0.1394
+2024-06-03 19:30:20 [INFO]: Epoch 010 - training loss: 0.4495, validation loss: 0.1482
+2024-06-03 19:30:36 [INFO]: Epoch 011 - training loss: 0.4417, validation loss: 0.1482
+2024-06-03 19:30:52 [INFO]: Epoch 012 - training loss: 0.4363, validation loss: 0.1236
+2024-06-03 19:30:52 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:30:52 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 19:30:53 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_4/20240603_T192629/Transformer.pypots
+2024-06-03 19:30:59 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/Transformer_PhysioNet2019/round_4/imputation.pkl
+2024-06-03 19:30:59 [INFO]: Round4 - Transformer on PhysioNet2019: MAE=0.3383, MSE=0.2863, MRE=0.4440
+2024-06-03 19:30:59 [INFO]: Done! Final results:
+Averaged Transformer (88,352,801 params) on PhysioNet2019: MAE=0.3413 ± 0.0018428354307352631, MSE=0.2936 ± 0.0046834784519041855, MRE=0.4479 ± 0.0024187306688990763, average inference time=1.48

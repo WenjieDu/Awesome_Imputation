@@ -1,0 +1,134 @@
+2024-06-03 18:56:52 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 18:56:52 [INFO]: Using the given device: cuda:0
+2024-06-03 18:56:52 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_0/20240603_T185652
+2024-06-03 18:56:52 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_0/20240603_T185652/tensorboard
+2024-06-03 18:56:52 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=32
+2024-06-03 18:56:52 [WARNING]: ⚠️ d_model is reset to 128 = n_heads (4) * d_k (32)
+2024-06-03 18:56:53 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 644,051
+2024-06-03 18:57:11 [INFO]: Epoch 001 - training loss: 1.1747, validation loss: 0.1440
+2024-06-03 18:57:22 [INFO]: Epoch 002 - training loss: 0.7692, validation loss: 0.0875
+2024-06-03 18:57:37 [INFO]: Epoch 003 - training loss: 0.6773, validation loss: 0.0762
+2024-06-03 18:57:53 [INFO]: Epoch 004 - training loss: 0.6593, validation loss: 0.0708
+2024-06-03 18:58:09 [INFO]: Epoch 005 - training loss: 0.6495, validation loss: 0.0774
+2024-06-03 18:58:24 [INFO]: Epoch 006 - training loss: 0.6339, validation loss: 0.0734
+2024-06-03 18:58:40 [INFO]: Epoch 007 - training loss: 0.6210, validation loss: 0.0713
+2024-06-03 18:58:57 [INFO]: Epoch 008 - training loss: 0.6074, validation loss: 0.1072
+2024-06-03 18:59:12 [INFO]: Epoch 009 - training loss: 0.6015, validation loss: 0.0877
+2024-06-03 18:59:28 [INFO]: Epoch 010 - training loss: 0.5879, validation loss: 0.0841
+2024-06-03 18:59:44 [INFO]: Epoch 011 - training loss: 0.5751, validation loss: 0.1007
+2024-06-03 18:59:58 [INFO]: Epoch 012 - training loss: 0.5596, validation loss: 0.0887
+2024-06-03 19:00:13 [INFO]: Epoch 013 - training loss: 0.5470, validation loss: 0.1089
+2024-06-03 19:00:27 [INFO]: Epoch 014 - training loss: 0.5360, validation loss: 0.0954
+2024-06-03 19:00:27 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:00:27 [INFO]: Finished training. The best model is from epoch#4.
+2024-06-03 19:00:27 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_0/20240603_T185652/PatchTST.pypots
+2024-06-03 19:00:33 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_0/imputation.pkl
+2024-06-03 19:00:33 [INFO]: Round0 - PatchTST on PhysioNet2012: MAE=0.3609, MSE=0.5031, MRE=0.5006
+2024-06-03 19:00:33 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:00:33 [INFO]: Using the given device: cuda:0
+2024-06-03 19:00:33 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_1/20240603_T190033
+2024-06-03 19:00:33 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_1/20240603_T190033/tensorboard
+2024-06-03 19:00:33 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=32
+2024-06-03 19:00:33 [WARNING]: ⚠️ d_model is reset to 128 = n_heads (4) * d_k (32)
+2024-06-03 19:00:33 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 644,051
+2024-06-03 19:00:48 [INFO]: Epoch 001 - training loss: 1.1631, validation loss: 0.1598
+2024-06-03 19:01:04 [INFO]: Epoch 002 - training loss: 0.7593, validation loss: 0.1142
+2024-06-03 19:01:19 [INFO]: Epoch 003 - training loss: 0.6759, validation loss: 0.0803
+2024-06-03 19:01:34 [INFO]: Epoch 004 - training loss: 0.6549, validation loss: 0.0770
+2024-06-03 19:01:50 [INFO]: Epoch 005 - training loss: 0.6386, validation loss: 0.0920
+2024-06-03 19:02:05 [INFO]: Epoch 006 - training loss: 0.6263, validation loss: 0.0939
+2024-06-03 19:02:21 [INFO]: Epoch 007 - training loss: 0.6142, validation loss: 0.0926
+2024-06-03 19:02:37 [INFO]: Epoch 008 - training loss: 0.6008, validation loss: 0.0997
+2024-06-03 19:02:53 [INFO]: Epoch 009 - training loss: 0.5912, validation loss: 0.0900
+2024-06-03 19:03:08 [INFO]: Epoch 010 - training loss: 0.5792, validation loss: 0.0979
+2024-06-03 19:03:23 [INFO]: Epoch 011 - training loss: 0.5717, validation loss: 0.1085
+2024-06-03 19:03:38 [INFO]: Epoch 012 - training loss: 0.5561, validation loss: 0.0969
+2024-06-03 19:03:52 [INFO]: Epoch 013 - training loss: 0.5463, validation loss: 0.1002
+2024-06-03 19:04:07 [INFO]: Epoch 014 - training loss: 0.5351, validation loss: 0.0939
+2024-06-03 19:04:07 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:04:07 [INFO]: Finished training. The best model is from epoch#4.
+2024-06-03 19:04:07 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_1/20240603_T190033/PatchTST.pypots
+2024-06-03 19:04:13 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_1/imputation.pkl
+2024-06-03 19:04:13 [INFO]: Round1 - PatchTST on PhysioNet2012: MAE=0.3638, MSE=0.5285, MRE=0.5046
+2024-06-03 19:04:13 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:04:13 [INFO]: Using the given device: cuda:0
+2024-06-03 19:04:13 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_2/20240603_T190413
+2024-06-03 19:04:13 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_2/20240603_T190413/tensorboard
+2024-06-03 19:04:13 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=32
+2024-06-03 19:04:13 [WARNING]: ⚠️ d_model is reset to 128 = n_heads (4) * d_k (32)
+2024-06-03 19:04:13 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 644,051
+2024-06-03 19:04:29 [INFO]: Epoch 001 - training loss: 1.1174, validation loss: 0.1479
+2024-06-03 19:04:44 [INFO]: Epoch 002 - training loss: 0.7659, validation loss: 0.0859
+2024-06-03 19:04:59 [INFO]: Epoch 003 - training loss: 0.6793, validation loss: 0.0823
+2024-06-03 19:05:15 [INFO]: Epoch 004 - training loss: 0.6573, validation loss: 0.0822
+2024-06-03 19:05:31 [INFO]: Epoch 005 - training loss: 0.6404, validation loss: 0.0723
+2024-06-03 19:05:46 [INFO]: Epoch 006 - training loss: 0.6259, validation loss: 0.0800
+2024-06-03 19:06:02 [INFO]: Epoch 007 - training loss: 0.6158, validation loss: 0.0794
+2024-06-03 19:06:17 [INFO]: Epoch 008 - training loss: 0.6052, validation loss: 0.0774
+2024-06-03 19:06:32 [INFO]: Epoch 009 - training loss: 0.5924, validation loss: 0.0978
+2024-06-03 19:06:47 [INFO]: Epoch 010 - training loss: 0.5828, validation loss: 0.0826
+2024-06-03 19:07:02 [INFO]: Epoch 011 - training loss: 0.5711, validation loss: 0.0902
+2024-06-03 19:07:15 [INFO]: Epoch 012 - training loss: 0.5603, validation loss: 0.0927
+2024-06-03 19:07:27 [INFO]: Epoch 013 - training loss: 0.5489, validation loss: 0.0992
+2024-06-03 19:07:39 [INFO]: Epoch 014 - training loss: 0.5362, validation loss: 0.0943
+2024-06-03 19:07:54 [INFO]: Epoch 015 - training loss: 0.5258, validation loss: 0.1134
+2024-06-03 19:07:54 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:07:54 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 19:07:54 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_2/20240603_T190413/PatchTST.pypots
+2024-06-03 19:07:59 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_2/imputation.pkl
+2024-06-03 19:07:59 [INFO]: Round2 - PatchTST on PhysioNet2012: MAE=0.3577, MSE=0.4790, MRE=0.4962
+2024-06-03 19:07:59 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:07:59 [INFO]: Using the given device: cuda:0
+2024-06-03 19:07:59 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_3/20240603_T190759
+2024-06-03 19:07:59 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_3/20240603_T190759/tensorboard
+2024-06-03 19:07:59 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=32
+2024-06-03 19:07:59 [WARNING]: ⚠️ d_model is reset to 128 = n_heads (4) * d_k (32)
+2024-06-03 19:07:59 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 644,051
+2024-06-03 19:08:12 [INFO]: Epoch 001 - training loss: 1.1133, validation loss: 0.1317
+2024-06-03 19:08:24 [INFO]: Epoch 002 - training loss: 0.7527, validation loss: 0.0904
+2024-06-03 19:08:36 [INFO]: Epoch 003 - training loss: 0.6760, validation loss: 0.0803
+2024-06-03 19:08:51 [INFO]: Epoch 004 - training loss: 0.6504, validation loss: 0.0835
+2024-06-03 19:09:07 [INFO]: Epoch 005 - training loss: 0.6327, validation loss: 0.0720
+2024-06-03 19:09:22 [INFO]: Epoch 006 - training loss: 0.6168, validation loss: 0.0917
+2024-06-03 19:09:37 [INFO]: Epoch 007 - training loss: 0.6085, validation loss: 0.0777
+2024-06-03 19:09:53 [INFO]: Epoch 008 - training loss: 0.5989, validation loss: 0.0954
+2024-06-03 19:10:08 [INFO]: Epoch 009 - training loss: 0.5837, validation loss: 0.0835
+2024-06-03 19:10:22 [INFO]: Epoch 010 - training loss: 0.5738, validation loss: 0.0845
+2024-06-03 19:10:37 [INFO]: Epoch 011 - training loss: 0.5616, validation loss: 0.1049
+2024-06-03 19:10:53 [INFO]: Epoch 012 - training loss: 0.5452, validation loss: 0.1085
+2024-06-03 19:11:09 [INFO]: Epoch 013 - training loss: 0.5382, validation loss: 0.0983
+2024-06-03 19:11:25 [INFO]: Epoch 014 - training loss: 0.5288, validation loss: 0.1060
+2024-06-03 19:11:40 [INFO]: Epoch 015 - training loss: 0.5182, validation loss: 0.1215
+2024-06-03 19:11:40 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:11:40 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 19:11:41 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_3/20240603_T190759/PatchTST.pypots
+2024-06-03 19:11:46 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_3/imputation.pkl
+2024-06-03 19:11:46 [INFO]: Round3 - PatchTST on PhysioNet2012: MAE=0.3533, MSE=0.4438, MRE=0.4901
+2024-06-03 19:11:46 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:11:46 [INFO]: Using the given device: cuda:0
+2024-06-03 19:11:47 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_4/20240603_T191146
+2024-06-03 19:11:47 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_4/20240603_T191146/tensorboard
+2024-06-03 19:11:47 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=32
+2024-06-03 19:11:47 [WARNING]: ⚠️ d_model is reset to 128 = n_heads (4) * d_k (32)
+2024-06-03 19:11:47 [INFO]: PatchTST initialized with the given hyperparameters, the number of trainable parameters: 644,051
+2024-06-03 19:12:01 [INFO]: Epoch 001 - training loss: 1.1471, validation loss: 0.1520
+2024-06-03 19:12:17 [INFO]: Epoch 002 - training loss: 0.7611, validation loss: 0.0926
+2024-06-03 19:12:33 [INFO]: Epoch 003 - training loss: 0.6783, validation loss: 0.0816
+2024-06-03 19:12:48 [INFO]: Epoch 004 - training loss: 0.6579, validation loss: 0.0757
+2024-06-03 19:13:04 [INFO]: Epoch 005 - training loss: 0.6441, validation loss: 0.0810
+2024-06-03 19:13:19 [INFO]: Epoch 006 - training loss: 0.6328, validation loss: 0.0835
+2024-06-03 19:13:33 [INFO]: Epoch 007 - training loss: 0.6226, validation loss: 0.0829
+2024-06-03 19:13:49 [INFO]: Epoch 008 - training loss: 0.6081, validation loss: 0.0903
+2024-06-03 19:14:03 [INFO]: Epoch 009 - training loss: 0.5983, validation loss: 0.0909
+2024-06-03 19:14:18 [INFO]: Epoch 010 - training loss: 0.5881, validation loss: 0.0852
+2024-06-03 19:14:33 [INFO]: Epoch 011 - training loss: 0.5724, validation loss: 0.1032
+2024-06-03 19:14:48 [INFO]: Epoch 012 - training loss: 0.5594, validation loss: 0.0907
+2024-06-03 19:15:03 [INFO]: Epoch 013 - training loss: 0.5458, validation loss: 0.0999
+2024-06-03 19:15:16 [INFO]: Epoch 014 - training loss: 0.5345, validation loss: 0.1010
+2024-06-03 19:15:16 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:15:16 [INFO]: Finished training. The best model is from epoch#4.
+2024-06-03 19:15:16 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_4/20240603_T191146/PatchTST.pypots
+2024-06-03 19:15:22 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/PatchTST_PhysioNet2012/round_4/imputation.pkl
+2024-06-03 19:15:22 [INFO]: Round4 - PatchTST on PhysioNet2012: MAE=0.3642, MSE=0.4943, MRE=0.5052
+2024-06-03 19:15:22 [INFO]: Done! Final results:
+Averaged PatchTST (644,051 params) on PhysioNet2012: MAE=0.3006 ± 0.011461210016547565, MSE=0.3324 ± 0.009399971028977718, MRE=0.4241 ± 0.016166313446594253, average inference time=0.90

@@ -1,0 +1,207 @@
+2024-06-03 07:12:01 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 07:12:01 [INFO]: Using the given device: cuda:0
+2024-06-03 07:12:01 [INFO]: Model files will be saved to results_subseq_rate05/PeMS/MRNN_PeMS/round_0/20240603_T071201
+2024-06-03 07:12:01 [INFO]: Tensorboard file will be saved to results_subseq_rate05/PeMS/MRNN_PeMS/round_0/20240603_T071201/tensorboard
+2024-06-03 07:12:02 [INFO]: MRNN initialized with the given hyperparameters, the number of trainable parameters: 3,076,301
+2024-06-03 07:13:26 [INFO]: Epoch 001 - training loss: 1.4365, validation loss: 1.1118
+2024-06-03 07:14:39 [INFO]: Epoch 002 - training loss: 1.0688, validation loss: 1.0937
+2024-06-03 07:15:50 [INFO]: Epoch 003 - training loss: 0.8551, validation loss: 1.0700
+2024-06-03 07:17:00 [INFO]: Epoch 004 - training loss: 0.7480, validation loss: 1.0378
+2024-06-03 07:18:00 [INFO]: Epoch 005 - training loss: 0.6975, validation loss: 1.0155
+2024-06-03 07:18:59 [INFO]: Epoch 006 - training loss: 0.6697, validation loss: 1.0019
+2024-06-03 07:19:58 [INFO]: Epoch 007 - training loss: 0.6644, validation loss: 0.9923
+2024-06-03 07:20:40 [INFO]: Epoch 008 - training loss: 0.6582, validation loss: 0.9867
+2024-06-03 07:21:23 [INFO]: Epoch 009 - training loss: 0.6515, validation loss: 0.9827
+2024-06-03 07:22:06 [INFO]: Epoch 010 - training loss: 0.6528, validation loss: 0.9789
+2024-06-03 07:22:49 [INFO]: Epoch 011 - training loss: 0.6494, validation loss: 0.9770
+2024-06-03 07:23:33 [INFO]: Epoch 012 - training loss: 0.6487, validation loss: 0.9734
+2024-06-03 07:24:16 [INFO]: Epoch 013 - training loss: 0.6429, validation loss: 0.9730
+2024-06-03 07:24:59 [INFO]: Epoch 014 - training loss: 0.6445, validation loss: 0.9709
+2024-06-03 07:25:42 [INFO]: Epoch 015 - training loss: 0.6403, validation loss: 0.9697
+2024-06-03 07:26:24 [INFO]: Epoch 016 - training loss: 0.6416, validation loss: 0.9683
+2024-06-03 07:26:57 [INFO]: Epoch 017 - training loss: 0.6389, validation loss: 0.9680
+2024-06-03 07:27:29 [INFO]: Epoch 018 - training loss: 0.6385, validation loss: 0.9663
+2024-06-03 07:28:02 [INFO]: Epoch 019 - training loss: 0.6369, validation loss: 0.9676
+2024-06-03 07:28:34 [INFO]: Epoch 020 - training loss: 0.6402, validation loss: 0.9672
+2024-06-03 07:29:07 [INFO]: Epoch 021 - training loss: 0.6354, validation loss: 0.9653
+2024-06-03 07:29:40 [INFO]: Epoch 022 - training loss: 0.6350, validation loss: 0.9658
+2024-06-03 07:30:13 [INFO]: Epoch 023 - training loss: 0.6320, validation loss: 0.9673
+2024-06-03 07:30:46 [INFO]: Epoch 024 - training loss: 0.6303, validation loss: 0.9665
+2024-06-03 07:31:19 [INFO]: Epoch 025 - training loss: 0.6297, validation loss: 0.9667
+2024-06-03 07:31:52 [INFO]: Epoch 026 - training loss: 0.6304, validation loss: 0.9705
+2024-06-03 07:32:25 [INFO]: Epoch 027 - training loss: 0.6340, validation loss: 0.9710
+2024-06-03 07:32:58 [INFO]: Epoch 028 - training loss: 0.6279, validation loss: 0.9720
+2024-06-03 07:33:25 [INFO]: Epoch 029 - training loss: 0.6284, validation loss: 0.9717
+2024-06-03 07:33:48 [INFO]: Epoch 030 - training loss: 0.6299, validation loss: 0.9721
+2024-06-03 07:34:11 [INFO]: Epoch 031 - training loss: 0.6306, validation loss: 0.9738
+2024-06-03 07:34:11 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 07:34:11 [INFO]: Finished training. The best model is from epoch#21.
+2024-06-03 07:34:11 [INFO]: Saved the model to results_subseq_rate05/PeMS/MRNN_PeMS/round_0/20240603_T071201/MRNN.pypots
+2024-06-03 07:34:25 [INFO]: Successfully saved to results_subseq_rate05/PeMS/MRNN_PeMS/round_0/imputation.pkl
+2024-06-03 07:34:25 [INFO]: Round0 - MRNN on PeMS: MAE=0.6780, MSE=1.2696, MRE=0.8012
+2024-06-03 07:34:25 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 07:34:25 [INFO]: Using the given device: cuda:0
+2024-06-03 07:34:25 [INFO]: Model files will be saved to results_subseq_rate05/PeMS/MRNN_PeMS/round_1/20240603_T073425
+2024-06-03 07:34:25 [INFO]: Tensorboard file will be saved to results_subseq_rate05/PeMS/MRNN_PeMS/round_1/20240603_T073425/tensorboard
+2024-06-03 07:34:25 [INFO]: MRNN initialized with the given hyperparameters, the number of trainable parameters: 3,076,301
+2024-06-03 07:34:49 [INFO]: Epoch 001 - training loss: 1.4673, validation loss: 1.1157
+2024-06-03 07:35:11 [INFO]: Epoch 002 - training loss: 1.1027, validation loss: 1.0958
+2024-06-03 07:35:26 [INFO]: Epoch 003 - training loss: 0.8788, validation loss: 1.0752
+2024-06-03 07:35:37 [INFO]: Epoch 004 - training loss: 0.7779, validation loss: 1.0402
+2024-06-03 07:35:48 [INFO]: Epoch 005 - training loss: 0.7108, validation loss: 1.0201
+2024-06-03 07:35:58 [INFO]: Epoch 006 - training loss: 0.6822, validation loss: 1.0068
+2024-06-03 07:36:09 [INFO]: Epoch 007 - training loss: 0.6697, validation loss: 0.9973
+2024-06-03 07:36:20 [INFO]: Epoch 008 - training loss: 0.6629, validation loss: 0.9903
+2024-06-03 07:36:30 [INFO]: Epoch 009 - training loss: 0.6587, validation loss: 0.9850
+2024-06-03 07:36:41 [INFO]: Epoch 010 - training loss: 0.6588, validation loss: 0.9794
+2024-06-03 07:36:52 [INFO]: Epoch 011 - training loss: 0.6631, validation loss: 0.9788
+2024-06-03 07:37:02 [INFO]: Epoch 012 - training loss: 0.6514, validation loss: 0.9754
+2024-06-03 07:37:13 [INFO]: Epoch 013 - training loss: 0.6496, validation loss: 0.9734
+2024-06-03 07:37:24 [INFO]: Epoch 014 - training loss: 0.6487, validation loss: 0.9731
+2024-06-03 07:37:34 [INFO]: Epoch 015 - training loss: 0.6477, validation loss: 0.9720
+2024-06-03 07:37:45 [INFO]: Epoch 016 - training loss: 0.6423, validation loss: 0.9701
+2024-06-03 07:37:56 [INFO]: Epoch 017 - training loss: 0.6412, validation loss: 0.9695
+2024-06-03 07:38:06 [INFO]: Epoch 018 - training loss: 0.6393, validation loss: 0.9700
+2024-06-03 07:38:17 [INFO]: Epoch 019 - training loss: 0.6388, validation loss: 0.9703
+2024-06-03 07:38:27 [INFO]: Epoch 020 - training loss: 0.6409, validation loss: 0.9696
+2024-06-03 07:38:38 [INFO]: Epoch 021 - training loss: 0.6492, validation loss: 0.9660
+2024-06-03 07:38:49 [INFO]: Epoch 022 - training loss: 0.6360, validation loss: 0.9689
+2024-06-03 07:38:59 [INFO]: Epoch 023 - training loss: 0.6322, validation loss: 0.9705
+2024-06-03 07:39:10 [INFO]: Epoch 024 - training loss: 0.6331, validation loss: 0.9692
+2024-06-03 07:39:21 [INFO]: Epoch 025 - training loss: 0.6332, validation loss: 0.9688
+2024-06-03 07:39:31 [INFO]: Epoch 026 - training loss: 0.6281, validation loss: 0.9735
+2024-06-03 07:39:42 [INFO]: Epoch 027 - training loss: 0.6330, validation loss: 0.9755
+2024-06-03 07:39:53 [INFO]: Epoch 028 - training loss: 0.6340, validation loss: 0.9733
+2024-06-03 07:40:04 [INFO]: Epoch 029 - training loss: 0.6285, validation loss: 0.9754
+2024-06-03 07:40:14 [INFO]: Epoch 030 - training loss: 0.6271, validation loss: 0.9714
+2024-06-03 07:40:25 [INFO]: Epoch 031 - training loss: 0.6252, validation loss: 0.9778
+2024-06-03 07:40:25 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 07:40:25 [INFO]: Finished training. The best model is from epoch#21.
+2024-06-03 07:40:25 [INFO]: Saved the model to results_subseq_rate05/PeMS/MRNN_PeMS/round_1/20240603_T073425/MRNN.pypots
+2024-06-03 07:40:32 [INFO]: Successfully saved to results_subseq_rate05/PeMS/MRNN_PeMS/round_1/imputation.pkl
+2024-06-03 07:40:32 [INFO]: Round1 - MRNN on PeMS: MAE=0.6819, MSE=1.2751, MRE=0.8058
+2024-06-03 07:40:32 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 07:40:32 [INFO]: Using the given device: cuda:0
+2024-06-03 07:40:32 [INFO]: Model files will be saved to results_subseq_rate05/PeMS/MRNN_PeMS/round_2/20240603_T074032
+2024-06-03 07:40:32 [INFO]: Tensorboard file will be saved to results_subseq_rate05/PeMS/MRNN_PeMS/round_2/20240603_T074032/tensorboard
+2024-06-03 07:40:32 [INFO]: MRNN initialized with the given hyperparameters, the number of trainable parameters: 3,076,301
+2024-06-03 07:40:43 [INFO]: Epoch 001 - training loss: 1.4931, validation loss: 1.1197
+2024-06-03 07:40:53 [INFO]: Epoch 002 - training loss: 1.1205, validation loss: 1.0938
+2024-06-03 07:41:04 [INFO]: Epoch 003 - training loss: 0.8826, validation loss: 1.0673
+2024-06-03 07:41:15 [INFO]: Epoch 004 - training loss: 0.7750, validation loss: 1.0272
+2024-06-03 07:41:25 [INFO]: Epoch 005 - training loss: 0.7088, validation loss: 1.0075
+2024-06-03 07:41:36 [INFO]: Epoch 006 - training loss: 0.6780, validation loss: 0.9972
+2024-06-03 07:41:47 [INFO]: Epoch 007 - training loss: 0.6703, validation loss: 0.9887
+2024-06-03 07:41:57 [INFO]: Epoch 008 - training loss: 0.6625, validation loss: 0.9829
+2024-06-03 07:42:08 [INFO]: Epoch 009 - training loss: 0.6603, validation loss: 0.9798
+2024-06-03 07:42:19 [INFO]: Epoch 010 - training loss: 0.6545, validation loss: 0.9749
+2024-06-03 07:42:29 [INFO]: Epoch 011 - training loss: 0.6532, validation loss: 0.9741
+2024-06-03 07:42:40 [INFO]: Epoch 012 - training loss: 0.6563, validation loss: 0.9700
+2024-06-03 07:42:51 [INFO]: Epoch 013 - training loss: 0.6503, validation loss: 0.9730
+2024-06-03 07:43:01 [INFO]: Epoch 014 - training loss: 0.6460, validation loss: 0.9699
+2024-06-03 07:43:12 [INFO]: Epoch 015 - training loss: 0.6431, validation loss: 0.9685
+2024-06-03 07:43:23 [INFO]: Epoch 016 - training loss: 0.6400, validation loss: 0.9672
+2024-06-03 07:43:33 [INFO]: Epoch 017 - training loss: 0.6451, validation loss: 0.9659
+2024-06-03 07:43:44 [INFO]: Epoch 018 - training loss: 0.6413, validation loss: 0.9663
+2024-06-03 07:43:55 [INFO]: Epoch 019 - training loss: 0.6410, validation loss: 0.9659
+2024-06-03 07:44:05 [INFO]: Epoch 020 - training loss: 0.6449, validation loss: 0.9698
+2024-06-03 07:44:16 [INFO]: Epoch 021 - training loss: 0.6526, validation loss: 0.9650
+2024-06-03 07:44:27 [INFO]: Epoch 022 - training loss: 0.6385, validation loss: 0.9680
+2024-06-03 07:44:37 [INFO]: Epoch 023 - training loss: 0.6346, validation loss: 0.9675
+2024-06-03 07:44:48 [INFO]: Epoch 024 - training loss: 0.6319, validation loss: 0.9654
+2024-06-03 07:44:59 [INFO]: Epoch 025 - training loss: 0.6329, validation loss: 0.9677
+2024-06-03 07:45:09 [INFO]: Epoch 026 - training loss: 0.6290, validation loss: 0.9703
+2024-06-03 07:45:20 [INFO]: Epoch 027 - training loss: 0.6295, validation loss: 0.9691
+2024-06-03 07:45:31 [INFO]: Epoch 028 - training loss: 0.6301, validation loss: 0.9706
+2024-06-03 07:45:41 [INFO]: Epoch 029 - training loss: 0.6330, validation loss: 0.9703
+2024-06-03 07:45:52 [INFO]: Epoch 030 - training loss: 0.6275, validation loss: 0.9723
+2024-06-03 07:46:03 [INFO]: Epoch 031 - training loss: 0.6269, validation loss: 0.9707
+2024-06-03 07:46:03 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 07:46:03 [INFO]: Finished training. The best model is from epoch#21.
+2024-06-03 07:46:03 [INFO]: Saved the model to results_subseq_rate05/PeMS/MRNN_PeMS/round_2/20240603_T074032/MRNN.pypots
+2024-06-03 07:46:09 [INFO]: Successfully saved to results_subseq_rate05/PeMS/MRNN_PeMS/round_2/imputation.pkl
+2024-06-03 07:46:09 [INFO]: Round2 - MRNN on PeMS: MAE=0.6790, MSE=1.2665, MRE=0.8023
+2024-06-03 07:46:09 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 07:46:09 [INFO]: Using the given device: cuda:0
+2024-06-03 07:46:09 [INFO]: Model files will be saved to results_subseq_rate05/PeMS/MRNN_PeMS/round_3/20240603_T074609
+2024-06-03 07:46:09 [INFO]: Tensorboard file will be saved to results_subseq_rate05/PeMS/MRNN_PeMS/round_3/20240603_T074609/tensorboard
+2024-06-03 07:46:09 [INFO]: MRNN initialized with the given hyperparameters, the number of trainable parameters: 3,076,301
+2024-06-03 07:46:21 [INFO]: Epoch 001 - training loss: 1.5827, validation loss: 1.1430
+2024-06-03 07:46:31 [INFO]: Epoch 002 - training loss: 1.2323, validation loss: 1.1079
+2024-06-03 07:46:42 [INFO]: Epoch 003 - training loss: 0.9774, validation loss: 1.0789
+2024-06-03 07:46:53 [INFO]: Epoch 004 - training loss: 0.8192, validation loss: 1.0485
+2024-06-03 07:47:03 [INFO]: Epoch 005 - training loss: 0.7416, validation loss: 1.0219
+2024-06-03 07:47:14 [INFO]: Epoch 006 - training loss: 0.6903, validation loss: 1.0077
+2024-06-03 07:47:25 [INFO]: Epoch 007 - training loss: 0.6693, validation loss: 0.9989
+2024-06-03 07:47:35 [INFO]: Epoch 008 - training loss: 0.6642, validation loss: 0.9911
+2024-06-03 07:47:46 [INFO]: Epoch 009 - training loss: 0.6591, validation loss: 0.9859
+2024-06-03 07:47:57 [INFO]: Epoch 010 - training loss: 0.6542, validation loss: 0.9823
+2024-06-03 07:48:07 [INFO]: Epoch 011 - training loss: 0.6569, validation loss: 0.9810
+2024-06-03 07:48:18 [INFO]: Epoch 012 - training loss: 0.6516, validation loss: 0.9775
+2024-06-03 07:48:29 [INFO]: Epoch 013 - training loss: 0.6471, validation loss: 0.9751
+2024-06-03 07:48:39 [INFO]: Epoch 014 - training loss: 0.6462, validation loss: 0.9745
+2024-06-03 07:48:50 [INFO]: Epoch 015 - training loss: 0.6440, validation loss: 0.9726
+2024-06-03 07:49:01 [INFO]: Epoch 016 - training loss: 0.6417, validation loss: 0.9708
+2024-06-03 07:49:11 [INFO]: Epoch 017 - training loss: 0.6470, validation loss: 0.9686
+2024-06-03 07:49:22 [INFO]: Epoch 018 - training loss: 0.6451, validation loss: 0.9689
+2024-06-03 07:49:33 [INFO]: Epoch 019 - training loss: 0.6382, validation loss: 0.9700
+2024-06-03 07:49:43 [INFO]: Epoch 020 - training loss: 0.6365, validation loss: 0.9701
+2024-06-03 07:49:54 [INFO]: Epoch 021 - training loss: 0.6371, validation loss: 0.9727
+2024-06-03 07:50:05 [INFO]: Epoch 022 - training loss: 0.6335, validation loss: 0.9693
+2024-06-03 07:50:15 [INFO]: Epoch 023 - training loss: 0.6339, validation loss: 0.9675
+2024-06-03 07:50:26 [INFO]: Epoch 024 - training loss: 0.6318, validation loss: 0.9699
+2024-06-03 07:50:37 [INFO]: Epoch 025 - training loss: 0.6292, validation loss: 0.9712
+2024-06-03 07:50:47 [INFO]: Epoch 026 - training loss: 0.6320, validation loss: 0.9708
+2024-06-03 07:50:58 [INFO]: Epoch 027 - training loss: 0.6267, validation loss: 0.9719
+2024-06-03 07:51:09 [INFO]: Epoch 028 - training loss: 0.6253, validation loss: 0.9688
+2024-06-03 07:51:19 [INFO]: Epoch 029 - training loss: 0.6273, validation loss: 0.9720
+2024-06-03 07:51:30 [INFO]: Epoch 030 - training loss: 0.6323, validation loss: 0.9835
+2024-06-03 07:51:41 [INFO]: Epoch 031 - training loss: 0.6299, validation loss: 0.9781
+2024-06-03 07:51:51 [INFO]: Epoch 032 - training loss: 0.6266, validation loss: 0.9728
+2024-06-03 07:52:02 [INFO]: Epoch 033 - training loss: 0.6233, validation loss: 0.9804
+2024-06-03 07:52:02 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 07:52:02 [INFO]: Finished training. The best model is from epoch#23.
+2024-06-03 07:52:02 [INFO]: Saved the model to results_subseq_rate05/PeMS/MRNN_PeMS/round_3/20240603_T074609/MRNN.pypots
+2024-06-03 07:52:09 [INFO]: Successfully saved to results_subseq_rate05/PeMS/MRNN_PeMS/round_3/imputation.pkl
+2024-06-03 07:52:09 [INFO]: Round3 - MRNN on PeMS: MAE=0.6817, MSE=1.2765, MRE=0.8056
+2024-06-03 07:52:09 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 07:52:09 [INFO]: Using the given device: cuda:0
+2024-06-03 07:52:09 [INFO]: Model files will be saved to results_subseq_rate05/PeMS/MRNN_PeMS/round_4/20240603_T075209
+2024-06-03 07:52:09 [INFO]: Tensorboard file will be saved to results_subseq_rate05/PeMS/MRNN_PeMS/round_4/20240603_T075209/tensorboard
+2024-06-03 07:52:09 [INFO]: MRNN initialized with the given hyperparameters, the number of trainable parameters: 3,076,301
+2024-06-03 07:52:20 [INFO]: Epoch 001 - training loss: 1.4775, validation loss: 1.1207
+2024-06-03 07:52:31 [INFO]: Epoch 002 - training loss: 1.1125, validation loss: 1.0959
+2024-06-03 07:52:41 [INFO]: Epoch 003 - training loss: 0.8819, validation loss: 1.0683
+2024-06-03 07:52:52 [INFO]: Epoch 004 - training loss: 0.7736, validation loss: 1.0321
+2024-06-03 07:53:03 [INFO]: Epoch 005 - training loss: 0.7058, validation loss: 1.0123
+2024-06-03 07:53:13 [INFO]: Epoch 006 - training loss: 0.6794, validation loss: 1.0007
+2024-06-03 07:53:24 [INFO]: Epoch 007 - training loss: 0.6682, validation loss: 0.9915
+2024-06-03 07:53:35 [INFO]: Epoch 008 - training loss: 0.6599, validation loss: 0.9863
+2024-06-03 07:53:45 [INFO]: Epoch 009 - training loss: 0.6560, validation loss: 0.9808
+2024-06-03 07:53:56 [INFO]: Epoch 010 - training loss: 0.6521, validation loss: 0.9782
+2024-06-03 07:54:06 [INFO]: Epoch 011 - training loss: 0.6509, validation loss: 0.9770
+2024-06-03 07:54:17 [INFO]: Epoch 012 - training loss: 0.6507, validation loss: 0.9748
+2024-06-03 07:54:28 [INFO]: Epoch 013 - training loss: 0.6613, validation loss: 0.9729
+2024-06-03 07:54:38 [INFO]: Epoch 014 - training loss: 0.6538, validation loss: 0.9701
+2024-06-03 07:54:49 [INFO]: Epoch 015 - training loss: 0.6467, validation loss: 0.9699
+2024-06-03 07:55:00 [INFO]: Epoch 016 - training loss: 0.6429, validation loss: 0.9703
+2024-06-03 07:55:10 [INFO]: Epoch 017 - training loss: 0.6396, validation loss: 0.9697
+2024-06-03 07:55:21 [INFO]: Epoch 018 - training loss: 0.6374, validation loss: 0.9685
+2024-06-03 07:55:32 [INFO]: Epoch 019 - training loss: 0.6370, validation loss: 0.9685
+2024-06-03 07:55:42 [INFO]: Epoch 020 - training loss: 0.6344, validation loss: 0.9693
+2024-06-03 07:55:53 [INFO]: Epoch 021 - training loss: 0.6387, validation loss: 0.9711
+2024-06-03 07:56:04 [INFO]: Epoch 022 - training loss: 0.6334, validation loss: 0.9692
+2024-06-03 07:56:14 [INFO]: Epoch 023 - training loss: 0.6299, validation loss: 0.9688
+2024-06-03 07:56:25 [INFO]: Epoch 024 - training loss: 0.6302, validation loss: 0.9691
+2024-06-03 07:56:36 [INFO]: Epoch 025 - training loss: 0.6293, validation loss: 0.9748
+2024-06-03 07:56:46 [INFO]: Epoch 026 - training loss: 0.6311, validation loss: 0.9734
+2024-06-03 07:56:57 [INFO]: Epoch 027 - training loss: 0.6321, validation loss: 0.9724
+2024-06-03 07:57:08 [INFO]: Epoch 028 - training loss: 0.6342, validation loss: 0.9807
+2024-06-03 07:57:18 [INFO]: Epoch 029 - training loss: 0.6264, validation loss: 0.9743
+2024-06-03 07:57:18 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 07:57:18 [INFO]: Finished training. The best model is from epoch#19.
+2024-06-03 07:57:18 [INFO]: Saved the model to results_subseq_rate05/PeMS/MRNN_PeMS/round_4/20240603_T075209/MRNN.pypots
+2024-06-03 07:57:25 [INFO]: Successfully saved to results_subseq_rate05/PeMS/MRNN_PeMS/round_4/imputation.pkl
+2024-06-03 07:57:25 [INFO]: Round4 - MRNN on PeMS: MAE=0.6807, MSE=1.2711, MRE=0.8044
+2024-06-03 07:57:25 [INFO]: Done! Final results:
+Averaged MRNN (3,076,301 params) on PeMS: MAE=0.6802 ± 0.0015267212538111388, MSE=1.2718 ± 0.003645841385465666, MRE=0.8039 ± 0.0018041649585949244, average inference time=1.70

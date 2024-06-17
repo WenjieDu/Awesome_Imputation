@@ -1,0 +1,139 @@
+2024-06-03 03:32:36 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 03:32:36 [INFO]: Using the given device: cuda:0
+2024-06-03 03:32:37 [INFO]: Model files will be saved to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_0/20240603_T033237
+2024-06-03 03:32:37 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_0/20240603_T033237/tensorboard
+2024-06-03 03:32:38 [INFO]: Crossformer initialized with the given hyperparameters, the number of trainable parameters: 223,479
+2024-06-03 03:32:41 [INFO]: Epoch 001 - training loss: 1.5543, validation loss: 0.9512
+2024-06-03 03:32:41 [INFO]: Epoch 002 - training loss: 1.4902, validation loss: 0.9605
+2024-06-03 03:32:42 [INFO]: Epoch 003 - training loss: 1.4472, validation loss: 1.0003
+2024-06-03 03:32:42 [INFO]: Epoch 004 - training loss: 1.4184, validation loss: 0.9909
+2024-06-03 03:32:43 [INFO]: Epoch 005 - training loss: 1.2514, validation loss: 0.9081
+2024-06-03 03:32:43 [INFO]: Epoch 006 - training loss: 0.9687, validation loss: 0.6411
+2024-06-03 03:32:44 [INFO]: Epoch 007 - training loss: 0.8047, validation loss: 0.6968
+2024-06-03 03:32:45 [INFO]: Epoch 008 - training loss: 0.7099, validation loss: 0.7268
+2024-06-03 03:32:45 [INFO]: Epoch 009 - training loss: 0.6420, validation loss: 0.7352
+2024-06-03 03:32:46 [INFO]: Epoch 010 - training loss: 0.5869, validation loss: 0.6945
+2024-06-03 03:32:47 [INFO]: Epoch 011 - training loss: 0.5575, validation loss: 0.7143
+2024-06-03 03:32:47 [INFO]: Epoch 012 - training loss: 0.5280, validation loss: 0.7674
+2024-06-03 03:32:48 [INFO]: Epoch 013 - training loss: 0.5238, validation loss: 0.7264
+2024-06-03 03:32:49 [INFO]: Epoch 014 - training loss: 0.5001, validation loss: 0.7573
+2024-06-03 03:32:49 [INFO]: Epoch 015 - training loss: 0.4913, validation loss: 0.7187
+2024-06-03 03:32:50 [INFO]: Epoch 016 - training loss: 0.4860, validation loss: 0.7585
+2024-06-03 03:32:50 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:32:50 [INFO]: Finished training. The best model is from epoch#6.
+2024-06-03 03:32:50 [INFO]: Saved the model to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_0/20240603_T033237/Crossformer.pypots
+2024-06-03 03:32:50 [INFO]: Successfully saved to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_0/imputation.pkl
+2024-06-03 03:32:50 [INFO]: Round0 - Crossformer on ETT_h1: MAE=0.7341, MSE=1.0677, MRE=0.8269
+2024-06-03 03:32:50 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 03:32:50 [INFO]: Using the given device: cuda:0
+2024-06-03 03:32:50 [INFO]: Model files will be saved to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_1/20240603_T033250
+2024-06-03 03:32:50 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_1/20240603_T033250/tensorboard
+2024-06-03 03:32:50 [INFO]: Crossformer initialized with the given hyperparameters, the number of trainable parameters: 223,479
+2024-06-03 03:32:51 [INFO]: Epoch 001 - training loss: 1.5333, validation loss: 1.0442
+2024-06-03 03:32:52 [INFO]: Epoch 002 - training loss: 1.4643, validation loss: 1.0153
+2024-06-03 03:32:52 [INFO]: Epoch 003 - training loss: 1.4287, validation loss: 0.9558
+2024-06-03 03:32:53 [INFO]: Epoch 004 - training loss: 1.1541, validation loss: 0.8471
+2024-06-03 03:32:54 [INFO]: Epoch 005 - training loss: 0.9449, validation loss: 0.6944
+2024-06-03 03:32:54 [INFO]: Epoch 006 - training loss: 0.7757, validation loss: 0.8198
+2024-06-03 03:32:55 [INFO]: Epoch 007 - training loss: 0.6732, validation loss: 0.6657
+2024-06-03 03:32:55 [INFO]: Epoch 008 - training loss: 0.5915, validation loss: 0.6627
+2024-06-03 03:32:56 [INFO]: Epoch 009 - training loss: 0.5552, validation loss: 0.7147
+2024-06-03 03:32:57 [INFO]: Epoch 010 - training loss: 0.5385, validation loss: 0.6652
+2024-06-03 03:32:57 [INFO]: Epoch 011 - training loss: 0.5155, validation loss: 0.7108
+2024-06-03 03:32:58 [INFO]: Epoch 012 - training loss: 0.5015, validation loss: 0.7142
+2024-06-03 03:32:59 [INFO]: Epoch 013 - training loss: 0.4826, validation loss: 0.7653
+2024-06-03 03:32:59 [INFO]: Epoch 014 - training loss: 0.4891, validation loss: 0.7389
+2024-06-03 03:33:00 [INFO]: Epoch 015 - training loss: 0.4873, validation loss: 0.7694
+2024-06-03 03:33:01 [INFO]: Epoch 016 - training loss: 0.4747, validation loss: 0.7383
+2024-06-03 03:33:01 [INFO]: Epoch 017 - training loss: 0.4592, validation loss: 0.7366
+2024-06-03 03:33:02 [INFO]: Epoch 018 - training loss: 0.4459, validation loss: 0.6899
+2024-06-03 03:33:02 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:33:02 [INFO]: Finished training. The best model is from epoch#8.
+2024-06-03 03:33:02 [INFO]: Saved the model to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_1/20240603_T033250/Crossformer.pypots
+2024-06-03 03:33:02 [INFO]: Successfully saved to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_1/imputation.pkl
+2024-06-03 03:33:02 [INFO]: Round1 - Crossformer on ETT_h1: MAE=0.7000, MSE=1.0191, MRE=0.7884
+2024-06-03 03:33:02 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 03:33:02 [INFO]: Using the given device: cuda:0
+2024-06-03 03:33:02 [INFO]: Model files will be saved to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_2/20240603_T033302
+2024-06-03 03:33:02 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_2/20240603_T033302/tensorboard
+2024-06-03 03:33:02 [INFO]: Crossformer initialized with the given hyperparameters, the number of trainable parameters: 223,479
+2024-06-03 03:33:03 [INFO]: Epoch 001 - training loss: 1.5244, validation loss: 1.0732
+2024-06-03 03:33:04 [INFO]: Epoch 002 - training loss: 1.4572, validation loss: 1.0129
+2024-06-03 03:33:04 [INFO]: Epoch 003 - training loss: 1.1548, validation loss: 0.8855
+2024-06-03 03:33:05 [INFO]: Epoch 004 - training loss: 0.9464, validation loss: 0.7688
+2024-06-03 03:33:06 [INFO]: Epoch 005 - training loss: 0.7865, validation loss: 0.6723
+2024-06-03 03:33:06 [INFO]: Epoch 006 - training loss: 0.6638, validation loss: 0.6816
+2024-06-03 03:33:07 [INFO]: Epoch 007 - training loss: 0.5850, validation loss: 0.7555
+2024-06-03 03:33:08 [INFO]: Epoch 008 - training loss: 0.5651, validation loss: 0.7336
+2024-06-03 03:33:08 [INFO]: Epoch 009 - training loss: 0.5393, validation loss: 0.7303
+2024-06-03 03:33:09 [INFO]: Epoch 010 - training loss: 0.5092, validation loss: 0.7137
+2024-06-03 03:33:10 [INFO]: Epoch 011 - training loss: 0.5102, validation loss: 0.7192
+2024-06-03 03:33:11 [INFO]: Epoch 012 - training loss: 0.4925, validation loss: 0.7236
+2024-06-03 03:33:11 [INFO]: Epoch 013 - training loss: 0.4917, validation loss: 0.6482
+2024-06-03 03:33:12 [INFO]: Epoch 014 - training loss: 0.4931, validation loss: 0.7181
+2024-06-03 03:33:13 [INFO]: Epoch 015 - training loss: 0.4720, validation loss: 0.7518
+2024-06-03 03:33:13 [INFO]: Epoch 016 - training loss: 0.4663, validation loss: 0.7224
+2024-06-03 03:33:14 [INFO]: Epoch 017 - training loss: 0.4504, validation loss: 0.6944
+2024-06-03 03:33:15 [INFO]: Epoch 018 - training loss: 0.4409, validation loss: 0.7296
+2024-06-03 03:33:15 [INFO]: Epoch 019 - training loss: 0.4465, validation loss: 0.6984
+2024-06-03 03:33:16 [INFO]: Epoch 020 - training loss: 0.4408, validation loss: 0.7325
+2024-06-03 03:33:17 [INFO]: Epoch 021 - training loss: 0.4295, validation loss: 0.7463
+2024-06-03 03:33:17 [INFO]: Epoch 022 - training loss: 0.4323, validation loss: 0.6671
+2024-06-03 03:33:18 [INFO]: Epoch 023 - training loss: 0.4290, validation loss: 0.7424
+2024-06-03 03:33:18 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:33:18 [INFO]: Finished training. The best model is from epoch#13.
+2024-06-03 03:33:18 [INFO]: Saved the model to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_2/20240603_T033302/Crossformer.pypots
+2024-06-03 03:33:18 [INFO]: Successfully saved to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_2/imputation.pkl
+2024-06-03 03:33:18 [INFO]: Round2 - Crossformer on ETT_h1: MAE=0.7182, MSE=1.0424, MRE=0.8089
+2024-06-03 03:33:18 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 03:33:18 [INFO]: Using the given device: cuda:0
+2024-06-03 03:33:18 [INFO]: Model files will be saved to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_3/20240603_T033318
+2024-06-03 03:33:18 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_3/20240603_T033318/tensorboard
+2024-06-03 03:33:18 [INFO]: Crossformer initialized with the given hyperparameters, the number of trainable parameters: 223,479
+2024-06-03 03:33:19 [INFO]: Epoch 001 - training loss: 1.5026, validation loss: 1.0683
+2024-06-03 03:33:19 [INFO]: Epoch 002 - training loss: 1.1440, validation loss: 0.8601
+2024-06-03 03:33:20 [INFO]: Epoch 003 - training loss: 0.8684, validation loss: 0.7012
+2024-06-03 03:33:21 [INFO]: Epoch 004 - training loss: 0.7278, validation loss: 0.7097
+2024-06-03 03:33:21 [INFO]: Epoch 005 - training loss: 0.6275, validation loss: 0.6868
+2024-06-03 03:33:22 [INFO]: Epoch 006 - training loss: 0.5659, validation loss: 0.6850
+2024-06-03 03:33:22 [INFO]: Epoch 007 - training loss: 0.5416, validation loss: 0.6929
+2024-06-03 03:33:23 [INFO]: Epoch 008 - training loss: 0.5085, validation loss: 0.7476
+2024-06-03 03:33:23 [INFO]: Epoch 009 - training loss: 0.5099, validation loss: 0.7435
+2024-06-03 03:33:24 [INFO]: Epoch 010 - training loss: 0.4918, validation loss: 0.7467
+2024-06-03 03:33:25 [INFO]: Epoch 011 - training loss: 0.4886, validation loss: 0.7420
+2024-06-03 03:33:25 [INFO]: Epoch 012 - training loss: 0.4895, validation loss: 0.7948
+2024-06-03 03:33:26 [INFO]: Epoch 013 - training loss: 0.4737, validation loss: 0.7798
+2024-06-03 03:33:26 [INFO]: Epoch 014 - training loss: 0.4629, validation loss: 0.7454
+2024-06-03 03:33:27 [INFO]: Epoch 015 - training loss: 0.4500, validation loss: 0.7642
+2024-06-03 03:33:28 [INFO]: Epoch 016 - training loss: 0.4596, validation loss: 0.7298
+2024-06-03 03:33:28 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:33:28 [INFO]: Finished training. The best model is from epoch#6.
+2024-06-03 03:33:28 [INFO]: Saved the model to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_3/20240603_T033318/Crossformer.pypots
+2024-06-03 03:33:28 [INFO]: Successfully saved to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_3/imputation.pkl
+2024-06-03 03:33:28 [INFO]: Round3 - Crossformer on ETT_h1: MAE=0.7166, MSE=1.0801, MRE=0.8071
+2024-06-03 03:33:28 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 03:33:28 [INFO]: Using the given device: cuda:0
+2024-06-03 03:33:28 [INFO]: Model files will be saved to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_4/20240603_T033328
+2024-06-03 03:33:28 [INFO]: Tensorboard file will be saved to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_4/20240603_T033328/tensorboard
+2024-06-03 03:33:28 [INFO]: Crossformer initialized with the given hyperparameters, the number of trainable parameters: 223,479
+2024-06-03 03:33:29 [INFO]: Epoch 001 - training loss: 1.5343, validation loss: 0.9679
+2024-06-03 03:33:29 [INFO]: Epoch 002 - training loss: 1.2845, validation loss: 0.8107
+2024-06-03 03:33:30 [INFO]: Epoch 003 - training loss: 0.9594, validation loss: 0.7580
+2024-06-03 03:33:30 [INFO]: Epoch 004 - training loss: 0.8200, validation loss: 0.6159
+2024-06-03 03:33:31 [INFO]: Epoch 005 - training loss: 0.7011, validation loss: 0.6461
+2024-06-03 03:33:31 [INFO]: Epoch 006 - training loss: 0.6043, validation loss: 0.6373
+2024-06-03 03:33:32 [INFO]: Epoch 007 - training loss: 0.5626, validation loss: 0.7039
+2024-06-03 03:33:32 [INFO]: Epoch 008 - training loss: 0.5376, validation loss: 0.7277
+2024-06-03 03:33:33 [INFO]: Epoch 009 - training loss: 0.5013, validation loss: 0.7420
+2024-06-03 03:33:33 [INFO]: Epoch 010 - training loss: 0.4944, validation loss: 0.7536
+2024-06-03 03:33:34 [INFO]: Epoch 011 - training loss: 0.4961, validation loss: 0.7533
+2024-06-03 03:33:34 [INFO]: Epoch 012 - training loss: 0.4899, validation loss: 0.7062
+2024-06-03 03:33:35 [INFO]: Epoch 013 - training loss: 0.4914, validation loss: 0.7402
+2024-06-03 03:33:35 [INFO]: Epoch 014 - training loss: 0.4816, validation loss: 0.7182
+2024-06-03 03:33:35 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:33:35 [INFO]: Finished training. The best model is from epoch#4.
+2024-06-03 03:33:35 [INFO]: Saved the model to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_4/20240603_T033328/Crossformer.pypots
+2024-06-03 03:33:36 [INFO]: Successfully saved to results_subseq_rate05/ETT_h1/Crossformer_ETT_h1/round_4/imputation.pkl
+2024-06-03 03:33:36 [INFO]: Round4 - Crossformer on ETT_h1: MAE=0.7185, MSE=1.0525, MRE=0.8093
+2024-06-03 03:33:36 [INFO]: Done! Final results:
+Averaged Crossformer (223,479 params) on ETT_h1: MAE=0.7175 ± 0.010820796783675053, MSE=1.0524 ± 0.0210119176158564, MRE=0.8081 ± 0.012188091808874726, average inference time=0.08

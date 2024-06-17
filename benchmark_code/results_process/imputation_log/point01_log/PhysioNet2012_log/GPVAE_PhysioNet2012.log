@@ -1,0 +1,110 @@
+2024-06-03 18:56:52 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 18:56:52 [INFO]: Using the given device: cuda:0
+2024-06-03 18:56:52 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_0/20240603_T185652
+2024-06-03 18:56:52 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_0/20240603_T185652/tensorboard
+2024-06-03 18:56:53 [INFO]: GPVAE initialized with the given hyperparameters, the number of trainable parameters: 501,650
+2024-06-03 18:57:11 [INFO]: Epoch 001 - training loss: 31459.2288, validation loss: 0.0557
+2024-06-03 18:57:20 [INFO]: Epoch 002 - training loss: 23098.4613, validation loss: 0.0622
+2024-06-03 18:57:30 [INFO]: Epoch 003 - training loss: 22930.5561, validation loss: 0.0497
+2024-06-03 18:57:42 [INFO]: Epoch 004 - training loss: 22870.8382, validation loss: 0.0656
+2024-06-03 18:57:54 [INFO]: Epoch 005 - training loss: 22839.5362, validation loss: 0.0679
+2024-06-03 18:58:06 [INFO]: Epoch 006 - training loss: 22823.7711, validation loss: 0.0791
+2024-06-03 18:58:18 [INFO]: Epoch 007 - training loss: 22817.2899, validation loss: 0.0677
+2024-06-03 18:58:29 [INFO]: Epoch 008 - training loss: 22810.6433, validation loss: 0.0859
+2024-06-03 18:58:41 [INFO]: Epoch 009 - training loss: 22805.2375, validation loss: 0.1016
+2024-06-03 18:58:52 [INFO]: Epoch 010 - training loss: 22803.6194, validation loss: 0.0782
+2024-06-03 18:59:04 [INFO]: Epoch 011 - training loss: 22798.0719, validation loss: 0.0869
+2024-06-03 18:59:16 [INFO]: Epoch 012 - training loss: 22799.1167, validation loss: 0.0845
+2024-06-03 18:59:29 [INFO]: Epoch 013 - training loss: 22791.1650, validation loss: 0.0849
+2024-06-03 18:59:29 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 18:59:29 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 18:59:29 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_0/20240603_T185652/GPVAE.pypots
+2024-06-03 19:00:28 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_0/imputation.pkl
+2024-06-03 19:00:28 [INFO]: Round0 - GPVAE on PhysioNet2012: MAE=0.5224, MSE=0.6963, MRE=0.7247
+2024-06-03 19:00:28 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:00:28 [INFO]: Using the given device: cuda:0
+2024-06-03 19:00:28 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_1/20240603_T190028
+2024-06-03 19:00:28 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_1/20240603_T190028/tensorboard
+2024-06-03 19:00:28 [INFO]: GPVAE initialized with the given hyperparameters, the number of trainable parameters: 501,650
+2024-06-03 19:00:40 [INFO]: Epoch 001 - training loss: 31183.7268, validation loss: 0.0518
+2024-06-03 19:00:52 [INFO]: Epoch 002 - training loss: 23107.8057, validation loss: 0.0612
+2024-06-03 19:01:03 [INFO]: Epoch 003 - training loss: 22931.6039, validation loss: 0.0542
+2024-06-03 19:01:15 [INFO]: Epoch 004 - training loss: 22869.5157, validation loss: 0.0636
+2024-06-03 19:01:27 [INFO]: Epoch 005 - training loss: 22838.6304, validation loss: 0.0658
+2024-06-03 19:01:39 [INFO]: Epoch 006 - training loss: 22822.3558, validation loss: 0.0811
+2024-06-03 19:01:50 [INFO]: Epoch 007 - training loss: 22811.3162, validation loss: 0.0894
+2024-06-03 19:02:02 [INFO]: Epoch 008 - training loss: 22810.5144, validation loss: 0.0749
+2024-06-03 19:02:13 [INFO]: Epoch 009 - training loss: 22802.8802, validation loss: 0.0768
+2024-06-03 19:02:24 [INFO]: Epoch 010 - training loss: 22798.9375, validation loss: 0.0805
+2024-06-03 19:02:36 [INFO]: Epoch 011 - training loss: 22799.3162, validation loss: 0.0881
+2024-06-03 19:02:36 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:02:36 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:02:36 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_1/20240603_T190028/GPVAE.pypots
+2024-06-03 19:03:34 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_1/imputation.pkl
+2024-06-03 19:03:34 [INFO]: Round1 - GPVAE on PhysioNet2012: MAE=0.5426, MSE=0.7240, MRE=0.7526
+2024-06-03 19:03:34 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:03:34 [INFO]: Using the given device: cuda:0
+2024-06-03 19:03:34 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_2/20240603_T190334
+2024-06-03 19:03:34 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_2/20240603_T190334/tensorboard
+2024-06-03 19:03:34 [INFO]: GPVAE initialized with the given hyperparameters, the number of trainable parameters: 501,650
+2024-06-03 19:03:45 [INFO]: Epoch 001 - training loss: 31286.3829, validation loss: 0.0426
+2024-06-03 19:03:56 [INFO]: Epoch 002 - training loss: 23105.8940, validation loss: 0.0565
+2024-06-03 19:04:07 [INFO]: Epoch 003 - training loss: 22928.0998, validation loss: 0.0590
+2024-06-03 19:04:20 [INFO]: Epoch 004 - training loss: 22867.7276, validation loss: 0.0677
+2024-06-03 19:04:32 [INFO]: Epoch 005 - training loss: 22837.9955, validation loss: 0.0715
+2024-06-03 19:04:44 [INFO]: Epoch 006 - training loss: 22826.4393, validation loss: 0.0657
+2024-06-03 19:04:55 [INFO]: Epoch 007 - training loss: 22818.6541, validation loss: 0.0619
+2024-06-03 19:05:07 [INFO]: Epoch 008 - training loss: 22813.6095, validation loss: 0.0738
+2024-06-03 19:05:19 [INFO]: Epoch 009 - training loss: 22803.3804, validation loss: 0.0777
+2024-06-03 19:05:30 [INFO]: Epoch 010 - training loss: 22800.8125, validation loss: 0.0938
+2024-06-03 19:05:42 [INFO]: Epoch 011 - training loss: 22796.2895, validation loss: 0.1018
+2024-06-03 19:05:42 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:05:42 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:05:42 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_2/20240603_T190334/GPVAE.pypots
+2024-06-03 19:06:39 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_2/imputation.pkl
+2024-06-03 19:06:39 [INFO]: Round2 - GPVAE on PhysioNet2012: MAE=0.5303, MSE=0.7088, MRE=0.7356
+2024-06-03 19:06:39 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:06:39 [INFO]: Using the given device: cuda:0
+2024-06-03 19:06:40 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_3/20240603_T190639
+2024-06-03 19:06:40 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_3/20240603_T190639/tensorboard
+2024-06-03 19:06:40 [INFO]: GPVAE initialized with the given hyperparameters, the number of trainable parameters: 501,650
+2024-06-03 19:06:50 [INFO]: Epoch 001 - training loss: 31546.9905, validation loss: 0.0669
+2024-06-03 19:07:01 [INFO]: Epoch 002 - training loss: 23091.0389, validation loss: 0.0503
+2024-06-03 19:07:09 [INFO]: Epoch 003 - training loss: 22923.2844, validation loss: 0.0562
+2024-06-03 19:07:17 [INFO]: Epoch 004 - training loss: 22864.3154, validation loss: 0.0578
+2024-06-03 19:07:26 [INFO]: Epoch 005 - training loss: 22836.7563, validation loss: 0.0625
+2024-06-03 19:07:35 [INFO]: Epoch 006 - training loss: 22824.1131, validation loss: 0.0774
+2024-06-03 19:07:46 [INFO]: Epoch 007 - training loss: 22822.1112, validation loss: 0.0670
+2024-06-03 19:07:58 [INFO]: Epoch 008 - training loss: 22810.4730, validation loss: 0.0831
+2024-06-03 19:08:08 [INFO]: Epoch 009 - training loss: 22801.4560, validation loss: 0.0846
+2024-06-03 19:08:18 [INFO]: Epoch 010 - training loss: 22795.4347, validation loss: 0.1145
+2024-06-03 19:08:27 [INFO]: Epoch 011 - training loss: 22798.2918, validation loss: 0.1012
+2024-06-03 19:08:37 [INFO]: Epoch 012 - training loss: 22790.1870, validation loss: 0.0917
+2024-06-03 19:08:37 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:08:37 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 19:08:37 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_3/20240603_T190639/GPVAE.pypots
+2024-06-03 19:09:44 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_3/imputation.pkl
+2024-06-03 19:09:44 [INFO]: Round3 - GPVAE on PhysioNet2012: MAE=0.5228, MSE=0.6847, MRE=0.7253
+2024-06-03 19:09:44 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:09:44 [INFO]: Using the given device: cuda:0
+2024-06-03 19:09:44 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_4/20240603_T190944
+2024-06-03 19:09:44 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_4/20240603_T190944/tensorboard
+2024-06-03 19:09:44 [INFO]: GPVAE initialized with the given hyperparameters, the number of trainable parameters: 501,650
+2024-06-03 19:09:55 [INFO]: Epoch 001 - training loss: 31326.5176, validation loss: 0.0425
+2024-06-03 19:10:06 [INFO]: Epoch 002 - training loss: 23115.0637, validation loss: 0.0610
+2024-06-03 19:10:16 [INFO]: Epoch 003 - training loss: 22928.6688, validation loss: 0.0522
+2024-06-03 19:10:27 [INFO]: Epoch 004 - training loss: 22865.2755, validation loss: 0.0618
+2024-06-03 19:10:38 [INFO]: Epoch 005 - training loss: 22840.1215, validation loss: 0.0664
+2024-06-03 19:10:49 [INFO]: Epoch 006 - training loss: 22825.6891, validation loss: 0.0628
+2024-06-03 19:11:00 [INFO]: Epoch 007 - training loss: 22815.2272, validation loss: 0.0852
+2024-06-03 19:11:12 [INFO]: Epoch 008 - training loss: 22807.9258, validation loss: 0.0878
+2024-06-03 19:11:23 [INFO]: Epoch 009 - training loss: 22801.1126, validation loss: 0.0734
+2024-06-03 19:11:34 [INFO]: Epoch 010 - training loss: 22796.2875, validation loss: 0.0850
+2024-06-03 19:11:47 [INFO]: Epoch 011 - training loss: 22794.2629, validation loss: 0.0959
+2024-06-03 19:11:47 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:11:47 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:11:47 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_4/20240603_T190944/GPVAE.pypots
+2024-06-03 19:12:48 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/GPVAE_PhysioNet2012/round_4/imputation.pkl
+2024-06-03 19:12:48 [INFO]: Round4 - GPVAE on PhysioNet2012: MAE=0.5296, MSE=0.7036, MRE=0.7346
+2024-06-03 19:12:48 [INFO]: Done! Final results:
+Averaged GPVAE (501,650 params) on PhysioNet2012: MAE=0.4450 ± 0.0057576093677488725, MSE=0.4990 ± 0.011213778110177907, MRE=0.6277 ± 0.008121247024327146, average inference time=9.83

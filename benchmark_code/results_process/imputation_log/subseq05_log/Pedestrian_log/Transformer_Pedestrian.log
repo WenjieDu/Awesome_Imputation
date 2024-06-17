@@ -1,0 +1,157 @@
+2024-06-03 02:34:52 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 02:34:52 [INFO]: Using the given device: cuda:0
+2024-06-03 02:34:53 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_0/20240603_T023453
+2024-06-03 02:34:53 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_0/20240603_T023453/tensorboard
+2024-06-03 02:34:53 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=1024, n_heads=4, d_k=128
+2024-06-03 02:34:53 [WARNING]: ⚠️ d_model is reset to 512 = n_heads (4) * d_k (128)
+2024-06-03 02:34:54 [INFO]: Transformer initialized with the given hyperparameters, the number of trainable parameters: 13,787,649
+2024-06-03 02:34:58 [INFO]: Epoch 001 - training loss: 1.4039, validation loss: 0.7325
+2024-06-03 02:35:01 [INFO]: Epoch 002 - training loss: 0.5729, validation loss: 0.7320
+2024-06-03 02:35:03 [INFO]: Epoch 003 - training loss: 0.4848, validation loss: 0.7468
+2024-06-03 02:35:06 [INFO]: Epoch 004 - training loss: 0.4525, validation loss: 0.6624
+2024-06-03 02:35:08 [INFO]: Epoch 005 - training loss: 0.4503, validation loss: 0.7017
+2024-06-03 02:35:11 [INFO]: Epoch 006 - training loss: 0.4003, validation loss: 0.6843
+2024-06-03 02:35:14 [INFO]: Epoch 007 - training loss: 0.3728, validation loss: 0.6433
+2024-06-03 02:35:17 [INFO]: Epoch 008 - training loss: 0.3630, validation loss: 0.5770
+2024-06-03 02:35:20 [INFO]: Epoch 009 - training loss: 0.3183, validation loss: 0.6820
+2024-06-03 02:35:22 [INFO]: Epoch 010 - training loss: 0.3266, validation loss: 0.6403
+2024-06-03 02:35:25 [INFO]: Epoch 011 - training loss: 0.2927, validation loss: 0.6133
+2024-06-03 02:35:28 [INFO]: Epoch 012 - training loss: 0.2991, validation loss: 0.6416
+2024-06-03 02:35:31 [INFO]: Epoch 013 - training loss: 0.2949, validation loss: 0.6190
+2024-06-03 02:35:33 [INFO]: Epoch 014 - training loss: 0.3133, validation loss: 0.7833
+2024-06-03 02:35:36 [INFO]: Epoch 015 - training loss: 0.2675, validation loss: 0.6629
+2024-06-03 02:35:39 [INFO]: Epoch 016 - training loss: 0.2915, validation loss: 0.6570
+2024-06-03 02:35:42 [INFO]: Epoch 017 - training loss: 0.2759, validation loss: 0.6841
+2024-06-03 02:35:44 [INFO]: Epoch 018 - training loss: 0.2587, validation loss: 0.6396
+2024-06-03 02:35:44 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:35:44 [INFO]: Finished training. The best model is from epoch#8.
+2024-06-03 02:35:45 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_0/20240603_T023453/Transformer.pypots
+2024-06-03 02:35:47 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_0/imputation.pkl
+2024-06-03 02:35:47 [INFO]: Round0 - Transformer on Pedestrian: MAE=0.5028, MSE=0.6248, MRE=0.6567
+2024-06-03 02:35:47 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 02:35:47 [INFO]: Using the given device: cuda:0
+2024-06-03 02:35:47 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_1/20240603_T023547
+2024-06-03 02:35:47 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_1/20240603_T023547/tensorboard
+2024-06-03 02:35:47 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=1024, n_heads=4, d_k=128
+2024-06-03 02:35:47 [WARNING]: ⚠️ d_model is reset to 512 = n_heads (4) * d_k (128)
+2024-06-03 02:35:48 [INFO]: Transformer initialized with the given hyperparameters, the number of trainable parameters: 13,787,649
+2024-06-03 02:35:50 [INFO]: Epoch 001 - training loss: 1.4252, validation loss: 0.7428
+2024-06-03 02:35:53 [INFO]: Epoch 002 - training loss: 0.6162, validation loss: 0.6334
+2024-06-03 02:35:56 [INFO]: Epoch 003 - training loss: 0.5260, validation loss: 0.6294
+2024-06-03 02:35:58 [INFO]: Epoch 004 - training loss: 0.4623, validation loss: 0.6420
+2024-06-03 02:36:01 [INFO]: Epoch 005 - training loss: 0.4410, validation loss: 0.6831
+2024-06-03 02:36:04 [INFO]: Epoch 006 - training loss: 0.4017, validation loss: 0.6353
+2024-06-03 02:36:07 [INFO]: Epoch 007 - training loss: 0.3502, validation loss: 0.7157
+2024-06-03 02:36:09 [INFO]: Epoch 008 - training loss: 0.3497, validation loss: 0.8336
+2024-06-03 02:36:12 [INFO]: Epoch 009 - training loss: 0.3752, validation loss: 0.6019
+2024-06-03 02:36:15 [INFO]: Epoch 010 - training loss: 0.3045, validation loss: 0.6036
+2024-06-03 02:36:18 [INFO]: Epoch 011 - training loss: 0.2852, validation loss: 0.5929
+2024-06-03 02:36:20 [INFO]: Epoch 012 - training loss: 0.2972, validation loss: 0.6527
+2024-06-03 02:36:23 [INFO]: Epoch 013 - training loss: 0.2866, validation loss: 0.6319
+2024-06-03 02:36:26 [INFO]: Epoch 014 - training loss: 0.2914, validation loss: 0.6970
+2024-06-03 02:36:28 [INFO]: Epoch 015 - training loss: 0.2707, validation loss: 0.6265
+2024-06-03 02:36:31 [INFO]: Epoch 016 - training loss: 0.2902, validation loss: 0.6905
+2024-06-03 02:36:34 [INFO]: Epoch 017 - training loss: 0.2575, validation loss: 0.6646
+2024-06-03 02:36:37 [INFO]: Epoch 018 - training loss: 0.2750, validation loss: 0.6562
+2024-06-03 02:36:39 [INFO]: Epoch 019 - training loss: 0.2393, validation loss: 0.6414
+2024-06-03 02:36:42 [INFO]: Epoch 020 - training loss: 0.2564, validation loss: 0.6154
+2024-06-03 02:36:45 [INFO]: Epoch 021 - training loss: 0.2652, validation loss: 0.6922
+2024-06-03 02:36:45 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:36:45 [INFO]: Finished training. The best model is from epoch#11.
+2024-06-03 02:36:45 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_1/20240603_T023547/Transformer.pypots
+2024-06-03 02:36:47 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_1/imputation.pkl
+2024-06-03 02:36:47 [INFO]: Round1 - Transformer on Pedestrian: MAE=0.5180, MSE=0.7074, MRE=0.6766
+2024-06-03 02:36:47 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 02:36:47 [INFO]: Using the given device: cuda:0
+2024-06-03 02:36:47 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_2/20240603_T023647
+2024-06-03 02:36:47 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_2/20240603_T023647/tensorboard
+2024-06-03 02:36:47 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=1024, n_heads=4, d_k=128
+2024-06-03 02:36:47 [WARNING]: ⚠️ d_model is reset to 512 = n_heads (4) * d_k (128)
+2024-06-03 02:36:48 [INFO]: Transformer initialized with the given hyperparameters, the number of trainable parameters: 13,787,649
+2024-06-03 02:36:51 [INFO]: Epoch 001 - training loss: 2.0374, validation loss: 0.7854
+2024-06-03 02:36:54 [INFO]: Epoch 002 - training loss: 0.6974, validation loss: 0.7400
+2024-06-03 02:36:56 [INFO]: Epoch 003 - training loss: 0.5227, validation loss: 0.6488
+2024-06-03 02:36:59 [INFO]: Epoch 004 - training loss: 0.4813, validation loss: 0.7006
+2024-06-03 02:37:02 [INFO]: Epoch 005 - training loss: 0.3933, validation loss: 0.6800
+2024-06-03 02:37:04 [INFO]: Epoch 006 - training loss: 0.3805, validation loss: 0.6767
+2024-06-03 02:37:07 [INFO]: Epoch 007 - training loss: 0.3604, validation loss: 0.6493
+2024-06-03 02:37:10 [INFO]: Epoch 008 - training loss: 0.3868, validation loss: 0.6122
+2024-06-03 02:37:12 [INFO]: Epoch 009 - training loss: 0.3251, validation loss: 0.6891
+2024-06-03 02:37:15 [INFO]: Epoch 010 - training loss: 0.3027, validation loss: 0.6446
+2024-06-03 02:37:17 [INFO]: Epoch 011 - training loss: 0.3004, validation loss: 0.6837
+2024-06-03 02:37:20 [INFO]: Epoch 012 - training loss: 0.2839, validation loss: 0.6449
+2024-06-03 02:37:23 [INFO]: Epoch 013 - training loss: 0.2761, validation loss: 0.6091
+2024-06-03 02:37:26 [INFO]: Epoch 014 - training loss: 0.2728, validation loss: 0.7139
+2024-06-03 02:37:28 [INFO]: Epoch 015 - training loss: 0.2618, validation loss: 0.6267
+2024-06-03 02:37:31 [INFO]: Epoch 016 - training loss: 0.2411, validation loss: 0.6924
+2024-06-03 02:37:34 [INFO]: Epoch 017 - training loss: 0.2570, validation loss: 0.6270
+2024-06-03 02:37:36 [INFO]: Epoch 018 - training loss: 0.2640, validation loss: 0.6967
+2024-06-03 02:37:39 [INFO]: Epoch 019 - training loss: 0.2456, validation loss: 0.6322
+2024-06-03 02:37:42 [INFO]: Epoch 020 - training loss: 0.2576, validation loss: 0.6722
+2024-06-03 02:37:45 [INFO]: Epoch 021 - training loss: 0.2564, validation loss: 0.7563
+2024-06-03 02:37:47 [INFO]: Epoch 022 - training loss: 0.2408, validation loss: 0.6308
+2024-06-03 02:37:50 [INFO]: Epoch 023 - training loss: 0.2377, validation loss: 0.6652
+2024-06-03 02:37:50 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:37:50 [INFO]: Finished training. The best model is from epoch#13.
+2024-06-03 02:37:51 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_2/20240603_T023647/Transformer.pypots
+2024-06-03 02:37:53 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_2/imputation.pkl
+2024-06-03 02:37:53 [INFO]: Round2 - Transformer on Pedestrian: MAE=0.5209, MSE=0.7155, MRE=0.6803
+2024-06-03 02:37:53 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 02:37:53 [INFO]: Using the given device: cuda:0
+2024-06-03 02:37:53 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_3/20240603_T023753
+2024-06-03 02:37:53 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_3/20240603_T023753/tensorboard
+2024-06-03 02:37:53 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=1024, n_heads=4, d_k=128
+2024-06-03 02:37:53 [WARNING]: ⚠️ d_model is reset to 512 = n_heads (4) * d_k (128)
+2024-06-03 02:37:54 [INFO]: Transformer initialized with the given hyperparameters, the number of trainable parameters: 13,787,649
+2024-06-03 02:37:56 [INFO]: Epoch 001 - training loss: 1.8652, validation loss: 0.7309
+2024-06-03 02:37:59 [INFO]: Epoch 002 - training loss: 0.6688, validation loss: 0.6648
+2024-06-03 02:38:02 [INFO]: Epoch 003 - training loss: 0.4826, validation loss: 0.7044
+2024-06-03 02:38:05 [INFO]: Epoch 004 - training loss: 0.4373, validation loss: 0.6899
+2024-06-03 02:38:08 [INFO]: Epoch 005 - training loss: 0.4542, validation loss: 0.7808
+2024-06-03 02:38:11 [INFO]: Epoch 006 - training loss: 0.3963, validation loss: 0.6771
+2024-06-03 02:38:13 [INFO]: Epoch 007 - training loss: 0.3522, validation loss: 0.6159
+2024-06-03 02:38:16 [INFO]: Epoch 008 - training loss: 0.3060, validation loss: 0.7589
+2024-06-03 02:38:18 [INFO]: Epoch 009 - training loss: 0.3134, validation loss: 0.7353
+2024-06-03 02:38:21 [INFO]: Epoch 010 - training loss: 0.3080, validation loss: 0.7590
+2024-06-03 02:38:24 [INFO]: Epoch 011 - training loss: 0.3198, validation loss: 0.6861
+2024-06-03 02:38:26 [INFO]: Epoch 012 - training loss: 0.3029, validation loss: 0.6255
+2024-06-03 02:38:29 [INFO]: Epoch 013 - training loss: 0.2850, validation loss: 0.8144
+2024-06-03 02:38:32 [INFO]: Epoch 014 - training loss: 0.2767, validation loss: 0.6286
+2024-06-03 02:38:34 [INFO]: Epoch 015 - training loss: 0.2853, validation loss: 0.6491
+2024-06-03 02:38:37 [INFO]: Epoch 016 - training loss: 0.2447, validation loss: 0.6624
+2024-06-03 02:38:40 [INFO]: Epoch 017 - training loss: 0.2719, validation loss: 0.7637
+2024-06-03 02:38:40 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:38:40 [INFO]: Finished training. The best model is from epoch#7.
+2024-06-03 02:38:40 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_3/20240603_T023753/Transformer.pypots
+2024-06-03 02:38:42 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_3/imputation.pkl
+2024-06-03 02:38:42 [INFO]: Round3 - Transformer on Pedestrian: MAE=0.5577, MSE=0.7160, MRE=0.7284
+2024-06-03 02:38:42 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 02:38:42 [INFO]: Using the given device: cuda:0
+2024-06-03 02:38:42 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_4/20240603_T023842
+2024-06-03 02:38:42 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_4/20240603_T023842/tensorboard
+2024-06-03 02:38:42 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=1024, n_heads=4, d_k=128
+2024-06-03 02:38:42 [WARNING]: ⚠️ d_model is reset to 512 = n_heads (4) * d_k (128)
+2024-06-03 02:38:43 [INFO]: Transformer initialized with the given hyperparameters, the number of trainable parameters: 13,787,649
+2024-06-03 02:38:45 [INFO]: Epoch 001 - training loss: 1.4406, validation loss: 0.7247
+2024-06-03 02:38:48 [INFO]: Epoch 002 - training loss: 0.6397, validation loss: 0.6769
+2024-06-03 02:38:51 [INFO]: Epoch 003 - training loss: 0.4893, validation loss: 0.6964
+2024-06-03 02:38:54 [INFO]: Epoch 004 - training loss: 0.4794, validation loss: 0.7580
+2024-06-03 02:38:57 [INFO]: Epoch 005 - training loss: 0.4238, validation loss: 0.7398
+2024-06-03 02:39:00 [INFO]: Epoch 006 - training loss: 0.3662, validation loss: 0.6047
+2024-06-03 02:39:02 [INFO]: Epoch 007 - training loss: 0.3333, validation loss: 0.7975
+2024-06-03 02:39:05 [INFO]: Epoch 008 - training loss: 0.3336, validation loss: 0.6761
+2024-06-03 02:39:08 [INFO]: Epoch 009 - training loss: 0.3185, validation loss: 0.7436
+2024-06-03 02:39:10 [INFO]: Epoch 010 - training loss: 0.3154, validation loss: 0.7149
+2024-06-03 02:39:12 [INFO]: Epoch 011 - training loss: 0.2920, validation loss: 0.6523
+2024-06-03 02:39:15 [INFO]: Epoch 012 - training loss: 0.2931, validation loss: 0.7117
+2024-06-03 02:39:17 [INFO]: Epoch 013 - training loss: 0.3022, validation loss: 0.6658
+2024-06-03 02:39:20 [INFO]: Epoch 014 - training loss: 0.3355, validation loss: 0.7064
+2024-06-03 02:39:23 [INFO]: Epoch 015 - training loss: 0.2911, validation loss: 0.6563
+2024-06-03 02:39:25 [INFO]: Epoch 016 - training loss: 0.2770, validation loss: 0.6892
+2024-06-03 02:39:25 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:39:25 [INFO]: Finished training. The best model is from epoch#6.
+2024-06-03 02:39:25 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_4/20240603_T023842/Transformer.pypots
+2024-06-03 02:39:27 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/Transformer_Pedestrian/round_4/imputation.pkl
+2024-06-03 02:39:27 [INFO]: Round4 - Transformer on Pedestrian: MAE=0.5286, MSE=0.7078, MRE=0.6903
+2024-06-03 02:39:27 [INFO]: Done! Final results:
+Averaged Transformer (13,787,649 params) on Pedestrian: MAE=0.5256 ± 0.018091540539337626, MSE=0.6943 ± 0.03492672147517475, MRE=0.6865 ± 0.023628379799961335, average inference time=1.61

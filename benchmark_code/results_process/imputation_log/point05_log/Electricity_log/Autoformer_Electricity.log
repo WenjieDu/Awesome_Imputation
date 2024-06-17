@@ -1,0 +1,107 @@
+2024-06-04 02:59:04 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-04 02:59:04 [INFO]: Using the given device: cuda:0
+2024-06-04 02:59:04 [INFO]: Model files will be saved to results_point_rate05/Electricity/Autoformer_Electricity/round_0/20240604_T025904
+2024-06-04 02:59:04 [INFO]: Tensorboard file will be saved to results_point_rate05/Electricity/Autoformer_Electricity/round_0/20240604_T025904/tensorboard
+2024-06-04 02:59:05 [INFO]: Autoformer initialized with the given hyperparameters, the number of trainable parameters: 7,431,538
+2024-06-04 02:59:19 [INFO]: Epoch 001 - training loss: 1.7818, validation loss: 4.4601
+2024-06-04 02:59:28 [INFO]: Epoch 002 - training loss: 1.6775, validation loss: 4.6213
+2024-06-04 02:59:38 [INFO]: Epoch 003 - training loss: 1.6350, validation loss: 4.7870
+2024-06-04 02:59:48 [INFO]: Epoch 004 - training loss: 1.6091, validation loss: 4.9386
+2024-06-04 02:59:57 [INFO]: Epoch 005 - training loss: 1.5927, validation loss: 5.0669
+2024-06-04 03:00:07 [INFO]: Epoch 006 - training loss: 1.5806, validation loss: 5.1738
+2024-06-04 03:00:17 [INFO]: Epoch 007 - training loss: 1.5703, validation loss: 5.2658
+2024-06-04 03:00:28 [INFO]: Epoch 008 - training loss: 1.5609, validation loss: 5.3453
+2024-06-04 03:00:38 [INFO]: Epoch 009 - training loss: 1.5548, validation loss: 5.4125
+2024-06-04 03:00:48 [INFO]: Epoch 010 - training loss: 1.5477, validation loss: 5.4674
+2024-06-04 03:00:58 [INFO]: Epoch 011 - training loss: 1.5432, validation loss: 5.5106
+2024-06-04 03:00:58 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-04 03:00:58 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-04 03:00:58 [INFO]: Saved the model to results_point_rate05/Electricity/Autoformer_Electricity/round_0/20240604_T025904/Autoformer.pypots
+2024-06-04 03:01:01 [INFO]: Successfully saved to results_point_rate05/Electricity/Autoformer_Electricity/round_0/imputation.pkl
+2024-06-04 03:01:01 [INFO]: Round0 - Autoformer on Electricity: MAE=2.1647, MSE=8.0837, MRE=1.1590
+2024-06-04 03:01:01 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-04 03:01:01 [INFO]: Using the given device: cuda:0
+2024-06-04 03:01:01 [INFO]: Model files will be saved to results_point_rate05/Electricity/Autoformer_Electricity/round_1/20240604_T030101
+2024-06-04 03:01:01 [INFO]: Tensorboard file will be saved to results_point_rate05/Electricity/Autoformer_Electricity/round_1/20240604_T030101/tensorboard
+2024-06-04 03:01:01 [INFO]: Autoformer initialized with the given hyperparameters, the number of trainable parameters: 7,431,538
+2024-06-04 03:01:12 [INFO]: Epoch 001 - training loss: 1.7814, validation loss: 4.4889
+2024-06-04 03:01:22 [INFO]: Epoch 002 - training loss: 1.6763, validation loss: 4.6490
+2024-06-04 03:01:31 [INFO]: Epoch 003 - training loss: 1.6330, validation loss: 4.8067
+2024-06-04 03:01:41 [INFO]: Epoch 004 - training loss: 1.6089, validation loss: 4.9509
+2024-06-04 03:01:51 [INFO]: Epoch 005 - training loss: 1.5926, validation loss: 5.0754
+2024-06-04 03:02:01 [INFO]: Epoch 006 - training loss: 1.5796, validation loss: 5.1793
+2024-06-04 03:02:11 [INFO]: Epoch 007 - training loss: 1.5703, validation loss: 5.2711
+2024-06-04 03:02:21 [INFO]: Epoch 008 - training loss: 1.5599, validation loss: 5.3485
+2024-06-04 03:02:31 [INFO]: Epoch 009 - training loss: 1.5527, validation loss: 5.4135
+2024-06-04 03:02:41 [INFO]: Epoch 010 - training loss: 1.5484, validation loss: 5.4698
+2024-06-04 03:02:51 [INFO]: Epoch 011 - training loss: 1.5409, validation loss: 5.5147
+2024-06-04 03:02:51 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-04 03:02:51 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-04 03:02:51 [INFO]: Saved the model to results_point_rate05/Electricity/Autoformer_Electricity/round_1/20240604_T030101/Autoformer.pypots
+2024-06-04 03:02:55 [INFO]: Successfully saved to results_point_rate05/Electricity/Autoformer_Electricity/round_1/imputation.pkl
+2024-06-04 03:02:55 [INFO]: Round1 - Autoformer on Electricity: MAE=2.1662, MSE=8.1101, MRE=1.1598
+2024-06-04 03:02:55 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-04 03:02:55 [INFO]: Using the given device: cuda:0
+2024-06-04 03:02:55 [INFO]: Model files will be saved to results_point_rate05/Electricity/Autoformer_Electricity/round_2/20240604_T030255
+2024-06-04 03:02:55 [INFO]: Tensorboard file will be saved to results_point_rate05/Electricity/Autoformer_Electricity/round_2/20240604_T030255/tensorboard
+2024-06-04 03:02:55 [INFO]: Autoformer initialized with the given hyperparameters, the number of trainable parameters: 7,431,538
+2024-06-04 03:03:06 [INFO]: Epoch 001 - training loss: 1.7813, validation loss: 4.4714
+2024-06-04 03:03:15 [INFO]: Epoch 002 - training loss: 1.6765, validation loss: 4.6283
+2024-06-04 03:03:25 [INFO]: Epoch 003 - training loss: 1.6333, validation loss: 4.7941
+2024-06-04 03:03:35 [INFO]: Epoch 004 - training loss: 1.6080, validation loss: 4.9410
+2024-06-04 03:03:44 [INFO]: Epoch 005 - training loss: 1.5917, validation loss: 5.0645
+2024-06-04 03:03:54 [INFO]: Epoch 006 - training loss: 1.5794, validation loss: 5.1695
+2024-06-04 03:04:03 [INFO]: Epoch 007 - training loss: 1.5699, validation loss: 5.2650
+2024-06-04 03:04:14 [INFO]: Epoch 008 - training loss: 1.5601, validation loss: 5.3397
+2024-06-04 03:04:24 [INFO]: Epoch 009 - training loss: 1.5523, validation loss: 5.4062
+2024-06-04 03:04:34 [INFO]: Epoch 010 - training loss: 1.5481, validation loss: 5.4644
+2024-06-04 03:04:44 [INFO]: Epoch 011 - training loss: 1.5411, validation loss: 5.5133
+2024-06-04 03:04:44 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-04 03:04:44 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-04 03:04:44 [INFO]: Saved the model to results_point_rate05/Electricity/Autoformer_Electricity/round_2/20240604_T030255/Autoformer.pypots
+2024-06-04 03:04:47 [INFO]: Successfully saved to results_point_rate05/Electricity/Autoformer_Electricity/round_2/imputation.pkl
+2024-06-04 03:04:47 [INFO]: Round2 - Autoformer on Electricity: MAE=2.1632, MSE=8.0833, MRE=1.1582
+2024-06-04 03:04:47 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-04 03:04:47 [INFO]: Using the given device: cuda:0
+2024-06-04 03:04:47 [INFO]: Model files will be saved to results_point_rate05/Electricity/Autoformer_Electricity/round_3/20240604_T030447
+2024-06-04 03:04:47 [INFO]: Tensorboard file will be saved to results_point_rate05/Electricity/Autoformer_Electricity/round_3/20240604_T030447/tensorboard
+2024-06-04 03:04:48 [INFO]: Autoformer initialized with the given hyperparameters, the number of trainable parameters: 7,431,538
+2024-06-04 03:04:58 [INFO]: Epoch 001 - training loss: 1.7799, validation loss: 4.4854
+2024-06-04 03:05:08 [INFO]: Epoch 002 - training loss: 1.6767, validation loss: 4.6364
+2024-06-04 03:05:18 [INFO]: Epoch 003 - training loss: 1.6330, validation loss: 4.7998
+2024-06-04 03:05:28 [INFO]: Epoch 004 - training loss: 1.6092, validation loss: 4.9446
+2024-06-04 03:05:38 [INFO]: Epoch 005 - training loss: 1.5920, validation loss: 5.0687
+2024-06-04 03:05:48 [INFO]: Epoch 006 - training loss: 1.5797, validation loss: 5.1737
+2024-06-04 03:05:58 [INFO]: Epoch 007 - training loss: 1.5693, validation loss: 5.2664
+2024-06-04 03:06:08 [INFO]: Epoch 008 - training loss: 1.5604, validation loss: 5.3463
+2024-06-04 03:06:18 [INFO]: Epoch 009 - training loss: 1.5534, validation loss: 5.4097
+2024-06-04 03:06:28 [INFO]: Epoch 010 - training loss: 1.5490, validation loss: 5.4636
+2024-06-04 03:06:39 [INFO]: Epoch 011 - training loss: 1.5424, validation loss: 5.5071
+2024-06-04 03:06:39 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-04 03:06:39 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-04 03:06:39 [INFO]: Saved the model to results_point_rate05/Electricity/Autoformer_Electricity/round_3/20240604_T030447/Autoformer.pypots
+2024-06-04 03:06:42 [INFO]: Successfully saved to results_point_rate05/Electricity/Autoformer_Electricity/round_3/imputation.pkl
+2024-06-04 03:06:42 [INFO]: Round3 - Autoformer on Electricity: MAE=2.1635, MSE=8.0900, MRE=1.1584
+2024-06-04 03:06:42 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-04 03:06:42 [INFO]: Using the given device: cuda:0
+2024-06-04 03:06:42 [INFO]: Model files will be saved to results_point_rate05/Electricity/Autoformer_Electricity/round_4/20240604_T030642
+2024-06-04 03:06:42 [INFO]: Tensorboard file will be saved to results_point_rate05/Electricity/Autoformer_Electricity/round_4/20240604_T030642/tensorboard
+2024-06-04 03:06:42 [INFO]: Autoformer initialized with the given hyperparameters, the number of trainable parameters: 7,431,538
+2024-06-04 03:06:53 [INFO]: Epoch 001 - training loss: 1.7802, validation loss: 4.4929
+2024-06-04 03:07:03 [INFO]: Epoch 002 - training loss: 1.6766, validation loss: 4.6421
+2024-06-04 03:07:12 [INFO]: Epoch 003 - training loss: 1.6334, validation loss: 4.8052
+2024-06-04 03:07:22 [INFO]: Epoch 004 - training loss: 1.6105, validation loss: 4.9503
+2024-06-04 03:07:31 [INFO]: Epoch 005 - training loss: 1.5934, validation loss: 5.0710
+2024-06-04 03:07:41 [INFO]: Epoch 006 - training loss: 1.5812, validation loss: 5.1741
+2024-06-04 03:07:50 [INFO]: Epoch 007 - training loss: 1.5696, validation loss: 5.2656
+2024-06-04 03:07:59 [INFO]: Epoch 008 - training loss: 1.5614, validation loss: 5.3428
+2024-06-04 03:08:09 [INFO]: Epoch 009 - training loss: 1.5553, validation loss: 5.4100
+2024-06-04 03:08:19 [INFO]: Epoch 010 - training loss: 1.5479, validation loss: 5.4657
+2024-06-04 03:08:29 [INFO]: Epoch 011 - training loss: 1.5432, validation loss: 5.5148
+2024-06-04 03:08:29 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-04 03:08:29 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-04 03:08:29 [INFO]: Saved the model to results_point_rate05/Electricity/Autoformer_Electricity/round_4/20240604_T030642/Autoformer.pypots
+2024-06-04 03:08:32 [INFO]: Successfully saved to results_point_rate05/Electricity/Autoformer_Electricity/round_4/imputation.pkl
+2024-06-04 03:08:32 [INFO]: Round4 - Autoformer on Electricity: MAE=2.1644, MSE=8.0918, MRE=1.1588
+2024-06-04 03:08:32 [INFO]: Done! Final results:
+Averaged Autoformer (7,431,538 params) on Electricity: MAE=2.1644 ± 0.0010675508720280784, MSE=8.0918 ± 0.00975446862368245, MRE=1.1588 ± 0.0005715737931571748, average inference time=0.54

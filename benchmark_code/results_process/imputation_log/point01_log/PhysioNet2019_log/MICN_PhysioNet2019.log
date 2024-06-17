@@ -1,0 +1,123 @@
+2024-06-03 19:01:49 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 19:01:49 [INFO]: Using the given device: cuda:0
+2024-06-03 19:01:50 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_0/20240603_T190150
+2024-06-03 19:01:50 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_0/20240603_T190150/tensorboard
+2024-06-03 19:01:52 [INFO]: MICN initialized with the given hyperparameters, the number of trainable parameters: 37,818,405
+2024-06-03 19:02:21 [INFO]: Epoch 001 - training loss: 0.8732, validation loss: 0.0635
+2024-06-03 19:02:42 [INFO]: Epoch 002 - training loss: 0.7984, validation loss: 0.0455
+2024-06-03 19:03:02 [INFO]: Epoch 003 - training loss: 0.7814, validation loss: 0.0426
+2024-06-03 19:03:23 [INFO]: Epoch 004 - training loss: 0.7722, validation loss: 0.0462
+2024-06-03 19:03:44 [INFO]: Epoch 005 - training loss: 0.7624, validation loss: 0.0457
+2024-06-03 19:04:04 [INFO]: Epoch 006 - training loss: 0.7552, validation loss: 0.0457
+2024-06-03 19:04:25 [INFO]: Epoch 007 - training loss: 0.7485, validation loss: 0.0477
+2024-06-03 19:04:45 [INFO]: Epoch 008 - training loss: 0.7413, validation loss: 0.0497
+2024-06-03 19:05:05 [INFO]: Epoch 009 - training loss: 0.7365, validation loss: 0.0524
+2024-06-03 19:05:25 [INFO]: Epoch 010 - training loss: 0.7318, validation loss: 0.0515
+2024-06-03 19:05:45 [INFO]: Epoch 011 - training loss: 0.7254, validation loss: 0.0522
+2024-06-03 19:06:06 [INFO]: Epoch 012 - training loss: 0.7200, validation loss: 0.0554
+2024-06-03 19:06:25 [INFO]: Epoch 013 - training loss: 0.7134, validation loss: 0.0543
+2024-06-03 19:06:25 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:06:25 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 19:06:26 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_0/20240603_T190150/MICN.pypots
+2024-06-03 19:06:31 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_0/imputation.pkl
+2024-06-03 19:06:31 [INFO]: Round0 - MICN on PhysioNet2019: MAE=0.4677, MSE=0.4755, MRE=0.6139
+2024-06-03 19:06:31 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:06:31 [INFO]: Using the given device: cuda:0
+2024-06-03 19:06:31 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_1/20240603_T190631
+2024-06-03 19:06:31 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_1/20240603_T190631/tensorboard
+2024-06-03 19:06:33 [INFO]: MICN initialized with the given hyperparameters, the number of trainable parameters: 37,818,405
+2024-06-03 19:06:52 [INFO]: Epoch 001 - training loss: 0.8808, validation loss: 0.0582
+2024-06-03 19:07:12 [INFO]: Epoch 002 - training loss: 0.8039, validation loss: 0.0471
+2024-06-03 19:07:33 [INFO]: Epoch 003 - training loss: 0.7861, validation loss: 0.0448
+2024-06-03 19:07:54 [INFO]: Epoch 004 - training loss: 0.7743, validation loss: 0.0445
+2024-06-03 19:08:13 [INFO]: Epoch 005 - training loss: 0.7657, validation loss: 0.0481
+2024-06-03 19:08:33 [INFO]: Epoch 006 - training loss: 0.7555, validation loss: 0.0484
+2024-06-03 19:08:53 [INFO]: Epoch 007 - training loss: 0.7485, validation loss: 0.0475
+2024-06-03 19:09:13 [INFO]: Epoch 008 - training loss: 0.7416, validation loss: 0.0510
+2024-06-03 19:09:33 [INFO]: Epoch 009 - training loss: 0.7336, validation loss: 0.0517
+2024-06-03 19:09:53 [INFO]: Epoch 010 - training loss: 0.7266, validation loss: 0.0529
+2024-06-03 19:10:14 [INFO]: Epoch 011 - training loss: 0.7212, validation loss: 0.0543
+2024-06-03 19:10:33 [INFO]: Epoch 012 - training loss: 0.7144, validation loss: 0.0540
+2024-06-03 19:10:52 [INFO]: Epoch 013 - training loss: 0.7036, validation loss: 0.0571
+2024-06-03 19:11:11 [INFO]: Epoch 014 - training loss: 0.6965, validation loss: 0.0561
+2024-06-03 19:11:11 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:11:11 [INFO]: Finished training. The best model is from epoch#4.
+2024-06-03 19:11:12 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_1/20240603_T190631/MICN.pypots
+2024-06-03 19:11:17 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_1/imputation.pkl
+2024-06-03 19:11:17 [INFO]: Round1 - MICN on PhysioNet2019: MAE=0.4574, MSE=0.4614, MRE=0.6003
+2024-06-03 19:11:17 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:11:17 [INFO]: Using the given device: cuda:0
+2024-06-03 19:11:17 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_2/20240603_T191117
+2024-06-03 19:11:17 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_2/20240603_T191117/tensorboard
+2024-06-03 19:11:18 [INFO]: MICN initialized with the given hyperparameters, the number of trainable parameters: 37,818,405
+2024-06-03 19:11:35 [INFO]: Epoch 001 - training loss: 0.8700, validation loss: 0.0647
+2024-06-03 19:11:55 [INFO]: Epoch 002 - training loss: 0.8010, validation loss: 0.0471
+2024-06-03 19:12:15 [INFO]: Epoch 003 - training loss: 0.7848, validation loss: 0.0449
+2024-06-03 19:12:35 [INFO]: Epoch 004 - training loss: 0.7742, validation loss: 0.0424
+2024-06-03 19:12:55 [INFO]: Epoch 005 - training loss: 0.7635, validation loss: 0.0434
+2024-06-03 19:13:15 [INFO]: Epoch 006 - training loss: 0.7543, validation loss: 0.0433
+2024-06-03 19:13:35 [INFO]: Epoch 007 - training loss: 0.7492, validation loss: 0.0468
+2024-06-03 19:13:56 [INFO]: Epoch 008 - training loss: 0.7427, validation loss: 0.0464
+2024-06-03 19:14:15 [INFO]: Epoch 009 - training loss: 0.7371, validation loss: 0.0488
+2024-06-03 19:14:36 [INFO]: Epoch 010 - training loss: 0.7324, validation loss: 0.0451
+2024-06-03 19:14:57 [INFO]: Epoch 011 - training loss: 0.7261, validation loss: 0.0486
+2024-06-03 19:15:17 [INFO]: Epoch 012 - training loss: 0.7205, validation loss: 0.0509
+2024-06-03 19:15:37 [INFO]: Epoch 013 - training loss: 0.7146, validation loss: 0.0503
+2024-06-03 19:15:56 [INFO]: Epoch 014 - training loss: 0.7035, validation loss: 0.0509
+2024-06-03 19:15:56 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:15:56 [INFO]: Finished training. The best model is from epoch#4.
+2024-06-03 19:15:57 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_2/20240603_T191117/MICN.pypots
+2024-06-03 19:16:02 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_2/imputation.pkl
+2024-06-03 19:16:02 [INFO]: Round2 - MICN on PhysioNet2019: MAE=0.4704, MSE=0.4813, MRE=0.6174
+2024-06-03 19:16:02 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:16:02 [INFO]: Using the given device: cuda:0
+2024-06-03 19:16:02 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_3/20240603_T191602
+2024-06-03 19:16:02 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_3/20240603_T191602/tensorboard
+2024-06-03 19:16:04 [INFO]: MICN initialized with the given hyperparameters, the number of trainable parameters: 37,818,405
+2024-06-03 19:16:24 [INFO]: Epoch 001 - training loss: 0.8748, validation loss: 0.0680
+2024-06-03 19:16:44 [INFO]: Epoch 002 - training loss: 0.8034, validation loss: 0.0521
+2024-06-03 19:17:04 [INFO]: Epoch 003 - training loss: 0.7850, validation loss: 0.0443
+2024-06-03 19:17:25 [INFO]: Epoch 004 - training loss: 0.7749, validation loss: 0.0448
+2024-06-03 19:17:46 [INFO]: Epoch 005 - training loss: 0.7641, validation loss: 0.0469
+2024-06-03 19:18:05 [INFO]: Epoch 006 - training loss: 0.7540, validation loss: 0.0449
+2024-06-03 19:18:24 [INFO]: Epoch 007 - training loss: 0.7471, validation loss: 0.0456
+2024-06-03 19:18:44 [INFO]: Epoch 008 - training loss: 0.7383, validation loss: 0.0507
+2024-06-03 19:19:03 [INFO]: Epoch 009 - training loss: 0.7332, validation loss: 0.0510
+2024-06-03 19:19:21 [INFO]: Epoch 010 - training loss: 0.7257, validation loss: 0.0500
+2024-06-03 19:19:40 [INFO]: Epoch 011 - training loss: 0.7188, validation loss: 0.0546
+2024-06-03 19:20:00 [INFO]: Epoch 012 - training loss: 0.7111, validation loss: 0.0529
+2024-06-03 19:20:20 [INFO]: Epoch 013 - training loss: 0.7000, validation loss: 0.0545
+2024-06-03 19:20:20 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:20:20 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 19:20:21 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_3/20240603_T191602/MICN.pypots
+2024-06-03 19:20:26 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_3/imputation.pkl
+2024-06-03 19:20:26 [INFO]: Round3 - MICN on PhysioNet2019: MAE=0.4575, MSE=0.4613, MRE=0.6005
+2024-06-03 19:20:26 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:20:26 [INFO]: Using the given device: cuda:0
+2024-06-03 19:20:26 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_4/20240603_T192026
+2024-06-03 19:20:26 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_4/20240603_T192026/tensorboard
+2024-06-03 19:20:28 [INFO]: MICN initialized with the given hyperparameters, the number of trainable parameters: 37,818,405
+2024-06-03 19:20:48 [INFO]: Epoch 001 - training loss: 0.8709, validation loss: 0.0738
+2024-06-03 19:21:08 [INFO]: Epoch 002 - training loss: 0.8012, validation loss: 0.0522
+2024-06-03 19:21:28 [INFO]: Epoch 003 - training loss: 0.7845, validation loss: 0.0504
+2024-06-03 19:21:48 [INFO]: Epoch 004 - training loss: 0.7713, validation loss: 0.0496
+2024-06-03 19:22:09 [INFO]: Epoch 005 - training loss: 0.7633, validation loss: 0.0465
+2024-06-03 19:22:28 [INFO]: Epoch 006 - training loss: 0.7550, validation loss: 0.0457
+2024-06-03 19:22:48 [INFO]: Epoch 007 - training loss: 0.7503, validation loss: 0.0453
+2024-06-03 19:23:08 [INFO]: Epoch 008 - training loss: 0.7437, validation loss: 0.0473
+2024-06-03 19:23:28 [INFO]: Epoch 009 - training loss: 0.7337, validation loss: 0.0487
+2024-06-03 19:23:48 [INFO]: Epoch 010 - training loss: 0.7301, validation loss: 0.0491
+2024-06-03 19:24:09 [INFO]: Epoch 011 - training loss: 0.7240, validation loss: 0.0494
+2024-06-03 19:24:29 [INFO]: Epoch 012 - training loss: 0.7195, validation loss: 0.0482
+2024-06-03 19:24:49 [INFO]: Epoch 013 - training loss: 0.7109, validation loss: 0.0491
+2024-06-03 19:25:09 [INFO]: Epoch 014 - training loss: 0.7041, validation loss: 0.0510
+2024-06-03 19:25:29 [INFO]: Epoch 015 - training loss: 0.6943, validation loss: 0.0511
+2024-06-03 19:25:49 [INFO]: Epoch 016 - training loss: 0.6880, validation loss: 0.0519
+2024-06-03 19:26:08 [INFO]: Epoch 017 - training loss: 0.6789, validation loss: 0.0524
+2024-06-03 19:26:08 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:26:08 [INFO]: Finished training. The best model is from epoch#7.
+2024-06-03 19:26:08 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_4/20240603_T192026/MICN.pypots
+2024-06-03 19:26:13 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/MICN_PhysioNet2019/round_4/imputation.pkl
+2024-06-03 19:26:13 [INFO]: Round4 - MICN on PhysioNet2019: MAE=0.4535, MSE=0.4582, MRE=0.5953
+2024-06-03 19:26:13 [INFO]: Done! Final results:
+Averaged MICN (37,818,405 params) on PhysioNet2019: MAE=0.4613 ± 0.006544490455825298, MSE=0.4675 ± 0.00912639248990087, MRE=0.6055 ± 0.008589676274840396, average inference time=0.82

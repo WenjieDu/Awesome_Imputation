@@ -1,0 +1,185 @@
+2024-06-03 05:54:03 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 05:54:03 [INFO]: Using the given device: cuda:0
+2024-06-03 05:54:03 [INFO]: Model files will be saved to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_0/20240603_T055403
+2024-06-03 05:54:03 [INFO]: Tensorboard file will be saved to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_0/20240603_T055403/tensorboard
+2024-06-03 05:54:05 [INFO]: GRUD initialized with the given hyperparameters, the number of trainable parameters: 7,397,656
+2024-06-03 05:54:18 [INFO]: Epoch 001 - training loss: 0.6335, validation loss: 0.5026
+2024-06-03 05:54:23 [INFO]: Epoch 002 - training loss: 0.3894, validation loss: 0.4052
+2024-06-03 05:54:28 [INFO]: Epoch 003 - training loss: 0.3346, validation loss: 0.3684
+2024-06-03 05:54:33 [INFO]: Epoch 004 - training loss: 0.3040, validation loss: 0.3487
+2024-06-03 05:54:37 [INFO]: Epoch 005 - training loss: 0.2886, validation loss: 0.3377
+2024-06-03 05:54:42 [INFO]: Epoch 006 - training loss: 0.2759, validation loss: 0.3308
+2024-06-03 05:54:47 [INFO]: Epoch 007 - training loss: 0.2680, validation loss: 0.3236
+2024-06-03 05:54:52 [INFO]: Epoch 008 - training loss: 0.2624, validation loss: 0.3208
+2024-06-03 05:54:57 [INFO]: Epoch 009 - training loss: 0.2560, validation loss: 0.3192
+2024-06-03 05:55:02 [INFO]: Epoch 010 - training loss: 0.2479, validation loss: 0.3155
+2024-06-03 05:55:07 [INFO]: Epoch 011 - training loss: 0.2506, validation loss: 0.3144
+2024-06-03 05:55:12 [INFO]: Epoch 012 - training loss: 0.2383, validation loss: 0.3145
+2024-06-03 05:55:16 [INFO]: Epoch 013 - training loss: 0.2354, validation loss: 0.3125
+2024-06-03 05:55:21 [INFO]: Epoch 014 - training loss: 0.2280, validation loss: 0.3113
+2024-06-03 05:55:26 [INFO]: Epoch 015 - training loss: 0.2218, validation loss: 0.3121
+2024-06-03 05:55:31 [INFO]: Epoch 016 - training loss: 0.2173, validation loss: 0.3117
+2024-06-03 05:55:36 [INFO]: Epoch 017 - training loss: 0.2149, validation loss: 0.3114
+2024-06-03 05:55:40 [INFO]: Epoch 018 - training loss: 0.2090, validation loss: 0.3126
+2024-06-03 05:55:45 [INFO]: Epoch 019 - training loss: 0.2038, validation loss: 0.3121
+2024-06-03 05:55:50 [INFO]: Epoch 020 - training loss: 0.2007, validation loss: 0.3136
+2024-06-03 05:55:55 [INFO]: Epoch 021 - training loss: 0.1964, validation loss: 0.3130
+2024-06-03 05:56:00 [INFO]: Epoch 022 - training loss: 0.1911, validation loss: 0.3114
+2024-06-03 05:56:05 [INFO]: Epoch 023 - training loss: 0.1859, validation loss: 0.3137
+2024-06-03 05:56:10 [INFO]: Epoch 024 - training loss: 0.1841, validation loss: 0.3138
+2024-06-03 05:56:10 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 05:56:10 [INFO]: Finished training. The best model is from epoch#14.
+2024-06-03 05:56:10 [INFO]: Saved the model to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_0/20240603_T055403/GRUD.pypots
+2024-06-03 05:56:15 [INFO]: Successfully saved to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_0/imputation.pkl
+2024-06-03 05:56:15 [INFO]: Round0 - GRUD on BeijingAir: MAE=0.2853, MSE=0.3124, MRE=0.3884
+2024-06-03 05:56:15 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 05:56:15 [INFO]: Using the given device: cuda:0
+2024-06-03 05:56:15 [INFO]: Model files will be saved to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_1/20240603_T055615
+2024-06-03 05:56:15 [INFO]: Tensorboard file will be saved to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_1/20240603_T055615/tensorboard
+2024-06-03 05:56:15 [INFO]: GRUD initialized with the given hyperparameters, the number of trainable parameters: 7,397,656
+2024-06-03 05:56:22 [INFO]: Epoch 001 - training loss: 0.6164, validation loss: 0.4888
+2024-06-03 05:56:27 [INFO]: Epoch 002 - training loss: 0.3795, validation loss: 0.3960
+2024-06-03 05:56:32 [INFO]: Epoch 003 - training loss: 0.3248, validation loss: 0.3617
+2024-06-03 05:56:37 [INFO]: Epoch 004 - training loss: 0.3005, validation loss: 0.3450
+2024-06-03 05:56:42 [INFO]: Epoch 005 - training loss: 0.2886, validation loss: 0.3350
+2024-06-03 05:56:47 [INFO]: Epoch 006 - training loss: 0.2764, validation loss: 0.3259
+2024-06-03 05:56:52 [INFO]: Epoch 007 - training loss: 0.2677, validation loss: 0.3212
+2024-06-03 05:56:56 [INFO]: Epoch 008 - training loss: 0.2581, validation loss: 0.3190
+2024-06-03 05:57:01 [INFO]: Epoch 009 - training loss: 0.2533, validation loss: 0.3160
+2024-06-03 05:57:06 [INFO]: Epoch 010 - training loss: 0.2470, validation loss: 0.3153
+2024-06-03 05:57:11 [INFO]: Epoch 011 - training loss: 0.2414, validation loss: 0.3129
+2024-06-03 05:57:15 [INFO]: Epoch 012 - training loss: 0.2357, validation loss: 0.3139
+2024-06-03 05:57:20 [INFO]: Epoch 013 - training loss: 0.2321, validation loss: 0.3127
+2024-06-03 05:57:25 [INFO]: Epoch 014 - training loss: 0.2260, validation loss: 0.3125
+2024-06-03 05:57:30 [INFO]: Epoch 015 - training loss: 0.2221, validation loss: 0.3108
+2024-06-03 05:57:34 [INFO]: Epoch 016 - training loss: 0.2157, validation loss: 0.3118
+2024-06-03 05:57:39 [INFO]: Epoch 017 - training loss: 0.2108, validation loss: 0.3128
+2024-06-03 05:57:44 [INFO]: Epoch 018 - training loss: 0.2054, validation loss: 0.3111
+2024-06-03 05:57:48 [INFO]: Epoch 019 - training loss: 0.2009, validation loss: 0.3136
+2024-06-03 05:57:53 [INFO]: Epoch 020 - training loss: 0.2006, validation loss: 0.3137
+2024-06-03 05:57:58 [INFO]: Epoch 021 - training loss: 0.1926, validation loss: 0.3134
+2024-06-03 05:58:03 [INFO]: Epoch 022 - training loss: 0.1893, validation loss: 0.3139
+2024-06-03 05:58:07 [INFO]: Epoch 023 - training loss: 0.1839, validation loss: 0.3129
+2024-06-03 05:58:12 [INFO]: Epoch 024 - training loss: 0.1786, validation loss: 0.3124
+2024-06-03 05:58:17 [INFO]: Epoch 025 - training loss: 0.1736, validation loss: 0.3139
+2024-06-03 05:58:17 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 05:58:17 [INFO]: Finished training. The best model is from epoch#15.
+2024-06-03 05:58:17 [INFO]: Saved the model to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_1/20240603_T055615/GRUD.pypots
+2024-06-03 05:58:22 [INFO]: Successfully saved to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_1/imputation.pkl
+2024-06-03 05:58:22 [INFO]: Round1 - GRUD on BeijingAir: MAE=0.2861, MSE=0.3116, MRE=0.3895
+2024-06-03 05:58:22 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 05:58:22 [INFO]: Using the given device: cuda:0
+2024-06-03 05:58:22 [INFO]: Model files will be saved to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_2/20240603_T055822
+2024-06-03 05:58:22 [INFO]: Tensorboard file will be saved to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_2/20240603_T055822/tensorboard
+2024-06-03 05:58:23 [INFO]: GRUD initialized with the given hyperparameters, the number of trainable parameters: 7,397,656
+2024-06-03 05:58:30 [INFO]: Epoch 001 - training loss: 0.6226, validation loss: 0.4938
+2024-06-03 05:58:34 [INFO]: Epoch 002 - training loss: 0.3867, validation loss: 0.4012
+2024-06-03 05:58:39 [INFO]: Epoch 003 - training loss: 0.3295, validation loss: 0.3663
+2024-06-03 05:58:44 [INFO]: Epoch 004 - training loss: 0.3031, validation loss: 0.3476
+2024-06-03 05:58:49 [INFO]: Epoch 005 - training loss: 0.2871, validation loss: 0.3337
+2024-06-03 05:58:53 [INFO]: Epoch 006 - training loss: 0.2785, validation loss: 0.3274
+2024-06-03 05:58:58 [INFO]: Epoch 007 - training loss: 0.2666, validation loss: 0.3223
+2024-06-03 05:59:03 [INFO]: Epoch 008 - training loss: 0.2611, validation loss: 0.3206
+2024-06-03 05:59:08 [INFO]: Epoch 009 - training loss: 0.2550, validation loss: 0.3168
+2024-06-03 05:59:12 [INFO]: Epoch 010 - training loss: 0.2474, validation loss: 0.3153
+2024-06-03 05:59:17 [INFO]: Epoch 011 - training loss: 0.2421, validation loss: 0.3138
+2024-06-03 05:59:22 [INFO]: Epoch 012 - training loss: 0.2381, validation loss: 0.3119
+2024-06-03 05:59:27 [INFO]: Epoch 013 - training loss: 0.2306, validation loss: 0.3126
+2024-06-03 05:59:31 [INFO]: Epoch 014 - training loss: 0.2267, validation loss: 0.3128
+2024-06-03 05:59:36 [INFO]: Epoch 015 - training loss: 0.2221, validation loss: 0.3126
+2024-06-03 05:59:41 [INFO]: Epoch 016 - training loss: 0.2166, validation loss: 0.3129
+2024-06-03 05:59:46 [INFO]: Epoch 017 - training loss: 0.2112, validation loss: 0.3117
+2024-06-03 05:59:51 [INFO]: Epoch 018 - training loss: 0.2074, validation loss: 0.3152
+2024-06-03 05:59:55 [INFO]: Epoch 019 - training loss: 0.2025, validation loss: 0.3114
+2024-06-03 06:00:00 [INFO]: Epoch 020 - training loss: 0.1979, validation loss: 0.3127
+2024-06-03 06:00:05 [INFO]: Epoch 021 - training loss: 0.1919, validation loss: 0.3135
+2024-06-03 06:00:10 [INFO]: Epoch 022 - training loss: 0.1883, validation loss: 0.3129
+2024-06-03 06:00:15 [INFO]: Epoch 023 - training loss: 0.1830, validation loss: 0.3126
+2024-06-03 06:00:19 [INFO]: Epoch 024 - training loss: 0.1809, validation loss: 0.3144
+2024-06-03 06:00:24 [INFO]: Epoch 025 - training loss: 0.1768, validation loss: 0.3149
+2024-06-03 06:00:29 [INFO]: Epoch 026 - training loss: 0.1731, validation loss: 0.3159
+2024-06-03 06:00:34 [INFO]: Epoch 027 - training loss: 0.1687, validation loss: 0.3146
+2024-06-03 06:00:38 [INFO]: Epoch 028 - training loss: 0.1639, validation loss: 0.3162
+2024-06-03 06:00:43 [INFO]: Epoch 029 - training loss: 0.1601, validation loss: 0.3159
+2024-06-03 06:00:43 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 06:00:43 [INFO]: Finished training. The best model is from epoch#19.
+2024-06-03 06:00:43 [INFO]: Saved the model to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_2/20240603_T055822/GRUD.pypots
+2024-06-03 06:00:49 [INFO]: Successfully saved to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_2/imputation.pkl
+2024-06-03 06:00:49 [INFO]: Round2 - GRUD on BeijingAir: MAE=0.2883, MSE=0.3123, MRE=0.3924
+2024-06-03 06:00:49 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 06:00:49 [INFO]: Using the given device: cuda:0
+2024-06-03 06:00:49 [INFO]: Model files will be saved to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_3/20240603_T060049
+2024-06-03 06:00:49 [INFO]: Tensorboard file will be saved to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_3/20240603_T060049/tensorboard
+2024-06-03 06:00:49 [INFO]: GRUD initialized with the given hyperparameters, the number of trainable parameters: 7,397,656
+2024-06-03 06:00:56 [INFO]: Epoch 001 - training loss: 0.6238, validation loss: 0.4917
+2024-06-03 06:01:01 [INFO]: Epoch 002 - training loss: 0.3837, validation loss: 0.4021
+2024-06-03 06:01:05 [INFO]: Epoch 003 - training loss: 0.3292, validation loss: 0.3666
+2024-06-03 06:01:10 [INFO]: Epoch 004 - training loss: 0.3024, validation loss: 0.3464
+2024-06-03 06:01:15 [INFO]: Epoch 005 - training loss: 0.2870, validation loss: 0.3355
+2024-06-03 06:01:20 [INFO]: Epoch 006 - training loss: 0.2759, validation loss: 0.3297
+2024-06-03 06:01:24 [INFO]: Epoch 007 - training loss: 0.2666, validation loss: 0.3230
+2024-06-03 06:01:29 [INFO]: Epoch 008 - training loss: 0.2582, validation loss: 0.3187
+2024-06-03 06:01:34 [INFO]: Epoch 009 - training loss: 0.2556, validation loss: 0.3168
+2024-06-03 06:01:38 [INFO]: Epoch 010 - training loss: 0.2483, validation loss: 0.3173
+2024-06-03 06:01:43 [INFO]: Epoch 011 - training loss: 0.2416, validation loss: 0.3128
+2024-06-03 06:01:48 [INFO]: Epoch 012 - training loss: 0.2369, validation loss: 0.3135
+2024-06-03 06:01:53 [INFO]: Epoch 013 - training loss: 0.2317, validation loss: 0.3144
+2024-06-03 06:01:57 [INFO]: Epoch 014 - training loss: 0.2277, validation loss: 0.3123
+2024-06-03 06:02:02 [INFO]: Epoch 015 - training loss: 0.2220, validation loss: 0.3131
+2024-06-03 06:02:07 [INFO]: Epoch 016 - training loss: 0.2160, validation loss: 0.3126
+2024-06-03 06:02:11 [INFO]: Epoch 017 - training loss: 0.2126, validation loss: 0.3113
+2024-06-03 06:02:16 [INFO]: Epoch 018 - training loss: 0.2094, validation loss: 0.3104
+2024-06-03 06:02:20 [INFO]: Epoch 019 - training loss: 0.2019, validation loss: 0.3162
+2024-06-03 06:02:25 [INFO]: Epoch 020 - training loss: 0.1979, validation loss: 0.3160
+2024-06-03 06:02:30 [INFO]: Epoch 021 - training loss: 0.1918, validation loss: 0.3127
+2024-06-03 06:02:35 [INFO]: Epoch 022 - training loss: 0.1873, validation loss: 0.3136
+2024-06-03 06:02:40 [INFO]: Epoch 023 - training loss: 0.1840, validation loss: 0.3140
+2024-06-03 06:02:45 [INFO]: Epoch 024 - training loss: 0.1813, validation loss: 0.3141
+2024-06-03 06:02:49 [INFO]: Epoch 025 - training loss: 0.1793, validation loss: 0.3156
+2024-06-03 06:02:54 [INFO]: Epoch 026 - training loss: 0.1760, validation loss: 0.3160
+2024-06-03 06:02:59 [INFO]: Epoch 027 - training loss: 0.1748, validation loss: 0.3170
+2024-06-03 06:03:04 [INFO]: Epoch 028 - training loss: 0.1680, validation loss: 0.3173
+2024-06-03 06:03:04 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 06:03:04 [INFO]: Finished training. The best model is from epoch#18.
+2024-06-03 06:03:04 [INFO]: Saved the model to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_3/20240603_T060049/GRUD.pypots
+2024-06-03 06:03:09 [INFO]: Successfully saved to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_3/imputation.pkl
+2024-06-03 06:03:09 [INFO]: Round3 - GRUD on BeijingAir: MAE=0.2863, MSE=0.3117, MRE=0.3898
+2024-06-03 06:03:09 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 06:03:09 [INFO]: Using the given device: cuda:0
+2024-06-03 06:03:09 [INFO]: Model files will be saved to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_4/20240603_T060309
+2024-06-03 06:03:09 [INFO]: Tensorboard file will be saved to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_4/20240603_T060309/tensorboard
+2024-06-03 06:03:09 [INFO]: GRUD initialized with the given hyperparameters, the number of trainable parameters: 7,397,656
+2024-06-03 06:03:17 [INFO]: Epoch 001 - training loss: 0.6314, validation loss: 0.4984
+2024-06-03 06:03:21 [INFO]: Epoch 002 - training loss: 0.3890, validation loss: 0.3997
+2024-06-03 06:03:26 [INFO]: Epoch 003 - training loss: 0.3301, validation loss: 0.3649
+2024-06-03 06:03:31 [INFO]: Epoch 004 - training loss: 0.3041, validation loss: 0.3462
+2024-06-03 06:03:36 [INFO]: Epoch 005 - training loss: 0.2874, validation loss: 0.3357
+2024-06-03 06:03:40 [INFO]: Epoch 006 - training loss: 0.2756, validation loss: 0.3297
+2024-06-03 06:03:45 [INFO]: Epoch 007 - training loss: 0.2678, validation loss: 0.3236
+2024-06-03 06:03:50 [INFO]: Epoch 008 - training loss: 0.2615, validation loss: 0.3200
+2024-06-03 06:03:54 [INFO]: Epoch 009 - training loss: 0.2536, validation loss: 0.3166
+2024-06-03 06:03:59 [INFO]: Epoch 010 - training loss: 0.2502, validation loss: 0.3171
+2024-06-03 06:04:04 [INFO]: Epoch 011 - training loss: 0.2425, validation loss: 0.3135
+2024-06-03 06:04:09 [INFO]: Epoch 012 - training loss: 0.2400, validation loss: 0.3137
+2024-06-03 06:04:14 [INFO]: Epoch 013 - training loss: 0.2323, validation loss: 0.3114
+2024-06-03 06:04:19 [INFO]: Epoch 014 - training loss: 0.2283, validation loss: 0.3116
+2024-06-03 06:04:23 [INFO]: Epoch 015 - training loss: 0.2222, validation loss: 0.3123
+2024-06-03 06:04:28 [INFO]: Epoch 016 - training loss: 0.2192, validation loss: 0.3110
+2024-06-03 06:04:32 [INFO]: Epoch 017 - training loss: 0.2142, validation loss: 0.3110
+2024-06-03 06:04:37 [INFO]: Epoch 018 - training loss: 0.2077, validation loss: 0.3119
+2024-06-03 06:04:42 [INFO]: Epoch 019 - training loss: 0.2059, validation loss: 0.3122
+2024-06-03 06:04:47 [INFO]: Epoch 020 - training loss: 0.2015, validation loss: 0.3131
+2024-06-03 06:04:52 [INFO]: Epoch 021 - training loss: 0.1970, validation loss: 0.3115
+2024-06-03 06:04:56 [INFO]: Epoch 022 - training loss: 0.1908, validation loss: 0.3133
+2024-06-03 06:05:01 [INFO]: Epoch 023 - training loss: 0.1855, validation loss: 0.3142
+2024-06-03 06:05:06 [INFO]: Epoch 024 - training loss: 0.1822, validation loss: 0.3143
+2024-06-03 06:05:11 [INFO]: Epoch 025 - training loss: 0.1787, validation loss: 0.3132
+2024-06-03 06:05:16 [INFO]: Epoch 026 - training loss: 0.1740, validation loss: 0.3147
+2024-06-03 06:05:20 [INFO]: Epoch 027 - training loss: 0.1705, validation loss: 0.3145
+2024-06-03 06:05:20 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 06:05:20 [INFO]: Finished training. The best model is from epoch#17.
+2024-06-03 06:05:21 [INFO]: Saved the model to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_4/20240603_T060309/GRUD.pypots
+2024-06-03 06:05:26 [INFO]: Successfully saved to results_point_rate05/BeijingAir/GRUD_BeijingAir/round_4/imputation.pkl
+2024-06-03 06:05:26 [INFO]: Round4 - GRUD on BeijingAir: MAE=0.2876, MSE=0.3117, MRE=0.3915
+2024-06-03 06:05:26 [INFO]: Done! Final results:
+Averaged GRUD (7,397,656 params) on BeijingAir: MAE=0.2791 ± 0.0011060527168416355, MSE=0.3030 ± 0.0004954637913919941, MRE=0.3699 ± 0.0014659982348443294, average inference time=1.10

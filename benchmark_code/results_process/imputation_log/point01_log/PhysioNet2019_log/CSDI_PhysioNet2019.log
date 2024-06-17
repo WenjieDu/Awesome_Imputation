@@ -1,0 +1,113 @@
+2024-06-03 18:58:34 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 18:58:34 [INFO]: Using the given device: cuda:0
+2024-06-03 18:58:34 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_0/20240603_T185834
+2024-06-03 18:58:34 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_0/20240603_T185834/tensorboard
+2024-06-03 18:58:34 [INFO]: CSDI initialized with the given hyperparameters, the number of trainable parameters: 321,585
+2024-06-03 19:00:08 [INFO]: Epoch 001 - training loss: 0.4386, validation loss: 0.2948
+2024-06-03 19:01:33 [INFO]: Epoch 002 - training loss: 0.3585, validation loss: 0.2886
+2024-06-03 19:02:59 [INFO]: Epoch 003 - training loss: 0.3673, validation loss: 0.2811
+2024-06-03 19:04:24 [INFO]: Epoch 004 - training loss: 0.3609, validation loss: 0.2991
+2024-06-03 19:05:49 [INFO]: Epoch 005 - training loss: 0.3501, validation loss: 0.3017
+2024-06-03 19:07:15 [INFO]: Epoch 006 - training loss: 0.3326, validation loss: 0.3080
+2024-06-03 19:08:41 [INFO]: Epoch 007 - training loss: 0.3260, validation loss: 0.3266
+2024-06-03 19:10:06 [INFO]: Epoch 008 - training loss: 0.3130, validation loss: 0.3348
+2024-06-03 19:11:31 [INFO]: Epoch 009 - training loss: 0.3086, validation loss: 0.3108
+2024-06-03 19:12:56 [INFO]: Epoch 010 - training loss: 0.3058, validation loss: 0.3583
+2024-06-03 19:14:20 [INFO]: Epoch 011 - training loss: 0.2979, validation loss: 0.3317
+2024-06-03 19:15:38 [INFO]: Epoch 012 - training loss: 0.3150, validation loss: 0.3466
+2024-06-03 19:16:54 [INFO]: Epoch 013 - training loss: 0.2919, validation loss: 0.3535
+2024-06-03 19:16:54 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:16:54 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 19:16:54 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_0/20240603_T185834/CSDI.pypots
+2024-06-03 19:41:26 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_0/imputation.pkl
+2024-06-03 19:41:26 [INFO]: Round0 - CSDI on PhysioNet2019: MAE=0.4053, MSE=0.9937, MRE=0.5319
+2024-06-03 19:41:26 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:41:26 [INFO]: Using the given device: cuda:0
+2024-06-03 19:41:26 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_1/20240603_T194126
+2024-06-03 19:41:26 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_1/20240603_T194126/tensorboard
+2024-06-03 19:41:26 [INFO]: CSDI initialized with the given hyperparameters, the number of trainable parameters: 321,585
+2024-06-03 19:41:55 [INFO]: Epoch 001 - training loss: 0.4385, validation loss: 0.2831
+2024-06-03 19:42:24 [INFO]: Epoch 002 - training loss: 0.3628, validation loss: 0.2811
+2024-06-03 19:42:53 [INFO]: Epoch 003 - training loss: 0.3639, validation loss: 0.2837
+2024-06-03 19:43:23 [INFO]: Epoch 004 - training loss: 0.3539, validation loss: 0.2860
+2024-06-03 19:43:52 [INFO]: Epoch 005 - training loss: 0.3483, validation loss: 0.2901
+2024-06-03 19:44:21 [INFO]: Epoch 006 - training loss: 0.3417, validation loss: 0.2919
+2024-06-03 19:44:50 [INFO]: Epoch 007 - training loss: 0.3210, validation loss: 0.3117
+2024-06-03 19:45:19 [INFO]: Epoch 008 - training loss: 0.3183, validation loss: 0.2968
+2024-06-03 19:45:48 [INFO]: Epoch 009 - training loss: 0.3036, validation loss: 0.3156
+2024-06-03 19:46:17 [INFO]: Epoch 010 - training loss: 0.3024, validation loss: 0.3259
+2024-06-03 19:46:46 [INFO]: Epoch 011 - training loss: 0.3069, validation loss: 0.3280
+2024-06-03 19:47:16 [INFO]: Epoch 012 - training loss: 0.2997, validation loss: 0.3090
+2024-06-03 19:47:16 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:47:16 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 19:47:16 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_1/20240603_T194126/CSDI.pypots
+2024-06-03 20:05:59 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_1/imputation.pkl
+2024-06-03 20:05:59 [INFO]: Round1 - CSDI on PhysioNet2019: MAE=0.3883, MSE=0.5021, MRE=0.5097
+2024-06-03 20:05:59 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 20:05:59 [INFO]: Using the given device: cuda:0
+2024-06-03 20:05:59 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_2/20240603_T200559
+2024-06-03 20:05:59 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_2/20240603_T200559/tensorboard
+2024-06-03 20:05:59 [INFO]: CSDI initialized with the given hyperparameters, the number of trainable parameters: 321,585
+2024-06-03 20:06:28 [INFO]: Epoch 001 - training loss: 0.4386, validation loss: 0.2868
+2024-06-03 20:06:57 [INFO]: Epoch 002 - training loss: 0.3658, validation loss: 0.2794
+2024-06-03 20:07:26 [INFO]: Epoch 003 - training loss: 0.3582, validation loss: 0.3171
+2024-06-03 20:07:55 [INFO]: Epoch 004 - training loss: 0.3308, validation loss: 0.2890
+2024-06-03 20:08:25 [INFO]: Epoch 005 - training loss: 0.3313, validation loss: 0.3189
+2024-06-03 20:08:54 [INFO]: Epoch 006 - training loss: 0.3347, validation loss: 0.3218
+2024-06-03 20:09:23 [INFO]: Epoch 007 - training loss: 0.3088, validation loss: 0.3070
+2024-06-03 20:09:52 [INFO]: Epoch 008 - training loss: 0.3141, validation loss: 0.2967
+2024-06-03 20:10:21 [INFO]: Epoch 009 - training loss: 0.3039, validation loss: 0.3390
+2024-06-03 20:10:50 [INFO]: Epoch 010 - training loss: 0.3103, validation loss: 0.2949
+2024-06-03 20:11:19 [INFO]: Epoch 011 - training loss: 0.3173, validation loss: 0.3222
+2024-06-03 20:11:49 [INFO]: Epoch 012 - training loss: 0.2928, validation loss: 0.3437
+2024-06-03 20:11:49 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 20:11:49 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 20:11:49 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_2/20240603_T200559/CSDI.pypots
+2024-06-03 20:30:36 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_2/imputation.pkl
+2024-06-03 20:30:36 [INFO]: Round2 - CSDI on PhysioNet2019: MAE=0.4051, MSE=0.7566, MRE=0.5318
+2024-06-03 20:30:36 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 20:30:36 [INFO]: Using the given device: cuda:0
+2024-06-03 20:30:36 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_3/20240603_T203036
+2024-06-03 20:30:36 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_3/20240603_T203036/tensorboard
+2024-06-03 20:30:36 [INFO]: CSDI initialized with the given hyperparameters, the number of trainable parameters: 321,585
+2024-06-03 20:31:05 [INFO]: Epoch 001 - training loss: 0.4436, validation loss: 0.2749
+2024-06-03 20:31:34 [INFO]: Epoch 002 - training loss: 0.3734, validation loss: 0.2869
+2024-06-03 20:32:03 [INFO]: Epoch 003 - training loss: 0.3513, validation loss: 0.2772
+2024-06-03 20:32:32 [INFO]: Epoch 004 - training loss: 0.3475, validation loss: 0.2935
+2024-06-03 20:33:02 [INFO]: Epoch 005 - training loss: 0.3581, validation loss: 0.2840
+2024-06-03 20:33:31 [INFO]: Epoch 006 - training loss: 0.3322, validation loss: 0.2922
+2024-06-03 20:33:59 [INFO]: Epoch 007 - training loss: 0.3388, validation loss: 0.3034
+2024-06-03 20:34:28 [INFO]: Epoch 008 - training loss: 0.3179, validation loss: 0.2879
+2024-06-03 20:34:58 [INFO]: Epoch 009 - training loss: 0.3057, validation loss: 0.2912
+2024-06-03 20:35:27 [INFO]: Epoch 010 - training loss: 0.3109, validation loss: 0.3254
+2024-06-03 20:35:56 [INFO]: Epoch 011 - training loss: 0.3099, validation loss: 0.3321
+2024-06-03 20:35:56 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 20:35:56 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 20:35:56 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_3/20240603_T203036/CSDI.pypots
+2024-06-03 20:54:32 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_3/imputation.pkl
+2024-06-03 20:54:32 [INFO]: Round3 - CSDI on PhysioNet2019: MAE=0.4433, MSE=1.5879, MRE=0.5819
+2024-06-03 20:54:32 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 20:54:32 [INFO]: Using the given device: cuda:0
+2024-06-03 20:54:32 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_4/20240603_T205432
+2024-06-03 20:54:32 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_4/20240603_T205432/tensorboard
+2024-06-03 20:54:32 [INFO]: CSDI initialized with the given hyperparameters, the number of trainable parameters: 321,585
+2024-06-03 20:55:01 [INFO]: Epoch 001 - training loss: 0.4543, validation loss: 0.2788
+2024-06-03 20:55:30 [INFO]: Epoch 002 - training loss: 0.3665, validation loss: 0.2875
+2024-06-03 20:55:59 [INFO]: Epoch 003 - training loss: 0.3695, validation loss: 0.2777
+2024-06-03 20:56:28 [INFO]: Epoch 004 - training loss: 0.3543, validation loss: 0.2929
+2024-06-03 20:56:58 [INFO]: Epoch 005 - training loss: 0.3370, validation loss: 0.2880
+2024-06-03 20:57:27 [INFO]: Epoch 006 - training loss: 0.3284, validation loss: 0.3071
+2024-06-03 20:57:56 [INFO]: Epoch 007 - training loss: 0.3321, validation loss: 0.3202
+2024-06-03 20:58:25 [INFO]: Epoch 008 - training loss: 0.3187, validation loss: 0.3229
+2024-06-03 20:58:54 [INFO]: Epoch 009 - training loss: 0.3292, validation loss: 0.3061
+2024-06-03 20:59:23 [INFO]: Epoch 010 - training loss: 0.3130, validation loss: 0.3357
+2024-06-03 20:59:52 [INFO]: Epoch 011 - training loss: 0.3079, validation loss: 0.3378
+2024-06-03 21:00:21 [INFO]: Epoch 012 - training loss: 0.3145, validation loss: 0.3280
+2024-06-03 21:00:51 [INFO]: Epoch 013 - training loss: 0.3034, validation loss: 0.3423
+2024-06-03 21:00:51 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 21:00:51 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 21:00:51 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_4/20240603_T205432/CSDI.pypots
+2024-06-03 21:19:42 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/CSDI_PhysioNet2019/round_4/imputation.pkl
+2024-06-03 21:19:42 [INFO]: Round4 - CSDI on PhysioNet2019: MAE=0.3986, MSE=0.6395, MRE=0.5232
+2024-06-03 21:19:42 [INFO]: Done! Final results:
+Averaged CSDI (321,585 params) on PhysioNet2019: MAE=0.4081 ± 0.0186462694039907, MSE=0.8959 ± 0.38174814150935515, MRE=0.5357 ± 0.02447332133721378, average inference time=221.69

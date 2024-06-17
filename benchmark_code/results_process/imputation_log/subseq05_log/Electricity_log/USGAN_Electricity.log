@@ -1,0 +1,211 @@
+2024-06-03 05:05:50 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 05:05:50 [INFO]: Using the given device: cuda:0
+2024-06-03 05:05:50 [INFO]: Model files will be saved to results_subseq_rate05/Electricity/USGAN_Electricity/round_0/20240603_T050550
+2024-06-03 05:05:50 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Electricity/USGAN_Electricity/round_0/20240603_T050550/tensorboard
+2024-06-03 05:05:51 [INFO]: USGAN initialized with the given hyperparameters, the number of trainable parameters: 11,224,866
+2024-06-03 05:24:05 [INFO]: Epoch 001 - generator training loss: 0.2964, discriminator training loss: 0.6407, validation loss: 3.5289
+2024-06-03 05:41:01 [INFO]: Epoch 002 - generator training loss: 0.0759, discriminator training loss: 0.5952, validation loss: 3.3184
+2024-06-03 05:54:28 [INFO]: Epoch 003 - generator training loss: 0.0078, discriminator training loss: 0.5811, validation loss: 3.1577
+2024-06-03 06:06:03 [INFO]: Epoch 004 - generator training loss: -0.0317, discriminator training loss: 0.5678, validation loss: 3.0500
+2024-06-03 06:08:57 [INFO]: Epoch 005 - generator training loss: -0.0527, discriminator training loss: 0.5525, validation loss: 3.0026
+2024-06-03 06:11:01 [INFO]: Epoch 006 - generator training loss: -0.0635, discriminator training loss: 0.5327, validation loss: 2.9694
+2024-06-03 06:13:08 [INFO]: Epoch 007 - generator training loss: -0.0716, discriminator training loss: 0.5103, validation loss: 2.9401
+2024-06-03 06:15:14 [INFO]: Epoch 008 - generator training loss: -0.0715, discriminator training loss: 0.4874, validation loss: 2.9264
+2024-06-03 06:17:20 [INFO]: Epoch 009 - generator training loss: -0.0701, discriminator training loss: 0.4661, validation loss: 2.9078
+2024-06-03 06:19:24 [INFO]: Epoch 010 - generator training loss: -0.0715, discriminator training loss: 0.4471, validation loss: 2.8889
+2024-06-03 06:21:30 [INFO]: Epoch 011 - generator training loss: -0.0678, discriminator training loss: 0.4292, validation loss: 2.9023
+2024-06-03 06:23:33 [INFO]: Epoch 012 - generator training loss: -0.0656, discriminator training loss: 0.4131, validation loss: 2.8823
+2024-06-03 06:23:47 [INFO]: Epoch 013 - generator training loss: -0.0633, discriminator training loss: 0.3989, validation loss: 2.8900
+2024-06-03 06:24:00 [INFO]: Epoch 014 - generator training loss: -0.0615, discriminator training loss: 0.3855, validation loss: 2.8751
+2024-06-03 06:24:14 [INFO]: Epoch 015 - generator training loss: -0.0595, discriminator training loss: 0.3734, validation loss: 2.8698
+2024-06-03 06:24:28 [INFO]: Epoch 016 - generator training loss: -0.0583, discriminator training loss: 0.3617, validation loss: 2.8668
+2024-06-03 06:24:42 [INFO]: Epoch 017 - generator training loss: -0.0559, discriminator training loss: 0.3517, validation loss: 2.8553
+2024-06-03 06:24:56 [INFO]: Epoch 018 - generator training loss: -0.0541, discriminator training loss: 0.3414, validation loss: 2.8607
+2024-06-03 06:25:10 [INFO]: Epoch 019 - generator training loss: -0.0515, discriminator training loss: 0.3318, validation loss: 2.8584
+2024-06-03 06:25:24 [INFO]: Epoch 020 - generator training loss: -0.0495, discriminator training loss: 0.3234, validation loss: 2.8724
+2024-06-03 06:25:37 [INFO]: Epoch 021 - generator training loss: -0.0472, discriminator training loss: 0.3151, validation loss: 2.8724
+2024-06-03 06:25:51 [INFO]: Epoch 022 - generator training loss: -0.0454, discriminator training loss: 0.3075, validation loss: 2.8639
+2024-06-03 06:26:05 [INFO]: Epoch 023 - generator training loss: -0.0432, discriminator training loss: 0.3001, validation loss: 2.8647
+2024-06-03 06:26:19 [INFO]: Epoch 024 - generator training loss: -0.0418, discriminator training loss: 0.2928, validation loss: 2.8694
+2024-06-03 06:26:33 [INFO]: Epoch 025 - generator training loss: -0.0395, discriminator training loss: 0.2864, validation loss: 2.8638
+2024-06-03 06:26:47 [INFO]: Epoch 026 - generator training loss: -0.0379, discriminator training loss: 0.2801, validation loss: 2.8689
+2024-06-03 06:27:01 [INFO]: Epoch 027 - generator training loss: -0.0366, discriminator training loss: 0.2741, validation loss: 2.8746
+2024-06-03 06:27:01 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 06:27:01 [INFO]: Finished training. The best model is from epoch#17.
+2024-06-03 06:27:01 [INFO]: Saved the model to results_subseq_rate05/Electricity/USGAN_Electricity/round_0/20240603_T050550/USGAN.pypots
+2024-06-03 06:27:03 [INFO]: Successfully saved to results_subseq_rate05/Electricity/USGAN_Electricity/round_0/imputation.pkl
+2024-06-03 06:27:03 [INFO]: Round0 - USGAN on Electricity: MAE=1.3000, MSE=3.5343, MRE=0.6896
+2024-06-03 06:27:03 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 06:27:03 [INFO]: Using the given device: cuda:0
+2024-06-03 06:27:03 [INFO]: Model files will be saved to results_subseq_rate05/Electricity/USGAN_Electricity/round_1/20240603_T062703
+2024-06-03 06:27:03 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Electricity/USGAN_Electricity/round_1/20240603_T062703/tensorboard
+2024-06-03 06:27:03 [INFO]: USGAN initialized with the given hyperparameters, the number of trainable parameters: 11,224,866
+2024-06-03 06:27:20 [INFO]: Epoch 001 - generator training loss: 0.3007, discriminator training loss: 0.6413, validation loss: 3.5760
+2024-06-03 06:27:34 [INFO]: Epoch 002 - generator training loss: 0.0859, discriminator training loss: 0.5958, validation loss: 3.3550
+2024-06-03 06:27:48 [INFO]: Epoch 003 - generator training loss: 0.0104, discriminator training loss: 0.5820, validation loss: 3.1937
+2024-06-03 06:28:02 [INFO]: Epoch 004 - generator training loss: -0.0334, discriminator training loss: 0.5686, validation loss: 3.0759
+2024-06-03 06:28:16 [INFO]: Epoch 005 - generator training loss: -0.0512, discriminator training loss: 0.5532, validation loss: 3.0032
+2024-06-03 06:28:29 [INFO]: Epoch 006 - generator training loss: -0.0617, discriminator training loss: 0.5339, validation loss: 2.9658
+2024-06-03 06:28:43 [INFO]: Epoch 007 - generator training loss: -0.0678, discriminator training loss: 0.5112, validation loss: 2.9491
+2024-06-03 06:28:57 [INFO]: Epoch 008 - generator training loss: -0.0693, discriminator training loss: 0.4890, validation loss: 2.9328
+2024-06-03 06:29:11 [INFO]: Epoch 009 - generator training loss: -0.0686, discriminator training loss: 0.4672, validation loss: 2.9158
+2024-06-03 06:29:25 [INFO]: Epoch 010 - generator training loss: -0.0662, discriminator training loss: 0.4484, validation loss: 2.9021
+2024-06-03 06:29:38 [INFO]: Epoch 011 - generator training loss: -0.0647, discriminator training loss: 0.4312, validation loss: 2.8990
+2024-06-03 06:29:52 [INFO]: Epoch 012 - generator training loss: -0.0649, discriminator training loss: 0.4155, validation loss: 2.8857
+2024-06-03 06:30:06 [INFO]: Epoch 013 - generator training loss: -0.0630, discriminator training loss: 0.4012, validation loss: 2.8783
+2024-06-03 06:30:20 [INFO]: Epoch 014 - generator training loss: -0.0606, discriminator training loss: 0.3877, validation loss: 2.8837
+2024-06-03 06:30:34 [INFO]: Epoch 015 - generator training loss: -0.0596, discriminator training loss: 0.3754, validation loss: 2.8721
+2024-06-03 06:30:48 [INFO]: Epoch 016 - generator training loss: -0.0575, discriminator training loss: 0.3641, validation loss: 2.8700
+2024-06-03 06:31:02 [INFO]: Epoch 017 - generator training loss: -0.0553, discriminator training loss: 0.3533, validation loss: 2.8638
+2024-06-03 06:31:16 [INFO]: Epoch 018 - generator training loss: -0.0529, discriminator training loss: 0.3434, validation loss: 2.8709
+2024-06-03 06:31:30 [INFO]: Epoch 019 - generator training loss: -0.0506, discriminator training loss: 0.3345, validation loss: 2.8711
+2024-06-03 06:31:43 [INFO]: Epoch 020 - generator training loss: -0.0490, discriminator training loss: 0.3256, validation loss: 2.8674
+2024-06-03 06:31:57 [INFO]: Epoch 021 - generator training loss: -0.0471, discriminator training loss: 0.3174, validation loss: 2.8680
+2024-06-03 06:32:11 [INFO]: Epoch 022 - generator training loss: -0.0455, discriminator training loss: 0.3096, validation loss: 2.8619
+2024-06-03 06:32:25 [INFO]: Epoch 023 - generator training loss: -0.0440, discriminator training loss: 0.3026, validation loss: 2.8729
+2024-06-03 06:32:39 [INFO]: Epoch 024 - generator training loss: -0.0419, discriminator training loss: 0.2954, validation loss: 2.8665
+2024-06-03 06:32:53 [INFO]: Epoch 025 - generator training loss: -0.0406, discriminator training loss: 0.2887, validation loss: 2.8667
+2024-06-03 06:33:06 [INFO]: Epoch 026 - generator training loss: -0.0390, discriminator training loss: 0.2821, validation loss: 2.8672
+2024-06-03 06:33:20 [INFO]: Epoch 027 - generator training loss: -0.0370, discriminator training loss: 0.2760, validation loss: 2.8676
+2024-06-03 06:33:34 [INFO]: Epoch 028 - generator training loss: -0.0355, discriminator training loss: 0.2704, validation loss: 2.8652
+2024-06-03 06:33:48 [INFO]: Epoch 029 - generator training loss: -0.0340, discriminator training loss: 0.2649, validation loss: 2.8646
+2024-06-03 06:34:02 [INFO]: Epoch 030 - generator training loss: -0.0329, discriminator training loss: 0.2598, validation loss: 2.8685
+2024-06-03 06:34:16 [INFO]: Epoch 031 - generator training loss: -0.0320, discriminator training loss: 0.2550, validation loss: 2.8699
+2024-06-03 06:34:30 [INFO]: Epoch 032 - generator training loss: -0.0303, discriminator training loss: 0.2501, validation loss: 2.8734
+2024-06-03 06:34:30 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 06:34:30 [INFO]: Finished training. The best model is from epoch#22.
+2024-06-03 06:34:30 [INFO]: Saved the model to results_subseq_rate05/Electricity/USGAN_Electricity/round_1/20240603_T062703/USGAN.pypots
+2024-06-03 06:34:32 [INFO]: Successfully saved to results_subseq_rate05/Electricity/USGAN_Electricity/round_1/imputation.pkl
+2024-06-03 06:34:32 [INFO]: Round1 - USGAN on Electricity: MAE=1.2961, MSE=3.4634, MRE=0.6875
+2024-06-03 06:34:32 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 06:34:32 [INFO]: Using the given device: cuda:0
+2024-06-03 06:34:32 [INFO]: Model files will be saved to results_subseq_rate05/Electricity/USGAN_Electricity/round_2/20240603_T063432
+2024-06-03 06:34:32 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Electricity/USGAN_Electricity/round_2/20240603_T063432/tensorboard
+2024-06-03 06:34:32 [INFO]: USGAN initialized with the given hyperparameters, the number of trainable parameters: 11,224,866
+2024-06-03 06:34:49 [INFO]: Epoch 001 - generator training loss: 0.2886, discriminator training loss: 0.6429, validation loss: 3.5338
+2024-06-03 06:35:03 [INFO]: Epoch 002 - generator training loss: 0.0692, discriminator training loss: 0.5960, validation loss: 3.3641
+2024-06-03 06:35:17 [INFO]: Epoch 003 - generator training loss: 0.0084, discriminator training loss: 0.5816, validation loss: 3.1967
+2024-06-03 06:35:30 [INFO]: Epoch 004 - generator training loss: -0.0283, discriminator training loss: 0.5685, validation loss: 3.0898
+2024-06-03 06:35:44 [INFO]: Epoch 005 - generator training loss: -0.0488, discriminator training loss: 0.5535, validation loss: 3.0160
+2024-06-03 06:35:58 [INFO]: Epoch 006 - generator training loss: -0.0652, discriminator training loss: 0.5339, validation loss: 2.9744
+2024-06-03 06:36:12 [INFO]: Epoch 007 - generator training loss: -0.0675, discriminator training loss: 0.5109, validation loss: 2.9371
+2024-06-03 06:36:26 [INFO]: Epoch 008 - generator training loss: -0.0713, discriminator training loss: 0.4879, validation loss: 2.9247
+2024-06-03 06:36:39 [INFO]: Epoch 009 - generator training loss: -0.0702, discriminator training loss: 0.4668, validation loss: 2.9136
+2024-06-03 06:36:53 [INFO]: Epoch 010 - generator training loss: -0.0708, discriminator training loss: 0.4478, validation loss: 2.8975
+2024-06-03 06:37:07 [INFO]: Epoch 011 - generator training loss: -0.0680, discriminator training loss: 0.4300, validation loss: 2.8808
+2024-06-03 06:37:21 [INFO]: Epoch 012 - generator training loss: -0.0662, discriminator training loss: 0.4147, validation loss: 2.8851
+2024-06-03 06:37:35 [INFO]: Epoch 013 - generator training loss: -0.0651, discriminator training loss: 0.4006, validation loss: 2.8715
+2024-06-03 06:37:49 [INFO]: Epoch 014 - generator training loss: -0.0626, discriminator training loss: 0.3867, validation loss: 2.8730
+2024-06-03 06:38:03 [INFO]: Epoch 015 - generator training loss: -0.0603, discriminator training loss: 0.3744, validation loss: 2.8759
+2024-06-03 06:38:17 [INFO]: Epoch 016 - generator training loss: -0.0580, discriminator training loss: 0.3631, validation loss: 2.8658
+2024-06-03 06:38:30 [INFO]: Epoch 017 - generator training loss: -0.0557, discriminator training loss: 0.3525, validation loss: 2.8653
+2024-06-03 06:38:44 [INFO]: Epoch 018 - generator training loss: -0.0535, discriminator training loss: 0.3425, validation loss: 2.8683
+2024-06-03 06:38:58 [INFO]: Epoch 019 - generator training loss: -0.0519, discriminator training loss: 0.3336, validation loss: 2.8652
+2024-06-03 06:39:12 [INFO]: Epoch 020 - generator training loss: -0.0489, discriminator training loss: 0.3250, validation loss: 2.8661
+2024-06-03 06:39:26 [INFO]: Epoch 021 - generator training loss: -0.0480, discriminator training loss: 0.3168, validation loss: 2.8635
+2024-06-03 06:39:40 [INFO]: Epoch 022 - generator training loss: -0.0464, discriminator training loss: 0.3087, validation loss: 2.8625
+2024-06-03 06:39:53 [INFO]: Epoch 023 - generator training loss: -0.0445, discriminator training loss: 0.3013, validation loss: 2.8725
+2024-06-03 06:40:07 [INFO]: Epoch 024 - generator training loss: -0.0420, discriminator training loss: 0.2943, validation loss: 2.8700
+2024-06-03 06:40:21 [INFO]: Epoch 025 - generator training loss: -0.0404, discriminator training loss: 0.2882, validation loss: 2.8643
+2024-06-03 06:40:35 [INFO]: Epoch 026 - generator training loss: -0.0398, discriminator training loss: 0.2815, validation loss: 2.8669
+2024-06-03 06:40:49 [INFO]: Epoch 027 - generator training loss: -0.0380, discriminator training loss: 0.2754, validation loss: 2.8653
+2024-06-03 06:41:03 [INFO]: Epoch 028 - generator training loss: -0.0361, discriminator training loss: 0.2696, validation loss: 2.8720
+2024-06-03 06:41:17 [INFO]: Epoch 029 - generator training loss: -0.0347, discriminator training loss: 0.2642, validation loss: 2.8739
+2024-06-03 06:41:30 [INFO]: Epoch 030 - generator training loss: -0.0330, discriminator training loss: 0.2591, validation loss: 2.8691
+2024-06-03 06:41:44 [INFO]: Epoch 031 - generator training loss: -0.0317, discriminator training loss: 0.2537, validation loss: 2.8739
+2024-06-03 06:41:58 [INFO]: Epoch 032 - generator training loss: -0.0302, discriminator training loss: 0.2490, validation loss: 2.8672
+2024-06-03 06:41:58 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 06:41:58 [INFO]: Finished training. The best model is from epoch#22.
+2024-06-03 06:41:58 [INFO]: Saved the model to results_subseq_rate05/Electricity/USGAN_Electricity/round_2/20240603_T063432/USGAN.pypots
+2024-06-03 06:42:00 [INFO]: Successfully saved to results_subseq_rate05/Electricity/USGAN_Electricity/round_2/imputation.pkl
+2024-06-03 06:42:00 [INFO]: Round2 - USGAN on Electricity: MAE=1.2818, MSE=3.4563, MRE=0.6799
+2024-06-03 06:42:00 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 06:42:00 [INFO]: Using the given device: cuda:0
+2024-06-03 06:42:00 [INFO]: Model files will be saved to results_subseq_rate05/Electricity/USGAN_Electricity/round_3/20240603_T064200
+2024-06-03 06:42:00 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Electricity/USGAN_Electricity/round_3/20240603_T064200/tensorboard
+2024-06-03 06:42:00 [INFO]: USGAN initialized with the given hyperparameters, the number of trainable parameters: 11,224,866
+2024-06-03 06:42:17 [INFO]: Epoch 001 - generator training loss: 0.3026, discriminator training loss: 0.6442, validation loss: 3.5509
+2024-06-03 06:42:31 [INFO]: Epoch 002 - generator training loss: 0.0649, discriminator training loss: 0.5992, validation loss: 3.3528
+2024-06-03 06:42:45 [INFO]: Epoch 003 - generator training loss: 0.0136, discriminator training loss: 0.5846, validation loss: 3.1998
+2024-06-03 06:42:59 [INFO]: Epoch 004 - generator training loss: -0.0318, discriminator training loss: 0.5723, validation loss: 3.0811
+2024-06-03 06:43:12 [INFO]: Epoch 005 - generator training loss: -0.0534, discriminator training loss: 0.5584, validation loss: 3.0146
+2024-06-03 06:43:26 [INFO]: Epoch 006 - generator training loss: -0.0656, discriminator training loss: 0.5408, validation loss: 2.9656
+2024-06-03 06:43:40 [INFO]: Epoch 007 - generator training loss: -0.0716, discriminator training loss: 0.5192, validation loss: 2.9272
+2024-06-03 06:43:54 [INFO]: Epoch 008 - generator training loss: -0.0743, discriminator training loss: 0.4970, validation loss: 2.9113
+2024-06-03 06:44:08 [INFO]: Epoch 009 - generator training loss: -0.0723, discriminator training loss: 0.4758, validation loss: 2.8907
+2024-06-03 06:44:22 [INFO]: Epoch 010 - generator training loss: -0.0737, discriminator training loss: 0.4568, validation loss: 2.8885
+2024-06-03 06:44:36 [INFO]: Epoch 011 - generator training loss: -0.0715, discriminator training loss: 0.4392, validation loss: 2.8887
+2024-06-03 06:44:50 [INFO]: Epoch 012 - generator training loss: -0.0694, discriminator training loss: 0.4228, validation loss: 2.8723
+2024-06-03 06:45:04 [INFO]: Epoch 013 - generator training loss: -0.0661, discriminator training loss: 0.4082, validation loss: 2.8667
+2024-06-03 06:45:17 [INFO]: Epoch 014 - generator training loss: -0.0650, discriminator training loss: 0.3943, validation loss: 2.8693
+2024-06-03 06:45:31 [INFO]: Epoch 015 - generator training loss: -0.0618, discriminator training loss: 0.3813, validation loss: 2.8593
+2024-06-03 06:45:45 [INFO]: Epoch 016 - generator training loss: -0.0599, discriminator training loss: 0.3695, validation loss: 2.8550
+2024-06-03 06:45:59 [INFO]: Epoch 017 - generator training loss: -0.0576, discriminator training loss: 0.3587, validation loss: 2.8468
+2024-06-03 06:46:13 [INFO]: Epoch 018 - generator training loss: -0.0559, discriminator training loss: 0.3488, validation loss: 2.8537
+2024-06-03 06:46:26 [INFO]: Epoch 019 - generator training loss: -0.0529, discriminator training loss: 0.3391, validation loss: 2.8447
+2024-06-03 06:46:40 [INFO]: Epoch 020 - generator training loss: -0.0515, discriminator training loss: 0.3302, validation loss: 2.8496
+2024-06-03 06:46:54 [INFO]: Epoch 021 - generator training loss: -0.0494, discriminator training loss: 0.3218, validation loss: 2.8529
+2024-06-03 06:47:08 [INFO]: Epoch 022 - generator training loss: -0.0484, discriminator training loss: 0.3140, validation loss: 2.8547
+2024-06-03 06:47:22 [INFO]: Epoch 023 - generator training loss: -0.0468, discriminator training loss: 0.3063, validation loss: 2.8442
+2024-06-03 06:47:36 [INFO]: Epoch 024 - generator training loss: -0.0446, discriminator training loss: 0.2988, validation loss: 2.8486
+2024-06-03 06:47:50 [INFO]: Epoch 025 - generator training loss: -0.0438, discriminator training loss: 0.2922, validation loss: 2.8535
+2024-06-03 06:48:04 [INFO]: Epoch 026 - generator training loss: -0.0414, discriminator training loss: 0.2852, validation loss: 2.8549
+2024-06-03 06:48:18 [INFO]: Epoch 027 - generator training loss: -0.0396, discriminator training loss: 0.2789, validation loss: 2.8580
+2024-06-03 06:48:31 [INFO]: Epoch 028 - generator training loss: -0.0374, discriminator training loss: 0.2730, validation loss: 2.8625
+2024-06-03 06:48:45 [INFO]: Epoch 029 - generator training loss: -0.0356, discriminator training loss: 0.2675, validation loss: 2.8652
+2024-06-03 06:48:59 [INFO]: Epoch 030 - generator training loss: -0.0338, discriminator training loss: 0.2622, validation loss: 2.8747
+2024-06-03 06:49:13 [INFO]: Epoch 031 - generator training loss: -0.0325, discriminator training loss: 0.2569, validation loss: 2.8674
+2024-06-03 06:49:27 [INFO]: Epoch 032 - generator training loss: -0.0308, discriminator training loss: 0.2519, validation loss: 2.8758
+2024-06-03 06:49:41 [INFO]: Epoch 033 - generator training loss: -0.0296, discriminator training loss: 0.2472, validation loss: 2.8738
+2024-06-03 06:49:41 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 06:49:41 [INFO]: Finished training. The best model is from epoch#23.
+2024-06-03 06:49:41 [INFO]: Saved the model to results_subseq_rate05/Electricity/USGAN_Electricity/round_3/20240603_T064200/USGAN.pypots
+2024-06-03 06:49:43 [INFO]: Successfully saved to results_subseq_rate05/Electricity/USGAN_Electricity/round_3/imputation.pkl
+2024-06-03 06:49:43 [INFO]: Round3 - USGAN on Electricity: MAE=1.3017, MSE=3.5568, MRE=0.6905
+2024-06-03 06:49:43 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 06:49:43 [INFO]: Using the given device: cuda:0
+2024-06-03 06:49:43 [INFO]: Model files will be saved to results_subseq_rate05/Electricity/USGAN_Electricity/round_4/20240603_T064943
+2024-06-03 06:49:43 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Electricity/USGAN_Electricity/round_4/20240603_T064943/tensorboard
+2024-06-03 06:49:43 [INFO]: USGAN initialized with the given hyperparameters, the number of trainable parameters: 11,224,866
+2024-06-03 06:50:00 [INFO]: Epoch 001 - generator training loss: 0.2912, discriminator training loss: 0.6421, validation loss: 3.5355
+2024-06-03 06:50:13 [INFO]: Epoch 002 - generator training loss: 0.0719, discriminator training loss: 0.5959, validation loss: 3.3257
+2024-06-03 06:50:27 [INFO]: Epoch 003 - generator training loss: 0.0104, discriminator training loss: 0.5813, validation loss: 3.1767
+2024-06-03 06:50:41 [INFO]: Epoch 004 - generator training loss: -0.0288, discriminator training loss: 0.5675, validation loss: 3.0546
+2024-06-03 06:50:55 [INFO]: Epoch 005 - generator training loss: -0.0499, discriminator training loss: 0.5516, validation loss: 2.9878
+2024-06-03 06:51:09 [INFO]: Epoch 006 - generator training loss: -0.0632, discriminator training loss: 0.5314, validation loss: 2.9553
+2024-06-03 06:51:23 [INFO]: Epoch 007 - generator training loss: -0.0705, discriminator training loss: 0.5085, validation loss: 2.9252
+2024-06-03 06:51:37 [INFO]: Epoch 008 - generator training loss: -0.0715, discriminator training loss: 0.4859, validation loss: 2.9079
+2024-06-03 06:51:51 [INFO]: Epoch 009 - generator training loss: -0.0707, discriminator training loss: 0.4646, validation loss: 2.8955
+2024-06-03 06:52:05 [INFO]: Epoch 010 - generator training loss: -0.0697, discriminator training loss: 0.4452, validation loss: 2.8879
+2024-06-03 06:52:18 [INFO]: Epoch 011 - generator training loss: -0.0668, discriminator training loss: 0.4279, validation loss: 2.8784
+2024-06-03 06:52:32 [INFO]: Epoch 012 - generator training loss: -0.0654, discriminator training loss: 0.4124, validation loss: 2.8739
+2024-06-03 06:52:46 [INFO]: Epoch 013 - generator training loss: -0.0638, discriminator training loss: 0.3979, validation loss: 2.8687
+2024-06-03 06:53:00 [INFO]: Epoch 014 - generator training loss: -0.0609, discriminator training loss: 0.3847, validation loss: 2.8739
+2024-06-03 06:53:14 [INFO]: Epoch 015 - generator training loss: -0.0592, discriminator training loss: 0.3731, validation loss: 2.8642
+2024-06-03 06:53:27 [INFO]: Epoch 016 - generator training loss: -0.0582, discriminator training loss: 0.3616, validation loss: 2.8571
+2024-06-03 06:53:41 [INFO]: Epoch 017 - generator training loss: -0.0562, discriminator training loss: 0.3510, validation loss: 2.8676
+2024-06-03 06:53:55 [INFO]: Epoch 018 - generator training loss: -0.0540, discriminator training loss: 0.3415, validation loss: 2.8698
+2024-06-03 06:54:09 [INFO]: Epoch 019 - generator training loss: -0.0520, discriminator training loss: 0.3319, validation loss: 2.8582
+2024-06-03 06:54:23 [INFO]: Epoch 020 - generator training loss: -0.0498, discriminator training loss: 0.3234, validation loss: 2.8584
+2024-06-03 06:54:37 [INFO]: Epoch 021 - generator training loss: -0.0484, discriminator training loss: 0.3154, validation loss: 2.8593
+2024-06-03 06:54:51 [INFO]: Epoch 022 - generator training loss: -0.0465, discriminator training loss: 0.3083, validation loss: 2.8668
+2024-06-03 06:55:05 [INFO]: Epoch 023 - generator training loss: -0.0451, discriminator training loss: 0.3007, validation loss: 2.8682
+2024-06-03 06:55:19 [INFO]: Epoch 024 - generator training loss: -0.0431, discriminator training loss: 0.2933, validation loss: 2.8596
+2024-06-03 06:55:32 [INFO]: Epoch 025 - generator training loss: -0.0419, discriminator training loss: 0.2866, validation loss: 2.8544
+2024-06-03 06:55:46 [INFO]: Epoch 026 - generator training loss: -0.0399, discriminator training loss: 0.2806, validation loss: 2.8633
+2024-06-03 06:56:00 [INFO]: Epoch 027 - generator training loss: -0.0376, discriminator training loss: 0.2745, validation loss: 2.8641
+2024-06-03 06:56:14 [INFO]: Epoch 028 - generator training loss: -0.0360, discriminator training loss: 0.2686, validation loss: 2.8710
+2024-06-03 06:56:28 [INFO]: Epoch 029 - generator training loss: -0.0343, discriminator training loss: 0.2633, validation loss: 2.8700
+2024-06-03 06:56:41 [INFO]: Epoch 030 - generator training loss: -0.0325, discriminator training loss: 0.2580, validation loss: 2.8656
+2024-06-03 06:56:55 [INFO]: Epoch 031 - generator training loss: -0.0314, discriminator training loss: 0.2530, validation loss: 2.8669
+2024-06-03 06:57:09 [INFO]: Epoch 032 - generator training loss: -0.0298, discriminator training loss: 0.2483, validation loss: 2.8828
+2024-06-03 06:57:23 [INFO]: Epoch 033 - generator training loss: -0.0286, discriminator training loss: 0.2436, validation loss: 2.8655
+2024-06-03 06:57:37 [INFO]: Epoch 034 - generator training loss: -0.0270, discriminator training loss: 0.2391, validation loss: 2.8773
+2024-06-03 06:57:51 [INFO]: Epoch 035 - generator training loss: -0.0261, discriminator training loss: 0.2352, validation loss: 2.8777
+2024-06-03 06:57:51 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 06:57:51 [INFO]: Finished training. The best model is from epoch#25.
+2024-06-03 06:57:51 [INFO]: Saved the model to results_subseq_rate05/Electricity/USGAN_Electricity/round_4/20240603_T064943/USGAN.pypots
+2024-06-03 06:57:53 [INFO]: Successfully saved to results_subseq_rate05/Electricity/USGAN_Electricity/round_4/imputation.pkl
+2024-06-03 06:57:53 [INFO]: Round4 - USGAN on Electricity: MAE=1.2751, MSE=3.4439, MRE=0.6763
+2024-06-03 06:57:53 [INFO]: Done! Final results:
+Averaged USGAN (11,224,866 params) on Electricity: MAE=1.2909 ± 0.010579610280168059, MSE=3.4909 ± 0.04559544850754571, MRE=0.6848 ± 0.005611874635309298, average inference time=2.23

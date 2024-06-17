@@ -1,0 +1,180 @@
+2024-06-03 04:09:26 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 04:09:26 [INFO]: Using the given device: cuda:0
+2024-06-03 04:09:26 [INFO]: Model files will be saved to results_subseq_rate05/Electricity/DLinear_Electricity/round_0/20240603_T040926
+2024-06-03 04:09:26 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Electricity/DLinear_Electricity/round_0/20240603_T040926/tensorboard
+2024-06-03 04:09:27 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 2,294,692
+2024-06-03 04:09:38 [INFO]: Epoch 001 - training loss: 1.1175, validation loss: 3.2982
+2024-06-03 04:09:44 [INFO]: Epoch 002 - training loss: 0.6860, validation loss: 3.0190
+2024-06-03 04:09:49 [INFO]: Epoch 003 - training loss: 0.5936, validation loss: 2.9123
+2024-06-03 04:09:54 [INFO]: Epoch 004 - training loss: 0.5451, validation loss: 2.8813
+2024-06-03 04:09:59 [INFO]: Epoch 005 - training loss: 0.5164, validation loss: 2.8429
+2024-06-03 04:10:04 [INFO]: Epoch 006 - training loss: 0.4894, validation loss: 2.8170
+2024-06-03 04:10:10 [INFO]: Epoch 007 - training loss: 0.4717, validation loss: 2.7827
+2024-06-03 04:10:15 [INFO]: Epoch 008 - training loss: 0.4551, validation loss: 2.7441
+2024-06-03 04:10:20 [INFO]: Epoch 009 - training loss: 0.4424, validation loss: 2.7402
+2024-06-03 04:10:25 [INFO]: Epoch 010 - training loss: 0.4319, validation loss: 2.7205
+2024-06-03 04:10:31 [INFO]: Epoch 011 - training loss: 0.4226, validation loss: 2.7095
+2024-06-03 04:10:36 [INFO]: Epoch 012 - training loss: 0.4150, validation loss: 2.6935
+2024-06-03 04:10:41 [INFO]: Epoch 013 - training loss: 0.4084, validation loss: 2.6917
+2024-06-03 04:10:47 [INFO]: Epoch 014 - training loss: 0.4030, validation loss: 2.6807
+2024-06-03 04:10:52 [INFO]: Epoch 015 - training loss: 0.3986, validation loss: 2.6968
+2024-06-03 04:10:58 [INFO]: Epoch 016 - training loss: 0.3931, validation loss: 2.6925
+2024-06-03 04:11:03 [INFO]: Epoch 017 - training loss: 0.3902, validation loss: 2.6835
+2024-06-03 04:11:08 [INFO]: Epoch 018 - training loss: 0.3873, validation loss: 2.6946
+2024-06-03 04:11:14 [INFO]: Epoch 019 - training loss: 0.3842, validation loss: 2.6966
+2024-06-03 04:11:19 [INFO]: Epoch 020 - training loss: 0.3815, validation loss: 2.6844
+2024-06-03 04:11:25 [INFO]: Epoch 021 - training loss: 0.3801, validation loss: 2.7076
+2024-06-03 04:11:30 [INFO]: Epoch 022 - training loss: 0.3795, validation loss: 2.7099
+2024-06-03 04:11:35 [INFO]: Epoch 023 - training loss: 0.3787, validation loss: 2.7303
+2024-06-03 04:11:41 [INFO]: Epoch 024 - training loss: 0.3763, validation loss: 2.7303
+2024-06-03 04:11:41 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 04:11:41 [INFO]: Finished training. The best model is from epoch#14.
+2024-06-03 04:11:41 [INFO]: Saved the model to results_subseq_rate05/Electricity/DLinear_Electricity/round_0/20240603_T040926/DLinear.pypots
+2024-06-03 04:11:42 [INFO]: Successfully saved to results_subseq_rate05/Electricity/DLinear_Electricity/round_0/imputation.pkl
+2024-06-03 04:11:42 [INFO]: Round0 - DLinear on Electricity: MAE=1.2109, MSE=3.2837, MRE=0.6423
+2024-06-03 04:11:42 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 04:11:42 [INFO]: Using the given device: cuda:0
+2024-06-03 04:11:42 [INFO]: Model files will be saved to results_subseq_rate05/Electricity/DLinear_Electricity/round_1/20240603_T041142
+2024-06-03 04:11:42 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Electricity/DLinear_Electricity/round_1/20240603_T041142/tensorboard
+2024-06-03 04:11:42 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 2,294,692
+2024-06-03 04:11:48 [INFO]: Epoch 001 - training loss: 1.0900, validation loss: 3.2954
+2024-06-03 04:11:53 [INFO]: Epoch 002 - training loss: 0.6932, validation loss: 3.0812
+2024-06-03 04:11:59 [INFO]: Epoch 003 - training loss: 0.6094, validation loss: 2.9413
+2024-06-03 04:12:04 [INFO]: Epoch 004 - training loss: 0.5639, validation loss: 2.8767
+2024-06-03 04:12:10 [INFO]: Epoch 005 - training loss: 0.5286, validation loss: 2.8212
+2024-06-03 04:12:15 [INFO]: Epoch 006 - training loss: 0.5037, validation loss: 2.7806
+2024-06-03 04:12:20 [INFO]: Epoch 007 - training loss: 0.4805, validation loss: 2.7431
+2024-06-03 04:12:26 [INFO]: Epoch 008 - training loss: 0.4623, validation loss: 2.7118
+2024-06-03 04:12:31 [INFO]: Epoch 009 - training loss: 0.4478, validation loss: 2.6863
+2024-06-03 04:12:36 [INFO]: Epoch 010 - training loss: 0.4377, validation loss: 2.6861
+2024-06-03 04:12:42 [INFO]: Epoch 011 - training loss: 0.4291, validation loss: 2.6742
+2024-06-03 04:12:47 [INFO]: Epoch 012 - training loss: 0.4192, validation loss: 2.6593
+2024-06-03 04:12:52 [INFO]: Epoch 013 - training loss: 0.4109, validation loss: 2.6420
+2024-06-03 04:12:57 [INFO]: Epoch 014 - training loss: 0.4048, validation loss: 2.6412
+2024-06-03 04:13:03 [INFO]: Epoch 015 - training loss: 0.4015, validation loss: 2.6515
+2024-06-03 04:13:08 [INFO]: Epoch 016 - training loss: 0.3967, validation loss: 2.6466
+2024-06-03 04:13:14 [INFO]: Epoch 017 - training loss: 0.3927, validation loss: 2.6498
+2024-06-03 04:13:19 [INFO]: Epoch 018 - training loss: 0.3888, validation loss: 2.6593
+2024-06-03 04:13:24 [INFO]: Epoch 019 - training loss: 0.3856, validation loss: 2.6557
+2024-06-03 04:13:30 [INFO]: Epoch 020 - training loss: 0.3847, validation loss: 2.6762
+2024-06-03 04:13:35 [INFO]: Epoch 021 - training loss: 0.3820, validation loss: 2.6852
+2024-06-03 04:13:40 [INFO]: Epoch 022 - training loss: 0.3803, validation loss: 2.6768
+2024-06-03 04:13:45 [INFO]: Epoch 023 - training loss: 0.3780, validation loss: 2.6999
+2024-06-03 04:13:51 [INFO]: Epoch 024 - training loss: 0.3777, validation loss: 2.7100
+2024-06-03 04:13:51 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 04:13:51 [INFO]: Finished training. The best model is from epoch#14.
+2024-06-03 04:13:51 [INFO]: Saved the model to results_subseq_rate05/Electricity/DLinear_Electricity/round_1/20240603_T041142/DLinear.pypots
+2024-06-03 04:13:51 [INFO]: Successfully saved to results_subseq_rate05/Electricity/DLinear_Electricity/round_1/imputation.pkl
+2024-06-03 04:13:51 [INFO]: Round1 - DLinear on Electricity: MAE=1.2041, MSE=3.2064, MRE=0.6387
+2024-06-03 04:13:51 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 04:13:51 [INFO]: Using the given device: cuda:0
+2024-06-03 04:13:51 [INFO]: Model files will be saved to results_subseq_rate05/Electricity/DLinear_Electricity/round_2/20240603_T041351
+2024-06-03 04:13:51 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Electricity/DLinear_Electricity/round_2/20240603_T041351/tensorboard
+2024-06-03 04:13:51 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 2,294,692
+2024-06-03 04:13:57 [INFO]: Epoch 001 - training loss: 1.0955, validation loss: 3.2790
+2024-06-03 04:14:03 [INFO]: Epoch 002 - training loss: 0.6876, validation loss: 3.1036
+2024-06-03 04:14:08 [INFO]: Epoch 003 - training loss: 0.6050, validation loss: 2.9526
+2024-06-03 04:14:13 [INFO]: Epoch 004 - training loss: 0.5561, validation loss: 2.8958
+2024-06-03 04:14:18 [INFO]: Epoch 005 - training loss: 0.5228, validation loss: 2.8464
+2024-06-03 04:14:23 [INFO]: Epoch 006 - training loss: 0.4993, validation loss: 2.8041
+2024-06-03 04:14:29 [INFO]: Epoch 007 - training loss: 0.4820, validation loss: 2.7882
+2024-06-03 04:14:34 [INFO]: Epoch 008 - training loss: 0.4636, validation loss: 2.7644
+2024-06-03 04:14:39 [INFO]: Epoch 009 - training loss: 0.4495, validation loss: 2.7397
+2024-06-03 04:14:44 [INFO]: Epoch 010 - training loss: 0.4367, validation loss: 2.7194
+2024-06-03 04:14:50 [INFO]: Epoch 011 - training loss: 0.4270, validation loss: 2.7200
+2024-06-03 04:14:55 [INFO]: Epoch 012 - training loss: 0.4190, validation loss: 2.7101
+2024-06-03 04:15:01 [INFO]: Epoch 013 - training loss: 0.4133, validation loss: 2.7094
+2024-06-03 04:15:06 [INFO]: Epoch 014 - training loss: 0.4051, validation loss: 2.7082
+2024-06-03 04:15:11 [INFO]: Epoch 015 - training loss: 0.4003, validation loss: 2.6983
+2024-06-03 04:15:17 [INFO]: Epoch 016 - training loss: 0.3953, validation loss: 2.7053
+2024-06-03 04:15:22 [INFO]: Epoch 017 - training loss: 0.3921, validation loss: 2.6984
+2024-06-03 04:15:28 [INFO]: Epoch 018 - training loss: 0.3885, validation loss: 2.6872
+2024-06-03 04:15:34 [INFO]: Epoch 019 - training loss: 0.3860, validation loss: 2.7127
+2024-06-03 04:15:39 [INFO]: Epoch 020 - training loss: 0.3834, validation loss: 2.7054
+2024-06-03 04:15:44 [INFO]: Epoch 021 - training loss: 0.3811, validation loss: 2.7231
+2024-06-03 04:15:50 [INFO]: Epoch 022 - training loss: 0.3785, validation loss: 2.7032
+2024-06-03 04:15:55 [INFO]: Epoch 023 - training loss: 0.3785, validation loss: 2.7436
+2024-06-03 04:16:01 [INFO]: Epoch 024 - training loss: 0.3770, validation loss: 2.7298
+2024-06-03 04:16:06 [INFO]: Epoch 025 - training loss: 0.3758, validation loss: 2.7502
+2024-06-03 04:16:11 [INFO]: Epoch 026 - training loss: 0.3732, validation loss: 2.7238
+2024-06-03 04:16:16 [INFO]: Epoch 027 - training loss: 0.3720, validation loss: 2.7283
+2024-06-03 04:16:22 [INFO]: Epoch 028 - training loss: 0.3696, validation loss: 2.7521
+2024-06-03 04:16:22 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 04:16:22 [INFO]: Finished training. The best model is from epoch#18.
+2024-06-03 04:16:22 [INFO]: Saved the model to results_subseq_rate05/Electricity/DLinear_Electricity/round_2/20240603_T041351/DLinear.pypots
+2024-06-03 04:16:23 [INFO]: Successfully saved to results_subseq_rate05/Electricity/DLinear_Electricity/round_2/imputation.pkl
+2024-06-03 04:16:23 [INFO]: Round2 - DLinear on Electricity: MAE=1.2173, MSE=3.2934, MRE=0.6457
+2024-06-03 04:16:23 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 04:16:23 [INFO]: Using the given device: cuda:0
+2024-06-03 04:16:23 [INFO]: Model files will be saved to results_subseq_rate05/Electricity/DLinear_Electricity/round_3/20240603_T041623
+2024-06-03 04:16:23 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Electricity/DLinear_Electricity/round_3/20240603_T041623/tensorboard
+2024-06-03 04:16:23 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 2,294,692
+2024-06-03 04:16:29 [INFO]: Epoch 001 - training loss: 1.0887, validation loss: 3.2158
+2024-06-03 04:16:34 [INFO]: Epoch 002 - training loss: 0.6972, validation loss: 3.0542
+2024-06-03 04:16:39 [INFO]: Epoch 003 - training loss: 0.6033, validation loss: 2.9275
+2024-06-03 04:16:45 [INFO]: Epoch 004 - training loss: 0.5562, validation loss: 2.8631
+2024-06-03 04:16:50 [INFO]: Epoch 005 - training loss: 0.5195, validation loss: 2.8137
+2024-06-03 04:16:56 [INFO]: Epoch 006 - training loss: 0.4955, validation loss: 2.7965
+2024-06-03 04:17:02 [INFO]: Epoch 007 - training loss: 0.4770, validation loss: 2.7630
+2024-06-03 04:17:07 [INFO]: Epoch 008 - training loss: 0.4595, validation loss: 2.7235
+2024-06-03 04:17:13 [INFO]: Epoch 009 - training loss: 0.4452, validation loss: 2.7051
+2024-06-03 04:17:18 [INFO]: Epoch 010 - training loss: 0.4360, validation loss: 2.7083
+2024-06-03 04:17:24 [INFO]: Epoch 011 - training loss: 0.4253, validation loss: 2.6972
+2024-06-03 04:17:29 [INFO]: Epoch 012 - training loss: 0.4168, validation loss: 2.6837
+2024-06-03 04:17:35 [INFO]: Epoch 013 - training loss: 0.4120, validation loss: 2.6851
+2024-06-03 04:17:40 [INFO]: Epoch 014 - training loss: 0.4049, validation loss: 2.6897
+2024-06-03 04:17:45 [INFO]: Epoch 015 - training loss: 0.3993, validation loss: 2.6855
+2024-06-03 04:17:51 [INFO]: Epoch 016 - training loss: 0.3959, validation loss: 2.6714
+2024-06-03 04:17:56 [INFO]: Epoch 017 - training loss: 0.3919, validation loss: 2.6821
+2024-06-03 04:18:01 [INFO]: Epoch 018 - training loss: 0.3894, validation loss: 2.6823
+2024-06-03 04:18:07 [INFO]: Epoch 019 - training loss: 0.3864, validation loss: 2.6891
+2024-06-03 04:18:12 [INFO]: Epoch 020 - training loss: 0.3865, validation loss: 2.6973
+2024-06-03 04:18:17 [INFO]: Epoch 021 - training loss: 0.3837, validation loss: 2.7121
+2024-06-03 04:18:23 [INFO]: Epoch 022 - training loss: 0.3800, validation loss: 2.6991
+2024-06-03 04:18:28 [INFO]: Epoch 023 - training loss: 0.3779, validation loss: 2.6958
+2024-06-03 04:18:33 [INFO]: Epoch 024 - training loss: 0.3771, validation loss: 2.7130
+2024-06-03 04:18:39 [INFO]: Epoch 025 - training loss: 0.3751, validation loss: 2.7164
+2024-06-03 04:18:44 [INFO]: Epoch 026 - training loss: 0.3749, validation loss: 2.7177
+2024-06-03 04:18:44 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 04:18:44 [INFO]: Finished training. The best model is from epoch#16.
+2024-06-03 04:18:44 [INFO]: Saved the model to results_subseq_rate05/Electricity/DLinear_Electricity/round_3/20240603_T041623/DLinear.pypots
+2024-06-03 04:18:45 [INFO]: Successfully saved to results_subseq_rate05/Electricity/DLinear_Electricity/round_3/imputation.pkl
+2024-06-03 04:18:45 [INFO]: Round3 - DLinear on Electricity: MAE=1.2024, MSE=3.2077, MRE=0.6378
+2024-06-03 04:18:45 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 04:18:45 [INFO]: Using the given device: cuda:0
+2024-06-03 04:18:45 [INFO]: Model files will be saved to results_subseq_rate05/Electricity/DLinear_Electricity/round_4/20240603_T041845
+2024-06-03 04:18:45 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Electricity/DLinear_Electricity/round_4/20240603_T041845/tensorboard
+2024-06-03 04:18:45 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 2,294,692
+2024-06-03 04:18:51 [INFO]: Epoch 001 - training loss: 1.0958, validation loss: 3.2007
+2024-06-03 04:18:56 [INFO]: Epoch 002 - training loss: 0.6855, validation loss: 3.0392
+2024-06-03 04:19:02 [INFO]: Epoch 003 - training loss: 0.6068, validation loss: 2.9044
+2024-06-03 04:19:07 [INFO]: Epoch 004 - training loss: 0.5573, validation loss: 2.8374
+2024-06-03 04:19:12 [INFO]: Epoch 005 - training loss: 0.5222, validation loss: 2.7977
+2024-06-03 04:19:18 [INFO]: Epoch 006 - training loss: 0.4966, validation loss: 2.7451
+2024-06-03 04:19:23 [INFO]: Epoch 007 - training loss: 0.4775, validation loss: 2.7370
+2024-06-03 04:19:28 [INFO]: Epoch 008 - training loss: 0.4620, validation loss: 2.7104
+2024-06-03 04:19:34 [INFO]: Epoch 009 - training loss: 0.4484, validation loss: 2.6943
+2024-06-03 04:19:39 [INFO]: Epoch 010 - training loss: 0.4354, validation loss: 2.6761
+2024-06-03 04:19:44 [INFO]: Epoch 011 - training loss: 0.4263, validation loss: 2.6650
+2024-06-03 04:19:50 [INFO]: Epoch 012 - training loss: 0.4180, validation loss: 2.6627
+2024-06-03 04:19:55 [INFO]: Epoch 013 - training loss: 0.4118, validation loss: 2.6710
+2024-06-03 04:20:00 [INFO]: Epoch 014 - training loss: 0.4066, validation loss: 2.6705
+2024-06-03 04:20:05 [INFO]: Epoch 015 - training loss: 0.4010, validation loss: 2.6675
+2024-06-03 04:20:11 [INFO]: Epoch 016 - training loss: 0.3969, validation loss: 2.6544
+2024-06-03 04:20:16 [INFO]: Epoch 017 - training loss: 0.3928, validation loss: 2.6761
+2024-06-03 04:20:22 [INFO]: Epoch 018 - training loss: 0.3894, validation loss: 2.6823
+2024-06-03 04:20:27 [INFO]: Epoch 019 - training loss: 0.3864, validation loss: 2.6589
+2024-06-03 04:20:33 [INFO]: Epoch 020 - training loss: 0.3840, validation loss: 2.6717
+2024-06-03 04:20:38 [INFO]: Epoch 021 - training loss: 0.3819, validation loss: 2.6860
+2024-06-03 04:20:44 [INFO]: Epoch 022 - training loss: 0.3791, validation loss: 2.6861
+2024-06-03 04:20:49 [INFO]: Epoch 023 - training loss: 0.3778, validation loss: 2.6701
+2024-06-03 04:20:55 [INFO]: Epoch 024 - training loss: 0.3766, validation loss: 2.6681
+2024-06-03 04:21:00 [INFO]: Epoch 025 - training loss: 0.3752, validation loss: 2.6830
+2024-06-03 04:21:06 [INFO]: Epoch 026 - training loss: 0.3735, validation loss: 2.7014
+2024-06-03 04:21:06 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 04:21:06 [INFO]: Finished training. The best model is from epoch#16.
+2024-06-03 04:21:06 [INFO]: Saved the model to results_subseq_rate05/Electricity/DLinear_Electricity/round_4/20240603_T041845/DLinear.pypots
+2024-06-03 04:21:07 [INFO]: Successfully saved to results_subseq_rate05/Electricity/DLinear_Electricity/round_4/imputation.pkl
+2024-06-03 04:21:07 [INFO]: Round4 - DLinear on Electricity: MAE=1.1919, MSE=3.1708, MRE=0.6322
+2024-06-03 04:21:07 [INFO]: Done! Final results:
+Averaged DLinear (2,294,692 params) on Electricity: MAE=1.2053 ± 0.008538577436512224, MSE=3.2324 ± 0.04782751053091756, MRE=0.6394 ± 0.00452922412722611, average inference time=0.32

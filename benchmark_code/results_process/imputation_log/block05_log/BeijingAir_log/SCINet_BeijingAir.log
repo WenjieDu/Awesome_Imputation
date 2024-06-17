@@ -1,0 +1,218 @@
+2024-06-03 15:47:18 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 15:47:18 [INFO]: Using the given device: cuda:0
+2024-06-03 15:47:19 [INFO]: Model files will be saved to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_0/20240603_T154719
+2024-06-03 15:47:19 [INFO]: Tensorboard file will be saved to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_0/20240603_T154719/tensorboard
+2024-06-03 15:47:20 [INFO]: SCINet initialized with the given hyperparameters, the number of trainable parameters: 26,833,140
+2024-06-03 15:47:36 [INFO]: Epoch 001 - training loss: 1.4080, validation loss: 0.8886
+2024-06-03 15:47:41 [INFO]: Epoch 002 - training loss: 0.9970, validation loss: 0.5273
+2024-06-03 15:47:46 [INFO]: Epoch 003 - training loss: 0.7915, validation loss: 0.4269
+2024-06-03 15:47:52 [INFO]: Epoch 004 - training loss: 0.6829, validation loss: 0.3723
+2024-06-03 15:47:57 [INFO]: Epoch 005 - training loss: 0.6166, validation loss: 0.3468
+2024-06-03 15:48:02 [INFO]: Epoch 006 - training loss: 0.5711, validation loss: 0.3285
+2024-06-03 15:48:07 [INFO]: Epoch 007 - training loss: 0.5419, validation loss: 0.3172
+2024-06-03 15:48:13 [INFO]: Epoch 008 - training loss: 0.5164, validation loss: 0.3081
+2024-06-03 15:48:18 [INFO]: Epoch 009 - training loss: 0.4976, validation loss: 0.3010
+2024-06-03 15:48:22 [INFO]: Epoch 010 - training loss: 0.4853, validation loss: 0.2983
+2024-06-03 15:48:27 [INFO]: Epoch 011 - training loss: 0.4715, validation loss: 0.2985
+2024-06-03 15:48:32 [INFO]: Epoch 012 - training loss: 0.4594, validation loss: 0.2906
+2024-06-03 15:48:37 [INFO]: Epoch 013 - training loss: 0.4490, validation loss: 0.2939
+2024-06-03 15:48:43 [INFO]: Epoch 014 - training loss: 0.4461, validation loss: 0.3001
+2024-06-03 15:48:48 [INFO]: Epoch 015 - training loss: 0.4350, validation loss: 0.2888
+2024-06-03 15:48:53 [INFO]: Epoch 016 - training loss: 0.4275, validation loss: 0.2861
+2024-06-03 15:48:58 [INFO]: Epoch 017 - training loss: 0.4191, validation loss: 0.2935
+2024-06-03 15:49:03 [INFO]: Epoch 018 - training loss: 0.4141, validation loss: 0.2881
+2024-06-03 15:49:08 [INFO]: Epoch 019 - training loss: 0.4095, validation loss: 0.2864
+2024-06-03 15:49:14 [INFO]: Epoch 020 - training loss: 0.4037, validation loss: 0.2931
+2024-06-03 15:49:19 [INFO]: Epoch 021 - training loss: 0.4008, validation loss: 0.2868
+2024-06-03 15:49:24 [INFO]: Epoch 022 - training loss: 0.3968, validation loss: 0.2863
+2024-06-03 15:49:30 [INFO]: Epoch 023 - training loss: 0.3939, validation loss: 0.2914
+2024-06-03 15:49:35 [INFO]: Epoch 024 - training loss: 0.3921, validation loss: 0.2882
+2024-06-03 15:49:40 [INFO]: Epoch 025 - training loss: 0.3879, validation loss: 0.2904
+2024-06-03 15:49:45 [INFO]: Epoch 026 - training loss: 0.3886, validation loss: 0.2920
+2024-06-03 15:49:45 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 15:49:45 [INFO]: Finished training. The best model is from epoch#16.
+2024-06-03 15:49:46 [INFO]: Saved the model to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_0/20240603_T154719/SCINet.pypots
+2024-06-03 15:49:48 [INFO]: Successfully saved to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_0/imputation.pkl
+2024-06-03 15:49:48 [INFO]: Round0 - SCINet on BeijingAir: MAE=0.2671, MSE=0.3345, MRE=0.3611
+2024-06-03 15:49:48 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 15:49:48 [INFO]: Using the given device: cuda:0
+2024-06-03 15:49:48 [INFO]: Model files will be saved to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_1/20240603_T154948
+2024-06-03 15:49:48 [INFO]: Tensorboard file will be saved to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_1/20240603_T154948/tensorboard
+2024-06-03 15:49:49 [INFO]: SCINet initialized with the given hyperparameters, the number of trainable parameters: 26,833,140
+2024-06-03 15:49:54 [INFO]: Epoch 001 - training loss: 1.4003, validation loss: 0.8263
+2024-06-03 15:50:00 [INFO]: Epoch 002 - training loss: 1.0061, validation loss: 0.5268
+2024-06-03 15:50:05 [INFO]: Epoch 003 - training loss: 0.8118, validation loss: 0.4248
+2024-06-03 15:50:10 [INFO]: Epoch 004 - training loss: 0.7109, validation loss: 0.3773
+2024-06-03 15:50:16 [INFO]: Epoch 005 - training loss: 0.6485, validation loss: 0.3505
+2024-06-03 15:50:21 [INFO]: Epoch 006 - training loss: 0.5962, validation loss: 0.3338
+2024-06-03 15:50:27 [INFO]: Epoch 007 - training loss: 0.5610, validation loss: 0.3214
+2024-06-03 15:50:32 [INFO]: Epoch 008 - training loss: 0.5377, validation loss: 0.3122
+2024-06-03 15:50:37 [INFO]: Epoch 009 - training loss: 0.5192, validation loss: 0.3078
+2024-06-03 15:50:43 [INFO]: Epoch 010 - training loss: 0.5024, validation loss: 0.3028
+2024-06-03 15:50:48 [INFO]: Epoch 011 - training loss: 0.4841, validation loss: 0.2959
+2024-06-03 15:50:53 [INFO]: Epoch 012 - training loss: 0.4751, validation loss: 0.2950
+2024-06-03 15:50:58 [INFO]: Epoch 013 - training loss: 0.4631, validation loss: 0.2882
+2024-06-03 15:51:03 [INFO]: Epoch 014 - training loss: 0.4503, validation loss: 0.2857
+2024-06-03 15:51:09 [INFO]: Epoch 015 - training loss: 0.4458, validation loss: 0.2928
+2024-06-03 15:51:14 [INFO]: Epoch 016 - training loss: 0.4355, validation loss: 0.2900
+2024-06-03 15:51:19 [INFO]: Epoch 017 - training loss: 0.4313, validation loss: 0.2868
+2024-06-03 15:51:24 [INFO]: Epoch 018 - training loss: 0.4248, validation loss: 0.2912
+2024-06-03 15:51:30 [INFO]: Epoch 019 - training loss: 0.4202, validation loss: 0.2879
+2024-06-03 15:51:35 [INFO]: Epoch 020 - training loss: 0.4133, validation loss: 0.2914
+2024-06-03 15:51:40 [INFO]: Epoch 021 - training loss: 0.4082, validation loss: 0.2877
+2024-06-03 15:51:45 [INFO]: Epoch 022 - training loss: 0.4037, validation loss: 0.2850
+2024-06-03 15:51:50 [INFO]: Epoch 023 - training loss: 0.4000, validation loss: 0.2835
+2024-06-03 15:51:55 [INFO]: Epoch 024 - training loss: 0.4007, validation loss: 0.2855
+2024-06-03 15:52:00 [INFO]: Epoch 025 - training loss: 0.3994, validation loss: 0.2936
+2024-06-03 15:52:05 [INFO]: Epoch 026 - training loss: 0.3924, validation loss: 0.2931
+2024-06-03 15:52:10 [INFO]: Epoch 027 - training loss: 0.3888, validation loss: 0.2852
+2024-06-03 15:52:15 [INFO]: Epoch 028 - training loss: 0.3857, validation loss: 0.2891
+2024-06-03 15:52:20 [INFO]: Epoch 029 - training loss: 0.3826, validation loss: 0.2896
+2024-06-03 15:52:25 [INFO]: Epoch 030 - training loss: 0.3834, validation loss: 0.2903
+2024-06-03 15:52:30 [INFO]: Epoch 031 - training loss: 0.3794, validation loss: 0.2859
+2024-06-03 15:52:36 [INFO]: Epoch 032 - training loss: 0.3813, validation loss: 0.2857
+2024-06-03 15:52:41 [INFO]: Epoch 033 - training loss: 0.3807, validation loss: 0.2855
+2024-06-03 15:52:41 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 15:52:41 [INFO]: Finished training. The best model is from epoch#23.
+2024-06-03 15:52:41 [INFO]: Saved the model to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_1/20240603_T154948/SCINet.pypots
+2024-06-03 15:52:43 [INFO]: Successfully saved to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_1/imputation.pkl
+2024-06-03 15:52:43 [INFO]: Round1 - SCINet on BeijingAir: MAE=0.2604, MSE=0.3268, MRE=0.3520
+2024-06-03 15:52:43 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 15:52:43 [INFO]: Using the given device: cuda:0
+2024-06-03 15:52:43 [INFO]: Model files will be saved to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_2/20240603_T155243
+2024-06-03 15:52:43 [INFO]: Tensorboard file will be saved to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_2/20240603_T155243/tensorboard
+2024-06-03 15:52:44 [INFO]: SCINet initialized with the given hyperparameters, the number of trainable parameters: 26,833,140
+2024-06-03 15:52:49 [INFO]: Epoch 001 - training loss: 1.3642, validation loss: 0.7822
+2024-06-03 15:52:54 [INFO]: Epoch 002 - training loss: 0.9624, validation loss: 0.5133
+2024-06-03 15:52:59 [INFO]: Epoch 003 - training loss: 0.8043, validation loss: 0.4513
+2024-06-03 15:53:04 [INFO]: Epoch 004 - training loss: 0.7276, validation loss: 0.4126
+2024-06-03 15:53:10 [INFO]: Epoch 005 - training loss: 0.6653, validation loss: 0.3861
+2024-06-03 15:53:15 [INFO]: Epoch 006 - training loss: 0.6222, validation loss: 0.3627
+2024-06-03 15:53:20 [INFO]: Epoch 007 - training loss: 0.5851, validation loss: 0.3473
+2024-06-03 15:53:26 [INFO]: Epoch 008 - training loss: 0.5560, validation loss: 0.3297
+2024-06-03 15:53:31 [INFO]: Epoch 009 - training loss: 0.5273, validation loss: 0.3183
+2024-06-03 15:53:36 [INFO]: Epoch 010 - training loss: 0.5068, validation loss: 0.3110
+2024-06-03 15:53:42 [INFO]: Epoch 011 - training loss: 0.4932, validation loss: 0.3058
+2024-06-03 15:53:47 [INFO]: Epoch 012 - training loss: 0.4750, validation loss: 0.2991
+2024-06-03 15:53:52 [INFO]: Epoch 013 - training loss: 0.4662, validation loss: 0.2988
+2024-06-03 15:53:58 [INFO]: Epoch 014 - training loss: 0.4531, validation loss: 0.2991
+2024-06-03 15:54:03 [INFO]: Epoch 015 - training loss: 0.4482, validation loss: 0.2969
+2024-06-03 15:54:09 [INFO]: Epoch 016 - training loss: 0.4391, validation loss: 0.2933
+2024-06-03 15:54:14 [INFO]: Epoch 017 - training loss: 0.4291, validation loss: 0.2961
+2024-06-03 15:54:19 [INFO]: Epoch 018 - training loss: 0.4238, validation loss: 0.2948
+2024-06-03 15:54:24 [INFO]: Epoch 019 - training loss: 0.4183, validation loss: 0.2968
+2024-06-03 15:54:29 [INFO]: Epoch 020 - training loss: 0.4160, validation loss: 0.2954
+2024-06-03 15:54:34 [INFO]: Epoch 021 - training loss: 0.4116, validation loss: 0.2937
+2024-06-03 15:54:39 [INFO]: Epoch 022 - training loss: 0.4062, validation loss: 0.2885
+2024-06-03 15:54:45 [INFO]: Epoch 023 - training loss: 0.4008, validation loss: 0.2980
+2024-06-03 15:54:50 [INFO]: Epoch 024 - training loss: 0.3976, validation loss: 0.2941
+2024-06-03 15:54:56 [INFO]: Epoch 025 - training loss: 0.3933, validation loss: 0.2950
+2024-06-03 15:55:01 [INFO]: Epoch 026 - training loss: 0.3905, validation loss: 0.2976
+2024-06-03 15:55:06 [INFO]: Epoch 027 - training loss: 0.3887, validation loss: 0.2979
+2024-06-03 15:55:12 [INFO]: Epoch 028 - training loss: 0.3905, validation loss: 0.2947
+2024-06-03 15:55:18 [INFO]: Epoch 029 - training loss: 0.3876, validation loss: 0.3025
+2024-06-03 15:55:23 [INFO]: Epoch 030 - training loss: 0.3794, validation loss: 0.2928
+2024-06-03 15:55:28 [INFO]: Epoch 031 - training loss: 0.3817, validation loss: 0.2850
+2024-06-03 15:55:33 [INFO]: Epoch 032 - training loss: 0.3815, validation loss: 0.2969
+2024-06-03 15:55:39 [INFO]: Epoch 033 - training loss: 0.3810, validation loss: 0.2898
+2024-06-03 15:55:44 [INFO]: Epoch 034 - training loss: 0.3830, validation loss: 0.3074
+2024-06-03 15:55:50 [INFO]: Epoch 035 - training loss: 0.3781, validation loss: 0.2884
+2024-06-03 15:55:55 [INFO]: Epoch 036 - training loss: 0.3740, validation loss: 0.2865
+2024-06-03 15:56:00 [INFO]: Epoch 037 - training loss: 0.3720, validation loss: 0.2902
+2024-06-03 15:56:06 [INFO]: Epoch 038 - training loss: 0.3695, validation loss: 0.2907
+2024-06-03 15:56:11 [INFO]: Epoch 039 - training loss: 0.3676, validation loss: 0.2922
+2024-06-03 15:56:16 [INFO]: Epoch 040 - training loss: 0.3661, validation loss: 0.2934
+2024-06-03 15:56:22 [INFO]: Epoch 041 - training loss: 0.3635, validation loss: 0.2906
+2024-06-03 15:56:22 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 15:56:22 [INFO]: Finished training. The best model is from epoch#31.
+2024-06-03 15:56:23 [INFO]: Saved the model to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_2/20240603_T155243/SCINet.pypots
+2024-06-03 15:56:24 [INFO]: Successfully saved to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_2/imputation.pkl
+2024-06-03 15:56:24 [INFO]: Round2 - SCINet on BeijingAir: MAE=0.2593, MSE=0.3275, MRE=0.3506
+2024-06-03 15:56:24 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 15:56:24 [INFO]: Using the given device: cuda:0
+2024-06-03 15:56:24 [INFO]: Model files will be saved to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_3/20240603_T155624
+2024-06-03 15:56:24 [INFO]: Tensorboard file will be saved to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_3/20240603_T155624/tensorboard
+2024-06-03 15:56:25 [INFO]: SCINet initialized with the given hyperparameters, the number of trainable parameters: 26,833,140
+2024-06-03 15:56:31 [INFO]: Epoch 001 - training loss: 1.3009, validation loss: 0.7104
+2024-06-03 15:56:36 [INFO]: Epoch 002 - training loss: 0.9400, validation loss: 0.5137
+2024-06-03 15:56:41 [INFO]: Epoch 003 - training loss: 0.7930, validation loss: 0.4372
+2024-06-03 15:56:46 [INFO]: Epoch 004 - training loss: 0.6931, validation loss: 0.3803
+2024-06-03 15:56:51 [INFO]: Epoch 005 - training loss: 0.6245, validation loss: 0.3471
+2024-06-03 15:56:57 [INFO]: Epoch 006 - training loss: 0.5767, validation loss: 0.3300
+2024-06-03 15:57:02 [INFO]: Epoch 007 - training loss: 0.5461, validation loss: 0.3180
+2024-06-03 15:57:07 [INFO]: Epoch 008 - training loss: 0.5251, validation loss: 0.3110
+2024-06-03 15:57:12 [INFO]: Epoch 009 - training loss: 0.5057, validation loss: 0.3030
+2024-06-03 15:57:18 [INFO]: Epoch 010 - training loss: 0.4861, validation loss: 0.2993
+2024-06-03 15:57:23 [INFO]: Epoch 011 - training loss: 0.4713, validation loss: 0.2905
+2024-06-03 15:57:28 [INFO]: Epoch 012 - training loss: 0.4642, validation loss: 0.2982
+2024-06-03 15:57:34 [INFO]: Epoch 013 - training loss: 0.4555, validation loss: 0.2924
+2024-06-03 15:57:39 [INFO]: Epoch 014 - training loss: 0.4433, validation loss: 0.2874
+2024-06-03 15:57:44 [INFO]: Epoch 015 - training loss: 0.4368, validation loss: 0.2902
+2024-06-03 15:57:50 [INFO]: Epoch 016 - training loss: 0.4357, validation loss: 0.2898
+2024-06-03 15:57:55 [INFO]: Epoch 017 - training loss: 0.4227, validation loss: 0.2903
+2024-06-03 15:58:01 [INFO]: Epoch 018 - training loss: 0.4181, validation loss: 0.2843
+2024-06-03 15:58:06 [INFO]: Epoch 019 - training loss: 0.4136, validation loss: 0.2919
+2024-06-03 15:58:12 [INFO]: Epoch 020 - training loss: 0.4123, validation loss: 0.2864
+2024-06-03 15:58:17 [INFO]: Epoch 021 - training loss: 0.4024, validation loss: 0.2861
+2024-06-03 15:58:23 [INFO]: Epoch 022 - training loss: 0.4012, validation loss: 0.2959
+2024-06-03 15:58:28 [INFO]: Epoch 023 - training loss: 0.3963, validation loss: 0.2892
+2024-06-03 15:58:33 [INFO]: Epoch 024 - training loss: 0.3928, validation loss: 0.2898
+2024-06-03 15:58:39 [INFO]: Epoch 025 - training loss: 0.3896, validation loss: 0.2877
+2024-06-03 15:58:44 [INFO]: Epoch 026 - training loss: 0.3879, validation loss: 0.2894
+2024-06-03 15:58:49 [INFO]: Epoch 027 - training loss: 0.3869, validation loss: 0.2888
+2024-06-03 15:58:54 [INFO]: Epoch 028 - training loss: 0.3839, validation loss: 0.2943
+2024-06-03 15:58:54 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 15:58:54 [INFO]: Finished training. The best model is from epoch#18.
+2024-06-03 15:58:55 [INFO]: Saved the model to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_3/20240603_T155624/SCINet.pypots
+2024-06-03 15:58:57 [INFO]: Successfully saved to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_3/imputation.pkl
+2024-06-03 15:58:57 [INFO]: Round3 - SCINet on BeijingAir: MAE=0.2660, MSE=0.3324, MRE=0.3597
+2024-06-03 15:58:57 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 15:58:57 [INFO]: Using the given device: cuda:0
+2024-06-03 15:58:57 [INFO]: Model files will be saved to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_4/20240603_T155857
+2024-06-03 15:58:57 [INFO]: Tensorboard file will be saved to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_4/20240603_T155857/tensorboard
+2024-06-03 15:58:57 [INFO]: SCINet initialized with the given hyperparameters, the number of trainable parameters: 26,833,140
+2024-06-03 15:59:02 [INFO]: Epoch 001 - training loss: 1.2402, validation loss: 0.6149
+2024-06-03 15:59:06 [INFO]: Epoch 002 - training loss: 0.8626, validation loss: 0.4527
+2024-06-03 15:59:10 [INFO]: Epoch 003 - training loss: 0.7270, validation loss: 0.3989
+2024-06-03 15:59:15 [INFO]: Epoch 004 - training loss: 0.6516, validation loss: 0.3616
+2024-06-03 15:59:21 [INFO]: Epoch 005 - training loss: 0.6029, validation loss: 0.3397
+2024-06-03 15:59:26 [INFO]: Epoch 006 - training loss: 0.5714, validation loss: 0.3268
+2024-06-03 15:59:31 [INFO]: Epoch 007 - training loss: 0.5409, validation loss: 0.3186
+2024-06-03 15:59:36 [INFO]: Epoch 008 - training loss: 0.5212, validation loss: 0.3103
+2024-06-03 15:59:41 [INFO]: Epoch 009 - training loss: 0.5059, validation loss: 0.3022
+2024-06-03 15:59:46 [INFO]: Epoch 010 - training loss: 0.4889, validation loss: 0.2981
+2024-06-03 15:59:51 [INFO]: Epoch 011 - training loss: 0.4747, validation loss: 0.2952
+2024-06-03 15:59:56 [INFO]: Epoch 012 - training loss: 0.4616, validation loss: 0.2957
+2024-06-03 16:00:01 [INFO]: Epoch 013 - training loss: 0.4508, validation loss: 0.2897
+2024-06-03 16:00:06 [INFO]: Epoch 014 - training loss: 0.4430, validation loss: 0.2891
+2024-06-03 16:00:12 [INFO]: Epoch 015 - training loss: 0.4405, validation loss: 0.2902
+2024-06-03 16:00:17 [INFO]: Epoch 016 - training loss: 0.4304, validation loss: 0.2895
+2024-06-03 16:00:22 [INFO]: Epoch 017 - training loss: 0.4223, validation loss: 0.2833
+2024-06-03 16:00:28 [INFO]: Epoch 018 - training loss: 0.4197, validation loss: 0.2985
+2024-06-03 16:00:33 [INFO]: Epoch 019 - training loss: 0.4151, validation loss: 0.2852
+2024-06-03 16:00:38 [INFO]: Epoch 020 - training loss: 0.4084, validation loss: 0.2841
+2024-06-03 16:00:43 [INFO]: Epoch 021 - training loss: 0.4042, validation loss: 0.2911
+2024-06-03 16:00:49 [INFO]: Epoch 022 - training loss: 0.3980, validation loss: 0.2867
+2024-06-03 16:00:54 [INFO]: Epoch 023 - training loss: 0.3929, validation loss: 0.2887
+2024-06-03 16:00:59 [INFO]: Epoch 024 - training loss: 0.3950, validation loss: 0.2913
+2024-06-03 16:01:04 [INFO]: Epoch 025 - training loss: 0.3932, validation loss: 0.2828
+2024-06-03 16:01:09 [INFO]: Epoch 026 - training loss: 0.3918, validation loss: 0.2832
+2024-06-03 16:01:14 [INFO]: Epoch 027 - training loss: 0.3847, validation loss: 0.2849
+2024-06-03 16:01:19 [INFO]: Epoch 028 - training loss: 0.3805, validation loss: 0.2813
+2024-06-03 16:01:24 [INFO]: Epoch 029 - training loss: 0.3804, validation loss: 0.2905
+2024-06-03 16:01:29 [INFO]: Epoch 030 - training loss: 0.3811, validation loss: 0.2905
+2024-06-03 16:01:33 [INFO]: Epoch 031 - training loss: 0.3776, validation loss: 0.2845
+2024-06-03 16:01:38 [INFO]: Epoch 032 - training loss: 0.3737, validation loss: 0.2881
+2024-06-03 16:01:42 [INFO]: Epoch 033 - training loss: 0.3732, validation loss: 0.2863
+2024-06-03 16:01:46 [INFO]: Epoch 034 - training loss: 0.3749, validation loss: 0.2867
+2024-06-03 16:01:50 [INFO]: Epoch 035 - training loss: 0.3726, validation loss: 0.2909
+2024-06-03 16:01:55 [INFO]: Epoch 036 - training loss: 0.3695, validation loss: 0.3007
+2024-06-03 16:01:59 [INFO]: Epoch 037 - training loss: 0.3677, validation loss: 0.2895
+2024-06-03 16:02:03 [INFO]: Epoch 038 - training loss: 0.3661, validation loss: 0.2975
+2024-06-03 16:02:03 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 16:02:03 [INFO]: Finished training. The best model is from epoch#28.
+2024-06-03 16:02:04 [INFO]: Saved the model to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_4/20240603_T155857/SCINet.pypots
+2024-06-03 16:02:05 [INFO]: Successfully saved to results_block_rate05/BeijingAir/SCINet_BeijingAir/round_4/imputation.pkl
+2024-06-03 16:02:05 [INFO]: Round4 - SCINet on BeijingAir: MAE=0.2708, MSE=0.3299, MRE=0.3661
+2024-06-03 16:02:05 [INFO]: Done! Final results:
+Averaged SCINet (26,833,140 params) on BeijingAir: MAE=0.2577 ± 0.004436794345358532, MSE=0.3261 ± 0.003078475802732577, MRE=0.3392 ± 0.0058400300963438664, average inference time=0.32

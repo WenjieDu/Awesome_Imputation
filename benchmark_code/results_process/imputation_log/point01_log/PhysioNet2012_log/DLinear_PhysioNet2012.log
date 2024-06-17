@@ -1,0 +1,107 @@
+2024-06-03 18:53:33 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 18:53:33 [INFO]: Using the given device: cuda:0
+2024-06-03 18:53:34 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_0/20240603_T185334
+2024-06-03 18:53:34 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_0/20240603_T185334/tensorboard
+2024-06-03 18:53:34 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 221,862
+2024-06-03 18:53:49 [INFO]: Epoch 001 - training loss: 1.2745, validation loss: 0.0971
+2024-06-03 18:53:58 [INFO]: Epoch 002 - training loss: 1.0755, validation loss: 0.1246
+2024-06-03 18:54:08 [INFO]: Epoch 003 - training loss: 1.0024, validation loss: 0.1271
+2024-06-03 18:54:17 [INFO]: Epoch 004 - training loss: 0.9685, validation loss: 0.1237
+2024-06-03 18:54:28 [INFO]: Epoch 005 - training loss: 0.9410, validation loss: 0.1354
+2024-06-03 18:54:39 [INFO]: Epoch 006 - training loss: 0.9140, validation loss: 0.1364
+2024-06-03 18:54:49 [INFO]: Epoch 007 - training loss: 0.8884, validation loss: 0.1432
+2024-06-03 18:55:00 [INFO]: Epoch 008 - training loss: 0.8548, validation loss: 0.1384
+2024-06-03 18:55:10 [INFO]: Epoch 009 - training loss: 0.8201, validation loss: 0.1394
+2024-06-03 18:55:20 [INFO]: Epoch 010 - training loss: 0.7855, validation loss: 0.1364
+2024-06-03 18:55:31 [INFO]: Epoch 011 - training loss: 0.7547, validation loss: 0.1386
+2024-06-03 18:55:31 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 18:55:31 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 18:55:31 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_0/20240603_T185334/DLinear.pypots
+2024-06-03 18:55:33 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_0/imputation.pkl
+2024-06-03 18:55:33 [INFO]: Round0 - DLinear on PhysioNet2012: MAE=0.4007, MSE=0.5165, MRE=0.5558
+2024-06-03 18:55:33 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 18:55:33 [INFO]: Using the given device: cuda:0
+2024-06-03 18:55:33 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_1/20240603_T185533
+2024-06-03 18:55:33 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_1/20240603_T185533/tensorboard
+2024-06-03 18:55:33 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 221,862
+2024-06-03 18:55:44 [INFO]: Epoch 001 - training loss: 1.2871, validation loss: 0.0899
+2024-06-03 18:55:53 [INFO]: Epoch 002 - training loss: 1.0809, validation loss: 0.1106
+2024-06-03 18:56:02 [INFO]: Epoch 003 - training loss: 1.0036, validation loss: 0.1126
+2024-06-03 18:56:12 [INFO]: Epoch 004 - training loss: 0.9693, validation loss: 0.1174
+2024-06-03 18:56:23 [INFO]: Epoch 005 - training loss: 0.9414, validation loss: 0.1237
+2024-06-03 18:56:33 [INFO]: Epoch 006 - training loss: 0.9088, validation loss: 0.1316
+2024-06-03 18:56:43 [INFO]: Epoch 007 - training loss: 0.8781, validation loss: 0.1325
+2024-06-03 18:56:54 [INFO]: Epoch 008 - training loss: 0.8405, validation loss: 0.1326
+2024-06-03 18:57:04 [INFO]: Epoch 009 - training loss: 0.8037, validation loss: 0.1330
+2024-06-03 18:57:15 [INFO]: Epoch 010 - training loss: 0.7714, validation loss: 0.1338
+2024-06-03 18:57:26 [INFO]: Epoch 011 - training loss: 0.7416, validation loss: 0.1364
+2024-06-03 18:57:26 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 18:57:26 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 18:57:26 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_1/20240603_T185533/DLinear.pypots
+2024-06-03 18:57:28 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_1/imputation.pkl
+2024-06-03 18:57:28 [INFO]: Round1 - DLinear on PhysioNet2012: MAE=0.3969, MSE=0.5077, MRE=0.5505
+2024-06-03 18:57:28 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 18:57:28 [INFO]: Using the given device: cuda:0
+2024-06-03 18:57:28 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_2/20240603_T185728
+2024-06-03 18:57:28 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_2/20240603_T185728/tensorboard
+2024-06-03 18:57:28 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 221,862
+2024-06-03 18:57:39 [INFO]: Epoch 001 - training loss: 1.2915, validation loss: 0.0850
+2024-06-03 18:57:48 [INFO]: Epoch 002 - training loss: 1.0825, validation loss: 0.1138
+2024-06-03 18:57:58 [INFO]: Epoch 003 - training loss: 1.0059, validation loss: 0.1182
+2024-06-03 18:58:08 [INFO]: Epoch 004 - training loss: 0.9716, validation loss: 0.1265
+2024-06-03 18:58:18 [INFO]: Epoch 005 - training loss: 0.9422, validation loss: 0.1295
+2024-06-03 18:58:28 [INFO]: Epoch 006 - training loss: 0.9146, validation loss: 0.1287
+2024-06-03 18:58:38 [INFO]: Epoch 007 - training loss: 0.8837, validation loss: 0.1356
+2024-06-03 18:58:49 [INFO]: Epoch 008 - training loss: 0.8479, validation loss: 0.1355
+2024-06-03 18:58:59 [INFO]: Epoch 009 - training loss: 0.8154, validation loss: 0.1326
+2024-06-03 18:59:09 [INFO]: Epoch 010 - training loss: 0.7801, validation loss: 0.1362
+2024-06-03 18:59:20 [INFO]: Epoch 011 - training loss: 0.7522, validation loss: 0.1350
+2024-06-03 18:59:20 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 18:59:20 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 18:59:20 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_2/20240603_T185728/DLinear.pypots
+2024-06-03 18:59:22 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_2/imputation.pkl
+2024-06-03 18:59:22 [INFO]: Round2 - DLinear on PhysioNet2012: MAE=0.4002, MSE=0.5153, MRE=0.5551
+2024-06-03 18:59:22 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 18:59:22 [INFO]: Using the given device: cuda:0
+2024-06-03 18:59:22 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_3/20240603_T185922
+2024-06-03 18:59:22 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_3/20240603_T185922/tensorboard
+2024-06-03 18:59:22 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 221,862
+2024-06-03 18:59:32 [INFO]: Epoch 001 - training loss: 1.2876, validation loss: 0.0959
+2024-06-03 18:59:42 [INFO]: Epoch 002 - training loss: 1.0802, validation loss: 0.1184
+2024-06-03 18:59:51 [INFO]: Epoch 003 - training loss: 1.0066, validation loss: 0.1218
+2024-06-03 19:00:01 [INFO]: Epoch 004 - training loss: 0.9705, validation loss: 0.1305
+2024-06-03 19:00:12 [INFO]: Epoch 005 - training loss: 0.9450, validation loss: 0.1230
+2024-06-03 19:00:22 [INFO]: Epoch 006 - training loss: 0.9188, validation loss: 0.1323
+2024-06-03 19:00:32 [INFO]: Epoch 007 - training loss: 0.8917, validation loss: 0.1295
+2024-06-03 19:00:42 [INFO]: Epoch 008 - training loss: 0.8617, validation loss: 0.1334
+2024-06-03 19:00:53 [INFO]: Epoch 009 - training loss: 0.8263, validation loss: 0.1373
+2024-06-03 19:01:03 [INFO]: Epoch 010 - training loss: 0.7919, validation loss: 0.1391
+2024-06-03 19:01:13 [INFO]: Epoch 011 - training loss: 0.7591, validation loss: 0.1405
+2024-06-03 19:01:13 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:01:13 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:01:13 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_3/20240603_T185922/DLinear.pypots
+2024-06-03 19:01:15 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_3/imputation.pkl
+2024-06-03 19:01:15 [INFO]: Round3 - DLinear on PhysioNet2012: MAE=0.4022, MSE=0.5165, MRE=0.5578
+2024-06-03 19:01:15 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:01:15 [INFO]: Using the given device: cuda:0
+2024-06-03 19:01:15 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_4/20240603_T190115
+2024-06-03 19:01:15 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_4/20240603_T190115/tensorboard
+2024-06-03 19:01:15 [INFO]: DLinear initialized with the given hyperparameters, the number of trainable parameters: 221,862
+2024-06-03 19:01:26 [INFO]: Epoch 001 - training loss: 1.2805, validation loss: 0.0946
+2024-06-03 19:01:35 [INFO]: Epoch 002 - training loss: 1.0779, validation loss: 0.1114
+2024-06-03 19:01:44 [INFO]: Epoch 003 - training loss: 1.0063, validation loss: 0.1199
+2024-06-03 19:01:54 [INFO]: Epoch 004 - training loss: 0.9707, validation loss: 0.1244
+2024-06-03 19:02:04 [INFO]: Epoch 005 - training loss: 0.9436, validation loss: 0.1315
+2024-06-03 19:02:14 [INFO]: Epoch 006 - training loss: 0.9127, validation loss: 0.1317
+2024-06-03 19:02:24 [INFO]: Epoch 007 - training loss: 0.8802, validation loss: 0.1294
+2024-06-03 19:02:35 [INFO]: Epoch 008 - training loss: 0.8457, validation loss: 0.1358
+2024-06-03 19:02:45 [INFO]: Epoch 009 - training loss: 0.8088, validation loss: 0.1350
+2024-06-03 19:02:55 [INFO]: Epoch 010 - training loss: 0.7757, validation loss: 0.1377
+2024-06-03 19:03:05 [INFO]: Epoch 011 - training loss: 0.7474, validation loss: 0.1351
+2024-06-03 19:03:05 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:03:05 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:03:05 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_4/20240603_T190115/DLinear.pypots
+2024-06-03 19:03:07 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/DLinear_PhysioNet2012/round_4/imputation.pkl
+2024-06-03 19:03:07 [INFO]: Round4 - DLinear on PhysioNet2012: MAE=0.3974, MSE=0.5094, MRE=0.5513
+2024-06-03 19:03:07 [INFO]: Done! Final results:
+Averaged DLinear (221,862 params) on PhysioNet2012: MAE=0.3703 ± 0.0004803354087099714, MSE=0.4192 ± 0.0009496054184661626, MRE=0.5224 ± 0.0006775246911532018, average inference time=0.26

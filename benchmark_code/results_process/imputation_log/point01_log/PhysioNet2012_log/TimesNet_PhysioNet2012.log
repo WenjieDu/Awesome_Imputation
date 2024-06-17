@@ -1,0 +1,107 @@
+2024-06-03 18:56:58 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 18:56:58 [INFO]: Using the given device: cuda:0
+2024-06-03 18:56:58 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_0/20240603_T185658
+2024-06-03 18:56:58 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_0/20240603_T185658/tensorboard
+2024-06-03 18:57:03 [INFO]: TimesNet initialized with the given hyperparameters, the number of trainable parameters: 64,908,707
+2024-06-03 18:57:32 [INFO]: Epoch 001 - training loss: 0.6318, validation loss: 0.1349
+2024-06-03 18:57:54 [INFO]: Epoch 002 - training loss: 0.4734, validation loss: 0.1490
+2024-06-03 18:58:16 [INFO]: Epoch 003 - training loss: 0.5080, validation loss: 0.1829
+2024-06-03 18:58:38 [INFO]: Epoch 004 - training loss: 0.4525, validation loss: 0.1741
+2024-06-03 18:59:00 [INFO]: Epoch 005 - training loss: 0.4664, validation loss: 0.1587
+2024-06-03 18:59:22 [INFO]: Epoch 006 - training loss: 0.4098, validation loss: 0.1645
+2024-06-03 18:59:44 [INFO]: Epoch 007 - training loss: 0.4146, validation loss: 0.1902
+2024-06-03 19:00:06 [INFO]: Epoch 008 - training loss: 0.4625, validation loss: 0.1751
+2024-06-03 19:00:28 [INFO]: Epoch 009 - training loss: 0.3776, validation loss: 0.1876
+2024-06-03 19:00:49 [INFO]: Epoch 010 - training loss: 0.3949, validation loss: 0.1770
+2024-06-03 19:01:11 [INFO]: Epoch 011 - training loss: 0.3629, validation loss: 0.1982
+2024-06-03 19:01:11 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:01:11 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:01:13 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_0/20240603_T185658/TimesNet.pypots
+2024-06-03 19:01:30 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_0/imputation.pkl
+2024-06-03 19:01:30 [INFO]: Round0 - TimesNet on PhysioNet2012: MAE=0.3725, MSE=0.4419, MRE=0.5167
+2024-06-03 19:01:30 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:01:30 [INFO]: Using the given device: cuda:0
+2024-06-03 19:01:30 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_1/20240603_T190130
+2024-06-03 19:01:30 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_1/20240603_T190130/tensorboard
+2024-06-03 19:01:34 [INFO]: TimesNet initialized with the given hyperparameters, the number of trainable parameters: 64,908,707
+2024-06-03 19:01:56 [INFO]: Epoch 001 - training loss: 0.6052, validation loss: 0.1294
+2024-06-03 19:02:18 [INFO]: Epoch 002 - training loss: 0.4511, validation loss: 0.1671
+2024-06-03 19:02:39 [INFO]: Epoch 003 - training loss: 0.4462, validation loss: 0.1556
+2024-06-03 19:03:00 [INFO]: Epoch 004 - training loss: 0.4565, validation loss: 0.1567
+2024-06-03 19:03:22 [INFO]: Epoch 005 - training loss: 0.4239, validation loss: 0.1704
+2024-06-03 19:03:44 [INFO]: Epoch 006 - training loss: 0.3808, validation loss: 0.1533
+2024-06-03 19:04:06 [INFO]: Epoch 007 - training loss: 0.4104, validation loss: 0.1616
+2024-06-03 19:04:28 [INFO]: Epoch 008 - training loss: 0.3731, validation loss: 0.1792
+2024-06-03 19:04:51 [INFO]: Epoch 009 - training loss: 0.3940, validation loss: 0.1606
+2024-06-03 19:05:13 [INFO]: Epoch 010 - training loss: 0.4033, validation loss: 0.1960
+2024-06-03 19:05:34 [INFO]: Epoch 011 - training loss: 0.3784, validation loss: 0.1900
+2024-06-03 19:05:34 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:05:34 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:05:36 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_1/20240603_T190130/TimesNet.pypots
+2024-06-03 19:05:52 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_1/imputation.pkl
+2024-06-03 19:05:52 [INFO]: Round1 - TimesNet on PhysioNet2012: MAE=0.3747, MSE=0.4379, MRE=0.5198
+2024-06-03 19:05:52 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:05:52 [INFO]: Using the given device: cuda:0
+2024-06-03 19:05:53 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_2/20240603_T190552
+2024-06-03 19:05:53 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_2/20240603_T190552/tensorboard
+2024-06-03 19:05:57 [INFO]: TimesNet initialized with the given hyperparameters, the number of trainable parameters: 64,908,707
+2024-06-03 19:06:19 [INFO]: Epoch 001 - training loss: 0.6916, validation loss: 0.1300
+2024-06-03 19:06:41 [INFO]: Epoch 002 - training loss: 0.4589, validation loss: 0.1371
+2024-06-03 19:07:02 [INFO]: Epoch 003 - training loss: 0.4693, validation loss: 0.1818
+2024-06-03 19:07:24 [INFO]: Epoch 004 - training loss: 0.4353, validation loss: 0.1540
+2024-06-03 19:07:44 [INFO]: Epoch 005 - training loss: 0.4248, validation loss: 0.2150
+2024-06-03 19:08:05 [INFO]: Epoch 006 - training loss: 0.4158, validation loss: 0.1623
+2024-06-03 19:08:28 [INFO]: Epoch 007 - training loss: 0.4110, validation loss: 0.1531
+2024-06-03 19:08:49 [INFO]: Epoch 008 - training loss: 0.4600, validation loss: 0.1793
+2024-06-03 19:09:12 [INFO]: Epoch 009 - training loss: 0.3888, validation loss: 0.1797
+2024-06-03 19:09:34 [INFO]: Epoch 010 - training loss: 0.3660, validation loss: 0.1733
+2024-06-03 19:09:55 [INFO]: Epoch 011 - training loss: 0.3873, validation loss: 0.1781
+2024-06-03 19:09:55 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:09:55 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:09:56 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_2/20240603_T190552/TimesNet.pypots
+2024-06-03 19:10:13 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_2/imputation.pkl
+2024-06-03 19:10:13 [INFO]: Round2 - TimesNet on PhysioNet2012: MAE=0.3644, MSE=0.4365, MRE=0.5054
+2024-06-03 19:10:13 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:10:13 [INFO]: Using the given device: cuda:0
+2024-06-03 19:10:13 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_3/20240603_T191013
+2024-06-03 19:10:13 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_3/20240603_T191013/tensorboard
+2024-06-03 19:10:17 [INFO]: TimesNet initialized with the given hyperparameters, the number of trainable parameters: 64,908,707
+2024-06-03 19:10:39 [INFO]: Epoch 001 - training loss: 0.6918, validation loss: 0.1383
+2024-06-03 19:10:59 [INFO]: Epoch 002 - training loss: 0.5112, validation loss: 0.1683
+2024-06-03 19:11:17 [INFO]: Epoch 003 - training loss: 0.4541, validation loss: 0.1745
+2024-06-03 19:11:33 [INFO]: Epoch 004 - training loss: 0.4357, validation loss: 0.1597
+2024-06-03 19:11:48 [INFO]: Epoch 005 - training loss: 0.4447, validation loss: 0.1656
+2024-06-03 19:12:02 [INFO]: Epoch 006 - training loss: 0.4241, validation loss: 0.1433
+2024-06-03 19:12:17 [INFO]: Epoch 007 - training loss: 0.4254, validation loss: 0.1616
+2024-06-03 19:12:32 [INFO]: Epoch 008 - training loss: 0.4200, validation loss: 0.1837
+2024-06-03 19:12:45 [INFO]: Epoch 009 - training loss: 0.3569, validation loss: 0.1676
+2024-06-03 19:12:58 [INFO]: Epoch 010 - training loss: 0.4208, validation loss: 0.1659
+2024-06-03 19:13:13 [INFO]: Epoch 011 - training loss: 0.3814, validation loss: 0.1879
+2024-06-03 19:13:13 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:13:13 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:13:14 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_3/20240603_T191013/TimesNet.pypots
+2024-06-03 19:13:25 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_3/imputation.pkl
+2024-06-03 19:13:25 [INFO]: Round3 - TimesNet on PhysioNet2012: MAE=0.3660, MSE=0.4149, MRE=0.5076
+2024-06-03 19:13:25 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:13:25 [INFO]: Using the given device: cuda:0
+2024-06-03 19:13:25 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_4/20240603_T191325
+2024-06-03 19:13:25 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_4/20240603_T191325/tensorboard
+2024-06-03 19:13:27 [INFO]: TimesNet initialized with the given hyperparameters, the number of trainable parameters: 64,908,707
+2024-06-03 19:13:42 [INFO]: Epoch 001 - training loss: 0.6346, validation loss: 0.1188
+2024-06-03 19:13:57 [INFO]: Epoch 002 - training loss: 0.4580, validation loss: 0.1452
+2024-06-03 19:14:11 [INFO]: Epoch 003 - training loss: 0.5000, validation loss: 0.1376
+2024-06-03 19:14:27 [INFO]: Epoch 004 - training loss: 0.4112, validation loss: 0.1788
+2024-06-03 19:14:41 [INFO]: Epoch 005 - training loss: 0.3843, validation loss: 0.1785
+2024-06-03 19:14:56 [INFO]: Epoch 006 - training loss: 0.3998, validation loss: 0.1494
+2024-06-03 19:15:10 [INFO]: Epoch 007 - training loss: 0.3869, validation loss: 0.1497
+2024-06-03 19:15:25 [INFO]: Epoch 008 - training loss: 0.4119, validation loss: 0.2039
+2024-06-03 19:15:39 [INFO]: Epoch 009 - training loss: 0.4310, validation loss: 0.1829
+2024-06-03 19:15:54 [INFO]: Epoch 010 - training loss: 0.3800, validation loss: 0.1672
+2024-06-03 19:16:08 [INFO]: Epoch 011 - training loss: 0.3898, validation loss: 0.1899
+2024-06-03 19:16:08 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:16:08 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:16:09 [INFO]: Saved the model to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_4/20240603_T191325/TimesNet.pypots
+2024-06-03 19:16:20 [INFO]: Successfully saved to results_point_rate01/PhysioNet2012_inverse/TimesNet_PhysioNet2012/round_4/imputation.pkl
+2024-06-03 19:16:20 [INFO]: Round4 - TimesNet on PhysioNet2012: MAE=0.3644, MSE=0.4384, MRE=0.5055
+2024-06-03 19:16:20 [INFO]: Done! Final results:
+Averaged TimesNet (64,908,707 params) on PhysioNet2012: MAE=0.3528 ± 0.003192328792222335, MSE=0.3555 ± 0.003843134682400653, MRE=0.4976 ± 0.004502856836681533, average inference time=2.33

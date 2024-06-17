@@ -1,0 +1,131 @@
+2024-06-03 02:02:13 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 02:02:14 [INFO]: Using the given device: cuda:0
+2024-06-03 02:02:14 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_0/20240603_T020214
+2024-06-03 02:02:14 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_0/20240603_T020214/tensorboard
+2024-06-03 02:02:15 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 530,457
+2024-06-03 02:02:29 [INFO]: Epoch 001 - training loss: 0.8650, validation loss: 0.8192
+2024-06-03 02:02:32 [INFO]: Epoch 002 - training loss: 0.5943, validation loss: 0.7487
+2024-06-03 02:02:36 [INFO]: Epoch 003 - training loss: 0.5644, validation loss: 0.8430
+2024-06-03 02:02:39 [INFO]: Epoch 004 - training loss: 0.5549, validation loss: 0.8008
+2024-06-03 02:02:42 [INFO]: Epoch 005 - training loss: 0.5465, validation loss: 0.7551
+2024-06-03 02:02:46 [INFO]: Epoch 006 - training loss: 0.5481, validation loss: 0.7961
+2024-06-03 02:02:49 [INFO]: Epoch 007 - training loss: 0.5540, validation loss: 0.7908
+2024-06-03 02:02:53 [INFO]: Epoch 008 - training loss: 0.5176, validation loss: 0.7726
+2024-06-03 02:02:56 [INFO]: Epoch 009 - training loss: 0.4871, validation loss: 0.7948
+2024-06-03 02:03:00 [INFO]: Epoch 010 - training loss: 0.5003, validation loss: 0.7919
+2024-06-03 02:03:03 [INFO]: Epoch 011 - training loss: 0.4765, validation loss: 0.9008
+2024-06-03 02:03:06 [INFO]: Epoch 012 - training loss: 0.4813, validation loss: 0.8551
+2024-06-03 02:03:06 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:03:06 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 02:03:06 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_0/20240603_T020214/ETSformer.pypots
+2024-06-03 02:03:12 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_0/imputation.pkl
+2024-06-03 02:03:12 [INFO]: Round0 - ETSformer on Pedestrian: MAE=0.6524, MSE=0.9495, MRE=0.8521
+2024-06-03 02:03:12 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 02:03:12 [INFO]: Using the given device: cuda:0
+2024-06-03 02:03:12 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_1/20240603_T020312
+2024-06-03 02:03:12 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_1/20240603_T020312/tensorboard
+2024-06-03 02:03:12 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 530,457
+2024-06-03 02:03:15 [INFO]: Epoch 001 - training loss: 0.7753, validation loss: 0.7533
+2024-06-03 02:03:19 [INFO]: Epoch 002 - training loss: 0.5716, validation loss: 0.7510
+2024-06-03 02:03:22 [INFO]: Epoch 003 - training loss: 0.5867, validation loss: 0.8707
+2024-06-03 02:03:25 [INFO]: Epoch 004 - training loss: 0.5369, validation loss: 0.7864
+2024-06-03 02:03:28 [INFO]: Epoch 005 - training loss: 0.5433, validation loss: 0.8036
+2024-06-03 02:03:32 [INFO]: Epoch 006 - training loss: 0.5261, validation loss: 0.8489
+2024-06-03 02:03:35 [INFO]: Epoch 007 - training loss: 0.5658, validation loss: 0.7595
+2024-06-03 02:03:38 [INFO]: Epoch 008 - training loss: 0.5597, validation loss: 0.7476
+2024-06-03 02:03:41 [INFO]: Epoch 009 - training loss: 0.5307, validation loss: 0.7847
+2024-06-03 02:03:45 [INFO]: Epoch 010 - training loss: 0.5082, validation loss: 0.7269
+2024-06-03 02:03:48 [INFO]: Epoch 011 - training loss: 0.5051, validation loss: 0.8291
+2024-06-03 02:03:51 [INFO]: Epoch 012 - training loss: 0.5020, validation loss: 0.7516
+2024-06-03 02:03:55 [INFO]: Epoch 013 - training loss: 0.4764, validation loss: 0.8493
+2024-06-03 02:03:58 [INFO]: Epoch 014 - training loss: 0.5003, validation loss: 0.9256
+2024-06-03 02:04:01 [INFO]: Epoch 015 - training loss: 0.4847, validation loss: 0.9187
+2024-06-03 02:04:04 [INFO]: Epoch 016 - training loss: 0.4644, validation loss: 0.8133
+2024-06-03 02:04:06 [INFO]: Epoch 017 - training loss: 0.4627, validation loss: 0.8850
+2024-06-03 02:04:09 [INFO]: Epoch 018 - training loss: 0.4460, validation loss: 0.8308
+2024-06-03 02:04:11 [INFO]: Epoch 019 - training loss: 0.4694, validation loss: 0.9693
+2024-06-03 02:04:14 [INFO]: Epoch 020 - training loss: 0.4325, validation loss: 0.8092
+2024-06-03 02:04:14 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:04:14 [INFO]: Finished training. The best model is from epoch#10.
+2024-06-03 02:04:15 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_1/20240603_T020312/ETSformer.pypots
+2024-06-03 02:04:19 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_1/imputation.pkl
+2024-06-03 02:04:19 [INFO]: Round1 - ETSformer on Pedestrian: MAE=0.6567, MSE=0.9066, MRE=0.8577
+2024-06-03 02:04:19 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 02:04:19 [INFO]: Using the given device: cuda:0
+2024-06-03 02:04:19 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_2/20240603_T020419
+2024-06-03 02:04:19 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_2/20240603_T020419/tensorboard
+2024-06-03 02:04:19 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 530,457
+2024-06-03 02:04:22 [INFO]: Epoch 001 - training loss: 0.8468, validation loss: 0.7862
+2024-06-03 02:04:25 [INFO]: Epoch 002 - training loss: 0.5697, validation loss: 0.7383
+2024-06-03 02:04:27 [INFO]: Epoch 003 - training loss: 0.5677, validation loss: 0.8161
+2024-06-03 02:04:30 [INFO]: Epoch 004 - training loss: 0.5582, validation loss: 0.7979
+2024-06-03 02:04:33 [INFO]: Epoch 005 - training loss: 0.5036, validation loss: 0.8235
+2024-06-03 02:04:35 [INFO]: Epoch 006 - training loss: 0.4986, validation loss: 0.7766
+2024-06-03 02:04:38 [INFO]: Epoch 007 - training loss: 0.5264, validation loss: 0.7361
+2024-06-03 02:04:41 [INFO]: Epoch 008 - training loss: 0.5044, validation loss: 0.8120
+2024-06-03 02:04:43 [INFO]: Epoch 009 - training loss: 0.4638, validation loss: 0.8439
+2024-06-03 02:04:46 [INFO]: Epoch 010 - training loss: 0.4628, validation loss: 0.8619
+2024-06-03 02:04:49 [INFO]: Epoch 011 - training loss: 0.4725, validation loss: 0.7726
+2024-06-03 02:04:52 [INFO]: Epoch 012 - training loss: 0.4598, validation loss: 0.8114
+2024-06-03 02:04:55 [INFO]: Epoch 013 - training loss: 0.4471, validation loss: 0.8433
+2024-06-03 02:04:57 [INFO]: Epoch 014 - training loss: 0.4455, validation loss: 0.9361
+2024-06-03 02:05:00 [INFO]: Epoch 015 - training loss: 0.4657, validation loss: 0.7570
+2024-06-03 02:05:02 [INFO]: Epoch 016 - training loss: 0.4461, validation loss: 0.9109
+2024-06-03 02:05:04 [INFO]: Epoch 017 - training loss: 0.4331, validation loss: 0.7749
+2024-06-03 02:05:04 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:05:04 [INFO]: Finished training. The best model is from epoch#7.
+2024-06-03 02:05:05 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_2/20240603_T020419/ETSformer.pypots
+2024-06-03 02:05:09 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_2/imputation.pkl
+2024-06-03 02:05:09 [INFO]: Round2 - ETSformer on Pedestrian: MAE=0.6179, MSE=0.8453, MRE=0.8069
+2024-06-03 02:05:09 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 02:05:09 [INFO]: Using the given device: cuda:0
+2024-06-03 02:05:09 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_3/20240603_T020509
+2024-06-03 02:05:09 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_3/20240603_T020509/tensorboard
+2024-06-03 02:05:09 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 530,457
+2024-06-03 02:05:11 [INFO]: Epoch 001 - training loss: 0.9378, validation loss: 0.7938
+2024-06-03 02:05:14 [INFO]: Epoch 002 - training loss: 0.5688, validation loss: 0.8220
+2024-06-03 02:05:17 [INFO]: Epoch 003 - training loss: 0.5802, validation loss: 0.7784
+2024-06-03 02:05:20 [INFO]: Epoch 004 - training loss: 0.5400, validation loss: 0.7883
+2024-06-03 02:05:22 [INFO]: Epoch 005 - training loss: 0.5227, validation loss: 0.9216
+2024-06-03 02:05:25 [INFO]: Epoch 006 - training loss: 0.5237, validation loss: 0.8128
+2024-06-03 02:05:27 [INFO]: Epoch 007 - training loss: 0.5053, validation loss: 0.7628
+2024-06-03 02:05:29 [INFO]: Epoch 008 - training loss: 0.5227, validation loss: 0.8319
+2024-06-03 02:05:31 [INFO]: Epoch 009 - training loss: 0.4576, validation loss: 0.8050
+2024-06-03 02:05:33 [INFO]: Epoch 010 - training loss: 0.4841, validation loss: 0.8450
+2024-06-03 02:05:36 [INFO]: Epoch 011 - training loss: 0.4318, validation loss: 0.8587
+2024-06-03 02:05:38 [INFO]: Epoch 012 - training loss: 0.4121, validation loss: 0.9110
+2024-06-03 02:05:40 [INFO]: Epoch 013 - training loss: 0.4091, validation loss: 0.8165
+2024-06-03 02:05:42 [INFO]: Epoch 014 - training loss: 0.4337, validation loss: 0.8699
+2024-06-03 02:05:44 [INFO]: Epoch 015 - training loss: 0.4095, validation loss: 0.7809
+2024-06-03 02:05:46 [INFO]: Epoch 016 - training loss: 0.4077, validation loss: 0.8450
+2024-06-03 02:05:48 [INFO]: Epoch 017 - training loss: 0.4090, validation loss: 0.7925
+2024-06-03 02:05:48 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:05:48 [INFO]: Finished training. The best model is from epoch#7.
+2024-06-03 02:05:48 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_3/20240603_T020509/ETSformer.pypots
+2024-06-03 02:05:52 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_3/imputation.pkl
+2024-06-03 02:05:52 [INFO]: Round3 - ETSformer on Pedestrian: MAE=0.6579, MSE=0.8983, MRE=0.8593
+2024-06-03 02:05:52 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 02:05:52 [INFO]: Using the given device: cuda:0
+2024-06-03 02:05:52 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_4/20240603_T020552
+2024-06-03 02:05:52 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_4/20240603_T020552/tensorboard
+2024-06-03 02:05:52 [INFO]: ETSformer initialized with the given hyperparameters, the number of trainable parameters: 530,457
+2024-06-03 02:05:54 [INFO]: Epoch 001 - training loss: 0.7902, validation loss: 0.8082
+2024-06-03 02:05:56 [INFO]: Epoch 002 - training loss: 0.5729, validation loss: 0.7862
+2024-06-03 02:05:57 [INFO]: Epoch 003 - training loss: 0.5644, validation loss: 0.7250
+2024-06-03 02:05:59 [INFO]: Epoch 004 - training loss: 0.5546, validation loss: 0.7803
+2024-06-03 02:06:01 [INFO]: Epoch 005 - training loss: 0.5368, validation loss: 0.7260
+2024-06-03 02:06:03 [INFO]: Epoch 006 - training loss: 0.5064, validation loss: 0.7986
+2024-06-03 02:06:05 [INFO]: Epoch 007 - training loss: 0.4777, validation loss: 0.8203
+2024-06-03 02:06:07 [INFO]: Epoch 008 - training loss: 0.4802, validation loss: 0.8245
+2024-06-03 02:06:08 [INFO]: Epoch 009 - training loss: 0.4547, validation loss: 0.7941
+2024-06-03 02:06:09 [INFO]: Epoch 010 - training loss: 0.4420, validation loss: 0.8087
+2024-06-03 02:06:10 [INFO]: Epoch 011 - training loss: 0.4331, validation loss: 0.8675
+2024-06-03 02:06:11 [INFO]: Epoch 012 - training loss: 0.4471, validation loss: 0.8255
+2024-06-03 02:06:12 [INFO]: Epoch 013 - training loss: 0.3975, validation loss: 0.8450
+2024-06-03 02:06:12 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:06:12 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 02:06:13 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_4/20240603_T020552/ETSformer.pypots
+2024-06-03 02:06:14 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/ETSformer_Pedestrian/round_4/imputation.pkl
+2024-06-03 02:06:14 [INFO]: Round4 - ETSformer on Pedestrian: MAE=0.6563, MSE=0.9506, MRE=0.8571
+2024-06-03 02:06:14 [INFO]: Done! Final results:
+Averaged ETSformer (530,457 params) on Pedestrian: MAE=0.6482 ± 0.015301457428013287, MSE=0.9101 ± 0.03882697090887139, MRE=0.8466 ± 0.019984403584421058, average inference time=2.67
