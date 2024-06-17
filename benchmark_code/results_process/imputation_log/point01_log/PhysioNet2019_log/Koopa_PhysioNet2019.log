@@ -1,0 +1,110 @@
+2024-06-03 19:01:49 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 19:01:49 [INFO]: Using the given device: cuda:0
+2024-06-03 19:01:50 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_0/20240603_T190150
+2024-06-03 19:01:50 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_0/20240603_T190150/tensorboard
+2024-06-03 19:01:52 [INFO]: Koopa initialized with the given hyperparameters, the number of trainable parameters: 641,887
+2024-06-03 19:02:33 [INFO]: Epoch 001 - training loss: 1.4220, validation loss: 0.1824
+2024-06-03 19:03:27 [INFO]: Epoch 002 - training loss: 1.2038, validation loss: 0.1758
+2024-06-03 19:04:22 [INFO]: Epoch 003 - training loss: 1.1122, validation loss: 0.2211
+2024-06-03 19:05:09 [INFO]: Epoch 004 - training loss: 1.0365, validation loss: 0.2933
+2024-06-03 19:05:51 [INFO]: Epoch 005 - training loss: 1.0089, validation loss: 0.2818
+2024-06-03 19:06:35 [INFO]: Epoch 006 - training loss: 0.9814, validation loss: 0.3385
+2024-06-03 19:07:32 [INFO]: Epoch 007 - training loss: 0.9490, validation loss: 0.3920
+2024-06-03 19:08:28 [INFO]: Epoch 008 - training loss: 0.9344, validation loss: 0.3156
+2024-06-03 19:09:12 [INFO]: Epoch 009 - training loss: 0.9208, validation loss: 0.3802
+2024-06-03 19:09:59 [INFO]: Epoch 010 - training loss: 0.9126, validation loss: 0.4217
+2024-06-03 19:10:47 [INFO]: Epoch 011 - training loss: 0.8954, validation loss: 0.3655
+2024-06-03 19:11:43 [INFO]: Epoch 012 - training loss: 0.8835, validation loss: 0.3873
+2024-06-03 19:11:43 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:11:43 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 19:11:43 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_0/20240603_T190150/Koopa.pypots
+2024-06-03 19:11:49 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_0/imputation.pkl
+2024-06-03 19:11:49 [INFO]: Round0 - Koopa on PhysioNet2019: MAE=0.4734, MSE=0.4704, MRE=0.6214
+2024-06-03 19:11:49 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:11:49 [INFO]: Using the given device: cuda:0
+2024-06-03 19:11:49 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_1/20240603_T191149
+2024-06-03 19:11:49 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_1/20240603_T191149/tensorboard
+2024-06-03 19:11:49 [INFO]: Koopa initialized with the given hyperparameters, the number of trainable parameters: 641,887
+2024-06-03 19:12:47 [INFO]: Epoch 001 - training loss: 1.4289, validation loss: 0.1753
+2024-06-03 19:13:43 [INFO]: Epoch 002 - training loss: 1.1998, validation loss: 0.2053
+2024-06-03 19:14:26 [INFO]: Epoch 003 - training loss: 1.0791, validation loss: 0.2447
+2024-06-03 19:15:02 [INFO]: Epoch 004 - training loss: 1.0277, validation loss: 0.2639
+2024-06-03 19:15:44 [INFO]: Epoch 005 - training loss: 0.9992, validation loss: 0.2774
+2024-06-03 19:16:17 [INFO]: Epoch 006 - training loss: 0.9836, validation loss: 0.3502
+2024-06-03 19:17:06 [INFO]: Epoch 007 - training loss: 0.9519, validation loss: 0.3746
+2024-06-03 19:18:00 [INFO]: Epoch 008 - training loss: 0.9331, validation loss: 0.3642
+2024-06-03 19:18:45 [INFO]: Epoch 009 - training loss: 0.9196, validation loss: 0.3907
+2024-06-03 19:19:35 [INFO]: Epoch 010 - training loss: 0.9110, validation loss: 0.3951
+2024-06-03 19:20:22 [INFO]: Epoch 011 - training loss: 0.9045, validation loss: 0.4232
+2024-06-03 19:20:22 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:20:22 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:20:22 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_1/20240603_T191149/Koopa.pypots
+2024-06-03 19:20:27 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_1/imputation.pkl
+2024-06-03 19:20:27 [INFO]: Round1 - Koopa on PhysioNet2019: MAE=0.4746, MSE=0.4717, MRE=0.6229
+2024-06-03 19:20:27 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:20:27 [INFO]: Using the given device: cuda:0
+2024-06-03 19:20:27 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_2/20240603_T192027
+2024-06-03 19:20:27 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_2/20240603_T192027/tensorboard
+2024-06-03 19:20:27 [INFO]: Koopa initialized with the given hyperparameters, the number of trainable parameters: 641,887
+2024-06-03 19:21:24 [INFO]: Epoch 001 - training loss: 1.3597, validation loss: 0.2095
+2024-06-03 19:22:14 [INFO]: Epoch 002 - training loss: 1.0949, validation loss: 0.2342
+2024-06-03 19:23:07 [INFO]: Epoch 003 - training loss: 1.0074, validation loss: 0.2481
+2024-06-03 19:23:47 [INFO]: Epoch 004 - training loss: 0.9556, validation loss: 0.2801
+2024-06-03 19:24:24 [INFO]: Epoch 005 - training loss: 0.9212, validation loss: 0.2511
+2024-06-03 19:25:04 [INFO]: Epoch 006 - training loss: 0.9051, validation loss: 0.2975
+2024-06-03 19:25:24 [INFO]: Epoch 007 - training loss: 0.8820, validation loss: 0.2735
+2024-06-03 19:25:38 [INFO]: Epoch 008 - training loss: 0.8454, validation loss: 0.3195
+2024-06-03 19:25:54 [INFO]: Epoch 009 - training loss: 0.8340, validation loss: 0.3250
+2024-06-03 19:26:10 [INFO]: Epoch 010 - training loss: 0.8252, validation loss: 0.3131
+2024-06-03 19:26:27 [INFO]: Epoch 011 - training loss: 0.8218, validation loss: 0.3416
+2024-06-03 19:26:27 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:26:27 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:26:27 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_2/20240603_T192027/Koopa.pypots
+2024-06-03 19:26:28 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_2/imputation.pkl
+2024-06-03 19:26:28 [INFO]: Round2 - Koopa on PhysioNet2019: MAE=0.4356, MSE=0.3989, MRE=0.5718
+2024-06-03 19:26:28 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:26:28 [INFO]: Using the given device: cuda:0
+2024-06-03 19:26:28 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_3/20240603_T192628
+2024-06-03 19:26:28 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_3/20240603_T192628/tensorboard
+2024-06-03 19:26:28 [INFO]: Koopa initialized with the given hyperparameters, the number of trainable parameters: 641,887
+2024-06-03 19:26:46 [INFO]: Epoch 001 - training loss: 1.4034, validation loss: 0.1897
+2024-06-03 19:27:01 [INFO]: Epoch 002 - training loss: 1.1388, validation loss: 0.2257
+2024-06-03 19:27:19 [INFO]: Epoch 003 - training loss: 1.0057, validation loss: 0.2251
+2024-06-03 19:27:34 [INFO]: Epoch 004 - training loss: 0.9419, validation loss: 0.2155
+2024-06-03 19:27:50 [INFO]: Epoch 005 - training loss: 0.9179, validation loss: 0.2737
+2024-06-03 19:28:04 [INFO]: Epoch 006 - training loss: 0.8881, validation loss: 0.3006
+2024-06-03 19:28:21 [INFO]: Epoch 007 - training loss: 0.8675, validation loss: 0.2914
+2024-06-03 19:28:38 [INFO]: Epoch 008 - training loss: 0.8405, validation loss: 0.3206
+2024-06-03 19:28:55 [INFO]: Epoch 009 - training loss: 0.8296, validation loss: 0.3277
+2024-06-03 19:29:11 [INFO]: Epoch 010 - training loss: 0.8238, validation loss: 0.3636
+2024-06-03 19:29:27 [INFO]: Epoch 011 - training loss: 0.8192, validation loss: 0.3712
+2024-06-03 19:29:27 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:29:27 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:29:27 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_3/20240603_T192628/Koopa.pypots
+2024-06-03 19:29:29 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_3/imputation.pkl
+2024-06-03 19:29:29 [INFO]: Round3 - Koopa on PhysioNet2019: MAE=0.4412, MSE=0.4091, MRE=0.5791
+2024-06-03 19:29:29 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:29:29 [INFO]: Using the given device: cuda:0
+2024-06-03 19:29:29 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_4/20240603_T192929
+2024-06-03 19:29:29 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_4/20240603_T192929/tensorboard
+2024-06-03 19:29:29 [INFO]: Koopa initialized with the given hyperparameters, the number of trainable parameters: 641,887
+2024-06-03 19:29:54 [INFO]: Epoch 001 - training loss: 1.4143, validation loss: 0.2793
+2024-06-03 19:29:58 [INFO]: Epoch 002 - training loss: 1.1162, validation loss: 0.2305
+2024-06-03 19:30:00 [INFO]: Epoch 003 - training loss: 1.0055, validation loss: 0.2043
+2024-06-03 19:30:02 [INFO]: Epoch 004 - training loss: 0.9634, validation loss: 0.2763
+2024-06-03 19:30:11 [INFO]: Epoch 005 - training loss: 0.9206, validation loss: 0.2648
+2024-06-03 19:30:15 [INFO]: Epoch 006 - training loss: 0.8908, validation loss: 0.2769
+2024-06-03 19:30:17 [INFO]: Epoch 007 - training loss: 0.8712, validation loss: 0.3069
+2024-06-03 19:30:19 [INFO]: Epoch 008 - training loss: 0.8590, validation loss: 0.3136
+2024-06-03 19:30:37 [INFO]: Epoch 009 - training loss: 0.8500, validation loss: 0.3403
+2024-06-03 19:31:04 [INFO]: Epoch 010 - training loss: 0.8298, validation loss: 0.3408
+2024-06-03 19:31:30 [INFO]: Epoch 011 - training loss: 0.8209, validation loss: 0.3612
+2024-06-03 19:31:56 [INFO]: Epoch 012 - training loss: 0.8168, validation loss: 0.3535
+2024-06-03 19:32:23 [INFO]: Epoch 013 - training loss: 0.8037, validation loss: 0.3286
+2024-06-03 19:32:23 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:32:23 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 19:32:23 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_4/20240603_T192929/Koopa.pypots
+2024-06-03 19:32:24 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/Koopa_PhysioNet2019/round_4/imputation.pkl
+2024-06-03 19:32:24 [INFO]: Round4 - Koopa on PhysioNet2019: MAE=0.4311, MSE=0.3919, MRE=0.5658
+2024-06-03 19:32:24 [INFO]: Done! Final results:
+Averaged Koopa (641,887 params) on PhysioNet2019: MAE=0.4512 ± 0.01889254413536425, MSE=0.4284 ± 0.03526942222711139, MRE=0.5922 ± 0.024796558147084757, average inference time=0.45

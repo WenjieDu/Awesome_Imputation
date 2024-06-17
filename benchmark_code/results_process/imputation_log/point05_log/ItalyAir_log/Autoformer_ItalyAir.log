@@ -1,0 +1,137 @@
+2024-06-02 20:24:35 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-02 20:24:35 [INFO]: Using the given device: cuda:0
+2024-06-02 20:24:36 [INFO]: Model files will be saved to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_0/20240602_T202436
+2024-06-02 20:24:36 [INFO]: Tensorboard file will be saved to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_0/20240602_T202436/tensorboard
+2024-06-02 20:24:37 [INFO]: Autoformer initialized with the given hyperparameters, the number of trainable parameters: 993,805
+2024-06-02 20:24:43 [INFO]: Epoch 001 - training loss: 1.2950, validation loss: 2.7053
+2024-06-02 20:24:45 [INFO]: Epoch 002 - training loss: 1.1641, validation loss: 2.6679
+2024-06-02 20:24:48 [INFO]: Epoch 003 - training loss: 1.1059, validation loss: 2.6546
+2024-06-02 20:24:51 [INFO]: Epoch 004 - training loss: 1.0817, validation loss: 2.7065
+2024-06-02 20:24:53 [INFO]: Epoch 005 - training loss: 1.0667, validation loss: 2.7325
+2024-06-02 20:24:56 [INFO]: Epoch 006 - training loss: 1.0712, validation loss: 2.7373
+2024-06-02 20:24:59 [INFO]: Epoch 007 - training loss: 1.0329, validation loss: 2.7254
+2024-06-02 20:25:01 [INFO]: Epoch 008 - training loss: 1.0293, validation loss: 2.7354
+2024-06-02 20:25:04 [INFO]: Epoch 009 - training loss: 1.0108, validation loss: 2.7482
+2024-06-02 20:25:06 [INFO]: Epoch 010 - training loss: 1.0056, validation loss: 2.7430
+2024-06-02 20:25:09 [INFO]: Epoch 011 - training loss: 0.9793, validation loss: 2.7637
+2024-06-02 20:25:11 [INFO]: Epoch 012 - training loss: 0.9759, validation loss: 2.7277
+2024-06-02 20:25:14 [INFO]: Epoch 013 - training loss: 0.9511, validation loss: 2.7512
+2024-06-02 20:25:14 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 20:25:14 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-02 20:25:14 [INFO]: Saved the model to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_0/20240602_T202436/Autoformer.pypots
+2024-06-02 20:25:15 [INFO]: Successfully saved to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_0/imputation.pkl
+2024-06-02 20:25:15 [INFO]: Round0 - Autoformer on ItalyAir: MAE=0.8559, MSE=1.9388, MRE=1.1193
+2024-06-02 20:25:15 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-02 20:25:15 [INFO]: Using the given device: cuda:0
+2024-06-02 20:25:15 [INFO]: Model files will be saved to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_1/20240602_T202515
+2024-06-02 20:25:15 [INFO]: Tensorboard file will be saved to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_1/20240602_T202515/tensorboard
+2024-06-02 20:25:15 [INFO]: Autoformer initialized with the given hyperparameters, the number of trainable parameters: 993,805
+2024-06-02 20:25:18 [INFO]: Epoch 001 - training loss: 1.2756, validation loss: 2.7101
+2024-06-02 20:25:20 [INFO]: Epoch 002 - training loss: 1.1317, validation loss: 2.7286
+2024-06-02 20:25:23 [INFO]: Epoch 003 - training loss: 1.0939, validation loss: 2.6670
+2024-06-02 20:25:26 [INFO]: Epoch 004 - training loss: 1.0638, validation loss: 2.6800
+2024-06-02 20:25:28 [INFO]: Epoch 005 - training loss: 1.0402, validation loss: 2.6606
+2024-06-02 20:25:31 [INFO]: Epoch 006 - training loss: 1.0255, validation loss: 2.6516
+2024-06-02 20:25:33 [INFO]: Epoch 007 - training loss: 1.0240, validation loss: 2.6473
+2024-06-02 20:25:36 [INFO]: Epoch 008 - training loss: 1.0059, validation loss: 2.6812
+2024-06-02 20:25:39 [INFO]: Epoch 009 - training loss: 0.9850, validation loss: 2.6596
+2024-06-02 20:25:41 [INFO]: Epoch 010 - training loss: 0.9835, validation loss: 2.6727
+2024-06-02 20:25:44 [INFO]: Epoch 011 - training loss: 0.9833, validation loss: 2.6724
+2024-06-02 20:25:47 [INFO]: Epoch 012 - training loss: 0.9803, validation loss: 2.7029
+2024-06-02 20:25:49 [INFO]: Epoch 013 - training loss: 0.9593, validation loss: 2.7126
+2024-06-02 20:25:52 [INFO]: Epoch 014 - training loss: 0.9501, validation loss: 2.7124
+2024-06-02 20:25:54 [INFO]: Epoch 015 - training loss: 0.9376, validation loss: 2.6716
+2024-06-02 20:25:56 [INFO]: Epoch 016 - training loss: 0.9393, validation loss: 2.6914
+2024-06-02 20:25:59 [INFO]: Epoch 017 - training loss: 0.9235, validation loss: 2.7329
+2024-06-02 20:25:59 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 20:25:59 [INFO]: Finished training. The best model is from epoch#7.
+2024-06-02 20:25:59 [INFO]: Saved the model to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_1/20240602_T202515/Autoformer.pypots
+2024-06-02 20:26:00 [INFO]: Successfully saved to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_1/imputation.pkl
+2024-06-02 20:26:00 [INFO]: Round1 - Autoformer on ItalyAir: MAE=0.8462, MSE=1.9117, MRE=1.1065
+2024-06-02 20:26:00 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-02 20:26:00 [INFO]: Using the given device: cuda:0
+2024-06-02 20:26:00 [INFO]: Model files will be saved to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_2/20240602_T202600
+2024-06-02 20:26:00 [INFO]: Tensorboard file will be saved to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_2/20240602_T202600/tensorboard
+2024-06-02 20:26:00 [INFO]: Autoformer initialized with the given hyperparameters, the number of trainable parameters: 993,805
+2024-06-02 20:26:03 [INFO]: Epoch 001 - training loss: 1.2713, validation loss: 2.5957
+2024-06-02 20:26:05 [INFO]: Epoch 002 - training loss: 1.1258, validation loss: 2.6631
+2024-06-02 20:26:08 [INFO]: Epoch 003 - training loss: 1.0914, validation loss: 2.6188
+2024-06-02 20:26:11 [INFO]: Epoch 004 - training loss: 1.0701, validation loss: 2.6363
+2024-06-02 20:26:13 [INFO]: Epoch 005 - training loss: 1.0386, validation loss: 2.6268
+2024-06-02 20:26:16 [INFO]: Epoch 006 - training loss: 1.0291, validation loss: 2.6673
+2024-06-02 20:26:19 [INFO]: Epoch 007 - training loss: 1.0130, validation loss: 2.6569
+2024-06-02 20:26:21 [INFO]: Epoch 008 - training loss: 1.0032, validation loss: 2.6400
+2024-06-02 20:26:24 [INFO]: Epoch 009 - training loss: 0.9962, validation loss: 2.6466
+2024-06-02 20:26:27 [INFO]: Epoch 010 - training loss: 0.9788, validation loss: 2.6730
+2024-06-02 20:26:30 [INFO]: Epoch 011 - training loss: 0.9444, validation loss: 2.6821
+2024-06-02 20:26:30 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 20:26:30 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-02 20:26:30 [INFO]: Saved the model to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_2/20240602_T202600/Autoformer.pypots
+2024-06-02 20:26:31 [INFO]: Successfully saved to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_2/imputation.pkl
+2024-06-02 20:26:31 [INFO]: Round2 - Autoformer on ItalyAir: MAE=0.8342, MSE=1.8522, MRE=1.0909
+2024-06-02 20:26:31 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-02 20:26:31 [INFO]: Using the given device: cuda:0
+2024-06-02 20:26:31 [INFO]: Model files will be saved to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_3/20240602_T202631
+2024-06-02 20:26:31 [INFO]: Tensorboard file will be saved to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_3/20240602_T202631/tensorboard
+2024-06-02 20:26:31 [INFO]: Autoformer initialized with the given hyperparameters, the number of trainable parameters: 993,805
+2024-06-02 20:26:34 [INFO]: Epoch 001 - training loss: 1.2979, validation loss: 2.6245
+2024-06-02 20:26:37 [INFO]: Epoch 002 - training loss: 1.1454, validation loss: 2.7329
+2024-06-02 20:26:39 [INFO]: Epoch 003 - training loss: 1.0800, validation loss: 2.6828
+2024-06-02 20:26:42 [INFO]: Epoch 004 - training loss: 1.0676, validation loss: 2.6986
+2024-06-02 20:26:44 [INFO]: Epoch 005 - training loss: 1.0433, validation loss: 2.6524
+2024-06-02 20:26:47 [INFO]: Epoch 006 - training loss: 1.0228, validation loss: 2.6310
+2024-06-02 20:26:49 [INFO]: Epoch 007 - training loss: 1.0126, validation loss: 2.6427
+2024-06-02 20:26:52 [INFO]: Epoch 008 - training loss: 1.0183, validation loss: 2.6244
+2024-06-02 20:26:54 [INFO]: Epoch 009 - training loss: 1.0148, validation loss: 2.6105
+2024-06-02 20:26:57 [INFO]: Epoch 010 - training loss: 0.9682, validation loss: 2.5942
+2024-06-02 20:27:00 [INFO]: Epoch 011 - training loss: 0.9570, validation loss: 2.5971
+2024-06-02 20:27:02 [INFO]: Epoch 012 - training loss: 0.9510, validation loss: 2.5825
+2024-06-02 20:27:05 [INFO]: Epoch 013 - training loss: 0.9451, validation loss: 2.5776
+2024-06-02 20:27:07 [INFO]: Epoch 014 - training loss: 0.9521, validation loss: 2.5480
+2024-06-02 20:27:10 [INFO]: Epoch 015 - training loss: 0.9376, validation loss: 2.5774
+2024-06-02 20:27:13 [INFO]: Epoch 016 - training loss: 0.9178, validation loss: 2.5653
+2024-06-02 20:27:15 [INFO]: Epoch 017 - training loss: 0.9216, validation loss: 2.5833
+2024-06-02 20:27:18 [INFO]: Epoch 018 - training loss: 0.9111, validation loss: 2.6074
+2024-06-02 20:27:20 [INFO]: Epoch 019 - training loss: 0.9043, validation loss: 2.6017
+2024-06-02 20:27:22 [INFO]: Epoch 020 - training loss: 0.9164, validation loss: 2.6048
+2024-06-02 20:27:25 [INFO]: Epoch 021 - training loss: 0.8841, validation loss: 2.6067
+2024-06-02 20:27:28 [INFO]: Epoch 022 - training loss: 0.8946, validation loss: 2.6029
+2024-06-02 20:27:30 [INFO]: Epoch 023 - training loss: 0.8716, validation loss: 2.6289
+2024-06-02 20:27:32 [INFO]: Epoch 024 - training loss: 0.8721, validation loss: 2.6164
+2024-06-02 20:27:32 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 20:27:32 [INFO]: Finished training. The best model is from epoch#14.
+2024-06-02 20:27:33 [INFO]: Saved the model to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_3/20240602_T202631/Autoformer.pypots
+2024-06-02 20:27:34 [INFO]: Successfully saved to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_3/imputation.pkl
+2024-06-02 20:27:34 [INFO]: Round3 - Autoformer on ItalyAir: MAE=0.8092, MSE=1.8127, MRE=1.0582
+2024-06-02 20:27:34 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-02 20:27:34 [INFO]: Using the given device: cuda:0
+2024-06-02 20:27:34 [INFO]: Model files will be saved to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_4/20240602_T202734
+2024-06-02 20:27:34 [INFO]: Tensorboard file will be saved to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_4/20240602_T202734/tensorboard
+2024-06-02 20:27:34 [INFO]: Autoformer initialized with the given hyperparameters, the number of trainable parameters: 993,805
+2024-06-02 20:27:36 [INFO]: Epoch 001 - training loss: 1.2593, validation loss: 2.6488
+2024-06-02 20:27:39 [INFO]: Epoch 002 - training loss: 1.1293, validation loss: 2.6542
+2024-06-02 20:27:41 [INFO]: Epoch 003 - training loss: 1.0972, validation loss: 2.6356
+2024-06-02 20:27:44 [INFO]: Epoch 004 - training loss: 1.0739, validation loss: 2.6076
+2024-06-02 20:27:46 [INFO]: Epoch 005 - training loss: 1.0434, validation loss: 2.6375
+2024-06-02 20:27:49 [INFO]: Epoch 006 - training loss: 1.0127, validation loss: 2.6291
+2024-06-02 20:27:51 [INFO]: Epoch 007 - training loss: 1.0016, validation loss: 2.6451
+2024-06-02 20:27:53 [INFO]: Epoch 008 - training loss: 0.9876, validation loss: 2.6330
+2024-06-02 20:27:56 [INFO]: Epoch 009 - training loss: 0.9840, validation loss: 2.6170
+2024-06-02 20:27:58 [INFO]: Epoch 010 - training loss: 0.9847, validation loss: 2.5848
+2024-06-02 20:28:01 [INFO]: Epoch 011 - training loss: 0.9501, validation loss: 2.6028
+2024-06-02 20:28:03 [INFO]: Epoch 012 - training loss: 0.9335, validation loss: 2.6217
+2024-06-02 20:28:05 [INFO]: Epoch 013 - training loss: 0.9301, validation loss: 2.6039
+2024-06-02 20:28:07 [INFO]: Epoch 014 - training loss: 0.9380, validation loss: 2.6483
+2024-06-02 20:28:09 [INFO]: Epoch 015 - training loss: 0.9262, validation loss: 2.6064
+2024-06-02 20:28:11 [INFO]: Epoch 016 - training loss: 0.9213, validation loss: 2.6633
+2024-06-02 20:28:13 [INFO]: Epoch 017 - training loss: 0.8987, validation loss: 2.6717
+2024-06-02 20:28:15 [INFO]: Epoch 018 - training loss: 0.8934, validation loss: 2.6242
+2024-06-02 20:28:16 [INFO]: Epoch 019 - training loss: 0.8868, validation loss: 2.6895
+2024-06-02 20:28:19 [INFO]: Epoch 020 - training loss: 0.8669, validation loss: 2.6677
+2024-06-02 20:28:19 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-02 20:28:19 [INFO]: Finished training. The best model is from epoch#10.
+2024-06-02 20:28:19 [INFO]: Saved the model to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_4/20240602_T202734/Autoformer.pypots
+2024-06-02 20:28:20 [INFO]: Successfully saved to results_point_rate05/ItalyAir/Autoformer_ItalyAir/round_4/imputation.pkl
+2024-06-02 20:28:20 [INFO]: Round4 - Autoformer on ItalyAir: MAE=0.8179, MSE=1.8838, MRE=1.0695
+2024-06-02 20:28:20 [INFO]: Done! Final results:
+Averaged Autoformer (993,805 params) on ItalyAir: MAE=0.8327 ± 0.01728473316066299, MSE=1.8798 ± 0.04423372452799279, MRE=1.0889 ± 0.022603093354501023, average inference time=0.23

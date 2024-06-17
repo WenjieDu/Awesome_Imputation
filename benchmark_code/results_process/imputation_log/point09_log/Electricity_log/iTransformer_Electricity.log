@@ -1,0 +1,160 @@
+2024-06-03 01:13:04 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 01:13:04 [INFO]: Using the given device: cuda:0
+2024-06-03 01:13:04 [INFO]: Model files will be saved to results_point_rate09/Electricity/iTransformer_Electricity/round_0/20240603_T011304
+2024-06-03 01:13:04 [INFO]: Tensorboard file will be saved to results_point_rate09/Electricity/iTransformer_Electricity/round_0/20240603_T011304/tensorboard
+2024-06-03 01:13:04 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=512
+2024-06-03 01:13:04 [WARNING]: ⚠️ d_model is reset to 2048 = n_heads (4) * d_k (512)
+2024-06-03 01:13:05 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 12,989,024
+2024-06-03 01:13:18 [INFO]: Epoch 001 - training loss: 1.0373, validation loss: 3.1803
+2024-06-03 01:13:30 [INFO]: Epoch 002 - training loss: 0.7665, validation loss: 3.0156
+2024-06-03 01:13:41 [INFO]: Epoch 003 - training loss: 0.7240, validation loss: 2.8785
+2024-06-03 01:13:53 [INFO]: Epoch 004 - training loss: 0.6968, validation loss: 2.8669
+2024-06-03 01:14:05 [INFO]: Epoch 005 - training loss: 0.6642, validation loss: 2.9273
+2024-06-03 01:14:16 [INFO]: Epoch 006 - training loss: 0.6427, validation loss: 2.9792
+2024-06-03 01:14:28 [INFO]: Epoch 007 - training loss: 0.6230, validation loss: 2.8924
+2024-06-03 01:14:40 [INFO]: Epoch 008 - training loss: 0.6042, validation loss: 2.8838
+2024-06-03 01:14:52 [INFO]: Epoch 009 - training loss: 0.5917, validation loss: 2.8271
+2024-06-03 01:15:04 [INFO]: Epoch 010 - training loss: 0.5842, validation loss: 3.0390
+2024-06-03 01:15:15 [INFO]: Epoch 011 - training loss: 0.5731, validation loss: 3.0120
+2024-06-03 01:15:27 [INFO]: Epoch 012 - training loss: 0.5645, validation loss: 3.0139
+2024-06-03 01:15:39 [INFO]: Epoch 013 - training loss: 0.5599, validation loss: 3.1823
+2024-06-03 01:15:51 [INFO]: Epoch 014 - training loss: 0.5568, validation loss: 3.0020
+2024-06-03 01:16:03 [INFO]: Epoch 015 - training loss: 0.5514, validation loss: 2.9422
+2024-06-03 01:16:15 [INFO]: Epoch 016 - training loss: 0.5470, validation loss: 3.2147
+2024-06-03 01:16:27 [INFO]: Epoch 017 - training loss: 0.5439, validation loss: 3.0746
+2024-06-03 01:16:39 [INFO]: Epoch 018 - training loss: 0.5400, validation loss: 3.1173
+2024-06-03 01:16:50 [INFO]: Epoch 019 - training loss: 0.5396, validation loss: 3.1302
+2024-06-03 01:16:50 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 01:16:50 [INFO]: Finished training. The best model is from epoch#9.
+2024-06-03 01:16:51 [INFO]: Saved the model to results_point_rate09/Electricity/iTransformer_Electricity/round_0/20240603_T011304/iTransformer.pypots
+2024-06-03 01:16:52 [INFO]: Successfully saved to results_point_rate09/Electricity/iTransformer_Electricity/round_0/imputation.pkl
+2024-06-03 01:16:52 [INFO]: Round0 - iTransformer on Electricity: MAE=1.5523, MSE=4.2995, MRE=0.8310
+2024-06-03 01:16:52 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 01:16:52 [INFO]: Using the given device: cuda:0
+2024-06-03 01:16:52 [INFO]: Model files will be saved to results_point_rate09/Electricity/iTransformer_Electricity/round_1/20240603_T011652
+2024-06-03 01:16:52 [INFO]: Tensorboard file will be saved to results_point_rate09/Electricity/iTransformer_Electricity/round_1/20240603_T011652/tensorboard
+2024-06-03 01:16:52 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=512
+2024-06-03 01:16:52 [WARNING]: ⚠️ d_model is reset to 2048 = n_heads (4) * d_k (512)
+2024-06-03 01:16:52 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 12,989,024
+2024-06-03 01:17:04 [INFO]: Epoch 001 - training loss: 1.0411, validation loss: 3.1441
+2024-06-03 01:17:16 [INFO]: Epoch 002 - training loss: 0.7667, validation loss: 3.1151
+2024-06-03 01:17:28 [INFO]: Epoch 003 - training loss: 0.7260, validation loss: 2.9940
+2024-06-03 01:17:40 [INFO]: Epoch 004 - training loss: 0.6945, validation loss: 2.8506
+2024-06-03 01:17:52 [INFO]: Epoch 005 - training loss: 0.6683, validation loss: 2.8025
+2024-06-03 01:18:04 [INFO]: Epoch 006 - training loss: 0.6414, validation loss: 2.8534
+2024-06-03 01:18:15 [INFO]: Epoch 007 - training loss: 0.6187, validation loss: 2.8166
+2024-06-03 01:18:28 [INFO]: Epoch 008 - training loss: 0.6144, validation loss: 3.1348
+2024-06-03 01:18:40 [INFO]: Epoch 009 - training loss: 0.6038, validation loss: 3.1584
+2024-06-03 01:18:51 [INFO]: Epoch 010 - training loss: 0.5904, validation loss: 2.9299
+2024-06-03 01:19:01 [INFO]: Epoch 011 - training loss: 0.5783, validation loss: 2.8780
+2024-06-03 01:19:12 [INFO]: Epoch 012 - training loss: 0.5705, validation loss: 2.8282
+2024-06-03 01:19:24 [INFO]: Epoch 013 - training loss: 0.5660, validation loss: 2.8972
+2024-06-03 01:19:36 [INFO]: Epoch 014 - training loss: 0.5579, validation loss: 2.9108
+2024-06-03 01:19:47 [INFO]: Epoch 015 - training loss: 0.5590, validation loss: 2.8733
+2024-06-03 01:19:47 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 01:19:47 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 01:19:48 [INFO]: Saved the model to results_point_rate09/Electricity/iTransformer_Electricity/round_1/20240603_T011652/iTransformer.pypots
+2024-06-03 01:19:49 [INFO]: Successfully saved to results_point_rate09/Electricity/iTransformer_Electricity/round_1/imputation.pkl
+2024-06-03 01:19:49 [INFO]: Round1 - iTransformer on Electricity: MAE=1.2583, MSE=3.0908, MRE=0.6736
+2024-06-03 01:19:49 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 01:19:49 [INFO]: Using the given device: cuda:0
+2024-06-03 01:19:49 [INFO]: Model files will be saved to results_point_rate09/Electricity/iTransformer_Electricity/round_2/20240603_T011949
+2024-06-03 01:19:49 [INFO]: Tensorboard file will be saved to results_point_rate09/Electricity/iTransformer_Electricity/round_2/20240603_T011949/tensorboard
+2024-06-03 01:19:49 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=512
+2024-06-03 01:19:49 [WARNING]: ⚠️ d_model is reset to 2048 = n_heads (4) * d_k (512)
+2024-06-03 01:19:50 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 12,989,024
+2024-06-03 01:20:03 [INFO]: Epoch 001 - training loss: 1.0539, validation loss: 3.0871
+2024-06-03 01:20:14 [INFO]: Epoch 002 - training loss: 0.7673, validation loss: 2.9024
+2024-06-03 01:20:26 [INFO]: Epoch 003 - training loss: 0.7247, validation loss: 2.9897
+2024-06-03 01:20:38 [INFO]: Epoch 004 - training loss: 0.6918, validation loss: 2.9322
+2024-06-03 01:20:50 [INFO]: Epoch 005 - training loss: 0.6646, validation loss: 2.8820
+2024-06-03 01:21:02 [INFO]: Epoch 006 - training loss: 0.6369, validation loss: 2.8019
+2024-06-03 01:21:14 [INFO]: Epoch 007 - training loss: 0.6165, validation loss: 2.7364
+2024-06-03 01:21:26 [INFO]: Epoch 008 - training loss: 0.6009, validation loss: 2.7473
+2024-06-03 01:21:38 [INFO]: Epoch 009 - training loss: 0.5917, validation loss: 2.7828
+2024-06-03 01:21:49 [INFO]: Epoch 010 - training loss: 0.5849, validation loss: 2.7407
+2024-06-03 01:22:02 [INFO]: Epoch 011 - training loss: 0.5753, validation loss: 2.7229
+2024-06-03 01:22:13 [INFO]: Epoch 012 - training loss: 0.5713, validation loss: 3.1774
+2024-06-03 01:22:25 [INFO]: Epoch 013 - training loss: 0.5621, validation loss: 2.7999
+2024-06-03 01:22:37 [INFO]: Epoch 014 - training loss: 0.5534, validation loss: 2.8086
+2024-06-03 01:22:49 [INFO]: Epoch 015 - training loss: 0.5492, validation loss: 3.0154
+2024-06-03 01:23:01 [INFO]: Epoch 016 - training loss: 0.5445, validation loss: 2.8341
+2024-06-03 01:23:13 [INFO]: Epoch 017 - training loss: 0.5440, validation loss: 2.8001
+2024-06-03 01:23:25 [INFO]: Epoch 018 - training loss: 0.5384, validation loss: 2.9981
+2024-06-03 01:23:37 [INFO]: Epoch 019 - training loss: 0.5352, validation loss: 2.9134
+2024-06-03 01:23:48 [INFO]: Epoch 020 - training loss: 0.5308, validation loss: 2.9469
+2024-06-03 01:24:00 [INFO]: Epoch 021 - training loss: 0.5272, validation loss: 2.8825
+2024-06-03 01:24:00 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 01:24:00 [INFO]: Finished training. The best model is from epoch#11.
+2024-06-03 01:24:01 [INFO]: Saved the model to results_point_rate09/Electricity/iTransformer_Electricity/round_2/20240603_T011949/iTransformer.pypots
+2024-06-03 01:24:02 [INFO]: Successfully saved to results_point_rate09/Electricity/iTransformer_Electricity/round_2/imputation.pkl
+2024-06-03 01:24:02 [INFO]: Round2 - iTransformer on Electricity: MAE=1.4138, MSE=3.7317, MRE=0.7568
+2024-06-03 01:24:02 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 01:24:02 [INFO]: Using the given device: cuda:0
+2024-06-03 01:24:02 [INFO]: Model files will be saved to results_point_rate09/Electricity/iTransformer_Electricity/round_3/20240603_T012402
+2024-06-03 01:24:02 [INFO]: Tensorboard file will be saved to results_point_rate09/Electricity/iTransformer_Electricity/round_3/20240603_T012402/tensorboard
+2024-06-03 01:24:02 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=512
+2024-06-03 01:24:02 [WARNING]: ⚠️ d_model is reset to 2048 = n_heads (4) * d_k (512)
+2024-06-03 01:24:03 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 12,989,024
+2024-06-03 01:24:15 [INFO]: Epoch 001 - training loss: 1.0419, validation loss: 3.1477
+2024-06-03 01:24:27 [INFO]: Epoch 002 - training loss: 0.7668, validation loss: 2.9251
+2024-06-03 01:24:39 [INFO]: Epoch 003 - training loss: 0.7281, validation loss: 2.9022
+2024-06-03 01:24:51 [INFO]: Epoch 004 - training loss: 0.6992, validation loss: 2.8763
+2024-06-03 01:25:01 [INFO]: Epoch 005 - training loss: 0.6684, validation loss: 2.7654
+2024-06-03 01:25:11 [INFO]: Epoch 006 - training loss: 0.6378, validation loss: 2.8224
+2024-06-03 01:25:23 [INFO]: Epoch 007 - training loss: 0.6151, validation loss: 2.8794
+2024-06-03 01:25:35 [INFO]: Epoch 008 - training loss: 0.5997, validation loss: 3.0316
+2024-06-03 01:25:47 [INFO]: Epoch 009 - training loss: 0.5883, validation loss: 3.0092
+2024-06-03 01:25:59 [INFO]: Epoch 010 - training loss: 0.5933, validation loss: 3.0538
+2024-06-03 01:26:11 [INFO]: Epoch 011 - training loss: 0.5789, validation loss: 2.9794
+2024-06-03 01:26:23 [INFO]: Epoch 012 - training loss: 0.5653, validation loss: 2.8975
+2024-06-03 01:26:35 [INFO]: Epoch 013 - training loss: 0.5594, validation loss: 3.0444
+2024-06-03 01:26:47 [INFO]: Epoch 014 - training loss: 0.5541, validation loss: 3.1464
+2024-06-03 01:26:59 [INFO]: Epoch 015 - training loss: 0.5530, validation loss: 3.1846
+2024-06-03 01:26:59 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 01:26:59 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 01:26:59 [INFO]: Saved the model to results_point_rate09/Electricity/iTransformer_Electricity/round_3/20240603_T012402/iTransformer.pypots
+2024-06-03 01:27:00 [INFO]: Successfully saved to results_point_rate09/Electricity/iTransformer_Electricity/round_3/imputation.pkl
+2024-06-03 01:27:00 [INFO]: Round3 - iTransformer on Electricity: MAE=1.5672, MSE=4.3942, MRE=0.8389
+2024-06-03 01:27:00 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 01:27:00 [INFO]: Using the given device: cuda:0
+2024-06-03 01:27:00 [INFO]: Model files will be saved to results_point_rate09/Electricity/iTransformer_Electricity/round_4/20240603_T012700
+2024-06-03 01:27:00 [INFO]: Tensorboard file will be saved to results_point_rate09/Electricity/iTransformer_Electricity/round_4/20240603_T012700/tensorboard
+2024-06-03 01:27:00 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=64, n_heads=4, d_k=512
+2024-06-03 01:27:00 [WARNING]: ⚠️ d_model is reset to 2048 = n_heads (4) * d_k (512)
+2024-06-03 01:27:01 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 12,989,024
+2024-06-03 01:27:13 [INFO]: Epoch 001 - training loss: 1.0425, validation loss: 3.2010
+2024-06-03 01:27:25 [INFO]: Epoch 002 - training loss: 0.7722, validation loss: 3.1003
+2024-06-03 01:27:37 [INFO]: Epoch 003 - training loss: 0.7315, validation loss: 3.0135
+2024-06-03 01:27:48 [INFO]: Epoch 004 - training loss: 0.6968, validation loss: 2.9087
+2024-06-03 01:28:00 [INFO]: Epoch 005 - training loss: 0.6674, validation loss: 3.0233
+2024-06-03 01:28:13 [INFO]: Epoch 006 - training loss: 0.6388, validation loss: 2.9534
+2024-06-03 01:28:24 [INFO]: Epoch 007 - training loss: 0.6176, validation loss: 3.4102
+2024-06-03 01:28:36 [INFO]: Epoch 008 - training loss: 0.6026, validation loss: 3.0408
+2024-06-03 01:28:47 [INFO]: Epoch 009 - training loss: 0.5868, validation loss: 2.8775
+2024-06-03 01:28:57 [INFO]: Epoch 010 - training loss: 0.5855, validation loss: 2.8684
+2024-06-03 01:29:08 [INFO]: Epoch 011 - training loss: 0.5771, validation loss: 2.9893
+2024-06-03 01:29:20 [INFO]: Epoch 012 - training loss: 0.5631, validation loss: 2.9550
+2024-06-03 01:29:32 [INFO]: Epoch 013 - training loss: 0.5630, validation loss: 3.0434
+2024-06-03 01:29:44 [INFO]: Epoch 014 - training loss: 0.5548, validation loss: 3.0530
+2024-06-03 01:29:56 [INFO]: Epoch 015 - training loss: 0.5513, validation loss: 3.2062
+2024-06-03 01:30:08 [INFO]: Epoch 016 - training loss: 0.5454, validation loss: 3.0020
+2024-06-03 01:30:20 [INFO]: Epoch 017 - training loss: 0.5458, validation loss: 2.9457
+2024-06-03 01:30:32 [INFO]: Epoch 018 - training loss: 0.5432, validation loss: 2.8596
+2024-06-03 01:30:43 [INFO]: Epoch 019 - training loss: 0.5396, validation loss: 3.0741
+2024-06-03 01:30:55 [INFO]: Epoch 020 - training loss: 0.5343, validation loss: 2.9093
+2024-06-03 01:31:07 [INFO]: Epoch 021 - training loss: 0.5344, validation loss: 3.0959
+2024-06-03 01:31:19 [INFO]: Epoch 022 - training loss: 0.5314, validation loss: 3.1322
+2024-06-03 01:31:30 [INFO]: Epoch 023 - training loss: 0.5306, validation loss: 3.0420
+2024-06-03 01:31:42 [INFO]: Epoch 024 - training loss: 0.5219, validation loss: 3.1795
+2024-06-03 01:31:54 [INFO]: Epoch 025 - training loss: 0.5246, validation loss: 2.8718
+2024-06-03 01:32:06 [INFO]: Epoch 026 - training loss: 0.5202, validation loss: 3.1444
+2024-06-03 01:32:17 [INFO]: Epoch 027 - training loss: 0.5179, validation loss: 3.3416
+2024-06-03 01:32:29 [INFO]: Epoch 028 - training loss: 0.5168, validation loss: 3.2690
+2024-06-03 01:32:29 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 01:32:29 [INFO]: Finished training. The best model is from epoch#18.
+2024-06-03 01:32:30 [INFO]: Saved the model to results_point_rate09/Electricity/iTransformer_Electricity/round_4/20240603_T012700/iTransformer.pypots
+2024-06-03 01:32:31 [INFO]: Successfully saved to results_point_rate09/Electricity/iTransformer_Electricity/round_4/imputation.pkl
+2024-06-03 01:32:31 [INFO]: Round4 - iTransformer on Electricity: MAE=1.7374, MSE=5.0988, MRE=0.9301
+2024-06-03 01:32:31 [INFO]: Done! Final results:
+Averaged iTransformer (12,989,024 params) on Electricity: MAE=1.5058 ± 0.16079205621574663, MSE=4.1230 ± 0.6746003954031351, MRE=0.8061 ± 0.0860765757932136, average inference time=1.11

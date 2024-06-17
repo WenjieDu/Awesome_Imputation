@@ -1,0 +1,273 @@
+2024-06-03 00:41:52 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 00:41:52 [INFO]: Using the given device: cuda:0
+2024-06-03 00:41:53 [INFO]: Model files will be saved to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_0/20240603_T004153
+2024-06-03 00:41:53 [INFO]: Tensorboard file will be saved to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_0/20240603_T004153/tensorboard
+2024-06-03 00:41:53 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=256, n_heads=8, d_k=128
+2024-06-03 00:41:53 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (8) * d_k (128)
+2024-06-03 00:41:54 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 23,723,056
+2024-06-03 00:41:57 [INFO]: Epoch 001 - training loss: 1.5335, validation loss: 1.1114
+2024-06-03 00:41:57 [INFO]: Epoch 002 - training loss: 1.1776, validation loss: 0.9587
+2024-06-03 00:41:58 [INFO]: Epoch 003 - training loss: 1.0232, validation loss: 0.8599
+2024-06-03 00:41:58 [INFO]: Epoch 004 - training loss: 0.9468, validation loss: 0.8177
+2024-06-03 00:41:59 [INFO]: Epoch 005 - training loss: 0.8616, validation loss: 0.7721
+2024-06-03 00:41:59 [INFO]: Epoch 006 - training loss: 0.8242, validation loss: 0.7401
+2024-06-03 00:42:00 [INFO]: Epoch 007 - training loss: 0.8099, validation loss: 0.7140
+2024-06-03 00:42:00 [INFO]: Epoch 008 - training loss: 0.7813, validation loss: 0.6987
+2024-06-03 00:42:01 [INFO]: Epoch 009 - training loss: 0.7480, validation loss: 0.6806
+2024-06-03 00:42:02 [INFO]: Epoch 010 - training loss: 0.7477, validation loss: 0.6728
+2024-06-03 00:42:02 [INFO]: Epoch 011 - training loss: 0.7362, validation loss: 0.6646
+2024-06-03 00:42:03 [INFO]: Epoch 012 - training loss: 0.7226, validation loss: 0.6587
+2024-06-03 00:42:03 [INFO]: Epoch 013 - training loss: 0.6809, validation loss: 0.6320
+2024-06-03 00:42:04 [INFO]: Epoch 014 - training loss: 0.7036, validation loss: 0.6594
+2024-06-03 00:42:05 [INFO]: Epoch 015 - training loss: 0.6707, validation loss: 0.6454
+2024-06-03 00:42:05 [INFO]: Epoch 016 - training loss: 0.6699, validation loss: 0.6370
+2024-06-03 00:42:06 [INFO]: Epoch 017 - training loss: 0.6519, validation loss: 0.6328
+2024-06-03 00:42:06 [INFO]: Epoch 018 - training loss: 0.6591, validation loss: 0.6332
+2024-06-03 00:42:07 [INFO]: Epoch 019 - training loss: 0.6357, validation loss: 0.6239
+2024-06-03 00:42:08 [INFO]: Epoch 020 - training loss: 0.6459, validation loss: 0.6162
+2024-06-03 00:42:08 [INFO]: Epoch 021 - training loss: 0.6262, validation loss: 0.6155
+2024-06-03 00:42:09 [INFO]: Epoch 022 - training loss: 0.6215, validation loss: 0.6085
+2024-06-03 00:42:09 [INFO]: Epoch 023 - training loss: 0.5925, validation loss: 0.6053
+2024-06-03 00:42:10 [INFO]: Epoch 024 - training loss: 0.6123, validation loss: 0.6124
+2024-06-03 00:42:11 [INFO]: Epoch 025 - training loss: 0.6252, validation loss: 0.6023
+2024-06-03 00:42:11 [INFO]: Epoch 026 - training loss: 0.5990, validation loss: 0.6081
+2024-06-03 00:42:12 [INFO]: Epoch 027 - training loss: 0.5723, validation loss: 0.6139
+2024-06-03 00:42:13 [INFO]: Epoch 028 - training loss: 0.5850, validation loss: 0.5943
+2024-06-03 00:42:13 [INFO]: Epoch 029 - training loss: 0.5634, validation loss: 0.6108
+2024-06-03 00:42:14 [INFO]: Epoch 030 - training loss: 0.5743, validation loss: 0.6193
+2024-06-03 00:42:14 [INFO]: Epoch 031 - training loss: 0.5554, validation loss: 0.6114
+2024-06-03 00:42:15 [INFO]: Epoch 032 - training loss: 0.5634, validation loss: 0.6037
+2024-06-03 00:42:16 [INFO]: Epoch 033 - training loss: 0.5479, validation loss: 0.5989
+2024-06-03 00:42:16 [INFO]: Epoch 034 - training loss: 0.5432, validation loss: 0.6018
+2024-06-03 00:42:17 [INFO]: Epoch 035 - training loss: 0.5373, validation loss: 0.6118
+2024-06-03 00:42:18 [INFO]: Epoch 036 - training loss: 0.5370, validation loss: 0.6098
+2024-06-03 00:42:18 [INFO]: Epoch 037 - training loss: 0.5374, validation loss: 0.6103
+2024-06-03 00:42:19 [INFO]: Epoch 038 - training loss: 0.5074, validation loss: 0.6069
+2024-06-03 00:42:19 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:42:19 [INFO]: Finished training. The best model is from epoch#28.
+2024-06-03 00:42:19 [INFO]: Saved the model to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_0/20240603_T004153/iTransformer.pypots
+2024-06-03 00:42:20 [INFO]: Successfully saved to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_0/imputation.pkl
+2024-06-03 00:42:20 [INFO]: Round0 - iTransformer on ETT_h1: MAE=0.6368, MSE=0.7878, MRE=0.7494
+2024-06-03 00:42:20 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 00:42:20 [INFO]: Using the given device: cuda:0
+2024-06-03 00:42:20 [INFO]: Model files will be saved to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_1/20240603_T004220
+2024-06-03 00:42:20 [INFO]: Tensorboard file will be saved to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_1/20240603_T004220/tensorboard
+2024-06-03 00:42:20 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=256, n_heads=8, d_k=128
+2024-06-03 00:42:20 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (8) * d_k (128)
+2024-06-03 00:42:21 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 23,723,056
+2024-06-03 00:42:21 [INFO]: Epoch 001 - training loss: 1.5597, validation loss: 1.0592
+2024-06-03 00:42:22 [INFO]: Epoch 002 - training loss: 1.1777, validation loss: 0.9291
+2024-06-03 00:42:23 [INFO]: Epoch 003 - training loss: 1.0079, validation loss: 0.8401
+2024-06-03 00:42:23 [INFO]: Epoch 004 - training loss: 0.9210, validation loss: 0.7777
+2024-06-03 00:42:24 [INFO]: Epoch 005 - training loss: 0.8568, validation loss: 0.7448
+2024-06-03 00:42:24 [INFO]: Epoch 006 - training loss: 0.8124, validation loss: 0.7222
+2024-06-03 00:42:25 [INFO]: Epoch 007 - training loss: 0.7751, validation loss: 0.7168
+2024-06-03 00:42:26 [INFO]: Epoch 008 - training loss: 0.7606, validation loss: 0.6915
+2024-06-03 00:42:26 [INFO]: Epoch 009 - training loss: 0.7351, validation loss: 0.6748
+2024-06-03 00:42:27 [INFO]: Epoch 010 - training loss: 0.7299, validation loss: 0.6621
+2024-06-03 00:42:28 [INFO]: Epoch 011 - training loss: 0.7099, validation loss: 0.6604
+2024-06-03 00:42:28 [INFO]: Epoch 012 - training loss: 0.6822, validation loss: 0.6500
+2024-06-03 00:42:29 [INFO]: Epoch 013 - training loss: 0.7158, validation loss: 0.6329
+2024-06-03 00:42:29 [INFO]: Epoch 014 - training loss: 0.6909, validation loss: 0.6530
+2024-06-03 00:42:30 [INFO]: Epoch 015 - training loss: 0.6855, validation loss: 0.6257
+2024-06-03 00:42:31 [INFO]: Epoch 016 - training loss: 0.6762, validation loss: 0.6269
+2024-06-03 00:42:31 [INFO]: Epoch 017 - training loss: 0.6332, validation loss: 0.6291
+2024-06-03 00:42:32 [INFO]: Epoch 018 - training loss: 0.6522, validation loss: 0.6132
+2024-06-03 00:42:33 [INFO]: Epoch 019 - training loss: 0.6364, validation loss: 0.6409
+2024-06-03 00:42:33 [INFO]: Epoch 020 - training loss: 0.6089, validation loss: 0.6172
+2024-06-03 00:42:34 [INFO]: Epoch 021 - training loss: 0.6219, validation loss: 0.6157
+2024-06-03 00:42:34 [INFO]: Epoch 022 - training loss: 0.6293, validation loss: 0.6164
+2024-06-03 00:42:35 [INFO]: Epoch 023 - training loss: 0.6178, validation loss: 0.5972
+2024-06-03 00:42:36 [INFO]: Epoch 024 - training loss: 0.6052, validation loss: 0.6143
+2024-06-03 00:42:36 [INFO]: Epoch 025 - training loss: 0.6061, validation loss: 0.6276
+2024-06-03 00:42:37 [INFO]: Epoch 026 - training loss: 0.5984, validation loss: 0.6010
+2024-06-03 00:42:37 [INFO]: Epoch 027 - training loss: 0.6065, validation loss: 0.6037
+2024-06-03 00:42:38 [INFO]: Epoch 028 - training loss: 0.5829, validation loss: 0.6161
+2024-06-03 00:42:39 [INFO]: Epoch 029 - training loss: 0.5737, validation loss: 0.6067
+2024-06-03 00:42:39 [INFO]: Epoch 030 - training loss: 0.5603, validation loss: 0.5883
+2024-06-03 00:42:40 [INFO]: Epoch 031 - training loss: 0.5590, validation loss: 0.6034
+2024-06-03 00:42:40 [INFO]: Epoch 032 - training loss: 0.5291, validation loss: 0.6036
+2024-06-03 00:42:41 [INFO]: Epoch 033 - training loss: 0.5460, validation loss: 0.5868
+2024-06-03 00:42:41 [INFO]: Epoch 034 - training loss: 0.5411, validation loss: 0.5992
+2024-06-03 00:42:42 [INFO]: Epoch 035 - training loss: 0.5336, validation loss: 0.5931
+2024-06-03 00:42:42 [INFO]: Epoch 036 - training loss: 0.5391, validation loss: 0.5967
+2024-06-03 00:42:43 [INFO]: Epoch 037 - training loss: 0.5235, validation loss: 0.5922
+2024-06-03 00:42:44 [INFO]: Epoch 038 - training loss: 0.5311, validation loss: 0.5961
+2024-06-03 00:42:44 [INFO]: Epoch 039 - training loss: 0.5167, validation loss: 0.6088
+2024-06-03 00:42:45 [INFO]: Epoch 040 - training loss: 0.5189, validation loss: 0.5860
+2024-06-03 00:42:45 [INFO]: Epoch 041 - training loss: 0.4909, validation loss: 0.5982
+2024-06-03 00:42:46 [INFO]: Epoch 042 - training loss: 0.4924, validation loss: 0.6025
+2024-06-03 00:42:47 [INFO]: Epoch 043 - training loss: 0.4739, validation loss: 0.5937
+2024-06-03 00:42:47 [INFO]: Epoch 044 - training loss: 0.5079, validation loss: 0.5960
+2024-06-03 00:42:48 [INFO]: Epoch 045 - training loss: 0.4855, validation loss: 0.5992
+2024-06-03 00:42:48 [INFO]: Epoch 046 - training loss: 0.4790, validation loss: 0.5975
+2024-06-03 00:42:49 [INFO]: Epoch 047 - training loss: 0.4841, validation loss: 0.5906
+2024-06-03 00:42:49 [INFO]: Epoch 048 - training loss: 0.4782, validation loss: 0.5990
+2024-06-03 00:42:50 [INFO]: Epoch 049 - training loss: 0.4654, validation loss: 0.5914
+2024-06-03 00:42:51 [INFO]: Epoch 050 - training loss: 0.4704, validation loss: 0.5955
+2024-06-03 00:42:51 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:42:51 [INFO]: Finished training. The best model is from epoch#40.
+2024-06-03 00:42:51 [INFO]: Saved the model to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_1/20240603_T004220/iTransformer.pypots
+2024-06-03 00:42:52 [INFO]: Successfully saved to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_1/imputation.pkl
+2024-06-03 00:42:52 [INFO]: Round1 - iTransformer on ETT_h1: MAE=0.6317, MSE=0.7800, MRE=0.7435
+2024-06-03 00:42:52 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 00:42:52 [INFO]: Using the given device: cuda:0
+2024-06-03 00:42:52 [INFO]: Model files will be saved to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_2/20240603_T004252
+2024-06-03 00:42:52 [INFO]: Tensorboard file will be saved to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_2/20240603_T004252/tensorboard
+2024-06-03 00:42:52 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=256, n_heads=8, d_k=128
+2024-06-03 00:42:52 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (8) * d_k (128)
+2024-06-03 00:42:53 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 23,723,056
+2024-06-03 00:42:53 [INFO]: Epoch 001 - training loss: 1.5419, validation loss: 1.0530
+2024-06-03 00:42:54 [INFO]: Epoch 002 - training loss: 1.1963, validation loss: 0.9328
+2024-06-03 00:42:55 [INFO]: Epoch 003 - training loss: 1.0108, validation loss: 0.8493
+2024-06-03 00:42:55 [INFO]: Epoch 004 - training loss: 0.9470, validation loss: 0.7944
+2024-06-03 00:42:56 [INFO]: Epoch 005 - training loss: 0.8588, validation loss: 0.7510
+2024-06-03 00:42:57 [INFO]: Epoch 006 - training loss: 0.8336, validation loss: 0.7533
+2024-06-03 00:42:57 [INFO]: Epoch 007 - training loss: 0.7811, validation loss: 0.7195
+2024-06-03 00:42:58 [INFO]: Epoch 008 - training loss: 0.7697, validation loss: 0.7054
+2024-06-03 00:42:59 [INFO]: Epoch 009 - training loss: 0.7276, validation loss: 0.6961
+2024-06-03 00:42:59 [INFO]: Epoch 010 - training loss: 0.7427, validation loss: 0.6840
+2024-06-03 00:43:00 [INFO]: Epoch 011 - training loss: 0.7116, validation loss: 0.6850
+2024-06-03 00:43:00 [INFO]: Epoch 012 - training loss: 0.6931, validation loss: 0.6668
+2024-06-03 00:43:01 [INFO]: Epoch 013 - training loss: 0.6849, validation loss: 0.6713
+2024-06-03 00:43:02 [INFO]: Epoch 014 - training loss: 0.6888, validation loss: 0.6660
+2024-06-03 00:43:02 [INFO]: Epoch 015 - training loss: 0.6702, validation loss: 0.6536
+2024-06-03 00:43:03 [INFO]: Epoch 016 - training loss: 0.6621, validation loss: 0.6521
+2024-06-03 00:43:04 [INFO]: Epoch 017 - training loss: 0.6616, validation loss: 0.6402
+2024-06-03 00:43:04 [INFO]: Epoch 018 - training loss: 0.6510, validation loss: 0.6372
+2024-06-03 00:43:05 [INFO]: Epoch 019 - training loss: 0.6468, validation loss: 0.6360
+2024-06-03 00:43:05 [INFO]: Epoch 020 - training loss: 0.6707, validation loss: 0.6235
+2024-06-03 00:43:06 [INFO]: Epoch 021 - training loss: 0.6464, validation loss: 0.6221
+2024-06-03 00:43:07 [INFO]: Epoch 022 - training loss: 0.6289, validation loss: 0.6177
+2024-06-03 00:43:07 [INFO]: Epoch 023 - training loss: 0.6083, validation loss: 0.6224
+2024-06-03 00:43:08 [INFO]: Epoch 024 - training loss: 0.5923, validation loss: 0.6178
+2024-06-03 00:43:09 [INFO]: Epoch 025 - training loss: 0.5938, validation loss: 0.6021
+2024-06-03 00:43:09 [INFO]: Epoch 026 - training loss: 0.6074, validation loss: 0.6045
+2024-06-03 00:43:10 [INFO]: Epoch 027 - training loss: 0.5689, validation loss: 0.6224
+2024-06-03 00:43:10 [INFO]: Epoch 028 - training loss: 0.5925, validation loss: 0.5899
+2024-06-03 00:43:11 [INFO]: Epoch 029 - training loss: 0.5768, validation loss: 0.6184
+2024-06-03 00:43:12 [INFO]: Epoch 030 - training loss: 0.5595, validation loss: 0.5967
+2024-06-03 00:43:12 [INFO]: Epoch 031 - training loss: 0.5665, validation loss: 0.6128
+2024-06-03 00:43:13 [INFO]: Epoch 032 - training loss: 0.5321, validation loss: 0.6068
+2024-06-03 00:43:13 [INFO]: Epoch 033 - training loss: 0.5628, validation loss: 0.6021
+2024-06-03 00:43:14 [INFO]: Epoch 034 - training loss: 0.5383, validation loss: 0.6018
+2024-06-03 00:43:15 [INFO]: Epoch 035 - training loss: 0.5478, validation loss: 0.6048
+2024-06-03 00:43:15 [INFO]: Epoch 036 - training loss: 0.5241, validation loss: 0.6086
+2024-06-03 00:43:16 [INFO]: Epoch 037 - training loss: 0.5248, validation loss: 0.6113
+2024-06-03 00:43:16 [INFO]: Epoch 038 - training loss: 0.5168, validation loss: 0.6133
+2024-06-03 00:43:16 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:43:16 [INFO]: Finished training. The best model is from epoch#28.
+2024-06-03 00:43:17 [INFO]: Saved the model to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_2/20240603_T004252/iTransformer.pypots
+2024-06-03 00:43:17 [INFO]: Successfully saved to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_2/imputation.pkl
+2024-06-03 00:43:17 [INFO]: Round2 - iTransformer on ETT_h1: MAE=0.6354, MSE=0.7903, MRE=0.7478
+2024-06-03 00:43:17 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 00:43:17 [INFO]: Using the given device: cuda:0
+2024-06-03 00:43:17 [INFO]: Model files will be saved to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_3/20240603_T004317
+2024-06-03 00:43:17 [INFO]: Tensorboard file will be saved to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_3/20240603_T004317/tensorboard
+2024-06-03 00:43:17 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=256, n_heads=8, d_k=128
+2024-06-03 00:43:17 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (8) * d_k (128)
+2024-06-03 00:43:18 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 23,723,056
+2024-06-03 00:43:19 [INFO]: Epoch 001 - training loss: 1.5491, validation loss: 1.0871
+2024-06-03 00:43:19 [INFO]: Epoch 002 - training loss: 1.1955, validation loss: 0.9445
+2024-06-03 00:43:20 [INFO]: Epoch 003 - training loss: 1.0164, validation loss: 0.8572
+2024-06-03 00:43:21 [INFO]: Epoch 004 - training loss: 0.9294, validation loss: 0.7893
+2024-06-03 00:43:21 [INFO]: Epoch 005 - training loss: 0.8943, validation loss: 0.7491
+2024-06-03 00:43:22 [INFO]: Epoch 006 - training loss: 0.8291, validation loss: 0.7332
+2024-06-03 00:43:22 [INFO]: Epoch 007 - training loss: 0.8020, validation loss: 0.7111
+2024-06-03 00:43:23 [INFO]: Epoch 008 - training loss: 0.7518, validation loss: 0.6783
+2024-06-03 00:43:23 [INFO]: Epoch 009 - training loss: 0.7299, validation loss: 0.6659
+2024-06-03 00:43:24 [INFO]: Epoch 010 - training loss: 0.7373, validation loss: 0.6779
+2024-06-03 00:43:24 [INFO]: Epoch 011 - training loss: 0.7299, validation loss: 0.6712
+2024-06-03 00:43:25 [INFO]: Epoch 012 - training loss: 0.6869, validation loss: 0.6632
+2024-06-03 00:43:25 [INFO]: Epoch 013 - training loss: 0.6847, validation loss: 0.6366
+2024-06-03 00:43:26 [INFO]: Epoch 014 - training loss: 0.6894, validation loss: 0.6411
+2024-06-03 00:43:26 [INFO]: Epoch 015 - training loss: 0.6738, validation loss: 0.6556
+2024-06-03 00:43:27 [INFO]: Epoch 016 - training loss: 0.6556, validation loss: 0.6224
+2024-06-03 00:43:27 [INFO]: Epoch 017 - training loss: 0.6536, validation loss: 0.6313
+2024-06-03 00:43:28 [INFO]: Epoch 018 - training loss: 0.6465, validation loss: 0.6363
+2024-06-03 00:43:28 [INFO]: Epoch 019 - training loss: 0.6352, validation loss: 0.6170
+2024-06-03 00:43:29 [INFO]: Epoch 020 - training loss: 0.6269, validation loss: 0.6213
+2024-06-03 00:43:30 [INFO]: Epoch 021 - training loss: 0.6218, validation loss: 0.6421
+2024-06-03 00:43:30 [INFO]: Epoch 022 - training loss: 0.5960, validation loss: 0.6119
+2024-06-03 00:43:31 [INFO]: Epoch 023 - training loss: 0.6506, validation loss: 0.6167
+2024-06-03 00:43:31 [INFO]: Epoch 024 - training loss: 0.6090, validation loss: 0.6284
+2024-06-03 00:43:32 [INFO]: Epoch 025 - training loss: 0.5974, validation loss: 0.6036
+2024-06-03 00:43:32 [INFO]: Epoch 026 - training loss: 0.6084, validation loss: 0.6044
+2024-06-03 00:43:33 [INFO]: Epoch 027 - training loss: 0.5716, validation loss: 0.6167
+2024-06-03 00:43:33 [INFO]: Epoch 028 - training loss: 0.5724, validation loss: 0.6152
+2024-06-03 00:43:34 [INFO]: Epoch 029 - training loss: 0.5745, validation loss: 0.6139
+2024-06-03 00:43:34 [INFO]: Epoch 030 - training loss: 0.5751, validation loss: 0.5993
+2024-06-03 00:43:35 [INFO]: Epoch 031 - training loss: 0.5548, validation loss: 0.6129
+2024-06-03 00:43:35 [INFO]: Epoch 032 - training loss: 0.5550, validation loss: 0.5972
+2024-06-03 00:43:36 [INFO]: Epoch 033 - training loss: 0.5326, validation loss: 0.5911
+2024-06-03 00:43:36 [INFO]: Epoch 034 - training loss: 0.5453, validation loss: 0.5977
+2024-06-03 00:43:37 [INFO]: Epoch 035 - training loss: 0.5192, validation loss: 0.6044
+2024-06-03 00:43:37 [INFO]: Epoch 036 - training loss: 0.5427, validation loss: 0.5795
+2024-06-03 00:43:38 [INFO]: Epoch 037 - training loss: 0.5331, validation loss: 0.5896
+2024-06-03 00:43:38 [INFO]: Epoch 038 - training loss: 0.5194, validation loss: 0.5994
+2024-06-03 00:43:38 [INFO]: Epoch 039 - training loss: 0.5319, validation loss: 0.5858
+2024-06-03 00:43:39 [INFO]: Epoch 040 - training loss: 0.5154, validation loss: 0.5908
+2024-06-03 00:43:39 [INFO]: Epoch 041 - training loss: 0.5088, validation loss: 0.5881
+2024-06-03 00:43:40 [INFO]: Epoch 042 - training loss: 0.5071, validation loss: 0.5934
+2024-06-03 00:43:40 [INFO]: Epoch 043 - training loss: 0.5083, validation loss: 0.5954
+2024-06-03 00:43:41 [INFO]: Epoch 044 - training loss: 0.4857, validation loss: 0.6014
+2024-06-03 00:43:41 [INFO]: Epoch 045 - training loss: 0.4932, validation loss: 0.5836
+2024-06-03 00:43:42 [INFO]: Epoch 046 - training loss: 0.4861, validation loss: 0.5985
+2024-06-03 00:43:42 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:43:42 [INFO]: Finished training. The best model is from epoch#36.
+2024-06-03 00:43:42 [INFO]: Saved the model to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_3/20240603_T004317/iTransformer.pypots
+2024-06-03 00:43:42 [INFO]: Successfully saved to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_3/imputation.pkl
+2024-06-03 00:43:42 [INFO]: Round3 - iTransformer on ETT_h1: MAE=0.6348, MSE=0.7846, MRE=0.7471
+2024-06-03 00:43:42 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 00:43:42 [INFO]: Using the given device: cuda:0
+2024-06-03 00:43:42 [INFO]: Model files will be saved to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_4/20240603_T004342
+2024-06-03 00:43:42 [INFO]: Tensorboard file will be saved to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_4/20240603_T004342/tensorboard
+2024-06-03 00:43:42 [WARNING]: ‼️ d_model must = n_heads * d_k, it should be divisible by n_heads and the result should be equal to d_k, but got d_model=256, n_heads=8, d_k=128
+2024-06-03 00:43:42 [WARNING]: ⚠️ d_model is reset to 1024 = n_heads (8) * d_k (128)
+2024-06-03 00:43:43 [INFO]: iTransformer initialized with the given hyperparameters, the number of trainable parameters: 23,723,056
+2024-06-03 00:43:44 [INFO]: Epoch 001 - training loss: 1.5546, validation loss: 1.0640
+2024-06-03 00:43:44 [INFO]: Epoch 002 - training loss: 1.1728, validation loss: 0.9687
+2024-06-03 00:43:44 [INFO]: Epoch 003 - training loss: 1.0482, validation loss: 0.8723
+2024-06-03 00:43:45 [INFO]: Epoch 004 - training loss: 0.9549, validation loss: 0.8137
+2024-06-03 00:43:45 [INFO]: Epoch 005 - training loss: 0.8754, validation loss: 0.7756
+2024-06-03 00:43:46 [INFO]: Epoch 006 - training loss: 0.8337, validation loss: 0.7597
+2024-06-03 00:43:46 [INFO]: Epoch 007 - training loss: 0.7887, validation loss: 0.7093
+2024-06-03 00:43:47 [INFO]: Epoch 008 - training loss: 0.7872, validation loss: 0.7067
+2024-06-03 00:43:47 [INFO]: Epoch 009 - training loss: 0.7526, validation loss: 0.6826
+2024-06-03 00:43:48 [INFO]: Epoch 010 - training loss: 0.7395, validation loss: 0.7060
+2024-06-03 00:43:48 [INFO]: Epoch 011 - training loss: 0.7306, validation loss: 0.6941
+2024-06-03 00:43:49 [INFO]: Epoch 012 - training loss: 0.7058, validation loss: 0.6667
+2024-06-03 00:43:49 [INFO]: Epoch 013 - training loss: 0.6912, validation loss: 0.6612
+2024-06-03 00:43:50 [INFO]: Epoch 014 - training loss: 0.6909, validation loss: 0.6605
+2024-06-03 00:43:50 [INFO]: Epoch 015 - training loss: 0.6711, validation loss: 0.6551
+2024-06-03 00:43:51 [INFO]: Epoch 016 - training loss: 0.6675, validation loss: 0.6404
+2024-06-03 00:43:51 [INFO]: Epoch 017 - training loss: 0.6459, validation loss: 0.6443
+2024-06-03 00:43:52 [INFO]: Epoch 018 - training loss: 0.6504, validation loss: 0.6392
+2024-06-03 00:43:52 [INFO]: Epoch 019 - training loss: 0.6236, validation loss: 0.6189
+2024-06-03 00:43:53 [INFO]: Epoch 020 - training loss: 0.6708, validation loss: 0.6272
+2024-06-03 00:43:53 [INFO]: Epoch 021 - training loss: 0.6337, validation loss: 0.6325
+2024-06-03 00:43:54 [INFO]: Epoch 022 - training loss: 0.6321, validation loss: 0.6286
+2024-06-03 00:43:54 [INFO]: Epoch 023 - training loss: 0.6022, validation loss: 0.6263
+2024-06-03 00:43:55 [INFO]: Epoch 024 - training loss: 0.5946, validation loss: 0.6187
+2024-06-03 00:43:55 [INFO]: Epoch 025 - training loss: 0.6140, validation loss: 0.6285
+2024-06-03 00:43:56 [INFO]: Epoch 026 - training loss: 0.5875, validation loss: 0.6176
+2024-06-03 00:43:56 [INFO]: Epoch 027 - training loss: 0.5781, validation loss: 0.6105
+2024-06-03 00:43:56 [INFO]: Epoch 028 - training loss: 0.5806, validation loss: 0.6032
+2024-06-03 00:43:57 [INFO]: Epoch 029 - training loss: 0.5698, validation loss: 0.6013
+2024-06-03 00:43:57 [INFO]: Epoch 030 - training loss: 0.5522, validation loss: 0.6072
+2024-06-03 00:43:58 [INFO]: Epoch 031 - training loss: 0.5282, validation loss: 0.6188
+2024-06-03 00:43:58 [INFO]: Epoch 032 - training loss: 0.5502, validation loss: 0.6170
+2024-06-03 00:43:59 [INFO]: Epoch 033 - training loss: 0.5316, validation loss: 0.6095
+2024-06-03 00:43:59 [INFO]: Epoch 034 - training loss: 0.5363, validation loss: 0.6091
+2024-06-03 00:43:59 [INFO]: Epoch 035 - training loss: 0.5459, validation loss: 0.6044
+2024-06-03 00:44:00 [INFO]: Epoch 036 - training loss: 0.5155, validation loss: 0.6171
+2024-06-03 00:44:00 [INFO]: Epoch 037 - training loss: 0.5021, validation loss: 0.6075
+2024-06-03 00:44:01 [INFO]: Epoch 038 - training loss: 0.5184, validation loss: 0.6235
+2024-06-03 00:44:01 [INFO]: Epoch 039 - training loss: 0.4884, validation loss: 0.6198
+2024-06-03 00:44:01 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:44:01 [INFO]: Finished training. The best model is from epoch#29.
+2024-06-03 00:44:02 [INFO]: Saved the model to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_4/20240603_T004342/iTransformer.pypots
+2024-06-03 00:44:02 [INFO]: Successfully saved to results_point_rate09/ETT_h1/iTransformer_ETT_h1/round_4/imputation.pkl
+2024-06-03 00:44:02 [INFO]: Round4 - iTransformer on ETT_h1: MAE=0.6395, MSE=0.7971, MRE=0.7526
+2024-06-03 00:44:02 [INFO]: Done! Final results:
+Averaged iTransformer (23,723,056 params) on ETT_h1: MAE=0.6356 ± 0.00252998799174392, MSE=0.7880 ± 0.005729570681489847, MRE=0.7481 ± 0.0029775140042942482, average inference time=0.05

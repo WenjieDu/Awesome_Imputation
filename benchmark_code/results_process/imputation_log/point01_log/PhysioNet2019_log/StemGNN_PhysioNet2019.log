@@ -1,0 +1,107 @@
+2024-06-03 19:01:49 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 19:01:49 [INFO]: Using the given device: cuda:0
+2024-06-03 19:01:49 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_0/20240603_T190149
+2024-06-03 19:01:49 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_0/20240603_T190149/tensorboard
+2024-06-03 19:01:52 [INFO]: StemGNN initialized with the given hyperparameters, the number of trainable parameters: 3,989,553
+2024-06-03 19:02:28 [INFO]: Epoch 001 - training loss: 1.1978, validation loss: 0.1927
+2024-06-03 19:02:58 [INFO]: Epoch 002 - training loss: 0.9479, validation loss: 0.2018
+2024-06-03 19:03:27 [INFO]: Epoch 003 - training loss: 0.8628, validation loss: 0.2209
+2024-06-03 19:03:56 [INFO]: Epoch 004 - training loss: 0.8249, validation loss: 0.2363
+2024-06-03 19:04:25 [INFO]: Epoch 005 - training loss: 0.8025, validation loss: 0.2349
+2024-06-03 19:04:54 [INFO]: Epoch 006 - training loss: 0.7861, validation loss: 0.2511
+2024-06-03 19:05:24 [INFO]: Epoch 007 - training loss: 0.7701, validation loss: 0.2465
+2024-06-03 19:05:52 [INFO]: Epoch 008 - training loss: 0.7564, validation loss: 0.2451
+2024-06-03 19:06:22 [INFO]: Epoch 009 - training loss: 0.7468, validation loss: 0.2447
+2024-06-03 19:06:52 [INFO]: Epoch 010 - training loss: 0.7392, validation loss: 0.2412
+2024-06-03 19:07:22 [INFO]: Epoch 011 - training loss: 0.7305, validation loss: 0.2415
+2024-06-03 19:07:22 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:07:22 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:07:22 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_0/20240603_T190149/StemGNN.pypots
+2024-06-03 19:07:35 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_0/imputation.pkl
+2024-06-03 19:07:35 [INFO]: Round0 - StemGNN on PhysioNet2019: MAE=0.4172, MSE=0.3817, MRE=0.5476
+2024-06-03 19:07:35 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:07:35 [INFO]: Using the given device: cuda:0
+2024-06-03 19:07:35 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_1/20240603_T190735
+2024-06-03 19:07:35 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_1/20240603_T190735/tensorboard
+2024-06-03 19:07:35 [INFO]: StemGNN initialized with the given hyperparameters, the number of trainable parameters: 3,989,553
+2024-06-03 19:08:05 [INFO]: Epoch 001 - training loss: 1.1901, validation loss: 0.1696
+2024-06-03 19:08:33 [INFO]: Epoch 002 - training loss: 0.9349, validation loss: 0.2098
+2024-06-03 19:09:03 [INFO]: Epoch 003 - training loss: 0.8789, validation loss: 0.2375
+2024-06-03 19:09:31 [INFO]: Epoch 004 - training loss: 0.8338, validation loss: 0.2365
+2024-06-03 19:10:00 [INFO]: Epoch 005 - training loss: 0.8001, validation loss: 0.2643
+2024-06-03 19:10:29 [INFO]: Epoch 006 - training loss: 0.7837, validation loss: 0.2533
+2024-06-03 19:10:54 [INFO]: Epoch 007 - training loss: 0.7659, validation loss: 0.2480
+2024-06-03 19:11:21 [INFO]: Epoch 008 - training loss: 0.7533, validation loss: 0.2451
+2024-06-03 19:11:47 [INFO]: Epoch 009 - training loss: 0.7421, validation loss: 0.2470
+2024-06-03 19:12:16 [INFO]: Epoch 010 - training loss: 0.7347, validation loss: 0.2509
+2024-06-03 19:12:46 [INFO]: Epoch 011 - training loss: 0.7231, validation loss: 0.2346
+2024-06-03 19:12:46 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:12:46 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:12:46 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_1/20240603_T190735/StemGNN.pypots
+2024-06-03 19:12:59 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_1/imputation.pkl
+2024-06-03 19:12:59 [INFO]: Round1 - StemGNN on PhysioNet2019: MAE=0.4151, MSE=0.3820, MRE=0.5448
+2024-06-03 19:12:59 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:12:59 [INFO]: Using the given device: cuda:0
+2024-06-03 19:12:59 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_2/20240603_T191259
+2024-06-03 19:12:59 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_2/20240603_T191259/tensorboard
+2024-06-03 19:12:59 [INFO]: StemGNN initialized with the given hyperparameters, the number of trainable parameters: 3,989,553
+2024-06-03 19:13:30 [INFO]: Epoch 001 - training loss: 1.1800, validation loss: 0.1469
+2024-06-03 19:14:00 [INFO]: Epoch 002 - training loss: 0.9429, validation loss: 0.2140
+2024-06-03 19:14:30 [INFO]: Epoch 003 - training loss: 0.8811, validation loss: 0.2304
+2024-06-03 19:14:59 [INFO]: Epoch 004 - training loss: 0.8403, validation loss: 0.2333
+2024-06-03 19:15:28 [INFO]: Epoch 005 - training loss: 0.8083, validation loss: 0.2358
+2024-06-03 19:15:57 [INFO]: Epoch 006 - training loss: 0.7835, validation loss: 0.2661
+2024-06-03 19:16:27 [INFO]: Epoch 007 - training loss: 0.7661, validation loss: 0.2443
+2024-06-03 19:16:57 [INFO]: Epoch 008 - training loss: 0.7520, validation loss: 0.2283
+2024-06-03 19:17:26 [INFO]: Epoch 009 - training loss: 0.7417, validation loss: 0.2448
+2024-06-03 19:17:56 [INFO]: Epoch 010 - training loss: 0.7326, validation loss: 0.2402
+2024-06-03 19:18:24 [INFO]: Epoch 011 - training loss: 0.7234, validation loss: 0.2494
+2024-06-03 19:18:24 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:18:24 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:18:24 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_2/20240603_T191259/StemGNN.pypots
+2024-06-03 19:18:36 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_2/imputation.pkl
+2024-06-03 19:18:36 [INFO]: Round2 - StemGNN on PhysioNet2019: MAE=0.4139, MSE=0.3760, MRE=0.5432
+2024-06-03 19:18:36 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:18:36 [INFO]: Using the given device: cuda:0
+2024-06-03 19:18:36 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_3/20240603_T191836
+2024-06-03 19:18:36 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_3/20240603_T191836/tensorboard
+2024-06-03 19:18:37 [INFO]: StemGNN initialized with the given hyperparameters, the number of trainable parameters: 3,989,553
+2024-06-03 19:19:04 [INFO]: Epoch 001 - training loss: 1.1707, validation loss: 0.1524
+2024-06-03 19:19:29 [INFO]: Epoch 002 - training loss: 0.9436, validation loss: 0.2163
+2024-06-03 19:19:59 [INFO]: Epoch 003 - training loss: 0.8728, validation loss: 0.2511
+2024-06-03 19:20:27 [INFO]: Epoch 004 - training loss: 0.8405, validation loss: 0.2396
+2024-06-03 19:20:56 [INFO]: Epoch 005 - training loss: 0.8105, validation loss: 0.2398
+2024-06-03 19:21:25 [INFO]: Epoch 006 - training loss: 0.7913, validation loss: 0.2697
+2024-06-03 19:21:55 [INFO]: Epoch 007 - training loss: 0.7785, validation loss: 0.2338
+2024-06-03 19:22:25 [INFO]: Epoch 008 - training loss: 0.7648, validation loss: 0.2441
+2024-06-03 19:22:54 [INFO]: Epoch 009 - training loss: 0.7505, validation loss: 0.2392
+2024-06-03 19:23:24 [INFO]: Epoch 010 - training loss: 0.7396, validation loss: 0.2228
+2024-06-03 19:23:54 [INFO]: Epoch 011 - training loss: 0.7324, validation loss: 0.2197
+2024-06-03 19:23:54 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:23:54 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:23:54 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_3/20240603_T191836/StemGNN.pypots
+2024-06-03 19:24:06 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_3/imputation.pkl
+2024-06-03 19:24:06 [INFO]: Round3 - StemGNN on PhysioNet2019: MAE=0.4185, MSE=0.3822, MRE=0.5493
+2024-06-03 19:24:06 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:24:06 [INFO]: Using the given device: cuda:0
+2024-06-03 19:24:07 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_4/20240603_T192406
+2024-06-03 19:24:07 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_4/20240603_T192406/tensorboard
+2024-06-03 19:24:07 [INFO]: StemGNN initialized with the given hyperparameters, the number of trainable parameters: 3,989,553
+2024-06-03 19:24:37 [INFO]: Epoch 001 - training loss: 1.1939, validation loss: 0.2004
+2024-06-03 19:25:06 [INFO]: Epoch 002 - training loss: 0.9285, validation loss: 0.2685
+2024-06-03 19:25:36 [INFO]: Epoch 003 - training loss: 0.8670, validation loss: 0.2328
+2024-06-03 19:26:04 [INFO]: Epoch 004 - training loss: 0.8231, validation loss: 0.2382
+2024-06-03 19:26:29 [INFO]: Epoch 005 - training loss: 0.7998, validation loss: 0.2421
+2024-06-03 19:26:53 [INFO]: Epoch 006 - training loss: 0.7775, validation loss: 0.2485
+2024-06-03 19:27:17 [INFO]: Epoch 007 - training loss: 0.7617, validation loss: 0.2376
+2024-06-03 19:27:45 [INFO]: Epoch 008 - training loss: 0.7498, validation loss: 0.2438
+2024-06-03 19:28:12 [INFO]: Epoch 009 - training loss: 0.7443, validation loss: 0.2584
+2024-06-03 19:28:40 [INFO]: Epoch 010 - training loss: 0.7341, validation loss: 0.2355
+2024-06-03 19:29:07 [INFO]: Epoch 011 - training loss: 0.7267, validation loss: 0.2426
+2024-06-03 19:29:07 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:29:07 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 19:29:07 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_4/20240603_T192406/StemGNN.pypots
+2024-06-03 19:29:17 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/StemGNN_PhysioNet2019/round_4/imputation.pkl
+2024-06-03 19:29:17 [INFO]: Round4 - StemGNN on PhysioNet2019: MAE=0.4152, MSE=0.3762, MRE=0.5449
+2024-06-03 19:29:17 [INFO]: Done! Final results:
+Averaged StemGNN (3,989,553 params) on PhysioNet2019: MAE=0.4160 ± 0.0016553127358703305, MSE=0.3796 ± 0.002872332579794625, MRE=0.5460 ± 0.0021726061991717764, average inference time=1.92

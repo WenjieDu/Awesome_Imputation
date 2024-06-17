@@ -1,0 +1,160 @@
+2024-06-03 18:58:34 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 18:58:34 [INFO]: Using the given device: cuda:0
+2024-06-03 18:58:34 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_0/20240603_T185834
+2024-06-03 18:58:34 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_0/20240603_T185834/tensorboard
+2024-06-03 18:58:35 [INFO]: Crossformer initialized with the given hyperparameters, the number of trainable parameters: 414,929
+2024-06-03 18:58:50 [INFO]: Epoch 001 - training loss: 1.1815, validation loss: 0.1864
+2024-06-03 18:59:04 [INFO]: Epoch 002 - training loss: 0.8482, validation loss: 0.1624
+2024-06-03 18:59:19 [INFO]: Epoch 003 - training loss: 0.7924, validation loss: 0.1558
+2024-06-03 18:59:33 [INFO]: Epoch 004 - training loss: 0.7678, validation loss: 0.1614
+2024-06-03 18:59:47 [INFO]: Epoch 005 - training loss: 0.7416, validation loss: 0.1526
+2024-06-03 19:00:02 [INFO]: Epoch 006 - training loss: 0.7196, validation loss: 0.1364
+2024-06-03 19:00:16 [INFO]: Epoch 007 - training loss: 0.7089, validation loss: 0.1315
+2024-06-03 19:00:31 [INFO]: Epoch 008 - training loss: 0.6970, validation loss: 0.1473
+2024-06-03 19:00:45 [INFO]: Epoch 009 - training loss: 0.6797, validation loss: 0.1324
+2024-06-03 19:01:00 [INFO]: Epoch 010 - training loss: 0.6610, validation loss: 0.1299
+2024-06-03 19:01:15 [INFO]: Epoch 011 - training loss: 0.6442, validation loss: 0.1215
+2024-06-03 19:01:30 [INFO]: Epoch 012 - training loss: 0.6296, validation loss: 0.1186
+2024-06-03 19:01:44 [INFO]: Epoch 013 - training loss: 0.6147, validation loss: 0.1387
+2024-06-03 19:01:59 [INFO]: Epoch 014 - training loss: 0.5997, validation loss: 0.1240
+2024-06-03 19:02:14 [INFO]: Epoch 015 - training loss: 0.5914, validation loss: 0.1252
+2024-06-03 19:02:29 [INFO]: Epoch 016 - training loss: 0.5833, validation loss: 0.1539
+2024-06-03 19:02:44 [INFO]: Epoch 017 - training loss: 0.5739, validation loss: 0.1311
+2024-06-03 19:02:59 [INFO]: Epoch 018 - training loss: 0.5678, validation loss: 0.1365
+2024-06-03 19:03:13 [INFO]: Epoch 019 - training loss: 0.5595, validation loss: 0.1413
+2024-06-03 19:03:28 [INFO]: Epoch 020 - training loss: 0.5551, validation loss: 0.1336
+2024-06-03 19:03:43 [INFO]: Epoch 021 - training loss: 0.5515, validation loss: 0.1505
+2024-06-03 19:03:58 [INFO]: Epoch 022 - training loss: 0.5466, validation loss: 0.1636
+2024-06-03 19:03:58 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:03:58 [INFO]: Finished training. The best model is from epoch#12.
+2024-06-03 19:03:58 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_0/20240603_T185834/Crossformer.pypots
+2024-06-03 19:04:03 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_0/imputation.pkl
+2024-06-03 19:04:03 [INFO]: Round0 - Crossformer on PhysioNet2019: MAE=0.3716, MSE=0.3307, MRE=0.4877
+2024-06-03 19:04:03 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 19:04:03 [INFO]: Using the given device: cuda:0
+2024-06-03 19:04:03 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_1/20240603_T190403
+2024-06-03 19:04:03 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_1/20240603_T190403/tensorboard
+2024-06-03 19:04:03 [INFO]: Crossformer initialized with the given hyperparameters, the number of trainable parameters: 414,929
+2024-06-03 19:04:18 [INFO]: Epoch 001 - training loss: 1.2247, validation loss: 0.1994
+2024-06-03 19:04:32 [INFO]: Epoch 002 - training loss: 0.8695, validation loss: 0.1653
+2024-06-03 19:04:47 [INFO]: Epoch 003 - training loss: 0.8098, validation loss: 0.1945
+2024-06-03 19:05:02 [INFO]: Epoch 004 - training loss: 0.7765, validation loss: 0.1801
+2024-06-03 19:05:16 [INFO]: Epoch 005 - training loss: 0.7535, validation loss: 0.1452
+2024-06-03 19:05:29 [INFO]: Epoch 006 - training loss: 0.7356, validation loss: 0.1699
+2024-06-03 19:05:44 [INFO]: Epoch 007 - training loss: 0.7251, validation loss: 0.1202
+2024-06-03 19:05:59 [INFO]: Epoch 008 - training loss: 0.7161, validation loss: 0.1360
+2024-06-03 19:06:14 [INFO]: Epoch 009 - training loss: 0.6968, validation loss: 0.1365
+2024-06-03 19:06:29 [INFO]: Epoch 010 - training loss: 0.6844, validation loss: 0.1701
+2024-06-03 19:06:45 [INFO]: Epoch 011 - training loss: 0.6716, validation loss: 0.1586
+2024-06-03 19:06:59 [INFO]: Epoch 012 - training loss: 0.6446, validation loss: 0.1524
+2024-06-03 19:07:13 [INFO]: Epoch 013 - training loss: 0.6210, validation loss: 0.1147
+2024-06-03 19:07:28 [INFO]: Epoch 014 - training loss: 0.6071, validation loss: 0.1263
+2024-06-03 19:07:43 [INFO]: Epoch 015 - training loss: 0.5985, validation loss: 0.1484
+2024-06-03 19:07:57 [INFO]: Epoch 016 - training loss: 0.5875, validation loss: 0.1253
+2024-06-03 19:08:12 [INFO]: Epoch 017 - training loss: 0.5830, validation loss: 0.1376
+2024-06-03 19:08:27 [INFO]: Epoch 018 - training loss: 0.5783, validation loss: 0.1346
+2024-06-03 19:08:42 [INFO]: Epoch 019 - training loss: 0.5730, validation loss: 0.1480
+2024-06-03 19:08:57 [INFO]: Epoch 020 - training loss: 0.5693, validation loss: 0.1486
+2024-06-03 19:09:12 [INFO]: Epoch 021 - training loss: 0.5609, validation loss: 0.1509
+2024-06-03 19:09:26 [INFO]: Epoch 022 - training loss: 0.5588, validation loss: 0.1362
+2024-06-03 19:09:41 [INFO]: Epoch 023 - training loss: 0.5576, validation loss: 0.1461
+2024-06-03 19:09:41 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:09:41 [INFO]: Finished training. The best model is from epoch#13.
+2024-06-03 19:09:41 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_1/20240603_T190403/Crossformer.pypots
+2024-06-03 19:09:46 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_1/imputation.pkl
+2024-06-03 19:09:46 [INFO]: Round1 - Crossformer on PhysioNet2019: MAE=0.3807, MSE=0.3430, MRE=0.4996
+2024-06-03 19:09:46 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 19:09:46 [INFO]: Using the given device: cuda:0
+2024-06-03 19:09:46 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_2/20240603_T190946
+2024-06-03 19:09:46 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_2/20240603_T190946/tensorboard
+2024-06-03 19:09:47 [INFO]: Crossformer initialized with the given hyperparameters, the number of trainable parameters: 414,929
+2024-06-03 19:10:02 [INFO]: Epoch 001 - training loss: 1.1512, validation loss: 0.1752
+2024-06-03 19:10:16 [INFO]: Epoch 002 - training loss: 0.8549, validation loss: 0.2070
+2024-06-03 19:10:30 [INFO]: Epoch 003 - training loss: 0.7999, validation loss: 0.1708
+2024-06-03 19:10:45 [INFO]: Epoch 004 - training loss: 0.7721, validation loss: 0.1756
+2024-06-03 19:11:00 [INFO]: Epoch 005 - training loss: 0.7493, validation loss: 0.1428
+2024-06-03 19:11:15 [INFO]: Epoch 006 - training loss: 0.7373, validation loss: 0.1477
+2024-06-03 19:11:30 [INFO]: Epoch 007 - training loss: 0.7238, validation loss: 0.1332
+2024-06-03 19:11:45 [INFO]: Epoch 008 - training loss: 0.7090, validation loss: 0.1134
+2024-06-03 19:12:00 [INFO]: Epoch 009 - training loss: 0.6901, validation loss: 0.1307
+2024-06-03 19:12:15 [INFO]: Epoch 010 - training loss: 0.6657, validation loss: 0.1243
+2024-06-03 19:12:31 [INFO]: Epoch 011 - training loss: 0.6504, validation loss: 0.1352
+2024-06-03 19:12:46 [INFO]: Epoch 012 - training loss: 0.6341, validation loss: 0.1232
+2024-06-03 19:13:00 [INFO]: Epoch 013 - training loss: 0.6196, validation loss: 0.1398
+2024-06-03 19:13:14 [INFO]: Epoch 014 - training loss: 0.6124, validation loss: 0.1357
+2024-06-03 19:13:29 [INFO]: Epoch 015 - training loss: 0.6007, validation loss: 0.1185
+2024-06-03 19:13:44 [INFO]: Epoch 016 - training loss: 0.5906, validation loss: 0.1174
+2024-06-03 19:13:58 [INFO]: Epoch 017 - training loss: 0.5803, validation loss: 0.1241
+2024-06-03 19:14:12 [INFO]: Epoch 018 - training loss: 0.5741, validation loss: 0.1256
+2024-06-03 19:14:12 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:14:12 [INFO]: Finished training. The best model is from epoch#8.
+2024-06-03 19:14:12 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_2/20240603_T190946/Crossformer.pypots
+2024-06-03 19:14:17 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_2/imputation.pkl
+2024-06-03 19:14:17 [INFO]: Round2 - Crossformer on PhysioNet2019: MAE=0.3895, MSE=0.3528, MRE=0.5112
+2024-06-03 19:14:17 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 19:14:17 [INFO]: Using the given device: cuda:0
+2024-06-03 19:14:17 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_3/20240603_T191417
+2024-06-03 19:14:17 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_3/20240603_T191417/tensorboard
+2024-06-03 19:14:17 [INFO]: Crossformer initialized with the given hyperparameters, the number of trainable parameters: 414,929
+2024-06-03 19:14:30 [INFO]: Epoch 001 - training loss: 1.1012, validation loss: 0.1915
+2024-06-03 19:14:43 [INFO]: Epoch 002 - training loss: 0.8542, validation loss: 0.2128
+2024-06-03 19:14:56 [INFO]: Epoch 003 - training loss: 0.7993, validation loss: 0.1389
+2024-06-03 19:15:09 [INFO]: Epoch 004 - training loss: 0.7695, validation loss: 0.1603
+2024-06-03 19:15:22 [INFO]: Epoch 005 - training loss: 0.7484, validation loss: 0.1654
+2024-06-03 19:15:35 [INFO]: Epoch 006 - training loss: 0.7353, validation loss: 0.1484
+2024-06-03 19:15:48 [INFO]: Epoch 007 - training loss: 0.7155, validation loss: 0.1447
+2024-06-03 19:16:01 [INFO]: Epoch 008 - training loss: 0.6964, validation loss: 0.1239
+2024-06-03 19:16:14 [INFO]: Epoch 009 - training loss: 0.6809, validation loss: 0.1196
+2024-06-03 19:16:27 [INFO]: Epoch 010 - training loss: 0.6680, validation loss: 0.1361
+2024-06-03 19:16:41 [INFO]: Epoch 011 - training loss: 0.6537, validation loss: 0.1235
+2024-06-03 19:16:54 [INFO]: Epoch 012 - training loss: 0.6410, validation loss: 0.1054
+2024-06-03 19:17:07 [INFO]: Epoch 013 - training loss: 0.6197, validation loss: 0.1261
+2024-06-03 19:17:21 [INFO]: Epoch 014 - training loss: 0.6087, validation loss: 0.1352
+2024-06-03 19:17:35 [INFO]: Epoch 015 - training loss: 0.5991, validation loss: 0.1304
+2024-06-03 19:17:49 [INFO]: Epoch 016 - training loss: 0.5896, validation loss: 0.1397
+2024-06-03 19:18:01 [INFO]: Epoch 017 - training loss: 0.5882, validation loss: 0.1366
+2024-06-03 19:18:14 [INFO]: Epoch 018 - training loss: 0.5810, validation loss: 0.1383
+2024-06-03 19:18:26 [INFO]: Epoch 019 - training loss: 0.5751, validation loss: 0.1349
+2024-06-03 19:18:34 [INFO]: Epoch 020 - training loss: 0.5718, validation loss: 0.1233
+2024-06-03 19:18:41 [INFO]: Epoch 021 - training loss: 0.5663, validation loss: 0.1656
+2024-06-03 19:18:50 [INFO]: Epoch 022 - training loss: 0.5606, validation loss: 0.1461
+2024-06-03 19:18:50 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:18:50 [INFO]: Finished training. The best model is from epoch#12.
+2024-06-03 19:18:50 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_3/20240603_T191417/Crossformer.pypots
+2024-06-03 19:18:53 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_3/imputation.pkl
+2024-06-03 19:18:53 [INFO]: Round3 - Crossformer on PhysioNet2019: MAE=0.3802, MSE=0.3409, MRE=0.4990
+2024-06-03 19:18:53 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 19:18:53 [INFO]: Using the given device: cuda:0
+2024-06-03 19:18:53 [INFO]: Model files will be saved to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_4/20240603_T191853
+2024-06-03 19:18:53 [INFO]: Tensorboard file will be saved to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_4/20240603_T191853/tensorboard
+2024-06-03 19:18:53 [INFO]: Crossformer initialized with the given hyperparameters, the number of trainable parameters: 414,929
+2024-06-03 19:19:00 [INFO]: Epoch 001 - training loss: 1.3416, validation loss: 0.2473
+2024-06-03 19:19:07 [INFO]: Epoch 002 - training loss: 0.8854, validation loss: 0.2186
+2024-06-03 19:19:15 [INFO]: Epoch 003 - training loss: 0.8140, validation loss: 0.1732
+2024-06-03 19:19:23 [INFO]: Epoch 004 - training loss: 0.7790, validation loss: 0.2168
+2024-06-03 19:19:31 [INFO]: Epoch 005 - training loss: 0.7583, validation loss: 0.1616
+2024-06-03 19:19:39 [INFO]: Epoch 006 - training loss: 0.7431, validation loss: 0.1619
+2024-06-03 19:19:46 [INFO]: Epoch 007 - training loss: 0.7267, validation loss: 0.1503
+2024-06-03 19:19:54 [INFO]: Epoch 008 - training loss: 0.7135, validation loss: 0.1439
+2024-06-03 19:20:02 [INFO]: Epoch 009 - training loss: 0.6968, validation loss: 0.1400
+2024-06-03 19:20:11 [INFO]: Epoch 010 - training loss: 0.6815, validation loss: 0.1463
+2024-06-03 19:20:18 [INFO]: Epoch 011 - training loss: 0.6633, validation loss: 0.1313
+2024-06-03 19:20:26 [INFO]: Epoch 012 - training loss: 0.6400, validation loss: 0.1149
+2024-06-03 19:20:34 [INFO]: Epoch 013 - training loss: 0.6248, validation loss: 0.1136
+2024-06-03 19:20:43 [INFO]: Epoch 014 - training loss: 0.6074, validation loss: 0.1316
+2024-06-03 19:20:51 [INFO]: Epoch 015 - training loss: 0.5928, validation loss: 0.1384
+2024-06-03 19:20:59 [INFO]: Epoch 016 - training loss: 0.5817, validation loss: 0.1445
+2024-06-03 19:21:06 [INFO]: Epoch 017 - training loss: 0.5720, validation loss: 0.1359
+2024-06-03 19:21:14 [INFO]: Epoch 018 - training loss: 0.5658, validation loss: 0.1459
+2024-06-03 19:21:22 [INFO]: Epoch 019 - training loss: 0.5625, validation loss: 0.1428
+2024-06-03 19:21:30 [INFO]: Epoch 020 - training loss: 0.5557, validation loss: 0.1586
+2024-06-03 19:21:37 [INFO]: Epoch 021 - training loss: 0.5484, validation loss: 0.1341
+2024-06-03 19:21:45 [INFO]: Epoch 022 - training loss: 0.5455, validation loss: 0.1552
+2024-06-03 19:21:52 [INFO]: Epoch 023 - training loss: 0.5416, validation loss: 0.1607
+2024-06-03 19:21:52 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 19:21:52 [INFO]: Finished training. The best model is from epoch#13.
+2024-06-03 19:21:52 [INFO]: Saved the model to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_4/20240603_T191853/Crossformer.pypots
+2024-06-03 19:21:55 [INFO]: Successfully saved to results_point_rate01/PhysioNet2019_inverse/Crossformer_PhysioNet2019/round_4/imputation.pkl
+2024-06-03 19:21:55 [INFO]: Round4 - Crossformer on PhysioNet2019: MAE=0.3691, MSE=0.3334, MRE=0.4844
+2024-06-03 19:21:55 [INFO]: Done! Final results:
+Averaged Crossformer (414,929 params) on PhysioNet2019: MAE=0.3782 ± 0.007259294101370386, MSE=0.3401 ± 0.0078057864910768575, MRE=0.4964 ± 0.009527859614972387, average inference time=0.64

@@ -1,0 +1,123 @@
+2024-06-03 00:06:45 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 00:06:45 [INFO]: Using the given device: cuda:0
+2024-06-03 00:06:45 [INFO]: Model files will be saved to results_point_rate09/PeMS/FiLM_PeMS/round_0/20240603_T000645
+2024-06-03 00:06:45 [INFO]: Tensorboard file will be saved to results_point_rate09/PeMS/FiLM_PeMS/round_0/20240603_T000645/tensorboard
+2024-06-03 00:06:46 [INFO]: FiLM initialized with the given hyperparameters, the number of trainable parameters: 2,652,097
+2024-06-03 00:06:51 [INFO]: Epoch 001 - training loss: 1.7525, validation loss: 1.3610
+2024-06-03 00:06:54 [INFO]: Epoch 002 - training loss: 1.4818, validation loss: 1.2490
+2024-06-03 00:06:58 [INFO]: Epoch 003 - training loss: 1.4083, validation loss: 1.1724
+2024-06-03 00:07:01 [INFO]: Epoch 004 - training loss: 1.3667, validation loss: 1.1156
+2024-06-03 00:07:05 [INFO]: Epoch 005 - training loss: 1.3351, validation loss: 1.1214
+2024-06-03 00:07:09 [INFO]: Epoch 006 - training loss: 1.3304, validation loss: 1.1374
+2024-06-03 00:07:12 [INFO]: Epoch 007 - training loss: 1.3162, validation loss: 1.1428
+2024-06-03 00:07:16 [INFO]: Epoch 008 - training loss: 1.3279, validation loss: 1.1644
+2024-06-03 00:07:20 [INFO]: Epoch 009 - training loss: 1.3126, validation loss: 1.1848
+2024-06-03 00:07:23 [INFO]: Epoch 010 - training loss: 1.3001, validation loss: 1.2414
+2024-06-03 00:07:27 [INFO]: Epoch 011 - training loss: 1.2966, validation loss: 1.2147
+2024-06-03 00:07:31 [INFO]: Epoch 012 - training loss: 1.2756, validation loss: 1.1995
+2024-06-03 00:07:35 [INFO]: Epoch 013 - training loss: 1.2561, validation loss: 1.2018
+2024-06-03 00:07:39 [INFO]: Epoch 014 - training loss: 1.2550, validation loss: 1.1885
+2024-06-03 00:07:39 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:07:39 [INFO]: Finished training. The best model is from epoch#4.
+2024-06-03 00:07:39 [INFO]: Saved the model to results_point_rate09/PeMS/FiLM_PeMS/round_0/20240603_T000645/FiLM.pypots
+2024-06-03 00:07:40 [INFO]: Successfully saved to results_point_rate09/PeMS/FiLM_PeMS/round_0/imputation.pkl
+2024-06-03 00:07:40 [INFO]: Round0 - FiLM on PeMS: MAE=0.7367, MSE=1.4039, MRE=0.9141
+2024-06-03 00:07:40 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 00:07:40 [INFO]: Using the given device: cuda:0
+2024-06-03 00:07:40 [INFO]: Model files will be saved to results_point_rate09/PeMS/FiLM_PeMS/round_1/20240603_T000740
+2024-06-03 00:07:40 [INFO]: Tensorboard file will be saved to results_point_rate09/PeMS/FiLM_PeMS/round_1/20240603_T000740/tensorboard
+2024-06-03 00:07:41 [INFO]: FiLM initialized with the given hyperparameters, the number of trainable parameters: 2,652,097
+2024-06-03 00:07:44 [INFO]: Epoch 001 - training loss: 1.6241, validation loss: 1.3192
+2024-06-03 00:07:48 [INFO]: Epoch 002 - training loss: 1.4513, validation loss: 1.1654
+2024-06-03 00:07:51 [INFO]: Epoch 003 - training loss: 1.3802, validation loss: 1.1266
+2024-06-03 00:07:55 [INFO]: Epoch 004 - training loss: 1.3482, validation loss: 1.1440
+2024-06-03 00:07:59 [INFO]: Epoch 005 - training loss: 1.3385, validation loss: 1.1498
+2024-06-03 00:08:03 [INFO]: Epoch 006 - training loss: 1.3369, validation loss: 1.1890
+2024-06-03 00:08:06 [INFO]: Epoch 007 - training loss: 1.3246, validation loss: 1.1816
+2024-06-03 00:08:10 [INFO]: Epoch 008 - training loss: 1.3157, validation loss: 1.2343
+2024-06-03 00:08:14 [INFO]: Epoch 009 - training loss: 1.3103, validation loss: 1.2170
+2024-06-03 00:08:18 [INFO]: Epoch 010 - training loss: 1.3129, validation loss: 1.2323
+2024-06-03 00:08:21 [INFO]: Epoch 011 - training loss: 1.2993, validation loss: 1.2881
+2024-06-03 00:08:25 [INFO]: Epoch 012 - training loss: 1.2822, validation loss: 1.3012
+2024-06-03 00:08:29 [INFO]: Epoch 013 - training loss: 1.2770, validation loss: 1.2673
+2024-06-03 00:08:29 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:08:29 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 00:08:29 [INFO]: Saved the model to results_point_rate09/PeMS/FiLM_PeMS/round_1/20240603_T000740/FiLM.pypots
+2024-06-03 00:08:31 [INFO]: Successfully saved to results_point_rate09/PeMS/FiLM_PeMS/round_1/imputation.pkl
+2024-06-03 00:08:31 [INFO]: Round1 - FiLM on PeMS: MAE=0.8064, MSE=1.4907, MRE=1.0006
+2024-06-03 00:08:31 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 00:08:31 [INFO]: Using the given device: cuda:0
+2024-06-03 00:08:31 [INFO]: Model files will be saved to results_point_rate09/PeMS/FiLM_PeMS/round_2/20240603_T000831
+2024-06-03 00:08:31 [INFO]: Tensorboard file will be saved to results_point_rate09/PeMS/FiLM_PeMS/round_2/20240603_T000831/tensorboard
+2024-06-03 00:08:31 [INFO]: FiLM initialized with the given hyperparameters, the number of trainable parameters: 2,652,097
+2024-06-03 00:08:35 [INFO]: Epoch 001 - training loss: 1.7156, validation loss: 1.3919
+2024-06-03 00:08:38 [INFO]: Epoch 002 - training loss: 1.5047, validation loss: 1.2546
+2024-06-03 00:08:42 [INFO]: Epoch 003 - training loss: 1.4042, validation loss: 1.1856
+2024-06-03 00:08:45 [INFO]: Epoch 004 - training loss: 1.3607, validation loss: 1.2451
+2024-06-03 00:08:49 [INFO]: Epoch 005 - training loss: 1.3478, validation loss: 1.2037
+2024-06-03 00:08:53 [INFO]: Epoch 006 - training loss: 1.3381, validation loss: 1.1475
+2024-06-03 00:08:56 [INFO]: Epoch 007 - training loss: 1.3279, validation loss: 1.1931
+2024-06-03 00:09:00 [INFO]: Epoch 008 - training loss: 1.3052, validation loss: 1.1570
+2024-06-03 00:09:04 [INFO]: Epoch 009 - training loss: 1.2920, validation loss: 1.1238
+2024-06-03 00:09:07 [INFO]: Epoch 010 - training loss: 1.2755, validation loss: 1.1630
+2024-06-03 00:09:11 [INFO]: Epoch 011 - training loss: 1.2872, validation loss: 1.1672
+2024-06-03 00:09:15 [INFO]: Epoch 012 - training loss: 1.2762, validation loss: 1.1856
+2024-06-03 00:09:19 [INFO]: Epoch 013 - training loss: 1.2576, validation loss: 1.1726
+2024-06-03 00:09:22 [INFO]: Epoch 014 - training loss: 1.2444, validation loss: 1.1998
+2024-06-03 00:09:26 [INFO]: Epoch 015 - training loss: 1.2408, validation loss: 1.1889
+2024-06-03 00:09:29 [INFO]: Epoch 016 - training loss: 1.2187, validation loss: 1.1840
+2024-06-03 00:09:33 [INFO]: Epoch 017 - training loss: 1.1976, validation loss: 1.1954
+2024-06-03 00:09:36 [INFO]: Epoch 018 - training loss: 1.1775, validation loss: 1.1868
+2024-06-03 00:09:40 [INFO]: Epoch 019 - training loss: 1.1656, validation loss: 1.2159
+2024-06-03 00:09:40 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:09:40 [INFO]: Finished training. The best model is from epoch#9.
+2024-06-03 00:09:40 [INFO]: Saved the model to results_point_rate09/PeMS/FiLM_PeMS/round_2/20240603_T000831/FiLM.pypots
+2024-06-03 00:09:42 [INFO]: Successfully saved to results_point_rate09/PeMS/FiLM_PeMS/round_2/imputation.pkl
+2024-06-03 00:09:42 [INFO]: Round2 - FiLM on PeMS: MAE=0.7423, MSE=1.4377, MRE=0.9210
+2024-06-03 00:09:42 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 00:09:42 [INFO]: Using the given device: cuda:0
+2024-06-03 00:09:42 [INFO]: Model files will be saved to results_point_rate09/PeMS/FiLM_PeMS/round_3/20240603_T000942
+2024-06-03 00:09:42 [INFO]: Tensorboard file will be saved to results_point_rate09/PeMS/FiLM_PeMS/round_3/20240603_T000942/tensorboard
+2024-06-03 00:09:42 [INFO]: FiLM initialized with the given hyperparameters, the number of trainable parameters: 2,652,097
+2024-06-03 00:09:46 [INFO]: Epoch 001 - training loss: 1.6011, validation loss: 1.3119
+2024-06-03 00:09:49 [INFO]: Epoch 002 - training loss: 1.4330, validation loss: 1.1307
+2024-06-03 00:09:53 [INFO]: Epoch 003 - training loss: 1.3712, validation loss: 1.1502
+2024-06-03 00:09:56 [INFO]: Epoch 004 - training loss: 1.3390, validation loss: 1.1405
+2024-06-03 00:10:00 [INFO]: Epoch 005 - training loss: 1.3318, validation loss: 1.1799
+2024-06-03 00:10:04 [INFO]: Epoch 006 - training loss: 1.3280, validation loss: 1.1995
+2024-06-03 00:10:07 [INFO]: Epoch 007 - training loss: 1.3141, validation loss: 1.2023
+2024-06-03 00:10:11 [INFO]: Epoch 008 - training loss: 1.3070, validation loss: 1.1750
+2024-06-03 00:10:14 [INFO]: Epoch 009 - training loss: 1.2961, validation loss: 1.1864
+2024-06-03 00:10:18 [INFO]: Epoch 010 - training loss: 1.2890, validation loss: 1.2005
+2024-06-03 00:10:22 [INFO]: Epoch 011 - training loss: 1.2753, validation loss: 1.2270
+2024-06-03 00:10:25 [INFO]: Epoch 012 - training loss: 1.2669, validation loss: 1.2205
+2024-06-03 00:10:25 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:10:25 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 00:10:26 [INFO]: Saved the model to results_point_rate09/PeMS/FiLM_PeMS/round_3/20240603_T000942/FiLM.pypots
+2024-06-03 00:10:27 [INFO]: Successfully saved to results_point_rate09/PeMS/FiLM_PeMS/round_3/imputation.pkl
+2024-06-03 00:10:27 [INFO]: Round3 - FiLM on PeMS: MAE=0.7651, MSE=1.4282, MRE=0.9493
+2024-06-03 00:10:27 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 00:10:27 [INFO]: Using the given device: cuda:0
+2024-06-03 00:10:27 [INFO]: Model files will be saved to results_point_rate09/PeMS/FiLM_PeMS/round_4/20240603_T001027
+2024-06-03 00:10:27 [INFO]: Tensorboard file will be saved to results_point_rate09/PeMS/FiLM_PeMS/round_4/20240603_T001027/tensorboard
+2024-06-03 00:10:27 [INFO]: FiLM initialized with the given hyperparameters, the number of trainable parameters: 2,652,097
+2024-06-03 00:10:31 [INFO]: Epoch 001 - training loss: 1.4437, validation loss: 1.1785
+2024-06-03 00:10:35 [INFO]: Epoch 002 - training loss: 1.3830, validation loss: 1.1011
+2024-06-03 00:10:39 [INFO]: Epoch 003 - training loss: 1.3450, validation loss: 1.0986
+2024-06-03 00:10:43 [INFO]: Epoch 004 - training loss: 1.3174, validation loss: 1.1070
+2024-06-03 00:10:46 [INFO]: Epoch 005 - training loss: 1.3118, validation loss: 1.1322
+2024-06-03 00:10:50 [INFO]: Epoch 006 - training loss: 1.2921, validation loss: 1.1309
+2024-06-03 00:10:54 [INFO]: Epoch 007 - training loss: 1.2970, validation loss: 1.1319
+2024-06-03 00:10:58 [INFO]: Epoch 008 - training loss: 1.2917, validation loss: 1.1203
+2024-06-03 00:11:01 [INFO]: Epoch 009 - training loss: 1.2804, validation loss: 1.1147
+2024-06-03 00:11:05 [INFO]: Epoch 010 - training loss: 1.2793, validation loss: 1.1510
+2024-06-03 00:11:09 [INFO]: Epoch 011 - training loss: 1.2614, validation loss: 1.1267
+2024-06-03 00:11:13 [INFO]: Epoch 012 - training loss: 1.2484, validation loss: 1.1390
+2024-06-03 00:11:16 [INFO]: Epoch 013 - training loss: 1.2379, validation loss: 1.1433
+2024-06-03 00:11:16 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 00:11:16 [INFO]: Finished training. The best model is from epoch#3.
+2024-06-03 00:11:16 [INFO]: Saved the model to results_point_rate09/PeMS/FiLM_PeMS/round_4/20240603_T001027/FiLM.pypots
+2024-06-03 00:11:18 [INFO]: Successfully saved to results_point_rate09/PeMS/FiLM_PeMS/round_4/imputation.pkl
+2024-06-03 00:11:18 [INFO]: Round4 - FiLM on PeMS: MAE=0.7125, MSE=1.3787, MRE=0.8841
+2024-06-03 00:11:18 [INFO]: Done! Final results:
+Averaged FiLM (2,652,097 params) on PeMS: MAE=0.7526 ± 0.03168554060884848, MSE=1.4279 ± 0.037527666478230096, MRE=0.9338 ± 0.03931639783741306, average inference time=0.26

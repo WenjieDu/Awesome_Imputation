@@ -1,0 +1,127 @@
+2024-06-03 12:21:25 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 12:21:25 [INFO]: Using the given device: cuda:0
+2024-06-03 12:21:25 [INFO]: Model files will be saved to results_block_rate05/Electricity/MRNN_Electricity/round_0/20240603_T122125
+2024-06-03 12:21:25 [INFO]: Tensorboard file will be saved to results_block_rate05/Electricity/MRNN_Electricity/round_0/20240603_T122125/tensorboard
+2024-06-03 12:21:26 [INFO]: MRNN initialized with the given hyperparameters, the number of trainable parameters: 949,749
+2024-06-03 12:25:51 [INFO]: Epoch 001 - training loss: 1.0710, validation loss: 3.0229
+2024-06-03 12:29:54 [INFO]: Epoch 002 - training loss: 0.7011, validation loss: 2.9730
+2024-06-03 12:33:52 [INFO]: Epoch 003 - training loss: 0.6579, validation loss: 2.9570
+2024-06-03 12:37:31 [INFO]: Epoch 004 - training loss: 0.6440, validation loss: 2.9422
+2024-06-03 12:41:10 [INFO]: Epoch 005 - training loss: 0.6371, validation loss: 2.9425
+2024-06-03 12:44:49 [INFO]: Epoch 006 - training loss: 0.6284, validation loss: 2.9408
+2024-06-03 12:48:28 [INFO]: Epoch 007 - training loss: 0.6241, validation loss: 2.9550
+2024-06-03 12:52:08 [INFO]: Epoch 008 - training loss: 0.6188, validation loss: 2.9593
+2024-06-03 12:55:47 [INFO]: Epoch 009 - training loss: 0.6079, validation loss: 2.9733
+2024-06-03 12:59:25 [INFO]: Epoch 010 - training loss: 0.6013, validation loss: 2.9870
+2024-06-03 13:03:03 [INFO]: Epoch 011 - training loss: 0.6003, validation loss: 3.0046
+2024-06-03 13:06:41 [INFO]: Epoch 012 - training loss: 0.5962, validation loss: 3.0129
+2024-06-03 13:10:20 [INFO]: Epoch 013 - training loss: 0.5894, validation loss: 3.0274
+2024-06-03 13:13:59 [INFO]: Epoch 014 - training loss: 0.5826, validation loss: 3.0378
+2024-06-03 13:17:38 [INFO]: Epoch 015 - training loss: 0.5860, validation loss: 3.0152
+2024-06-03 13:21:16 [INFO]: Epoch 016 - training loss: 0.5792, validation loss: 3.0451
+2024-06-03 13:21:16 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 13:21:16 [INFO]: Finished training. The best model is from epoch#6.
+2024-06-03 13:21:16 [INFO]: Saved the model to results_block_rate05/Electricity/MRNN_Electricity/round_0/20240603_T122125/MRNN.pypots
+2024-06-03 13:23:21 [INFO]: Successfully saved to results_block_rate05/Electricity/MRNN_Electricity/round_0/imputation.pkl
+2024-06-03 13:23:21 [INFO]: Round0 - MRNN on Electricity: MAE=1.8581, MSE=5.8738, MRE=0.9973
+2024-06-03 13:23:21 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 13:23:21 [INFO]: Using the given device: cuda:0
+2024-06-03 13:23:21 [INFO]: Model files will be saved to results_block_rate05/Electricity/MRNN_Electricity/round_1/20240603_T132321
+2024-06-03 13:23:21 [INFO]: Tensorboard file will be saved to results_block_rate05/Electricity/MRNN_Electricity/round_1/20240603_T132321/tensorboard
+2024-06-03 13:23:21 [INFO]: MRNN initialized with the given hyperparameters, the number of trainable parameters: 949,749
+2024-06-03 13:26:08 [INFO]: Epoch 001 - training loss: 1.0975, validation loss: 3.0313
+2024-06-03 13:28:47 [INFO]: Epoch 002 - training loss: 0.7013, validation loss: 2.9762
+2024-06-03 13:31:28 [INFO]: Epoch 003 - training loss: 0.6544, validation loss: 2.9560
+2024-06-03 13:34:08 [INFO]: Epoch 004 - training loss: 0.6456, validation loss: 2.9437
+2024-06-03 13:36:48 [INFO]: Epoch 005 - training loss: 0.6306, validation loss: 2.9429
+2024-06-03 13:39:28 [INFO]: Epoch 006 - training loss: 0.6226, validation loss: 2.9562
+2024-06-03 13:42:07 [INFO]: Epoch 007 - training loss: 0.6294, validation loss: 2.9570
+2024-06-03 13:44:47 [INFO]: Epoch 008 - training loss: 0.6152, validation loss: 2.9687
+2024-06-03 13:47:27 [INFO]: Epoch 009 - training loss: 0.6045, validation loss: 2.9787
+2024-06-03 13:50:06 [INFO]: Epoch 010 - training loss: 0.6039, validation loss: 2.9893
+2024-06-03 13:52:46 [INFO]: Epoch 011 - training loss: 0.5963, validation loss: 2.9953
+2024-06-03 13:55:26 [INFO]: Epoch 012 - training loss: 0.5941, validation loss: 3.0042
+2024-06-03 13:58:06 [INFO]: Epoch 013 - training loss: 0.5938, validation loss: 3.0090
+2024-06-03 14:00:46 [INFO]: Epoch 014 - training loss: 0.5850, validation loss: 3.0189
+2024-06-03 14:03:26 [INFO]: Epoch 015 - training loss: 0.5816, validation loss: 3.0420
+2024-06-03 14:03:26 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 14:03:26 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 14:03:26 [INFO]: Saved the model to results_block_rate05/Electricity/MRNN_Electricity/round_1/20240603_T132321/MRNN.pypots
+2024-06-03 14:05:15 [INFO]: Successfully saved to results_block_rate05/Electricity/MRNN_Electricity/round_1/imputation.pkl
+2024-06-03 14:05:15 [INFO]: Round1 - MRNN on Electricity: MAE=1.8597, MSE=5.8792, MRE=0.9982
+2024-06-03 14:05:15 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 14:05:15 [INFO]: Using the given device: cuda:0
+2024-06-03 14:05:15 [INFO]: Model files will be saved to results_block_rate05/Electricity/MRNN_Electricity/round_2/20240603_T140515
+2024-06-03 14:05:15 [INFO]: Tensorboard file will be saved to results_block_rate05/Electricity/MRNN_Electricity/round_2/20240603_T140515/tensorboard
+2024-06-03 14:05:15 [INFO]: MRNN initialized with the given hyperparameters, the number of trainable parameters: 949,749
+2024-06-03 14:08:02 [INFO]: Epoch 001 - training loss: 1.1148, validation loss: 3.0185
+2024-06-03 14:10:41 [INFO]: Epoch 002 - training loss: 0.7057, validation loss: 2.9717
+2024-06-03 14:13:22 [INFO]: Epoch 003 - training loss: 0.6572, validation loss: 2.9573
+2024-06-03 14:16:02 [INFO]: Epoch 004 - training loss: 0.6452, validation loss: 2.9434
+2024-06-03 14:18:42 [INFO]: Epoch 005 - training loss: 0.6312, validation loss: 2.9419
+2024-06-03 14:21:21 [INFO]: Epoch 006 - training loss: 0.6347, validation loss: 2.9471
+2024-06-03 14:24:01 [INFO]: Epoch 007 - training loss: 0.6185, validation loss: 2.9613
+2024-06-03 14:26:40 [INFO]: Epoch 008 - training loss: 0.6183, validation loss: 2.9837
+2024-06-03 14:29:20 [INFO]: Epoch 009 - training loss: 0.6142, validation loss: 2.9748
+2024-06-03 14:32:00 [INFO]: Epoch 010 - training loss: 0.6008, validation loss: 2.9857
+2024-06-03 14:34:39 [INFO]: Epoch 011 - training loss: 0.6083, validation loss: 3.0083
+2024-06-03 14:37:19 [INFO]: Epoch 012 - training loss: 0.6059, validation loss: 3.0209
+2024-06-03 14:39:59 [INFO]: Epoch 013 - training loss: 0.5924, validation loss: 3.0254
+2024-06-03 14:42:39 [INFO]: Epoch 014 - training loss: 0.5875, validation loss: 3.0321
+2024-06-03 14:45:19 [INFO]: Epoch 015 - training loss: 0.5855, validation loss: 3.0363
+2024-06-03 14:45:19 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 14:45:19 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 14:45:19 [INFO]: Saved the model to results_block_rate05/Electricity/MRNN_Electricity/round_2/20240603_T140515/MRNN.pypots
+2024-06-03 14:47:07 [INFO]: Successfully saved to results_block_rate05/Electricity/MRNN_Electricity/round_2/imputation.pkl
+2024-06-03 14:47:07 [INFO]: Round2 - MRNN on Electricity: MAE=1.8602, MSE=5.8814, MRE=0.9985
+2024-06-03 14:47:07 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 14:47:07 [INFO]: Using the given device: cuda:0
+2024-06-03 14:47:07 [INFO]: Model files will be saved to results_block_rate05/Electricity/MRNN_Electricity/round_3/20240603_T144707
+2024-06-03 14:47:07 [INFO]: Tensorboard file will be saved to results_block_rate05/Electricity/MRNN_Electricity/round_3/20240603_T144707/tensorboard
+2024-06-03 14:47:07 [INFO]: MRNN initialized with the given hyperparameters, the number of trainable parameters: 949,749
+2024-06-03 14:49:54 [INFO]: Epoch 001 - training loss: 1.1223, validation loss: 3.0193
+2024-06-03 14:52:34 [INFO]: Epoch 002 - training loss: 0.7049, validation loss: 2.9723
+2024-06-03 14:55:14 [INFO]: Epoch 003 - training loss: 0.6555, validation loss: 2.9547
+2024-06-03 14:57:54 [INFO]: Epoch 004 - training loss: 0.6523, validation loss: 2.9391
+2024-06-03 15:00:34 [INFO]: Epoch 005 - training loss: 0.6309, validation loss: 2.9456
+2024-06-03 15:03:14 [INFO]: Epoch 006 - training loss: 0.6292, validation loss: 2.9473
+2024-06-03 15:05:53 [INFO]: Epoch 007 - training loss: 0.6148, validation loss: 2.9580
+2024-06-03 15:08:33 [INFO]: Epoch 008 - training loss: 0.6113, validation loss: 2.9658
+2024-06-03 15:11:13 [INFO]: Epoch 009 - training loss: 0.6104, validation loss: 2.9830
+2024-06-03 15:13:53 [INFO]: Epoch 010 - training loss: 0.6007, validation loss: 2.9874
+2024-06-03 15:16:33 [INFO]: Epoch 011 - training loss: 0.6026, validation loss: 3.0008
+2024-06-03 15:19:13 [INFO]: Epoch 012 - training loss: 0.6055, validation loss: 3.0090
+2024-06-03 15:21:53 [INFO]: Epoch 013 - training loss: 0.5958, validation loss: 3.0075
+2024-06-03 15:24:33 [INFO]: Epoch 014 - training loss: 0.5841, validation loss: 3.0196
+2024-06-03 15:24:33 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 15:24:33 [INFO]: Finished training. The best model is from epoch#4.
+2024-06-03 15:24:33 [INFO]: Saved the model to results_block_rate05/Electricity/MRNN_Electricity/round_3/20240603_T144707/MRNN.pypots
+2024-06-03 15:25:49 [INFO]: Successfully saved to results_block_rate05/Electricity/MRNN_Electricity/round_3/imputation.pkl
+2024-06-03 15:25:49 [INFO]: Round3 - MRNN on Electricity: MAE=1.8569, MSE=5.8764, MRE=0.9967
+2024-06-03 15:25:49 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 15:25:49 [INFO]: Using the given device: cuda:0
+2024-06-03 15:25:49 [INFO]: Model files will be saved to results_block_rate05/Electricity/MRNN_Electricity/round_4/20240603_T152549
+2024-06-03 15:25:49 [INFO]: Tensorboard file will be saved to results_block_rate05/Electricity/MRNN_Electricity/round_4/20240603_T152549/tensorboard
+2024-06-03 15:25:49 [INFO]: MRNN initialized with the given hyperparameters, the number of trainable parameters: 949,749
+2024-06-03 15:27:19 [INFO]: Epoch 001 - training loss: 1.1185, validation loss: 3.0290
+2024-06-03 15:28:32 [INFO]: Epoch 002 - training loss: 0.7028, validation loss: 2.9786
+2024-06-03 15:29:45 [INFO]: Epoch 003 - training loss: 0.6586, validation loss: 2.9581
+2024-06-03 15:30:58 [INFO]: Epoch 004 - training loss: 0.6538, validation loss: 2.9421
+2024-06-03 15:32:11 [INFO]: Epoch 005 - training loss: 0.6405, validation loss: 2.9412
+2024-06-03 15:33:24 [INFO]: Epoch 006 - training loss: 0.6208, validation loss: 2.9469
+2024-06-03 15:34:38 [INFO]: Epoch 007 - training loss: 0.6212, validation loss: 2.9548
+2024-06-03 15:35:51 [INFO]: Epoch 008 - training loss: 0.6140, validation loss: 2.9629
+2024-06-03 15:37:04 [INFO]: Epoch 009 - training loss: 0.6061, validation loss: 2.9627
+2024-06-03 15:38:17 [INFO]: Epoch 010 - training loss: 0.5978, validation loss: 2.9786
+2024-06-03 15:39:30 [INFO]: Epoch 011 - training loss: 0.5991, validation loss: 2.9955
+2024-06-03 15:40:43 [INFO]: Epoch 012 - training loss: 0.5920, validation loss: 3.0051
+2024-06-03 15:41:56 [INFO]: Epoch 013 - training loss: 0.5917, validation loss: 3.0203
+2024-06-03 15:43:09 [INFO]: Epoch 014 - training loss: 0.5870, validation loss: 3.0115
+2024-06-03 15:44:22 [INFO]: Epoch 015 - training loss: 0.5849, validation loss: 3.0135
+2024-06-03 15:44:22 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 15:44:22 [INFO]: Finished training. The best model is from epoch#5.
+2024-06-03 15:44:22 [INFO]: Saved the model to results_block_rate05/Electricity/MRNN_Electricity/round_4/20240603_T152549/MRNN.pypots
+2024-06-03 15:45:12 [INFO]: Successfully saved to results_block_rate05/Electricity/MRNN_Electricity/round_4/imputation.pkl
+2024-06-03 15:45:12 [INFO]: Round4 - MRNN on Electricity: MAE=1.8569, MSE=5.8731, MRE=0.9967
+2024-06-03 15:45:12 [INFO]: Done! Final results:
+Averaged MRNN (949,749 params) on Electricity: MAE=1.8584 ± 0.0013820778069893046, MSE=5.8768 ± 0.0031524657919856777, MRE=0.9975 ± 0.0007418300979273865, average inference time=22.17

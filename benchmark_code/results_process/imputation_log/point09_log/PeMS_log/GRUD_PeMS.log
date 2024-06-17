@@ -1,0 +1,147 @@
+2024-06-03 03:53:27 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 03:53:27 [INFO]: Using the given device: cuda:0
+2024-06-03 03:53:27 [INFO]: Model files will be saved to results_point_rate09/PeMS/GRUD_PeMS/round_0/20240603_T035327
+2024-06-03 03:53:27 [INFO]: Tensorboard file will be saved to results_point_rate09/PeMS/GRUD_PeMS/round_0/20240603_T035327/tensorboard
+2024-06-03 03:53:28 [INFO]: GRUD initialized with the given hyperparameters, the number of trainable parameters: 14,104,896
+2024-06-03 03:53:45 [INFO]: Epoch 001 - training loss: 0.6368, validation loss: 0.6230
+2024-06-03 03:53:47 [INFO]: Epoch 002 - training loss: 0.3641, validation loss: 0.5425
+2024-06-03 03:53:49 [INFO]: Epoch 003 - training loss: 0.3088, validation loss: 0.5166
+2024-06-03 03:53:51 [INFO]: Epoch 004 - training loss: 0.2811, validation loss: 0.5088
+2024-06-03 03:53:54 [INFO]: Epoch 005 - training loss: 0.2648, validation loss: 0.4998
+2024-06-03 03:53:56 [INFO]: Epoch 006 - training loss: 0.2493, validation loss: 0.4939
+2024-06-03 03:53:58 [INFO]: Epoch 007 - training loss: 0.2319, validation loss: 0.4943
+2024-06-03 03:54:01 [INFO]: Epoch 008 - training loss: 0.2158, validation loss: 0.4964
+2024-06-03 03:54:03 [INFO]: Epoch 009 - training loss: 0.2007, validation loss: 0.4946
+2024-06-03 03:54:06 [INFO]: Epoch 010 - training loss: 0.1889, validation loss: 0.4921
+2024-06-03 03:54:08 [INFO]: Epoch 011 - training loss: 0.1748, validation loss: 0.4948
+2024-06-03 03:54:10 [INFO]: Epoch 012 - training loss: 0.1617, validation loss: 0.4972
+2024-06-03 03:54:13 [INFO]: Epoch 013 - training loss: 0.1486, validation loss: 0.5000
+2024-06-03 03:54:15 [INFO]: Epoch 014 - training loss: 0.1364, validation loss: 0.5044
+2024-06-03 03:54:17 [INFO]: Epoch 015 - training loss: 0.1257, validation loss: 0.5064
+2024-06-03 03:54:19 [INFO]: Epoch 016 - training loss: 0.1161, validation loss: 0.5109
+2024-06-03 03:54:22 [INFO]: Epoch 017 - training loss: 0.1087, validation loss: 0.5168
+2024-06-03 03:54:24 [INFO]: Epoch 018 - training loss: 0.0997, validation loss: 0.5143
+2024-06-03 03:54:26 [INFO]: Epoch 019 - training loss: 0.0936, validation loss: 0.5180
+2024-06-03 03:54:29 [INFO]: Epoch 020 - training loss: 0.0859, validation loss: 0.5217
+2024-06-03 03:54:29 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:54:29 [INFO]: Finished training. The best model is from epoch#10.
+2024-06-03 03:54:29 [INFO]: Saved the model to results_point_rate09/PeMS/GRUD_PeMS/round_0/20240603_T035327/GRUD.pypots
+2024-06-03 03:54:34 [INFO]: Successfully saved to results_point_rate09/PeMS/GRUD_PeMS/round_0/imputation.pkl
+2024-06-03 03:54:34 [INFO]: Round0 - GRUD on PeMS: MAE=0.4186, MSE=0.7112, MRE=0.5194
+2024-06-03 03:54:34 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 03:54:34 [INFO]: Using the given device: cuda:0
+2024-06-03 03:54:34 [INFO]: Model files will be saved to results_point_rate09/PeMS/GRUD_PeMS/round_1/20240603_T035434
+2024-06-03 03:54:34 [INFO]: Tensorboard file will be saved to results_point_rate09/PeMS/GRUD_PeMS/round_1/20240603_T035434/tensorboard
+2024-06-03 03:54:34 [INFO]: GRUD initialized with the given hyperparameters, the number of trainable parameters: 14,104,896
+2024-06-03 03:54:39 [INFO]: Epoch 001 - training loss: 0.6357, validation loss: 0.6232
+2024-06-03 03:54:41 [INFO]: Epoch 002 - training loss: 0.3720, validation loss: 0.5466
+2024-06-03 03:54:44 [INFO]: Epoch 003 - training loss: 0.3102, validation loss: 0.5147
+2024-06-03 03:54:46 [INFO]: Epoch 004 - training loss: 0.2895, validation loss: 0.5037
+2024-06-03 03:54:48 [INFO]: Epoch 005 - training loss: 0.2630, validation loss: 0.5023
+2024-06-03 03:54:51 [INFO]: Epoch 006 - training loss: 0.2456, validation loss: 0.4960
+2024-06-03 03:54:53 [INFO]: Epoch 007 - training loss: 0.2305, validation loss: 0.4954
+2024-06-03 03:54:55 [INFO]: Epoch 008 - training loss: 0.2141, validation loss: 0.4942
+2024-06-03 03:54:58 [INFO]: Epoch 009 - training loss: 0.2015, validation loss: 0.4949
+2024-06-03 03:55:00 [INFO]: Epoch 010 - training loss: 0.1857, validation loss: 0.4959
+2024-06-03 03:55:02 [INFO]: Epoch 011 - training loss: 0.1722, validation loss: 0.4977
+2024-06-03 03:55:05 [INFO]: Epoch 012 - training loss: 0.1623, validation loss: 0.5042
+2024-06-03 03:55:07 [INFO]: Epoch 013 - training loss: 0.1473, validation loss: 0.5019
+2024-06-03 03:55:10 [INFO]: Epoch 014 - training loss: 0.1361, validation loss: 0.5043
+2024-06-03 03:55:12 [INFO]: Epoch 015 - training loss: 0.1249, validation loss: 0.5063
+2024-06-03 03:55:15 [INFO]: Epoch 016 - training loss: 0.1150, validation loss: 0.5119
+2024-06-03 03:55:17 [INFO]: Epoch 017 - training loss: 0.1063, validation loss: 0.5163
+2024-06-03 03:55:19 [INFO]: Epoch 018 - training loss: 0.0981, validation loss: 0.5194
+2024-06-03 03:55:19 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:55:19 [INFO]: Finished training. The best model is from epoch#8.
+2024-06-03 03:55:20 [INFO]: Saved the model to results_point_rate09/PeMS/GRUD_PeMS/round_1/20240603_T035434/GRUD.pypots
+2024-06-03 03:55:24 [INFO]: Successfully saved to results_point_rate09/PeMS/GRUD_PeMS/round_1/imputation.pkl
+2024-06-03 03:55:24 [INFO]: Round1 - GRUD on PeMS: MAE=0.4207, MSE=0.7091, MRE=0.5220
+2024-06-03 03:55:24 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 03:55:24 [INFO]: Using the given device: cuda:0
+2024-06-03 03:55:24 [INFO]: Model files will be saved to results_point_rate09/PeMS/GRUD_PeMS/round_2/20240603_T035524
+2024-06-03 03:55:24 [INFO]: Tensorboard file will be saved to results_point_rate09/PeMS/GRUD_PeMS/round_2/20240603_T035524/tensorboard
+2024-06-03 03:55:25 [INFO]: GRUD initialized with the given hyperparameters, the number of trainable parameters: 14,104,896
+2024-06-03 03:55:29 [INFO]: Epoch 001 - training loss: 0.6446, validation loss: 0.6391
+2024-06-03 03:55:32 [INFO]: Epoch 002 - training loss: 0.3764, validation loss: 0.5521
+2024-06-03 03:55:34 [INFO]: Epoch 003 - training loss: 0.3171, validation loss: 0.5193
+2024-06-03 03:55:36 [INFO]: Epoch 004 - training loss: 0.2862, validation loss: 0.5093
+2024-06-03 03:55:38 [INFO]: Epoch 005 - training loss: 0.2674, validation loss: 0.5008
+2024-06-03 03:55:41 [INFO]: Epoch 006 - training loss: 0.2497, validation loss: 0.4956
+2024-06-03 03:55:43 [INFO]: Epoch 007 - training loss: 0.2352, validation loss: 0.4944
+2024-06-03 03:55:45 [INFO]: Epoch 008 - training loss: 0.2181, validation loss: 0.4942
+2024-06-03 03:55:48 [INFO]: Epoch 009 - training loss: 0.2059, validation loss: 0.4997
+2024-06-03 03:55:50 [INFO]: Epoch 010 - training loss: 0.1918, validation loss: 0.4981
+2024-06-03 03:55:52 [INFO]: Epoch 011 - training loss: 0.1801, validation loss: 0.5022
+2024-06-03 03:55:55 [INFO]: Epoch 012 - training loss: 0.1639, validation loss: 0.4994
+2024-06-03 03:55:57 [INFO]: Epoch 013 - training loss: 0.1542, validation loss: 0.5047
+2024-06-03 03:55:59 [INFO]: Epoch 014 - training loss: 0.1411, validation loss: 0.5036
+2024-06-03 03:56:01 [INFO]: Epoch 015 - training loss: 0.1297, validation loss: 0.5068
+2024-06-03 03:56:04 [INFO]: Epoch 016 - training loss: 0.1202, validation loss: 0.5080
+2024-06-03 03:56:06 [INFO]: Epoch 017 - training loss: 0.1130, validation loss: 0.5149
+2024-06-03 03:56:08 [INFO]: Epoch 018 - training loss: 0.1043, validation loss: 0.5170
+2024-06-03 03:56:08 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:56:08 [INFO]: Finished training. The best model is from epoch#8.
+2024-06-03 03:56:09 [INFO]: Saved the model to results_point_rate09/PeMS/GRUD_PeMS/round_2/20240603_T035524/GRUD.pypots
+2024-06-03 03:56:13 [INFO]: Successfully saved to results_point_rate09/PeMS/GRUD_PeMS/round_2/imputation.pkl
+2024-06-03 03:56:13 [INFO]: Round2 - GRUD on PeMS: MAE=0.4142, MSE=0.7088, MRE=0.5140
+2024-06-03 03:56:13 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 03:56:13 [INFO]: Using the given device: cuda:0
+2024-06-03 03:56:13 [INFO]: Model files will be saved to results_point_rate09/PeMS/GRUD_PeMS/round_3/20240603_T035613
+2024-06-03 03:56:13 [INFO]: Tensorboard file will be saved to results_point_rate09/PeMS/GRUD_PeMS/round_3/20240603_T035613/tensorboard
+2024-06-03 03:56:14 [INFO]: GRUD initialized with the given hyperparameters, the number of trainable parameters: 14,104,896
+2024-06-03 03:56:19 [INFO]: Epoch 001 - training loss: 0.6911, validation loss: 0.6627
+2024-06-03 03:56:21 [INFO]: Epoch 002 - training loss: 0.3955, validation loss: 0.5597
+2024-06-03 03:56:23 [INFO]: Epoch 003 - training loss: 0.3209, validation loss: 0.5240
+2024-06-03 03:56:26 [INFO]: Epoch 004 - training loss: 0.2947, validation loss: 0.5077
+2024-06-03 03:56:28 [INFO]: Epoch 005 - training loss: 0.2711, validation loss: 0.5050
+2024-06-03 03:56:30 [INFO]: Epoch 006 - training loss: 0.2576, validation loss: 0.4979
+2024-06-03 03:56:33 [INFO]: Epoch 007 - training loss: 0.2426, validation loss: 0.4925
+2024-06-03 03:56:35 [INFO]: Epoch 008 - training loss: 0.2274, validation loss: 0.4988
+2024-06-03 03:56:37 [INFO]: Epoch 009 - training loss: 0.2158, validation loss: 0.4957
+2024-06-03 03:56:40 [INFO]: Epoch 010 - training loss: 0.2001, validation loss: 0.4910
+2024-06-03 03:56:42 [INFO]: Epoch 011 - training loss: 0.1865, validation loss: 0.4949
+2024-06-03 03:56:44 [INFO]: Epoch 012 - training loss: 0.1768, validation loss: 0.4986
+2024-06-03 03:56:47 [INFO]: Epoch 013 - training loss: 0.1640, validation loss: 0.4971
+2024-06-03 03:56:49 [INFO]: Epoch 014 - training loss: 0.1510, validation loss: 0.5000
+2024-06-03 03:56:51 [INFO]: Epoch 015 - training loss: 0.1415, validation loss: 0.5046
+2024-06-03 03:56:54 [INFO]: Epoch 016 - training loss: 0.1308, validation loss: 0.5085
+2024-06-03 03:56:56 [INFO]: Epoch 017 - training loss: 0.1206, validation loss: 0.5058
+2024-06-03 03:56:58 [INFO]: Epoch 018 - training loss: 0.1109, validation loss: 0.5095
+2024-06-03 03:57:01 [INFO]: Epoch 019 - training loss: 0.1025, validation loss: 0.5133
+2024-06-03 03:57:03 [INFO]: Epoch 020 - training loss: 0.0955, validation loss: 0.5178
+2024-06-03 03:57:03 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:57:03 [INFO]: Finished training. The best model is from epoch#10.
+2024-06-03 03:57:03 [INFO]: Saved the model to results_point_rate09/PeMS/GRUD_PeMS/round_3/20240603_T035613/GRUD.pypots
+2024-06-03 03:57:08 [INFO]: Successfully saved to results_point_rate09/PeMS/GRUD_PeMS/round_3/imputation.pkl
+2024-06-03 03:57:08 [INFO]: Round3 - GRUD on PeMS: MAE=0.4155, MSE=0.7106, MRE=0.5155
+2024-06-03 03:57:08 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 03:57:08 [INFO]: Using the given device: cuda:0
+2024-06-03 03:57:08 [INFO]: Model files will be saved to results_point_rate09/PeMS/GRUD_PeMS/round_4/20240603_T035708
+2024-06-03 03:57:08 [INFO]: Tensorboard file will be saved to results_point_rate09/PeMS/GRUD_PeMS/round_4/20240603_T035708/tensorboard
+2024-06-03 03:57:08 [INFO]: GRUD initialized with the given hyperparameters, the number of trainable parameters: 14,104,896
+2024-06-03 03:57:13 [INFO]: Epoch 001 - training loss: 0.6419, validation loss: 0.6362
+2024-06-03 03:57:16 [INFO]: Epoch 002 - training loss: 0.3740, validation loss: 0.5530
+2024-06-03 03:57:18 [INFO]: Epoch 003 - training loss: 0.3169, validation loss: 0.5196
+2024-06-03 03:57:20 [INFO]: Epoch 004 - training loss: 0.2886, validation loss: 0.5063
+2024-06-03 03:57:23 [INFO]: Epoch 005 - training loss: 0.2648, validation loss: 0.5010
+2024-06-03 03:57:25 [INFO]: Epoch 006 - training loss: 0.2512, validation loss: 0.4917
+2024-06-03 03:57:27 [INFO]: Epoch 007 - training loss: 0.2329, validation loss: 0.4973
+2024-06-03 03:57:29 [INFO]: Epoch 008 - training loss: 0.2186, validation loss: 0.4936
+2024-06-03 03:57:32 [INFO]: Epoch 009 - training loss: 0.2057, validation loss: 0.4901
+2024-06-03 03:57:34 [INFO]: Epoch 010 - training loss: 0.1905, validation loss: 0.4937
+2024-06-03 03:57:36 [INFO]: Epoch 011 - training loss: 0.1774, validation loss: 0.4984
+2024-06-03 03:57:39 [INFO]: Epoch 012 - training loss: 0.1636, validation loss: 0.4969
+2024-06-03 03:57:41 [INFO]: Epoch 013 - training loss: 0.1517, validation loss: 0.4978
+2024-06-03 03:57:43 [INFO]: Epoch 014 - training loss: 0.1414, validation loss: 0.5025
+2024-06-03 03:57:46 [INFO]: Epoch 015 - training loss: 0.1286, validation loss: 0.5034
+2024-06-03 03:57:48 [INFO]: Epoch 016 - training loss: 0.1172, validation loss: 0.5063
+2024-06-03 03:57:50 [INFO]: Epoch 017 - training loss: 0.1094, validation loss: 0.5099
+2024-06-03 03:57:53 [INFO]: Epoch 018 - training loss: 0.1005, validation loss: 0.5134
+2024-06-03 03:57:55 [INFO]: Epoch 019 - training loss: 0.0928, validation loss: 0.5179
+2024-06-03 03:57:55 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 03:57:55 [INFO]: Finished training. The best model is from epoch#9.
+2024-06-03 03:57:55 [INFO]: Saved the model to results_point_rate09/PeMS/GRUD_PeMS/round_4/20240603_T035708/GRUD.pypots
+2024-06-03 03:58:00 [INFO]: Successfully saved to results_point_rate09/PeMS/GRUD_PeMS/round_4/imputation.pkl
+2024-06-03 03:58:00 [INFO]: Round4 - GRUD on PeMS: MAE=0.4164, MSE=0.7121, MRE=0.5167
+2024-06-03 03:58:00 [INFO]: Done! Final results:
+Averaged GRUD (14,104,896 params) on PeMS: MAE=0.4171 ± 0.002303444946840437, MSE=0.7103 ± 0.0012499262743646093, MRE=0.5175 ± 0.0028581856640712, average inference time=0.81

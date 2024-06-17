@@ -1,0 +1,141 @@
+2024-06-03 02:27:50 [INFO]: Have set the random seed as 2024 for numpy and pytorch.
+2024-06-03 02:27:50 [INFO]: Using the given device: cuda:0
+2024-06-03 02:27:52 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_0/20240603_T022751
+2024-06-03 02:27:52 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_0/20240603_T022751/tensorboard
+2024-06-03 02:27:53 [INFO]: GPVAE initialized with the given hyperparameters, the number of trainable parameters: 284,676
+2024-06-03 02:27:58 [INFO]: Epoch 001 - training loss: 374.4593, validation loss: 0.8580
+2024-06-03 02:27:59 [INFO]: Epoch 002 - training loss: 358.1247, validation loss: 0.9818
+2024-06-03 02:28:01 [INFO]: Epoch 003 - training loss: 360.2280, validation loss: 0.9072
+2024-06-03 02:28:02 [INFO]: Epoch 004 - training loss: 320.0595, validation loss: 0.9049
+2024-06-03 02:28:04 [INFO]: Epoch 005 - training loss: 309.1353, validation loss: 0.9125
+2024-06-03 02:28:06 [INFO]: Epoch 006 - training loss: 305.8681, validation loss: 0.9087
+2024-06-03 02:28:07 [INFO]: Epoch 007 - training loss: 304.7942, validation loss: 0.9001
+2024-06-03 02:28:09 [INFO]: Epoch 008 - training loss: 304.1931, validation loss: 0.8853
+2024-06-03 02:28:11 [INFO]: Epoch 009 - training loss: 303.7298, validation loss: 0.8720
+2024-06-03 02:28:12 [INFO]: Epoch 010 - training loss: 303.4362, validation loss: 0.8652
+2024-06-03 02:28:14 [INFO]: Epoch 011 - training loss: 303.1312, validation loss: 0.8624
+2024-06-03 02:28:14 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:28:14 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 02:28:14 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_0/20240603_T022751/GPVAE.pypots
+2024-06-03 02:28:17 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_0/imputation.pkl
+2024-06-03 02:28:17 [INFO]: Round0 - GPVAE on Pedestrian: MAE=0.7196, MSE=0.9539, MRE=0.9398
+2024-06-03 02:28:17 [INFO]: Have set the random seed as 2025 for numpy and pytorch.
+2024-06-03 02:28:17 [INFO]: Using the given device: cuda:0
+2024-06-03 02:28:17 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_1/20240603_T022817
+2024-06-03 02:28:17 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_1/20240603_T022817/tensorboard
+2024-06-03 02:28:17 [INFO]: GPVAE initialized with the given hyperparameters, the number of trainable parameters: 284,676
+2024-06-03 02:28:19 [INFO]: Epoch 001 - training loss: 358.3485, validation loss: 1.0658
+2024-06-03 02:28:20 [INFO]: Epoch 002 - training loss: 382.7932, validation loss: 0.9464
+2024-06-03 02:28:22 [INFO]: Epoch 003 - training loss: 323.6783, validation loss: 0.9060
+2024-06-03 02:28:24 [INFO]: Epoch 004 - training loss: 309.2772, validation loss: 0.9058
+2024-06-03 02:28:25 [INFO]: Epoch 005 - training loss: 309.5018, validation loss: 0.9057
+2024-06-03 02:28:27 [INFO]: Epoch 006 - training loss: 312.0013, validation loss: 0.9068
+2024-06-03 02:28:28 [INFO]: Epoch 007 - training loss: 306.1106, validation loss: 0.9057
+2024-06-03 02:28:30 [INFO]: Epoch 008 - training loss: 306.4383, validation loss: 0.9144
+2024-06-03 02:28:32 [INFO]: Epoch 009 - training loss: 303.5372, validation loss: 0.8716
+2024-06-03 02:28:33 [INFO]: Epoch 010 - training loss: 302.0886, validation loss: 0.9050
+2024-06-03 02:28:35 [INFO]: Epoch 011 - training loss: 301.7704, validation loss: 0.9314
+2024-06-03 02:28:37 [INFO]: Epoch 012 - training loss: 301.6776, validation loss: 0.9617
+2024-06-03 02:28:38 [INFO]: Epoch 013 - training loss: 301.7601, validation loss: 0.9497
+2024-06-03 02:28:40 [INFO]: Epoch 014 - training loss: 301.7389, validation loss: 0.8592
+2024-06-03 02:28:42 [INFO]: Epoch 015 - training loss: 301.6450, validation loss: 0.8707
+2024-06-03 02:28:44 [INFO]: Epoch 016 - training loss: 301.5712, validation loss: 0.8650
+2024-06-03 02:28:45 [INFO]: Epoch 017 - training loss: 301.6312, validation loss: 0.8670
+2024-06-03 02:28:47 [INFO]: Epoch 018 - training loss: 301.5873, validation loss: 0.8656
+2024-06-03 02:28:49 [INFO]: Epoch 019 - training loss: 301.7638, validation loss: 0.8605
+2024-06-03 02:28:50 [INFO]: Epoch 020 - training loss: 301.6465, validation loss: 0.8732
+2024-06-03 02:28:52 [INFO]: Epoch 021 - training loss: 301.5149, validation loss: 0.8753
+2024-06-03 02:28:53 [INFO]: Epoch 022 - training loss: 301.5170, validation loss: 0.8451
+2024-06-03 02:28:55 [INFO]: Epoch 023 - training loss: 301.5903, validation loss: 0.8403
+2024-06-03 02:28:57 [INFO]: Epoch 024 - training loss: 301.6795, validation loss: 0.8433
+2024-06-03 02:28:58 [INFO]: Epoch 025 - training loss: 301.6120, validation loss: 0.9407
+2024-06-03 02:29:00 [INFO]: Epoch 026 - training loss: 301.6807, validation loss: 0.8435
+2024-06-03 02:29:01 [INFO]: Epoch 027 - training loss: 301.5547, validation loss: 0.8842
+2024-06-03 02:29:03 [INFO]: Epoch 028 - training loss: 301.5808, validation loss: 0.9141
+2024-06-03 02:29:04 [INFO]: Epoch 029 - training loss: 301.5609, validation loss: 0.8799
+2024-06-03 02:29:06 [INFO]: Epoch 030 - training loss: 301.4737, validation loss: 0.8474
+2024-06-03 02:29:07 [INFO]: Epoch 031 - training loss: 301.5655, validation loss: 0.8399
+2024-06-03 02:29:09 [INFO]: Epoch 032 - training loss: 301.5218, validation loss: 0.8509
+2024-06-03 02:29:11 [INFO]: Epoch 033 - training loss: 301.4126, validation loss: 0.8933
+2024-06-03 02:29:12 [INFO]: Epoch 034 - training loss: 301.5450, validation loss: 0.8803
+2024-06-03 02:29:14 [INFO]: Epoch 035 - training loss: 301.6431, validation loss: 0.8706
+2024-06-03 02:29:15 [INFO]: Epoch 036 - training loss: 301.6496, validation loss: 0.8694
+2024-06-03 02:29:17 [INFO]: Epoch 037 - training loss: 301.4639, validation loss: 0.8915
+2024-06-03 02:29:18 [INFO]: Epoch 038 - training loss: 301.6013, validation loss: 0.9258
+2024-06-03 02:29:20 [INFO]: Epoch 039 - training loss: 301.8772, validation loss: 0.8672
+2024-06-03 02:29:21 [INFO]: Epoch 040 - training loss: 301.5830, validation loss: 0.8891
+2024-06-03 02:29:23 [INFO]: Epoch 041 - training loss: 301.5267, validation loss: 0.9143
+2024-06-03 02:29:23 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:29:23 [INFO]: Finished training. The best model is from epoch#31.
+2024-06-03 02:29:23 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_1/20240603_T022817/GPVAE.pypots
+2024-06-03 02:29:26 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_1/imputation.pkl
+2024-06-03 02:29:26 [INFO]: Round1 - GPVAE on Pedestrian: MAE=0.7061, MSE=1.0101, MRE=0.9222
+2024-06-03 02:29:26 [INFO]: Have set the random seed as 2026 for numpy and pytorch.
+2024-06-03 02:29:26 [INFO]: Using the given device: cuda:0
+2024-06-03 02:29:26 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_2/20240603_T022926
+2024-06-03 02:29:26 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_2/20240603_T022926/tensorboard
+2024-06-03 02:29:26 [INFO]: GPVAE initialized with the given hyperparameters, the number of trainable parameters: 284,676
+2024-06-03 02:29:28 [INFO]: Epoch 001 - training loss: 378.2495, validation loss: 0.8435
+2024-06-03 02:29:30 [INFO]: Epoch 002 - training loss: 333.0952, validation loss: 0.9444
+2024-06-03 02:29:31 [INFO]: Epoch 003 - training loss: 356.1405, validation loss: 0.9088
+2024-06-03 02:29:33 [INFO]: Epoch 004 - training loss: 326.7504, validation loss: 0.9071
+2024-06-03 02:29:35 [INFO]: Epoch 005 - training loss: 307.8191, validation loss: 0.9061
+2024-06-03 02:29:37 [INFO]: Epoch 006 - training loss: 307.3379, validation loss: 0.9060
+2024-06-03 02:29:38 [INFO]: Epoch 007 - training loss: 305.0576, validation loss: 0.9059
+2024-06-03 02:29:40 [INFO]: Epoch 008 - training loss: 304.7349, validation loss: 0.9058
+2024-06-03 02:29:41 [INFO]: Epoch 009 - training loss: 304.6787, validation loss: 0.9059
+2024-06-03 02:29:43 [INFO]: Epoch 010 - training loss: 304.6605, validation loss: 0.9059
+2024-06-03 02:29:45 [INFO]: Epoch 011 - training loss: 304.6763, validation loss: 0.9059
+2024-06-03 02:29:45 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:29:45 [INFO]: Finished training. The best model is from epoch#1.
+2024-06-03 02:29:45 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_2/20240603_T022926/GPVAE.pypots
+2024-06-03 02:29:48 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_2/imputation.pkl
+2024-06-03 02:29:48 [INFO]: Round2 - GPVAE on Pedestrian: MAE=0.7648, MSE=0.9918, MRE=0.9989
+2024-06-03 02:29:48 [INFO]: Have set the random seed as 2027 for numpy and pytorch.
+2024-06-03 02:29:48 [INFO]: Using the given device: cuda:0
+2024-06-03 02:29:48 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_3/20240603_T022948
+2024-06-03 02:29:48 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_3/20240603_T022948/tensorboard
+2024-06-03 02:29:48 [INFO]: GPVAE initialized with the given hyperparameters, the number of trainable parameters: 284,676
+2024-06-03 02:29:50 [INFO]: Epoch 001 - training loss: 409.4670, validation loss: 1.0819
+2024-06-03 02:29:52 [INFO]: Epoch 002 - training loss: 315.1811, validation loss: 0.8404
+2024-06-03 02:29:53 [INFO]: Epoch 003 - training loss: 322.4440, validation loss: 0.8602
+2024-06-03 02:29:55 [INFO]: Epoch 004 - training loss: 308.0472, validation loss: 0.8682
+2024-06-03 02:29:57 [INFO]: Epoch 005 - training loss: 303.9585, validation loss: 0.8586
+2024-06-03 02:29:59 [INFO]: Epoch 006 - training loss: 302.4866, validation loss: 0.8963
+2024-06-03 02:30:00 [INFO]: Epoch 007 - training loss: 302.0770, validation loss: 0.9195
+2024-06-03 02:30:02 [INFO]: Epoch 008 - training loss: 301.7685, validation loss: 0.9149
+2024-06-03 02:30:04 [INFO]: Epoch 009 - training loss: 301.6386, validation loss: 0.8983
+2024-06-03 02:30:06 [INFO]: Epoch 010 - training loss: 301.6080, validation loss: 0.8938
+2024-06-03 02:30:07 [INFO]: Epoch 011 - training loss: 301.5302, validation loss: 0.8851
+2024-06-03 02:30:09 [INFO]: Epoch 012 - training loss: 301.5916, validation loss: 0.8859
+2024-06-03 02:30:09 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:30:09 [INFO]: Finished training. The best model is from epoch#2.
+2024-06-03 02:30:09 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_3/20240603_T022948/GPVAE.pypots
+2024-06-03 02:30:12 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_3/imputation.pkl
+2024-06-03 02:30:12 [INFO]: Round3 - GPVAE on Pedestrian: MAE=0.6970, MSE=0.9900, MRE=0.9103
+2024-06-03 02:30:12 [INFO]: Have set the random seed as 2028 for numpy and pytorch.
+2024-06-03 02:30:12 [INFO]: Using the given device: cuda:0
+2024-06-03 02:30:12 [INFO]: Model files will be saved to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_4/20240603_T023012
+2024-06-03 02:30:12 [INFO]: Tensorboard file will be saved to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_4/20240603_T023012/tensorboard
+2024-06-03 02:30:12 [INFO]: GPVAE initialized with the given hyperparameters, the number of trainable parameters: 284,676
+2024-06-03 02:30:14 [INFO]: Epoch 001 - training loss: 429.7634, validation loss: 0.9338
+2024-06-03 02:30:15 [INFO]: Epoch 002 - training loss: 362.5135, validation loss: 0.9043
+2024-06-03 02:30:17 [INFO]: Epoch 003 - training loss: 308.4442, validation loss: 0.8858
+2024-06-03 02:30:18 [INFO]: Epoch 004 - training loss: 304.5475, validation loss: 0.8535
+2024-06-03 02:30:20 [INFO]: Epoch 005 - training loss: 303.1312, validation loss: 0.9055
+2024-06-03 02:30:21 [INFO]: Epoch 006 - training loss: 302.0083, validation loss: 0.8872
+2024-06-03 02:30:23 [INFO]: Epoch 007 - training loss: 303.0880, validation loss: 0.8876
+2024-06-03 02:30:24 [INFO]: Epoch 008 - training loss: 301.8220, validation loss: 0.8710
+2024-06-03 02:30:25 [INFO]: Epoch 009 - training loss: 301.7623, validation loss: 0.8750
+2024-06-03 02:30:27 [INFO]: Epoch 010 - training loss: 301.5479, validation loss: 0.8778
+2024-06-03 02:30:28 [INFO]: Epoch 011 - training loss: 301.6318, validation loss: 0.8669
+2024-06-03 02:30:30 [INFO]: Epoch 012 - training loss: 301.5876, validation loss: 0.8793
+2024-06-03 02:30:31 [INFO]: Epoch 013 - training loss: 301.6540, validation loss: 0.8674
+2024-06-03 02:30:32 [INFO]: Epoch 014 - training loss: 301.4733, validation loss: 0.8915
+2024-06-03 02:30:32 [INFO]: Exceeded the training patience. Terminating the training procedure...
+2024-06-03 02:30:32 [INFO]: Finished training. The best model is from epoch#4.
+2024-06-03 02:30:32 [INFO]: Saved the model to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_4/20240603_T023012/GPVAE.pypots
+2024-06-03 02:30:35 [INFO]: Successfully saved to results_subseq_rate05/Pedestrian/GPVAE_Pedestrian/round_4/imputation.pkl
+2024-06-03 02:30:35 [INFO]: Round4 - GPVAE on Pedestrian: MAE=0.6962, MSE=0.9915, MRE=0.9093
+2024-06-03 02:30:35 [INFO]: Done! Final results:
+Averaged GPVAE (284,676 params) on Pedestrian: MAE=0.7168 ± 0.02545831708061441, MSE=0.9874 ± 0.018341313001624667, MRE=0.9361 ± 0.03324972706114415, average inference time=2.21
