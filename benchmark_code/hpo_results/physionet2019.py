@@ -8,7 +8,7 @@
 PhysioNet2019 = {
     "iTransformer": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "epochs": 100,
         "patience": 10,
         "n_layers": 4,
@@ -23,7 +23,7 @@ PhysioNet2019 = {
     },
     "SAITS": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "epochs": 100,
         "patience": 10,
         "n_layers": 3,
@@ -38,7 +38,7 @@ PhysioNet2019 = {
     },
     "FreTS": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "epochs": 100,
         "patience": 10,
         "embed_size": 256,
@@ -48,7 +48,7 @@ PhysioNet2019 = {
     },
     "Koopa": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "epochs": 100,
         "patience": 10,
         "n_seg_steps": 12,
@@ -60,7 +60,7 @@ PhysioNet2019 = {
     },
     "Crossformer": { 
         "n_steps": 48, 
-        "n_features": 34, 
+        "n_features": 33, 
         "epochs": 100, 
         "patience": 10, 
         "n_layers": 3, 
@@ -75,7 +75,7 @@ PhysioNet2019 = {
         },
     "TimesNet": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "patience": 10,
         "epochs": 100,
         "n_layers": 3,
@@ -88,7 +88,7 @@ PhysioNet2019 = {
     },
     "PatchTST": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "epochs": 100,
         "patience": 10,
         "patch_len": 8,
@@ -105,7 +105,7 @@ PhysioNet2019 = {
     },
     "ETSformer": { 
         "n_steps": 48, 
-        "n_features": 34,
+        "n_features": 33,
         "epochs": 100, 
         "patience": 10, 
         "n_e_layers": 3, 
@@ -119,7 +119,7 @@ PhysioNet2019 = {
         },
     "MICN": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "epochs": 100,
         "patience": 10,
         "n_layers": 2,
@@ -128,18 +128,10 @@ PhysioNet2019 = {
         "dropout": 0.2,
         "lr": 0.0000852263260132517,
     },
-    "DLinear": {
-        "n_steps": 48, 
-        "n_features": 34, 
-        "epochs": 100, 
-        "patience": 10, 
-        "moving_avg_window_size": 13, 
-        "d_model": 1024, 
-        "lr": 0.0001633470877552397 
-    },
+    "DLinear": { "n_steps": 48, "n_features": 33, "epochs": 100, "patience": 10, "moving_avg_window_size": 13, "d_model": 1024, "lr": 0.0001633470877552397 },
     "SCINet": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "epochs": 100,
         "patience": 10,
         "n_stacks": 2,
@@ -152,7 +144,7 @@ PhysioNet2019 = {
     },
     "NonstationaryTransformer": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "epochs": 100,
         "patience": 10,
         "n_layers": 1,
@@ -167,22 +159,10 @@ PhysioNet2019 = {
         "dropout": 0.2,
         "lr": 0.00010519284750234083
     },
-    "FiLM": { 
-        "n_steps": 48, 
-        "n_features": 34, 
-        "epochs": 100, 
-        "patience": 10, 
-        "window_size": [ 2 ], 
-        "multiscale": [ 1, 2 ], 
-        "modes1": 32, 
-        "dropout": 0.4, 
-        "mode_type": 0, 
-        "d_model": 64, 
-        "lr": 0.008109542467067061
-    },
+    "FiLM": { "n_steps": 48, "n_features": 33, "epochs": 100, "patience": 10, "window_size": [ 2 ], "multiscale": [ 1, 2 ], "modes1": 32, "dropout": 0.4, "mode_type": 0, "d_model": 64, "lr": 0.008109542467067061 },
     "Pyraformer": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "epochs": 100,
         "patience": 10,
         "n_layers": 3,
@@ -198,36 +178,11 @@ PhysioNet2019 = {
         "attn_dropout": 0.1,
         "lr": 0.0002148305519207637
     },
-    "Autoformer": { 
-        "n_steps": 48, 
-        "n_features": 34, 
-        "epochs": 100, 
-        "patience": 10, 
-        "n_layers": 1, 
-        "d_model": 128, 
-        "d_ffn": 1024, 
-        "n_heads": 4, 
-        "factor": 3, 
-        "moving_avg_window_size": 13,
-        "dropout": 0, 
-        "lr": 0.00026656159603612764 
-    },
-    "CSDI": { 
-        "n_steps": 48, 
-        "n_features": 34, 
-        "patience": 10, 
-        "epochs": 100, 
-        "n_layers": 4, 
-        "n_heads": 8, 
-        "n_channels": 32, 
-        "d_time_embedding": 256, 
-        "d_feature_embedding": 16, 
-        "d_diffusion_embedding": 256, 
-        "lr": 0.0018788258888970985 
-    },
+    "Autoformer": { "n_steps": 48, "n_features": 33, "epochs": 100, "patience": 10, "n_layers": 1, "d_model": 128, "d_ffn": 1024, "n_heads": 4, "factor": 3, "moving_avg_window_size": 13, "dropout": 0, "lr": 0.00026656159603612764 },
+    "CSDI": { "n_steps": 48, "n_features": 33, "patience": 10, "epochs": 100, "n_layers": 4, "n_heads": 8, "n_channels": 32, "d_time_embedding": 256, "d_feature_embedding": 16, "d_diffusion_embedding": 256, "lr": 0.0018788258888970985 },
     "Informer": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "epochs": 100,
         "patience": 10,
         "n_layers": 3,
@@ -240,7 +195,7 @@ PhysioNet2019 = {
     },
     "USGAN": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "patience": 10,
         "epochs": 100,
         "lr": 0.0007792852806075814,
@@ -249,7 +204,7 @@ PhysioNet2019 = {
     },
     "StemGNN": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "epochs": 100,
         "patience": 10,
         "n_layers": 2,
@@ -260,7 +215,7 @@ PhysioNet2019 = {
     },
     "GPVAE": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "latent_size": 34,
         "patience": 10,
         "epochs": 100,
@@ -280,23 +235,16 @@ PhysioNet2019 = {
     },
     "MRNN": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "patience": 10,
         "epochs": 100,
         "rnn_hidden_size": 512,
         "lr": 0.006155127814415844
     },
-    "BRITS": { 
-        "n_steps": 48, 
-        "n_features": 34, 
-        "patience": 10, 
-        "epochs": 100, 
-        "rnn_hidden_size": 512, 
-        "lr": 0.0005763283506002885 
-    },
+    "BRITS": { "n_steps": 48, "n_features": 33, "patience": 10, "epochs": 100, "rnn_hidden_size": 512, "lr": 0.0005763283506002885 },
     "GRUD": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "epochs": 100,
         "patience": 10,
         "rnn_hidden_size": 32,
@@ -304,7 +252,7 @@ PhysioNet2019 = {
     },
     "Transformer": {
         "n_steps": 48,
-        "n_features": 34,
+        "n_features": 33,
         "epochs": 100,
         "patience": 10,
         "n_layers": 6,
