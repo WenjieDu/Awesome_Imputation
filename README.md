@@ -8,7 +8,7 @@
     </a>
 </p>
 
-The open-resource repository for the paper [**TSI-Bench: Benchmarking Time Series Imputation**]() 
+The repository for the paper [**TSI-Bench: Benchmarking Time Series Imputation**](https://arxiv.org/abs/2406.12747) 
 from <a href="https://pypots.com" target="_blank"><img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="30px" align="center"/> PyPOTS Research</a>.
 The code and configurations for reproducing the experimental results in the paper are available under the folder `benchmark_code`.
 The README file here maintains a list of must-read papers on time-series imputation, and a collection of time-series imputation toolkits and resources.
@@ -16,15 +16,15 @@ The README file here maintains a list of must-read papers on time-series imputat
 🤗 Contributions to update new resources and articles are very welcome!
 
 ## ❖ Time-Series Imputation Toolkits
-### Datasets
+### `Datasets`
 [TSDB (Time Series Data Beans)](https://github.com/WenjieDu/TSDB): a Python toolkit can load 169 public time-series datasets with a single line of code.
 <img src="https://img.shields.io/github/last-commit/WenjieDu/TSDB" align="center">
 
-### Missingness
+### `Missingness`
 [PyGrinder](https://github.com/WenjieDu/PyGrinder): a Python library grinds data beans into the incomplete by introducing missing values with different missing patterns.
 <img src="https://img.shields.io/github/last-commit/WenjieDu/PyGrinder" align="center">
 
-### Algorithms
+### `Algorithms`
 [PyPOTS](https://github.com/WenjieDu/PyPOTS): a Python toolbox for data mining on Partially-Observed Time Series
 <img src="https://img.shields.io/github/last-commit/WenjieDu/PyPOTS" align="center">
 
