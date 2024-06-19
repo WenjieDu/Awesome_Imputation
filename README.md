@@ -52,6 +52,10 @@ researchers and practitioners who are interested in this field.
 [[paper](https://openreview.net/pdf?id=K1mcPiDdOJ)]
 [[official code](https://github.com/Chemgyu/TimeCIB)]
 
+[AISTATS] **SADI: Similarity-Aware Diffusion Model-Based Imputation for Incomplete Temporal EHR Data**
+[[paper](https://proceedings.mlr.press/v238/dai24c/dai24c.pdf)]
+[[official code](https://github.com/bestadcarry/SADI-Similarity-Aware-Diffusion-Model-Based-Imputation-for-Incomplete-Temporal-EHR-Data)]
+
 
 ### `Year 2023`
 
