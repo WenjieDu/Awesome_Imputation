@@ -1,75 +1,108 @@
-# Code for the Time Series Imputation Survey 
-The scripts and configurations used in the work are all put here.
-
+# TSI-Bench 
+The code scripts, configurations, and logs here are for TSI-Bench, 
+the first comprehensive benchmark for time series imputation.
 
 ## ❖ Python Environment Creation
 A proper Python environment is necessary to reproduce the results. 
 Please ensure that all the below library requirements are satisfied.
 
 ```yaml
-pypots >=0.4
-tsdb >=0.2
-pygrinder >=0.4
+tsdb ==0.4
+pygrinder ==0.6
+benchpots ==0.1
+pypots ==0.6
 ```
 
 For Linux OS, it is able to create the environment with Conda by running `conda create -f conda_env.yml`.
 For other OS, library version requirements can also be checked out in `conda_env.yml`.
 
 
-## ❖ Datasets Introduction and Generation
-### Introduction
-#### Air
-Air (Beijing Multi-Site Air-Quality) is collected from twelve Beijing monitoring sites hourly in forty-eight months. 
-At each site, eleven air pollution variables (e.g. PM2.5, NO, O<sub>3</sub>) are collected. 
-The dataset has 1.6% originally missing data.
+## ❖ Datasets Generation
+Please refer to [`data/README.md`](data/README.md).
 
-#### PhysioNet2012
-PhysioNet2012 (PhysioNet-2012 Mortality Prediction Challenge) includes multivariate clinical time series data 
-collected from 11,988 patients in ICU. Each sample contains thirty-seven measurements (e.g. glucose, heart rate, 
-temperature) recorded in the first forty-eight hours after admission to the ICU. 
-This dataset has 80% values missing.
 
-#### ETTm1
-ETTm1 (Electricity Transformer Temperature) records seven state features, including oil temperature and six power 
-load variables of electricity transformers collected every fifteen minutes for two years. 
-There is no original missingness in this dataset.
-
-### Generation
-The scripts for generating three datasets used in this work are in the directory `data_processing`. 
-To generate the preprocessed datasets, please run the shell script `generate_datasets.sh` or 
-execute the below commands:
+## ❖ Results Reproduction
+### Neural network training 
+For example, to reproduce the results of SAITS on the dataset Pedestrian, please execute the following command.
 
 ```shell
-# generate PhysioNet2012 dataset
-python data/gene_physionet_2012.py
-
-# generate Air dataset
-python data/gene_air_quality.py
-
-# generate ETTm1 dataset
-python data/gene_ettm1.py
+nohup python train_model.py \
+  --model SAITS \
+  --dataset Pedestrian \
+  --dataset_fold_path data/melbourne_pedestrian_rate01_step24_point \
+  --saving_path results_point_rate01 \
+  --device cuda:2 \
+  > results_point_rate01/SAITS_pedestrian.log &
 ```
 
-
-## ❖ Model Training and Results Reproduction
-```shell
-# reproduce the results on the dataset PhysioNet2012
-nohup python train_models_for_physionet2012.py > physionet2012.log&
-
-# reproduce the results on the dataset Air
-nohup python train_models_for_air.py > air.log&
-
-# reproduce the results on the dataset ETTm1
-nohup python train_models_for_ettm1.py > ettm1.log&
-```
-
-After all execution finished, please check out all logging information in the according `.log` files.
+After the execution finished, please check out the logging information in the according `.log` file.
 
 Additionally, as claimed in the paper, hyperparameters of all models get optimized by the tuning functionality in 
 [PyPOTS](https://github.com/WenjieDu/PyPOTS). Hence, tuning configurations are available in the directory `PyPOTS_tuning_configs`.
 If you'd like to explore this feature, please check out the details there.
 
+### Naive methods
+To obtain the results of the naive methods, check out the commands in the shell script `naive_imputation.sh`.
 
-## ❖ Downstream Classification
-After running `train_models_for_physionet2012.py`, all models' imputation results are persisted under according folders.
-To obtain the simple RNN's classification results on PhysioNet2012, please execute the script `downstream_classification.py`.
+
+## ❖ Downstream Tasks
+
+
+### Classification
+
+```shell
+python downstream_classification.py \
+  --model SAITS \
+  --dataset PhysioNet2012 \
+  --dataset_fold_path data/physionet_2012_rate01_point \
+  --model_result_parent_fold results_point_rate01/SAITS_PhysioNet2012 \
+  --device cuda:0 \
+  --n_classes 2
+  
+ python downstream_classification.py \
+  --model SAITS \
+  --dataset Pedestrian \
+  --dataset_fold_path data/melbourne_pedestrian_rate01_step24_point \
+  --model_result_parent_fold results_point_rate01/SAITS_Pedestrian \
+  --device cuda:2 \
+  --n_classes 10
+  
+python downstream_classification_naive.py \
+  --dataset_fold_path data/physionet_2012_rate01_point \
+  --dataset PhysioNet2012 \
+  --device cuda:3 \
+  --n_classes 2
+```
+
+### Regression
+
+```shell 
+python downstream_regression.py \
+  --model SAITS \
+  --dataset ETT_h1 \
+  --dataset_fold_path data/ett_rate01_step48_point \
+  --model_result_parent_fold results_point_rate01/SAITS_ETT_h1 \
+  --device cuda:0
+
+python downstream_regression_naive.py \
+  --dataset_fold_path data/ett_rate01_step48_point \
+  --dataset ETT_h1 \
+  --device cuda:3
+```
+
+
+### Forecasting
+
+```shell
+python downstream_forecasting.py \
+  --model SAITS \
+  --dataset ETT_h1 \
+  --dataset_fold_path data/ett_rate01_step48_point \
+  --model_result_parent_fold results_point_rate01/SAITS_ETT_h1 \
+  --device cuda:0
+
+python downstream_forecasting_naive.py \
+  --dataset_fold_path data/ett_rate01_step48_point \
+  --dataset ETT_h1 \
+  --device cuda:3
+```
