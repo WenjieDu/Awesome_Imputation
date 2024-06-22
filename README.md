@@ -17,15 +17,18 @@ The README file here maintains a list of must-read papers on time-series imputat
 
 ## ❖ Time-Series Imputation Toolkits
 ### `Datasets`
-[TSDB (Time Series Data Beans)](https://github.com/WenjieDu/TSDB): a Python toolkit can load 169 public time-series datasets with a single line of code.
+[TSDB (Time Series Data Beans)](https://github.com/WenjieDu/TSDB): a Python toolkit can load 170 public time-series datasets with a single line of code.
 <img src="https://img.shields.io/github/last-commit/WenjieDu/TSDB" align="center">
+
+[BenchPOTS](https://github.com/WenjieDu/BenchPOTS): a Python suite provides standard preprocessing pipelines of 170 public datasets for benchmarking machine learning on POTS (Partially-Observed Time Series).
+<img src="https://img.shields.io/github/last-commit/WenjieDu/BenchPOTS" align="center">
 
 ### `Missingness`
 [PyGrinder](https://github.com/WenjieDu/PyGrinder): a Python library grinds data beans into the incomplete by introducing missing values with different missing patterns.
 <img src="https://img.shields.io/github/last-commit/WenjieDu/PyGrinder" align="center">
 
 ### `Algorithms`
-[PyPOTS](https://github.com/WenjieDu/PyPOTS): a Python toolbox for data mining on Partially-Observed Time Series
+[PyPOTS](https://github.com/WenjieDu/PyPOTS): a Python toolbox for data mining on POTS (Partially-Observed Time Series)
 <img src="https://img.shields.io/github/last-commit/WenjieDu/PyPOTS" align="center">
 
 [MICE](https://github.com/amices/mice): Multivariate Imputation by Chained Equations
@@ -222,7 +225,7 @@ researchers and practitioners who are interested in this field.
 [AI for Time Series (AI4TS) Papers, Tutorials, and Surveys](https://github.com/qingsongedu/awesome-AI-for-time-series-papers)
 
 ## ❖ Citing This Work
-If you find this repository helpful to your work, please kindly star it and cite our benchmark paper and survey paper as follows:
+If you find this repository helpful to your work, please kindly star it and cite our benchmark paper, survey paper, and PyPOTS as follows:
 
 ```bibtex
 @article{du2024tsibench,
@@ -242,6 +245,14 @@ year={2024}
 }
 ```
 
+```bibtex
+@article{du2023pypots,
+title={{PyPOTS: a Python toolbox for data mining on Partially-Observed Time Series}},
+author={Wenjie Du},
+journal={arXiv preprint arXiv:2305.18811},
+year={2023},
+}
+```
 
 <details>
 <summary>🏠 Visits</summary>

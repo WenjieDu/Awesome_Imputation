@@ -9,7 +9,7 @@ Please ensure that all the below library requirements are satisfied.
 ```yaml
 tsdb ==0.4
 pygrinder ==0.6
-benchpots ==0.1
+benchpots ==0.1.1
 pypots ==0.6
 ```
 
@@ -46,63 +46,4 @@ To obtain the results of the naive methods, check out the commands in the shell 
 
 
 ## ❖ Downstream Tasks
-
-
-### Classification
-
-```shell
-python downstream_classification.py \
-  --model SAITS \
-  --dataset PhysioNet2012 \
-  --dataset_fold_path data/physionet_2012_rate01_point \
-  --model_result_parent_fold results_point_rate01/SAITS_PhysioNet2012 \
-  --device cuda:0 \
-  --n_classes 2
-  
- python downstream_classification.py \
-  --model SAITS \
-  --dataset Pedestrian \
-  --dataset_fold_path data/melbourne_pedestrian_rate01_step24_point \
-  --model_result_parent_fold results_point_rate01/SAITS_Pedestrian \
-  --device cuda:2 \
-  --n_classes 10
-  
-python downstream_classification_naive.py \
-  --dataset_fold_path data/physionet_2012_rate01_point \
-  --dataset PhysioNet2012 \
-  --device cuda:3 \
-  --n_classes 2
-```
-
-### Regression
-
-```shell 
-python downstream_regression.py \
-  --model SAITS \
-  --dataset ETT_h1 \
-  --dataset_fold_path data/ett_rate01_step48_point \
-  --model_result_parent_fold results_point_rate01/SAITS_ETT_h1 \
-  --device cuda:0
-
-python downstream_regression_naive.py \
-  --dataset_fold_path data/ett_rate01_step48_point \
-  --dataset ETT_h1 \
-  --device cuda:3
-```
-
-
-### Forecasting
-
-```shell
-python downstream_forecasting.py \
-  --model SAITS \
-  --dataset ETT_h1 \
-  --dataset_fold_path data/ett_rate01_step48_point \
-  --model_result_parent_fold results_point_rate01/SAITS_ETT_h1 \
-  --device cuda:0
-
-python downstream_forecasting_naive.py \
-  --dataset_fold_path data/ett_rate01_step48_point \
-  --dataset ETT_h1 \
-  --device cuda:3
-```
+We're clean up the code and updating the scripts for the downstream tasks. Will release the code soon.
