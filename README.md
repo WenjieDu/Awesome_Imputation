@@ -48,8 +48,13 @@ researchers and practitioners who are interested in this field.
 
 ### `Year 2024`
 
+[KDD] **ImputeFormer: Low Rankness-Induced Transformers for Generalizable Spatiotemporal Imputation**
+[[paper](https://arxiv.org/abs/2312.01728)]
+[[official code](https://github.com/tongnie/ImputeFormer)]
+
 [ICML] **BayOTIDE: Bayesian Online Multivariate Time Series Imputation with Functional Decomposition**
 [[paper](https://arxiv.org/abs/2308.14906)]
+[[official code](https://github.com/xuangu-fang/BayOTIDE)]
 
 [ICLR] **Conditional Information Bottleneck Approach for Time Series Imputation**
 [[paper](https://openreview.net/pdf?id=K1mcPiDdOJ)]
@@ -225,7 +230,8 @@ researchers and practitioners who are interested in this field.
 [AI for Time Series (AI4TS) Papers, Tutorials, and Surveys](https://github.com/qingsongedu/awesome-AI-for-time-series-papers)
 
 ## ❖ Citing This Work
-If you find this repository helpful to your work, please kindly star it and cite our benchmark paper, survey paper, and PyPOTS as follows:
+If you find this repository and PyPOTS Ecosystem helpful to your work, 
+please kindly star it and cite our benchmark paper, survey paper, and PyPOTS as follows:
 
 ```bibtex
 @article{du2024tsibench,
