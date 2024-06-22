@@ -64,7 +64,7 @@ if __name__ == "__main__":
 
     step = 24
     pems_traffic = preprocess_pems_traffic(
-        file_path="/Users/wdu/Downloads/traffic.csv",
+        file_path="traffic.csv",
         rate=rate,
         n_steps=step,
         pattern=pattern,
