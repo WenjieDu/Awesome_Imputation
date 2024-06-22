@@ -46,4 +46,4 @@ To obtain the results of the naive methods, check out the commands in the shell 
 
 
 ## ❖ Downstream Tasks
-We're clean up the code and updating the scripts for the downstream tasks. Will release the code soon.
+We're cleaning up the code for the downstream tasks. Will release the scripts soon.
