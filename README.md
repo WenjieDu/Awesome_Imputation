@@ -46,7 +46,34 @@ The papers listed here may be not from top publications, some of them even are n
 but are all interesting papers related to time-series imputation that deserve reading to 
 researchers and practitioners who are interested in this field.
 
+### `Year 2025`
+[ICLR] **Optimal Transport for Time Series Imputation**
+[[paper](https://openreview.net/forum?id=xPTzjpIQNp)]
+
 ### `Year 2024`
+
+[TKDE] **Laplacian Convolutional Representation for Traffic Time Series Imputation**
+[[paper](https://ieeexplore.ieee.org/document/10574327)]
+[[official code](https://github.com/xinychen/LCR)]
+
+[CIKM] **MTSCI: A Conditional Diffusion Model for Multivariate Time Series Consistent Imputation**
+[[paper](https://dl.acm.org/doi/10.1145/3627673.3679532)]
+[[official code](https://github.com/JeremyChou28/MTSCI)]
+
+[CIKM] **Higher-order Spatio-temporal Physics-incorporated Graph Neural Network for Multivariate Time Series Imputation**
+[[paper](https://dl.acm.org/doi/pdf/10.1145/3627673.3679775)]
+[[official code](https://github.com/gorgen2020/HSPGNN)]
+
+[CIKM] **Causality-Aware Spatiotemporal Graph Neural Networks for Spatiotemporal Time Series Imputation**
+[[paper](https://arxiv.org/pdf/2403.11960)]
+
+[NeurIPS] **Frequency-aware Generative Models for Multivariate Time Series Imputation**
+[[paper](https://openreview.net/forum?id=UE6CeRMnq3)]
+[[official code](https://github.com/FGTI2024/FGTI24/tree/main)]
+
+[NeurIPS] **Task-oriented Time Series Imputation Evaluation via Generalized Representers**
+[[paper](https://openreview.net/forum?id=n2dvAKKQoM)]
+[[official code](https://github.com/hkuedl/Task-Oriented-Imputation)]
 
 [KDD] **ImputeFormer: Low Rankness-Induced Transformers for Generalizable Spatiotemporal Imputation**
 [[paper](https://arxiv.org/abs/2312.01728)]
