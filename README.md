@@ -46,11 +46,40 @@ The papers listed here may be not from top publications, some of them even are n
 but are all interesting papers related to time-series imputation that deserve reading to 
 researchers and practitioners who are interested in this field.
 
+###  `LLM-based`
+[Databank-Spektrum]**Imputation Strategies in Time Series Based on Language Models**
+[[paper](https://link.springer.com/article/10.1007/s13222-024-00488-z)]
+
+[ICML] **MOMENT: A Family of Open Time-series Foundation Models**
+[[paper](https://arxiv.org/pdf/2402.03885)]
+[[official code](https://github.com/moment-timeseries-foundation-model/moment)]
+
+[NeurIPS] **One Fits All: Power General Time Series Analysis by Pretrained LM**
+[[paper](https://arxiv.org/pdf/2302.11939)]
+[[official code](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All)]
+
+[NeurIPS TSALM Workshop] **Enhance Time Series Modeling by Integrating LLM**
+[[paper](https://openreview.net/forum?id=LN6KzMLKOJ&noteId=LN6KzMLKOJ)]
+[[official code](https://anonymous.4open.science/r/llm_ts_anonymous-F07D/utils/tools.py)]
+
+[arXiv] **NuwaTS: a Foundation Model Mending Every Incomplete Time Series**
+[[paper](https://arxiv.org/pdf/2405.15317)]
+[[official code](https://github.com/Chengyui/NuwaTS)]
+
+[arXiv] **GATGPT: A PRE-TRAINED LARGE LANGUAGE MODEL WITH GRAPH ATTENTION NETWORK FOR SPATIOTEMPORAL IMPUTATION**
+[[paper](https://arxiv.org/pdf/2311.14332)]
+
+
+
+
 ### `Year 2025`
 [ICLR] **Optimal Transport for Time Series Imputation**
 [[paper](https://openreview.net/forum?id=xPTzjpIQNp)]
 
+
+
 ### `Year 2024`
+
 
 [TKDE] **Laplacian Convolutional Representation for Traffic Time Series Imputation**
 [[paper](https://ieeexplore.ieee.org/document/10574327)]
@@ -75,13 +104,16 @@ researchers and practitioners who are interested in this field.
 [[paper](https://openreview.net/forum?id=n2dvAKKQoM)]
 [[official code](https://github.com/hkuedl/Task-Oriented-Imputation)]
 
+
 [KDD] **ImputeFormer: Low Rankness-Induced Transformers for Generalizable Spatiotemporal Imputation**
 [[paper](https://arxiv.org/abs/2312.01728)]
 [[official code](https://github.com/tongnie/ImputeFormer)]
 
+
 [ICML] **BayOTIDE: Bayesian Online Multivariate Time Series Imputation with Functional Decomposition**
 [[paper](https://arxiv.org/abs/2308.14906)]
 [[official code](https://github.com/xuangu-fang/BayOTIDE)]
+
 
 [ICLR] **Conditional Information Bottleneck Approach for Time Series Imputation**
 [[paper](https://openreview.net/pdf?id=K1mcPiDdOJ)]
@@ -97,6 +129,10 @@ researchers and practitioners who are interested in this field.
 [ICLR] **Multivariate Time-series Imputation with Disentangled Temporal Representations**
 [[paper](https://openreview.net/forum?id=rdjeCNUS6TG)]
 [[official code](https://github.com/liuwj2000/TIDER)]
+
+[ICLR] **TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis**
+[[paper](https://openreview.net/pdf?id=ju_Uqw384Oq)]
+[official code(https://github.com/thuml/TimesNet)]
 
 [ICDE] **PriSTI: A Conditional Diffusion Framework for Spatiotemporal Imputation**
 [[paper](https://arxiv.org/abs/2302.09746)]
