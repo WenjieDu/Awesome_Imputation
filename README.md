@@ -46,40 +46,21 @@ The papers listed here may be not from top publications, some of them even are n
 but are all interesting papers related to time-series imputation that deserve reading to 
 researchers and practitioners who are interested in this field.
 
-###  `LLM-based`
-[Databank-Spektrum]**Imputation Strategies in Time Series Based on Language Models**
-[[paper](https://link.springer.com/article/10.1007/s13222-024-00488-z)]
-
-[ICML] **MOMENT: A Family of Open Time-series Foundation Models**
-[[paper](https://arxiv.org/pdf/2402.03885)]
-[[official code](https://github.com/moment-timeseries-foundation-model/moment)]
-
-[NeurIPS] **One Fits All: Power General Time Series Analysis by Pretrained LM**
-[[paper](https://arxiv.org/pdf/2302.11939)]
-[[official code](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All)]
-
-[NeurIPS TSALM Workshop] **Enhance Time Series Modeling by Integrating LLM**
-[[paper](https://openreview.net/forum?id=LN6KzMLKOJ&noteId=LN6KzMLKOJ)]
-[[official code](https://anonymous.4open.science/r/llm_ts_anonymous-F07D/utils/tools.py)]
-
-[arXiv] **NuwaTS: a Foundation Model Mending Every Incomplete Time Series**
-[[paper](https://arxiv.org/pdf/2405.15317)]
-[[official code](https://github.com/Chengyui/NuwaTS)]
-
-[arXiv] **GATGPT: A PRE-TRAINED LARGE LANGUAGE MODEL WITH GRAPH ATTENTION NETWORK FOR SPATIOTEMPORAL IMPUTATION**
-[[paper](https://arxiv.org/pdf/2311.14332)]
-
-
-
 
 ### `Year 2025`
+[ICLR] **TimeMixer++: A General Time Series Pattern Machine for Universal Predictive Analysis**
+[[paper](https://openreview.net/forum?id=1CLzLXSFNn)]
+[[official code](https://anonymous.4open.science/r/TimeMixerPP-4F2A)]
+
 [ICLR] **Optimal Transport for Time Series Imputation**
 [[paper](https://openreview.net/forum?id=xPTzjpIQNp)]
 
 
-
 ### `Year 2024`
 
+[TMLR] **TOTEM: Tokenized Time Series Embeddings for General Time Series Analysis**
+[[paper](https://openreview.net/pdf?id=QlTLkH6xRC)]
+[[official code](https://github.com/SaberaTalukder/TOTEM)]
 
 [TKDE] **Laplacian Convolutional Representation for Traffic Time Series Imputation**
 [[paper](https://ieeexplore.ieee.org/document/10574327)]
@@ -100,31 +81,51 @@ researchers and practitioners who are interested in this field.
 [[paper](https://openreview.net/forum?id=UE6CeRMnq3)]
 [[official code](https://github.com/FGTI2024/FGTI24/tree/main)]
 
+[NeurIPS TSALM Workshop] **Enhance Time Series Modeling by Integrating LLM**
+[[paper](https://openreview.net/forum?id=LN6KzMLKOJ&noteId=LN6KzMLKOJ)]
+[[official code](https://anonymous.4open.science/r/llm_ts_anonymous-F07D/utils/tools.py)]
+
 [NeurIPS] **Task-oriented Time Series Imputation Evaluation via Generalized Representers**
 [[paper](https://openreview.net/forum?id=n2dvAKKQoM)]
 [[official code](https://github.com/hkuedl/Task-Oriented-Imputation)]
-
 
 [KDD] **ImputeFormer: Low Rankness-Induced Transformers for Generalizable Spatiotemporal Imputation**
 [[paper](https://arxiv.org/abs/2312.01728)]
 [[official code](https://github.com/tongnie/ImputeFormer)]
 
+[ICML] **MOMENT: A Family of Open Time-series Foundation Models**
+[[paper](https://proceedings.mlr.press/v235/goswami24a.html)]
+[[official code](https://github.com/moment-timeseries-foundation-model/moment)]
 
 [ICML] **BayOTIDE: Bayesian Online Multivariate Time Series Imputation with Functional Decomposition**
 [[paper](https://arxiv.org/abs/2308.14906)]
 [[official code](https://github.com/xuangu-fang/BayOTIDE)]
 
-
 [ICLR] **Conditional Information Bottleneck Approach for Time Series Imputation**
 [[paper](https://openreview.net/pdf?id=K1mcPiDdOJ)]
 [[official code](https://github.com/Chemgyu/TimeCIB)]
+
+[ICLR] **Diffusion-TS: Interpretable Diffusion for General Time Series Generation**
+[[paper](https://openreview.net/forum?id=4h1apFjO99)]
+[[official code](https://github.com/Y-debug-sys/Diffusion-TS)]
 
 [AISTATS] **SADI: Similarity-Aware Diffusion Model-Based Imputation for Incomplete Temporal EHR Data**
 [[paper](https://proceedings.mlr.press/v238/dai24c/dai24c.pdf)]
 [[official code](https://github.com/bestadcarry/SADI-Similarity-Aware-Diffusion-Model-Based-Imputation-for-Incomplete-Temporal-EHR-Data)]
 
+[arXiv] **NuwaTS: a Foundation Model Mending Every Incomplete Time Series**
+[[paper](https://arxiv.org/pdf/2405.15317)]
+[[official code](https://github.com/Chengyui/NuwaTS)]
+
+[Datenbank-Spektrum]**Imputation Strategies in Time Series Based on Language Models**
+[[paper](https://link.springer.com/article/10.1007/s13222-024-00488-z)]
+
 
 ### `Year 2023`
+
+[NeurIPS] **One Fits All: Power General Time Series Analysis by Pretrained LM**
+[[paper](https://openreview.net/forum?id=gMS6FVZvmF)]
+[[official code](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All)]
 
 [ICLR] **Multivariate Time-series Imputation with Disentangled Temporal Representations**
 [[paper](https://openreview.net/forum?id=rdjeCNUS6TG)]
@@ -293,8 +294,7 @@ researchers and practitioners who are interested in this field.
 [AI for Time Series (AI4TS) Papers, Tutorials, and Surveys](https://github.com/qingsongedu/awesome-AI-for-time-series-papers)
 
 ## ❖ Citing This Work
-If you find this repository and PyPOTS Ecosystem helpful to your work, 
-please kindly star it and cite our benchmark paper, survey paper, and PyPOTS as follows:
+#### 🤗 If you find this repository and PyPOTS Ecosystem helpful to your work, please kindly star it and cite our papers below:
 
 ```bibtex
 @article{du2024tsibench,
@@ -320,6 +320,20 @@ title={{PyPOTS: a Python toolbox for data mining on Partially-Observed Time Seri
 author={Wenjie Du},
 journal={arXiv preprint arXiv:2305.18811},
 year={2023},
+}
+```
+
+```bibtex
+@article{du2023saits,
+title = {{SAITS: Self-Attention-based Imputation for Time Series}},
+journal = {Expert Systems with Applications},
+volume = {219},
+pages = {119619},
+year = {2023},
+issn = {0957-4174},
+doi = {10.1016/j.eswa.2023.119619},
+url = {https://arxiv.org/abs/2202.08516},
+author = {Wenjie Du and David Cote and Yan Liu},
 }
 ```
 
