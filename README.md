@@ -97,9 +97,20 @@ researchers and practitioners who are interested in this field.
 [[paper](https://proceedings.mlr.press/v235/goswami24a.html)]
 [[official code](https://github.com/moment-timeseries-foundation-model/moment)]
 
+[ICML] **UP2ME: Univariate Pre-training to Multivariate Fine-tuning as a General-purpose Framework for Multivariate Time Series Analysis**
+[[paper](https://proceedings.mlr.press/v235/zhang24al.html)]
+[[official code](https://github.com/Thinklab-SJTU/UP2ME)]
+
+[ICML] **Timer: Generative Pre-trained Transformers Are Large Time Series Models**
+[[paper](https://proceedings.mlr.press/v235/liu24cb.html)]
+[[official code](https://github.com/thuml/Large-Time-Series-Model)]
+
 [ICML] **BayOTIDE: Bayesian Online Multivariate Time Series Imputation with Functional Decomposition**
-[[paper](https://arxiv.org/abs/2308.14906)]
+[[paper](https://proceedings.mlr.press/v235/fang24d.html)]
 [[official code](https://github.com/xuangu-fang/BayOTIDE)]
+
+[ICML] **Probabilistic Time Series Modeling with Decomposable Denoising Diffusion Model**
+[[paper](https://proceedings.mlr.press/v235/yan24b.html)]
 
 [ICLR] **Conditional Information Bottleneck Approach for Time Series Imputation**
 [[paper](https://openreview.net/pdf?id=K1mcPiDdOJ)]
