@@ -1,4 +1,4 @@
-name: pypots-ml
+name: ml
 channels:
   - pytorch
   - pyg
@@ -32,11 +32,11 @@ dependencies:
   - brotli-python=1.0.9=py310h6a678d5_7
   - bzip2=1.0.8=h5eee18b_5
   - c-ares=1.27.0=hd590300_0
-  - ca-certificates=2024.2.2=hbcca054_0
+  - ca-certificates=2025.2.25=h06a4308_0
   - cached-property=1.5.2=hd8ed1ab_1
   - cached_property=1.5.2=pyha770c72_1
   - cairo=1.18.0=h3faef2a_0
-  - certifi=2024.2.2=pyhd8ed1ab_0
+  - certifi=2025.1.31=py310h06a4308_0
   - cffi=1.16.0=py310h2fee648_0
   - cfgv=3.3.1=pyhd8ed1ab_0
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
@@ -118,14 +118,14 @@ dependencies:
   - jsonschema-specifications=2023.12.1=pyhd8ed1ab_0
   - jsonschema-with-format-nongpl=4.21.1=pyhd8ed1ab_0
   - jupyter-lsp=2.2.4=pyhd8ed1ab_0
-  - jupyter_client=8.6.0=pyhd8ed1ab_0
-  - jupyter_core=5.7.1=py310hff52083_0
+  - jupyter_client=8.6.2=pyhd8ed1ab_0
+  - jupyter_core=5.7.2=py310hff52083_0
   - jupyter_events=0.9.0=pyhd8ed1ab_0
-  - jupyter_server=2.13.0=pyhd8ed1ab_0
+  - jupyter_server=2.14.1=pyhd8ed1ab_1
   - jupyter_server_terminals=0.5.2=pyhd8ed1ab_0
-  - jupyterlab=4.1.4=pyhd8ed1ab_0
+  - jupyterlab=4.2.3=pyhd8ed1ab_0
   - jupyterlab_pygments=0.3.0=pyhd8ed1ab_1
-  - jupyterlab_server=2.25.4=pyhd8ed1ab_0
+  - jupyterlab_server=2.27.2=pyhd8ed1ab_0
   - keyutils=1.6.1=h166bdaf_0
   - kiwisolver=1.4.5=py310hd41b1e2_1
   - krb5=1.21.2=h659d440_0
@@ -181,6 +181,7 @@ dependencies:
   - libpng=1.6.43=h2797004_0
   - libpq=16.2=h33b98f1_0
   - libprotobuf=4.25.3=h08a7969_0
+  - libpython-static=3.10.14=h59595ed_0_cpython
   - libre2-11=2023.09.01=h5a48ba9_2
   - libsndfile=1.2.2=hc60ed4a_1
   - libsodium=1.0.18=h36c2ea0_1
@@ -197,6 +198,7 @@ dependencies:
   - libxkbcommon=1.6.0=hd429924_1
   - libxml2=2.12.5=h232c23b_0
   - libzlib=1.2.13=hd590300_5
+  - lightgbm=4.3.0=py310h6a678d5_0
   - llvm-openmp=14.0.6=h9e868ea_0
   - lz4-c=1.9.4=hcb278e6_0
   - markdown=3.5.2=pyhd8ed1ab_0
@@ -228,10 +230,9 @@ dependencies:
   - nss=3.98=h1d7d5a4_0
   - numpy=1.26.4=py310hb13e2d6_0
   - openjpeg=2.5.2=h488ebb8_0
-  - openssl=3.2.1=hd590300_0
+  - openssl=3.3.1=h4ab18f5_1
   - overrides=7.7.0=pyhd8ed1ab_0
   - packaging=24.0=pyhd8ed1ab_0
-  - pandas=2.2.1=py310hcc13569_0
   - pandocfilters=1.5.0=pyhd8ed1ab_0
   - parso=0.8.3=pyhd8ed1ab_0
   - pathspec=0.12.1=pyhd8ed1ab_0
@@ -259,7 +260,7 @@ dependencies:
   - pycodestyle=2.11.1=pyhd8ed1ab_0
   - pycparser=2.21=pyhd8ed1ab_0
   - pyflakes=3.2.0=pyhd8ed1ab_0
-  - pyg=2.5.0=py310_torch_2.2.0_cu121
+  - pyg=2.5.2=py310_torch_2.2.0_cu121
   - pygments=2.17.2=pyhd8ed1ab_0
   - pyparsing=3.1.2=pyhd8ed1ab_0
   - pyqt=5.15.9=py310h04931ad_5
@@ -268,7 +269,7 @@ dependencies:
   - pytest=8.1.1=pyhd8ed1ab_0
   - pytest-cov=4.1.0=pyhd8ed1ab_0
   - pytest-xdist=3.5.0=pyhd8ed1ab_0
-  - python=3.10.13=hd12c33a_1_cpython
+  - python=3.10.13=hd12c33a_0_cpython
   - python-dateutil=2.9.0=pyhd8ed1ab_0
   - python-fastjsonschema=2.19.1=pyhd8ed1ab_0
   - python-json-logger=2.0.7=pyhd8ed1ab_0
@@ -280,6 +281,7 @@ dependencies:
   - pytorch-scatter=2.1.2=py310_torch_2.2.0_cu121
   - pytorch-sparse=0.6.18=py310_torch_2.2.0_cu121
   - pytz=2024.1=pyhd8ed1ab_0
+  - pywavelets=1.6.0=py310h261611a_0
   - pyyaml=6.0.1=py310h5eee18b_0
   - pyzmq=25.1.2=py310h795f18f_0
   - qt-main=5.15.8=h5810be5_19
@@ -367,25 +369,70 @@ dependencies:
   - zlib=1.2.13=hd590300_5
   - zstd=1.5.5=hfc55251_0
   - pip:
+      - accelerate==0.28.0
+      - ai4ts==0.0.3
       - astor==0.8.1
-      - benchpots==0.1
+      - axial-positional-embedding==0.2.1
+      - benchpots==0.3.2
       - cloudpickle==3.0.0
+      - colt5-attention==0.11.0
+      - commentjson==0.9.0
       - contextlib2==21.6.0
+      - coveralls==4.0.1
+      - dill==0.3.8
+      - docopt==0.6.2
       - einops==0.8.0
+      - emd-signal==1.6.0
+      - et-xmlfile==1.1.0
       - filelock==3.11.0
+      - gguf==0.9.1
+      - huggingface-hub==0.23.4
       - json-tricks==3.17.3
+      - lark-parser==0.7.8
+      - llvmlite==0.43.0
+      - local-attention==1.9.1
+      - lxml==5.2.2
+      - mamba-ssm==2.1.0
+      - multiprocess==0.70.16
+      - ninja==1.11.1.1
       - nni==2.10.1
+      - nuitka==2.6.7
+      - numba==0.60.0
       - nvidia-ml-py==12.535.133
+      - openpyxl==3.1.4
+      - ordered-set==4.1.0
+      - pandas==1.5.3
+      - pandas-datareader==0.10.0
+      - pathos==0.3.2
+      - patsy==0.5.6
+      - pox==0.3.4
+      - ppft==1.7.6.8
       - prettytable==3.10.0
+      - product-key-memory==0.2.10
       - pyarrow==15.0.1
-      - pygrinder==0.6
-      - pypots==0.6
+      - pygrinder==0.7
+      - pypots==0.13
       - pythonwebhdfs==0.2.3
+      - reformer-pytorch==1.4.4
+      - regex==2024.5.15
       - responses==0.25.0
+      - safetensors==0.4.3
       - schema==0.7.5
+      - scikit-base==0.8.1
+      - seaborn==0.13.2
+      - sentencepiece==0.2.0
+      - simdkalman==1.0.4
       - simplejson==3.19.2
+      - sktime==0.30.1
       - sphinxcontrib-gtagjs==0.2.1
-      - tsdb==0.4
+      - statsmodels==0.14.2
+      - stumpy==1.13.0
+      - tokenizers==0.13.3
+      - transformers==4.31.0
+      - tsdb==0.7.1
+      - tsfresh==0.20.2
+      - tsmoothie==1.0.5
       - typeguard==2.13.3
       - websockets==12.0
       - xgboost==2.0.3
+      - zstandard==0.23.0

@@ -6,13 +6,6 @@ the first comprehensive benchmark for time series imputation.
 A proper Python environment is necessary to reproduce the results. 
 Please ensure that all the below library requirements are satisfied.
 
-```yaml
-tsdb ==0.4
-pygrinder ==0.6
-benchpots ==0.1.1
-pypots ==0.6
-```
-
 For Linux OS, it is able to create the environment with Conda by running `conda create -f conda_env.yml`.
 For other OS, library version requirements can also be checked out in `conda_env.yml`.
 
@@ -29,7 +22,7 @@ For example, to reproduce the results of SAITS on the dataset Pedestrian, please
 nohup python train_model.py \
   --model SAITS \
   --dataset Pedestrian \
-  --dataset_fold_path data/melbourne_pedestrian_rate01_step24_point \
+  --dataset_fold_path data/generated_datasets/melbourne_pedestrian_rate01_step24_point \
   --saving_path results_point_rate01 \
   --device cuda:2 \
   > results_point_rate01/SAITS_pedestrian.log &
