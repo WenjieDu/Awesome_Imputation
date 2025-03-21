@@ -17,7 +17,7 @@ The README file here maintains a list of must-read papers on time-series imputat
 
 ## ❖ Time-Series Imputation Toolkits
 ### `Datasets`
-[TSDB (Time Series Data Beans)](https://github.com/WenjieDu/TSDB): a Python toolkit can load 170 public time-series datasets with a single line of code.
+[TSDB (Time Series Data Beans)](https://github.com/WenjieDu/TSDB): a Python toolkit loads 172 public time-series datasets with a single line of code.
 <img src="https://img.shields.io/github/last-commit/WenjieDu/TSDB" align="center">
 
 [BenchPOTS](https://github.com/WenjieDu/BenchPOTS): a Python suite provides standard preprocessing pipelines of 170 public datasets for benchmarking machine learning on POTS (Partially-Observed Time Series).
@@ -28,7 +28,7 @@ The README file here maintains a list of must-read papers on time-series imputat
 <img src="https://img.shields.io/github/last-commit/WenjieDu/PyGrinder" align="center">
 
 ### `Algorithms`
-[PyPOTS](https://github.com/WenjieDu/PyPOTS): a Python toolbox for data mining on POTS (Partially-Observed Time Series)
+[PyPOTS](https://github.com/WenjieDu/PyPOTS): a Python toolbox for machine learning on POTS (Partially-Observed Time Series)
 <img src="https://img.shields.io/github/last-commit/WenjieDu/PyPOTS" align="center">
 
 [MICE](https://github.com/amices/mice): Multivariate Imputation by Chained Equations
