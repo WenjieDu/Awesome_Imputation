@@ -48,6 +48,9 @@ researchers and practitioners who are interested in this field.
 
 
 ### `Year 2025`
+[IJCAI] **Deep Learning for Multivariate Time Series Imputation: A Survey**
+[[paper](https://arxiv.org/pdf/2402.04059)]
+
 [ICLR] **TimeMixer++: A General Time Series Pattern Machine for Universal Predictive Analysis**
 [[paper](https://openreview.net/forum?id=1CLzLXSFNn)]
 [[official code](https://anonymous.4open.science/r/TimeMixerPP-4F2A)]
@@ -317,11 +320,11 @@ year={2024}
 ```
 
 ```bibtex
-@article{wang2024deep,
+@article{wang2025survey,
 title={Deep Learning for Multivariate Time Series Imputation: A Survey},
-author={Jun Wang and Wenjie Du and Wei Cao and Keli Zhang and Wenjia Wang and Yuxuan Liang and Qingsong Wen},
-journal={arXiv preprint arXiv:2402.04059},
-year={2024}
+author={Jun Wang and Wenjie Du and Yiyuan Yang and Linglong Qian and Wei Cao and Keli Zhang and Wenjia Wang and Yuxuan Liang and Qingsong Wen},
+booktitle = {Proceedings of the 34th International Joint Conference on Artificial Intelligence (IJCAI)},
+year={2025}
 }
 ```
 
