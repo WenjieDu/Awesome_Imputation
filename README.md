@@ -46,6 +46,8 @@ The papers listed here may be not from top publications, some of them even are n
 but are all interesting papers related to time-series imputation that deserve reading to 
 researchers and practitioners who are interested in this field.
 
+Paper link and official code link are provided if available.
+Logo <img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="26px" align="center"/> indicates that if the model has been validated and integrated into [PyPOTS](https://github.com/WenjieDu/PyPOTS) for easy usage.
 
 ### `Year 2025`
 [IJCAI] **Deep Learning for Multivariate Time Series Imputation: A Survey**
@@ -53,10 +55,12 @@ researchers and practitioners who are interested in this field.
 
 [ICLR] **TimeMixer++: A General Time Series Pattern Machine for Universal Predictive Analysis**
 [[paper](https://openreview.net/forum?id=1CLzLXSFNn)]
-[[official code](https://anonymous.4open.science/r/TimeMixerPP-4F2A)]
+[[~~official code~~](https://anonymous.4open.science/r/TimeMixerPP-4F2A) (expired)]
+[<img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="26px" align="center"/>](https://github.com/WenjieDu/PyPOTS?tab=readme-ov-file#-available-algorithms)
 
 [ICLR] **Optimal Transport for Time Series Imputation**
 [[paper](https://openreview.net/forum?id=xPTzjpIQNp)]
+[[official code](https://github.com/FMLYD/PSW-I)]
 
 
 ### `Year 2024`
@@ -64,6 +68,7 @@ researchers and practitioners who are interested in this field.
 [TMLR] **TOTEM: Tokenized Time Series Embeddings for General Time Series Analysis**
 [[paper](https://openreview.net/pdf?id=QlTLkH6xRC)]
 [[official code](https://github.com/SaberaTalukder/TOTEM)]
+[<img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="26px" align="center"/>](https://github.com/WenjieDu/PyPOTS?tab=readme-ov-file#-available-algorithms)
 
 [TKDE] **Laplacian Convolutional Representation for Traffic Time Series Imputation**
 [[paper](https://ieeexplore.ieee.org/document/10574327)]
@@ -95,10 +100,12 @@ researchers and practitioners who are interested in this field.
 [KDD] **ImputeFormer: Low Rankness-Induced Transformers for Generalizable Spatiotemporal Imputation**
 [[paper](https://arxiv.org/abs/2312.01728)]
 [[official code](https://github.com/tongnie/ImputeFormer)]
+[<img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="26px" align="center"/>](https://github.com/WenjieDu/PyPOTS?tab=readme-ov-file#-available-algorithms)
 
 [ICML] **MOMENT: A Family of Open Time-series Foundation Models**
 [[paper](https://proceedings.mlr.press/v235/goswami24a.html)]
 [[official code](https://github.com/moment-timeseries-foundation-model/moment)]
+[<img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="26px" align="center"/>](https://github.com/WenjieDu/PyPOTS?tab=readme-ov-file#-available-algorithms)
 
 [ICML] **UP2ME: Univariate Pre-training to Multivariate Fine-tuning as a General-purpose Framework for Multivariate Time Series Analysis**
 [[paper](https://proceedings.mlr.press/v235/zhang24al.html)]
@@ -137,6 +144,11 @@ researchers and practitioners who are interested in this field.
 
 ### `Year 2023`
 
+[ESWA] **SAITS: Self-Attention-based Imputation for Time Series**
+[[paper](https://arxiv.org/abs/2202.08516)]
+[[official code](https://github.com/WenjieDu/SAITS)]
+[<img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="26px" align="center"/>](https://github.com/WenjieDu/PyPOTS?tab=readme-ov-file#-available-algorithms)
+
 [NeurIPS] **One Fits All: Power General Time Series Analysis by Pretrained LM**
 [[paper](https://openreview.net/forum?id=gMS6FVZvmF)]
 [[official code](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All)]
@@ -147,15 +159,12 @@ researchers and practitioners who are interested in this field.
 
 [ICLR] **TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis**
 [[paper](https://openreview.net/pdf?id=ju_Uqw384Oq)]
-[official code(https://github.com/thuml/TimesNet)]
+[[official code](https://github.com/thuml/TimesNet)]
+[<img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="26px" align="center"/>](https://github.com/WenjieDu/PyPOTS?tab=readme-ov-file#-available-algorithms)
 
 [ICDE] **PriSTI: A Conditional Diffusion Framework for Spatiotemporal Imputation**
 [[paper](https://arxiv.org/abs/2302.09746)]
 [[official code](https://github.com/LMZZML/PriSTI)]
-
-[ESWA] **SAITS: Self-Attention-based Imputation for Time Series**
-[[paper](https://arxiv.org/abs/2202.08516)]
-[[official code](https://github.com/WenjieDu/SAITS)]
 
 [TMLR] **Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models**
 [[paper](https://openreview.net/forum?id=hHiIbk7ApW)]
@@ -221,6 +230,7 @@ researchers and practitioners who are interested in this field.
 [NeurIPS] **CSDI: Conditional Score-based Diffusion Models for Probabilistic Time Series Imputation**
 [[paper](https://openreview.net/forum?id=VzuIzbRDrum)]
 [[official code](https://github.com/ermongroup/CSDI)]
+[<img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="26px" align="center"/>](https://github.com/WenjieDu/PyPOTS?tab=readme-ov-file#-available-algorithms)
 
 [AAAI] **Generative Semi-supervised Learning for Multivariate Time Series Imputation**
 [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17086)]
@@ -237,6 +247,7 @@ researchers and practitioners who are interested in this field.
 [AISTATS] **GP-VAE: Deep Probabilistic Time Series Imputation**
 [[paper](https://arxiv.org/abs/1907.04155)]
 [[official code](https://github.com/ratschlab/GP-VAE)]
+[<img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="26px" align="center"/>](https://github.com/WenjieDu/PyPOTS?tab=readme-ov-file#-available-algorithms)
 
 [CVPR] **Imitative Non-Autoregressive Modeling for Trajectory Forecasting and Imputation**
 [[paper](https://openaccess.thecvf.com/content_CVPR_2020/html/Qi_Imitative_Non-Autoregressive_Modeling_for_Trajectory_Forecasting_and_Imputation_CVPR_2020_paper.html)]
@@ -268,10 +279,12 @@ researchers and practitioners who are interested in this field.
 [NeurIPS] **BRITS: Bidirectional Recurrent Imputation for Time Series**
 [[paper](https://arxiv.org/abs/1805.10572)]
 [[official code](https://github.com/caow13/BRITS)]
+[<img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="26px" align="center"/>](https://github.com/WenjieDu/PyPOTS?tab=readme-ov-file#-available-algorithms)
 
 [Scientific Reports] **Recurrent Neural Networks for Multivariate Time Series with Missing Values**
 [[paper](https://www.nature.com/articles/s41598-018-24271-9)]
 [[official code](https://github.com/PeterChe1990/GRU-D)]
+[<img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="26px" align="center"/>](https://github.com/WenjieDu/PyPOTS?tab=readme-ov-file#-available-algorithms)
 
 [NeurIPS] **Multivariate Time Series Imputation with Generative Adversarial Networks**
 [[paper](https://papers.nips.cc/paper_files/paper/2018/hash/96b9bff013acedfb1d140579e2fbeb63-Abstract.html)]
@@ -283,7 +296,7 @@ researchers and practitioners who are interested in this field.
 [IEEE Transactions on Biomedical Engineering] **Estimating Missing Data in Temporal Data Streams Using Multi-Directional Recurrent Neural Networks**
 [[paper](https://arxiv.org/abs/1711.08742)]
 [[official code](https://github.com/jsyoon0823/MRNN)]
-
+[<img src="https://pypots.com/figs/pypots_logos/PyPOTS/logo_FFBG.svg" width="26px" align="center"/>](https://github.com/WenjieDu/PyPOTS?tab=readme-ov-file#-available-algorithms)
 
 ### `Year 2016`
 
@@ -330,9 +343,9 @@ year={2025}
 
 ```bibtex
 @article{du2023pypots,
-title={{PyPOTS: a Python toolbox for data mining on Partially-Observed Time Series}},
+title={{PyPOTS: A Python Toolkit for Data Mining on Partially-Observed Time Series}},
 author={Wenjie Du},
-journal={arXiv preprint arXiv:2305.18811},
+journal={KDD 2023 MiLeTS},
 year={2023},
 }
 ```
